@@ -1,0 +1,23 @@
+{
+    "matches": {
+        "/tmp/vanessa/spack-stage/spack-stage-busybox-1.31.0-7av4ostsduiqb7gi2ypogij32oq5ai7q/spack-src/scripts/kconfig/kconfig_load.c": "#include <dlfcn.h>\n#include <stdio.h>\n#include <stdlib.h>\n\n#include \"lkc.h\"\n\n#define P(name,type,arg)\ttype (*name ## _p) arg\n#include \"lkc_proto.h\"\n#undef P\n\nvoid kconfig_load(void)\n{\n\tvoid *handle;\n\tchar *error;\n\n\thandle = dlopen(\"./libkconfig.so\", RTLD_LAZY);\n\tif (!handle) {\n\t\thandle = dlopen(\"./scripts/kconfig/libkconfig.so\", RTLD_LAZY);\n\t\tif (!handle) {\n\t\t\tfprintf(stderr, \"%s\\n\", dlerror());\n\t\t\texit(1);\n\t\t}\n\t}\n\n#define P(name,type,arg)\t\t\t\\\n{\t\t\t\t\t\t\\\n\tname ## _p = dlsym(handle, #name);\t\\\n\tif ((error = dlerror()))  {\t\t\\\n\t\tfprintf(stderr, \"%s\\n\", error);\t\\\n\t\texit(1);\t\t\t\\\n\t}\t\t\t\t\t\\\n}\n#include \"lkc_proto.h\"\n#undef P\n}\n"
+    },
+    "skipped": [
+        "/tmp/vanessa/spack-stage/spack-stage-busybox-1.31.0-7av4ostsduiqb7gi2ypogij32oq5ai7q/spack-src/modutils/modutils-24.c",
+        "/tmp/vanessa/spack-stage/spack-stage-busybox-1.31.0-7av4ostsduiqb7gi2ypogij32oq5ai7q/spack-src/examples/var_service/getty_tty1/alt08x16+unimap.fnt",
+        "/tmp/vanessa/spack-stage/spack-stage-busybox-1.31.0-7av4ostsduiqb7gi2ypogij32oq5ai7q/spack-src/docs/unicode_UTF-8-test.txt",
+        "/tmp/vanessa/spack-stage/spack-stage-busybox-1.31.0-7av4ostsduiqb7gi2ypogij32oq5ai7q/spack-src/docs/unicode_full-bmp.txt",
+        "/tmp/vanessa/spack-stage/spack-stage-busybox-1.31.0-7av4ostsduiqb7gi2ypogij32oq5ai7q/spack-src/testsuite/awk_t1.tar.bz2",
+        "/tmp/vanessa/spack-stage/spack-stage-busybox-1.31.0-7av4ostsduiqb7gi2ypogij32oq5ai7q/spack-src/testsuite/unzip_bad_lzma_1.zip",
+        "/tmp/vanessa/spack-stage/spack-stage-busybox-1.31.0-7av4ostsduiqb7gi2ypogij32oq5ai7q/spack-src/testsuite/bz2_issue_12.bz2",
+        "/tmp/vanessa/spack-stage/spack-stage-busybox-1.31.0-7av4ostsduiqb7gi2ypogij32oq5ai7q/spack-src/testsuite/ls.mk_uni_tests",
+        "/tmp/vanessa/spack-stage/spack-stage-busybox-1.31.0-7av4ostsduiqb7gi2ypogij32oq5ai7q/spack-src/testsuite/tar.utf8.tar.bz2",
+        "/tmp/vanessa/spack-stage/spack-stage-busybox-1.31.0-7av4ostsduiqb7gi2ypogij32oq5ai7q/spack-src/testsuite/unlzma_issue_1.lzma",
+        "/tmp/vanessa/spack-stage/spack-stage-busybox-1.31.0-7av4ostsduiqb7gi2ypogij32oq5ai7q/spack-src/testsuite/bz2_issue_11.bz2",
+        "/tmp/vanessa/spack-stage/spack-stage-busybox-1.31.0-7av4ostsduiqb7gi2ypogij32oq5ai7q/spack-src/testsuite/unlzma_issue_2.lzma",
+        "/tmp/vanessa/spack-stage/spack-stage-busybox-1.31.0-7av4ostsduiqb7gi2ypogij32oq5ai7q/spack-src/testsuite/unzip_bad_lzma_2.zip",
+        "/tmp/vanessa/spack-stage/spack-stage-busybox-1.31.0-7av4ostsduiqb7gi2ypogij32oq5ai7q/spack-src/shell/ash_test/ash-quoting/dollar_squote_bash2.tests",
+        "/tmp/vanessa/spack-stage/spack-stage-busybox-1.31.0-7av4ostsduiqb7gi2ypogij32oq5ai7q/spack-src/shell/ash_test/ash-quoting/dollar_squote_bash2.right"
+    ],
+    "total_files": 2340
+}

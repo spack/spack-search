@@ -279,6 +279,7 @@ def main():
 
     # Get metadata for each
     metadata = [spack.repo.get(name) for name in packages]
+    sys.exit(0)
 
     # Prepare workers to extract!
     workers = ExtractionWorkers()
