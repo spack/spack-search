@@ -206,6 +206,7 @@ def download_package(**kwargs):
 
     # omit this contextmanager and call pkg.stage.destroy() manually if you
     # don't want the stage automatically destroyed.
+    # this is from https://gist.github.com/tgamblin/11b6279efa0e49cc0572f23c5bf163ef
     with pkg.stage:
 
         # this fetches (if not fetched already) and expands the source into a
