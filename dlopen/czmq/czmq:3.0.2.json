@@ -1,0 +1,11 @@
+{
+    "matches": {
+        "/tmp/vanessa/spack-stage/spack-stage-czmq-3.0.2-pjua22geqhux2x7nwyjtu3dqg5hcirkn/spack-src/src/Makemodule-local.am": "# Project-local changes to auto-generated content\n\n# Android-qt requires this special link dependency\nif ON_ANDROID\nsrc_libczmq_la_LIBADD += -llog\nendif\n\ncheck-py: src/libczmq.la\n\t$(LIBTOOL) --mode=execute -dlopen src/libczmq.la python bindings/python/test.py\n"
+    },
+    "skipped": [
+        "/tmp/vanessa/spack-stage/spack-stage-czmq-3.0.2-pjua22geqhux2x7nwyjtu3dqg5hcirkn/spack-src/images/README_1.png",
+        "/tmp/vanessa/spack-stage/spack-stage-czmq-3.0.2-pjua22geqhux2x7nwyjtu3dqg5hcirkn/spack-src/src/foreign/sha1/sha1.o",
+        "/tmp/vanessa/spack-stage/spack-stage-czmq-3.0.2-pjua22geqhux2x7nwyjtu3dqg5hcirkn/spack-src/builds/msvc/czmq.rc"
+    ],
+    "total_files": 386
+}
