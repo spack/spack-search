@@ -1,4 +1,4 @@
-# Search Spack
+# Spack Search
 
 ![img/spack-search.png](img/spack-search.png)
 
@@ -6,7 +6,9 @@ This is a small, fun project to look over spack for a query string of interest, 
 example, the dlopen library. If you are interested in parsing spack packages source
 code to look for content, you might find this tool useful. It's currently just a single 
 script, [search_spack.py](search_spack.py), and you are invited to [open an issue](https://github.com/spack/spack-search)
-or pull request to expand on that.
+or pull request to expand on that. Note that this is not related to `spack find`,
+which you might be looking for instead of this repository. You can see documentation
+for spack find [here](https://spack.readthedocs.io/en/latest/command_index.html#spack-find).
 
 ## Usage
 

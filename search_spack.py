@@ -27,7 +27,7 @@ import time
 from spack.spec import Spec
 
 
-## Workers
+## Workers (not currently in use)
 
 
 class ExtractionWorkers:
@@ -107,9 +107,9 @@ class ExtractionWorkers:
             pool.terminate()
             sys.exit(1)
 
-        #        except:
-        #
-        #            sys.exit("Error running task.")
+        # If the workers throw an error, comment this to see it
+        except:
+            sys.exit("Error running task.")
 
         return finished
 
@@ -235,7 +235,7 @@ def download_package(**kwargs):
             if re.search(query, text):
                 matches[filename] = text
 
-    # Save regardless, so we don't run again
+    # Save only if there are matches
     if matches:
         print("Found %s matches for %s" % (len(matches), key))
         write_json(
