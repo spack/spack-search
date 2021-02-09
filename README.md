@@ -37,6 +37,8 @@ And run the script, providing the query string (first) and the output directory 
 $ spack python search_spack.py dlopen ./dlopen
 ```
 
+⚠️ *Important: As you are running this, the `var/spack/cache` is going to fill up. Likely you want to clear it if you are running out of disk space.* ⚠️
+
 ## What do we save?
 
 Since there aren't many hits (at least for dlopen) it's easy enough to do one search
