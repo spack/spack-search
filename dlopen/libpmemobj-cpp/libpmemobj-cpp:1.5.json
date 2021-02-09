@@ -1,0 +1,7 @@
+{
+    "matches": {
+        "/tmp/vanessa/spack-stage/spack-stage-libpmemobj-cpp-1.5-tzyq4uh7dusc4oa3gle6smzcmbhfugwh/spack-src/tests/ld.supp": "{\n   <insert_a_suppression_name_here>\n   Memcheck:Cond\n   fun:index\n   fun:expand_dynamic_string_token\n   fun:_dl_map_object\n   fun:map_doit\n   fun:_dl_catch_error\n   fun:do_preload\n   fun:dl_main\n   fun:_dl_sysdep_start\n   fun:_dl_start\n   obj:/lib/x86_64-linux-gnu/ld-2.*.so\n   obj:*\n   obj:*\n}\n{\n   <insert_a_suppression_name_here>\n   Memcheck:Cond\n   fun:index\n   fun:expand_dynamic_string_token\n   fun:_dl_map_object\n   fun:map_doit\n   fun:_dl_catch_error\n   fun:do_preload\n   fun:handle_ld_preload\n   fun:dl_main\n   fun:_dl_sysdep_start\n   fun:_dl_start\n   obj:/lib/x86_64-linux-gnu/ld-2.*.so\n   obj:*\n}\n{\n   <Leak in dlopen, pmem/issues#858>\n   Memcheck:Leak\n   ...\n   fun:_dl_init\n   fun:dl_open_worker\n   fun:_dl_catch_error\n   ...\n}\n"
+    },
+    "skipped": [],
+    "total_files": 226
+}

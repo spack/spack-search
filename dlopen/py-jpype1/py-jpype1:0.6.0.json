@@ -1,0 +1,34 @@
+{
+    "matches": {
+        "/tmp/vanessa/spack-stage/spack-stage-py-jpype1-0.6.0-5omnplkgwi2xclnyh7ucl7tydhnberb4/spack-src/native/common/include/jp_platform_linux.h": "/*****************************************************************************\n   Copyright 2004-2008 Steve Menard\n\n   Licensed under the Apache License, Version 2.0 (the \"License\");\n   you may not use this file except in compliance with the License.\n   You may obtain a copy of the License at\n\n       http://www.apache.org/licenses/LICENSE-2.0\n\n   Unless required by applicable law or agreed to in writing, software\n   distributed under the License is distributed on an \"AS IS\" BASIS,\n   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\n   See the License for the specific language governing permissions and\n   limitations under the License.\n   \n*****************************************************************************/   \n#ifndef _PLATFORM_LINUX_H_\n#define _PLATFORM_LINUX_H_\n//AT's comments on porting:\n// this file should be better called jp_platform_unix.h\n#if defined(_HPUX) && !defined(_IA64)\n#include <dl.h>\n#else\n#include <dlfcn.h>\n#endif // HPUX\n\nclass LinuxPlatformAdapter : public JPPlatformAdapter\n{\nprivate :\n\tvoid* jvmLibrary;\n\npublic :\n\tvirtual void loadLibrary(const char* path)\n\t{\n#if defined(_HPUX) && !defined(_IA64)\n\t\tjvmLibrary = shl_load(path, BIND_DEFERRED|BIND_VERBOSE, 0L);\n#else\n\t\tjvmLibrary = dlopen(path, RTLD_LAZY|RTLD_GLOBAL);\n#endif // HPUX\n\n\t\tif (jvmLibrary == NULL)\n\t\t{\n\t\t\tstd::stringstream msg;\n\t\t\tmsg << \"Unable to load DLL [\" << path << \"], error = \" << dlerror();\n\t\t\tRAISE(JPypeException, msg.str().c_str());\n\t\t}\n\t}\n\n\tvirtual void unloadLibrary() {\n\t\tint r = dlclose(jvmLibrary);\n\t\tif (r != 0) // error\n\t\t{\n\t\t\tcerr << dlerror() << endl;\n\t\t}\n\t}\n\n\tvirtual void* getSymbol(const char* name)\n\t{\n\t\tvoid* res = dlsym(jvmLibrary, name);\n\t\tif (res == NULL)\n\t\t{\n\t\t\tstd::stringstream msg;\n\t\t\tmsg << \"Unable to load symbol [\" << name << \"], error = \" << dlerror();\n\t\t\tRAISE(JPypeException, msg.str().c_str());\n\t\t}\n\t\treturn res;\n\t}\n};\n\n#endif // _PLATFORM_LINUX_H_\n",
+        "/tmp/vanessa/spack-stage/spack-stage-py-jpype1-0.6.0-5omnplkgwi2xclnyh7ucl7tydhnberb4/spack-src/examples/linux/README.TXT": "The 2 scripts in this derectory are here to resolve a weakness in the linux implementation.\n\nSince the JVM is loaded dynamically, the LD_LIBRARY_PATH may not contain the proper directories. \n\nUnfortunately, dlopen() will ignore any changes made to the LD_LIBRARY_PATH in the current process.\n\nThe jpype.sh is meant as an example for people redistributing apps using jpype. Instead of having \nusers launch python script.py directly, have then launch script.sh. The companion finjvm.py can be \ndelivered along your app, but is also present in the ptyhon distribution of jpype.\n\nDeveloppers are encouraged to make their lives simpler by adding the correct directories to their \nLD_LIBRARY_PATH directly.\n\nTo learn more about the dlopen problem, you can look at :\n\nhttp://forum.java.sun.com/thread.jsp?forum=52&thread=303583&message=1210441\n\nand\n\nhttp://www.nathanr.net/diary/index.php?year=2004&month=05\n"
+    },
+    "skipped": [
+        "/tmp/vanessa/spack-stage/spack-stage-py-jpype1-0.6.0-5omnplkgwi2xclnyh7ucl7tydhnberb4/spack-src/native/common/jp_classbase.cpp",
+        "/tmp/vanessa/spack-stage/spack-stage-py-jpype1-0.6.0-5omnplkgwi2xclnyh7ucl7tydhnberb4/spack-src/native/common/jp_platform_win32.cpp",
+        "/tmp/vanessa/spack-stage/spack-stage-py-jpype1-0.6.0-5omnplkgwi2xclnyh7ucl7tydhnberb4/spack-src/native/common/jp_platform_linux.cpp",
+        "/tmp/vanessa/spack-stage/spack-stage-py-jpype1-0.6.0-5omnplkgwi2xclnyh7ucl7tydhnberb4/spack-src/native/common/jp_voidtype.cpp",
+        "/tmp/vanessa/spack-stage/spack-stage-py-jpype1-0.6.0-5omnplkgwi2xclnyh7ucl7tydhnberb4/spack-src/native/common/jp_monitor.cpp",
+        "/tmp/vanessa/spack-stage/spack-stage-py-jpype1-0.6.0-5omnplkgwi2xclnyh7ucl7tydhnberb4/spack-src/native/common/jp_field.cpp",
+        "/tmp/vanessa/spack-stage/spack-stage-py-jpype1-0.6.0-5omnplkgwi2xclnyh7ucl7tydhnberb4/spack-src/native/common/include/jp_arrayclass.h",
+        "/tmp/vanessa/spack-stage/spack-stage-py-jpype1-0.6.0-5omnplkgwi2xclnyh7ucl7tydhnberb4/spack-src/native/common/include/jp_objecttypes.h",
+        "/tmp/vanessa/spack-stage/spack-stage-py-jpype1-0.6.0-5omnplkgwi2xclnyh7ucl7tydhnberb4/spack-src/native/common/include/jp_platform_win32.h",
+        "/tmp/vanessa/spack-stage/spack-stage-py-jpype1-0.6.0-5omnplkgwi2xclnyh7ucl7tydhnberb4/spack-src/native/common/include/jp_utility.h",
+        "/tmp/vanessa/spack-stage/spack-stage-py-jpype1-0.6.0-5omnplkgwi2xclnyh7ucl7tydhnberb4/spack-src/native/common/include/jp_referencequeue.h",
+        "/tmp/vanessa/spack-stage/spack-stage-py-jpype1-0.6.0-5omnplkgwi2xclnyh7ucl7tydhnberb4/spack-src/native/common/include/jp_reference.h",
+        "/tmp/vanessa/spack-stage/spack-stage-py-jpype1-0.6.0-5omnplkgwi2xclnyh7ucl7tydhnberb4/spack-src/native/common/include/jp_jniutil.h",
+        "/tmp/vanessa/spack-stage/spack-stage-py-jpype1-0.6.0-5omnplkgwi2xclnyh7ucl7tydhnberb4/spack-src/native/common/include/jp_monitor.h",
+        "/tmp/vanessa/spack-stage/spack-stage-py-jpype1-0.6.0-5omnplkgwi2xclnyh7ucl7tydhnberb4/spack-src/native/common/include/jp_javaenv.h",
+        "/tmp/vanessa/spack-stage/spack-stage-py-jpype1-0.6.0-5omnplkgwi2xclnyh7ucl7tydhnberb4/spack-src/native/common/include/jp_field.h",
+        "/tmp/vanessa/spack-stage/spack-stage-py-jpype1-0.6.0-5omnplkgwi2xclnyh7ucl7tydhnberb4/spack-src/native/common/include/jp_proxy.h",
+        "/tmp/vanessa/spack-stage/spack-stage-py-jpype1-0.6.0-5omnplkgwi2xclnyh7ucl7tydhnberb4/spack-src/native/common/include/jp_objectbase.h",
+        "/tmp/vanessa/spack-stage/spack-stage-py-jpype1-0.6.0-5omnplkgwi2xclnyh7ucl7tydhnberb4/spack-src/native/common/include/jp_invocationhandler.h",
+        "/tmp/vanessa/spack-stage/spack-stage-py-jpype1-0.6.0-5omnplkgwi2xclnyh7ucl7tydhnberb4/spack-src/native/python/py_monitor.cpp",
+        "/tmp/vanessa/spack-stage/spack-stage-py-jpype1-0.6.0-5omnplkgwi2xclnyh7ucl7tydhnberb4/spack-src/native/python/py_field.cpp",
+        "/tmp/vanessa/spack-stage/spack-stage-py-jpype1-0.6.0-5omnplkgwi2xclnyh7ucl7tydhnberb4/spack-src/native/python/include/py_monitor.h",
+        "/tmp/vanessa/spack-stage/spack-stage-py-jpype1-0.6.0-5omnplkgwi2xclnyh7ucl7tydhnberb4/spack-src/native/python/include/py_class.h",
+        "/tmp/vanessa/spack-stage/spack-stage-py-jpype1-0.6.0-5omnplkgwi2xclnyh7ucl7tydhnberb4/spack-src/native/python/include/py_method.h",
+        "/tmp/vanessa/spack-stage/spack-stage-py-jpype1-0.6.0-5omnplkgwi2xclnyh7ucl7tydhnberb4/spack-src/native/python/include/py_field.h"
+    ],
+    "total_files": 193
+}
