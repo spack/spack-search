@@ -1,0 +1,19 @@
+{
+    "matches": {
+        "/tmp/vanessa/spack-stage/spack-stage-py-cython-0.28.1-lgf53727rh2qwddufx7iygelh5gz2yzo/spack-src/Cython/Includes/posix/dlfcn.pxd": "# POSIX dynamic linking/loading interface.\n# http://pubs.opengroup.org/onlinepubs/9699919799/basedefs/dlfcn.h.html\n\ncdef extern from \"<dlfcn.h>\" nogil:\n    void *dlopen(const char *, int)\n    char *dlerror()\n    void *dlsym(void *, const char *)\n    int dlclose(void *)\n\n    enum:\n        RTLD_LAZY\n        RTLD_NOW\n        RTLD_GLOBAL\n        RTLD_LOCAL\n"
+    },
+    "skipped": [
+        "/tmp/vanessa/spack-stage/spack-stage-py-cython-0.28.1-lgf53727rh2qwddufx7iygelh5gz2yzo/spack-src/tests/errors/encoding.pyx",
+        "/tmp/vanessa/spack-stage/spack-stage-py-cython-0.28.1-lgf53727rh2qwddufx7iygelh5gz2yzo/spack-src/tests/run/str_encoding_latin1.pyx",
+        "/tmp/vanessa/spack-stage/spack-stage-py-cython-0.28.1-lgf53727rh2qwddufx7iygelh5gz2yzo/spack-src/tests/run/unicodeliteralslatin1.pyx",
+        "/tmp/vanessa/spack-stage/spack-stage-py-cython-0.28.1-lgf53727rh2qwddufx7iygelh5gz2yzo/spack-src/docs/src/tutorial/htmlreport.png",
+        "/tmp/vanessa/spack-stage/spack-stage-py-cython-0.28.1-lgf53727rh2qwddufx7iygelh5gz2yzo/spack-src/docs/src/tutorial/python_division.png",
+        "/tmp/vanessa/spack-stage/spack-stage-py-cython-0.28.1-lgf53727rh2qwddufx7iygelh5gz2yzo/spack-src/docs/src/quickstart/htmlreport.png",
+        "/tmp/vanessa/spack-stage/spack-stage-py-cython-0.28.1-lgf53727rh2qwddufx7iygelh5gz2yzo/spack-src/docs/src/quickstart/jupyter.png",
+        "/tmp/vanessa/spack-stage/spack-stage-py-cython-0.28.1-lgf53727rh2qwddufx7iygelh5gz2yzo/spack-src/docs/src/quickstart/sage.png",
+        "/tmp/vanessa/spack-stage/spack-stage-py-cython-0.28.1-lgf53727rh2qwddufx7iygelh5gz2yzo/spack-src/docs/_static/cython-logo-light.png",
+        "/tmp/vanessa/spack-stage/spack-stage-py-cython-0.28.1-lgf53727rh2qwddufx7iygelh5gz2yzo/spack-src/docs/_static/cythonlogo.png",
+        "/tmp/vanessa/spack-stage/spack-stage-py-cython-0.28.1-lgf53727rh2qwddufx7iygelh5gz2yzo/spack-src/docs/_static/favicon.ico"
+    ],
+    "total_files": 1782
+}

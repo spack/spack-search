@@ -1,0 +1,14 @@
+{
+    "matches": {
+        "/tmp/vanessa/spack-stage/spack-stage-py-pyzmq-16.0.2-adjjpysprtomy5lzpaxxn6d3aqvzuu77/spack-src/zmq/__init__.py": "\"\"\"Python bindings for 0MQ.\"\"\"\n\n# Copyright (C) PyZMQ Developers\n# Distributed under the terms of the Modified BSD License.\n\n# load bundled libzmq, if there is one:\ndef _load_libzmq():\n    \"\"\"load bundled libzmq if there is one\"\"\"\n    import sys, ctypes, platform\n    dlopen = hasattr(sys, 'getdlopenflags') # unix-only\n    if dlopen:\n        dlflags = sys.getdlopenflags()\n        sys.setdlopenflags(ctypes.RTLD_GLOBAL | dlflags)\n    try:\n        from . import libzmq\n    except ImportError:\n        pass\n    else:\n        # store libzmq as zmq._libzmq for backward-compat\n        globals()['_libzmq'] = libzmq\n        if platform.python_implementation().lower() == 'pypy':\n            # pypy needs explicit CDLL load for some reason,\n            # otherwise symbols won't be globally available\n            ctypes.CDLL(libzmq.__file__, ctypes.RTLD_GLOBAL)\n    finally:\n        if dlopen:\n            sys.setdlopenflags(dlflags)\n\n_load_libzmq()\n\n\n# zmq top-level imports\n\nfrom zmq import backend\nfrom zmq.backend import *\nfrom zmq import sugar\nfrom zmq.sugar import *\n\ndef get_includes():\n    \"\"\"Return a list of directories to include for linking against pyzmq with cython.\"\"\"\n    from os.path import join, dirname, abspath, pardir, exists\n    base = dirname(__file__)\n    parent = abspath(join(base, pardir))\n    includes = [ parent ] + [ join(parent, base, subdir) for subdir in ('utils',) ]\n    if exists(join(parent, base, 'include')):\n        includes.append(join(parent, base, 'include'))\n    return includes\n    \ndef get_library_dirs():\n    \"\"\"Return a list of directories used to link against pyzmq's bundled libzmq.\"\"\"\n    from os.path import join, dirname, abspath, pardir\n    base = dirname(__file__)\n    parent = abspath(join(base, pardir))\n    return [ join(parent, base) ]\n\n\n__all__ = ['get_includes'] + sugar.__all__ + backend.__all__\n"
+    },
+    "skipped": [
+        "/tmp/vanessa/spack-stage/spack-stage-py-pyzmq-16.0.2-adjjpysprtomy5lzpaxxn6d3aqvzuu77/spack-src/examples/bench/msgs_sec_log.png",
+        "/tmp/vanessa/spack-stage/spack-stage-py-pyzmq-16.0.2-adjjpysprtomy5lzpaxxn6d3aqvzuu77/spack-src/examples/bench/latency.png",
+        "/tmp/vanessa/spack-stage/spack-stage-py-pyzmq-16.0.2-adjjpysprtomy5lzpaxxn6d3aqvzuu77/spack-src/examples/bench/msgs_sec.png",
+        "/tmp/vanessa/spack-stage/spack-stage-py-pyzmq-16.0.2-adjjpysprtomy5lzpaxxn6d3aqvzuu77/spack-src/examples/bench/msgs_sec_ratio.png",
+        "/tmp/vanessa/spack-stage/spack-stage-py-pyzmq-16.0.2-adjjpysprtomy5lzpaxxn6d3aqvzuu77/spack-src/docs/source/_static/zeromq.ico",
+        "/tmp/vanessa/spack-stage/spack-stage-py-pyzmq-16.0.2-adjjpysprtomy5lzpaxxn6d3aqvzuu77/spack-src/docs/source/_static/logo.png"
+    ],
+    "total_files": 271
+}
