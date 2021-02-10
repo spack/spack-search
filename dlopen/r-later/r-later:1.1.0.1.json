@@ -1,0 +1,9 @@
+{
+    "matches": {
+        "/tmp/vanessa/spack-stage/spack-stage-r-later-1.1.0.1-5wj7nxaqyehfblrr2l74rgn36z6lc4d3/spack-src/src/timer_posix.h": "#ifndef _TIMER_POSIX_H_\n#define _TIMER_POSIX_H_\n\n#ifndef _WIN32\n\n#include <boost/function.hpp>\n#include <boost/optional.hpp>\n#include \"timestamp.h\"\n#include \"threadutils.h\"\n\nclass Timer {\n  boost::function<void ()> callback;\n  Mutex mutex;\n  ConditionVariable cond;\n  // Stores the handle to a bgthread, which is created upon demand. (Previously\n  // the thread was created in the constructor, but addressed sanitized (ASAN)\n  // builds of R would hang when pthread_create was called during dlopen.)\n  boost::optional<tct_thrd_t> bgthread;\n  boost::optional<Timestamp> wakeAt;\n  bool stopped;\n\n  static int bg_main_func(void*);\n  void bg_main();\npublic:\n  Timer(const boost::function<void ()>& callback);\n  virtual ~Timer();\n\n  // Schedules the timer to fire next at the specified time.\n  // If the timer is currently scheduled to fire, that will\n  // be overwritten with this one (the timer only tracks one\n  // timestamp at a time).\n  void set(const Timestamp& timestamp);\n};\n\n\n#endif // _WIN32\n\n#endif // _TIMER_POSIX_H_\n"
+    },
+    "skipped": [
+        "/tmp/vanessa/spack-stage/spack-stage-r-later-1.1.0.1-5wj7nxaqyehfblrr2l74rgn36z6lc4d3/spack-src/build/vignette.rds"
+    ],
+    "total_files": 51
+}
