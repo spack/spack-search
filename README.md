@@ -47,20 +47,8 @@ $ spack python search_spack.py dlopen ./dlopen
 
 ### 4. Generate the interface
 
-This static interface generation is optional, because it would be better to generate an application
-with a database and search proper. But since I want a quick interface for results, this is fairly easy to
-do. I first created a docs folder for our site, and created a simple template (the supporting files
-in that folder) and a collection folder at `_packages`. I then ran 
-a script to generate those collection files:
-
-```bash
-$ python generate_interface.py ./dlopen ./docs/_packages
-```
-
-## What do we save?
-
-Since there aren't many hits (at least for dlopen) it's easy enough to do one search
-across the text, and then save the entire file for inspection.
+The interface (and instrucitons for building and populating the database) can
+be found in [app](app).
 
 ## What can we do better?
 
