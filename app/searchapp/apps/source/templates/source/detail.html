@@ -1,0 +1,56 @@
+{% extends "base.html" %}
+
+{% load static %}
+{% load source_extras %}
+
+{% block body %}
+  <div class="container-fluid">
+
+<style>
+.highlight {
+  background-color: yellow;
+}
+</style>
+
+{% include "base/scrolltop.html" %}
+
+{% if package_set %}
+<div class="row" style="margin:25px; padding:30px">
+    {% include "source/package_list.html" %}
+    <!-- Editor-->
+    <div class="col-lg-10">
+        <h1>{{ package_set.first.name }}</h1>
+        {% for package in package_set.all %}
+            <small>{{ package.version }}</small>
+            {% for sourcefile in package.sourcefile_set.all %}
+            <p>{{ sourcefile.name }}</p>
+            <pre><code class="code">{{ sourcefile.text }}</code></pre>
+            <br>
+            {% endfor %}
+        {% endfor %}
+    </div>
+</div>
+{% else %}
+  <p>No packages are available.</p>
+{% endif %}
+
+<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+<script src="{% static 'source/js/autocomplete.js' %}"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/mark.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/jquery.mark.min.js"></script>
+
+<script type="text/javascript">
+    $(function () {
+
+      var context = document.querySelector(".code");
+      var instance = new Mark(context);
+      instance.mark("dlopen");
+      window.autocomplete = new Autocomplete({
+        form_selector: '.autocomplete',
+        url: '{% url 'source:autocomplete' %}'
+      });
+      window.autocomplete.setup()
+    });
+  </script>
+</div>
+{% endblock body %}

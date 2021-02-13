@@ -23,7 +23,13 @@ $ export PATH=$PATH:$HOME/Desktop/Code/spack/bin
 
 ### 2. Create output folder
 
-You'll then want to create an output directory (perhaps relevant to your search query)
+You'll then want to create an output directory (perhaps relevant to your search query).
+If you wanted to use these output files directly as data, you could write them to a `_data`
+directory (for jekyll). Since I'm going to just create a separate interface in a different
+subfolder, I'm going to write a script instead to process them into a collection (and ideally
+in the future we can import them into a database proper instead of a static site!)
+For now, let's make the `dlopen` directory.
+
 
 ```bash
 $ mkdir dlopen
@@ -38,6 +44,18 @@ $ spack python search_spack.py dlopen ./dlopen
 ```
 
 ⚠️ *Important: As you are running this, the `var/spack/cache` is going to fill up. Likely you want to clear it if you are running out of disk space.* ⚠️
+
+### 4. Generate the interface
+
+This static interface generation is optional, because it would be better to generate an application
+with a database and search proper. But since I want a quick interface for results, this is fairly easy to
+do. I first created a docs folder for our site, and created a simple template (the supporting files
+in that folder) and a collection folder at `_packages`. I then ran 
+a script to generate those collection files:
+
+```bash
+$ python generate_interface.py ./dlopen ./docs/_packages
+```
 
 ## What do we save?
 

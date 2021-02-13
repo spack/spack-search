@@ -1,0 +1,42 @@
+{% extends "base.html" %}
+
+{% load static %}
+
+{% block body %}
+  <div class="container-fluid">
+
+<style>
+ul {
+  color:#999
+}
+ul>li {
+  color:#999
+}
+</style>
+
+{% if packages %}
+{% include "base/scrolltop.html" %}
+<div class="row" style="margin:25px; padding:30px">
+    {% include "source/package_list.html" %}
+    <!-- Editor-->
+    <div class="col-lg-10">
+    </div>
+</div>
+{% else %}
+  <p>No packages are available.</p>
+{% endif %}
+
+<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+<script src="{% static 'source/js/autocomplete.js' %}"></script>
+
+<script type="text/javascript">
+    $(function () {
+      window.autocomplete = new Autocomplete({
+        form_selector: '.autocomplete',
+        url: '{% url 'source:autocomplete' %}'
+      });
+      window.autocomplete.setup()
+    });
+  </script>
+</div>
+{% endblock body %}

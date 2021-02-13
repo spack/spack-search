@@ -1,0 +1,9 @@
+    <!-- package list -->
+    <div class="col-md-2">    
+      <div class="list-group" style='margin-top:20px'>
+        {% for p in packages %}
+        <a {% if p == package.name %}style="background-color:yellow"{% endif %}href="{% url 'source:detail' p %}" class="list-group-item">
+            <h4 class="list-group-item-heading" style="font-weight:600;">{{ p }}</h4>
+        </a>{% endfor %}
+      </div>
+    </div>

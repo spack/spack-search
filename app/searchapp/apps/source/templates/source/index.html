@@ -1,0 +1,45 @@
+{% extends 'base.html' %}
+
+{% load static %}
+
+{% block body %}
+<style>
+ul {
+  color:#999
+}
+ul>li {
+  color:#999
+}
+</style>
+
+<div class="container mtb">
+    <div class="row" style="margin-top:100px">
+        <div class="col-lg-5">
+            <img class="img-responsive" src="{% static 'img/logo.png' %}" alt="">
+        </div>
+        <div class="col-lg-7">
+            <h3 style="color:#777">Spack Search</h3>
+            <p>This is a static interface to browse search results for dlopen, and something we hope to improve upon in the future with an actual search database. The code and data files can be found in the <a href="{{ site.repo }}" target="_blank">spack search</a>
+               repository. If you have any questions, please don't hesitate to <a target="_blank" href="{{ site.repo }}/issues">open an issue</a>.
+            </p>
+        </div>
+    </div>
+
+<div class="row">
+    <div class="col-md-6">
+    </div>
+    <div class="col-md-5" style="margin-right:20px">
+        <a class="btn btn-theme" 
+           href="/packages/" 
+           role="button"
+           style="margin-left:10px;">Packages</a>
+        <a class="btn btn-theme" 
+           href="https://github.com/spack/spack-search/" 
+           role="button"
+           style="margin-left:10px;">GitHub</a>
+    </div>
+</div>
+</div>
+{% include "base/testimonial.html" %}
+
+{% endblock body %}
