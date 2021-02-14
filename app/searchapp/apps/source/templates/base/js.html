@@ -1,6 +1,34 @@
 {% load static %}
+<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+<script src="{% static 'js/autocomplete.js' %}"></script>
+
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
 <script src="{% static 'js/bootstrap.min.js' %}"></script>
 <script src="{% static 'js/retina-1.1.0.js' %}"></script>
 <script src="{% static 'js/custom.js' %}"></script>
 <script src="{% static 'js/jquery.prettyPhoto.js' %}"></script>
+
+<script type="text/javascript">
+    $(function () {
+      window.autocomplete = new Autocomplete({
+        form_selector: '.autocomplete',
+        url: '{% url 'source:autocomplete' %}'
+      });
+      window.autocomplete.setup()
+
+      // scroll accounting for top navigation bar
+      function offsetAnchor() {
+          if(location.hash.length !== 0) {
+              window.scrollTo(window.scrollX, window.scrollY - 100);
+          }
+      }
+
+     // This will capture hash changes while on the page
+     // https://stackoverflow.com/questions/17534661/make-anchor-link-go-some-pixels-above-where-its-linked-to
+     window.addEventListener("hashchange", offsetAnchor);
+     window.setTimeout(offsetAnchor, 1);
+
+    });
+  </script>
+</div>
+

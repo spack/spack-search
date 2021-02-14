@@ -5,26 +5,30 @@
 
 {% block body %}
   <div class="container-fluid">
-
-<style>
-.highlight {
-  background-color: yellow;
-}
-</style>
-
 {% include "base/scrolltop.html" %}
 
 {% if package_set %}
 <div class="row" style="margin:25px; padding:30px">
-    {% include "source/package_list.html" %}
-    <!-- Editor-->
-    <div class="col-lg-10">
+
+    <!-- package list -->
+    <div class="col-md-2 list-group list-group-root">
+      <ul class="list-group" style='margin-top:20px'>
+        {% for p in packages %}
+        <li class="list-group-item"><a style="font-weight:600;{% if p == package_set.first.name %}margin-bottom:10px{% endif %}" href="{% url 'source:detail' p %}">{{ p }}</a>
+           {% if p == package_set.first.name %}<ul class="list-group">
+             {% for package in package_set.all %}<li class="list-group-item"><a href="#{{ package.name | slugify }}-{{ package.version }}">{{ package.version }}</a></li>{% endfor %}
+              </ul>{% else %}</li>{% endif %}
+        {% endfor %}
+      </ul>
+    </div>
+
+    <!-- Code items -->
+    <div class="col-lg-10" id="code-results">
         <h1>{{ package_set.first.name }}</h1>
         {% for package in package_set.all %}
-            <small>{{ package.version }}</small>
+            <h2 style="padding-top:20px" id ="{{ package.name | slugify }}-{{ package.version }}">{{ package.version }}</h2>
             {% for sourcefile in package.sourcefile_set.all %}
-            <p>{{ sourcefile.name }}</p>
-            <pre><code class="code">{{ sourcefile.text }}</code></pre>
+            {% include "sourcefile/sourcelines.html" with sourcefile=sourcefile %}
             <br>
             {% endfor %}
         {% endfor %}
@@ -42,7 +46,7 @@
 <script type="text/javascript">
     $(function () {
 
-      var context = document.querySelector(".code");
+      var context = document.querySelector("#code-results");
       var instance = new Mark(context);
       instance.mark("dlopen");
       window.autocomplete = new Autocomplete({

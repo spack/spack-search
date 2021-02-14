@@ -1,0 +1,76 @@
+{% extends "base.html" %}
+{% load static %}
+{% block body %}
+<div class="container mtb">
+
+<h2>Search</h2>
+
+{% if not query %}
+<div class="row" style="margin-top:30px">
+    <div class="alert alert-info">Enter a search expression into the box at the top of the page to search!</p>
+</div>
+{% else %}
+<div class="row search-count"><b>{{ page.object_list | length }} results for </b><span class="grey">"{{ query }}"</span></div>
+    <div class="row">
+        <div class="col-md-3 search-filters-container search-filters">
+           <div>
+              <h5>Page {{ page_number }} of {{ page.paginator.num_pages }}</h5>
+                            <a {% if page.has_previous %}href="?q={{ query }}&amp;page={{ page.previous_page_number }}"{% else %}disabled=""{% endif %} class="btn btn-xs btn-primary filter-button"><span>&nbsp;</span>◀ Previous</a>
+                            <a {% if page.has_next %}href="?q={{ query }}&amp;page={{ page.next_page_number }}"{% else %}disabled=""{% endif %} class="btn btn-xs btn-primary filter-button"><span>&nbsp;</span>Next ▶</a>
+           </div>
+           <div>
+               <h5>Packages</h5>
+                   {% for package in filter_options.packages %}<div class="checkbox">
+                      <label>
+                          <input value="{{ package.0 }}" name="package-select" onclick="selectPackages()" type="checkbox" {% if package.2 %}checked{% endif %}><span>{{ package.0 }}</span><span class="badge pull-right">{{ package.1 }}</span></label>
+                     </div>{% endfor %}
+           </div>
+       </div>
+       <div class="col-md-9 search-results">
+                {% for result in page.object_list %}
+                {% include "sourcefile/sourcelines.html" with sourcefile=result.object %}
+                {% empty %}<p>No results found.</p>{% endfor %}
+
+  {% if page.has_previous or page.has_next %}
+    <p>
+      {% if page.has_previous %}
+        <a href="?q={{ query }}&amp;page={{ page.previous_page_number }}">{% endif %}&laquo;
+      Previous{% if page.has_previous %}</a>{% endif %}
+      |
+      {% if page.has_next %}<a href="?q={{ query }}&amp;page={{ page.next_page_number }}">{% endif %}Next &raquo;
+      {% if page.has_next %}</a>{% endif %}
+    </p>
+  {% endif %}
+{% endif %}
+
+        </div>
+    </div>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+<script src="{% static 'source/js/autocomplete.js' %}"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/mark.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/jquery.mark.min.js"></script>
+
+<script type="text/javascript">
+    $(function () {
+      var context = document.querySelector(".search-results");
+      var instance = new Mark(context);
+      instance.mark("{{ query }}");
+    });
+
+function selectPackages() {
+  // Get the checkboxes selected
+  var selected = Array();
+  $("input:checkbox[name=package-select]:checked").each(function(){
+    selected.push($(this).val());
+  });
+  if (selected.length > 0) {
+      // Update the search with packages (reset page to 1)
+      document.location = "?q={{ query }}&packages=" + selected.join(',');
+  }
+} 
+</script>
+
+
+{% endblock %}

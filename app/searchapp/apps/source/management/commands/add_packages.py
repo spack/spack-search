@@ -53,10 +53,21 @@ class Command(BaseCommand):
             sources = []
             for filename, text in meta["matches"].items():
                 filepath = filename.split("spack-src")[-1].strip("/")
-                sourcefile, _ = SourceFile.objects.get_or_create(
-                    name=filepath, package=package, text=text
-                )
-                sources.append(sourcefile)
+
+                # We cannot add source files with string literals for null
+                try:
+                    sourcefile, _ = SourceFile.objects.get_or_create(
+                        name=filepath, package=package, text=text
+                    )
+                    sources.append(sourcefile)
+                except ValueError:
+                    self.stdout.write(
+                        self.style.ERROR(
+                            "Issue with %s sourcefile %s, likely NUL characters."
+                            % (package.name, filepath)
+                        )
+                    )
+                    pass
 
             self.stdout.write(
                 self.style.SUCCESS(

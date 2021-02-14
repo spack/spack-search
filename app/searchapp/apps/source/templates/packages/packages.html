@@ -17,10 +17,10 @@ ul>li {
 {% if packages %}
 {% include "base/scrolltop.html" %}
 <div class="row" style="margin:25px; padding:30px">
-    {% include "source/package_list.html" %}
-    <!-- Editor-->
-    <div class="col-lg-10">
-    </div>
+    <p style="margin:15px" class="alert alert-info">Select a package to view matching files.</p>
+    {% for row in packages %}
+        {% include "packages/package_list.html" with packages=row %}
+    {% endfor %}
 </div>
 {% else %}
   <p>No packages are available.</p>

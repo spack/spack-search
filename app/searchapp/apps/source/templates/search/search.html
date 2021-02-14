@@ -9,8 +9,463 @@
   <br/>
   <input class="btn btn-secondary" type="submit" value="Search">
 </form>
-
 {% if query %}
+
+<div class="row search-count"><b>26 results for </b><span class="grey">"{{ query }}"</span></div>
+            <div class="row">
+                <div class="col-md-3 search-filters-container search-filters">
+                    <div>
+                        <h5>Page 1 of 2</h5>
+                        <div class="center">
+                            <input type="submit" disabled="" value="◀ Previous" class="btn btn-xs btn-success filter-button"><span>&nbsp;</span>
+                            <input type="submit" value="Next ▶" class="btn btn-xs btn-success filter-button">
+                        </div>
+                    </div>
+                    <div>
+                        <h5>Alternate Searches</h5>
+                        <div>
+                            <div class="checkbox">
+                                <label><a>duomen</a></label>
+                            </div>
+                        </div>
+                    </div>
+                    <div></div>
+
+<div>
+                    <div>
+                        <h5>Packages</h5>
+                        <input placeholder="Filter p" class="repo-filter">
+                        <div class="checkbox">
+                            <label>
+                                <input type="checkbox"><span>tortoisesvn</span><span class="badge pull-right">19</span></label>
+                        </div>
+                        <div class="checkbox">
+                            <label>
+                                <input type="checkbox"><span>redis</span><span class="badge pull-right">7</span></label>
+                        </div>
+                        <div></div>
+                    </div>
+                    <div>
+                        <h5>Languages</h5>
+                        <input placeholder="Filter Languages" class="repo-filter">
+                        <div class="checkbox">
+                            <label>
+                                <input type="checkbox"><span>C</span><span class="badge pull-right">10</span></label>
+                        </div>
+                        <div class="checkbox">
+                            <label>
+                                <input type="checkbox"><span>C Header</span><span class="badge pull-right">5</span></label>
+                        </div>
+                        <div class="checkbox">
+                            <label>
+                                <input type="checkbox"><span>Autoconf</span><span class="badge pull-right">4</span></label>
+                        </div>
+                        <div class="checkbox">
+                            <label>
+                                <input type="checkbox"><span>m4</span><span class="badge pull-right">4</span></label>
+                        </div>
+                        <div class="checkbox">
+                            <label>
+                                <input type="checkbox"><span>Makefile</span><span class="badge pull-right">1</span></label>
+                        </div><a class="green">2 more languages <span class="glyphicon glyphicon-chevron-down"></span></a></div>
+                    <div>
+                        <h5>Owners</h5>
+                        <input placeholder="Filter Owners" class="repo-filter">
+                        <div class="checkbox">
+                            <label>
+                                <input type="checkbox"><span>steveking</span><span class="badge pull-right">13</span></label>
+                        </div>
+                        <div class="checkbox">
+                            <label>
+                                <input type="checkbox"><span>antirez</span><span class="badge pull-right">5</span></label>
+                        </div>
+                        <div class="checkbox">
+                            <label>
+                                <input type="checkbox"><span>jorton</span><span class="badge pull-right">2</span></label>
+                        </div>
+                        <div class="checkbox">
+                            <label>
+                                <input type="checkbox"><span>Madelyn Olson</span><span class="badge pull-right">1</span></label>
+                        </div>
+                        <div class="checkbox">
+                            <label>
+                                <input type="checkbox"><span>bojan</span><span class="badge pull-right">1</span></label>
+                        </div><a class="green">4 more owners <span class="glyphicon glyphicon-chevron-down"></span></a></div>
+                    <div>
+                        <h5>Path Filter</h5>
+                        <div class="center">
+                            <input type="submit" disabled="" value="Clear" class="btn btn-xs btn-success filter-button"><span>&nbsp;</span><span class="filter-button" style="height: 1px; float: right;"></span></div>
+                    </div>
+                    <div>
+                        <h5>Filter Results</h5>
+                        <div class="center">
+                            <input type="submit" value="Remove" class="btn btn-xs btn-success filter-button"><span>&nbsp;</span>
+                            <input type="submit" disabled="" value="Apply" class="btn btn-xs btn-success filter-button">
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <div class="checkbox">
+                                <label><a href="/api/codesearch/rss/?q=dlopen&amp;p=0">RSS Feed of Search</a></label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+</div>
+                <div class="col-md-9 search-results">
+                    <div></div>
+                    <div>
+                        <div class="code-result">
+                            <div>
+                            <ol class="code-result">
+                                <li value="1"><a href="/file/e608b1e70d3f142893f0a82b4f4d300a948ccc02/tortoisesvn/ext/cyrus-SASL/lib/dlopen.c#1"><pre>/* <strong>dlopen</strong>.c--Unix <strong>dlopen</strong>() dynamic loader interface</pre></a></li>
+                                <li value="2"><a href="/file/e608b1e70d3f142893f0a82b4f4d300a948ccc02/tortoisesvn/ext/cyrus-SASL/lib/dlopen.c#2"><pre> * Rob Earhart</pre></a></li>
+                                <li value="4"><a href="/file/e608b1e70d3f142893f0a82b4f4d300a948ccc02/tortoisesvn/ext/cyrus-SASL/lib/dlopen.c#4"><pre> * $Id: <strong>dlopen</strong>.c,v 1.52 2009/04/11 10:21:43 mel Exp $</pre></a></li>
+                                <li value="64"><a href="/file/e608b1e70d3f142893f0a82b4f4d300a948ccc02/tortoisesvn/ext/cyrus-SASL/lib/dlopen.c#64"><pre>#ifdef DO_<strong>DLOPEN</strong></pre></a></li>
+                                <li value="102"><a href="/file/e608b1e70d3f142893f0a82b4f4d300a948ccc02/tortoisesvn/ext/cyrus-SASL/lib/dlopen.c#102"><pre><strong>dlopen</strong>(char *fname, int mode)</pre></a></li>
+                                <li value="176"><a href="/file/e608b1e70d3f142893f0a82b4f4d300a948ccc02/tortoisesvn/ext/cyrus-SASL/lib/dlopen.c#176"><pre>#endif /* DO_<strong>DLOPEN</strong> */</pre></a></li>
+                                <li value="181"><a href="/file/e608b1e70d3f142893f0a82b4f4d300a948ccc02/tortoisesvn/ext/cyrus-SASL/lib/dlopen.c#181"><pre>#ifdef DO_<strong>DLOPEN</strong></pre></a></li>
+                                <li value="226"><a href="/file/e608b1e70d3f142893f0a82b4f4d300a948ccc02/tortoisesvn/ext/cyrus-SASL/lib/dlopen.c#226"><pre>#endif /* DO_<strong>DLOPEN</strong> */</pre></a></li>
+                                <li value="227"><a href="/file/e608b1e70d3f142893f0a82b4f4d300a948ccc02/tortoisesvn/ext/cyrus-SASL/lib/dlopen.c#227"><pre></pre></a></li>
+                                <li value="229"><a href="/file/e608b1e70d3f142893f0a82b4f4d300a948ccc02/tortoisesvn/ext/cyrus-SASL/lib/dlopen.c#229"><pre>#ifdef DO_<strong>DLOPEN</strong></pre></a></li>
+                                <li value="349"><a href="/file/e608b1e70d3f142893f0a82b4f4d300a948ccc02/tortoisesvn/ext/cyrus-SASL/lib/dlopen.c#349"><pre>#endif /* DO_<strong>DLOPEN</strong> */</pre></a></li>
+                                <li value="356"><a href="/file/e608b1e70d3f142893f0a82b4f4d300a948ccc02/tortoisesvn/ext/cyrus-SASL/lib/dlopen.c#356"><pre>#ifdef DO_<strong>DLOPEN</strong></pre></a></li>
+                                <li value="375"><a href="/file/e608b1e70d3f142893f0a82b4f4d300a948ccc02/tortoisesvn/ext/cyrus-SASL/lib/dlopen.c#375"><pre>    if (!(library = <strong>dlopen</strong>(file, flag))) {</pre></a></li>
+                                <li value="377"><a href="/file/e608b1e70d3f142893f0a82b4f4d300a948ccc02/tortoisesvn/ext/cyrus-SASL/lib/dlopen.c#377"><pre>          "unable to <strong>dlopen</strong> %s: %s", file, dlerror());</pre></a></li>
+                                <li value="390"><a href="/file/e608b1e70d3f142893f0a82b4f4d300a948ccc02/tortoisesvn/ext/cyrus-SASL/lib/dlopen.c#390"><pre>#endif /* DO_<strong>DLOPEN</strong> */</pre></a></li>
+                            </ol>
+                            <hr class="spacer">
+                        </div>
+                        <div class="code-result">
+                            <div>
+                                <h5><div><a href="/file/488b2cbee81c092949962cc1d168cc92487ded93/tortoisesvn/ext/apr/dso/unix/dso.c">dso.c</a><span> in </span><a href="/repository/overview/tortoisesvn/">tortoisesvn</a><small><span> </span><span><span>/</span><a>ext</a></span><span><span>/</span><a>apr</a></span><span><span>/</span><a>dso</a></span><span><span>/</span><a>unix</a></span><span>/dso.c</span> | 9 lines | C</small></div></h5></div>
+                            <ol class="code-result">
+                                <li value="122"><a href="/file/488b2cbee81c092949962cc1d168cc92487ded93/tortoisesvn/ext/apr/dso/unix/dso.c#122"><pre>    defined(__DragonFly__)</pre></a></li>
+                                <li value="123"><a href="/file/488b2cbee81c092949962cc1d168cc92487ded93/tortoisesvn/ext/apr/dso/unix/dso.c#123"><pre>    void *os_handle = <strong>dlopen</strong>((char *)path, RTLD_NOW | RTLD_GLOBAL);</pre></a></li>
+                                <li value="124"><a href="/file/488b2cbee81c092949962cc1d168cc92487ded93/tortoisesvn/ext/apr/dso/unix/dso.c#124"><pre></pre></a></li>
+                                <li value="132"><a href="/file/488b2cbee81c092949962cc1d168cc92487ded93/tortoisesvn/ext/apr/dso/unix/dso.c#132"><pre>         * the way libtool likes to build shared libraries on AIX.</pre></a></li>
+                                <li value="133"><a href="/file/488b2cbee81c092949962cc1d168cc92487ded93/tortoisesvn/ext/apr/dso/unix/dso.c#133"><pre>         * <strong>dlopen</strong>() support for such a library requires that the</pre></a></li>
+                                <li value="134"><a href="/file/488b2cbee81c092949962cc1d168cc92487ded93/tortoisesvn/ext/apr/dso/unix/dso.c#134"><pre>         * RTLD_MEMBER flag be enabled.</pre></a></li>
+                                <li value="138"><a href="/file/488b2cbee81c092949962cc1d168cc92487ded93/tortoisesvn/ext/apr/dso/unix/dso.c#138"><pre>#endif</pre></a></li>
+                                <li value="139"><a href="/file/488b2cbee81c092949962cc1d168cc92487ded93/tortoisesvn/ext/apr/dso/unix/dso.c#139"><pre>    os_handle = <strong>dlopen</strong>(path, flags);</pre></a></li>
+                                <li value="140"><a href="/file/488b2cbee81c092949962cc1d168cc92487ded93/tortoisesvn/ext/apr/dso/unix/dso.c#140"><pre>#endif    </pre></a></li>
+                            </ol>
+                            <hr class="spacer">
+                        </div>
+                        <div class="code-result">
+                            <div>
+                                <h5><div><a href="/file/eedeae2e46ff8e6841d26394c841f961529904f5/tortoisesvn/ext/Subversion/build/ac-macros/sqlite.m4">sqlite.m4</a><span> in </span><a href="/repository/overview/tortoisesvn/">tortoisesvn</a><small><span> </span><span><span>/</span><a>ext</a></span><span><span>/</span><a>Subversion</a></span><span><span>/</span><a>build</a></span><span><span>/</span><a>ac-macros</a></span><span>/sqlite.m4</span> | 270 lines | m4</small></div></h5></div>
+                            <ol class="code-result">
+                                <li value="272"><a href="/file/eedeae2e46ff8e6841d26394c841f961529904f5/tortoisesvn/ext/Subversion/build/ac-macros/sqlite.m4#272"><pre>  # if libdl is installed we need to link against it</pre></a></li>
+                                <li value="273"><a href="/file/eedeae2e46ff8e6841d26394c841f961529904f5/tortoisesvn/ext/Subversion/build/ac-macros/sqlite.m4#273"><pre>    AC_CHECK_LIB([dl], [<strong>dlopen</strong>],</pre></a></li>
+                                <li value="274"><a href="/file/eedeae2e46ff8e6841d26394c841f961529904f5/tortoisesvn/ext/Subversion/build/ac-macros/sqlite.m4#274"><pre>                [lt_cv_<strong>dlopen</strong>="<strong>dlopen</strong>" svn_sqlite_dso_ldflags="-ldl"],[</pre></a></li>
+                                <li value="275"><a href="/file/eedeae2e46ff8e6841d26394c841f961529904f5/tortoisesvn/ext/Subversion/build/ac-macros/sqlite.m4#275"><pre>    svn_sqlite_dso_ldflags=</pre></a></li>
+                                <li value="283"><a href="/file/eedeae2e46ff8e6841d26394c841f961529904f5/tortoisesvn/ext/Subversion/build/ac-macros/sqlite.m4#283"><pre>            [svn_sqlite_dso_ldflags="-ldld"],</pre></a></li>
+                                <li value="284"><a href="/file/eedeae2e46ff8e6841d26394c841f961529904f5/tortoisesvn/ext/Subversion/build/ac-macros/sqlite.m4#284"><pre>        [AC_CHECK_FUNC([<strong>dlopen</strong>],</pre></a></li>
+                                <li value="285"><a href="/file/eedeae2e46ff8e6841d26394c841f961529904f5/tortoisesvn/ext/Subversion/build/ac-macros/sqlite.m4#285"><pre>              [svn_sqlite_dso_ldflags=],</pre></a></li>
+                                <li value="286"><a href="/file/eedeae2e46ff8e6841d26394c841f961529904f5/tortoisesvn/ext/Subversion/build/ac-macros/sqlite.m4#286"><pre>          [AC_CHECK_LIB([dl], [<strong>dlopen</strong>],</pre></a></li>
+                                <li value="287"><a href="/file/eedeae2e46ff8e6841d26394c841f961529904f5/tortoisesvn/ext/Subversion/build/ac-macros/sqlite.m4#287"><pre>                [svn_sqlite_dso_ldflags="-ldl"],</pre></a></li>
+                                <li value="288"><a href="/file/eedeae2e46ff8e6841d26394c841f961529904f5/tortoisesvn/ext/Subversion/build/ac-macros/sqlite.m4#288"><pre>            [AC_CHECK_LIB([svld], [<strong>dlopen</strong>],</pre></a></li>
+                                <li value="289"><a href="/file/eedeae2e46ff8e6841d26394c841f961529904f5/tortoisesvn/ext/Subversion/build/ac-macros/sqlite.m4#289"><pre>                  [svn_sqlite_dso_ldflags="-lsvld"],</pre></a></li>
+                            </ol>
+                            <hr class="spacer">
+                        </div>
+                        <div class="code-result">
+                            <div>
+                                <h5><div><a href="/file/69ddbfe53d78e7bd29af7050e60321d8312ef1db/tortoisesvn/ext/openssl/crypto/dso/dso_dlfcn.c">dso_dlfcn.c</a><span> in </span><a href="/repository/overview/tortoisesvn/">tortoisesvn</a><small><span> </span><span><span>/</span><a>ext</a></span><span><span>/</span><a>openssl</a></span><span><span>/</span><a>crypto</a></span><span><span>/</span><a>dso</a></span><span>/dso_dlfcn.c</span> | 24 lines | C</small></div></h5></div>
+                            <ol class="code-result">
+                                <li value="69"><a href="/file/69ddbfe53d78e7bd29af7050e60321d8312ef1db/tortoisesvn/ext/openssl/crypto/dso/dso_dlfcn.c#69"><pre>/*</pre></a></li>
+                                <li value="70"><a href="/file/69ddbfe53d78e7bd29af7050e60321d8312ef1db/tortoisesvn/ext/openssl/crypto/dso/dso_dlfcn.c#70"><pre> * Prior to using the <strong>dlopen</strong>() function, we should decide on the flag we</pre></a></li>
+                                <li value="71"><a href="/file/69ddbfe53d78e7bd29af7050e60321d8312ef1db/tortoisesvn/ext/openssl/crypto/dso/dso_dlfcn.c#71"><pre> * send. There's a few different ways of doing this and it's a messy</pre></a></li>
+                                <li value="78"><a href="/file/69ddbfe53d78e7bd29af7050e60321d8312ef1db/tortoisesvn/ext/openssl/crypto/dso/dso_dlfcn.c#78"><pre>#  ifdef DL_LAZY</pre></a></li>
+                                <li value="79"><a href="/file/69ddbfe53d78e7bd29af7050e60321d8312ef1db/tortoisesvn/ext/openssl/crypto/dso/dso_dlfcn.c#79"><pre>#   define <strong>DLOPEN</strong>_FLAG DL_LAZY</pre></a></li>
+                                <li value="80"><a href="/file/69ddbfe53d78e7bd29af7050e60321d8312ef1db/tortoisesvn/ext/openssl/crypto/dso/dso_dlfcn.c#80"><pre>#  else</pre></a></li>
+                                <li value="81"><a href="/file/69ddbfe53d78e7bd29af7050e60321d8312ef1db/tortoisesvn/ext/openssl/crypto/dso/dso_dlfcn.c#81"><pre>#   ifdef RTLD_NOW</pre></a></li>
+                                <li value="82"><a href="/file/69ddbfe53d78e7bd29af7050e60321d8312ef1db/tortoisesvn/ext/openssl/crypto/dso/dso_dlfcn.c#82"><pre>#    define <strong>DLOPEN</strong>_FLAG RTLD_NOW</pre></a></li>
+                                <li value="83"><a href="/file/69ddbfe53d78e7bd29af7050e60321d8312ef1db/tortoisesvn/ext/openssl/crypto/dso/dso_dlfcn.c#83"><pre>#   else</pre></a></li>
+                                <li value="84"><a href="/file/69ddbfe53d78e7bd29af7050e60321d8312ef1db/tortoisesvn/ext/openssl/crypto/dso/dso_dlfcn.c#84"><pre>#    define <strong>DLOPEN</strong>_FLAG 0</pre></a></li>
+                                <li value="88"><a href="/file/69ddbfe53d78e7bd29af7050e60321d8312ef1db/tortoisesvn/ext/openssl/crypto/dso/dso_dlfcn.c#88"><pre>#  define <strong>DLOPEN</strong>_FLAG RTLD_NOW  /* Hope this works everywhere else */</pre></a></li>
+                                <li value="93"><a href="/file/69ddbfe53d78e7bd29af7050e60321d8312ef1db/tortoisesvn/ext/openssl/crypto/dso/dso_dlfcn.c#93"><pre> * (void*) returned from <strong>dlopen</strong>().</pre></a></li>
+                                <li value="101"><a href="/file/69ddbfe53d78e7bd29af7050e60321d8312ef1db/tortoisesvn/ext/openssl/crypto/dso/dso_dlfcn.c#101"><pre>    int flags = <strong>DLOPEN</strong>_FLAG;</pre></a></li>
+                                <li value="111"><a href="/file/69ddbfe53d78e7bd29af7050e60321d8312ef1db/tortoisesvn/ext/openssl/crypto/dso/dso_dlfcn.c#111"><pre>    ptr = <strong>dlopen</strong>(filename, flags);</pre></a></li>
+                                <li value="345"><a href="/file/69ddbfe53d78e7bd29af7050e60321d8312ef1db/tortoisesvn/ext/openssl/crypto/dso/dso_dlfcn.c#345"><pre>    void *ret = NULL, *handle = <strong>dlopen</strong>(NULL, RTLD_LAZY);</pre></a></li>
+                            </ol>
+                            <hr class="spacer">
+                        </div>
+                        <div class="code-result">
+                            <div>
+                                <h5><div><a href="/file/71285012b290bc11d7f50e38608e9625ed19879e/tortoisesvn/ext/expat/m4/ltoptions.m4">ltoptions.m4</a><span> in </span><a href="/repository/overview/tortoisesvn/">tortoisesvn</a><small><span> </span><span><span>/</span><a>ext</a></span><span><span>/</span><a>expat</a></span><span><span>/</span><a>m4</a></span><span>/ltoptions.m4</span> | 285 lines | m4</small></div></h5></div>
+                            <ol class="code-result">
+                                <li value="70"><a href="/file/71285012b290bc11d7f50e38608e9625ed19879e/tortoisesvn/ext/expat/m4/ltoptions.m4#70"><pre>  dnl specified:</pre></a></li>
+                                <li value="71"><a href="/file/71285012b290bc11d7f50e38608e9625ed19879e/tortoisesvn/ext/expat/m4/ltoptions.m4#71"><pre>  _LT_UNLESS_OPTIONS([LT_INIT], [<strong>dlopen</strong>], [enable_<strong>dlopen</strong>=no</pre></a></li>
+                                <li value="72"><a href="/file/71285012b290bc11d7f50e38608e9625ed19879e/tortoisesvn/ext/expat/m4/ltoptions.m4#72"><pre>  ])</pre></a></li>
+                                <li value="107"><a href="/file/71285012b290bc11d7f50e38608e9625ed19879e/tortoisesvn/ext/expat/m4/ltoptions.m4#107"><pre></pre></a></li>
+                                <li value="108"><a href="/file/71285012b290bc11d7f50e38608e9625ed19879e/tortoisesvn/ext/expat/m4/ltoptions.m4#108"><pre># <strong>dlopen</strong></pre></a></li>
+                                <li value="109"><a href="/file/71285012b290bc11d7f50e38608e9625ed19879e/tortoisesvn/ext/expat/m4/ltoptions.m4#109"><pre># ------</pre></a></li>
+                                <li value="110"><a href="/file/71285012b290bc11d7f50e38608e9625ed19879e/tortoisesvn/ext/expat/m4/ltoptions.m4#110"><pre>LT_OPTION_DEFINE([LT_INIT], [<strong>dlopen</strong>], [enable_<strong>dlopen</strong>=yes</pre></a></li>
+                                <li value="111"><a href="/file/71285012b290bc11d7f50e38608e9625ed19879e/tortoisesvn/ext/expat/m4/ltoptions.m4#111"><pre>])</pre></a></li>
+                                <li value="112"><a href="/file/71285012b290bc11d7f50e38608e9625ed19879e/tortoisesvn/ext/expat/m4/ltoptions.m4#112"><pre></pre></a></li>
+                                <li value="113"><a href="/file/71285012b290bc11d7f50e38608e9625ed19879e/tortoisesvn/ext/expat/m4/ltoptions.m4#113"><pre>AU_DEFUN([AC_LIBTOOL_<strong>DLOPEN</strong>],</pre></a></li>
+                                <li value="114"><a href="/file/71285012b290bc11d7f50e38608e9625ed19879e/tortoisesvn/ext/expat/m4/ltoptions.m4#114"><pre>[_LT_SET_OPTION([LT_INIT], [<strong>dlopen</strong>])</pre></a></li>
+                                <li value="115"><a href="/file/71285012b290bc11d7f50e38608e9625ed19879e/tortoisesvn/ext/expat/m4/ltoptions.m4#115"><pre>AC_DIAGNOSE([obsolete],</pre></a></li>
+                                <li value="115"><a href="/file/71285012b290bc11d7f50e38608e9625ed19879e/tortoisesvn/ext/expat/m4/ltoptions.m4#115"><pre>[$0: Remove this warning and the call to _LT_SET_OPTION when you</pre></a></li>
+                                <li value="117"><a href="/file/71285012b290bc11d7f50e38608e9625ed19879e/tortoisesvn/ext/expat/m4/ltoptions.m4#117"><pre>put the '<strong>dlopen</strong>' option into LT_INIT's first parameter.])</pre></a></li>
+                                <li value="121"><a href="/file/71285012b290bc11d7f50e38608e9625ed19879e/tortoisesvn/ext/expat/m4/ltoptions.m4#121"><pre>dnl AC_DEFUN([AC_LIBTOOL_<strong>DLOPEN</strong>], [])</pre></a></li>
+                            </ol>
+                            <hr class="spacer">
+                        </div>
+                        <div class="code-result">
+                            <div>
+                                <h5><div><a href="/file/e610876136353ec0ffba3fe63bc9517765d7ade7/tortoisesvn/ext/apr/dso/netware/dso.c">dso.c</a><span> in </span><a href="/repository/overview/tortoisesvn/">tortoisesvn</a><small><span> </span><span><span>/</span><a>ext</a></span><span><span>/</span><a>apr</a></span><span><span>/</span><a>dso</a></span><span><span>/</span><a>netware</a></span><span>/dso.c</span> | 1 lines | C</small></div></h5></div>
+                            <ol class="code-result">
+                                <li value="80"><a href="/file/e610876136353ec0ffba3fe63bc9517765d7ade7/tortoisesvn/ext/apr/dso/netware/dso.c#80"><pre></pre></a></li>
+                                <li value="81"><a href="/file/e610876136353ec0ffba3fe63bc9517765d7ade7/tortoisesvn/ext/apr/dso/netware/dso.c#81"><pre>    os_handle = <strong>dlopen</strong>(fullpath, RTLD_NOW | RTLD_LOCAL);</pre></a></li>
+                                <li value="82"><a href="/file/e610876136353ec0ffba3fe63bc9517765d7ade7/tortoisesvn/ext/apr/dso/netware/dso.c#82"><pre></pre></a></li>
+                            </ol>
+                            <hr class="spacer">
+                        </div>
+                        <div class="code-result">
+                            <div>
+                                <h5><div><a href="/file/d30ca9561c6270412756a59e16070abdb59f233d/tortoisesvn/ext/openssl/crypto/dso/dso_locl.h">dso_locl.h</a><span> in </span><a href="/repository/overview/tortoisesvn/">tortoisesvn</a><small><span> </span><span><span>/</span><a>ext</a></span><span><span>/</span><a>openssl</a></span><span><span>/</span><a>crypto</a></span><span><span>/</span><a>dso</a></span><span>/dso_locl.h</span> | 18 lines | C_Header</small></div></h5></div>
+                            <ol class="code-result">
+                                <li value="20"><a href="/file/d30ca9561c6270412756a59e16070abdb59f233d/tortoisesvn/ext/openssl/crypto/dso/dso_locl.h#20"><pre>    /*</pre></a></li>
+                                <li value="21"><a href="/file/d30ca9561c6270412756a59e16070abdb59f233d/tortoisesvn/ext/openssl/crypto/dso/dso_locl.h#21"><pre>     * Standard <strong>dlopen</strong> uses a (void *). Win32 uses a HANDLE. VMS doesn't use</pre></a></li>
+                                <li value="22"><a href="/file/d30ca9561c6270412756a59e16070abdb59f233d/tortoisesvn/ext/openssl/crypto/dso/dso_locl.h#22"><pre>     * anything but will need to cache the filename for use in the dso_bind</pre></a></li>
+                            </ol>
+                            <hr class="spacer">
+                        </div>
+                        <div class="code-result">
+                            <div>
+                                <h5><div><a href="/file/a46966a8f267c4b8e21f7e21fe7b2d67095dde78/tortoisesvn/ext/libintl/gettext-0.14.6/gettext-runtime/intl/libgnuintl.h.in">libgnuintl.h.in</a><span> in </span><a href="/repository/overview/tortoisesvn/">tortoisesvn</a><small><span> </span><span><span>/</span><a>ext</a></span><span><span>/</span><a>libintl</a></span><span><span>/</span><a>gettext-0.14.6</a></span><span><span>/</span><a>gettext-runtime</a></span><span><span>/</span><a>intl</a></span><span>/libgnuintl.h.in</span> | 196 lines | Autoconf</small></div></h5></div>
+                            <ol class="code-result">
+                                <li value="65"><a href="/file/a46966a8f267c4b8e21f7e21fe7b2d67095dde78/tortoisesvn/ext/libintl/gettext-0.14.6/gettext-runtime/intl/libgnuintl.h.in#65"><pre>        command line,</pre></a></li>
+                                <li value="66"><a href="/file/a46966a8f267c4b8e21f7e21fe7b2d67095dde78/tortoisesvn/ext/libintl/gettext-0.14.6/gettext-runtime/intl/libgnuintl.h.in#66"><pre>     4. in the <strong>dlopen</strong>()ed shared libraries, in the order in which they were</pre></a></li>
+                                <li value="67"><a href="/file/a46966a8f267c4b8e21f7e21fe7b2d67095dde78/tortoisesvn/ext/libintl/gettext-0.14.6/gettext-runtime/intl/libgnuintl.h.in#67"><pre>        <strong>dlopen</strong>()ed.</pre></a></li>
+                                <li value="68"><a href="/file/a46966a8f267c4b8e21f7e21fe7b2d67095dde78/tortoisesvn/ext/libintl/gettext-0.14.6/gettext-runtime/intl/libgnuintl.h.in#68"><pre>   The definition in the C library would override the one in libintl.so if</pre></a></li>
+                                <li value="71"><a href="/file/a46966a8f267c4b8e21f7e21fe7b2d67095dde78/tortoisesvn/ext/libintl/gettext-0.14.6/gettext-runtime/intl/libgnuintl.h.in#71"><pre>     * -lc is given on the link command line before -lintl, or</pre></a></li>
+                                <li value="72"><a href="/file/a46966a8f267c4b8e21f7e21fe7b2d67095dde78/tortoisesvn/ext/libintl/gettext-0.14.6/gettext-runtime/intl/libgnuintl.h.in#72"><pre>     * libintl.so is a dependency of a <strong>dlopen</strong>()ed shared library but not</pre></a></li>
+                                <li value="73"><a href="/file/a46966a8f267c4b8e21f7e21fe7b2d67095dde78/tortoisesvn/ext/libintl/gettext-0.14.6/gettext-runtime/intl/libgnuintl.h.in#73"><pre>       linked to the executable at link time.</pre></a></li>
+                            </ol>
+                            <hr class="spacer">
+                        </div>
+                        <div class="code-result">
+                            <div>
+                                <h5><div><a href="/file/2aaf3b36b3b23a081ceb48dc1f4c47454c35b96d/tortoisesvn/ext/libintl/gettext-0.14.6/gettext-runtime/intl/libintl.h">libintl.h</a><span> in </span><a href="/repository/overview/tortoisesvn/">tortoisesvn</a><small><span> </span><span><span>/</span><a>ext</a></span><span><span>/</span><a>libintl</a></span><span><span>/</span><a>gettext-0.14.6</a></span><span><span>/</span><a>gettext-runtime</a></span><span><span>/</span><a>intl</a></span><span>/libintl.h</span> | 22 lines | C_Header</small></div></h5></div>
+                            <ol class="code-result">
+                                <li value="71"><a href="/file/2aaf3b36b3b23a081ceb48dc1f4c47454c35b96d/tortoisesvn/ext/libintl/gettext-0.14.6/gettext-runtime/intl/libintl.h#71"><pre>        command line,</pre></a></li>
+                                <li value="72"><a href="/file/2aaf3b36b3b23a081ceb48dc1f4c47454c35b96d/tortoisesvn/ext/libintl/gettext-0.14.6/gettext-runtime/intl/libintl.h#72"><pre>     4. in the <strong>dlopen</strong>()ed shared libraries, in the order in which they were</pre></a></li>
+                                <li value="73"><a href="/file/2aaf3b36b3b23a081ceb48dc1f4c47454c35b96d/tortoisesvn/ext/libintl/gettext-0.14.6/gettext-runtime/intl/libintl.h#73"><pre>        <strong>dlopen</strong>()ed.</pre></a></li>
+                                <li value="74"><a href="/file/2aaf3b36b3b23a081ceb48dc1f4c47454c35b96d/tortoisesvn/ext/libintl/gettext-0.14.6/gettext-runtime/intl/libintl.h#74"><pre>   The definition in the C library would override the one in libintl.so if</pre></a></li>
+                                <li value="77"><a href="/file/2aaf3b36b3b23a081ceb48dc1f4c47454c35b96d/tortoisesvn/ext/libintl/gettext-0.14.6/gettext-runtime/intl/libintl.h#77"><pre>     * -lc is given on the link command line before -lintl, or</pre></a></li>
+                                <li value="78"><a href="/file/2aaf3b36b3b23a081ceb48dc1f4c47454c35b96d/tortoisesvn/ext/libintl/gettext-0.14.6/gettext-runtime/intl/libintl.h#78"><pre>     * libintl.so is a dependency of a <strong>dlopen</strong>()ed shared library but not</pre></a></li>
+                                <li value="79"><a href="/file/2aaf3b36b3b23a081ceb48dc1f4c47454c35b96d/tortoisesvn/ext/libintl/gettext-0.14.6/gettext-runtime/intl/libintl.h#79"><pre>       linked to the executable at link time.</pre></a></li>
+                            </ol>
+                            <hr class="spacer">
+                        </div>
+                        <div class="code-result">
+                            <div>
+                                <h5><div><a href="/file/039fecdcd5b82c9c1d86d015c2fd1758337047d4/tortoisesvn/ext/libintl/gettext-0.14.6/gettext-runtime/intl/libgnuintl.h">libgnuintl.h</a><span> in </span><a href="/repository/overview/tortoisesvn/">tortoisesvn</a><small><span> </span><span><span>/</span><a>ext</a></span><span><span>/</span><a>libintl</a></span><span><span>/</span><a>gettext-0.14.6</a></span><span><span>/</span><a>gettext-runtime</a></span><span><span>/</span><a>intl</a></span><span>/libgnuintl.h</span> | 22 lines | C_Header</small></div></h5></div>
+                            <ol class="code-result">
+                                <li value="71"><a href="/file/039fecdcd5b82c9c1d86d015c2fd1758337047d4/tortoisesvn/ext/libintl/gettext-0.14.6/gettext-runtime/intl/libgnuintl.h#71"><pre>        command line,</pre></a></li>
+                                <li value="72"><a href="/file/039fecdcd5b82c9c1d86d015c2fd1758337047d4/tortoisesvn/ext/libintl/gettext-0.14.6/gettext-runtime/intl/libgnuintl.h#72"><pre>     4. in the <strong>dlopen</strong>()ed shared libraries, in the order in which they were</pre></a></li>
+                                <li value="73"><a href="/file/039fecdcd5b82c9c1d86d015c2fd1758337047d4/tortoisesvn/ext/libintl/gettext-0.14.6/gettext-runtime/intl/libgnuintl.h#73"><pre>        <strong>dlopen</strong>()ed.</pre></a></li>
+                                <li value="74"><a href="/file/039fecdcd5b82c9c1d86d015c2fd1758337047d4/tortoisesvn/ext/libintl/gettext-0.14.6/gettext-runtime/intl/libgnuintl.h#74"><pre>   The definition in the C library would override the one in libintl.so if</pre></a></li>
+                                <li value="77"><a href="/file/039fecdcd5b82c9c1d86d015c2fd1758337047d4/tortoisesvn/ext/libintl/gettext-0.14.6/gettext-runtime/intl/libgnuintl.h#77"><pre>     * -lc is given on the link command line before -lintl, or</pre></a></li>
+                                <li value="78"><a href="/file/039fecdcd5b82c9c1d86d015c2fd1758337047d4/tortoisesvn/ext/libintl/gettext-0.14.6/gettext-runtime/intl/libgnuintl.h#78"><pre>     * libintl.so is a dependency of a <strong>dlopen</strong>()ed shared library but not</pre></a></li>
+                                <li value="79"><a href="/file/039fecdcd5b82c9c1d86d015c2fd1758337047d4/tortoisesvn/ext/libintl/gettext-0.14.6/gettext-runtime/intl/libgnuintl.h#79"><pre>       linked to the executable at link time.</pre></a></li>
+                            </ol>
+                            <hr class="spacer">
+                        </div>
+                        <div class="code-result">
+                            <div>
+                                <h5><div><a href="/file/29cc05f87f479fe933b78f048a046e54045c51f5/tortoisesvn/ext/apr/dso/aix/dso.c">dso.c</a><span> in </span><a href="/repository/overview/tortoisesvn/">tortoisesvn</a><small><span> </span><span><span>/</span><a>ext</a></span><span><span>/</span><a>apr</a></span><span><span>/</span><a>dso</a></span><span><span>/</span><a>aix</a></span><span>/dso.c</span> | 50 lines | C</small></div></h5></div>
+                            <ol class="code-result">
+                                <li value="75"><a href="/file/29cc05f87f479fe933b78f048a046e54045c51f5/tortoisesvn/ext/apr/dso/aix/dso.c#75"><pre>/*</pre></a></li>
+                                <li value="76"><a href="/file/29cc05f87f479fe933b78f048a046e54045c51f5/tortoisesvn/ext/apr/dso/aix/dso.c#76"><pre> * Mode flags for the <strong>dlopen</strong> routine.</pre></a></li>
+                                <li value="77"><a href="/file/29cc05f87f479fe933b78f048a046e54045c51f5/tortoisesvn/ext/apr/dso/aix/dso.c#77"><pre> */</pre></a></li>
+                                <li value="130"><a href="/file/29cc05f87f479fe933b78f048a046e54045c51f5/tortoisesvn/ext/apr/dso/aix/dso.c#130"><pre>{</pre></a></li>
+                                <li value="131"><a href="/file/29cc05f87f479fe933b78f048a046e54045c51f5/tortoisesvn/ext/apr/dso/aix/dso.c#131"><pre>    void *os_handle = <strong>dlopen</strong>((char *)path, RTLD_NOW | RTLD_GLOBAL);</pre></a></li>
+                                <li value="132"><a href="/file/29cc05f87f479fe933b78f048a046e54045c51f5/tortoisesvn/ext/apr/dso/aix/dso.c#132"><pre></pre></a></li>
+                                <li value="180"><a href="/file/29cc05f87f479fe933b78f048a046e54045c51f5/tortoisesvn/ext/apr/dso/aix/dso.c#180"><pre>/*</pre></a></li>
+                                <li value="181"><a href="/file/29cc05f87f479fe933b78f048a046e54045c51f5/tortoisesvn/ext/apr/dso/aix/dso.c#181"><pre> * We simulate <strong>dlopen</strong>() et al. through a call to load. Because AIX has</pre></a></li>
+                                <li value="182"><a href="/file/29cc05f87f479fe933b78f048a046e54045c51f5/tortoisesvn/ext/apr/dso/aix/dso.c#182"><pre> * no call to find an exported symbol we read the loader section of the</pre></a></li>
+                                <li value="203"><a href="/file/29cc05f87f479fe933b78f048a046e54045c51f5/tortoisesvn/ext/apr/dso/aix/dso.c#203"><pre>/*</pre></a></li>
+                                <li value="204"><a href="/file/29cc05f87f479fe933b78f048a046e54045c51f5/tortoisesvn/ext/apr/dso/aix/dso.c#204"><pre> * The void * handle returned from <strong>dlopen</strong> is actually a ModulePtr.</pre></a></li>
+                                <li value="205"><a href="/file/29cc05f87f479fe933b78f048a046e54045c51f5/tortoisesvn/ext/apr/dso/aix/dso.c#205"><pre> */</pre></a></li>
+                                <li value="241"><a href="/file/29cc05f87f479fe933b78f048a046e54045c51f5/tortoisesvn/ext/apr/dso/aix/dso.c#241"><pre></pre></a></li>
+                                <li value="242"><a href="/file/29cc05f87f479fe933b78f048a046e54045c51f5/tortoisesvn/ext/apr/dso/aix/dso.c#242"><pre>void *<strong>dlopen</strong>(const char *path, int mode)</pre></a></li>
+                                <li value="286"><a href="/file/29cc05f87f479fe933b78f048a046e54045c51f5/tortoisesvn/ext/apr/dso/aix/dso.c#286"><pre>    strcpy(errbuf, "<strong>dlopen</strong>: ");</pre></a></li>
+                            </ol>
+                            <hr class="spacer">
+                        </div>
+                        <div class="code-result">
+                            <div>
+                                <h5><div><a href="/file/8f62b980a291dc7941ea1f9aef864996f0e500d1/redis/deps/lua/src/luaconf.h">luaconf.h</a><span> in </span><a href="/repository/overview/redis/">redis</a><small><span> </span><span><span>/</span><a>deps</a></span><span><span>/</span><a>lua</a></span><span><span>/</span><a>src</a></span><span>/luaconf.h</span> | 82 lines | C_Header</small></div></h5></div>
+                            <ol class="code-result">
+                                <li value="37"><a href="/file/8f62b980a291dc7941ea1f9aef864996f0e500d1/redis/deps/lua/src/luaconf.h#37"><pre>#define LUA_USE_POSIX</pre></a></li>
+                                <li value="38"><a href="/file/8f62b980a291dc7941ea1f9aef864996f0e500d1/redis/deps/lua/src/luaconf.h#38"><pre>#define LUA_USE_<strong>DLOPEN</strong>        /* needs an extra library: -ldl */</pre></a></li>
+                                <li value="39"><a href="/file/8f62b980a291dc7941ea1f9aef864996f0e500d1/redis/deps/lua/src/luaconf.h#39"><pre>#define LUA_USE_READLINE    /* needs some extra libraries */</pre></a></li>
+                                <li value="689"><a href="/file/8f62b980a291dc7941ea1f9aef864996f0e500d1/redis/deps/lua/src/luaconf.h#689"><pre>** dynamic-library system for your platform (either Windows' DLL, Mac's</pre></a></li>
+                                <li value="690"><a href="/file/8f62b980a291dc7941ea1f9aef864996f0e500d1/redis/deps/lua/src/luaconf.h#690"><pre>** dyld, or Unix's <strong>dlopen</strong>). If your system is some kind of Unix, there</pre></a></li>
+                                <li value="691"><a href="/file/8f62b980a291dc7941ea1f9aef864996f0e500d1/redis/deps/lua/src/luaconf.h#691"><pre>** is a good chance that it has <strong>dlopen</strong>, so LUA_DL_<strong>DLOPEN</strong> will work for</pre></a></li>
+                                <li value="692"><a href="/file/8f62b980a291dc7941ea1f9aef864996f0e500d1/redis/deps/lua/src/luaconf.h#692"><pre>** it.  To use <strong>dlopen</strong> you also need to adapt the src/Makefile (probably</pre></a></li>
+                                <li value="693"><a href="/file/8f62b980a291dc7941ea1f9aef864996f0e500d1/redis/deps/lua/src/luaconf.h#693"><pre>** adding -ldl to the linker options), so Lua does not select it</pre></a></li>
+                                <li value="694"><a href="/file/8f62b980a291dc7941ea1f9aef864996f0e500d1/redis/deps/lua/src/luaconf.h#694"><pre>** automatically.  (When you change the makefile to add -ldl, you must</pre></a></li>
+                                <li value="695"><a href="/file/8f62b980a291dc7941ea1f9aef864996f0e500d1/redis/deps/lua/src/luaconf.h#695"><pre>** also add -DLUA_USE_<strong>DLOPEN</strong>.)</pre></a></li>
+                                <li value="696"><a href="/file/8f62b980a291dc7941ea1f9aef864996f0e500d1/redis/deps/lua/src/luaconf.h#696"><pre>** If you do not want any kind of dynamic library, undefine all these</pre></a></li>
+                                <li value="699"><a href="/file/8f62b980a291dc7941ea1f9aef864996f0e500d1/redis/deps/lua/src/luaconf.h#699"><pre>*/</pre></a></li>
+                                <li value="700"><a href="/file/8f62b980a291dc7941ea1f9aef864996f0e500d1/redis/deps/lua/src/luaconf.h#700"><pre>#if defined(LUA_USE_<strong>DLOPEN</strong>)</pre></a></li>
+                                <li value="701"><a href="/file/8f62b980a291dc7941ea1f9aef864996f0e500d1/redis/deps/lua/src/luaconf.h#701"><pre>#define LUA_DL_<strong>DLOPEN</strong></pre></a></li>
+                                <li value="702"><a href="/file/8f62b980a291dc7941ea1f9aef864996f0e500d1/redis/deps/lua/src/luaconf.h#702"><pre>#endif</pre></a></li>
+                            </ol>
+                            <hr class="spacer">
+                        </div>
+                        <div class="code-result">
+                            <div>
+                                <h5><div><a href="/file/083713bb549e5b5377511c52cf5cbecae30ccabc/tortoisesvn/ext/openssl/test/shlibloadtest.c">shlibloadtest.c</a><span> in </span><a href="/repository/overview/tortoisesvn/">tortoisesvn</a><small><span> </span><span><span>/</span><a>ext</a></span><span><span>/</span><a>openssl</a></span><span><span>/</span><a>test</a></span><span>/shlibloadtest.c</span> | 2 lines | C</small></div></h5></div>
+                            <ol class="code-result">
+                                <li value="50"><a href="/file/083713bb549e5b5377511c52cf5cbecae30ccabc/tortoisesvn/ext/openssl/test/shlibloadtest.c#50"><pre>{</pre></a></li>
+                                <li value="51"><a href="/file/083713bb549e5b5377511c52cf5cbecae30ccabc/tortoisesvn/ext/openssl/test/shlibloadtest.c#51"><pre>    *lib = <strong>dlopen</strong>(filename, RTLD_GLOBAL | RTLD_LAZY);</pre></a></li>
+                                <li value="52"><a href="/file/083713bb549e5b5377511c52cf5cbecae30ccabc/tortoisesvn/ext/openssl/test/shlibloadtest.c#52"><pre></pre></a></li>
+                            </ol>
+                            <hr class="spacer">
+                        </div>
+                        <div class="code-result">
+                            <div>
+                                <h5><div><a href="/file/17295088ea1483056c42d627dc836e724e21ea04/tortoisesvn/ext/expat/m4/libtool.m4">libtool.m4</a><span> in </span><a href="/repository/overview/tortoisesvn/">tortoisesvn</a><small><span> </span><span><span>/</span><a>ext</a></span><span><span>/</span><a>expat</a></span><span><span>/</span><a>m4</a></span><span>/libtool.m4</span> | 6132 lines | m4</small></div></h5></div>
+                            <ol class="code-result">
+                                <li value="1827"><a href="/file/17295088ea1483056c42d627dc836e724e21ea04/tortoisesvn/ext/expat/m4/libtool.m4#1827"><pre># _LT_TRY_<strong>DLOPEN</strong>_SELF (ACTION-IF-TRUE, ACTION-IF-TRUE-W-USCORE,</pre></a></li>
+                                <li value="1828"><a href="/file/17295088ea1483056c42d627dc836e724e21ea04/tortoisesvn/ext/expat/m4/libtool.m4#1828"><pre># ----------------------------------------------------------------</pre></a></li>
+                                <li value="1830"><a href="/file/17295088ea1483056c42d627dc836e724e21ea04/tortoisesvn/ext/expat/m4/libtool.m4#1830"><pre>m4_defun([_LT_TRY_<strong>DLOPEN</strong>_SELF],</pre></a></li>
+                                <li value="1888"><a href="/file/17295088ea1483056c42d627dc836e724e21ea04/tortoisesvn/ext/expat/m4/libtool.m4#1888"><pre>  void *self = <strong>dlopen</strong> (0, LT_DLGLOBAL|LT_DLLAZY_OR_NOW);</pre></a></li>
+                                <li value="1921"><a href="/file/17295088ea1483056c42d627dc836e724e21ea04/tortoisesvn/ext/expat/m4/libtool.m4#1921"><pre>])# _LT_TRY_<strong>DLOPEN</strong>_SELF</pre></a></li>
+                                <li value="1922"><a href="/file/17295088ea1483056c42d627dc836e724e21ea04/tortoisesvn/ext/expat/m4/libtool.m4#1922"><pre></pre></a></li>
+                                <li value="1924"><a href="/file/17295088ea1483056c42d627dc836e724e21ea04/tortoisesvn/ext/expat/m4/libtool.m4#1924"><pre># LT_SYS_<strong>DLOPEN</strong>_SELF</pre></a></li>
+                                <li value="1926"><a href="/file/17295088ea1483056c42d627dc836e724e21ea04/tortoisesvn/ext/expat/m4/libtool.m4#1926"><pre>AC_DEFUN([LT_SYS_<strong>DLOPEN</strong>_SELF],</pre></a></li>
+                                <li value="1928"><a href="/file/17295088ea1483056c42d627dc836e724e21ea04/tortoisesvn/ext/expat/m4/libtool.m4#1928"><pre>if test yes != "$enable_<strong>dlopen</strong>"; then</pre></a></li>
+                                <li value="1929"><a href="/file/17295088ea1483056c42d627dc836e724e21ea04/tortoisesvn/ext/expat/m4/libtool.m4#1929"><pre>  enable_<strong>dlopen</strong>=unknown</pre></a></li>
+                                <li value="1930"><a href="/file/17295088ea1483056c42d627dc836e724e21ea04/tortoisesvn/ext/expat/m4/libtool.m4#1930"><pre>  enable_<strong>dlopen</strong>_self=unknown</pre></a></li>
+                                <li value="1931"><a href="/file/17295088ea1483056c42d627dc836e724e21ea04/tortoisesvn/ext/expat/m4/libtool.m4#1931"><pre>  enable_<strong>dlopen</strong>_self_static=unknown</pre></a></li>
+                                <li value="1931"><a href="/file/17295088ea1483056c42d627dc836e724e21ea04/tortoisesvn/ext/expat/m4/libtool.m4#1931"><pre>else</pre></a></li>
+                                <li value="1933"><a href="/file/17295088ea1483056c42d627dc836e724e21ea04/tortoisesvn/ext/expat/m4/libtool.m4#1933"><pre>  lt_cv_<strong>dlopen</strong>=no</pre></a></li>
+                                <li value="1934"><a href="/file/17295088ea1483056c42d627dc836e724e21ea04/tortoisesvn/ext/expat/m4/libtool.m4#1934"><pre></pre></a></li>
+                            </ol>
+                            <hr class="spacer">
+                        </div>
+                        <div class="code-result">
+                            <div>
+                                <h5><div><a href="/file/f415fa525b373696c15f5bd63a996e6999bd1311/tortoisesvn/ext/cyrus-SASL/lib/Makefile.in">Makefile.in</a><span> in </span><a href="/repository/overview/tortoisesvn/">tortoisesvn</a><small><span> </span><span><span>/</span><a>ext</a></span><span><span>/</span><a>cyrus-SASL</a></span><span><span>/</span><a>lib</a></span><span>/Makefile.in</span> | 531 lines | Autoconf</small></div></h5></div>
+                            <ol class="code-result">
+                                <li value="239"><a href="/file/f415fa525b373696c15f5bd63a996e6999bd1311/tortoisesvn/ext/cyrus-SASL/lib/Makefile.in#239"><pre></pre></a></li>
+                                <li value="240"><a href="/file/f415fa525b373696c15f5bd63a996e6999bd1311/tortoisesvn/ext/cyrus-SASL/lib/Makefile.in#240"><pre>EXTRA_DIST = win<strong>dlopen</strong>.c staticopen.h NTMakefile</pre></a></li>
+                                <li value="241"><a href="/file/f415fa525b373696c15f5bd63a996e6999bd1311/tortoisesvn/ext/cyrus-SASL/lib/Makefile.in#241"><pre>EXTRA_LIBRARIES = libsasl2.a</pre></a></li>
+                                <li value="247"><a href="/file/f415fa525b373696c15f5bd63a996e6999bd1311/tortoisesvn/ext/cyrus-SASL/lib/Makefile.in#247"><pre>common_headers = saslint.h</pre></a></li>
+                                <li value="248"><a href="/file/f415fa525b373696c15f5bd63a996e6999bd1311/tortoisesvn/ext/cyrus-SASL/lib/Makefile.in#248"><pre>common_sources = auxprop.c canonusr.c checkpw.c client.c common.c config.c external.c md5.c saslutil.c server.c seterror.c <strong>dlopen</strong>.c ../plugins/plugin_common.c</pre></a></li>
+                                <li value="249"><a href="/file/f415fa525b373696c15f5bd63a996e6999bd1311/tortoisesvn/ext/cyrus-SASL/lib/Makefile.in#249"><pre></pre></a></li>
+                                <li value="272"><a href="/file/f415fa525b373696c15f5bd63a996e6999bd1311/tortoisesvn/ext/cyrus-SASL/lib/Makefile.in#272"><pre>    config.lo external.lo md5.lo saslutil.lo server.lo seterror.lo \</pre></a></li>
+                                <li value="273"><a href="/file/f415fa525b373696c15f5bd63a996e6999bd1311/tortoisesvn/ext/cyrus-SASL/lib/Makefile.in#273"><pre>    <strong>dlopen</strong>.lo plugin_common.lo</pre></a></li>
+                                <li value="274"><a href="/file/f415fa525b373696c15f5bd63a996e6999bd1311/tortoisesvn/ext/cyrus-SASL/lib/Makefile.in#274"><pre>am__objects_2 =</pre></a></li>
+                                <li value="285"><a href="/file/f415fa525b373696c15f5bd63a996e6999bd1311/tortoisesvn/ext/cyrus-SASL/lib/Makefile.in#285"><pre>@AMDEP_TRUE@    ./$(DEPDIR)/client.Plo ./$(DEPDIR)/common.Plo \</pre></a></li>
+                                <li value="286"><a href="/file/f415fa525b373696c15f5bd63a996e6999bd1311/tortoisesvn/ext/cyrus-SASL/lib/Makefile.in#286"><pre>@AMDEP_TRUE@    ./$(DEPDIR)/config.Plo ./$(DEPDIR)/<strong>dlopen</strong>.Plo \</pre></a></li>
+                                <li value="287"><a href="/file/f415fa525b373696c15f5bd63a996e6999bd1311/tortoisesvn/ext/cyrus-SASL/lib/Makefile.in#287"><pre>@AMDEP_TRUE@    ./$(DEPDIR)/external.Plo ./$(DEPDIR)/md5.Plo \</pre></a></li>
+                                <li value="364"><a href="/file/f415fa525b373696c15f5bd63a996e6999bd1311/tortoisesvn/ext/cyrus-SASL/lib/Makefile.in#364"><pre>@AMDEP_TRUE@@am__include@ @am__quote@./$(DEPDIR)/config.Plo@am__quote@</pre></a></li>
+                                <li value="365"><a href="/file/f415fa525b373696c15f5bd63a996e6999bd1311/tortoisesvn/ext/cyrus-SASL/lib/Makefile.in#365"><pre>@AMDEP_TRUE@@am__include@ @am__quote@./$(DEPDIR)/<strong>dlopen</strong>.Plo@am__quote@</pre></a></li>
+                                <li value="366"><a href="/file/f415fa525b373696c15f5bd63a996e6999bd1311/tortoisesvn/ext/cyrus-SASL/lib/Makefile.in#366"><pre>@AMDEP_TRUE@@am__include@ @am__quote@./$(DEPDIR)/external.Plo@am__quote@</pre></a></li>
+                            </ol>
+                            <hr class="spacer">
+                        </div>
+                        <div class="code-result">
+                            <div>
+                                <h5><div><a href="/file/a55073c5de65f7349b47abbb17aa377300f8812d/redis/deps/lua/src/Makefile">Makefile</a><span> in </span><a href="/repository/overview/redis/">redis</a><small><span> </span><span><span>/</span><a>deps</a></span><span><span>/</span><a>lua</a></span><span><span>/</span><a>src</a></span><span>/Makefile</span> | 135 lines | Makefile</small></div></h5></div>
+                            <ol class="code-result">
+                                <li value="84"><a href="/file/a55073c5de65f7349b47abbb17aa377300f8812d/redis/deps/lua/src/Makefile#84"><pre>aix:</pre></a></li>
+                                <li value="85"><a href="/file/a55073c5de65f7349b47abbb17aa377300f8812d/redis/deps/lua/src/Makefile#85"><pre>    $(MAKE) all CC="xlc" CFLAGS="-O2 -DLUA_USE_POSIX -DLUA_USE_<strong>DLOPEN</strong>" MYLIBS="-ldl" MYLDFLAGS="-brtl -bexpall"</pre></a></li>
+                                <li value="86"><a href="/file/a55073c5de65f7349b47abbb17aa377300f8812d/redis/deps/lua/src/Makefile#86"><pre></pre></a></li>
+                                <li value="90"><a href="/file/a55073c5de65f7349b47abbb17aa377300f8812d/redis/deps/lua/src/Makefile#90"><pre>bsd:</pre></a></li>
+                                <li value="91"><a href="/file/a55073c5de65f7349b47abbb17aa377300f8812d/redis/deps/lua/src/Makefile#91"><pre>    $(MAKE) all MYCFLAGS="-DLUA_USE_POSIX -DLUA_USE_<strong>DLOPEN</strong>" MYLIBS="-Wl,-E"</pre></a></li>
+                                <li value="92"><a href="/file/a55073c5de65f7349b47abbb17aa377300f8812d/redis/deps/lua/src/Makefile#92"><pre></pre></a></li>
+                                <li value="116"><a href="/file/a55073c5de65f7349b47abbb17aa377300f8812d/redis/deps/lua/src/Makefile#116"><pre>solaris:</pre></a></li>
+                                <li value="117"><a href="/file/a55073c5de65f7349b47abbb17aa377300f8812d/redis/deps/lua/src/Makefile#117"><pre>    $(MAKE) all MYCFLAGS="-DLUA_USE_POSIX -DLUA_USE_<strong>DLOPEN</strong>" MYLIBS="-ldl"</pre></a></li>
+                                <li value="118"><a href="/file/a55073c5de65f7349b47abbb17aa377300f8812d/redis/deps/lua/src/Makefile#118"><pre></pre></a></li>
+                            </ol>
+                            <hr class="spacer">
+                        </div>
+                        <div class="code-result">
+                            <div>
+                                <h5><div><a href="/file/52f2dfa7970946f354263f3638fcadd325d95f17/tortoisesvn/ext/expat/m4/lt~obsolete.m4">lt~obsolete.m4</a><span> in </span><a href="/repository/overview/tortoisesvn/">tortoisesvn</a><small><span> </span><span><span>/</span><a>ext</a></span><span><span>/</span><a>expat</a></span><span><span>/</span><a>m4</a></span><span>/lt~obsolete.m4</span> | 62 lines | m4</small></div></h5></div>
+                            <ol class="code-result">
+                                <li value="50"><a href="/file/52f2dfa7970946f354263f3638fcadd325d95f17/tortoisesvn/ext/expat/m4/lt~obsolete.m4#50"><pre>m4_ifndef([AC_LIBTOOL_SYS_OLD_ARCHIVE],    [AC_DEFUN([AC_LIBTOOL_SYS_OLD_ARCHIVE])])</pre></a></li>
+                                <li value="51"><a href="/file/52f2dfa7970946f354263f3638fcadd325d95f17/tortoisesvn/ext/expat/m4/lt~obsolete.m4#51"><pre>m4_ifndef([_LT_AC_TRY_<strong>DLOPEN</strong>_SELF],    [AC_DEFUN([_LT_AC_TRY_<strong>DLOPEN</strong>_SELF])])</pre></a></li>
+                                <li value="52"><a href="/file/52f2dfa7970946f354263f3638fcadd325d95f17/tortoisesvn/ext/expat/m4/lt~obsolete.m4#52"><pre>m4_ifndef([AC_LIBTOOL_PROG_CC_C_O],    [AC_DEFUN([AC_LIBTOOL_PROG_CC_C_O])])</pre></a></li>
+                            </ol>
+                            <hr class="spacer">
+                        </div>
+                        <div class="code-result">
+                            <div>
+                                <h5><div><a href="/file/47c40deb1218bc2d08258c3b4d1355538b57d66d/redis/deps/jemalloc/INSTALL.md">INSTALL.md</a><span> in </span><a href="/repository/overview/redis/">redis</a><small><span> </span><span><span>/</span><a>deps</a></span><span><span>/</span><a>jemalloc</a></span><span>/INSTALL.md</span> | 286 lines | Markdown</small></div></h5></div>
+                            <ol class="code-result">
+                                <li value="273"><a href="/file/47c40deb1218bc2d08258c3b4d1355538b57d66d/redis/deps/jemalloc/INSTALL.md#273"><pre>    storage (on those platforms that support explicit settings).  This can allow</pre></a></li>
+                                <li value="274"><a href="/file/47c40deb1218bc2d08258c3b4d1355538b57d66d/redis/deps/jemalloc/INSTALL.md#274"><pre>    jemalloc to be dynamically loaded after program startup (e.g. using <strong>dlopen</strong>).</pre></a></li>
+                                <li value="275"><a href="/file/47c40deb1218bc2d08258c3b4d1355538b57d66d/redis/deps/jemalloc/INSTALL.md#275"><pre>    Note that in this case, there will be two malloc implementations operating</pre></a></li>
+                            </ol>
+                            <hr class="spacer">
+                        </div>
+                        <div class="code-result">
+                            <div>
+                                <h5><div><a href="/file/f00aaaaaa42502eab37428d9a0479e14c768b21a/tortoisesvn/ext/apr/configure.in">configure.in</a><span> in </span><a href="/repository/overview/tortoisesvn/">tortoisesvn</a><small><span> </span><span><span>/</span><a>ext</a></span><span><span>/</span><a>apr</a></span><span>/configure.in</span> | 2177 lines | Autoconf</small></div></h5></div>
+                            <ol class="code-result">
+                                <li value="2065"><a href="/file/f00aaaaaa42502eab37428d9a0479e14c768b21a/tortoisesvn/ext/apr/configure.in#2065"><pre>          # several 'other's below probably belong up here.  If they always</pre></a></li>
+                                <li value="2066"><a href="/file/f00aaaaaa42502eab37428d9a0479e14c768b21a/tortoisesvn/ext/apr/configure.in#2066"><pre>          # use a platform implementation and shouldn't test the <strong>dlopen</strong>/dlfcn</pre></a></li>
+                                <li value="2067"><a href="/file/f00aaaaaa42502eab37428d9a0479e14c768b21a/tortoisesvn/ext/apr/configure.in#2067"><pre>          # features, then bring them up here.</pre></a></li>
+                                <li value="2068"><a href="/file/f00aaaaaa42502eab37428d9a0479e14c768b21a/tortoisesvn/ext/apr/configure.in#2068"><pre>          # But if they -should- optionally use dlfcn, and/or need the config</pre></a></li>
+                                <li value="2069"><a href="/file/f00aaaaaa42502eab37428d9a0479e14c768b21a/tortoisesvn/ext/apr/configure.in#2069"><pre>          # detection of <strong>dlopen</strong>/dlsym, do not move them up.</pre></a></li>
+                                <li value="2070"><a href="/file/f00aaaaaa42502eab37428d9a0479e14c768b21a/tortoisesvn/ext/apr/configure.in#2070"><pre>          dsotype=other ;;</pre></a></li>
+                                <li value="2074"><a href="/file/f00aaaaaa42502eab37428d9a0479e14c768b21a/tortoisesvn/ext/apr/configure.in#2074"><pre>    if test "$dsotype" = "any"; then</pre></a></li>
+                                <li value="2075"><a href="/file/f00aaaaaa42502eab37428d9a0479e14c768b21a/tortoisesvn/ext/apr/configure.in#2075"><pre>      AC_CHECK_FUNC(<strong>dlopen</strong>, [dsotype=dlfcn])</pre></a></li>
+                                <li value="2076"><a href="/file/f00aaaaaa42502eab37428d9a0479e14c768b21a/tortoisesvn/ext/apr/configure.in#2076"><pre>    fi</pre></a></li>
+                                <li value="2077"><a href="/file/f00aaaaaa42502eab37428d9a0479e14c768b21a/tortoisesvn/ext/apr/configure.in#2077"><pre>    if test "$dsotype" = "any"; then</pre></a></li>
+                                <li value="2078"><a href="/file/f00aaaaaa42502eab37428d9a0479e14c768b21a/tortoisesvn/ext/apr/configure.in#2078"><pre>      AC_CHECK_LIB(dl, <strong>dlopen</strong>, [dsotype=dlfcn; APR_ADDTO(LIBS,-ldl)])</pre></a></li>
+                                <li value="2079"><a href="/file/f00aaaaaa42502eab37428d9a0479e14c768b21a/tortoisesvn/ext/apr/configure.in#2079"><pre>    fi</pre></a></li>
+                                <li value="2080"><a href="/file/f00aaaaaa42502eab37428d9a0479e14c768b21a/tortoisesvn/ext/apr/configure.in#2080"><pre>    if test "$dsotype" = "dlfcn"; then</pre></a></li>
+                                <li value="2081"><a href="/file/f00aaaaaa42502eab37428d9a0479e14c768b21a/tortoisesvn/ext/apr/configure.in#2081"><pre>        # ReliantUnix has <strong>dlopen</strong>() in libc but dlsym() in libdl :(</pre></a></li>
+                                <li value="2086"><a href="/file/f00aaaaaa42502eab37428d9a0479e14c768b21a/tortoisesvn/ext/apr/configure.in#2086"><pre>              echo "Weird: <strong>dlopen</strong>() was found but dlsym() was not found!"])])</pre></a></li>
+                            </ol>
+                            <hr class="spacer">
+                        </div>
+                        <div class="code-result">
+                            <div>
+                                <h5><div><a href="/file/4635aa02636002c0f4b1d33ef14f8b6b736a3f04/tortoisesvn/ext/expat/conftools/ltmain.sh">ltmain.sh</a><span> in </span><a href="/repository/overview/tortoisesvn/">tortoisesvn</a><small><span> </span><span><span>/</span><a>ext</a></span><span><span>/</span><a>expat</a></span><span><span>/</span><a>conftools</a></span><span>/ltmain.sh</span> | 6985 lines | Shell</small></div></h5></div>
+                            <ol class="code-result">
+                                <li value="2310"><a href="/file/4635aa02636002c0f4b1d33ef14f8b6b736a3f04/tortoisesvn/ext/expat/conftools/ltmain.sh#2310"><pre>    opt_<strong>dlopen</strong>=</pre></a></li>
+                                <li value="2371"><a href="/file/4635aa02636002c0f4b1d33ef14f8b6b736a3f04/tortoisesvn/ext/expat/conftools/ltmain.sh#2371"><pre>        --<strong>dlopen</strong>|-<strong>dlopen</strong>)</pre></a></li>
+                                <li value="2372"><a href="/file/4635aa02636002c0f4b1d33ef14f8b6b736a3f04/tortoisesvn/ext/expat/conftools/ltmain.sh#2372"><pre>}$1"</pre></a></li>
+                                <li value="2488"><a href="/file/4635aa02636002c0f4b1d33ef14f8b6b736a3f04/tortoisesvn/ext/expat/conftools/ltmain.sh#2488"><pre>      # Only execute mode is allowed to have -<strong>dlopen</strong> flags.</pre></a></li>
+                                <li value="2489"><a href="/file/4635aa02636002c0f4b1d33ef14f8b6b736a3f04/tortoisesvn/ext/expat/conftools/ltmain.sh#2489"><pre>      if test -n "$opt_<strong>dlopen</strong>" &amp;&amp; test execute != "$opt_mode"; then</pre></a></li>
+                                <li value="2490"><a href="/file/4635aa02636002c0f4b1d33ef14f8b6b736a3f04/tortoisesvn/ext/expat/conftools/ltmain.sh#2490"><pre>        func_error "unrecognized option '-<strong>dlopen</strong>'"</pre></a></li>
+                                <li value="2490"><a href="/file/4635aa02636002c0f4b1d33ef14f8b6b736a3f04/tortoisesvn/ext/expat/conftools/ltmain.sh#2490"><pre>        $ECHO "$help" 1&gt;&amp;2</pre></a></li>
+                                <li value="3716"><a href="/file/4635aa02636002c0f4b1d33ef14f8b6b736a3f04/tortoisesvn/ext/expat/conftools/ltmain.sh#3716"><pre>  -<strong>dlopen</strong> FILE      add the directory containing FILE to the library path</pre></a></li>
+                                <li value="3718"><a href="/file/4635aa02636002c0f4b1d33ef14f8b6b736a3f04/tortoisesvn/ext/expat/conftools/ltmain.sh#3718"><pre>This mode sets the library path environment variable according to '-<strong>dlopen</strong>'</pre></a></li>
+                                <li value="3773"><a href="/file/4635aa02636002c0f4b1d33ef14f8b6b736a3f04/tortoisesvn/ext/expat/conftools/ltmain.sh#3773"><pre>  -<strong>dlopen</strong> FILE      '-dlpreopen' FILE if it cannot be <strong>dlopen</strong>ed at runtime</pre></a></li>
+                                <li value="3782"><a href="/file/4635aa02636002c0f4b1d33ef14f8b6b736a3f04/tortoisesvn/ext/expat/conftools/ltmain.sh#3782"><pre>  -module           build a library that can <strong>dlopen</strong>ed</pre></a></li>
+                                <li value="3890"><a href="/file/4635aa02636002c0f4b1d33ef14f8b6b736a3f04/tortoisesvn/ext/expat/conftools/ltmain.sh#3890"><pre>    # Handle -<strong>dlopen</strong> flags immediately.</pre></a></li>
+                                <li value="3891"><a href="/file/4635aa02636002c0f4b1d33ef14f8b6b736a3f04/tortoisesvn/ext/expat/conftools/ltmain.sh#3891"><pre>      test -f "$file" \</pre></a></li>
+                                <li value="3910"><a href="/file/4635aa02636002c0f4b1d33ef14f8b6b736a3f04/tortoisesvn/ext/expat/conftools/ltmain.sh#3910"><pre>    # Skip this library if it cannot be <strong>dlopen</strong>ed.</pre></a></li>
+                                <li value="3937"><a href="/file/4635aa02636002c0f4b1d33ef14f8b6b736a3f04/tortoisesvn/ext/expat/conftools/ltmain.sh#3937"><pre>    func_warning "'-<strong>dlopen</strong>' is ignored for non-libtool libraries and objects"</pre></a></li>
+                            </ol>
+                            <hr class="spacer">
+                        </div>
+                    </div>
+                </div>
+                <div class="search-pagination">
+                    <ul class="pagination">
+                        <li class="active"><a>1</a></li>
+                        <li class=""><a>2</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+
   <h3>Results</h3>
   {% for result in page.object_list %}
     {% if forloop.first %}

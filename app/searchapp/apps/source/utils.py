@@ -16,6 +16,12 @@ def recursive_find(base, pattern="*.*"):
             yield os.path.join(root, filename)
 
 
+def split_list(names, chunk_size):
+    return [
+        names[offs : offs + chunk_size] for offs in range(0, len(names), chunk_size)
+    ]
+
+
 def read_file(filename):
     with open(filename, "r") as fd:
         content = fd.read()

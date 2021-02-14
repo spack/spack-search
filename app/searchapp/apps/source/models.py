@@ -1,8 +1,11 @@
 import datetime
 
+from django.conf import settings
 from django.db import models
 from django.urls import reverse
 from django.utils import timezone
+
+import re
 
 
 class BaseModel(models.Model):
@@ -36,6 +39,21 @@ class SourceFile(BaseModel):
     package = models.ForeignKey(Package, on_delete=models.CASCADE)
     name = models.CharField(max_length=200)
     text = models.TextField()
+
+    @property
+    def all_lines(self):
+        """return all lines for a sourcefile (intended for single page detail)"""
+        for lineno, line in enumerate(self.text.split("\n")):
+            yield lineno, line
+
+    @property
+    def lines(self):
+        """we usually want to just show lines that have the query string of interest,
+        including the line numbers. We will yield results in this manner.
+        """
+        for lineno, line in enumerate(self.text.split("\n")):
+            if re.search(settings.SEARCH_TERM, line, re.IGNORECASE):
+                yield lineno, line
 
     def __str__(self):
         return "[sourcefile|%s version %s:%s]" % (

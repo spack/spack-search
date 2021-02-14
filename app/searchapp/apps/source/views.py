@@ -10,7 +10,7 @@ from django.views import generic
 from haystack.inputs import AutoQuery
 from haystack.query import SearchQuerySet
 
-from .forms import CustomSearch
+from .utils import split_list
 from .models import Package, SourceFile
 
 
@@ -18,17 +18,25 @@ def get_package_names():
     return Package.objects.order_by("name").values_list("name", flat=True).distinct()
 
 
-class IndexView(generic.ListView):
-    template_name = "source/index.html"
+def index(request):
+    return render(request, "base/index.html")
 
 
 class PackagesView(generic.ListView):
-    template_name = "source/packages.html"
+    template_name = "packages/packages.html"
     context_object_name = "packages"
 
     def get_queryset(self):
         """Return the list of packages"""
-        return get_package_names()
+        # Get names of packages, split into 12/2 groups
+        names = get_package_names()
+        per_group = max(int(len(names) / 6), 1)
+        return split_list(names, per_group)
+
+
+def sourcefile_detail(request, sid):
+    sourcefile = get_object_or_404(SourceFile, pk=sid)
+    return render(request, "sourcefile/detail.html", {"sourcefile": sourcefile})
 
 
 def package_detail(request, name):
@@ -36,33 +44,72 @@ def package_detail(request, name):
     package_set = Package.objects.filter(name=name)
     return render(
         request,
-        "source/detail.html",
+        "packages/detail.html",
         {"package_set": package_set, "packages": get_package_names()},
     )
 
 
 class ResultsView(generic.DetailView):
     model = SourceFile
-    template_name = "source/results.html"
+    template_name = "search/results.html"
+
+
+def get_filter_options(results, selected):
+    """Given an elastic search result, derive unique packages and extensions
+    (the filter options). We assume for now that all results are sourcefiles.
+    (TODO: we currently don't have extensions in the sourcefile model)
+    """
+    sourcefile_ids = [
+        result.object.id for result in results if isinstance(result.object, SourceFile)
+    ]
+    # package_ids = [result.object.id for result in results if isinstance(result.object, Package)]
+
+    # We assume all results are sourcefiles (this might not scale well)
+    counts = []
+    packages = (
+        SourceFile.objects.filter(id__in=sourcefile_ids)
+        .order_by("package__name")
+        .values_list("package__name", flat=True)
+        .distinct()
+    )
+    for package in packages:
+        is_on = True if package in selected else False
+        counts.append(
+            (package, SourceFile.objects.filter(package__name=package).count(), is_on)
+        )
+    return {"packages": counts}
 
 
 def custom_search(request):
-    form = CustomSearch(request.GET)
 
+    query = request.GET.get("q")
     context = {}
-    if form.is_valid():
-        page_number = request.GET.get("page")
-        results = SearchQuerySet().filter(content=AutoQuery(form.cleaned_data["q"]))
+    if query:
+        page_number = request.GET.get("page", 1)
+        results = SearchQuerySet().filter(content=AutoQuery(query))
+
+        # The user can select a subset of packages
+        selected = [x for x in request.GET.get("packages", "").split(",") if x]
+        print(selected)
+        # We need to get filter options from all results
+        context["filter_options"] = get_filter_options(results, selected)
+
+        # Now filter down to selected
+        if selected:
+            results = [
+                result for result in results if result.object.package.name in selected
+            ]
+        context["query"] = query
+        context["page_number"] = page_number
         context["page"] = Paginator(
             results, settings.HAYSTACK_SEARCH_RESULTS_PER_PAGE
         ).get_page(page_number)
 
-    context["form"] = form
-
-    return render(request, "source/custom_search.html", context)
+    return render(request, "search/custom_search.html", context)
 
 
 def autocomplete(request):
+    """TODO: autocomplete doesn't seem to be working"""
     max_items = 5
     q = request.GET.get("q")
     if q:

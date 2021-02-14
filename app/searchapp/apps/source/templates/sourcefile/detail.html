@@ -1,0 +1,37 @@
+{% extends "base.html" %}
+
+{% load static %}
+{% load source_extras %}
+
+{% block body %}
+<style>
+pre:hover {
+   background-color:yellow !important;
+}
+pre:focus {
+   background-color:green !important;
+}
+</style>
+<div class="container">
+{% include "base/scrolltop.html" %}
+
+<div class="row">
+    <div class="col-lg-10" id="code-results">
+        <h1><a href="{% url 'source:detail' sourcefile.package.name %}">{{ sourcefile.package.name }}</h1>
+            <h2 style="padding-top:20px">{{ sourcefile.package.version }}</h2>
+            {% include "sourcefile/lines.html" with sourcefile=sourcefile %}
+    </div>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+<script src="{% static 'source/js/autocomplete.js' %}"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/mark.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/jquery.mark.min.js"></script>
+<script>
+$(".code-line").click(function(){
+  $(".code-line").css("background-color", "transparent");
+  $(this).css("background-color", "greenyellow"); 
+  $(this).css("width", "800px"); 
+})
+</script>
+{% endblock body %}

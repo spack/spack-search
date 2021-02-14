@@ -1,0 +1,9 @@
+<div class="code-item">
+    <h5>
+        <div><a href="{% url 'source:sourcefile_detail' sourcefile.id %}">{{ sourcefile.name }}</a><span> in </span><a href="{% url 'source:detail' sourcefile.package.name %}">{{ sourcefile.package.name }}</a></div></h5>
+    <div>
+        <ol class="code-item" style='margin-left:0px'>
+        {% for lineno, line in sourcefile.all_lines %}<li id="{{ lineno }}" value="{{ lineno }}"><a href="{% url 'source:sourcefile_detail' sourcefile.id %}#{{ lineno }}"><pre class="code-line">{{ line }}</pre></a></li>{% endfor %}
+        </ol>
+    </div>
+</div>

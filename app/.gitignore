@@ -1,0 +1,4 @@
+*.sqlite3
+secret_key.py
+__pycache__
+migrations
