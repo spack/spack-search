@@ -155,8 +155,6 @@ only be using it locally.
 Once you add packages, we need to use the haystack django integration to update our indices.
 This could be further automated, but I'm walking you through it so you know what is going on.
 
-**Important: this section is currently being tested, images are not yet added**
-
 First rebuild:
 
 ```bash
@@ -165,22 +163,32 @@ $ docker exec -it app_app_1 python manage.py rebuild_index
 ```bash
 WARNING: This will irreparably remove EVERYTHING from your search index in connection 'default'.
 Your choices after this are to restore from backups or rebuild via the `rebuild_index` command.
-Are you sure you wish to continue? [y/N] yes
+Are you sure you wish to continue? [y/N] y
 Removing all documents from your index because you said so.
 All documents removed.
-Indexing 10 packages
-GET /haystack/_mapping [status:404 request:0.001s]
-Indexing 20 source files
+Indexing 5164 packages
+GET /haystack/_mapping [status:404 request:0.003s]
+Indexing 67977 source files
 ```
 
-Then update (these are management commands provided by haystack):
+If you get an errors, you should check the elasticsearch logs. For example,
+I first got a Connection Refused error, and ultimately needed to create my [own
+elasticsearch config](elasticsearch/config.yml) to increase the maximum content length (the files are really
+big):
+
+```yaml
+network.host: 0.0.0.0
+http.max_content_length: 300M
+```
+
+We also see an error about a missing "mapping" endpoint but it continues to run
+without issue. The error is [reported](https://github.com/django-haystack/django-haystack/issues/1142)
+already on the issue tracker. Note that the [rebuild_index](https://django-haystack.readthedocs.io/en/master/management_commands.html#rebuild-index) command is actually performing a `clear_index` and then `update_index`. If you later add new
+records and don't want to clear it first, you can just run update index as follows 
+(and note that these are management commands provided by haystack):
 
 ```bash
 $ docker exec -it app_app_1 python manage.py update_index
-```
-```bash
-Indexing 10 packages
-Indexing 20 source files
 ```
 
 ### 4. Explore Packages
@@ -197,8 +205,15 @@ in).
 
 ![img/package.png](img/package.png)
 
-You can click any line to be taken to the expanded sourcefile view, meaning that you
-see the entire file. Again, instance of dlopen are highlighted. This could
+Note that for some packages with a huge number of files (e.g., openmpi) we might
+want to consider rendering each version as it's own page. It currently takes
+too long to load. 
+
+From the package view (which show snippets of files with matches
+for dlopen) we can then then click any line to be taken to the expanded sourcefile view, meaning that you
+see the entire file. The image below shows that again, instances of dlopen are highlighted. 
+When you highlight a line it appears in yellow, and when you click it there is a permalink
+that moves the line to the top, and turns it green (also shown below). This could
 be customized to allow you to highlight / search for custom terms, but for
 now it's just hard coded :)
 
@@ -214,7 +229,9 @@ for now package name seems reasonable.
 
 ![img/search.png](img/search.png)
 
-That's the gist of it! It's a fairly simple interface and can be updated as needed.
+This is fairly slow, so I'm going to refactor it so the user chooses a package first,
+and then searches. We could also look into ways to make it faster. 
+And that's the gist of it! It's a fairly simple interface and can be updated as needed.
 
 
 ## 6. Debugging Tips

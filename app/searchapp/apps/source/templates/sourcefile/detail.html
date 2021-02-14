@@ -33,5 +33,11 @@ $(".code-line").click(function(){
   $(this).css("background-color", "greenyellow"); 
   $(this).css("width", "800px"); 
 })
+
+$(function () {
+  var context = document.querySelector("#code-results");
+  var instance = new Mark(context);
+  instance.mark("dlopen");
+});
 </script>
 {% endblock body %}

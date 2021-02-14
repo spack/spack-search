@@ -128,6 +128,7 @@ HAYSTACK_CONNECTIONS = {
         "ENGINE": "haystack.backends.elasticsearch2_backend.Elasticsearch2SearchEngine",
         "URL": "http://elasticsearch:9200/",
         "INDEX_NAME": "haystack",
+        'TIMEOUT' : 60,
     },
 }
 

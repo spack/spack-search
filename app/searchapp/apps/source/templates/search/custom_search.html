@@ -10,7 +10,7 @@
     <div class="alert alert-info">Enter a search expression into the box at the top of the page to search!</p>
 </div>
 {% else %}
-<div class="row search-count"><b>{{ page.object_list | length }} results for </b><span class="grey">"{{ query }}"</span></div>
+<div class="row search-count"><b>Showing {{ page.object_list | length }} of {{ page.paginator.count }} results for </b><span class="grey">"{{ query }}"</span></div>
     <div class="row">
         <div class="col-md-3 search-filters-container search-filters">
            <div>
@@ -22,7 +22,7 @@
                <h5>Packages</h5>
                    {% for package in filter_options.packages %}<div class="checkbox">
                       <label>
-                          <input value="{{ package.0 }}" name="package-select" onclick="selectPackages()" type="checkbox" {% if package.2 %}checked{% endif %}><span>{{ package.0 }}</span><span class="badge pull-right">{{ package.1 }}</span></label>
+                          <input value="{{ package }}" name="package-select" onclick="selectPackages()" type="checkbox" {% if package in selected %}checked{% endif %}><span>{{ package }}</span><!--<span class="badge pull-right">{{ package.1 }}</span>--></label>
                      </div>{% endfor %}
            </div>
        </div>

@@ -72,12 +72,9 @@ def get_filter_options(results, selected):
         .values_list("package__name", flat=True)
         .distinct()
     )
-    for package in packages:
-        is_on = True if package in selected else False
-        counts.append(
-            (package, SourceFile.objects.filter(package__name=package).count(), is_on)
-        )
-    return {"packages": counts}
+    # Currently not running query for counts, takes too long and needs to be
+    # optimized
+    return {"packages": packages}
 
 
 def custom_search(request):
@@ -90,19 +87,23 @@ def custom_search(request):
 
         # The user can select a subset of packages
         selected = [x for x in request.GET.get("packages", "").split(",") if x]
-        print(selected)
+
         # We need to get filter options from all results
         context["filter_options"] = get_filter_options(results, selected)
 
-        # Now filter down to selected
-        if selected:
-            results = [
-                result for result in results if result.object.package.name in selected
-            ]
+        # "Annotate" result objects with query and filter down to selected
+        filtered = []
+        for result in results:           
+            if selected and result.object.package.name not in selected:
+                continue
+            result.object.query = query
+            filtered.append(result)
+            
+        context['selected'] = selected
         context["query"] = query
         context["page_number"] = page_number
         context["page"] = Paginator(
-            results, settings.HAYSTACK_SEARCH_RESULTS_PER_PAGE
+            filtered, settings.HAYSTACK_SEARCH_RESULTS_PER_PAGE
         ).get_page(page_number)
 
     return render(request, "search/custom_search.html", context)

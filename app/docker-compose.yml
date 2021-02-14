@@ -28,6 +28,8 @@ services:
 
   elasticsearch:
     image: launcher.gcr.io/google/elasticsearch2
+    volumes:
+      - ./elasticsearch/config.yml:/usr/share/elasticsearch/config/elasticsearch.yml:ro
     ports:
 
       # RESTful API

@@ -47,12 +47,15 @@ class SourceFile(BaseModel):
             yield lineno, line
 
     @property
-    def lines(self):
+    def lines(self, term=None):
         """we usually want to just show lines that have the query string of interest,
         including the line numbers. We will yield results in this manner.
         """
+        if hasattr(self, "query"):
+            term = term or self.query
+        term = term or self.query or settings.SEARCH_TERM
         for lineno, line in enumerate(self.text.split("\n")):
-            if re.search(settings.SEARCH_TERM, line, re.IGNORECASE):
+            if re.search(term, line, re.IGNORECASE):
                 yield lineno, line
 
     def __str__(self):
