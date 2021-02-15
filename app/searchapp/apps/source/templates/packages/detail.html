@@ -11,7 +11,11 @@
 <div class="row" style="margin:25px; padding:30px">
 
     <!-- package list -->
-    <div class="col-md-2 list-group list-group-root">
+    <div class="col-md-2">
+
+     <a {% if previous %}href="{% url 'source:detail' previous %}"{% else %}disabled=""{% endif %} class="btn btn-xs btn-primary filter-button"><span>&nbsp;</span>◀ Previous</a>
+                            <a {% if next %}href="{% url 'source:detail' next %}"{% else %}disabled=""{% endif %} class="btn btn-xs btn-primary filter-button"><span>&nbsp;</span>Next ▶</a>
+      <div class="list-group list-group-root">
       <ul class="list-group" style='margin-top:20px'>
         {% for p in packages %}
         <li class="list-group-item"><a style="font-weight:600;{% if p == package_set.first.name %}margin-bottom:10px{% endif %}" href="{% url 'source:detail' p %}">{{ p }}</a>
@@ -20,6 +24,7 @@
               </ul>{% else %}</li>{% endif %}
         {% endfor %}
       </ul>
+      </div>
     </div>
 
     <!-- Code items -->

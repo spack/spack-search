@@ -53,7 +53,7 @@ class SourceFile(BaseModel):
         """
         if hasattr(self, "query"):
             term = term or self.query
-        term = term or self.query or settings.SEARCH_TERM
+        term = term or settings.SEARCH_TERM
         for lineno, line in enumerate(self.text.split("\n")):
             if re.search(term, line, re.IGNORECASE):
                 yield lineno, line

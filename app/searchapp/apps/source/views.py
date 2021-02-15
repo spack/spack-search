@@ -10,12 +10,13 @@ from django.views import generic
 from haystack.inputs import AutoQuery
 from haystack.query import SearchQuerySet
 
-from .utils import split_list
+from .utils import (
+    split_list,
+    get_next_previous_packages,
+    get_package_names,
+    get_filter_options,
+)
 from .models import Package, SourceFile
-
-
-def get_package_names():
-    return Package.objects.order_by("name").values_list("name", flat=True).distinct()
 
 
 def index(request):
@@ -42,39 +43,26 @@ def sourcefile_detail(request, sid):
 def package_detail(request, name):
     # We can have more than one version of a package
     package_set = Package.objects.filter(name=name)
+
+    # Get package names for previous and next
+    packages = get_package_names()
+    previous, next = get_next_previous_packages(name, packages)
+
     return render(
         request,
         "packages/detail.html",
-        {"package_set": package_set, "packages": get_package_names()},
+        {
+            "package_set": package_set,
+            "packages": packages,
+            "next": next,
+            "previous": previous,
+        },
     )
 
 
 class ResultsView(generic.DetailView):
     model = SourceFile
     template_name = "search/results.html"
-
-
-def get_filter_options(results, selected):
-    """Given an elastic search result, derive unique packages and extensions
-    (the filter options). We assume for now that all results are sourcefiles.
-    (TODO: we currently don't have extensions in the sourcefile model)
-    """
-    sourcefile_ids = [
-        result.object.id for result in results if isinstance(result.object, SourceFile)
-    ]
-    # package_ids = [result.object.id for result in results if isinstance(result.object, Package)]
-
-    # We assume all results are sourcefiles (this might not scale well)
-    counts = []
-    packages = (
-        SourceFile.objects.filter(id__in=sourcefile_ids)
-        .order_by("package__name")
-        .values_list("package__name", flat=True)
-        .distinct()
-    )
-    # Currently not running query for counts, takes too long and needs to be
-    # optimized
-    return {"packages": packages}
 
 
 def custom_search(request):
