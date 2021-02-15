@@ -104,7 +104,10 @@ we've actually bound this folder from the host at `/data`.
 ```
 
 We can then run a management command to import these files, directing
-to the `/data` folder.
+to the `/data` folder. Since this is just a small demo, the script
+will only import one version of each package file, the rationale being
+it takes less time, is a faster interface, and likely we can get
+an understanding of packages' use of dlopen with just one version.
 
 ```bash
 $ docker exec -it app_app_1 python manage.py add_packages /data
@@ -112,13 +115,14 @@ $ docker exec -it app_app_1 python manage.py add_packages /data
 ```bash
 Data directory: /data
 Found 5164 package files.
-GET /haystack/_mapping [status:404 request:0.032s]
-Added package fpocket version master with 1 matches.
-Added package osqp version master with 2 matches.
-Added package osqp version 0.6.0 with 2 matches.
-Added package osqp version 0.5.0 with 2 matches.
-Added package libid3tag version 0.15.1b with 2 matches.
-Added package comgr version 3.9.0 with 1 matches.
+Only importing one version for package for demo purposes
+GET /haystack/_mapping [status:404 request:0.035s]
+Added package 1 of 1133: fpocket version master
+Added package 2 of 1133: osqp version master
+Added package 3 of 1133: libid3tag version 0.15.1b
+Added package 4 of 1133: comgr version 3.9.0
+Added package 5 of 1133: cryptsetup version 2.3.1
+Added package 6 of 1133: libunistring version 0.9.8
 ...
 ```
 
@@ -127,23 +131,18 @@ this message if they are found (and if you have an idea for how to address this,
 please [open an issue](https://github.com/spack/spack-search/issues). It could be
 as simple to replace these characters with something else?
 
-
 ```bash
 Issue with gcc sourcefile gcc/doc/gcc.info, likely NUL characters.
 Issue with gcc sourcefile gcc/doc/gccint.info, likely NUL characters.
 Issue with gcc sourcefile gcc/doc/gccinstall.info, likely NUL characters.
 Issue with gcc sourcefile gcc/doc/gcj.info, likely NUL characters.
-Added package gcc version 6.1.0 with 108 matches.
-Issue with gcc sourcefile gcc/doc/gcc.info, likely NUL characters.
-Issue with gcc sourcefile gcc/doc/gccint.info, likely NUL characters.
-Issue with gcc sourcefile gcc/doc/gccinstall.info, likely NUL characters.
-Added package gcc version 7.5.0 with 78 matches.
+Added package 28 of 1133: gcc version 6.1.0
 ```
 
-Note that there are several thousand packages, each with multiple versions and for each version
-anywhere between 1 and a few hundred matches (files with dlopen) so you might want 
-to let this run while you do something else. If this were some production deployed
-application, we likely would have to do some kind of initial import, and then have
+Note that if we imported everything, since there are several thousand packages, 
+each with multiple versions and for each version anywhere between 1 and a 
+few hundred matches (files with dlopen) it might take over an hour. 
+If this were some production deployed application, we likely would have to do some kind of initial import, and then have
 some CI workers trigger a smaller update for a new package, version, matches set.
 This import also assumes the json format of the files in the [dlopen](../dlopen)
 folder, so you can imagine other ways that the data might be added (e.g., a RESTful API).
@@ -166,9 +165,9 @@ Your choices after this are to restore from backups or rebuild via the `rebuild_
 Are you sure you wish to continue? [y/N] y
 Removing all documents from your index because you said so.
 All documents removed.
-Indexing 5164 packages
-GET /haystack/_mapping [status:404 request:0.003s]
-Indexing 67977 source files
+Indexing 1133 packages
+GET /haystack/_mapping [status:404 request:0.002s]
+Indexing 7763 source files
 ```
 
 If you get an errors, you should check the elasticsearch logs. For example,
@@ -266,3 +265,8 @@ $ curl http://127.0.0.1:9200/_cat/health
 
 If you have any additional questions or suggestions for development, please
 [open an issue](https://github.com/spack/spack-search/issues).
+
+## TODO
+
+ - require user to search across package (create search page limited to package)
+ - only load one version for now

@@ -18,20 +18,38 @@ import sys
 class Command(BaseCommand):
     help = "Load package data into the application."
 
-    def import_packages(self, data_dir):
+    def import_packages(self, data_dir, import_all=False):
 
+        # Subtract 1 to account for empty directory
+        number_packages = len(os.listdir(data_dir)) - 1
         package_files = list(recursive_find(data_dir, "*.json"))
         self.stdout.write(
             self.style.SUCCESS("Found %s package files." % len(package_files))
         )
 
         # For each one, create a package, and add as a source file
+        # WARNING: Only importing one version for small example
+        if not import_all:
+            self.stdout.write(
+                self.style.WARNING(
+                    "Only importing one version for package for demo purposes"
+                )
+            )
+
+        last_name = None
+        count = 0
         for package_file in package_files:
 
             # Create the Package
             package_name, version = re.sub(
                 "[.]json$", "", os.path.basename(package_file)
             ).split(":", 1)
+
+            # Only add one version of package
+            if not import_all and (package_name == last_name):
+                continue
+
+            last_name = package_name
             package, _ = Package.objects.get_or_create(
                 name=package_name, version=version
             )
@@ -50,7 +68,6 @@ class Command(BaseCommand):
             package.save()
 
             # Add each source file
-            sources = []
             for filename, text in meta["matches"].items():
                 filepath = filename.split("spack-src")[-1].strip("/")
 
@@ -59,7 +76,6 @@ class Command(BaseCommand):
                     sourcefile, _ = SourceFile.objects.get_or_create(
                         name=filepath, package=package, text=text
                     )
-                    sources.append(sourcefile)
                 except ValueError:
                     self.stdout.write(
                         self.style.ERROR(
@@ -69,12 +85,20 @@ class Command(BaseCommand):
                     )
                     pass
 
-            self.stdout.write(
-                self.style.SUCCESS(
-                    "Added package %s version %s with %s matches."
-                    % (package.name, package.version, len(sources))
+            if not import_all:
+                count += 1
+                self.stdout.write(
+                    self.style.SUCCESS(
+                        "Added package %s of %s: %s version %s"
+                        % (count, number_packages, package.name, package.version)
+                    )
                 )
-            )
+            else:
+                self.stdout.write(
+                    self.style.SUCCESS(
+                        "Added package %s version %s" % (package.name, package.version)
+                    )
+                )
 
     @staticmethod
     def already_initialized():
@@ -85,6 +109,7 @@ class Command(BaseCommand):
 
     def add_arguments(self, parser):
         parser.add_argument("data_dir", nargs=1, type=str)
+        parser.add_argument("--all", default=False, action="store_true")
 
     def handle(self, *args, **options):
         if self.already_initialized():
@@ -95,11 +120,13 @@ class Command(BaseCommand):
             raise CommandError("Please provide a data directory.")
 
         data_dir = options["data_dir"][0]
+        import_all = options["all"]
+
         print("Data directory: %s" % data_dir)
 
         # Currently only support json (can add yaml if needed)
         if not data_dir or not os.path.exists(data_dir):
             raise CommandError("%s does not exist." % data_dir)
 
-        self.import_packages(data_dir)
+        self.import_packages(data_dir, import_all)
         self.stdout.write(self.style.SUCCESS("Successfully imported packages."))

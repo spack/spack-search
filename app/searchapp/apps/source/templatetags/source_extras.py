@@ -15,6 +15,7 @@ def highlight(value):
 def yield_lines(sourcefile, term=settings.SEARCH_TERM):
     return sourcefile.lines(term)
 
+
 @register.simple_tag
 def update_query_key(url, key, value):
     """ Set or update url query key value """

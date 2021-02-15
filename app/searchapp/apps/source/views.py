@@ -93,13 +93,13 @@ def custom_search(request):
 
         # "Annotate" result objects with query and filter down to selected
         filtered = []
-        for result in results:           
+        for result in results:
             if selected and result.object.package.name not in selected:
                 continue
             result.object.query = query
             filtered.append(result)
-            
-        context['selected'] = selected
+
+        context["selected"] = selected
         context["query"] = query
         context["page_number"] = page_number
         context["page"] = Paginator(
