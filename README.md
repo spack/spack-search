@@ -77,9 +77,9 @@ move all files into the `_packages` folder and build / server:
 
 ```bash
 $ mv _staging/*.md _packages/
-$ build exec jekyll build
+$ bundle exec jekyll build
 # or
-$ build exec jekyll serve
+$ bundle exec jekyll serve
 ```
 
 Note that building (and updating) usually takes 20-30 seconds. Be patient, grasshopper.
