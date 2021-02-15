@@ -1,0 +1,59 @@
+---
+title: Languages
+description: "Languages"
+layout: base
+permalink: /tags/
+exclude_from_search: true
+---
+
+
+{% assign rawtags = "" %}
+{% for post in site.packages %}
+{% assign ttags = post.languages | join:'|' | append:'|' %}
+{% assign rawtags = rawtags | append:ttags %}
+{% endfor %}
+
+{% assign rawtags = rawtags | split:'|' | sort %}
+{% assign tags = "" %}
+{% for tag in rawtags %}
+{% if tag != "" %}
+
+{% if tags == "" %}
+{% assign tags = tag | split:'|' %}
+{% endif %}
+
+{% unless tags contains tag %}
+{% assign tags = tags | join:'|' | append:'|' | append:tag | split:'|' %}
+{% endunless %}
+{% endif %}
+{% endfor %}
+
+<div class="container">
+
+<p>
+{% for tag in tags %}
+<a href="#{{ tag | slugify }}" class="codinfox-tag-mark"> {{ tag }} </a> &nbsp;&nbsp;
+{% endfor %}
+
+{% for tag in tags %}
+<h2 id="{{ tag | slugify }}">{{ tag }}</h2>
+<ul class="codinfox-category-list">
+  {% for post in site.packages %}
+  {% if post.languages contains tag %}
+  <li>
+    <h3>
+      <a href="{{ site.baseurl }}{{ post.url }}">
+        {{ post.title }}
+        <small>{{ post.date | date_to_string }}</small>
+      </a>
+      {% for tag in post.languages %}
+      <a class="badge badge-theme" href="{{ site.baseurl }}/tags/#{{ tag | slugify }}">{{ tag }}</a>
+      {% endfor %}
+    </h3>
+  </li>
+  {% endif %}
+  {% endfor %}
+</ul>
+{% endfor %}
+
+</div>

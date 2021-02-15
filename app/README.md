@@ -78,6 +78,12 @@ app_1            |   Applying source.0003_auto_20210213_2107... OK
 ...
 ```
 
+If you ever want to keep a log window open, just do:
+
+```bash
+$ docker-compose logs -f app
+```
+
 You should then be able to navigate to localhost. to see the simple interface, meaning
 either at [http://localhost](http://localhost) or [http://127.0.0.1](http://127.0.0.1).
 

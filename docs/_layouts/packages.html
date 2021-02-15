@@ -1,0 +1,25 @@
+---
+layout: base
+---
+
+<style>
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  grid-auto-rows: 50px;
+}
+
+.list-group-item:hover {
+  background-color: yellow !important;
+}
+</style>
+
+{% if site.packages %}
+{% include scrolltop.html %}
+<div class="row" style="margin:25px; padding:30px">
+    <p style="margin:15px" class="alert alert-info">Select a package to view matching files.</p>        
+    {% include package_list.html %}
+</div>
+{% else %}
+  <p>No packages are available.</p>
+{% endif %}

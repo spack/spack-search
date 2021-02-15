@@ -38,6 +38,7 @@ class Package(BaseModel):
 class SourceFile(BaseModel):
     package = models.ForeignKey(Package, on_delete=models.CASCADE)
     name = models.CharField(max_length=200)
+    language = models.CharField(max_length=50)
     text = models.TextField()
 
     @property

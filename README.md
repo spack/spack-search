@@ -47,8 +47,50 @@ $ spack python search_spack.py dlopen ./dlopen
 
 ### 4. Generate the interface
 
-The interface (and instrucitons for building and populating the database) can
+You actually have two options for the interface! A static one that can be seen on
+GitHub pages, and an entire search application that uses elasticsearch for indexing.
+
+#### Static Interface
+
+Given you have a folder of dlopen results, you can use the [generate_interface.py](generate_interface.py)
+script to do exactly that. Note that this is going to generate files in [_staging](docs/_staging) and
+[_data](docs/_data). Let's first generate those files:
+
+```bash
+$ python generate_interface.py dlopen/ docs/
+```
+
+Note that there are two ways to build the interface. The first (for development) is if you need
+to debug and profile to see how long things are taking. For this approach, move one letter 
+at a time into the packages folder, and build incrementally:
+
+```bash
+cd docs
+./build.sh
+```
+
+This is my preferred way to build so I can see if any files are taking too much time
+(or if it hangs, inspect the largest file for the letter being processed). In practice
+this came down to just one package that was mostly javascript. The other approach is 
+(when you know that the build is reasonable to do) you can just
+move all files into the `_packages` folder and build / server:
+
+```bash
+$ mv _staging/*.md _packages/
+$ build exec jekyll build
+# or
+$ build exec jekyll serve
+```
+
+Note that building (and updating) usually takes 20-30 seconds. Be patient, grasshopper.
+This static site is surprisingly powerful in that it can show packages with versions,
+link you to the previous/next package, and show you tags (languages) associated with each.
+
+#### SearchApp
+
+The container-based interface (and instructions for building and populating the database) can
 be found in [app](app).
+
 
 ## What can we do better?
 

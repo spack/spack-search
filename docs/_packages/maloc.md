@@ -1,0 +1,217 @@
+---
+name: "maloc"
+layout: package
+next_package: cbtf-krell
+previous_package: perl-dbd-mysql
+languages: ['bash']
+---
+## 1.2
+3 / 122 files match
+
+ - [aclocal.m4](#aclocalm4)
+ - [config/ltmain.sh](#configltmainsh)
+ - [tools/config/ltmain.sh](#toolsconfigltmainsh)
+
+### aclocal.m4
+
+```
+
+{% raw %}
+1620 | # _LT_TRY_DLOPEN_SELF (ACTION-IF-TRUE, ACTION-IF-TRUE-W-USCORE,
+1623 | m4_defun([_LT_TRY_DLOPEN_SELF],
+1681 |   void *self = dlopen (0, LT_DLGLOBAL|LT_DLLAZY_OR_NOW);
+1714 | ])# _LT_TRY_DLOPEN_SELF
+1717 | # LT_SYS_DLOPEN_SELF
+1719 | AC_DEFUN([LT_SYS_DLOPEN_SELF],
+1721 | if test "x$enable_dlopen" != xyes; then
+1722 |   enable_dlopen=unknown
+1723 |   enable_dlopen_self=unknown
+1724 |   enable_dlopen_self_static=unknown
+1726 |   lt_cv_dlopen=no
+1727 |   lt_cv_dlopen_libs=
+1731 |     lt_cv_dlopen="load_add_on"
+1732 |     lt_cv_dlopen_libs=
+1733 |     lt_cv_dlopen_self=yes
+1737 |     lt_cv_dlopen="LoadLibrary"
+1738 |     lt_cv_dlopen_libs=
+1742 |     lt_cv_dlopen="dlopen"
+1743 |     lt_cv_dlopen_libs=
+1748 |     AC_CHECK_LIB([dl], [dlopen],
+1749 | 		[lt_cv_dlopen="dlopen" lt_cv_dlopen_libs="-ldl"],[
+1750 |     lt_cv_dlopen="dyld"
+1751 |     lt_cv_dlopen_libs=
+1752 |     lt_cv_dlopen_self=yes
+1758 | 	  [lt_cv_dlopen="shl_load"],
+1760 | 	    [lt_cv_dlopen="shl_load" lt_cv_dlopen_libs="-ldld"],
+1761 | 	[AC_CHECK_FUNC([dlopen],
+1762 | 	      [lt_cv_dlopen="dlopen"],
+1763 | 	  [AC_CHECK_LIB([dl], [dlopen],
+1764 | 		[lt_cv_dlopen="dlopen" lt_cv_dlopen_libs="-ldl"],
+1765 | 	    [AC_CHECK_LIB([svld], [dlopen],
+1766 | 		  [lt_cv_dlopen="dlopen" lt_cv_dlopen_libs="-lsvld"],
+1768 | 		    [lt_cv_dlopen="dld_link" lt_cv_dlopen_libs="-ldld"])
+1777 |   if test "x$lt_cv_dlopen" != xno; then
+1778 |     enable_dlopen=yes
+1780 |     enable_dlopen=no
+1783 |   case $lt_cv_dlopen in
+1784 |   dlopen)
+1792 |     LIBS="$lt_cv_dlopen_libs $LIBS"
+1794 |     AC_CACHE_CHECK([whether a program can dlopen itself],
+1795 | 	  lt_cv_dlopen_self, [dnl
+1796 | 	  _LT_TRY_DLOPEN_SELF(
+1797 | 	    lt_cv_dlopen_self=yes, lt_cv_dlopen_self=yes,
+1798 | 	    lt_cv_dlopen_self=no, lt_cv_dlopen_self=cross)
+1801 |     if test "x$lt_cv_dlopen_self" = xyes; then
+1803 |       AC_CACHE_CHECK([whether a statically linked program can dlopen itself],
+1804 | 	  lt_cv_dlopen_self_static, [dnl
+1805 | 	  _LT_TRY_DLOPEN_SELF(
+1806 | 	    lt_cv_dlopen_self_static=yes, lt_cv_dlopen_self_static=yes,
+1807 | 	    lt_cv_dlopen_self_static=no,  lt_cv_dlopen_self_static=cross)
+1817 |   case $lt_cv_dlopen_self in
+1818 |   yes|no) enable_dlopen_self=$lt_cv_dlopen_self ;;
+1819 |   *) enable_dlopen_self=unknown ;;
+1822 |   case $lt_cv_dlopen_self_static in
+1823 |   yes|no) enable_dlopen_self_static=$lt_cv_dlopen_self_static ;;
+1824 |   *) enable_dlopen_self_static=unknown ;;
+1827 | _LT_DECL([dlopen_support], [enable_dlopen], [0],
+1828 | 	 [Whether dlopen is supported])
+1829 | _LT_DECL([dlopen_self], [enable_dlopen_self], [0],
+1830 | 	 [Whether dlopen of programs is supported])
+1831 | _LT_DECL([dlopen_self_static], [enable_dlopen_self_static], [0],
+1832 | 	 [Whether dlopen of statically linked programs is supported])
+1833 | ])# LT_SYS_DLOPEN_SELF
+1836 | AU_ALIAS([AC_LIBTOOL_DLOPEN_SELF], [LT_SYS_DLOPEN_SELF])
+1838 | dnl AC_DEFUN([AC_LIBTOOL_DLOPEN_SELF], [])
+5276 |     [Compiler flag to allow reflexive dlopens])
+5388 |   LT_SYS_DLOPEN_SELF
+7513 |   _LT_UNLESS_OPTIONS([LT_INIT], [dlopen], [enable_dlopen=no
+7545 | # dlopen
+7547 | LT_OPTION_DEFINE([LT_INIT], [dlopen], [enable_dlopen=yes
+7550 | AU_DEFUN([AC_LIBTOOL_DLOPEN],
+7551 | [_LT_SET_OPTION([LT_INIT], [dlopen])
+7554 | put the `dlopen' option into LT_INIT's first parameter.])
+7558 | dnl AC_DEFUN([AC_LIBTOOL_DLOPEN], [])
+8004 | m4_ifndef([_LT_AC_TRY_DLOPEN_SELF],	[AC_DEFUN([_LT_AC_TRY_DLOPEN_SELF])])
+{% endraw %}
+
+```
+### config/ltmain.sh
+
+```bash
+
+{% raw %}
+885 |       -dlopen)		test "$#" -eq 0 && func_missing_arg "$opt" && break
+946 |       -dlopen=*|--mode=*|--tag=*)
+1036 |   # Only execute mode is allowed to have -dlopen flags.
+1038 |     func_error "unrecognized option \`-dlopen'"
+1672 |   -dlopen FILE      add the directory containing FILE to the library path
+1674 | This mode sets the library path environment variable according to \`-dlopen'
+1729 |   -dlopen FILE      \`-dlpreopen' FILE if it cannot be dlopened at runtime
+1738 |   -module           build a library that can dlopened
+1844 |     # Handle -dlopen flags immediately.
+1861 | 	# Skip this library if it cannot be dlopened.
+1888 | 	func_warning "\`-dlopen' is ignored for non-libtool libraries and objects"
+4436 | 	    dlopen_self=$dlopen_self_static
+4442 | 	    dlopen_self=$dlopen_self_static
+4448 | 	    dlopen_self=$dlopen_self_static
+4506 | 	    elif test "$prev" = dlfiles && test "$dlopen_self" != yes; then
+4590 | 		    if test "$build_libtool_libs" = yes && test "$dlopen_support" = yes; then
+4752 |       -dlopen)
+5140 | 	      if test "$build_libtool_libs" = yes && test "$dlopen_support" = yes; then
+5207 | 	  # This library was specified with -dlopen.
+5322 | 	    func_fatal_help "libraries can \`-dlopen' only libtool libraries: $file"
+5333 | 	passes="conv scan dlopen dlpreopen link"
+5359 | 	dlopen) libs="$dlfiles" ;;
+5386 |       if test "$pass" = dlopen; then
+5598 | 	    if test "$pass" = dlpreopen || test "$dlopen_support" != yes || test "$build_libtool_libs" = no; then
+5599 | 	      # If there is no dlopen support or we're linking statically,
+5629 | 	dlopen=
+5659 | 	  test -n "$dlopen" && dlfiles="$dlfiles $dlopen"
+5699 | 	# This library was specified with -dlopen.
+5700 | 	if test "$pass" = dlopen; then
+5702 | 	    func_fatal_error "cannot -dlopen a convenience library: \`$lib'"
+5705 | 	     test "$dlopen_support" != yes ||
+5707 | 	    # If there is no dlname, no dlopen support or we're linking
+5716 | 	fi # $pass = dlopen
+5774 | 	  # Otherwise, use the dlname, so that lt_dlopen finds it.
+5900 | 	  # systems (darwin).  Don't bleat about dlopened modules though!
+5901 | 	  dlopenmodule=""
+5904 | 	      dlopenmodule="$dlpremoduletest"
+5908 | 	  if test -z "$dlopenmodule" && test "$shouldnotlink" = yes && test "$pass" = link; then
+6005 | 		    # if the lib is a (non-dlopened) module then we can not
+6009 | 		      if test "X$dlopenmodule" != "X$lib"; then
+6161 | 	      echo "*** a static module, that should work as long as the dlopening application"
+6162 | 	      echo "*** is linked with the -dlopen flag to resolve symbols at runtime."
+6298 |       if test "$pass" != dlopen; then
+6397 | 	func_warning "\`-dlopen' is ignored for archives"
+6464 | 	func_warning "\`-dlopen self' is ignored for libtool libraries"
+7126 | 	    echo "*** a static module, that should work as long as the dlopening"
+7127 | 	    echo "*** application is linked with the -dlopen flag."
+7145 | 	    echo "*** or is declared to -dlopen it."
+7716 | 	func_warning "\`-dlopen' is ignored for objects"
+7831 |         && test "$dlopen_support" = unknown \
+7832 | 	&& test "$dlopen_self" = unknown \
+7833 | 	&& test "$dlopen_self_static" = unknown && \
+7834 | 	  func_warning "\`LT_INIT([dlopen])' not used. Assuming no dlopen support."
+8473 | # The name that we can dlopen(3).
+8502 | # Files to dlopen/dlpreopen
+8503 | dlopen='$dlfiles'
+{% endraw %}
+
+```
+### tools/config/ltmain.sh
+
+```bash
+
+{% raw %}
+522 |   -dlopen)
+523 |     prevopt="-dlopen"
+607 |   # Only execute mode is allowed to have -dlopen flags.
+609 |     $echo "$modename: unrecognized option \`-dlopen'" 1>&2
+1146 | 	    dlopen_self=$dlopen_self_static
+1151 | 	    dlopen_self=$dlopen_self_static
+1207 | 	    elif test "$prev" = dlfiles && test "$dlopen_self" != yes; then
+1299 | 		    if test "$build_libtool_libs" = yes && test "$dlopen_support" = yes; then
+1456 |       -dlopen)
+1843 | 	      if test "$build_libtool_libs" = yes && test "$dlopen_support" = yes; then
+1916 | 	  # This library was specified with -dlopen.
+2057 | 	    $echo "$modename: libraries can \`-dlopen' only libtool libraries: $file" 1>&2
+2069 | 	passes="conv scan dlopen dlpreopen link"
+2082 | 	dlopen) libs="$dlfiles" ;;
+2087 |       if test "$pass" = dlopen; then
+2266 | 	    if test "$pass" = dlpreopen || test "$dlopen_support" != yes || test "$build_libtool_libs" = no; then
+2267 | 	      # If there is no dlopen support or we're linking statically,
+2300 | 	dlopen=
+2321 | 	  test -n "$dlopen" && dlfiles="$dlfiles $dlopen"
+2364 | 	# This library was specified with -dlopen.
+2365 | 	if test "$pass" = dlopen; then
+2367 | 	    $echo "$modename: cannot -dlopen a convenience library: \`$lib'" 1>&2
+2371 | 	     test "$dlopen_support" != yes ||
+2373 | 	    # If there is no dlname, no dlopen support or we're linking
+2382 | 	fi # $pass = dlopen
+2435 | 	  # Otherwise, use the dlname, so that lt_dlopen finds it.
+2810 | 	      $echo "*** a static module, that should work as long as the dlopening application"
+2811 | 	      $echo "*** is linked with the -dlopen flag to resolve symbols at runtime."
+2962 |       if test "$pass" != dlopen; then
+3063 | 	$echo "$modename: warning: \`-dlopen' is ignored for archives" 1>&2
+3130 | 	$echo "$modename: warning: \`-dlopen self' is ignored for libtool libraries" 1>&2
+3768 | 	    $echo "*** a static module, that should work as long as the dlopening"
+3769 | 	    $echo "*** application is linked with the -dlopen flag."
+3787 | 	    $echo "*** or is declared to -dlopen it."
+4197 | 	$echo "$modename: warning: \`-dlopen' is ignored for objects" 1>&2
+4329 | 	if test "$dlopen_support" = unknown && test "$dlopen_self" = unknown &&
+4330 | 	   test "$dlopen_self_static" = unknown; then
+4331 | 	  $echo "$modename: warning: \`AC_LIBTOOL_DLOPEN' not used. Assuming no dlopen support."
+5669 | # The name that we can dlopen(3).
+5692 | # Files to dlopen/dlpreopen
+5693 | dlopen='$dlfiles'
+6308 |     # Handle -dlopen flags immediately.
+6337 | 	# Skip this library if it cannot be dlopened.
+6362 | 	$echo "$modename: warning \`-dlopen' is ignored for non-libtool libraries and objects" 1>&2
+6722 |   -dlopen FILE      add the directory containing FILE to the library path
+6724 | This mode sets the library path environment variable according to \`-dlopen'
+6773 |   -dlopen FILE      \`-dlpreopen' FILE if it cannot be dlopened at runtime
+6782 |   -module           build a library that can dlopened
+{% endraw %}
+
+```

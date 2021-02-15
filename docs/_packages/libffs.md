@@ -1,0 +1,21 @@
+---
+name: "libffs"
+layout: package
+next_package: lvarray
+previous_package: dimemas
+languages: ['cpp']
+---
+## 1.5
+1 / 214 files match
+
+ - [cod/standard.c](#codstandardc)
+
+### cod/standard.c
+
+```cpp
+
+{% raw %}
+686 |     void *handle = dlopen(name, RTLD_LAZY);
+{% endraw %}
+
+```

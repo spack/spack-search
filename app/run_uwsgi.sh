@@ -6,9 +6,9 @@
 if [ ! -f "/opt/migrations-run" ]; then
     sleep 5
     python manage.py makemigrations source
+    python manage.py migrate source
     python manage.py migrate
-    # python manage.py init_demo
-    # python manage.py update_index
+    python manage.py migrate admin
     python manage.py collectstatic --noinput
     touch /opt/migrations-run
 fi

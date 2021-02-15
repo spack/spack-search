@@ -9,7 +9,7 @@ from django.core.management.base import BaseCommand, CommandError
 from django.utils.timezone import now
 
 from searchapp.apps.source.models import Package, SourceFile
-from searchapp.apps.source.utils import recursive_find, read_json
+from searchapp.apps.source.utils import recursive_find, read_json, get_language
 
 import re
 import sys
@@ -70,11 +70,12 @@ class Command(BaseCommand):
             # Add each source file
             for filename, text in meta["matches"].items():
                 filepath = filename.split("spack-src")[-1].strip("/")
+                language = get_language(filepath)
 
                 # We cannot add source files with string literals for null
                 try:
                     sourcefile, _ = SourceFile.objects.get_or_create(
-                        name=filepath, package=package, text=text
+                        name=filepath, package=package, text=text, language=language
                     )
                 except ValueError:
                     self.stdout.write(

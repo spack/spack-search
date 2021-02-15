@@ -20,38 +20,3 @@ Files that are dual-licensed as Apache-2.0 OR MIT contain the following
 text in the license header:
 
     SPDX-License-Identifier: (Apache-2.0 OR MIT)
-
-
-External Packages
------------------
-
-A summary of dependency libraries includes the following. See the
-license included with each package for full details (this is not filled out yet):
-
-PackageName: argparse
-PackageHomePage: https://pypi.python.org/pypi/argparse
-PackageLicenseDeclared: Python-2.0
-
-PackageName: jinja2
-PackageHomePage: https://pypi.python.org/pypi/Jinja2
-PackageLicenseDeclared: BSD-3-Clause
-
-PackageName: jsonschema
-PackageHomePage: https://pypi.python.org/pypi/jsonschema
-PackageLicenseDeclared: MIT
-
-PackageName: markupsafe
-PackageHomePage: https://pypi.python.org/pypi/MarkupSafe
-PackageLicenseDeclared: BSD-3-Clause
-
-PackageName: orderddict
-Homepage: https://pypi.org/project/ordereddict/
-PackageLicenseDeclared: MIT
-
-PackageName: pytest
-PackageHomePage: https://pypi.python.org/pypi/pytest
-PackageLicenseDeclared: MIT
-
-PackageName: six
-PackageHomePage: https://pypi.python.org/pypi/six
-PackageLicenseDeclared: MIT

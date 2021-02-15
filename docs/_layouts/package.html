@@ -1,0 +1,26 @@
+---
+layout: base
+---
+
+{% include scrolltop.html %}
+
+<div class="row" style="margin:25px; padding:30px">
+    <div class="col-lg-10" id="content">
+       {{ content }}
+    </div>
+    {% include next_previous.html %}
+</div>
+
+
+<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/mark.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/jquery.mark.min.js"></script>
+
+<script type="text/javascript">
+    $(function () {
+      var context = document.querySelector("#content");
+      var instance = new Mark(context);
+      instance.mark("dlopen");
+    });
+  </script>
+</div>

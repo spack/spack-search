@@ -1,2 +1,3 @@
-{{ object.name }} 
+{{ object.language }}
+{{ object.name }}
 {{ object.text }}
