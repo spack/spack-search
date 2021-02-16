@@ -1,9 +1,9 @@
 ---
 name: "perl"
 layout: package
-next_package: xorg-server
-previous_package: hsakmt
-languages: ['c', 'pl']
+next_package: perl-dbd-sqlite
+previous_package: percona-server
+languages: ['pl', 'c']
 ---
 ## 5.20.3
 69 / 5092 files match, 7 filtered matches.

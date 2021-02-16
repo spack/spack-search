@@ -1,8 +1,8 @@
 ---
 name: "glib"
 layout: package
-next_package: libxml2
-previous_package: py-scipy
+next_package: glibmm
+previous_package: glfw
 languages: ['c']
 ---
 ## 2.56.2

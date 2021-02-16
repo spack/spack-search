@@ -1,8 +1,8 @@
 ---
 name: "sst-core"
 layout: package
-next_package: ccfits
-previous_package: bedtools2
+next_package: sst-macro
+previous_package: sqlite
 languages: ['cpp']
 ---
 ## develop

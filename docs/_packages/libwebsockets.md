@@ -1,8 +1,8 @@
 ---
 name: "libwebsockets"
 layout: package
-next_package: libnbc
-previous_package: cosbench
+next_package: libx11
+previous_package: libvips
 languages: ['c']
 ---
 ## 2.0.3

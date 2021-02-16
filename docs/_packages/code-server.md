@@ -1,8 +1,8 @@
 ---
 name: "code-server"
 layout: package
-next_package: prism
-previous_package: swftools
+next_package: collectd
+previous_package: cntk
 languages: ['c']
 ---
 ## 3.1.0

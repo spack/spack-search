@@ -1,8 +1,8 @@
 ---
 name: "thepeg"
 layout: package
-next_package: libssh
-previous_package: care
+next_package: timemory
+previous_package: tfel
 languages: ['cpp']
 ---
 ## 2.2.1

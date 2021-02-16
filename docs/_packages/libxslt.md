@@ -1,8 +1,8 @@
 ---
 name: "libxslt"
 layout: package
-next_package: py-chainer
-previous_package: icarus
+next_package: libxsmm
+previous_package: libxml2
 languages: ['python']
 ---
 ## 1.1.33

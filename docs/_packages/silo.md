@@ -1,8 +1,8 @@
 ---
 name: "silo"
 layout: package
-next_package: swftools
-previous_package: lwgrp
+next_package: simgrid
+previous_package: seacas
 languages: ['c']
 ---
 ## 4.10.2-bsd

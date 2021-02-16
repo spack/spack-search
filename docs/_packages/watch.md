@@ -1,8 +1,8 @@
 ---
 name: "watch"
 layout: package
-next_package: pal
-previous_package: tk
+next_package: whizard
+previous_package: vtk
 languages: ['c']
 ---
 ## 3.3.15

@@ -1,8 +1,8 @@
 ---
 name: "r-rgraphviz"
 layout: package
-next_package: fipscheck
-previous_package: hipsycl
+next_package: r-rhtslib
+previous_package: r-rcppparallel
 languages: ['c']
 ---
 ## 2.20.0

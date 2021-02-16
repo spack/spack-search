@@ -1,8 +1,8 @@
 ---
 name: "llvm"
 layout: package
-next_package: r-later
-previous_package: sqlcipher
+next_package: llvm-amdgpu
+previous_package: likwid
 languages: ['python', 'c']
 ---
 ## 11.0.1

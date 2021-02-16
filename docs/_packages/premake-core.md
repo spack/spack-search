@@ -1,8 +1,8 @@
 ---
 name: "premake-core"
 layout: package
-next_package: openpbs
-previous_package: cairo
+next_package: process-in-process
+previous_package: powerapi
 languages: ['c']
 ---
 ## 5.0.0-alpha13

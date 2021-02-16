@@ -1,8 +1,8 @@
 ---
 name: "netperf"
 layout: package
-next_package: hwloc
-previous_package: gasnet
+next_package: nettle
+previous_package: nest
 languages: ['c']
 ---
 ## 2.6.0

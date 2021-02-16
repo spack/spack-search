@@ -1,8 +1,8 @@
 ---
 name: "libkcapi"
 layout: package
-next_package: liblbxutil
-previous_package: libexif
+next_package: libmesh
+previous_package: libiberty
 languages: ['c']
 ---
 ## 1.1.4

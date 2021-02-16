@@ -1,8 +1,8 @@
 ---
 name: "pmix"
 layout: package
-next_package: taskflow
-previous_package: libarchive
+next_package: pocl
+previous_package: pmdk
 languages: ['c']
 ---
 ## master

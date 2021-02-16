@@ -1,8 +1,8 @@
 ---
 name: "rose"
 layout: package
-next_package: xqilla
-previous_package: ns-3-dev
+next_package: rr
+previous_package: root
 languages: ['cpp', 'c']
 ---
 ## develop

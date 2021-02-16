@@ -1,8 +1,8 @@
 ---
 name: "libmicrohttpd"
 layout: package
-next_package: libemos
-previous_package: gflags
+next_package: libmonitor
+previous_package: libmesh
 languages: ['c']
 ---
 ## 0.9.71

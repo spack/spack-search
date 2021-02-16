@@ -1,8 +1,8 @@
 ---
 name: "hsakmt-roct"
 layout: package
-next_package: shadow
-previous_package: fftw
+next_package: htslib
+previous_package: hpx5
 languages: ['c']
 ---
 ## 4.0.0

@@ -1,8 +1,8 @@
 ---
 name: "neovim"
 layout: package
-next_package: rngstreams
-previous_package: py-pybind11
+next_package: nest
+previous_package: ncurses
 languages: ['c']
 ---
 ## 0.2.1

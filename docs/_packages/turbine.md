@@ -1,8 +1,8 @@
 ---
 name: "turbine"
 layout: package
-next_package: mercury
-previous_package: folly
+next_package: ucx
+previous_package: trilinos
 languages: ['c']
 ---
 ## 1.1.0

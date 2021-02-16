@@ -1,8 +1,8 @@
 ---
 name: "legion"
 layout: package
-next_package: gmt
-previous_package: libnsl
+next_package: lftp
+previous_package: lammps
 languages: ['cpp']
 ---
 ## master

@@ -1,8 +1,8 @@
 ---
 name: "sysbench"
 layout: package
-next_package: p4est
-previous_package: libcerf
+next_package: systemtap
+previous_package: swipl
 languages: ['c']
 ---
 ## 1.0.18

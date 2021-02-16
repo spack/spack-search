@@ -1,8 +1,8 @@
 ---
 name: "py-mpi4py"
 layout: package
-next_package: icarus
-previous_package: libxt
+next_package: py-mypy
+previous_package: py-jpype1
 languages: ['python', 'c']
 ---
 ## develop

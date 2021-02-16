@@ -1,8 +1,8 @@
 ---
 name: "brltty"
 layout: package
-next_package: buddy
-previous_package: cmake
+next_package: brpc
+previous_package: breseq
 languages: ['c']
 ---
 ## 5.5

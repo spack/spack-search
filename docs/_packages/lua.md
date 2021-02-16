@@ -1,8 +1,8 @@
 ---
 name: "lua"
 layout: package
-next_package: pnmpi
-previous_package: pixman
+next_package: lua-luajit
+previous_package: llvm-openmp-ompt
 languages: ['c']
 ---
 ## 5.3.2

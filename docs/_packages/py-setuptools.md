@@ -1,8 +1,8 @@
 ---
 name: "py-setuptools"
 layout: package
-next_package: bind9
-previous_package: py-billiard
+next_package: py-shapely
+previous_package: py-scipy
 languages: ['python']
 ---
 ## 49.6.0

@@ -1,8 +1,8 @@
 ---
 name: "rocm-opencl"
 layout: package
-next_package: py-exodus-bundler
-previous_package: pnmpi
+next_package: rocprofiler-dev
+previous_package: rocm-gdb
 languages: ['c']
 ---
 ## 3.10.0

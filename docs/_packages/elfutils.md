@@ -1,8 +1,8 @@
 ---
 name: "elfutils"
 layout: package
-next_package: expat
-previous_package: fastdb
+next_package: elmerfem
+previous_package: efivar
 languages: ['c']
 ---
 ## 0.180

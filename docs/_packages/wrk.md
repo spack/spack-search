@@ -1,8 +1,8 @@
 ---
 name: "wrk"
 layout: package
-next_package: cbtf
-previous_package: py-petsc4py
+next_package: wt
+previous_package: wireshark
 languages: ['c']
 ---
 ## 3.1.2

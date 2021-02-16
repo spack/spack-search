@@ -1,8 +1,8 @@
 ---
 name: "tau"
 layout: package
-next_package: libnova
-previous_package: pruners-ninja
+next_package: tcl
+previous_package: taskflow
 languages: ['c']
 ---
 ## 2.29.1

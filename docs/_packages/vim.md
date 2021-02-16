@@ -1,8 +1,8 @@
 ---
 name: "vim"
 layout: package
-next_package: py-cyvcf2
-previous_package: py-grpcio
+next_package: vsearch
+previous_package: verrou
 languages: ['c']
 ---
 ## 8.1.0001

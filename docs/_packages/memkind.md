@@ -1,8 +1,8 @@
 ---
 name: "memkind"
 layout: package
-next_package: mount-point-attributes
-previous_package: gosam-contrib
+next_package: mesa
+previous_package: meme
 languages: ['c']
 ---
 ## 1.9.0

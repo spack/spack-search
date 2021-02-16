@@ -1,8 +1,8 @@
 ---
 name: "frontier-client"
 layout: package
-next_package: spades
-previous_package: cvs
+next_package: fuse-overlayfs
+previous_package: foundationdb
 languages: ['c']
 ---
 ## 2_9_0

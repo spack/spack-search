@@ -1,8 +1,8 @@
 ---
 name: "py-onnx"
 layout: package
-next_package: freexl
-previous_package: gobject-introspection
+next_package: py-openmc
+previous_package: py-numpy
 languages: ['c']
 ---
 ## 1.5.0

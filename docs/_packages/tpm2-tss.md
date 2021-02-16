@@ -1,8 +1,8 @@
 ---
 name: "tpm2-tss"
 layout: package
-next_package: kubernetes
-previous_package: unuran
+next_package: trilinos
+previous_package: timemory
 languages: ['c']
 ---
 ## 3.0.0

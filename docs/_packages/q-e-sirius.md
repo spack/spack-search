@@ -1,8 +1,8 @@
 ---
 name: "q-e-sirius"
 layout: package
-next_package: xwininfo
-previous_package: extrae
+next_package: qemu
+previous_package: python
 languages: ['c']
 ---
 ## 6.5-rc3-siriu

@@ -1,8 +1,8 @@
 ---
 name: "cmake"
 layout: package
-next_package: brltty
-previous_package: cppad
+next_package: cntk
+previous_package: charmpp
 languages: ['c']
 ---
 ## 3.18.3

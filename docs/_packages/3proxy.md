@@ -1,8 +1,8 @@
 ---
 name: "3proxy"
 layout: package
-next_package: nfs-ganesha
-previous_package: spindle
+next_package: abseil-cpp
+previous_package: None
 languages: ['c']
 ---
 ## 0.8.13

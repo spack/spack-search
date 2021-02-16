@@ -1,8 +1,8 @@
 ---
 name: "meson"
 layout: package
-next_package: plumed
-previous_package: aomp
+next_package: mivisionx
+previous_package: mesa-glu
 languages: ['python', 'c']
 ---
 ## 0.56.0

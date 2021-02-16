@@ -1,8 +1,8 @@
 ---
 name: "rsync"
 layout: package
-next_package: openresty
-previous_package: gmsh
+next_package: rsyslog
+previous_package: rsem
 languages: ['c']
 ---
 ## 3.1.2

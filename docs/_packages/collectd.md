@@ -1,8 +1,8 @@
 ---
 name: "collectd"
 layout: package
-next_package: erne
-previous_package: gridlab-d
+next_package: conduit
+previous_package: code-server
 languages: ['c']
 ---
 ## 5.10.0

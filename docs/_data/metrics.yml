@@ -9,16 +9,6 @@
     filtered_matches: 1
     matches: 1
     total_files: 166
-abi-compliance-checker:
-  '2.1':
-    matches: 1
-    total_files: 34
-  '2.2':
-    matches: 1
-    total_files: 34
-  '2.3':
-    matches: 1
-    total_files: 33
 abseil-cpp:
   '20200225.1':
     matches: 3
@@ -33,26 +23,6 @@ abseil-cpp:
   '20200923.2':
     matches: 3
     total_files: 689
-abyss:
-  1.5.2:
-    matches: 1
-    total_files: 296
-  2.0.2:
-    matches: 1
-    total_files: 397
-  2.1.4:
-    matches: 1
-    total_files: 405
-acct:
-  6.6.2:
-    matches: 4
-    total_files: 189
-  6.6.3:
-    matches: 4
-    total_files: 190
-  6.6.4:
-    matches: 4
-    total_files: 190
 ace:
   6.5.1:
     matches: 20
@@ -69,31 +39,6 @@ activeharmony:
     filtered_matches: 3
     matches: 5
     total_files: 312
-adios:
-  1.10.0:
-    matches: 3
-    total_files: 1296
-  1.11.0:
-    matches: 3
-    total_files: 1373
-  1.11.1:
-    matches: 3
-    total_files: 1377
-  1.12.0:
-    matches: 3
-    total_files: 1393
-  1.13.0:
-    matches: 3
-    total_files: 1409
-  1.13.1:
-    matches: 3
-    total_files: 1417
-  1.9.0:
-    matches: 3
-    total_files: 1251
-  develop:
-    matches: 4
-    total_files: 1557
 adios2:
   2.3.1:
     filtered_matches: 8
@@ -114,49 +59,6 @@ adios2:
   master:
     matches: 22
     total_files: 2293
-adlbx:
-  master:
-    filtered_matches: 1
-    matches: 3
-    total_files: 1903
-adol-c:
-  2.5.0:
-    matches: 3
-    total_files: 311
-  2.5.1:
-    matches: 3
-    total_files: 312
-  2.5.2:
-    matches: 3
-    total_files: 312
-  2.6.0:
-    matches: 4
-    total_files: 340
-  2.6.1:
-    matches: 4
-    total_files: 340
-  2.6.2:
-    matches: 4
-    total_files: 340
-  2.6.3:
-    matches: 4
-    total_files: 340
-  2.7.0:
-    matches: 4
-    total_files: 389
-  2.7.1:
-    matches: 4
-    total_files: 390
-  2.7.2:
-    matches: 4
-    total_files: 390
-  master:
-    matches: 4
-    total_files: 406
-aegean:
-  0.15.2:
-    matches: 1
-    total_files: 208
 alsa-lib:
   1.1.4.1:
     matches: 19
@@ -168,10 +70,6 @@ alsa-lib:
     filtered_matches: 17
     matches: 22
     total_files: 388
-amdfftw:
-  '2.2':
-    matches: 3
-    total_files: 3579
 amgx:
   2.0.0:
     matches: 2
@@ -182,16 +80,6 @@ amgx:
   2.1.0:
     matches: 2
     total_files: 707
-aml:
-  0.1.0:
-    matches: 4
-    total_files: 186
-  develop:
-    matches: 1
-    total_files: 170
-  master:
-    matches: 1
-    total_files: 167
 aocc:
   2.2.0:
     matches: 7
@@ -216,22 +104,6 @@ aomp:
   3.9.0:
     matches: 139
     total_files: 99627
-apcomp:
-  0.0.1:
-    matches: 1
-    total_files: 674
-  master:
-    matches: 1
-    total_files: 704
-apex:
-  '0.1':
-    filtered_matches: 1
-    matches: 1
-    total_files: 266
-apfel:
-  3.0.4:
-    matches: 3
-    total_files: 464
 apr:
   1.5.2:
     matches: 8
@@ -243,32 +115,6 @@ apr:
     filtered_matches: 4
     matches: 8
     total_files: 467
-apr-util:
-  1.5.4:
-    matches: 3
-    total_files: 263
-arbor:
-  '0.2':
-    matches: 1
-    total_files: 644
-  '0.4':
-    matches: 1
-    total_files: 840
-argobots:
-  '1.0':
-    matches: 3
-    total_files: 258
-argtable:
-  2-13:
-    matches: 3
-    total_files: 84
-aria2:
-  1.34.0:
-    matches: 7
-    total_files: 1405
-  1.35.0:
-    matches: 7
-    total_files: 1403
 arrayfire:
   3.7.0:
     filtered_matches: 2
@@ -306,10 +152,6 @@ arrow:
     filtered_matches: 1
     matches: 1
     total_files: 1133
-ascent:
-  develop:
-    matches: 1
-    total_files: 1917
 aspect:
   2.0.0:
     filtered_matches: 1
@@ -327,59 +169,6 @@ aspect:
   develop:
     matches: 2
     total_files: 3746
-aspell:
-  0.60.6.1:
-    filtered_matches: 1
-    matches: 35
-    total_files: 535
-assimp:
-  5.0.1:
-    matches: 1
-    total_files: 2073
-  master:
-    matches: 1
-    total_files: 2271
-at-spi2-atk:
-  2.26.1:
-    matches: 2
-    total_files: 141
-  2.26.2:
-    matches: 2
-    total_files: 141
-at-spi2-core:
-  2.36.0:
-    matches: 1
-    total_files: 236
-  2.38.0:
-    matches: 1
-    total_files: 238
-atk:
-  2.14.0:
-    matches: 3
-    total_files: 467
-  2.20.0:
-    matches: 4
-    total_files: 462
-  2.28.1:
-    matches: 4
-    total_files: 496
-atompaw:
-  3.1.0.3:
-    matches: 3
-    total_files: 56
-  4.0.0.13:
-    matches: 2
-    total_files: 74
-attr:
-  2.4.46:
-    matches: 3
-    total_files: 66
-  2.4.47:
-    matches: 3
-    total_files: 66
-  2.4.48:
-    matches: 4
-    total_files: 99
 audacity:
   2.4.0:
     filtered_matches: 8
@@ -391,57 +180,6 @@ audacity:
   2.4.2:
     matches: 53
     total_files: 7888
-autoconf-archive:
-  2019.01.06:
-    matches: 2
-    total_files: 1161
-autogen:
-  5.18.12:
-    filtered_matches: 1
-    matches: 8
-    total_files: 411
-automake:
-  1.11.6:
-    matches: 11
-    total_files: 1108
-  1.13.4:
-    matches: 11
-    total_files: 1518
-  1.14.1:
-    matches: 11
-    total_files: 1550
-  '1.15':
-    matches: 11
-    total_files: 1482
-  1.15.1:
-    matches: 11
-    total_files: 1483
-  1.16.1:
-    matches: 11
-    total_files: 1488
-  1.16.2:
-    matches: 11
-    total_files: 1490
-  1.16.3:
-    matches: 11
-    total_files: 1498
-axom:
-  0.3.3:
-    matches: 1
-    total_files: 1537
-  0.4.0:
-    matches: 1
-    total_files: 1622
-  develop:
-    matches: 1
-    total_files: 1681
-  mai:
-    matches: 1
-    total_files: 1623
-babeltrace:
-  1.2.4:
-    matches: 3
-    total_files: 208
 bash:
   '4.3':
     matches: 10
@@ -742,11 +480,6 @@ bdw-gc:
     filtered_matches: 6
     matches: 18
     total_files: 179
-bedtools2:
-  2.29.2:
-    filtered_matches: 1
-    matches: 3
-    total_files: 1042
 berkeley-db:
   18.1.40:
     matches: 8
@@ -761,15 +494,6 @@ berkeley-db:
   6.2.32:
     matches: 29
     total_files: 10685
-bertini:
-  '1.5':
-    matches: 3
-    total_files: 217
-bind9:
-  '9_14_6':
-    filtered_matches: 11
-    matches: 57
-    total_files: 3884
 binutils:
   2.20.1:
     matches: 27
@@ -817,14 +541,6 @@ binutils:
   2.35.1:
     matches: 66
     total_files: 23970
-biobambam2:
-  2.0.177:
-    matches: 6
-    total_files: 238
-biobloom:
-  2.2.0:
-    matches: 1
-    total_files: 55
 bird:
   2.0.1:
     matches: 1
@@ -893,70 +609,6 @@ bison:
   3.7.4:
     matches: 2
     total_files: 1140
-blast-legacy:
-  2.2.26:
-    filtered_matches: 1
-    matches: 1
-    total_files: 3030
-blast-plus:
-  2.11.0:
-    matches: 8
-    total_files: 5971
-  2.2.30:
-    matches: 5
-    total_files: 4581
-  2.6.0:
-    matches: 6
-    total_files: 4608
-  2.7.1:
-    matches: 6
-    total_files: 5312
-  2.8.1:
-    matches: 6
-    total_files: 5602
-  2.9.0:
-    matches: 6
-    total_files: 5772
-blitz:
-  1.0.0:
-    matches: 9
-    total_files: 888
-  1.0.1:
-    matches: 14
-    total_files: 894
-  1.0.2:
-    matches: 1
-    total_files: 989
-bloaty:
-  '1.1':
-    filtered_matches: 2
-    matches: 5
-    total_files: 1641
-blt:
-  0.3.0:
-    matches: 1
-    total_files: 514
-  0.3.5:
-    matches: 1
-    total_files: 518
-  0.3.6:
-    matches: 1
-    total_files: 518
-  develop:
-    matches: 1
-    total_files: 559
-  mai:
-    matches: 1
-    total_files: 533
-bmi:
-  develop:
-    filtered_matches: 2
-    matches: 2
-    total_files: 232
-boinc-client:
-  7.16.5:
-    matches: 12
-    total_files: 6111
 bolt:
   '1.0':
     filtered_matches: 1
@@ -1102,37 +754,6 @@ boost:
   develop:
     matches: 13
     total_files: 54764
-botan:
-  2.11.0:
-    matches: 2
-    total_files: 2689
-  2.12.0:
-    matches: 2
-    total_files: 2695
-  2.12.1:
-    matches: 2
-    total_files: 2695
-  2.13.0:
-    matches: 2
-    total_files: 2716
-  2.14.0:
-    matches: 2
-    total_files: 2721
-  2.15.0:
-    matches: 2
-    total_files: 2727
-  2.16.0:
-    matches: 2
-    total_files: 2727
-  2.17.0:
-    matches: 2
-    total_files: 2731
-  2.17.1:
-    matches: 2
-    total_files: 2731
-  2.17.2:
-    matches: 2
-    total_files: 2731
 breseq:
   0.31.1:
     matches: 3
@@ -1144,10 +765,6 @@ breseq:
     filtered_matches: 1
     matches: 3
     total_files: 866
-bridger:
-  '2014-12-01':
-    matches: 15
-    total_files: 1865
 brltty:
   '5.4':
     matches: 3
@@ -1172,10 +789,6 @@ brpc:
   0.9.7:
     matches: 1
     total_files: 1376
-buddy:
-  '2.4':
-    matches: 2
-    total_files: 82
 busybox:
   1.30.0:
     filtered_matches: 1
@@ -1207,13 +820,6 @@ cairo:
   1.17.2:
     matches: 11
     total_files: 4650
-cairomm:
-  1.6.2:
-    matches: 2
-    total_files: 343
-  1.6.4:
-    matches: 2
-    total_files: 342
 caliper:
   2.2.0:
     matches: 4
@@ -1228,17 +834,6 @@ caliper:
     filtered_matches: 3
     matches: 4
     total_files: 597
-callflow:
-  1.1.2:
-    matches: 2
-    total_files: 166
-  develop:
-    matches: 2
-    total_files: 198
-canal:
-  1.1.4:
-    matches: 1
-    total_files: 1155
 canu:
   '1.5':
     matches: 1
@@ -1255,10 +850,6 @@ canu:
   '2.0':
     matches: 1
     total_files: 1438
-capnproto:
-  0.7.0:
-    matches: 3
-    total_files: 285
 cardioid:
   develop:
     matches: 1
@@ -1336,29 +927,6 @@ catalyst:
   5.6.0:
     matches: 33
     total_files: 31637
-cbc:
-  2.10.5:
-    matches: 2
-    total_files: 318
-cbtf:
-  1.9.1.0:
-    matches: 1
-    total_files: 150
-  1.9.1.1:
-    matches: 1
-    total_files: 150
-  1.9.1.2:
-    matches: 1
-    total_files: 150
-  1.9.2:
-    matches: 1
-    total_files: 150
-  1.9.3:
-    matches: 1
-    total_files: 151
-  develop:
-    matches: 1
-    total_files: 149
 cbtf-krell:
   1.9.1.0:
     matches: 34
@@ -1379,37 +947,6 @@ cbtf-krell:
   develop:
     matches: 35
     total_files: 608
-cbtf-lanl:
-  1.9.1.0:
-    matches: 1
-    total_files: 77
-  1.9.1.1:
-    matches: 1
-    total_files: 77
-  1.9.1.2:
-    matches: 1
-    total_files: 77
-  1.9.2:
-    matches: 1
-    total_files: 77
-  1.9.3:
-    matches: 1
-    total_files: 77
-  develop:
-    matches: 1
-    total_files: 75
-cc65:
-  '2.14':
-    filtered_matches: 1
-    matches: 1
-    total_files: 2174
-ccfits:
-  '2.4':
-    matches: 2
-    total_files: 309
-  '2.5':
-    matches: 2
-    total_files: 309
 cctools:
   7.1.0:
     filtered_matches: 2
@@ -1441,23 +978,6 @@ cdo:
     filtered_matches: 1
     matches: 7
     total_files: 975
-cgl:
-  0.60.3:
-    matches: 2
-    total_files: 170
-cgm:
-  '13.1':
-    matches: 5
-    total_files: 816
-  13.1.0:
-    matches: 4
-    total_files: 811
-  13.1.1:
-    matches: 4
-    total_files: 816
-  '16.0':
-    matches: 5
-    total_files: 845
 chapel:
   1.18.0:
     filtered_matches: 3
@@ -1510,131 +1030,6 @@ charmpp:
   master:
     matches: 23
     total_files: 5974
-check:
-  0.10.0:
-    matches: 3
-    total_files: 145
-  0.11.0:
-    matches: 3
-    total_files: 144
-  0.12.0:
-    matches: 3
-    total_files: 144
-cistem:
-  1.0.0-beta:
-    filtered_matches: 1
-    matches: 3
-    total_files: 344
-citcoms:
-  3.3.1:
-    matches: 3
-    total_files: 288
-cityhash:
-  '2013-07-31':
-    matches: 3
-    total_files: 33
-  master:
-    matches: 3
-    total_files: 31
-clamav:
-  0.101.2:
-    filtered_matches: 14
-    matches: 55
-    total_files: 6766
-clamr:
-  master:
-    filtered_matches: 1
-    matches: 1
-    total_files: 1046
-claw:
-  1.1.0:
-    matches: 3
-    total_files: 2695
-  1.2.0:
-    matches: 3
-    total_files: 2752
-  1.2.1:
-    matches: 3
-    total_files: 2754
-  1.2.2:
-    matches: 3
-    total_files: 2754
-  1.2.3:
-    matches: 3
-    total_files: 2754
-  '2.0':
-    matches: 3
-    total_files: 2830
-  2.0.1:
-    matches: 3
-    total_files: 2830
-  2.0.2:
-    matches: 3
-    total_files: 2843
-  master:
-    matches: 3
-    total_files: 2853
-clfft:
-  2.12.2:
-    filtered_matches: 1
-    matches: 3
-    total_files: 159
-clhep:
-  2.2.0.4:
-    matches: 12
-    total_files: 922
-  2.2.0.5:
-    matches: 12
-    total_files: 922
-  2.2.0.8:
-    matches: 12
-    total_files: 922
-cln:
-  1.2.0:
-    matches: 2
-    total_files: 1337
-  1.2.1:
-    matches: 2
-    total_files: 1338
-  1.2.2:
-    matches: 2
-    total_files: 1338
-  1.3.0:
-    matches: 1
-    total_files: 1331
-  1.3.1:
-    matches: 1
-    total_files: 1330
-  1.3.2:
-    matches: 1
-    total_files: 1330
-  1.3.3:
-    matches: 1
-    total_files: 1328
-  1.3.4:
-    matches: 1
-    total_files: 1328
-cloog:
-  0.17.0:
-    matches: 9
-    total_files: 881
-  0.18.0:
-    matches: 24
-    total_files: 1600
-  0.18.1:
-    matches: 24
-    total_files: 1650
-clp:
-  1.17.4:
-    matches: 2
-    total_files: 277
-  1.17.6:
-    matches: 2
-    total_files: 277
-clustal-omega:
-  1.2.4:
-    matches: 3
-    total_files: 146
 cmake:
   2.8.10.2:
     matches: 16
@@ -1868,16 +1263,6 @@ cmake:
   3.9.6:
     matches: 20
     total_files: 11054
-cmockery:
-  0.1.0:
-    matches: 2
-    total_files: 43
-  0.1.1:
-    matches: 2
-    total_files: 43
-  0.1.2:
-    matches: 2
-    total_files: 43
 cntk:
   '2.0':
     matches: 3
@@ -1896,20 +1281,6 @@ code-server:
   3.4.1:
     matches: 4
     total_files: 4126
-coin3d:
-  2.0.0:
-    matches: 5
-    total_files: 1787
-  3.0.0:
-    matches: 9
-    total_files: 3814
-  3.1.0:
-    matches: 9
-    total_files: 3835
-coinutils:
-  2.11.4:
-    matches: 2
-    total_files: 167
 collectd:
   5.10.0:
     filtered_matches: 1
@@ -1918,25 +1289,6 @@ collectd:
   5.11.0:
     matches: 2
     total_files: 506
-colm:
-  0.12.0:
-    matches: 2
-    total_files: 249
-comgr:
-  3.10.0:
-    matches: 1
-    total_files: 83
-  3.9.0:
-    matches: 1
-    total_files: 83
-  4.0.0:
-    matches: 1
-    total_files: 83
-compiz:
-  0.7.8:
-    filtered_matches: 2
-    matches: 4
-    total_files: 222
 conduit:
   0.2.0:
     matches: 4
@@ -1969,50 +1321,6 @@ conduit:
   master:
     matches: 6
     total_files: 1186
-coreutils:
-  '8.23':
-    matches: 1
-    total_files: 2403
-  '8.26':
-    matches: 1
-    total_files: 2476
-  '8.29':
-    matches: 1
-    total_files: 2655
-  '8.30':
-    matches: 1
-    total_files: 2677
-  '8.31':
-    matches: 1
-    total_files: 2711
-cosbench:
-  0.4.0.1:
-    matches: 1
-    total_files: 913
-  0.4.1.0:
-    matches: 1
-    total_files: 915
-  0.4.2:
-    matches: 1
-    total_files: 894
-cosma:
-  2.2.0:
-    matches: 2
-    total_files: 262
-  2.3.0:
-    matches: 2
-    total_files: 257
-  master:
-    matches: 2
-    total_files: 407
-cpio:
-  '2.13':
-    matches: 1
-    total_files: 596
-cppad:
-  develop:
-    matches: 2
-    total_files: 1308
 cppcheck:
   '1.87':
     filtered_matches: 1
@@ -2021,119 +1329,6 @@ cppcheck:
   '2.1':
     matches: 2
     total_files: 804
-cpprestsdk:
-  2.10.16:
-    matches: 3
-    total_files: 3943
-  2.9.1:
-    matches: 1
-    total_files: 900
-cppunit:
-  1.13.2:
-    matches: 7
-    total_files: 540
-  1.14.0:
-    matches: 5
-    total_files: 378
-cpu-features:
-  develop:
-    filtered_matches: 1
-    matches: 1
-    total_files: 69
-cpuinfo:
-  master:
-    filtered_matches: 3
-    matches: 4
-    total_files: 547
-cquery:
-  '2018-08-23':
-    matches: 1
-    total_files: 3353
-cronie:
-  1.5.5:
-    matches: 1
-    total_files: 54
-cryptsetup:
-  2.2.1:
-    matches: 4
-    total_files: 352
-  2.2.2:
-    matches: 4
-    total_files: 353
-  2.2.3:
-    matches: 4
-    total_files: 353
-  2.3.1:
-    matches: 4
-    total_files: 359
-cube:
-  4.2.3:
-    matches: 3
-    total_files: 1128
-  4.3.3:
-    matches: 3
-    total_files: 1238
-  4.3.4:
-    matches: 3
-    total_files: 1251
-  4.3.5:
-    matches: 3
-    total_files: 1251
-  '4.4':
-    matches: 3
-    total_files: 662
-  4.4.2:
-    matches: 3
-    total_files: 661
-  4.4.3:
-    matches: 3
-    total_files: 663
-  4.4.4:
-    matches: 3
-    total_files: 666
-  '4.5':
-    matches: 3
-    total_files: 805
-cubelib:
-  '4.4':
-    matches: 3
-    total_files: 1012
-  4.4.2:
-    matches: 3
-    total_files: 1012
-  4.4.3:
-    matches: 3
-    total_files: 1020
-  4.4.4:
-    matches: 3
-    total_files: 1020
-  '4.5':
-    matches: 3
-    total_files: 1025
-cubew:
-  '4.4':
-    matches: 3
-    total_files: 213
-  4.4.1:
-    matches: 3
-    total_files: 213
-  4.4.2:
-    matches: 3
-    total_files: 213
-  4.4.3:
-    matches: 3
-    total_files: 214
-  '4.5':
-    matches: 3
-    total_files: 215
-cunit:
-  2.1-3:
-    matches: 2
-    total_files: 177
-cups:
-  2.2.3:
-    matches: 1
-    total_files: 1141
 curl:
   7.42.1:
     matches: 5
@@ -2205,10 +1400,6 @@ curl:
   7.74.0:
     matches: 5
     total_files: 1838
-cvs:
-  1.12.13:
-    matches: 1
-    total_files: 796
 cyrus-sasl:
   2.1.23:
     matches: 16
@@ -2248,62 +1439,6 @@ dakota:
   '6.9':
     matches: 28
     total_files: 11237
-damaris:
-  1.3.1:
-    matches: 1
-    total_files: 241
-  master:
-    matches: 1
-    total_files: 246
-darshan-runtime:
-  develop:
-    filtered_matches: 1
-    matches: 2
-    total_files: 409
-darshan-util:
-  develop:
-    filtered_matches: 1
-    matches: 2
-    total_files: 409
-datamash:
-  1.0.5:
-    matches: 1
-    total_files: 381
-  1.0.6:
-    matches: 1
-    total_files: 386
-  1.0.7:
-    matches: 1
-    total_files: 446
-  1.1.0:
-    matches: 1
-    total_files: 483
-  '1.3':
-    matches: 1
-    total_files: 499
-dateutils:
-  0.4.5:
-    matches: 6
-    total_files: 1097
-  0.4.6:
-    matches: 6
-    total_files: 1111
-  0.4.7:
-    matches: 6
-    total_files: 1114
-davix:
-  0.6.8:
-    matches: 2
-    total_files: 1019
-  0.6.9:
-    matches: 2
-    total_files: 1042
-  0.7.3:
-    matches: 2
-    total_files: 1049
-  0.7.5:
-    matches: 2
-    total_files: 1046
 dbus:
   1.11.2:
     matches: 4
@@ -2326,26 +1461,6 @@ dbus:
   1.9.0:
     matches: 4
     total_files: 440
-dbus-glib:
-  '0.110':
-    matches: 3
-    total_files: 182
-dcap:
-  2.47.12:
-    filtered_matches: 4
-    matches: 7
-    total_files: 166
-dcmtk:
-  3.6.2:
-    matches: 1
-    total_files: 2699
-  3.6.3:
-    matches: 1
-    total_files: 2723
-ddd:
-  3.3.12:
-    matches: 2
-    total_files: 953
 dealii:
   9.1.0:
     matches: 8
@@ -2356,41 +1471,6 @@ dealii:
   9.2.0:
     matches: 8
     total_files: 10910
-dia:
-  0.97.3:
-    matches: 3
-    total_files: 3022
-diffutils:
-  '3.6':
-    matches: 1
-    total_files: 887
-  '3.7':
-    matches: 1
-    total_files: 901
-dimemas:
-  5.4.1:
-    filtered_matches: 1
-    matches: 3
-    total_files: 244
-ding-libs:
-  0.5.0:
-    matches: 3
-    total_files: 131
-  0.6.0:
-    matches: 3
-    total_files: 133
-  0.6.1:
-    matches: 3
-    total_files: 135
-diy:
-  master:
-    matches: 2
-    total_files: 417
-dmd:
-  2.081.1:
-    filtered_matches: 2
-    matches: 11
-    total_files: 4009
 dmtcp:
   2.5.2:
     filtered_matches: 7
@@ -2399,11 +1479,6 @@ dmtcp:
   2.6.0:
     matches: 23
     total_files: 653
-dotconf:
-  '1.3':
-    filtered_matches: 2
-    matches: 3
-    total_files: 42
 dpdk:
   '19.02':
     matches: 7
@@ -2462,20 +1537,6 @@ draco:
   7.7.0:
     matches: 5
     total_files: 1185
-dracut:
-  '050':
-    matches: 1
-    total_files: 506
-dtcmp:
-  1.0.3:
-    matches: 3
-    total_files: 52
-  1.1.0:
-    matches: 3
-    total_files: 52
-  1.1.1:
-    matches: 3
-    total_files: 53
 dyninst:
   10.0.0:
     matches: 17
@@ -2516,32 +1577,6 @@ e2fsprogs:
   1.45.6:
     matches: 8
     total_files: 1501
-eccodes:
-  2.13.0:
-    matches: 1
-    total_files: 21477
-  2.18.0:
-    matches: 1
-    total_files: 22858
-  2.19.1:
-    matches: 1
-    total_files: 22867
-  2.2.0:
-    matches: 1
-    total_files: 15579
-  2.5.0:
-    matches: 1
-    total_files: 16781
-ecflow:
-  4.11.1:
-    matches: 2
-    total_files: 3387
-  4.12.0:
-    matches: 2
-    total_files: 2757
-  4.13.0:
-    matches: 2
-    total_files: 2761
 efivar:
   '35':
     filtered_matches: 1
@@ -2602,43 +1637,6 @@ elmerfem:
   ice:
     matches: 5
     total_files: 9348
-elpa:
-  2015.11.001:
-    matches: 3
-    total_files: 86
-  2016.05.003:
-    matches: 3
-    total_files: 126
-  2016.05.004:
-    matches: 3
-    total_files: 153
-  2016.11.001.pre:
-    matches: 5
-    total_files: 237
-  2017.05.002:
-    matches: 3
-    total_files: 331
-  2017.05.003:
-    matches: 3
-    total_files: 340
-  2017.11.001:
-    matches: 5
-    total_files: 387
-  2018.05.001.rc1:
-    matches: 5
-    total_files: 392
-  2018.11.001:
-    matches: 7
-    total_files: 412
-  2019.05.002:
-    matches: 7
-    total_files: 412
-  2019.11.001:
-    matches: 5
-    total_files: 306
-  2020.05.001:
-    matches: 5
-    total_files: 317
 emacs:
   '24.5':
     matches: 1
@@ -2665,162 +1663,6 @@ emacs:
   '27.1':
     matches: 4
     total_files: 5631
-emboss:
-  6.6.0:
-    filtered_matches: 1
-    matches: 5
-    total_files: 6463
-embree:
-  3.10.0:
-    matches: 1
-    total_files: 1082
-  3.11.0:
-    matches: 1
-    total_files: 1100
-  3.12.0:
-    matches: 1
-    total_files: 1105
-  3.12.1:
-    matches: 1
-    total_files: 1111
-  3.7.0:
-    matches: 1
-    total_files: 1017
-  3.8.0:
-    matches: 1
-    total_files: 1029
-  3.9.0:
-    matches: 1
-    total_files: 1071
-enca:
-  '1.16':
-    matches: 4
-    total_files: 406
-  '1.17':
-    matches: 4
-    total_files: 452
-  '1.18':
-    matches: 4
-    total_files: 458
-  '1.19':
-    matches: 4
-    total_files: 458
-enchant:
-  2.1.0:
-    matches: 5
-    total_files: 162
-  2.1.1:
-    matches: 5
-    total_files: 163
-  2.1.2:
-    matches: 5
-    total_files: 163
-  2.1.3:
-    matches: 5
-    total_files: 163
-  2.2.0:
-    matches: 5
-    total_files: 162
-  2.2.1:
-    matches: 5
-    total_files: 162
-  2.2.2:
-    matches: 5
-    total_files: 163
-  2.2.3:
-    matches: 5
-    total_files: 163
-  2.2.4:
-    matches: 5
-    total_files: 162
-  2.2.6:
-    matches: 5
-    total_files: 162
-  2.2.7:
-    matches: 5
-    total_files: 162
-energyplus:
-  9.3.0:
-    filtered_matches: 1
-    matches: 1
-    total_files: 1700
-environment-modules:
-  3.2.10:
-    matches: 1
-    total_files: 365
-  4.0.0:
-    matches: 1
-    total_files: 901
-  4.1.0:
-    matches: 1
-    total_files: 1005
-  4.1.1:
-    matches: 1
-    total_files: 1005
-  4.1.2:
-    matches: 1
-    total_files: 1017
-  4.1.3:
-    matches: 1
-    total_files: 1022
-  4.1.4:
-    matches: 1
-    total_files: 1028
-  4.2.0:
-    matches: 1
-    total_files: 1086
-  4.2.1:
-    matches: 1
-    total_files: 1094
-  4.2.2:
-    matches: 1
-    total_files: 1103
-  4.2.3:
-    matches: 1
-    total_files: 1117
-  4.2.4:
-    matches: 1
-    total_files: 1120
-  4.2.5:
-    matches: 1
-    total_files: 1125
-  4.3.0:
-    matches: 1
-    total_files: 1169
-  4.3.1:
-    matches: 2
-    total_files: 1191
-  4.4.0:
-    matches: 2
-    total_files: 1419
-  4.4.1:
-    matches: 2
-    total_files: 1449
-  4.5.0:
-    matches: 2
-    total_files: 2059
-  4.5.1:
-    matches: 2
-    total_files: 2062
-  4.5.2:
-    matches: 2
-    total_files: 2063
-  4.5.3:
-    matches: 2
-    total_files: 2071
-  4.6.0:
-    matches: 2
-    total_files: 2149
-  4.6.1:
-    matches: 2
-    total_files: 2174
-erfa:
-  1.4.0:
-    matches: 3
-    total_files: 259
-  1.7.0:
-    matches: 3
-    total_files: 275
 erlang:
   '21.2':
     matches: 13
@@ -2849,10 +1691,6 @@ ermod:
     filtered_matches: 1
     matches: 2
     total_files: 138
-erne:
-  2.1.1:
-    matches: 3
-    total_files: 215
 esmf:
   7.1.0r:
     matches: 2
@@ -2864,20 +1702,6 @@ esmf:
     filtered_matches: 3
     matches: 3
     total_files: 3654
-etcd:
-  3.3.20:
-    filtered_matches: 3
-    matches: 4
-    total_files: 2237
-exciting:
-  '14':
-    matches: 6
-    total_files: 4135
-exmcutils:
-  master:
-    filtered_matches: 1
-    matches: 3
-    total_files: 1903
 exodusii:
   '2016-08-09':
     matches: 1
@@ -2886,33 +1710,6 @@ exodusii:
     filtered_matches: 1
     matches: 1
     total_files: 5313
-exonerate:
-  2.4.0:
-    matches: 1
-    total_files: 325
-exonerate-gff3:
-  2.3.0:
-    matches: 1
-    total_files: 320
-expat:
-  2.2.0:
-    matches: 3
-    total_files: 132
-  2.2.10:
-    matches: 3
-    total_files: 111
-  2.2.2:
-    matches: 3
-    total_files: 80
-  2.2.5:
-    matches: 3
-    total_files: 121
-  2.2.6:
-    matches: 3
-    total_files: 121
-  2.2.9:
-    matches: 3
-    total_files: 111
 extrae:
   3.4.1:
     filtered_matches: 2
@@ -2921,39 +1718,6 @@ extrae:
   3.7.1:
     matches: 7
     total_files: 985
-eztrace:
-  1.1-10:
-    filtered_matches: 2
-    matches: 36
-    total_files: 1095
-fabtests:
-  1.4.2:
-    matches: 3
-    total_files: 86
-  1.5.0:
-    matches: 3
-    total_files: 100
-  1.5.3:
-    matches: 3
-    total_files: 100
-  1.6.0:
-    matches: 3
-    total_files: 113
-  1.6.1:
-    matches: 3
-    total_files: 113
-  1.6.2:
-    matches: 3
-    total_files: 113
-  1.8.1:
-    matches: 3
-    total_files: 160
-  1.9.0:
-    matches: 3
-    total_files: 173
-  1.9.1:
-    matches: 3
-    total_files: 173
 fakechroot:
   '2.19':
     matches: 9
@@ -2965,11 +1729,6 @@ fakechroot:
     filtered_matches: 1
     matches: 9
     total_files: 293
-fakexrandr:
-  master:
-    filtered_matches: 1
-    matches: 1
-    total_files: 16
 faodel:
   1.1803.1:
     matches: 3
@@ -2986,38 +1745,6 @@ faodel:
   master:
     matches: 3
     total_files: 1118
-fast-global-file-status:
-  '1.1':
-    matches: 3
-    total_files: 70
-fastdb:
-  '3.74':
-    matches: 5
-    total_files: 716
-  '3.75':
-    matches: 5
-    total_files: 716
-fastjar:
-  '0.98':
-    matches: 3
-    total_files: 132
-fastjet:
-  3.3.0:
-    matches: 6
-    total_files: 452
-  3.3.1:
-    matches: 6
-    total_files: 458
-  3.3.2:
-    matches: 6
-    total_files: 452
-  3.3.3:
-    matches: 6
-    total_files: 452
-fastx-toolkit:
-  0.0.14:
-    matches: 3
-    total_files: 188
 faust:
   2.27.1:
     matches: 4
@@ -3025,10 +1752,6 @@ faust:
   2.27.2:
     matches: 4
     total_files: 3150
-fcgi:
-  2.4.1-SNAP-0910052249:
-    matches: 2
-    total_files: 111
 fenics:
   1.6.0:
     filtered_matches: 2
@@ -3037,16 +1760,6 @@ fenics:
   2016.1.0:
     matches: 6
     total_files: 2526
-fenics-dolfinx:
-  master:
-    filtered_matches: 2
-    matches: 2
-    total_files: 372
-fermisciencetools:
-  11r5p3:
-    filtered_matches: 4
-    matches: 16
-    total_files: 15648
 ferret:
   '6.96':
     matches: 2
@@ -3087,91 +1800,6 @@ ffmpeg:
   4.2.2:
     matches: 9
     total_files: 4108
-ffsb:
-  5.2.1:
-    matches: 1
-    total_files: 49
-fftw:
-  2.1.5:
-    matches: 2
-    total_files: 296
-  3.3.4:
-    matches: 3
-    total_files: 1898
-  3.3.5:
-    matches: 3
-    total_files: 3479
-  3.3.6-pl2:
-    matches: 3
-    total_files: 3479
-  3.3.7:
-    matches: 3
-    total_files: 3482
-  3.3.8:
-    matches: 3
-    total_files: 3483
-  3.3.9:
-    matches: 3
-    total_files: 3483
-file:
-  '5.37':
-    matches: 4
-    total_files: 149
-findutils:
-  4.1.20:
-    matches: 2
-    total_files: 313
-  4.2.15:
-    matches: 1
-    total_files: 388
-  4.2.18:
-    matches: 1
-    total_files: 434
-  4.2.20:
-    matches: 2
-    total_files: 445
-  4.2.23:
-    matches: 1
-    total_files: 605
-  4.2.25:
-    matches: 1
-    total_files: 696
-  4.2.26:
-    matches: 2
-    total_files: 718
-  4.2.27:
-    matches: 2
-    total_files: 716
-  4.2.28:
-    matches: 1
-    total_files: 704
-  4.2.29:
-    matches: 1
-    total_files: 714
-  4.2.30:
-    matches: 1
-    total_files: 715
-  4.2.31:
-    matches: 1
-    total_files: 790
-  4.2.32:
-    matches: 1
-    total_files: 846
-  4.2.33:
-    matches: 1
-    total_files: 848
-  4.4.0:
-    matches: 1
-    total_files: 1086
-  4.4.1:
-    matches: 1
-    total_files: 1092
-  4.4.2:
-    matches: 1
-    total_files: 1094
-  4.6.0:
-    matches: 1
-    total_files: 1694
 fio:
   '2.19':
     matches: 3
@@ -3197,49 +1825,6 @@ fipscheck:
     filtered_matches: 1
     matches: 2
     total_files: 18
-fish:
-  3.0.0:
-    matches: 3
-    total_files: 1603
-  3.1.0:
-    matches: 3
-    total_files: 1923
-  3.1.2:
-    matches: 3
-    total_files: 1930
-flac:
-  1.3.0:
-    matches: 4
-    total_files: 694
-  1.3.1:
-    matches: 4
-    total_files: 923
-  1.3.2:
-    matches: 4
-    total_files: 680
-flex:
-  2.6.1:
-    matches: 4
-    total_files: 298
-  2.6.3:
-    matches: 4
-    total_files: 297
-  2.6.4:
-    matches: 4
-    total_files: 296
-flexiblas:
-  3.0.3:
-    filtered_matches: 7
-    matches: 9
-    total_files: 16005
-flit:
-  2.1.0:
-    matches: 1
-    total_files: 256
-fltk:
-  1.3.3:
-    matches: 7
-    total_files: 1482
 flux-core:
   0.15.0:
     filtered_matches: 8
@@ -3272,38 +1857,6 @@ flux-core:
   master:
     matches: 16
     total_files: 1599
-flux-sched:
-  0.10.0:
-    matches: 5
-    total_files: 807
-  0.11.0:
-    matches: 5
-    total_files: 843
-  0.12.0:
-    matches: 5
-    total_files: 843
-  0.13.0:
-    matches: 5
-    total_files: 876
-  0.14.0:
-    matches: 5
-    total_files: 888
-  0.15.0:
-    matches: 5
-    total_files: 915
-  0.8.0:
-    matches: 6
-    total_files: 638
-  0.9.0:
-    matches: 5
-    total_files: 722
-  master:
-    matches: 2
-    total_files: 913
-fluxbox:
-  1.3.7:
-    matches: 3
-    total_files: 663
 foam-extend:
   '3.0':
     matches: 1
@@ -3334,19 +1887,6 @@ folly:
   2017.06.05.00:
     matches: 7
     total_files: 1010
-fontconfig:
-  2.11.1:
-    matches: 3
-    total_files: 853
-  2.12.1:
-    matches: 3
-    total_files: 884
-  2.12.3:
-    matches: 3
-    total_files: 886
-  2.13.1:
-    matches: 4
-    total_files: 963
 foundationdb:
   6.2.24:
     filtered_matches: 1
@@ -3367,81 +1907,6 @@ foundationdb:
   6.3.4:
     matches: 7
     total_files: 1418
-fox:
-  1.6.57:
-    matches: 4
-    total_files: 1132
-  1.7.67:
-    matches: 4
-    total_files: 1371
-fplll:
-  5.0.3:
-    matches: 3
-    total_files: 96
-  5.1.0:
-    matches: 3
-    total_files: 99
-  5.2.0:
-    matches: 3
-    total_files: 105
-  5.2.1:
-    matches: 3
-    total_files: 105
-  5.3.0:
-    matches: 3
-    total_files: 144
-  5.3.1:
-    matches: 3
-    total_files: 144
-  5.3.2:
-    matches: 3
-    total_files: 144
-  5.3.3:
-    matches: 3
-    total_files: 145
-  5.4.0:
-    matches: 3
-    total_files: 135
-fpocket:
-  master:
-    matches: 1
-    total_files: 3399
-freebayes:
-  1.1.0:
-    filtered_matches: 2
-    matches: 6
-    total_files: 1663
-freeipmi:
-  1.6.4:
-    matches: 2
-    total_files: 1127
-freetype:
-  2.10.0:
-    matches: 2
-    total_files: 737
-  2.10.1:
-    matches: 2
-    total_files: 744
-  2.5.3:
-    matches: 2
-    total_files: 694
-  '2.7':
-    matches: 2
-    total_files: 709
-  2.7.1:
-    matches: 2
-    total_files: 710
-  2.9.1:
-    matches: 2
-    total_files: 721
-freexl:
-  1.0.5:
-    matches: 3
-    total_files: 70
-fribidi:
-  1.0.5:
-    matches: 3
-    total_files: 171
 frontier-client:
   '2_8_20':
     matches: 1
@@ -3474,37 +1939,6 @@ g2o:
   master:
     matches: 2
     total_files: 706
-ganglia:
-  3.7.2:
-    matches: 5
-    total_files: 360
-gasnet:
-  1.30.0:
-    matches: 1
-    total_files: 462
-  1.32.0:
-    matches: 1
-    total_files: 431
-  2019.3.0:
-    matches: 2
-    total_files: 418
-  2019.3.2:
-    matches: 2
-    total_files: 418
-  2019.6.0:
-    matches: 2
-    total_files: 367
-  2019.9.0:
-    matches: 2
-    total_files: 372
-  2020.3.0:
-    matches: 2
-    total_files: 356
-gatepet2stir:
-  1.3.2:
-    filtered_matches: 1
-    matches: 1
-    total_files: 2303
 gawk:
   4.1.4:
     matches: 14
@@ -3619,75 +2053,6 @@ gccxml:
     filtered_matches: 2
     matches: 5
     total_files: 2115
-gchp:
-  13.0.0-rc.0:
-    matches: 1
-    total_files: 6869
-gconf:
-  3.2.6:
-    matches: 2
-    total_files: 253
-gdal:
-  1.11.5:
-    matches: 8
-    total_files: 2777
-  2.0.2:
-    matches: 8
-    total_files: 2890
-  2.1.2:
-    matches: 8
-    total_files: 3113
-  2.3.0:
-    matches: 9
-    total_files: 3341
-  2.3.1:
-    matches: 9
-    total_files: 3338
-  2.3.2:
-    matches: 9
-    total_files: 3338
-  2.3.3:
-    matches: 9
-    total_files: 3338
-  2.4.0:
-    matches: 9
-    total_files: 3374
-  3.0.0:
-    matches: 9
-    total_files: 3383
-  3.0.1:
-    matches: 9
-    total_files: 3383
-  3.0.2:
-    matches: 9
-    total_files: 3383
-  3.0.3:
-    matches: 9
-    total_files: 3382
-  3.0.4:
-    matches: 9
-    total_files: 3382
-  3.1.0:
-    matches: 11
-    total_files: 3756
-  3.1.1:
-    matches: 11
-    total_files: 3759
-  3.1.2:
-    matches: 11
-    total_files: 3759
-  3.1.3:
-    matches: 11
-    total_files: 3761
-  3.1.4:
-    matches: 11
-    total_files: 3760
-  3.2.0:
-    matches: 11
-    total_files: 3812
-  3.2.1:
-    matches: 11
-    total_files: 3809
 gdb:
   '10.1':
     matches: 75
@@ -3741,31 +2106,6 @@ gdb:
   '9.2':
     matches: 76
     total_files: 12330
-gdbm:
-  '1.10':
-    matches: 4
-    total_files: 149
-  '1.11':
-    matches: 4
-    total_files: 184
-  '1.12':
-    matches: 4
-    total_files: 184
-  '1.13':
-    matches: 4
-    total_files: 195
-  1.14.1:
-    matches: 4
-    total_files: 195
-  1.18.1:
-    matches: 4
-    total_files: 206
-  '1.9':
-    matches: 3
-    total_files: 107
-  1.9.1:
-    matches: 3
-    total_files: 107
 gdk-pixbuf:
   2.31.2:
     matches: 6
@@ -3779,87 +2119,6 @@ gdk-pixbuf:
   2.40.0:
     matches: 1
     total_files: 690
-gengetopt:
-  '2.20':
-    matches: 2
-    total_files: 326
-  '2.21':
-    matches: 2
-    total_files: 331
-  '2.22':
-    matches: 2
-    total_files: 352
-  2.22.1:
-    matches: 2
-    total_files: 354
-  2.22.2:
-    matches: 3
-    total_files: 366
-  2.22.3:
-    matches: 3
-    total_files: 370
-  2.22.4:
-    matches: 3
-    total_files: 376
-  2.22.5:
-    matches: 3
-    total_files: 399
-  2.22.6:
-    matches: 3
-    total_files: 400
-  '2.23':
-    matches: 3
-    total_files: 355
-genometools:
-  1.6.1:
-    filtered_matches: 2
-    matches: 3
-    total_files: 4299
-genomeworks:
-  0.2.0:
-    matches: 4
-    total_files: 2382
-  0.3.0:
-    matches: 4
-    total_files: 2719
-  0.4.0:
-    matches: 4
-    total_files: 3025
-  0.4.3:
-    matches: 4
-    total_files: 3025
-  0.4.4:
-    matches: 4
-    total_files: 3069
-  0.5.0:
-    matches: 3
-    total_files: 2063
-  0.5.1:
-    matches: 3
-    total_files: 2063
-  0.5.2:
-    matches: 3
-    total_files: 2063
-  0.5.3:
-    matches: 3
-    total_files: 2064
-geoip:
-  1.6.10:
-    matches: 3
-    total_files: 62
-  1.6.11:
-    matches: 3
-    total_files: 62
-  1.6.12:
-    matches: 3
-    total_files: 62
-geoip-api-c:
-  1.6.10:
-    matches: 3
-    total_files: 62
-  1.6.11:
-    matches: 3
-    total_files: 62
 geopm:
   0.3.0:
     matches: 4
@@ -3883,61 +2142,6 @@ geopm:
   1.0.0:
     matches: 8
     total_files: 486
-geos:
-  3.3.3:
-    matches: 3
-    total_files: 1089
-  3.3.4:
-    matches: 3
-    total_files: 1090
-  3.3.5:
-    matches: 3
-    total_files: 1092
-  3.3.6:
-    matches: 3
-    total_files: 1094
-  3.3.7:
-    matches: 3
-    total_files: 1095
-  3.3.8:
-    matches: 3
-    total_files: 1096
-  3.3.9:
-    matches: 3
-    total_files: 1094
-  3.4.0:
-    matches: 3
-    total_files: 1153
-  3.4.1:
-    matches: 3
-    total_files: 1153
-  3.4.2:
-    matches: 3
-    total_files: 1152
-  3.4.3:
-    matches: 3
-    total_files: 1155
-  3.5.0:
-    matches: 3
-    total_files: 1187
-  3.5.1:
-    matches: 3
-    total_files: 1178
-  3.6.0:
-    matches: 3
-    total_files: 1190
-  3.6.1:
-    matches: 3
-    total_files: 1190
-  3.6.2:
-    matches: 3
-    total_files: 1200
-  3.7.2:
-    matches: 3
-    total_files: 1222
-  3.8.1:
-    matches: 3
-    total_files: 1312
 gettext:
   0.19.7:
     matches: 15
@@ -3979,14 +2183,6 @@ ghostscript:
   '9.50':
     matches: 19
     total_files: 4769
-giflib:
-  5.1.4:
-    matches: 3
-    total_files: 154
-ginac:
-  1.7.11:
-    matches: 8
-    total_files: 298
 git:
   2.11.0:
     matches: 1
@@ -4236,16 +2432,6 @@ globalarrays:
   '5.8':
     matches: 26
     total_files: 1447
-glog:
-  0.3.3:
-    matches: 3
-    total_files: 91
-  0.3.4:
-    matches: 3
-    total_files: 92
-  0.3.5:
-    matches: 3
-    total_files: 98
 glpk:
   '4.57':
     filtered_matches: 3
@@ -4285,97 +2471,6 @@ gmake:
     filtered_matches: 3
     matches: 6
     total_files: 204
-gmap-gsnap:
-  '2014-12-28':
-    matches: 3
-    total_files: 316
-  '2017-06-16':
-    matches: 3
-    total_files: 350
-  '2018-02-12':
-    matches: 3
-    total_files: 372
-  '2018-03-25':
-    matches: 3
-    total_files: 389
-  '2018-07-04':
-    matches: 3
-    total_files: 392
-  '2019-02-15':
-    matches: 3
-    total_files: 414
-  '2019-05-12':
-    matches: 3
-    total_files: 416
-  '2020-06-01':
-    matches: 1
-    total_files: 392
-gmime:
-  2.6.23:
-    matches: 3
-    total_files: 394
-gmp:
-  4.3.2:
-    matches: 2
-    total_files: 1298
-  5.1.3:
-    matches: 2
-    total_files: 1720
-  6.0.0a:
-    matches: 2
-    total_files: 1850
-  6.1.0:
-    matches: 2
-    total_files: 1875
-  6.1.1:
-    matches: 2
-    total_files: 1875
-  6.1.2:
-    matches: 2
-    total_files: 1875
-gmsh:
-  2.15.0:
-    matches: 1
-    total_files: 2538
-  2.16.0:
-    matches: 1
-    total_files: 2540
-  3.0.1:
-    matches: 1
-    total_files: 2536
-  3.0.6:
-    matches: 1
-    total_files: 2552
-  4.0.0:
-    matches: 1
-    total_files: 2414
-  4.2.2:
-    matches: 1
-    total_files: 2393
-  4.4.1:
-    matches: 1
-    total_files: 2450
-  4.5.4:
-    matches: 1
-    total_files: 2516
-  4.5.5:
-    matches: 1
-    total_files: 2519
-  4.5.6:
-    matches: 1
-    total_files: 2536
-  4.6.0:
-    matches: 1
-    total_files: 2539
-  4.7.0:
-    matches: 1
-    total_files: 2763
-  4.7.1:
-    matches: 1
-    total_files: 2763
-  develop:
-    matches: 1
-    total_files: 3371
 gmt:
   5.4.4:
     matches: 5
@@ -4698,22 +2793,6 @@ gobject-introspection:
   1.56.1:
     matches: 8
     total_files: 2436
-goblin-hmc-sim:
-  8.0.0:
-    filtered_matches: 1
-    matches: 17
-    total_files: 280
-googletest:
-  1.10.0:
-    matches: 1
-    total_files: 254
-gosam-contrib:
-  '1.0':
-    matches: 3
-    total_files: 306
-  '2.0':
-    matches: 8
-    total_files: 380
 gotcha:
   0.0.2:
     filtered_matches: 1
@@ -4755,16 +2834,6 @@ gperftools:
   '2.7':
     matches: 7
     total_files: 314
-gpgme:
-  1.12.0:
-    filtered_matches: 2
-    matches: 5
-    total_files: 630
-grads:
-  2.2.1:
-    filtered_matches: 3
-    matches: 8
-    total_files: 515
 grafana:
   6.6.2:
     matches: 1
@@ -4799,15 +2868,6 @@ graphicsmagick:
   1.3.34:
     matches: 16
     total_files: 1299
-graphite2:
-  1.3.13:
-    matches: 1
-    total_files: 349
-graphviz:
-  2.46.0:
-    filtered_matches: 1
-    matches: 3
-    total_files: 3596
 grass:
   7.8.1:
     matches: 3
@@ -4819,23 +2879,6 @@ grass:
   master:
     matches: 3
     total_files: 6456
-grep:
-  '3.3':
-    matches: 1
-    total_files: 961
-grib-api:
-  1.24.0:
-    matches: 9
-    total_files: 6252
-gridlab-d:
-  develop:
-    filtered_matches: 4
-    matches: 12
-    total_files: 3604
-groff:
-  1.22.3:
-    matches: 1
-    total_files: 801
 gromacs:
   '2016.3':
     matches: 9
@@ -4928,112 +2971,6 @@ gromacs:
   master:
     matches: 13
     total_files: 5642
-grpc:
-  1.23.1:
-    matches: 1
-    total_files: 4978
-  1.24.3:
-    matches: 1
-    total_files: 4999
-  1.25.0:
-    matches: 1
-    total_files: 5115
-  1.26.0:
-    matches: 1
-    total_files: 5147
-  1.27.0:
-    matches: 1
-    total_files: 5174
-  1.28.0:
-    matches: 1
-    total_files: 5251
-  1.28.1:
-    matches: 1
-    total_files: 5251
-  1.28.2:
-    matches: 1
-    total_files: 5251
-  1.29.0:
-    matches: 1
-    total_files: 5274
-  1.29.1:
-    matches: 1
-    total_files: 5274
-  1.30.0:
-    matches: 1
-    total_files: 5379
-gsl:
-  '1.16':
-    matches: 2
-    total_files: 1650
-  '2.0':
-    matches: 2
-    total_files: 1752
-  '2.1':
-    matches: 2
-    total_files: 1797
-  2.2.1:
-    matches: 2
-    total_files: 1940
-  '2.3':
-    matches: 2
-    total_files: 1945
-  '2.4':
-    matches: 2
-    total_files: 1949
-  '2.5':
-    matches: 2
-    total_files: 2040
-  '2.6':
-    matches: 2
-    total_files: 2098
-gtkmm:
-  2.16.0:
-    matches: 2
-    total_files: 4820
-  2.17.1:
-    matches: 2
-    total_files: 4186
-  2.17.11:
-    matches: 3
-    total_files: 2491
-  2.19.2:
-    matches: 3
-    total_files: 2524
-  2.19.4:
-    matches: 3
-    total_files: 2540
-  2.19.6:
-    matches: 3
-    total_files: 2540
-  2.19.7:
-    matches: 3
-    total_files: 2540
-  2.4.11:
-    matches: 2
-    total_files: 3666
-gtkorvo-atl:
-  '2.1':
-    matches: 1
-    total_files: 22
-gtkorvo-cercs-env:
-  '1.0':
-    matches: 1
-    total_files: 16
-  develop:
-    matches: 1
-    total_files: 28
-gtkorvo-dill:
-  '2.1':
-    matches: 1
-    total_files: 77
-gtkorvo-enet:
-  1.3.13:
-    matches: 3
-    total_files: 44
-  1.3.14:
-    matches: 3
-    total_files: 49
 gtkplus:
   2.24.25:
     matches: 4
@@ -5047,22 +2984,6 @@ gtkplus:
   3.20.10:
     matches: 3
     total_files: 5403
-gtksourceview:
-  3.24.11:
-    matches: 5
-    total_files: 809
-  4.2.0:
-    matches: 5
-    total_files: 804
-gts:
-  '121130':
-    matches: 2
-    total_files: 158
-guacamole-server:
-  1.1.0:
-    filtered_matches: 1
-    matches: 3
-    total_files: 490
 guile:
   2.0.11:
     matches: 11
@@ -5092,31 +3013,6 @@ guile:
   2.2.6:
     matches: 12
     total_files: 2070
-gzip:
-  '1.10':
-    matches: 1
-    total_files: 434
-h5hut:
-  2.0.0rc3:
-    matches: 3
-    total_files: 256
-h5part:
-  1.6.6:
-    matches: 3
-    total_files: 69
-hadoop:
-  2.10.0:
-    matches: 2
-    total_files: 24528
-  2.9.2:
-    matches: 2
-    total_files: 23894
-  3.1.3:
-    matches: 3
-    total_files: 21728
-  3.2.1:
-    matches: 3
-    total_files: 22351
 haproxy:
   2.1.0:
     filtered_matches: 1
@@ -5125,29 +3021,6 @@ haproxy:
   2.1.1:
     matches: 1
     total_files: 595
-harfbuzz:
-  0.9.37:
-    matches: 3
-    total_files: 457
-  1.4.6:
-    matches: 3
-    total_files: 637
-  1.9.0:
-    matches: 3
-    total_files: 940
-  2.1.3:
-    matches: 3
-    total_files: 1072
-  2.3.1:
-    matches: 3
-    total_files: 1503
-  2.6.8:
-    matches: 3
-    total_files: 2398
-harminv:
-  '1.4':
-    matches: 3
-    total_files: 32
 hashcat:
   5.0.0:
     filtered_matches: 4
@@ -5165,33 +3038,6 @@ hashcat:
   6.1.1:
     matches: 5
     total_files: 2502
-hdf:
-  4.2.11:
-    matches: 6
-    total_files: 959
-  4.2.12:
-    matches: 6
-    total_files: 1070
-  4.2.13:
-    matches: 6
-    total_files: 1075
-  4.2.14:
-    matches: 6
-    total_files: 1082
-  4.2.15:
-    matches: 6
-    total_files: 1096
-hdf-eos2:
-  2.20v1.00:
-    matches: 2
-    total_files: 257
-hdf-eos5:
-  5.1.15:
-    matches: 2
-    total_files: 816
-  5.1.16:
-    matches: 2
-    total_files: 350
 hdf5:
   1.10.0:
     matches: 6
@@ -5257,25 +3103,6 @@ hdf5:
   develop:
     matches: 6
     total_files: 3238
-healpix-cxx:
-  3.50.0:
-    matches: 3
-    total_files: 152
-heaptrack:
-  1.1.0:
-    matches: 9
-    total_files: 147
-henson:
-  master:
-    matches: 4
-    total_files: 237
-hepmc:
-  2.06.09:
-    matches: 6
-    total_files: 180
-  2.06.11:
-    matches: 5
-    total_files: 182
 hepmc3:
   3.2.0:
     matches: 3
@@ -5287,37 +3114,6 @@ hepmc3:
     filtered_matches: 2
     matches: 3
     total_files: 373
-heppdt:
-  3.04.00:
-    matches: 6
-    total_files: 624
-herwig3:
-  7.2.1:
-    matches: 5
-    total_files: 2819
-herwigpp:
-  2.7.1:
-    matches: 6
-    total_files: 2260
-hip:
-  3.10.0:
-    matches: 2
-    total_files: 745
-  3.5.0:
-    matches: 2
-    total_files: 657
-  3.7.0:
-    matches: 2
-    total_files: 689
-  3.8.0:
-    matches: 2
-    total_files: 692
-  3.9.0:
-    matches: 2
-    total_files: 740
-  4.0.0:
-    matches: 2
-    total_files: 745
 hip-rocclr:
   3.10.0:
     matches: 7
@@ -5338,10 +3134,6 @@ hip-rocclr:
   4.0.0:
     matches: 7
     total_files: 741
-hipsycl:
-  0.8.0:
-    matches: 1
-    total_files: 851
 hpctoolkit:
   2018.11.05:
     matches: 34
@@ -5374,16 +3166,6 @@ hpctoolkit:
   master:
     matches: 40
     total_files: 1262
-hpx:
-  1.5.0:
-    matches: 3
-    total_files: 4617
-  1.5.1:
-    matches: 3
-    total_files: 4619
-  master:
-    matches: 3
-    total_files: 4279
 hpx5:
   2.0.0:
     matches: 14
@@ -5406,29 +3188,6 @@ hpx5:
   4.1.0:
     matches: 3
     total_files: 815
-hsa-rocr-dev:
-  3.10.0:
-    matches: 1
-    total_files: 178
-  3.5.0:
-    matches: 1
-    total_files: 114
-  3.7.0:
-    matches: 1
-    total_files: 178
-  3.8.0:
-    matches: 1
-    total_files: 178
-  3.9.0:
-    matches: 1
-    total_files: 178
-  4.0.0:
-    matches: 1
-    total_files: 178
-hsakmt:
-  1.0.0:
-    matches: 2
-    total_files: 34
 hsakmt-roct:
   3.10.0:
     matches: 1
@@ -5449,10 +3208,6 @@ hsakmt-roct:
     filtered_matches: 1
     matches: 1
     total_files: 146
-htop:
-  2.0.2:
-    matches: 3
-    total_files: 164
 htslib:
   1.10.2:
     matches: 4
@@ -5568,16 +3323,6 @@ hwloc:
   master:
     matches: 7
     total_files: 752
-hydra:
-  '3.2':
-    filtered_matches: 2
-    matches: 14
-    total_files: 770
-hyphy:
-  2.3.14:
-    filtered_matches: 1
-    matches: 4
-    total_files: 936
 ibm-databroker:
   0.6.0:
     matches: 1
@@ -5592,79 +3337,6 @@ ibm-databroker:
     filtered_matches: 3
     matches: 3
     total_files: 245
-icarus:
-  v10_3:
-    filtered_matches: 5
-    matches: 7
-    total_files: 728
-icedtea:
-  3.4.0:
-    filtered_matches: 34
-    matches: 70
-    total_files: 50289
-icu4c:
-  '57.1':
-    matches: 3
-    total_files: 2283
-  '57.2':
-    matches: 3
-    total_files: 2283
-  '58.2':
-    matches: 3
-    total_files: 2522
-  '58.3':
-    matches: 3
-    total_files: 2091
-  '60.1':
-    matches: 3
-    total_files: 2159
-  '60.3':
-    matches: 3
-    total_files: 2159
-  '64.1':
-    matches: 3
-    total_files: 2275
-  '65.1':
-    matches: 3
-    total_files: 2298
-  '66.1':
-    matches: 3
-    total_files: 2300
-  '67.1':
-    matches: 3
-    total_files: 2302
-id3lib:
-  3.8.3:
-    matches: 3
-    total_files: 229
-iegenlib:
-  '2018-07-03':
-    matches: 5
-    total_files: 3109
-  master:
-    matches: 5
-    total_files: 3133
-igraph:
-  0.7.1:
-    filtered_matches: 3
-    matches: 5
-    total_files: 1345
-ilmbase:
-  0.9.0:
-    matches: 2
-    total_files: 180
-  1.0.2:
-    matches: 2
-    total_files: 214
-  2.0.1:
-    matches: 4
-    total_files: 220
-  2.2.0:
-    matches: 3
-    total_files: 189
-  2.3.0:
-    matches: 3
-    total_files: 182
 imagemagick:
   7.0.2-6:
     matches: 8
@@ -5690,19 +3362,6 @@ imlib2:
   1.6.1:
     matches: 7
     total_files: 159
-imp:
-  2.8.0:
-    matches: 5
-    total_files: 4505
-intel-gpu-tools:
-  '1.16':
-    matches: 4
-    total_files: 636
-intel-llvm:
-  ycl:
-    filtered_matches: 27
-    matches: 144
-    total_files: 102229
 intel-pin:
   '2.14':
     matches: 29
@@ -5835,10 +3494,6 @@ ipcalc:
     filtered_matches: 1
     matches: 1
     total_files: 30
-iperf3:
-  '3.6':
-    matches: 2
-    total_files: 89
 ipopt:
   3.12.0:
     matches: 12
@@ -5908,39 +3563,6 @@ isc-dhcp:
   4.4.2:
     matches: 1
     total_files: 685
-isl:
-  '0.14':
-    matches: 3
-    total_files: 942
-  '0.15':
-    matches: 3
-    total_files: 1003
-  '0.18':
-    matches: 3
-    total_files: 1055
-  '0.19':
-    matches: 3
-    total_files: 1131
-  '0.20':
-    matches: 3
-    total_files: 1159
-  '0.21':
-    matches: 3
-    total_files: 1195
-ispc:
-  1.14.0:
-    matches: 1
-    total_files: 1864
-  1.14.1:
-    matches: 1
-    total_files: 1868
-  master:
-    matches: 1
-    total_files: 2001
-itk:
-  5.1.1:
-    matches: 13
-    total_files: 15831
 jags:
   4.2.0:
     matches: 18
@@ -5949,22 +3571,6 @@ jags:
     filtered_matches: 7
     matches: 18
     total_files: 1147
-jasper:
-  1.900.1:
-    matches: 2
-    total_files: 193
-jchronoss:
-  '1.2':
-    filtered_matches: 2
-    matches: 2
-    total_files: 386
-jellyfish:
-  1.1.11:
-    matches: 3
-    total_files: 176
-  2.2.7:
-    matches: 4
-    total_files: 186
 jemalloc:
   4.0.4:
     matches: 1
@@ -6004,44 +3610,6 @@ jimtcl:
   '0.79':
     matches: 6
     total_files: 235
-jose:
-  '10':
-    matches: 2
-    total_files: 239
-  '8':
-    matches: 2
-    total_files: 236
-  '9':
-    matches: 2
-    total_files: 237
-jq:
-  '1.5':
-    matches: 3
-    total_files: 110
-  '1.6':
-    matches: 8
-    total_files: 285
-json-c:
-  '0.11':
-    matches: 3
-    total_files: 203
-  '0.12':
-    matches: 2
-    total_files: 178
-  0.12.1:
-    matches: 2
-    total_files: 195
-  0.13.1:
-    matches: 2
-    total_files: 246
-json-glib:
-  1.2.8:
-    matches: 4
-    total_files: 548
-judy:
-  1.0.5:
-    matches: 5
-    total_files: 101
 julia:
   0.5.2:
     matches: 23
@@ -6083,13 +3651,6 @@ julia:
   master:
     matches: 41
     total_files: 1630
-kahip:
-  '2.00':
-    matches: 6
-    total_files: 495
-  develop:
-    matches: 2
-    total_files: 771
 kaldi:
   '2018-07-11':
     filtered_matches: 1
@@ -6098,35 +3659,6 @@ kaldi:
   '2019-07-29':
     matches: 2
     total_files: 6340
-kallisto:
-  0.46.2:
-    filtered_matches: 1
-    matches: 3
-    total_files: 270
-karma:
-  1.7.25-comm:
-    matches: 1
-    total_files: 1963
-kbd:
-  2.2.0:
-    matches: 3
-    total_files: 969
-  2.2.90:
-    matches: 3
-    total_files: 1035
-  2.3.0:
-    matches: 1
-    total_files: 1012
-kcov:
-  '38':
-    filtered_matches: 4
-    matches: 5
-    total_files: 283
-kea:
-  1.6.2:
-    filtered_matches: 2
-    matches: 13
-    total_files: 2822
 keepalived:
   2.0.11:
     matches: 3
@@ -6156,37 +3688,6 @@ keepalived:
   2.0.19:
     matches: 3
     total_files: 291
-kentutils:
-  '302.1':
-    matches: 1
-    total_files: 7098
-kibana:
-  6.4.0:
-    filtered_matches: 1
-    matches: 6
-    total_files: 56280
-kim-api:
-  2.0.2:
-    matches: 2
-    total_files: 300
-  2.1.0:
-    matches: 2
-    total_files: 341
-  2.1.1:
-    matches: 2
-    total_files: 342
-  2.1.2:
-    matches: 2
-    total_files: 342
-  2.1.3:
-    matches: 2
-    total_files: 342
-  2.2.1:
-    matches: 2
-    total_files: 360
-  develop:
-    matches: 2
-    total_files: 386
 kitty:
   0.10.0:
     matches: 17
@@ -6236,84 +3737,6 @@ kmod:
   '27':
     matches: 3
     total_files: 374
-kokkos:
-  3.0.00:
-    matches: 1
-    total_files: 2311
-  3.1.00:
-    matches: 1
-    total_files: 2302
-  3.1.01:
-    matches: 1
-    total_files: 2302
-  3.2.00:
-    matches: 1
-    total_files: 1316
-  develop:
-    matches: 1
-    total_files: 878
-  master:
-    matches: 1
-    total_files: 859
-kokkos-legacy:
-  2.02.07:
-    matches: 1
-    total_files: 491
-  2.02.15:
-    matches: 1
-    total_files: 496
-  2.03.00:
-    matches: 1
-    total_files: 523
-  2.03.05:
-    matches: 1
-    total_files: 652
-  2.03.13:
-    matches: 1
-    total_files: 686
-  2.04.00:
-    matches: 1
-    total_files: 752
-  2.04.04:
-    matches: 1
-    total_files: 753
-  2.04.11:
-    matches: 1
-    total_files: 765
-  2.5.00:
-    matches: 1
-    total_files: 950
-  2.7.00:
-    matches: 1
-    total_files: 1956
-  2.7.24:
-    matches: 1
-    total_files: 1998
-  2.8.00:
-    matches: 1
-    total_files: 1998
-  2.9.00:
-    matches: 1
-    total_files: 2307
-kokkos-nvcc-wrapper:
-  3.0.00:
-    matches: 1
-    total_files: 2311
-  3.1.00:
-    matches: 1
-    total_files: 2302
-  3.1.01:
-    matches: 1
-    total_files: 2302
-  3.2.00:
-    matches: 1
-    total_files: 1316
-  develop:
-    matches: 1
-    total_files: 878
-  master:
-    matches: 1
-    total_files: 859
 krb5:
   1.16.1:
     matches: 7
@@ -6359,14 +3782,6 @@ kubernetes:
   1.18.1:
     matches: 6
     total_files: 17663
-kylin:
-  3.1.0:
-    matches: 1
-    total_files: 3446
-lame:
-  '3.100':
-    matches: 2
-    total_files: 284
 lammps:
   '20200505':
     matches: 7
@@ -6381,37 +3796,6 @@ lammps:
     filtered_matches: 1
     matches: 8
     total_files: 10134
-laszip:
-  3.4.1:
-    matches: 1
-    total_files: 97
-launchmon:
-  1.0.2:
-    matches: 5
-    total_files: 255
-  master:
-    matches: 2
-    total_files: 252
-lcms:
-  '2.6':
-    matches: 2
-    total_files: 200
-  '2.8':
-    matches: 3
-    total_files: 227
-  '2.9':
-    matches: 3
-    total_files: 255
-ldc:
-  1.3.0:
-    filtered_matches: 2
-    matches: 9
-    total_files: 3909
-ldc-bootstrap:
-  0.17.4:
-    filtered_matches: 2
-    matches: 8
-    total_files: 2988
 legion:
   17.02.0:
     matches: 3
@@ -6450,10 +3834,6 @@ legion:
     filtered_matches: 3
     matches: 7
     total_files: 2126
-lesstif:
-  0.95.2:
-    matches: 3
-    total_files: 1657
 lftp:
   4.6.4:
     matches: 9
@@ -6465,96 +3845,6 @@ lftp:
     filtered_matches: 1
     matches: 9
     total_files: 797
-lhapdf:
-  6.2.3:
-    matches: 3
-    total_files: 193
-  6.3.0:
-    matches: 3
-    total_files: 206
-lhapdf5:
-  5.7.1:
-    matches: 3
-    total_files: 144
-  5.8.0:
-    matches: 3
-    total_files: 147
-  5.8.1:
-    matches: 3
-    total_files: 151
-  5.8.2:
-    matches: 3
-    total_files: 156
-  5.8.3:
-    matches: 3
-    total_files: 156
-  5.8.4:
-    matches: 4
-    total_files: 157
-  5.8.5:
-    matches: 3
-    total_files: 158
-  5.8.6:
-    matches: 3
-    total_files: 158
-  5.8.7:
-    matches: 3
-    total_files: 160
-  5.8.8:
-    matches: 4
-    total_files: 162
-  5.8.9:
-    matches: 3
-    total_files: 162
-  5.9.0:
-    matches: 3
-    total_files: 164
-  5.9.1:
-    matches: 3
-    total_files: 164
-libapplewm:
-  1.4.1:
-    matches: 2
-    total_files: 16
-libarchive:
-  3.1.0:
-    matches: 3
-    total_files: 846
-  3.1.1:
-    matches: 3
-    total_files: 846
-  3.1.2:
-    matches: 3
-    total_files: 990
-  3.2.1:
-    matches: 3
-    total_files: 1174
-  3.3.2:
-    matches: 3
-    total_files: 1207
-  3.4.1:
-    matches: 3
-    total_files: 1305
-  3.5.1:
-    matches: 3
-    total_files: 1320
-libassuan:
-  2.4.3:
-    matches: 3
-    total_files: 100
-  2.4.5:
-    matches: 3
-    total_files: 100
-  2.5.3:
-    matches: 3
-    total_files: 101
-libatomic-ops:
-  7.4.4:
-    matches: 3
-    total_files: 116
-  7.6.6:
-    matches: 3
-    total_files: 118
 libbacktrace:
   '2020-02-19':
     matches: 7
@@ -6570,13 +3860,6 @@ libbeagle:
     filtered_matches: 2
     matches: 3
     total_files: 239
-libbinio:
-  '1.4':
-    matches: 2
-    total_files: 39
-  '1.5':
-    matches: 2
-    total_files: 37
 libbsd:
   0.10.0:
     matches: 6
@@ -6593,230 +3876,6 @@ libbsd:
   0.9.1:
     matches: 6
     total_files: 362
-libbson:
-  1.6.1:
-    matches: 3
-    total_files: 892
-  1.6.2:
-    matches: 3
-    total_files: 892
-  1.6.3:
-    matches: 3
-    total_files: 890
-  1.7.0:
-    matches: 3
-    total_files: 958
-  1.8.0:
-    matches: 3
-    total_files: 962
-  1.8.1:
-    matches: 3
-    total_files: 962
-  1.9.1:
-    matches: 3
-    total_files: 963
-  1.9.3:
-    matches: 3
-    total_files: 963
-  1.9.4:
-    matches: 3
-    total_files: 964
-  1.9.5:
-    matches: 3
-    total_files: 964
-libbytesize:
-  '2.2':
-    matches: 3
-    total_files: 162
-  '2.3':
-    matches: 3
-    total_files: 89
-  '2.4':
-    matches: 3
-    total_files: 90
-libcanberra:
-  '0.30':
-    filtered_matches: 1
-    matches: 5
-    total_files: 98
-libcerf:
-  '1.3':
-    matches: 3
-    total_files: 61
-libcgroup:
-  '0.36':
-    matches: 2
-    total_files: 100
-  '0.37':
-    matches: 2
-    total_files: 107
-  '0.41':
-    matches: 2
-    total_files: 142
-libcircle:
-  0.2.1-rc.1:
-    matches: 3
-    total_files: 36
-  0.3.0:
-    matches: 3
-    total_files: 36
-libconfig:
-  '1.5':
-    matches: 3
-    total_files: 114
-  1.7.1:
-    matches: 3
-    total_files: 189
-  1.7.2:
-    matches: 3
-    total_files: 200
-libcroco:
-  0.6.12:
-    matches: 3
-    total_files: 284
-libctl:
-  3.2.2:
-    matches: 4
-    total_files: 60
-libdaemon:
-  '0.12':
-    matches: 2
-    total_files: 36
-  '0.13':
-    matches: 2
-    total_files: 35
-  '0.14':
-    matches: 3
-    total_files: 43
-libdap4:
-  3.20.4:
-    matches: 2
-    total_files: 1807
-libdatrie:
-  0.2.11:
-    matches: 3
-    total_files: 59
-  0.2.12:
-    matches: 3
-    total_files: 59
-libdmx:
-  1.1.3:
-    matches: 2
-    total_files: 32
-libdrm:
-  2.4.100:
-    matches: 3
-    total_files: 350
-  2.4.33:
-    matches: 3
-    total_files: 172
-  2.4.59:
-    matches: 3
-    total_files: 230
-  2.4.70:
-    matches: 3
-    total_files: 294
-  2.4.75:
-    matches: 3
-    total_files: 309
-  2.4.81:
-    matches: 3
-    total_files: 309
-libeatmydata:
-  '105':
-    matches: 5
-    total_files: 47
-libedit:
-  3.1-20150325:
-    matches: 2
-    total_files: 69
-  3.1-20160903:
-    matches: 3
-    total_files: 79
-  3.1-20170329:
-    matches: 3
-    total_files: 79
-  3.1-20191231:
-    matches: 3
-    total_files: 78
-libemos:
-  4.4.2:
-    matches: 1
-    total_files: 8335
-  4.4.7:
-    matches: 1
-    total_files: 8344
-  4.4.9:
-    matches: 1
-    total_files: 8421
-  4.5.0:
-    matches: 1
-    total_files: 8447
-  4.5.1:
-    matches: 1
-    total_files: 8449
-libepoxy:
-  1.4.3:
-    filtered_matches: 4
-    matches: 9
-    total_files: 82
-libestr:
-  0.1.11:
-    matches: 1
-    total_files: 11
-libev:
-  '4.24':
-    matches: 2
-    total_files: 27
-  develop:
-    matches: 2
-    total_files: 39
-libevent:
-  2.0.12:
-    matches: 3
-    total_files: 156
-  2.0.13:
-    matches: 3
-    total_files: 156
-  2.0.14:
-    matches: 3
-    total_files: 157
-  2.0.15:
-    matches: 3
-    total_files: 157
-  2.0.16:
-    matches: 3
-    total_files: 157
-  2.0.17:
-    matches: 3
-    total_files: 157
-  2.0.18:
-    matches: 3
-    total_files: 157
-  2.0.19:
-    matches: 3
-    total_files: 158
-  2.0.20:
-    matches: 3
-    total_files: 158
-  2.0.21:
-    matches: 3
-    total_files: 158
-  2.0.22:
-    matches: 3
-    total_files: 159
-  2.1.10:
-    matches: 3
-    total_files: 208
-  2.1.11:
-    matches: 3
-    total_files: 209
-  2.1.12:
-    matches: 3
-    total_files: 211
-  2.1.8:
-    matches: 3
-    total_files: 184
 libevpath:
   4.1.1:
     matches: 11
@@ -6837,10 +3896,6 @@ libevpath:
     filtered_matches: 7
     matches: 10
     total_files: 228
-libexif:
-  0.6.21:
-    matches: 4
-    total_files: 190
 libfabric:
   1.10.0:
     matches: 6
@@ -6911,13 +3966,6 @@ libfastcommon:
   1.0.43:
     matches: 1
     total_files: 111
-libffi:
-  3.2.1:
-    matches: 4
-    total_files: 307
-  '3.3':
-    matches: 4
-    total_files: 394
 libffs:
   '1.1':
     matches: 3
@@ -6932,14 +3980,6 @@ libffs:
   develop:
     matches: 1
     total_files: 234
-libfontenc:
-  1.1.3:
-    matches: 2
-    total_files: 15
-libfs:
-  1.0.7:
-    matches: 2
-    total_files: 43
 libfuse:
   3.9.2:
     filtered_matches: 1
@@ -6951,67 +3991,6 @@ libfuse:
   3.9.4:
     matches: 1
     total_files: 93
-libgcrypt:
-  1.6.2:
-    matches: 4
-    total_files: 368
-  1.7.6:
-    matches: 4
-    total_files: 414
-  1.8.1:
-    matches: 4
-    total_files: 440
-  1.8.4:
-    matches: 4
-    total_files: 442
-  1.8.5:
-    matches: 4
-    total_files: 443
-  1.8.6:
-    matches: 4
-    total_files: 443
-  1.8.7:
-    matches: 4
-    total_files: 443
-  1.9.1:
-    matches: 4
-    total_files: 480
-libgd:
-  2.2.4:
-    matches: 4
-    total_files: 625
-libgeotiff:
-  1.4.2:
-    matches: 3
-    total_files: 131
-  1.4.3:
-    matches: 3
-    total_files: 131
-  1.5.0:
-    matches: 3
-    total_files: 135
-  1.5.1:
-    matches: 3
-    total_files: 135
-  1.6.0:
-    matches: 3
-    total_files: 138
-libgpg-error:
-  '1.18':
-    matches: 4
-    total_files: 210
-  '1.21':
-    matches: 4
-    total_files: 211
-  '1.27':
-    matches: 4
-    total_files: 221
-  '1.36':
-    matches: 4
-    total_files: 242
-  '1.37':
-    matches: 4
-    total_files: 244
 libgpuarray:
   0.6.0:
     matches: 1
@@ -7052,10 +4031,6 @@ libgssglue:
   '0.4':
     matches: 3
     total_files: 60
-libgtextutils:
-  '0.7':
-    matches: 3
-    total_files: 52
 libhbaapi:
   '3.10':
     filtered_matches: 1
@@ -7107,86 +4082,6 @@ libiberty:
   2.33.1:
     matches: 64
     total_files: 23125
-libibumad:
-  '25.0':
-    filtered_matches: 2
-    matches: 5
-    total_files: 960
-libical:
-  3.0.8:
-    filtered_matches: 1
-    matches: 1
-    total_files: 985
-libice:
-  1.0.9:
-    matches: 2
-    total_files: 45
-libiconv:
-  '1.15':
-    matches: 7
-    total_files: 830
-  '1.16':
-    matches: 7
-    total_files: 805
-libid3tag:
-  0.15.1b:
-    matches: 2
-    total_files: 54
-libidl:
-  0.8.14:
-    matches: 2
-    total_files: 34
-libidn2:
-  2.0.5:
-    matches: 17
-    total_files: 467
-  2.1.0:
-    matches: 17
-    total_files: 460
-  2.1.1:
-    matches: 16
-    total_files: 463
-  2.1.1a:
-    matches: 16
-    total_files: 463
-  2.3.0:
-    matches: 15
-    total_files: 466
-libint:
-  1.1.5:
-    matches: 2
-    total_files: 54
-  1.1.6:
-    matches: 2
-    total_files: 54
-  2.1.0:
-    matches: 3
-    total_files: 298
-  2.2.0:
-    matches: 3
-    total_files: 307
-  2.4.0:
-    matches: 3
-    total_files: 315
-  2.4.1:
-    matches: 3
-    total_files: 315
-  2.4.2:
-    matches: 3
-    total_files: 315
-  2.6.0:
-    matches: 3
-    total_files: 364
-libjpeg:
-  9a:
-    matches: 2
-    total_files: 173
-  9b:
-    matches: 2
-    total_files: 174
-  9c:
-    matches: 2
-    total_files: 176
 libkcapi:
   1.1.4:
     filtered_matches: 1
@@ -7198,38 +4093,6 @@ libkcapi:
   1.2.0:
     matches: 1
     total_files: 105
-libksba:
-  1.3.5:
-    matches: 3
-    total_files: 122
-  1.4.0:
-    matches: 3
-    total_files: 144
-liblbxutil:
-  1.1.0:
-    matches: 2
-    total_files: 31
-libluv:
-  1.36.0-0:
-    filtered_matches: 7
-    matches: 14
-    total_files: 484
-libmad:
-  0.15.1b:
-    matches: 2
-    total_files: 46
-libmatheval:
-  1.1.11:
-    matches: 3
-    total_files: 55
-libmaus2:
-  2.0.767:
-    matches: 10
-    total_files: 1990
-libmaxminddb:
-  1.3.2:
-    matches: 2
-    total_files: 192
 libmesh:
   1.0.0:
     matches: 106
@@ -7261,44 +4124,6 @@ libmicrohttpd:
     filtered_matches: 1
     matches: 6
     total_files: 394
-libmng:
-  2.0.2:
-    matches: 4
-    total_files: 221
-  2.0.3:
-    matches: 4
-    total_files: 221
-libmodbus:
-  3.0.5:
-    matches: 3
-    total_files: 183
-  3.0.6:
-    matches: 3
-    total_files: 183
-  3.0.7:
-    matches: 3
-    total_files: 183
-  3.0.8:
-    matches: 3
-    total_files: 183
-  3.1.1:
-    matches: 4
-    total_files: 202
-  3.1.2:
-    matches: 3
-    total_files: 99
-  3.1.3:
-    matches: 3
-    total_files: 109
-  3.1.4:
-    matches: 3
-    total_files: 111
-  3.1.5:
-    matches: 3
-    total_files: 112
-  3.1.6:
-    matches: 3
-    total_files: 112
 libmonitor:
   2013.02.18:
     filtered_matches: 5
@@ -7316,43 +4141,6 @@ libmonitor:
   master:
     matches: 11
     total_files: 62
-libnbc:
-  1.1.1:
-    matches: 2
-    total_files: 59
-libnftnl:
-  1.1.6:
-    matches: 3
-    total_files: 195
-libnl:
-  3.3.0:
-    filtered_matches: 1
-    matches: 4
-    total_files: 448
-libnova:
-  0.15.0:
-    matches: 2
-    total_files: 97
-libnsl:
-  1.1.0:
-    matches: 1
-    total_files: 90
-  1.2.0:
-    matches: 1
-    total_files: 90
-libogg:
-  1.3.2:
-    matches: 2
-    total_files: 137
-liboldx:
-  1.0.1:
-    matches: 2
-    total_files: 19
-libp11:
-  0.4.10:
-    filtered_matches: 1
-    matches: 2
-    total_files: 85
 libpam:
   '1.07':
     filtered_matches: 2
@@ -7364,67 +4152,6 @@ libpam:
   '1.09':
     matches: 3
     total_files: 32
-libpciaccess:
-  0.13.4:
-    matches: 2
-    total_files: 41
-  0.13.5:
-    matches: 3
-    total_files: 46
-  '0.16':
-    matches: 3
-    total_files: 49
-libpeas:
-  1.22.0:
-    matches: 3
-    total_files: 389
-libpipeline:
-  1.4.2:
-    matches: 4
-    total_files: 245
-libpmemobj-cpp:
-  '1.5':
-    matches: 1
-    total_files: 226
-  1.5.1:
-    matches: 1
-    total_files: 226
-  '1.6':
-    matches: 1
-    total_files: 511
-  develop:
-    matches: 1
-    total_files: 807
-libpng:
-  1.2.57:
-    matches: 3
-    total_files: 190
-  1.6.37:
-    matches: 3
-    total_files: 427
-libproxy:
-  0.4.13:
-    matches: 1
-    total_files: 104
-  0.4.14:
-    matches: 1
-    total_files: 107
-  0.4.15:
-    matches: 1
-    total_files: 107
-libpsl:
-  0.17.0:
-    matches: 4
-    total_files: 80
-libpthread-stubs:
-  '0.3':
-    matches: 2
-    total_files: 10
-libpulsar:
-  2.7.0:
-    filtered_matches: 1
-    matches: 1
-    total_files: 5061
 libquo:
   1.2.9:
     matches: 7
@@ -7450,13 +4177,6 @@ librdkafka:
     filtered_matches: 4
     matches: 8
     total_files: 511
-librsb:
-  1.2.0.8:
-    matches: 3
-    total_files: 509
-  1.2.0.9:
-    matches: 3
-    total_files: 509
 librsvg:
   2.44.14:
     matches: 12
@@ -7467,206 +4187,6 @@ librsvg:
   2.50.2:
     matches: 8
     total_files: 10569
-libsamplerate:
-  0.1.8:
-    matches: 3
-    total_files: 89
-  0.1.9:
-    matches: 3
-    total_files: 89
-libsecret:
-  0.18.8:
-    matches: 2
-    total_files: 287
-libsigcpp:
-  2.0.3:
-    matches: 2
-    total_files: 1494
-  2.1.1:
-    matches: 2
-    total_files: 2185
-  2.9.3:
-    matches: 3
-    total_files: 840
-  2.99.12:
-    matches: 3
-    total_files: 366
-libsigsegv:
-  '2.10':
-    matches: 3
-    total_files: 148
-  '2.11':
-    matches: 3
-    total_files: 148
-  '2.12':
-    matches: 3
-    total_files: 152
-libsm:
-  1.2.2:
-    matches: 2
-    total_files: 27
-  1.2.3:
-    matches: 2
-    total_files: 27
-libsndfile:
-  1.0.28:
-    matches: 3
-    total_files: 326
-libsodium:
-  0.7.1:
-    matches: 4
-    total_files: 430
-  1.0.0:
-    matches: 4
-    total_files: 430
-  1.0.1:
-    matches: 5
-    total_files: 433
-  1.0.13:
-    matches: 5
-    total_files: 439
-  1.0.15:
-    matches: 5
-    total_files: 508
-  1.0.16:
-    matches: 5
-    total_files: 523
-  1.0.17:
-    matches: 5
-    total_files: 531
-  1.0.18:
-    matches: 5
-    total_files: 541
-  1.0.2:
-    matches: 5
-    total_files: 436
-  1.0.3:
-    matches: 5
-    total_files: 439
-libspatialite:
-  3.0.1:
-    matches: 2
-    total_files: 826
-  4.3.0a:
-    matches: 3
-    total_files: 4831
-  5.0.0:
-    matches: 3
-    total_files: 8249
-  5.0.0-beta0:
-    matches: 3
-    total_files: 7748
-libssh:
-  0.7.5:
-    matches: 1
-    total_files: 233
-  0.8.5:
-    matches: 1
-    total_files: 320
-libssh2:
-  1.4.3:
-    matches: 4
-    total_files: 282
-  1.7.0:
-    matches: 4
-    total_files: 330
-  1.8.0:
-    matches: 4
-    total_files: 353
-libszip:
-  '2.1':
-    matches: 4
-    total_files: 61
-  2.1.1:
-    matches: 3
-    total_files: 57
-libtasn1:
-  '4.0':
-    matches: 3
-    total_files: 331
-  '4.1':
-    matches: 3
-    total_files: 334
-  '4.10':
-    matches: 3
-    total_files: 394
-  '4.12':
-    matches: 3
-    total_files: 396
-  '4.13':
-    matches: 3
-    total_files: 396
-  '4.2':
-    matches: 3
-    total_files: 334
-  '4.3':
-    matches: 3
-    total_files: 338
-  '4.4':
-    matches: 3
-    total_files: 338
-  '4.5':
-    matches: 3
-    total_files: 339
-  '4.6':
-    matches: 3
-    total_files: 341
-  '4.7':
-    matches: 3
-    total_files: 341
-  '4.8':
-    matches: 3
-    total_files: 381
-  '4.9':
-    matches: 3
-    total_files: 383
-libthai:
-  0.1.28:
-    matches: 3
-    total_files: 120
-libtheora:
-  1.1.0:
-    matches: 2
-    total_files: 222
-  1.1.1:
-    matches: 2
-    total_files: 291
-libtiff:
-  3.9.7:
-    matches: 3
-    total_files: 414
-  4.0.10:
-    matches: 3
-    total_files: 530
-  4.0.6:
-    matches: 3
-    total_files: 540
-  4.0.7:
-    matches: 3
-    total_files: 518
-  4.0.8:
-    matches: 3
-    total_files: 515
-  4.0.9:
-    matches: 3
-    total_files: 521
-  4.1.0:
-    matches: 3
-    total_files: 540
-libtirpc:
-  1.1.4:
-    matches: 4
-    total_files: 177
-  1.2.6:
-    matches: 4
-    total_files: 177
-libtlx:
-  0.5.20191212:
-    matches: 1
-    total_files: 286
-  0.5.20200222:
-    matches: 1
-    total_files: 292
 libtool:
   2.4.2:
     matches: 72
@@ -7678,68 +4198,6 @@ libtool:
   develop:
     matches: 45
     total_files: 6993
-libunistring:
-  0.9.10:
-    matches: 4
-    total_files: 1841
-  0.9.6:
-    matches: 4
-    total_files: 1768
-  0.9.7:
-    matches: 4
-    total_files: 1789
-  0.9.8:
-    matches: 4
-    total_files: 1830
-  0.9.9:
-    matches: 4
-    total_files: 1833
-libunwind:
-  '1.1':
-    matches: 9
-    total_files: 617
-  1.2.1:
-    matches: 5
-    total_files: 671
-  1.3.1:
-    matches: 5
-    total_files: 730
-  1.4.0:
-    matches: 5
-    total_files: 769
-  1.5-head:
-    matches: 4
-    total_files: 811
-  1.5.0:
-    matches: 5
-    total_files: 773
-  master:
-    matches: 3
-    total_files: 829
-libusb:
-  1.0.20:
-    matches: 6
-    total_files: 171
-  1.0.21:
-    matches: 3
-    total_files: 193
-  1.0.22:
-    matches: 3
-    total_files: 175
-libuser:
-  '0.60':
-    matches: 4
-    total_files: 280
-  '0.61':
-    matches: 4
-    total_files: 283
-  '0.62':
-    matches: 4
-    total_files: 278
-libuuid:
-  1.0.3:
-    matches: 2
-    total_files: 27
 libuv:
   1.10.0:
     matches: 10
@@ -7760,10 +4218,6 @@ libuv:
   1.9.0:
     matches: 10
     total_files: 326
-libvdwxc:
-  0.4.0:
-    matches: 3
-    total_files: 45
 libverto:
   0.2.7:
     matches: 2
@@ -7785,14 +4239,6 @@ libvips:
   8.9.1:
     matches: 5
     total_files: 832
-libvorbis:
-  1.3.5:
-    matches: 2
-    total_files: 405
-libwebp:
-  1.0.3:
-    matches: 3
-    total_files: 293
 libwebsockets:
   2.0.3:
     filtered_matches: 2
@@ -7807,10 +4253,6 @@ libwebsockets:
   2.2.1:
     matches: 4
     total_files: 217
-libwindowswm:
-  1.0.1:
-    matches: 2
-    total_files: 15
 libx11:
   1.6.3:
     matches: 8
@@ -7825,129 +4267,6 @@ libx11:
   1.7.0:
     matches: 9
     total_files: 1612
-libxau:
-  1.0.8:
-    matches: 2
-    total_files: 30
-libxaw:
-  1.0.12:
-    matches: 2
-    total_files: 185
-  1.0.13:
-    matches: 2
-    total_files: 185
-libxaw3d:
-  1.6.2:
-    matches: 2
-    total_files: 143
-libxc:
-  2.2.1:
-    matches: 3
-    total_files: 196
-  2.2.2:
-    matches: 3
-    total_files: 196
-  3.0.0:
-    matches: 3
-    total_files: 2401
-  4.2.3:
-    matches: 3
-    total_files: 10822
-  4.3.2:
-    matches: 3
-    total_files: 10822
-  4.3.4:
-    matches: 3
-    total_files: 10817
-  5.0.0:
-    matches: 3
-    total_files: 12437
-libxcb:
-  '1.11':
-    matches: 4
-    total_files: 76
-  1.11.1:
-    matches: 4
-    total_files: 76
-  '1.12':
-    matches: 4
-    total_files: 76
-  '1.13':
-    matches: 3
-    total_files: 74
-  '1.14':
-    matches: 3
-    total_files: 75
-libxcomposite:
-  0.4.4:
-    matches: 2
-    total_files: 29
-libxcursor:
-  1.1.14:
-    matches: 2
-    total_files: 53
-libxdamage:
-  1.1.4:
-    matches: 2
-    total_files: 14
-libxdmcp:
-  1.1.2:
-    matches: 2
-    total_files: 29
-libxevie:
-  1.0.3:
-    matches: 2
-    total_files: 21
-libxext:
-  1.3.3:
-    matches: 2
-    total_files: 114
-libxfixes:
-  5.0.2:
-    matches: 2
-    total_files: 21
-libxfont:
-  1.5.2:
-    matches: 3
-    total_files: 118
-libxfont2:
-  2.0.1:
-    matches: 2
-    total_files: 87
-libxfontcache:
-  1.0.5:
-    matches: 2
-    total_files: 15
-libxft:
-  2.3.2:
-    matches: 2
-    total_files: 34
-libxi:
-  1.7.6:
-    matches: 2
-    total_files: 193
-libxinerama:
-  1.1.3:
-    matches: 2
-    total_files: 21
-libxkbcommon:
-  0.7.1:
-    matches: 3
-    total_files: 140
-  0.8.0:
-    matches: 3
-    total_files: 139
-  0.8.2:
-    matches: 3
-    total_files: 139
-libxkbfile:
-  1.0.9:
-    matches: 2
-    total_files: 31
-libxkbui:
-  1.0.2:
-    matches: 2
-    total_files: 15
 libxml2:
   2.7.8:
     filtered_matches: 1
@@ -7968,71 +4287,6 @@ libxml2:
   2.9.9:
     matches: 12
     total_files: 6658
-libxmu:
-  1.1.2:
-    matches: 2
-    total_files: 87
-libxp:
-  1.0.3:
-    matches: 2
-    total_files: 64
-libxpm:
-  3.5.10:
-    matches: 2
-    total_files: 70
-  3.5.11:
-    matches: 2
-    total_files: 70
-  3.5.12:
-    matches: 3
-    total_files: 75
-  3.5.7:
-    matches: 2
-    total_files: 63
-  3.5.8:
-    matches: 2
-    total_files: 63
-  3.5.9:
-    matches: 2
-    total_files: 68
-libxpresent:
-  1.0.0:
-    matches: 2
-    total_files: 16
-libxprintapputil:
-  1.0.1:
-    matches: 2
-    total_files: 14
-libxprintutil:
-  1.0.1:
-    matches: 2
-    total_files: 15
-libxrandr:
-  1.5.0:
-    matches: 2
-    total_files: 40
-libxrender:
-  0.9.10:
-    matches: 2
-    total_files: 27
-  0.9.9:
-    matches: 2
-    total_files: 27
-libxres:
-  1.0.7:
-    matches: 2
-    total_files: 21
-libxscrnsaver:
-  1.2.2:
-    matches: 2
-    total_files: 27
-libxshmfence:
-  '1.2':
-    matches: 2
-    total_files: 21
-  '1.3':
-    matches: 2
-    total_files: 21
 libxslt:
   1.1.26:
     matches: 3
@@ -8067,73 +4321,6 @@ libxsmm:
   master:
     matches: 1
     total_files: 2299
-libxt:
-  1.1.5:
-    matches: 2
-    total_files: 407
-libxtrap:
-  1.0.1:
-    matches: 2
-    total_files: 19
-libxtst:
-  1.2.2:
-    matches: 2
-    total_files: 35
-libxv:
-  1.0.10:
-    matches: 2
-    total_files: 49
-libxvmc:
-  1.0.9:
-    filtered_matches: 1
-    matches: 4
-    total_files: 24
-libxxf86dga:
-  1.1.4:
-    matches: 2
-    total_files: 38
-libxxf86misc:
-  1.0.3:
-    matches: 2
-    total_files: 15
-libxxf86vm:
-  1.1.4:
-    matches: 2
-    total_files: 38
-libyaml:
-  0.1.1:
-    matches: 2
-    total_files: 114
-  0.1.2:
-    matches: 2
-    total_files: 161
-  0.1.3:
-    matches: 2
-    total_files: 162
-  0.1.4:
-    matches: 2
-    total_files: 169
-  0.1.5:
-    matches: 2
-    total_files: 170
-  0.1.6:
-    matches: 2
-    total_files: 170
-  0.1.7:
-    matches: 2
-    total_files: 149
-  0.2.1:
-    matches: 2
-    total_files: 139
-  0.2.2:
-    matches: 2
-    total_files: 140
-  0.2.3:
-    matches: 2
-    total_files: 141
-  0.2.4:
-    matches: 2
-    total_files: 141
 libyogrt:
   1.20-2:
     filtered_matches: 1
@@ -8166,26 +4353,6 @@ libyogrt:
   '1.24':
     matches: 4
     total_files: 67
-libzip:
-  1.2.0:
-    matches: 4
-    total_files: 604
-libzmq:
-  4.2.5:
-    matches: 4
-    total_files: 691
-  4.3.0:
-    matches: 3
-    total_files: 721
-  4.3.1:
-    matches: 3
-    total_files: 721
-  4.3.2:
-    matches: 3
-    total_files: 741
-  4.3.3:
-    matches: 3
-    total_files: 663
 lighttpd:
   1.4.49:
     matches: 32
@@ -8223,25 +4390,6 @@ likwid:
   5.1.0:
     matches: 14
     total_files: 1541
-linux-headers:
-  4.9.10:
-    filtered_matches: 2
-    matches: 5
-    total_files: 50920
-linux-pam:
-  1.3.1:
-    filtered_matches: 4
-    matches: 14
-    total_files: 945
-lis:
-  2.0.27:
-    matches: 3
-    total_files: 562
-lksctp-tools:
-  1.0.18:
-    filtered_matches: 1
-    matches: 2
-    total_files: 128
 llvm:
   11.0.0:
     matches: 135
@@ -8311,34 +4459,6 @@ llvm-openmp-ompt:
   tr6_forward:
     matches: 6
     total_files: 403
-log4c:
-  1.2.4:
-    matches: 3
-    total_files: 150
-log4cplus:
-  1.2.1:
-    matches: 3
-    total_files: 378
-  2.0.1:
-    matches: 3
-    total_files: 615
-log4cpp:
-  1.1.3:
-    matches: 2
-    total_files: 344
-log4cxx:
-  0.10.0:
-    matches: 2
-    total_files: 1474
-logstash:
-  6.6.0:
-    matches: 3
-    total_files: 12042
-ltrace:
-  0.7.3:
-    filtered_matches: 1
-    matches: 6
-    total_files: 262
 lua:
   5.1.3:
     matches: 2
@@ -8391,28 +4511,6 @@ lua-luajit:
   2.1.0-beta3:
     matches: 2
     total_files: 218
-lua-luaposix:
-  33.2.1:
-    matches: 4
-    total_files: 169
-  33.4.0:
-    matches: 4
-    total_files: 157
-lumpy-sv:
-  0.2.13:
-    filtered_matches: 1
-    matches: 1
-    total_files: 275
-lvarray:
-  0.1.0:
-    matches: 2
-    total_files: 768
-  develop:
-    matches: 2
-    total_files: 777
-  mai:
-    matches: 2
-    total_files: 769
 lvm2:
   2.03.00:
     matches: 4
@@ -8433,53 +4531,6 @@ lvm2:
   2.03.05:
     matches: 3
     total_files: 1063
-lwgrp:
-  1.0.2:
-    matches: 3
-    total_files: 30
-  1.0.3:
-    matches: 3
-    total_files: 28
-lzma:
-  4.32.7:
-    matches: 2
-    total_files: 128
-lzo:
-  '2.05':
-    matches: 2
-    total_files: 358
-  '2.06':
-    matches: 2
-    total_files: 359
-  '2.07':
-    matches: 2
-    total_files: 283
-  '2.08':
-    matches: 2
-    total_files: 284
-  '2.09':
-    matches: 2
-    total_files: 284
-  '2.10':
-    matches: 2
-    total_files: 286
-lzop:
-  '1.01':
-    matches: 1
-    total_files: 86
-  '1.03':
-    matches: 1
-    total_files: 109
-  '1.04':
-    matches: 1
-    total_files: 107
-m4:
-  1.4.17:
-    matches: 1
-    total_files: 1091
-  1.4.18:
-    matches: 1
-    total_files: 1123
 macsio:
   '1.1':
     matches: 1
@@ -8487,72 +4538,6 @@ macsio:
   develop:
     matches: 1
     total_files: 121
-magics:
-  2.29.4:
-    matches: 1
-    total_files: 2213
-  2.29.6:
-    matches: 1
-    total_files: 2222
-  2.31.0:
-    matches: 1
-    total_files: 2231
-  2.32.0:
-    matches: 1
-    total_files: 2234
-  2.33.0:
-    matches: 1
-    total_files: 2240
-  2.34.1:
-    matches: 1
-    total_files: 2250
-  2.34.3:
-    matches: 1
-    total_files: 2276
-  4.1.0:
-    matches: 1
-    total_files: 1809
-  4.2.4:
-    matches: 1
-    total_files: 1797
-  4.2.6:
-    matches: 1
-    total_files: 1798
-  4.3.0:
-    matches: 1
-    total_files: 1797
-  4.3.1:
-    matches: 1
-    total_files: 1797
-  4.3.3:
-    matches: 1
-    total_files: 1673
-  4.4.0:
-    matches: 1
-    total_files: 1673
-maloc:
-  '1.0':
-    matches: 3
-    total_files: 133
-  '1.1':
-    matches: 3
-    total_files: 133
-  '1.2':
-    matches: 3
-    total_files: 122
-  '1.3':
-    matches: 3
-    total_files: 122
-  '1.4':
-    matches: 3
-    total_files: 132
-  '1.5':
-    matches: 3
-    total_files: 132
-man-db:
-  2.7.6.1:
-    matches: 5
-    total_files: 726
 mariadb:
   10.1.14:
     matches: 29
@@ -8650,84 +4635,6 @@ mariadb-c-client:
   3.1.9:
     matches: 5
     total_files: 289
-masurca:
-  3.3.1:
-    matches: 3
-    total_files: 1611
-matio:
-  1.5.10:
-    matches: 3
-    total_files: 444
-  1.5.11:
-    matches: 3
-    total_files: 454
-  1.5.12:
-    matches: 3
-    total_files: 472
-  1.5.13:
-    matches: 3
-    total_files: 472
-  1.5.14:
-    matches: 3
-    total_files: 472
-  1.5.15:
-    matches: 3
-    total_files: 475
-  1.5.16:
-    matches: 3
-    total_files: 475
-  1.5.17:
-    matches: 3
-    total_files: 479
-  1.5.2:
-    matches: 3
-    total_files: 143
-  1.5.3:
-    matches: 3
-    total_files: 141
-  1.5.5:
-    matches: 3
-    total_files: 154
-  1.5.6:
-    matches: 3
-    total_files: 154
-  1.5.7:
-    matches: 3
-    total_files: 433
-  1.5.8:
-    matches: 3
-    total_files: 433
-  1.5.9:
-    matches: 3
-    total_files: 437
-mbedtls:
-  2.1.3:
-    matches: 1
-    total_files: 657
-  2.1.4:
-    matches: 1
-    total_files: 662
-  2.16.1:
-    matches: 1
-    total_files: 952
-  2.16.7:
-    matches: 1
-    total_files: 983
-  2.16.9:
-    matches: 1
-    total_files: 992
-  2.2.0:
-    matches: 1
-    total_files: 662
-  2.2.1:
-    matches: 1
-    total_files: 667
-  2.3.0:
-    matches: 1
-    total_files: 685
-  2.7.10:
-    matches: 1
-    total_files: 908
 mc:
   4.8.20:
     matches: 6
@@ -8739,10 +4646,6 @@ mc:
     filtered_matches: 1
     matches: 6
     total_files: 1128
-mcpp:
-  2.7.2:
-    matches: 2
-    total_files: 826
 med:
   3.2.0:
     matches: 5
@@ -8750,16 +4653,6 @@ med:
   4.0.0:
     matches: 6
     total_files: 6590
-meep:
-  1.1.1:
-    matches: 4
-    total_files: 108
-  1.2.1:
-    matches: 4
-    total_files: 114
-  '1.3':
-    matches: 4
-    total_files: 116
 meme:
   4.11.4:
     filtered_matches: 1
@@ -8794,19 +4687,6 @@ memkind:
     filtered_matches: 2
     matches: 7
     total_files: 482
-mercury:
-  1.0.0:
-    matches: 3
-    total_files: 553
-  1.0.1:
-    matches: 3
-    total_files: 558
-  2.0.0:
-    matches: 3
-    total_files: 569
-  master:
-    matches: 3
-    total_files: 635
 mesa:
   20.2.1:
     filtered_matches: 6
@@ -8823,10 +4703,6 @@ mesa-glu:
     filtered_matches: 1
     matches: 3
     total_files: 200
-meshkit:
-  1.5.0:
-    matches: 3
-    total_files: 800
 meson:
   0.41.1:
     matches: 7
@@ -8874,103 +4750,6 @@ meson:
     filtered_matches: 4
     matches: 11
     total_files: 3471
-mesquite:
-  2.2.0:
-    matches: 4
-    total_files: 916
-  2.3.0:
-    matches: 4
-    total_files: 948
-  '2.99':
-    matches: 4
-    total_files: 948
-mgis:
-  '1.0':
-    matches: 1
-    total_files: 113
-  '1.1':
-    matches: 1
-    total_files: 256
-  '1.2':
-    matches: 1
-    total_files: 313
-  master:
-    matches: 1
-    total_files: 328
-  rliv-1.0:
-    matches: 1
-    total_files: 162
-  rliv-1.1:
-    matches: 1
-    total_files: 280
-  rliv-1.2:
-    matches: 1
-    total_files: 330
-mindthegap:
-  2.0.2:
-    matches: 3
-    total_files: 3628
-minuit:
-  1.5.0:
-    matches: 2
-    total_files: 188
-  1.5.2:
-    matches: 2
-    total_files: 200
-  1.6.0:
-    matches: 2
-    total_files: 220
-  1.6.3:
-    matches: 2
-    total_files: 230
-  1.7.1:
-    matches: 2
-    total_files: 230
-  1.7.6:
-    matches: 2
-    total_files: 232
-  1.7.9:
-    matches: 2
-    total_files: 233
-  5.08.00:
-    matches: 2
-    total_files: 226
-  5.10.00:
-    matches: 2
-    total_files: 226
-  5.12.00:
-    matches: 2
-    total_files: 226
-  5.14.00:
-    matches: 2
-    total_files: 226
-  5.16.00:
-    matches: 2
-    total_files: 226
-  5.18.00:
-    matches: 2
-    total_files: 238
-  5.20.00:
-    matches: 2
-    total_files: 238
-  5.21.06:
-    matches: 2
-    total_files: 239
-  5.22.00:
-    matches: 2
-    total_files: 240
-  5.24.00:
-    matches: 2
-    total_files: 242
-  5.27.02:
-    matches: 2
-    total_files: 242
-  5.28.00:
-    matches: 2
-    total_files: 242
-  5.34.14:
-    matches: 2
-    total_files: 251
 mivisionx:
   '1.7':
     matches: 3
@@ -8991,131 +4770,6 @@ mivisionx:
   4.0.0:
     matches: 4
     total_files: 1818
-mlocate:
-  '0.24':
-    matches: 1
-    total_files: 227
-  '0.25':
-    matches: 1
-    total_files: 235
-  '0.26':
-    matches: 1
-    total_files: 237
-moab:
-  4.8.2:
-    matches: 4
-    total_files: 859
-  4.9.0:
-    matches: 4
-    total_files: 904
-  4.9.1:
-    matches: 4
-    total_files: 884
-  4.9.2:
-    matches: 4
-    total_files: 897
-  5.0.0:
-    matches: 4
-    total_files: 1712
-  5.0.1:
-    matches: 1
-    total_files: 1807
-  5.0.2:
-    matches: 1
-    total_files: 1837
-  5.1.0:
-    matches: 4
-    total_files: 1730
-  5.2.0:
-    matches: 4
-    total_files: 1791
-  5.2.1:
-    matches: 4
-    total_files: 1790
-  develop:
-    matches: 1
-    total_files: 1878
-  master:
-    matches: 1
-    total_files: 1872
-modern-wheel:
-  '1.0':
-    matches: 1
-    total_files: 28
-  '1.1':
-    matches: 1
-    total_files: 32
-  '1.2':
-    matches: 1
-    total_files: 36
-mofem-cephas:
-  0.8.10:
-    matches: 1
-    total_files: 1177
-  0.8.11:
-    matches: 1
-    total_files: 1177
-  0.8.12:
-    matches: 1
-    total_files: 1177
-  0.8.13:
-    matches: 1
-    total_files: 1186
-  0.8.14:
-    matches: 1
-    total_files: 1188
-  0.8.15:
-    matches: 1
-    total_files: 1188
-  0.8.16:
-    matches: 1
-    total_files: 1189
-  0.8.17:
-    matches: 1
-    total_files: 1189
-  0.8.7:
-    matches: 1
-    total_files: 1177
-  0.8.8:
-    matches: 1
-    total_files: 1177
-  0.8.9:
-    matches: 1
-    total_files: 1177
-  develop:
-    matches: 1
-    total_files: 1378
-mongo-c-driver:
-  1.6.1:
-    matches: 6
-    total_files: 2906
-  1.6.2:
-    matches: 6
-    total_files: 2912
-  1.6.3:
-    matches: 6
-    total_files: 2909
-  1.7.0:
-    matches: 6
-    total_files: 3041
-  1.8.0:
-    matches: 6
-    total_files: 3097
-  1.8.1:
-    matches: 6
-    total_files: 3097
-  1.9.1:
-    matches: 6
-    total_files: 3269
-  1.9.3:
-    matches: 6
-    total_files: 3280
-  1.9.4:
-    matches: 6
-    total_files: 3271
-  1.9.5:
-    matches: 6
-    total_files: 3271
 mono:
   4.8.0.524:
     matches: 38
@@ -9151,94 +4805,6 @@ mono:
   6.8.0.123:
     matches: 59
     total_files: 113521
-montage:
-  '6.0':
-    matches: 13
-    total_files: 4098
-moosefs:
-  3.0.103:
-    matches: 3
-    total_files: 401
-  3.0.104:
-    matches: 3
-    total_files: 404
-  3.0.105:
-    matches: 3
-    total_files: 404
-  3.0.107:
-    matches: 3
-    total_files: 409
-  3.0.108:
-    matches: 3
-    total_files: 409
-  3.0.109:
-    matches: 3
-    total_files: 409
-motif:
-  2.3.8:
-    matches: 3
-    total_files: 2011
-mount-point-attributes:
-  '1.1':
-    matches: 3
-    total_files: 34
-mozjs:
-  1.8.5:
-    matches: 5
-    total_files: 5937
-  17.0.0:
-    matches: 6
-    total_files: 6954
-  24.2.0:
-    matches: 9
-    total_files: 15846
-mpc:
-  1.0.2:
-    matches: 3
-    total_files: 222
-  1.0.3:
-    matches: 3
-    total_files: 222
-  1.1.0:
-    matches: 3
-    total_files: 312
-mpe2:
-  1.3.0:
-    matches: 6
-    total_files: 1084
-mpfi:
-  1.5.3:
-    matches: 3
-    total_files: 457
-mpfr:
-  3.1.2:
-    matches: 3
-    total_files: 454
-  3.1.3:
-    matches: 3
-    total_files: 454
-  3.1.4:
-    matches: 3
-    total_files: 454
-  3.1.5:
-    matches: 3
-    total_files: 454
-  3.1.6:
-    matches: 3
-    total_files: 454
-  4.0.0:
-    matches: 3
-    total_files: 506
-  4.0.1:
-    matches: 3
-    total_files: 506
-  4.0.2:
-    matches: 3
-    total_files: 506
-mpi-bash:
-  '1.2':
-    matches: 3
-    total_files: 30
 mpich:
   '3.3':
     matches: 72
@@ -9259,43 +4825,6 @@ mpich:
   develop:
     matches: 33
     total_files: 7727
-mpileaks:
-  '1.0':
-    matches: 3
-    total_files: 43
-mpip:
-  3.4.1:
-    matches: 1
-    total_files: 216
-  '3.5':
-    matches: 1
-    total_files: 130
-  master:
-    matches: 1
-    total_files: 145
-mpir:
-  2.6.0:
-    matches: 3
-    total_files: 3766
-  2.7.0:
-    matches: 3
-    total_files: 4700
-mrnet:
-  4.0.0:
-    matches: 1
-    total_files: 452
-  4.1.0:
-    matches: 1
-    total_files: 453
-  5.0.1:
-    matches: 1
-    total_files: 551
-  5.0.1-2:
-    matches: 1
-    total_files: 567
-  5.0.1-3:
-    matches: 1
-    total_files: 570
 multiverso:
   '0.2':
     matches: 1
@@ -9307,26 +4836,6 @@ multiverso:
   master:
     matches: 1
     total_files: 255
-mummer4:
-  4.0.0beta2:
-    matches: 3
-    total_files: 138
-  4.0.0rc1:
-    matches: 3
-    total_files: 139
-munge:
-  0.5.11:
-    matches: 3
-    total_files: 159
-  0.5.12:
-    matches: 3
-    total_files: 159
-  0.5.13:
-    matches: 3
-    total_files: 165
-  0.5.14:
-    matches: 4
-    total_files: 226
 musl:
   1.1.20:
     filtered_matches: 3
@@ -9478,128 +4987,6 @@ namd:
   master:
     matches: 1
     total_files: 1142
-nano:
-  2.6.1:
-    matches: 1
-    total_files: 200
-  2.6.2:
-    matches: 1
-    total_files: 200
-  2.6.3:
-    matches: 1
-    total_files: 200
-  2.7.0:
-    matches: 1
-    total_files: 200
-  2.7.1:
-    matches: 1
-    total_files: 200
-  2.7.2:
-    matches: 1
-    total_files: 200
-  2.7.3:
-    matches: 1
-    total_files: 200
-  2.7.4:
-    matches: 1
-    total_files: 189
-  2.7.5:
-    matches: 1
-    total_files: 189
-  2.8.0:
-    matches: 1
-    total_files: 463
-  2.8.1:
-    matches: 1
-    total_files: 483
-  2.8.2:
-    matches: 1
-    total_files: 502
-  2.8.3:
-    matches: 1
-    total_files: 501
-  2.8.4:
-    matches: 1
-    total_files: 505
-  2.8.5:
-    matches: 1
-    total_files: 505
-  2.8.6:
-    matches: 1
-    total_files: 505
-  2.8.7:
-    matches: 1
-    total_files: 505
-  2.9.0:
-    matches: 1
-    total_files: 506
-  2.9.1:
-    matches: 1
-    total_files: 520
-  2.9.2:
-    matches: 1
-    total_files: 520
-  2.9.3:
-    matches: 1
-    total_files: 522
-  2.9.4:
-    matches: 1
-    total_files: 521
-  2.9.5:
-    matches: 1
-    total_files: 521
-  2.9.6:
-    matches: 1
-    total_files: 521
-  2.9.7:
-    matches: 1
-    total_files: 521
-  2.9.8:
-    matches: 1
-    total_files: 517
-  '3.0':
-    matches: 1
-    total_files: 518
-  '3.1':
-    matches: 1
-    total_files: 518
-  '3.2':
-    matches: 1
-    total_files: 518
-  '4.0':
-    matches: 1
-    total_files: 519
-  '4.1':
-    matches: 1
-    total_files: 519
-  '4.2':
-    matches: 1
-    total_files: 519
-  '4.3':
-    matches: 1
-    total_files: 519
-  '4.4':
-    matches: 1
-    total_files: 528
-  '4.5':
-    matches: 1
-    total_files: 528
-  '4.6':
-    matches: 1
-    total_files: 528
-  '4.7':
-    matches: 1
-    total_files: 530
-  '4.8':
-    matches: 1
-    total_files: 540
-  '4.9':
-    matches: 1
-    total_files: 540
-nanoflann:
-  1.2.3:
-    matches: 2
-    total_files: 212
 nbdkit:
   1.23.3:
     matches: 8
@@ -9617,24 +5004,6 @@ nbdkit:
     filtered_matches: 3
     matches: 8
     total_files: 763
-ncbi-magicblast:
-  1.3.0:
-    matches: 6
-    total_files: 5397
-  1.5.0:
-    matches: 6
-    total_files: 5879
-ncbi-rmblastn:
-  2.9.0:
-    matches: 6
-    total_files: 5772
-ncbi-toolkit:
-  '21_0_0':
-    matches: 6
-    total_files: 14257
-  '22_0_0':
-    matches: 6
-    total_files: 15650
 nccl:
   1.3.0-1:
     matches: 1
@@ -9685,10 +5054,6 @@ nccl:
     filtered_matches: 3
     matches: 4
     total_files: 121
-ncftp:
-  3.2.6:
-    matches: 1
-    total_files: 316
 ncl:
   6.4.0:
     matches: 3
@@ -9714,10 +5079,6 @@ ncurses:
   '6.2':
     matches: 4
     total_files: 1104
-nektar:
-  5.0.0:
-    matches: 1
-    total_files: 3267
 neovim:
   0.2.0:
     matches: 2
@@ -9770,95 +5131,6 @@ nest:
   2.8.0:
     matches: 22
     total_files: 1277
-netcdf-c:
-  4.3.3:
-    matches: 4
-    total_files: 1458
-  4.3.3.1:
-    matches: 4
-    total_files: 1458
-  4.4.0:
-    matches: 4
-    total_files: 1481
-  4.4.1:
-    matches: 4
-    total_files: 1500
-  4.4.1.1:
-    matches: 4
-    total_files: 1504
-  4.5.0:
-    matches: 4
-    total_files: 1780
-  4.6.0:
-    matches: 4
-    total_files: 1834
-  4.6.1:
-    matches: 3
-    total_files: 1847
-  4.6.2:
-    matches: 4
-    total_files: 1880
-  4.6.3:
-    matches: 4
-    total_files: 1893
-  4.7.0:
-    matches: 4
-    total_files: 1912
-  4.7.1:
-    matches: 4
-    total_files: 1928
-  4.7.2:
-    matches: 4
-    total_files: 1928
-  4.7.3:
-    matches: 4
-    total_files: 1933
-  4.7.4:
-    matches: 4
-    total_files: 1945
-  master:
-    matches: 1
-    total_files: 2326
-netcdf-cxx:
-  '4.2':
-    matches: 3
-    total_files: 50
-netcdf-cxx4:
-  4.3.0:
-    matches: 3
-    total_files: 97
-  4.3.1:
-    matches: 3
-    total_files: 135
-netcdf-fortran:
-  4.4.3:
-    matches: 3
-    total_files: 241
-  4.4.4:
-    matches: 3
-    total_files: 242
-  4.4.5:
-    matches: 4
-    total_files: 247
-  4.5.2:
-    matches: 4
-    total_files: 235
-  4.5.3:
-    matches: 4
-    total_files: 240
-netdata:
-  1.22.1:
-    filtered_matches: 1
-    matches: 2
-    total_files: 1590
-netgauge:
-  2.4.6:
-    matches: 2
-    total_files: 157
-netgen:
-  5.3.1:
-    matches: 4
-    total_files: 441
 netperf:
   2.5.0:
     matches: 1
@@ -9901,13 +5173,6 @@ neuron:
     filtered_matches: 1
     matches: 33
     total_files: 8194
-nfft:
-  3.3.2:
-    matches: 3
-    total_files: 923
-  3.4.1:
-    matches: 3
-    total_files: 1596
 nfs-ganesha:
   '3.0':
     matches: 14
@@ -9933,25 +5198,6 @@ nfs-utils:
   2.4.2:
     matches: 5
     total_files: 392
-nghttp2:
-  1.26.0:
-    matches: 4
-    total_files: 919
-nginx:
-  1.15.6:
-    filtered_matches: 1
-    matches: 3
-    total_files: 330
-ngspice:
-  '33':
-    filtered_matches: 2
-    matches: 5
-    total_files: 3566
-nicstat:
-  '1.95':
-    filtered_matches: 1
-    matches: 1
-    total_files: 18
 nim:
   0.19.6:
     filtered_matches: 1
@@ -9971,10 +5217,6 @@ nix:
     filtered_matches: 2
     matches: 4
     total_files: 700
-njet:
-  2.1.1:
-    matches: 9
-    total_files: 569
 nmap:
   '7.30':
     matches: 7
@@ -9986,11 +5228,6 @@ nmap:
     filtered_matches: 1
     matches: 11
     total_files: 2242
-nnvm:
-  master:
-    filtered_matches: 2
-    matches: 2
-    total_files: 256
 node-js:
   10.13.0:
     matches: 43
@@ -10063,16 +5300,6 @@ npm:
   6.14.9:
     matches: 2
     total_files: 3868
-npth:
-  '1.4':
-    matches: 3
-    total_files: 41
-  '1.5':
-    matches: 3
-    total_files: 41
-  '1.6':
-    matches: 3
-    total_files: 41
 ns-3-dev:
   '3.27':
     matches: 3
@@ -10090,11 +5317,6 @@ ns-3-dev:
     filtered_matches: 2
     matches: 3
     total_files: 3342
-nspr:
-  4.13.1:
-    filtered_matches: 6
-    matches: 7
-    total_files: 635
 ntirpc:
   1.7.3:
     matches: 2
@@ -10169,28 +5391,6 @@ ocaml:
   4.11.0:
     matches: 10
     total_files: 3358
-occa:
-  0.1.0:
-    matches: 4
-    total_files: 257
-  0.2.0:
-    matches: 4
-    total_files: 257
-  1.0.0-alpha.5:
-    matches: 3
-    total_files: 312
-  1.0.8:
-    matches: 3
-    total_files: 553
-  1.0.9:
-    matches: 3
-    total_files: 604
-  1.1.0:
-    matches: 3
-    total_files: 786
-  develop:
-    matches: 3
-    total_files: 1118
 oce:
   '0.16':
     matches: 9
@@ -10257,17 +5457,6 @@ ocl-icd:
   2.2.9:
     matches: 3
     total_files: 37
-oclgrind:
-  '19.10':
-    matches: 2
-    total_files: 360
-  master:
-    matches: 2
-    total_files: 383
-oclint:
-  '0.13':
-    matches: 2
-    total_files: 320
 octave:
   4.0.0:
     filtered_matches: 2
@@ -10300,15 +5489,6 @@ octave:
   6.1.0:
     matches: 15
     total_files: 7104
-ompss:
-  '14.10':
-    matches: 10
-    total_files: 4111
-ompt-openmp:
-  '0.1':
-    filtered_matches: 1
-    matches: 3
-    total_files: 416
 onednn:
   '1.0':
     matches: 2
@@ -10395,13 +5575,6 @@ onednn:
   master:
     matches: 4
     total_files: 1803
-oniguruma:
-  6.1.3:
-    matches: 3
-    total_files: 128
-  6.9.4:
-    matches: 3
-    total_files: 134
 opa-psm2:
   10.2-175:
     matches: 2
@@ -10434,48 +5607,6 @@ opa-psm2:
   11.2.77:
     matches: 2
     total_files: 181
-opari2:
-  1.1.2:
-    matches: 3
-    total_files: 245
-  1.1.4:
-    matches: 3
-    total_files: 247
-  '2.0':
-    matches: 3
-    total_files: 288
-  2.0.1:
-    matches: 3
-    total_files: 288
-  2.0.3:
-    matches: 3
-    total_files: 293
-  2.0.4:
-    matches: 3
-    total_files: 293
-  2.0.5:
-    matches: 3
-    total_files: 294
-openbabel:
-  2.4.0:
-    matches: 3
-    total_files: 1131
-  2.4.1:
-    matches: 3
-    total_files: 1131
-  3.0.0:
-    matches: 3
-    total_files: 37456
-  master:
-    matches: 3
-    total_files: 37478
-opencascade:
-  7.4.0:
-    matches: 3
-    total_files: 16274
-  7.4.0p1:
-    matches: 3
-    total_files: 16274
 opencv:
   2.4.12.1:
     matches: 12
@@ -10553,44 +5684,6 @@ opencv:
   master:
     matches: 9
     total_files: 6701
-opendx:
-  master:
-    filtered_matches: 5
-    matches: 8
-    total_files: 3166
-openexr:
-  1.3.2:
-    matches: 2
-    total_files: 448
-  1.4.0a:
-    matches: 2
-    total_files: 448
-  1.5.0:
-    matches: 2
-    total_files: 331
-  1.6.1:
-    matches: 2
-    total_files: 351
-  1.7.0:
-    matches: 2
-    total_files: 371
-  2.0.1:
-    matches: 3
-    total_files: 502
-  2.1.0:
-    matches: 3
-    total_files: 507
-  2.2.0:
-    matches: 2
-    total_files: 507
-  2.3.0:
-    matches: 2
-    total_files: 517
-openfast:
-  develop:
-    filtered_matches: 6
-    matches: 8
-    total_files: 777
 openfoam:
   '1612':
     matches: 3
@@ -10673,18 +5766,6 @@ openfoam-org:
   develop:
     matches: 3
     total_files: 9606
-openfst:
-  1.7.9:
-    filtered_matches: 1
-    matches: 5
-    total_files: 493
-openimageio:
-  1.8.15:
-    matches: 1
-    total_files: 884
-  2.2.7.0:
-    matches: 2
-    total_files: 1143
 openldap:
   2.4.48:
     filtered_matches: 2
@@ -10693,11 +5774,6 @@ openldap:
   2.4.49:
     matches: 9
     total_files: 1488
-openloops:
-  2.1.1:
-    filtered_matches: 2
-    matches: 3
-    total_files: 730
 openmc:
   0.12.0:
     matches: 6
@@ -10709,15 +5785,6 @@ openmc:
   master:
     matches: 6
     total_files: 2128
-openmm:
-  7.4.1:
-    matches: 2
-    total_files: 1666
-openmolcas:
-  '19.11':
-    filtered_matches: 2
-    matches: 2
-    total_files: 7244
 openmpi:
   1.10.0:
     matches: 399
@@ -10876,18 +5943,6 @@ openmpi:
   master:
     matches: 35
     total_files: 5662
-openpa:
-  1.0.3:
-    matches: 3
-    total_files: 44
-  1.0.4:
-    matches: 3
-    total_files: 43
-openpbs:
-  19.1.3:
-    filtered_matches: 3
-    matches: 4
-    total_files: 1254
 openpmd-api:
   0.11.1:
     matches: 3
@@ -10937,14 +5992,6 @@ openscenegraph:
   3.6.5:
     matches: 3
     total_files: 2874
-openslide:
-  3.4.1:
-    matches: 3
-    total_files: 117
-openslp:
-  2.0.0:
-    matches: 3
-    total_files: 445
 openssh:
   6.6p1:
     matches: 2
@@ -11102,10 +6149,6 @@ openssl:
     filtered_matches: 2
     matches: 5
     total_files: 3040
-opensubdiv:
-  develop:
-    matches: 1
-    total_files: 1027
 openwsman:
   2.6.10:
     filtered_matches: 4
@@ -11117,79 +6160,6 @@ openwsman:
   2.7.0:
     matches: 7
     total_files: 490
-optipng:
-  0.7.7:
-    matches: 3
-    total_files: 735
-opus:
-  0.9.0:
-    matches: 6
-    total_files: 284
-  0.9.1:
-    matches: 6
-    total_files: 283
-  0.9.10:
-    matches: 2
-    total_files: 246
-  0.9.14:
-    matches: 2
-    total_files: 246
-  0.9.2:
-    matches: 5
-    total_files: 291
-  0.9.3:
-    matches: 5
-    total_files: 291
-  0.9.5:
-    matches: 2
-    total_files: 230
-  0.9.6:
-    matches: 2
-    total_files: 242
-  0.9.7:
-    matches: 2
-    total_files: 246
-  0.9.8:
-    matches: 2
-    total_files: 246
-  0.9.9:
-    matches: 2
-    total_files: 246
-  1.0.0:
-    matches: 2
-    total_files: 247
-  1.0.1:
-    matches: 2
-    total_files: 275
-  1.0.2:
-    matches: 2
-    total_files: 275
-  1.0.3:
-    matches: 3
-    total_files: 280
-  '1.1':
-    matches: 3
-    total_files: 310
-  1.1.1:
-    matches: 3
-    total_files: 350
-  1.1.2:
-    matches: 3
-    total_files: 350
-  1.1.3:
-    matches: 3
-    total_files: 356
-  1.1.4:
-    matches: 3
-    total_files: 356
-orbit2:
-  2.14.19:
-    matches: 2
-    total_files: 376
-osi:
-  0.108.6:
-    matches: 2
-    total_files: 151
 osqp:
   0.5.0:
     matches: 2
@@ -11201,58 +6171,6 @@ osqp:
     filtered_matches: 1
     matches: 2
     total_files: 240
-ossp-uuid:
-  1.6.2:
-    matches: 2
-    total_files: 65
-osu-micro-benchmarks:
-  '5.3':
-    matches: 2
-    total_files: 106
-  '5.4':
-    matches: 5
-    total_files: 102
-  '5.5':
-    matches: 5
-    total_files: 104
-  5.6.1:
-    matches: 5
-    total_files: 108
-  5.6.2:
-    matches: 5
-    total_files: 108
-  5.6.3:
-    matches: 5
-    total_files: 109
-otf:
-  1.12.5salm:
-    matches: 3
-    total_files: 236
-otf2:
-  1.2.1:
-    matches: 3
-    total_files: 474
-  1.3.1:
-    matches: 3
-    total_files: 548
-  '1.4':
-    matches: 3
-    total_files: 564
-  1.5.1:
-    matches: 3
-    total_files: 581
-  '2.0':
-    matches: 3
-    total_files: 580
-  '2.1':
-    matches: 3
-    total_files: 719
-  2.1.1:
-    matches: 3
-    total_files: 721
-  '2.2':
-    matches: 3
-    total_files: 722
 p11-kit:
   0.23.19:
     matches: 9
@@ -11264,31 +6182,6 @@ p11-kit:
   0.23.21:
     matches: 9
     total_files: 447
-p3dfft3:
-  3.0.0:
-    matches: 1
-    total_files: 77
-  develop:
-    matches: 2
-    total_files: 98
-p4est:
-  '1.1':
-    matches: 6
-    total_files: 448
-  '2.0':
-    matches: 4
-    total_files: 472
-  '2.2':
-    matches: 4
-    total_files: 493
-p7zip:
-  '16.02':
-    matches: 1
-    total_files: 1236
-pal:
-  0.9.8:
-    matches: 2
-    total_files: 110
 pandaseq:
   '2.10':
     filtered_matches: 1
@@ -11297,75 +6190,6 @@ pandaseq:
   '2.11':
     matches: 1
     total_files: 116
-pango:
-  1.36.8:
-    matches: 2
-    total_files: 462
-  1.40.1:
-    matches: 2
-    total_files: 460
-  1.40.3:
-    matches: 2
-    total_files: 466
-  1.41.0:
-    matches: 2
-    total_files: 488
-pangolin:
-  master:
-    matches: 2
-    total_files: 429
-pangomm:
-  2.14.0:
-    matches: 2
-    total_files: 1829
-  2.14.1:
-    matches: 2
-    total_files: 741
-  2.24.0:
-    matches: 2
-    total_files: 743
-  2.25.1:
-    matches: 3
-    total_files: 415
-  2.26.3:
-    matches: 3
-    total_files: 453
-  2.27.1:
-    matches: 3
-    total_files: 455
-  2.28.4:
-    matches: 3
-    total_files: 460
-  2.34.0:
-    matches: 3
-    total_files: 410
-  2.35.1:
-    matches: 3
-    total_files: 454
-  2.36.0:
-    matches: 3
-    total_files: 454
-  2.37.2:
-    matches: 3
-    total_files: 453
-  2.38.1:
-    matches: 3
-    total_files: 431
-  2.39.1:
-    matches: 3
-    total_files: 432
-  2.40.2:
-    matches: 3
-    total_files: 448
-  2.41.5:
-    matches: 3
-    total_files: 418
-  2.42.0:
-    matches: 3
-    total_files: 450
-  2.43.1:
-    matches: 3
-    total_files: 422
 papi:
   5.4.1:
     matches: 9
@@ -11392,39 +6216,6 @@ papi:
   6.0.0.1:
     matches: 21
     total_files: 1914
-parallel-netcdf:
-  1.10.0:
-    matches: 4
-    total_files: 654
-  1.11.0:
-    matches: 4
-    total_files: 704
-  1.11.1:
-    matches: 4
-    total_files: 705
-  1.11.2:
-    matches: 4
-    total_files: 709
-  1.12.1:
-    matches: 4
-    total_files: 765
-  1.9.0:
-    matches: 4
-    total_files: 606
-  master:
-    matches: 5
-    total_files: 813
-parallelmergetree:
-  develop:
-    matches: 5
-    total_files: 199
-paraver:
-  4.6.2:
-    matches: 8
-    total_files: 827
-  4.6.3:
-    matches: 5
-    total_files: 829
 paraview:
   4.4.0:
     matches: 23
@@ -11500,48 +6291,6 @@ patchelf:
   '0.9':
     matches: 1
     total_files: 29
-pax-utils:
-  1.2.2:
-    filtered_matches: 1
-    matches: 8
-    total_files: 385
-pcre:
-  '8.38':
-    matches: 3
-    total_files: 256
-  '8.39':
-    matches: 3
-    total_files: 257
-  '8.40':
-    matches: 3
-    total_files: 257
-  '8.41':
-    matches: 3
-    total_files: 257
-  '8.42':
-    matches: 3
-    total_files: 257
-  '8.43':
-    matches: 3
-    total_files: 257
-  '8.44':
-    matches: 3
-    total_files: 257
-pcre2:
-  '10.20':
-    matches: 3
-    total_files: 250
-  '10.31':
-    matches: 3
-    total_files: 285
-  '10.35':
-    matches: 3
-    total_files: 294
-pdsh:
-  '2.31':
-    filtered_matches: 4
-    matches: 9
-    total_files: 162
 percona-server:
   8.0.18-9:
     matches: 28
@@ -11553,10 +6302,6 @@ percona-server:
     filtered_matches: 20
     matches: 33
     total_files: 44426
-perfstubs:
-  master:
-    matches: 1
-    total_files: 48
 perl:
   5.16.3:
     matches: 70
@@ -11619,36 +6364,6 @@ perl:
   5.33.3:
     matches: 76
     total_files: 5351
-perl-alien-build:
-  '1.86':
-    matches: 1
-    total_files: 284
-perl-alien-svn:
-  1.6.12.1:
-    matches: 3
-    total_files: 1511
-  1.7.17.0:
-    matches: 1
-    total_files: 1426
-  1.7.17.1:
-    matches: 4
-    total_files: 1515
-  1.7.19.0:
-    matches: 4
-    total_files: 1517
-  1.7.3.0:
-    matches: 4
-    total_files: 1514
-  1.7.3.1:
-    matches: 4
-    total_files: 1514
-  1.8.11.0:
-    matches: 6
-    total_files: 1647
-perl-dbd-mysql:
-  '4.043':
-    matches: 1
-    total_files: 85
 perl-dbd-sqlite:
   '1.56':
     filtered_matches: 1
@@ -11812,14 +6527,6 @@ petsc:
   xsdk-0.2.0:
     matches: 6
     total_files: 4991
-pfft:
-  1.0.8-alpha:
-    matches: 3
-    total_files: 186
-photos:
-  '3.61':
-    matches: 5
-    total_files: 168
 php:
   7.1.33:
     matches: 9
@@ -11849,75 +6556,6 @@ php:
   7.4.1:
     matches: 7
     total_files: 18577
-pinentry:
-  1.1.0:
-    matches: 1
-    total_files: 107
-piranha:
-  develop:
-    matches: 1
-    total_files: 350
-pixman:
-  0.32.6:
-    matches: 2
-    total_files: 138
-  0.34.0:
-    matches: 2
-    total_files: 145
-  0.38.0:
-    matches: 2
-    total_files: 151
-  0.38.4:
-    matches: 2
-    total_files: 153
-  0.40.0:
-    matches: 2
-    total_files: 157
-pkg-config:
-  '0.28':
-    matches: 6
-    total_files: 333
-  0.29.1:
-    matches: 6
-    total_files: 349
-  0.29.2:
-    matches: 6
-    total_files: 363
-pkgconf:
-  1.3.10:
-    matches: 2
-    total_files: 127
-  1.3.8:
-    matches: 2
-    total_files: 126
-  1.4.0:
-    matches: 2
-    total_files: 138
-  1.4.2:
-    matches: 2
-    total_files: 138
-  1.5.4:
-    matches: 3
-    total_files: 151
-  1.6.0:
-    matches: 2
-    total_files: 150
-  1.6.1:
-    matches: 3
-    total_files: 152
-  1.6.3:
-    matches: 3
-    total_files: 151
-  1.7.3:
-    matches: 3
-    total_files: 155
-pktools:
-  2.6.7:
-    matches: 4
-    total_files: 167
-  2.6.7.1:
-    matches: 4
-    total_files: 496
 plplot:
   5.11.0:
     matches: 19
@@ -12064,15 +6702,6 @@ pmix:
     filtered_matches: 8
     matches: 17
     total_files: 896
-pnfft:
-  1.0.7-alpha:
-    matches: 3
-    total_files: 115
-pnmpi:
-  '1.7':
-    filtered_matches: 1
-    matches: 2
-    total_files: 294
 pocl:
   '1.6':
     filtered_matches: 2
@@ -12111,25 +6740,6 @@ poppler:
   0.65.0:
     matches: 1
     total_files: 718
-popt:
-  '1.16':
-    matches: 4
-    total_files: 123
-portcullis:
-  1.1.2:
-    filtered_matches: 5
-    matches: 21
-    total_files: 11496
-postgis:
-  2.5.3:
-    matches: 4
-    total_files: 1807
-  3.0.0:
-    matches: 4
-    total_files: 2022
-  3.0.1:
-    matches: 4
-    total_files: 2023
 postgresql:
   '10.0':
     matches: 31
@@ -12177,10 +6787,6 @@ postgresql:
   9.6.12:
     matches: 25
     total_files: 5892
-povray:
-  3.7.0.8:
-    matches: 11
-    total_files: 11556
 powerapi:
   1.1.1:
     filtered_matches: 2
@@ -12189,17 +6795,6 @@ powerapi:
   '2020-01-30':
     matches: 2
     total_files: 256
-powertop:
-  '2.9':
-    matches: 4
-    total_files: 193
-ppl:
-  '1.1':
-    matches: 20
-    total_files: 1534
-  '1.2':
-    matches: 20
-    total_files: 1541
 premake-core:
   5.0.0-alpha13:
     filtered_matches: 1
@@ -12211,11 +6806,6 @@ premake-core:
   5.0.0-alpha15:
     matches: 2
     total_files: 1683
-prism:
-  '4.5':
-    filtered_matches: 4
-    matches: 5
-    total_files: 2725
 process-in-process:
   '2':
     filtered_matches: 4
@@ -12232,146 +6822,6 @@ procps:
   master:
     matches: 5
     total_files: 175
-procps-ng:
-  3.3.16:
-    filtered_matches: 3
-    matches: 9
-    total_files: 269
-proj:
-  4.6.1:
-    matches: 2
-    total_files: 208
-  4.7.0:
-    matches: 2
-    total_files: 211
-  4.8.0:
-    matches: 2
-    total_files: 221
-  4.9.1:
-    matches: 3
-    total_files: 252
-  4.9.2:
-    matches: 3
-    total_files: 255
-  5.0.1:
-    matches: 3
-    total_files: 325
-  5.1.0:
-    matches: 3
-    total_files: 328
-  5.2.0:
-    matches: 3
-    total_files: 394
-  6.0.0:
-    matches: 3
-    total_files: 491
-  6.1.0:
-    matches: 3
-    total_files: 495
-  6.2.0:
-    matches: 3
-    total_files: 501
-  6.3.1:
-    matches: 3
-    total_files: 500
-  6.3.2:
-    matches: 3
-    total_files: 500
-  7.0.0:
-    matches: 3
-    total_files: 852
-  7.0.1:
-    matches: 3
-    total_files: 857
-  7.1.0:
-    matches: 3
-    total_files: 888
-protobuf:
-  2.5.0:
-    matches: 1
-    total_files: 402
-  3.0.2:
-    matches: 1
-    total_files: 1427
-  3.1.0:
-    matches: 1
-    total_files: 1484
-  3.10.0:
-    matches: 1
-    total_files: 2169
-  3.10.1:
-    matches: 1
-    total_files: 2169
-  3.11.0:
-    matches: 1
-    total_files: 2186
-  3.11.1:
-    matches: 1
-    total_files: 2186
-  3.11.2:
-    matches: 1
-    total_files: 2188
-  3.11.3:
-    matches: 1
-    total_files: 2198
-  3.11.4:
-    matches: 1
-    total_files: 2204
-  3.12.0:
-    matches: 1
-    total_files: 2328
-  3.12.1:
-    matches: 1
-    total_files: 2328
-  3.12.2:
-    matches: 1
-    total_files: 2328
-  3.2.0:
-    matches: 1
-    total_files: 1536
-  3.3.0:
-    matches: 1
-    total_files: 1640
-  3.4.0:
-    matches: 1
-    total_files: 1784
-  3.4.1:
-    matches: 1
-    total_files: 1785
-  3.5.0:
-    matches: 1
-    total_files: 1842
-  3.5.0.1:
-    matches: 1
-    total_files: 1842
-  3.5.1:
-    matches: 1
-    total_files: 1855
-  3.5.1.1:
-    matches: 1
-    total_files: 1855
-  3.5.2:
-    matches: 1
-    total_files: 1855
-  3.6.1:
-    matches: 1
-    total_files: 1869
-  3.7.0:
-    matches: 1
-    total_files: 2026
-  3.7.1:
-    matches: 1
-    total_files: 2028
-  3.9.1:
-    matches: 1
-    total_files: 2165
-  3.9.2:
-    matches: 1
-    total_files: 2165
-protobuf-c:
-  1.3.2:
-    matches: 3
-    total_files: 71
 prrte:
   1.0.0:
     matches: 132
@@ -12380,60 +6830,6 @@ prrte:
     filtered_matches: 8
     matches: 17
     total_files: 1121
-pruners-ninja:
-  1.0.0:
-    matches: 3
-    total_files: 49
-  1.0.1:
-    matches: 3
-    total_files: 62
-psi4:
-  1.3.2:
-    filtered_matches: 1
-    matches: 1
-    total_files: 6094
-pslib:
-  0.4.5:
-    matches: 2
-    total_files: 171
-psm:
-  '2017-04-28':
-    filtered_matches: 1
-    matches: 1
-    total_files: 165
-pulseaudio:
-  '13.0':
-    filtered_matches: 5
-    matches: 60
-    total_files: 892
-py-4suite-xml:
-  1.0.2:
-    matches: 1
-    total_files: 979
-py-astropy:
-  1.1.2:
-    matches: 4
-    total_files: 1709
-  1.1.post1:
-    matches: 4
-    total_files: 1716
-  2.0.14:
-    matches: 4
-    total_files: 1853
-py-awkward1:
-  0.3.1:
-    matches: 2
-    total_files: 542
-py-basemap:
-  1.0.7:
-    matches: 3
-    total_files: 1531
-  1.2.0:
-    matches: 3
-    total_files: 1365
-  1.2.1:
-    matches: 3
-    total_files: 1365
 py-billiard:
   3.6.0.0:
     filtered_matches: 1
@@ -12445,11 +6841,6 @@ py-billiard:
   3.6.3.0:
     matches: 1
     total_files: 70
-py-cairocffi:
-  1.0.2:
-    filtered_matches: 2
-    matches: 2
-    total_files: 20
 py-cffi:
   1.1.2:
     matches: 27
@@ -12478,102 +6869,6 @@ py-chainer:
     filtered_matches: 4
     matches: 5
     total_files: 1793
-py-cryptography:
-  '2.7':
-    filtered_matches: 1
-    matches: 1
-    total_files: 307
-py-cython:
-  0.25.2:
-    matches: 1
-    total_files: 1730
-  0.28.1:
-    matches: 1
-    total_files: 1782
-  0.28.3:
-    matches: 1
-    total_files: 1791
-  0.28.6:
-    matches: 1
-    total_files: 1792
-  '0.29':
-    matches: 1
-    total_files: 1976
-  0.29.10:
-    matches: 1
-    total_files: 1980
-  0.29.13:
-    matches: 1
-    total_files: 1982
-  0.29.14:
-    matches: 1
-    total_files: 1985
-  0.29.15:
-    matches: 1
-    total_files: 1986
-  0.29.16:
-    matches: 1
-    total_files: 1991
-  0.29.21:
-    matches: 1
-    total_files: 1998
-  0.29.5:
-    matches: 1
-    total_files: 1979
-  0.29.7:
-    matches: 1
-    total_files: 1980
-py-cyvcf2:
-  0.11.7:
-    filtered_matches: 1
-    matches: 2
-    total_files: 145
-py-easybuild-easyconfigs:
-  3.1.2:
-    matches: 47
-    total_files: 8518
-  4.0.0:
-    matches: 35
-    total_files: 13069
-py-easybuild-framework:
-  4.0.0:
-    matches: 4
-    total_files: 497
-py-espresso:
-  4.0.0:
-    matches: 1
-    total_files: 1316
-  4.0.1:
-    matches: 1
-    total_files: 1329
-  4.0.2:
-    matches: 1
-    total_files: 1331
-  develop:
-    matches: 1
-    total_files: 1427
-py-exodus-bundler:
-  2.0.2:
-    matches: 1
-    total_files: 57
-py-fenics-dolfinx:
-  master:
-    filtered_matches: 2
-    matches: 2
-    total_files: 374
-py-genders:
-  '1.22':
-    matches: 2
-    total_files: 273
-py-gevent:
-  1.3a2:
-    filtered_matches: 6
-    matches: 13
-    total_files: 1152
-py-gosam:
-  2.0.4:
-    matches: 1
-    total_files: 925
 py-grpcio:
   1.27.2:
     matches: 3
@@ -12588,62 +6883,6 @@ py-grpcio:
   1.32.0:
     matches: 3
     total_files: 3221
-py-hatchet:
-  1.0.0:
-    matches: 1
-    total_files: 108
-  1.0.1:
-    matches: 1
-    total_files: 108
-  1.1.0:
-    matches: 1
-    total_files: 108
-  1.2.0:
-    matches: 1
-    total_files: 112
-  1.3.0:
-    matches: 1
-    total_files: 164
-py-healpy:
-  1.13.0:
-    matches: 6
-    total_files: 422
-  1.14.0:
-    matches: 6
-    total_files: 435
-  1.7.4:
-    matches: 3
-    total_files: 378
-py-iminuit:
-  '1.2':
-    matches: 2
-    total_files: 300
-py-importlib-resources:
-  1.0.2:
-    matches: 1
-    total_files: 48
-py-ipython:
-  2.3.1:
-    matches: 1
-    total_files: 1597
-  3.1.0:
-    matches: 1
-    total_files: 1705
-  5.1.0:
-    matches: 1
-    total_files: 485
-  5.8.0:
-    matches: 1
-    total_files: 489
-  7.18.1:
-    matches: 1
-    total_files: 500
-  7.3.0:
-    matches: 1
-    total_files: 496
-  7.5.0:
-    matches: 1
-    total_files: 496
 py-jedi:
   0.10.0:
     filtered_matches: 1
@@ -12669,70 +6908,6 @@ py-jpype1:
   0.6.3:
     matches: 2
     total_files: 225
-py-matplotlib:
-  1.5.3:
-    matches: 1
-    total_files: 4298
-  2.0.0:
-    matches: 1
-    total_files: 5035
-  2.0.2:
-    matches: 1
-    total_files: 5078
-  2.2.2:
-    matches: 1
-    total_files: 4694
-  2.2.3:
-    matches: 1
-    total_files: 4709
-  2.2.4:
-    matches: 1
-    total_files: 4711
-  2.2.5:
-    matches: 1
-    total_files: 4162
-  3.0.0:
-    matches: 1
-    total_files: 4225
-  3.0.2:
-    matches: 1
-    total_files: 4239
-  3.1.0:
-    matches: 1
-    total_files: 4254
-  3.1.1:
-    matches: 1
-    total_files: 4258
-  3.1.2:
-    matches: 1
-    total_files: 4273
-  3.1.3:
-    matches: 1
-    total_files: 4284
-  3.2.0:
-    matches: 1
-    total_files: 4250
-  3.2.1:
-    matches: 1
-    total_files: 4251
-  3.2.2:
-    matches: 1
-    total_files: 4254
-  3.3.0:
-    matches: 1
-    total_files: 4215
-  3.3.1:
-    matches: 1
-    total_files: 4217
-  3.3.2:
-    matches: 1
-    total_files: 4218
-  3.3.3:
-    matches: 1
-    total_files: 4221
-  3.3.4:
-    matches: 1
-    total_files: 4223
 py-mpi4py:
   1.3.1:
     matches: 15
@@ -12753,15 +6928,6 @@ py-mpi4py:
     filtered_matches: 10
     matches: 11
     total_files: 393
-py-multiprocess:
-  0.70.9:
-    matches: 1
-    total_files: 778
-py-mx:
-  3.2.8:
-    filtered_matches: 1
-    matches: 2
-    total_files: 254
 py-mypy:
   '0.740':
     filtered_matches: 2
@@ -12770,40 +6936,6 @@ py-mypy:
   '0.800':
     matches: 2
     total_files: 2073
-py-mysqlclient:
-  1.3.13:
-    matches: 1
-    total_files: 48
-  1.4.4:
-    matches: 1
-    total_files: 47
-  1.4.5:
-    matches: 1
-    total_files: 47
-  1.4.6:
-    matches: 1
-    total_files: 44
-py-mysqldb1:
-  1.2.5:
-    matches: 1
-    total_files: 47
-py-networkit:
-  '6.1':
-    matches: 1
-    total_files: 1277
-  '7.0':
-    matches: 1
-    total_files: 1139
-  '7.1':
-    matches: 1
-    total_files: 1180
-  '8.0':
-    matches: 1
-    total_files: 1187
-py-notebook:
-  6.1.4:
-    matches: 1
-    total_files: 1465
 py-numpy:
   1.10.4:
     filtered_matches: 1
@@ -12981,16 +7113,6 @@ py-openmc:
   master:
     matches: 6
     total_files: 1212
-py-or-tools:
-  '7.8':
-    filtered_matches: 1
-    matches: 1
-    total_files: 68418
-py-osqp:
-  0.6.1:
-    filtered_matches: 1
-    matches: 1
-    total_files: 159
 py-packaging:
   '19.1':
     matches: 1
@@ -13068,22 +7190,6 @@ py-pip:
   9.0.1:
     matches: 1
     total_files: 287
-py-protobuf:
-  3.1.0:
-    matches: 9
-    total_files: 995
-py-py-spy:
-  0.3.3:
-    matches: 7
-    total_files: 62
-py-py2cairo:
-  1.10.0:
-    matches: 4
-    total_files: 97
-py-pyarrow:
-  0.12.1:
-    matches: 1
-    total_files: 298
 py-pybind11:
   2.2.0:
     matches: 2
@@ -13137,10 +7243,6 @@ py-pygments:
   2.6.1:
     matches: 1
     total_files: 882
-py-pygobject:
-  3.28.3:
-    matches: 4
-    total_files: 325
 py-pygpu:
   0.6.0:
     matches: 1
@@ -13170,11 +7272,6 @@ py-pygpu:
   0.7.6:
     matches: 1
     total_files: 206
-py-pyjnius:
-  1.3.0.0:
-    filtered_matches: 1
-    matches: 4
-    total_files: 32
 py-pymol:
   2.3.0:
     matches: 2
@@ -13182,15 +7279,6 @@ py-pymol:
   2.4.0:
     matches: 2
     total_files: 1305
-py-pynacl:
-  1.4.0:
-    matches: 5
-    total_files: 661
-py-pyopenssl:
-  19.0.0:
-    filtered_matches: 1
-    matches: 1
-    total_files: 61
 py-pysam:
   0.14.1:
     matches: 5
@@ -13205,13 +7293,6 @@ py-pysam:
     filtered_matches: 3
     matches: 5
     total_files: 767
-py-pyscf:
-  1.7.3:
-    matches: 2
-    total_files: 2625
-  1.7.5:
-    matches: 2
-    total_files: 2644
 py-pyside:
   1.2.2:
     matches: 1
@@ -13264,10 +7345,6 @@ py-quast:
   4.6.3:
     matches: 2
     total_files: 2088
-py-ray:
-  0.8.7:
-    matches: 3
-    total_files: 2662
 py-rpy2:
   3.0.0:
     matches: 1
@@ -13276,10 +7353,6 @@ py-rpy2:
     filtered_matches: 1
     matches: 1
     total_files: 55
-py-scikit-build:
-  0.10.0:
-    matches: 1
-    total_files: 224
 py-scipy:
   0.15.0:
     matches: 1
@@ -13422,24 +7495,6 @@ py-shapely:
   master:
     matches: 1
     total_files: 212
-py-shiboken:
-  1.2.2:
-    filtered_matches: 1
-    matches: 1
-    total_files: 637
-py-soundfile:
-  0.10.3.post1:
-    filtered_matches: 2
-    matches: 2
-    total_files: 22
-py-spacy-models-en-vectors-web-lg:
-  2.3.0:
-    matches: 1
-    total_files: 7
-py-sphinx:
-  2.2.0:
-    matches: 1
-    total_files: 1356
 py-tables:
   3.2.2:
     matches: 2
@@ -13457,16 +7512,6 @@ py-tables:
   3.6.1:
     matches: 2
     total_files: 555
-py-uvloop:
-  0.14.0:
-    filtered_matches: 6
-    matches: 15
-    total_files: 449
-py-uwsgi:
-  2.0.18:
-    filtered_matches: 7
-    matches: 7
-    total_files: 648
 py-vermin:
   0.10.0:
     matches: 2
@@ -13493,18 +7538,6 @@ py-vermin:
   1.1.0:
     matches: 2
     total_files: 65
-py-wheel:
-  0.35.1:
-    matches: 1
-    total_files: 67
-py-wxpython:
-  4.0.6:
-    matches: 14
-    total_files: 17129
-py-xpyb:
-  1.3.1:
-    matches: 3
-    total_files: 59
 pythia8:
   '8212':
     matches: 2
@@ -13727,10 +7760,6 @@ q-e-sirius:
   develop:
     matches: 1
     total_files: 5343
-qcachegrind:
-  20.08.0:
-    matches: 1
-    total_files: 164
 qemu:
   0.15.0:
     matches: 1
@@ -13937,18 +7966,6 @@ qemu:
   4.1.1:
     matches: 11
     total_files: 38275
-qnnpack:
-  master:
-    filtered_matches: 3
-    matches: 4
-    total_files: 1357
-qscintilla:
-  2.10.2:
-    matches: 10
-    total_files: 637
-  2.11.2:
-    matches: 12
-    total_files: 660
 qt:
   3.3.8b:
     matches: 16
@@ -13993,30 +8010,6 @@ qt:
     filtered_matches: 46
     matches: 173
     total_files: 178795
-qt-creator:
-  4.8.0:
-    filtered_matches: 1
-    matches: 3
-    total_files: 13797
-qthreads:
-  '1.10':
-    matches: 3
-    total_files: 682
-  '1.11':
-    matches: 3
-    total_files: 675
-  '1.12':
-    matches: 3
-    total_files: 682
-  '1.14':
-    matches: 3
-    total_files: 655
-  '1.15':
-    matches: 3
-    total_files: 656
-  '1.16':
-    matches: 3
-    total_files: 999
 quantum-espresso:
   '6.3':
     matches: 1
@@ -14040,10 +8033,6 @@ quantum-espresso:
   develop:
     matches: 1
     total_files: 5496
-quota:
-  '4.05':
-    matches: 1
-    total_files: 120
 r:
   3.1.2:
     matches: 12
@@ -14138,19 +8127,6 @@ r-fs:
   1.5.0:
     matches: 9
     total_files: 234
-r-git2r:
-  0.26.0:
-    matches: 1
-    total_files: 653
-  0.26.1:
-    matches: 1
-    total_files: 653
-  0.27.1:
-    matches: 1
-    total_files: 656
-  0.28.0:
-    matches: 1
-    total_files: 657
 r-httpuv:
   1.3.3:
     matches: 6
@@ -14194,48 +8170,6 @@ r-lpsolve:
   5.6.15:
     matches: 3
     total_files: 91
-r-lubridate:
-  1.7.9.2:
-    filtered_matches: 1
-    matches: 1
-    total_files: 198
-r-nloptr:
-  1.2.1:
-    matches: 1
-    total_files: 287
-  1.2.2.2:
-    matches: 1
-    total_files: 289
-r-np:
-  0.60-10:
-    matches: 2
-    total_files: 164
-  0.60-2:
-    matches: 2
-    total_files: 151
-  0.60-8:
-    matches: 2
-    total_files: 164
-  0.60-9:
-    matches: 2
-    total_files: 164
-r-pbdzmq:
-  0.2-4:
-    matches: 4
-    total_files: 471
-  0.3-2:
-    matches: 5
-    total_files: 359
-  0.3-3:
-    matches: 5
-    total_files: 359
-  0.3-4:
-    matches: 5
-    total_files: 362
-r-rcmdcheck:
-  1.3.3:
-    matches: 2
-    total_files: 69
 r-rcppcctz:
   0.2.4:
     matches: 1
@@ -14254,16 +8188,6 @@ r-rcppparallel:
   5.0.2:
     matches: 9
     total_files: 529
-r-reticulate:
-  '1.13':
-    matches: 1
-    total_files: 173
-  '1.15':
-    matches: 1
-    total_files: 203
-  '1.18':
-    matches: 1
-    total_files: 218
 r-rgraphviz:
   2.20.0:
     filtered_matches: 7
@@ -14311,13 +8235,6 @@ r-rmpi:
     filtered_matches: 1
     matches: 1
     total_files: 74
-r-rpostgresql:
-  0.4-1:
-    matches: 2
-    total_files: 193
-  0.6-2:
-    matches: 2
-    total_files: 224
 r-rsqlite:
   '2.0':
     matches: 1
@@ -14332,52 +8249,6 @@ r-rsqlite:
   2.2.2:
     matches: 1
     total_files: 127
-r-stringi:
-  1.1.1:
-    matches: 1
-    total_files: 1029
-  1.1.2:
-    matches: 1
-    total_files: 1029
-  1.1.3:
-    matches: 1
-    total_files: 1028
-  1.1.5:
-    matches: 1
-    total_files: 1028
-  1.3.1:
-    matches: 2
-    total_files: 1885
-  1.4.3:
-    matches: 2
-    total_files: 1888
-  1.5.3:
-    matches: 2
-    total_files: 1890
-raft:
-  develop:
-    filtered_matches: 1
-    matches: 1
-    total_files: 112
-raja:
-  0.11.0:
-    matches: 1
-    total_files: 1777
-  0.12.0:
-    matches: 3
-    total_files: 2039
-  0.12.1:
-    matches: 3
-    total_files: 2038
-  0.13.0:
-    matches: 3
-    total_files: 2068
-  develop:
-    matches: 3
-    total_files: 2085
-  mai:
-    matches: 3
-    total_files: 2069
 rccl:
   3.10.0:
     matches: 3
@@ -14453,20 +8324,6 @@ rdma-core:
     filtered_matches: 2
     matches: 6
     total_files: 1036
-re2c:
-  1.2.1:
-    matches: 4
-    total_files: 3645
-readline:
-  '6.3':
-    matches: 1
-    total_files: 128
-  '7.0':
-    matches: 1
-    total_files: 130
-  '8.0':
-    matches: 1
-    total_files: 131
 redis:
   4.0.11:
     matches: 4
@@ -14490,22 +8347,6 @@ redis:
   5.0.3:
     matches: 5
     total_files: 701
-regcm:
-  4.7.0:
-    matches: 2
-    total_files: 1270
-rempi:
-  1.0.0:
-    matches: 3
-    total_files: 121
-  1.1.0:
-    matches: 3
-    total_files: 137
-rhash:
-  1.3.5:
-    filtered_matches: 1
-    matches: 1
-    total_files: 155
 rivet:
   1.1.1:
     matches: 4
@@ -14640,10 +8481,6 @@ rivet:
   3.1.2:
     matches: 5
     total_files: 5706
-rngstreams:
-  1.0.1:
-    matches: 2
-    total_files: 32
 rocfft:
   3.10.0:
     matches: 2
@@ -14681,29 +8518,6 @@ rocksdb:
   master:
     matches: 2
     total_files: 1773
-rocm-dbgapi:
-  3.10.0:
-    matches: 1
-    total_files: 48
-  3.5.0:
-    matches: 1
-    total_files: 45
-  3.7.0:
-    matches: 1
-    total_files: 48
-  3.8.0:
-    matches: 1
-    total_files: 48
-  3.9.0:
-    matches: 1
-    total_files: 48
-  4.0.0:
-    matches: 1
-    total_files: 48
-rocm-debug-agent:
-  3.5.0:
-    matches: 1
-    total_files: 40
 rocm-gdb:
   3.10.0:
     matches: 115
@@ -14744,30 +8558,6 @@ rocm-opencl:
   4.0.0:
     matches: 3
     total_files: 491
-rocm-openmp-extras:
-  4.0.0:
-    filtered_matches: 27
-    matches: 136
-    total_files: 100137
-rocm-validation-suite:
-  3.10.0:
-    matches: 1
-    total_files: 580
-  3.5.0:
-    matches: 1
-    total_files: 510
-  3.7.0:
-    matches: 1
-    total_files: 574
-  3.8.0:
-    matches: 1
-    total_files: 586
-  3.9.0:
-    matches: 1
-    total_files: 580
-  4.0.0:
-    matches: 1
-    total_files: 580
 rocprofiler-dev:
   3.10.0:
     matches: 5
@@ -14883,16 +8673,6 @@ rr:
     filtered_matches: 2
     matches: 3
     total_files: 939
-rrdtool:
-  1.7.0:
-    matches: 5
-    total_files: 368
-  1.7.1:
-    matches: 4
-    total_files: 398
-  1.7.2:
-    matches: 4
-    total_files: 402
 rsem:
   1.3.0:
     matches: 3
@@ -14926,16 +8706,6 @@ rsyslog:
     filtered_matches: 2
     matches: 5
     total_files: 1621
-rt-tests:
-  '1.2':
-    filtered_matches: 1
-    matches: 1
-    total_files: 46
-rtags:
-  '2.17':
-    filtered_matches: 2
-    matches: 3
-    total_files: 467
 ruby:
   2.2.0:
     matches: 25
@@ -14950,52 +8720,6 @@ ruby:
     filtered_matches: 4
     matches: 25
     total_files: 9819
-samrai:
-  2.4.4:
-    matches: 1
-    total_files: 4714
-  3.10.0:
-    matches: 2
-    total_files: 2852
-  3.11.1:
-    matches: 2
-    total_files: 2861
-  3.11.2:
-    matches: 2
-    total_files: 2862
-  3.11.4:
-    matches: 2
-    total_files: 2864
-  3.11.5:
-    matches: 2
-    total_files: 2865
-  3.12.0:
-    matches: 2
-    total_files: 2868
-  3.3.2-beta:
-    matches: 2
-    total_files: 2620
-  3.3.3-beta:
-    matches: 2
-    total_files: 2620
-  3.5.2-beta:
-    matches: 2
-    total_files: 2466
-  3.6.3-beta:
-    matches: 2
-    total_files: 2246
-  3.7.2:
-    matches: 2
-    total_files: 2462
-  3.7.3:
-    matches: 2
-    total_files: 2462
-  3.8.0:
-    matches: 2
-    total_files: 2800
-  3.9.1:
-    matches: 2
-    total_files: 2864
 samtools:
   '1.10':
     matches: 4
@@ -15022,11 +8746,6 @@ samtools:
   '1.9':
     matches: 3
     total_files: 726
-sandbox:
-  '2.12':
-    filtered_matches: 2
-    matches: 6
-    total_files: 419
 saws:
   0.1.0:
     filtered_matches: 1
@@ -15049,53 +8768,6 @@ sblim-sfcc:
   '2_2_8':
     matches: 1
     total_files: 165
-sbml:
-  5.10.0:
-    matches: 5
-    total_files: 8558
-  5.10.2:
-    matches: 5
-    total_files: 8649
-  5.11.0:
-    matches: 5
-    total_files: 8848
-  5.11.4:
-    matches: 5
-    total_files: 9753
-  5.12.0:
-    matches: 5
-    total_files: 9928
-  5.13.0:
-    matches: 5
-    total_files: 10165
-  5.15.0:
-    matches: 5
-    total_files: 11776
-  5.16.0:
-    matches: 5
-    total_files: 11876
-  5.17.0:
-    matches: 5
-    total_files: 12217
-  5.18.0:
-    matches: 5
-    total_files: 12299
-scalasca:
-  '2.1':
-    matches: 6
-    total_files: 1271
-  2.2.2:
-    matches: 6
-    total_files: 1334
-  2.3.1:
-    matches: 6
-    total_files: 1346
-  '2.4':
-    matches: 9
-    total_files: 1711
-  '2.5':
-    matches: 9
-    total_files: 1746
 scalpel:
   0.5.3:
     matches: 1
@@ -15133,15 +8805,6 @@ scorep:
   '6.0':
     matches: 24
     total_files: 3767
-sdl2:
-  2.0.5:
-    filtered_matches: 2
-    matches: 16
-    total_files: 1065
-sdl2-image:
-  2.0.1:
-    matches: 14
-    total_files: 1428
 seacas:
   '2019-07-26':
     matches: 1
@@ -15177,21 +8840,6 @@ seacas:
     filtered_matches: 1
     matches: 1
     total_files: 5313
-sed:
-  4.2.2:
-    matches: 1
-    total_files: 562
-sfcgal:
-  1.3.7:
-    matches: 1
-    total_files: 368
-shadow:
-  '4.6':
-    matches: 2
-    total_files: 903
-  '4.7':
-    matches: 2
-    total_files: 907
 silo:
   4.10.2:
     matches: 5
@@ -15243,16 +8891,6 @@ simgrid:
   git:
     matches: 12
     total_files: 2772
-singularity-legacy:
-  2.5.2:
-    matches: 3
-    total_files: 433
-  2.6.0:
-    matches: 3
-    total_files: 435
-  2.6.1:
-    matches: 3
-    total_files: 435
 slang:
   2.3.1:
     matches: 2
@@ -15287,37 +8925,6 @@ slurm:
   20-11-0-1:
     matches: 51
     total_files: 2583
-soci:
-  3.2.2:
-    matches: 2
-    total_files: 336
-  3.2.3:
-    matches: 2
-    total_files: 338
-  4.0.0:
-    matches: 2
-    total_files: 367
-sollya:
-  '7.0':
-    filtered_matches: 2
-    matches: 9
-    total_files: 1132
-sosflow:
-  pack:
-    matches: 1
-    total_files: 503
-source-highlight:
-  3.1.8:
-    matches: 3
-    total_files: 995
-  3.1.9:
-    matches: 3
-    total_files: 1003
-sox:
-  14.4.2:
-    filtered_matches: 7
-    matches: 13
-    total_files: 361
 spades:
   3.11.1:
     matches: 1
@@ -15334,15 +8941,6 @@ spades:
   3.15.0:
     matches: 3
     total_files: 7828
-speex:
-  1.2.0:
-    matches: 3
-    total_files: 226
-spindle:
-  0.8.1:
-    filtered_matches: 1
-    matches: 5
-    total_files: 148
 spot:
   1.2.6:
     filtered_matches: 7
@@ -15418,10 +9016,6 @@ sqlite:
   3.34.0:
     matches: 4
     total_files: 30
-sshpass:
-  '1.00':
-    matches: 1
-    total_files: 10
 sst-core:
   10.0.0:
     matches: 20
@@ -15439,22 +9033,6 @@ sst-core:
   master:
     matches: 3
     total_files: 525
-sst-elements:
-  10.0.0:
-    matches: 6
-    total_files: 1327
-  10.1.0:
-    matches: 6
-    total_files: 1504
-  9.1.0:
-    matches: 6
-    total_files: 1341
-  develop:
-    matches: 1
-    total_files: 1744
-  master:
-    matches: 1
-    total_files: 1744
 sst-macro:
   10.0.0:
     matches: 55
@@ -15469,11 +9047,6 @@ sst-macro:
   master:
     matches: 13
     total_files: 2362
-sst-transports:
-  master:
-    filtered_matches: 2
-    matches: 2
-    total_files: 171
 stacks:
   '1.46':
     filtered_matches: 1
@@ -15485,14 +9058,6 @@ stacks:
   '2.53':
     matches: 1
     total_files: 222
-staden-io-lib:
-  1.14.8:
-    matches: 2
-    total_files: 268
-startup-notification:
-  '0.12':
-    matches: 2
-    total_files: 46
 stat:
   4.0.1:
     matches: 7
@@ -15504,102 +9069,6 @@ stat:
   develop:
     matches: 5
     total_files: 341
-stc:
-  master:
-    filtered_matches: 1
-    matches: 3
-    total_files: 1903
-steps:
-  3.2.0:
-    matches: 2
-    total_files: 1497
-  3.3.0:
-    matches: 2
-    total_files: 1497
-  develop:
-    matches: 2
-    total_files: 1497
-stinger:
-  master:
-    filtered_matches: 2
-    matches: 2
-    total_files: 862
-subversion:
-  1.12.2:
-    matches: 6
-    total_files: 2061
-  1.13.0:
-    matches: 6
-    total_files: 2061
-  1.14.0:
-    matches: 6
-    total_files: 2078
-  1.8.13:
-    matches: 6
-    total_files: 1643
-  1.8.17:
-    matches: 6
-    total_files: 1644
-  1.9.3:
-    matches: 6
-    total_files: 1930
-  1.9.5:
-    matches: 6
-    total_files: 1931
-  1.9.6:
-    matches: 6
-    total_files: 1931
-  1.9.7:
-    matches: 6
-    total_files: 1931
-swftools:
-  0.9.2:
-    filtered_matches: 1
-    matches: 2
-    total_files: 480
-swig:
-  1.3.40:
-    matches: 3
-    total_files: 3273
-  2.0.12:
-    matches: 4
-    total_files: 3828
-  2.0.2:
-    matches: 4
-    total_files: 3643
-  3.0.10:
-    matches: 5
-    total_files: 4840
-  3.0.11:
-    matches: 5
-    total_files: 5027
-  3.0.12:
-    matches: 5
-    total_files: 5038
-  3.0.2:
-    matches: 5
-    total_files: 4413
-  3.0.8:
-    matches: 5
-    total_files: 4754
-  4.0.0:
-    matches: 5
-    total_files: 5204
-  4.0.1:
-    matches: 5
-    total_files: 5228
-  4.0.2:
-    matches: 5
-    total_files: 5261
-  4.0.2-fortra:
-    matches: 5
-    total_files: 5410
-  fortra:
-    matches: 5
-    total_files: 5427
-  master:
-    matches: 5
-    total_files: 5263
 swipl:
   8.0.3:
     filtered_matches: 9
@@ -15619,16 +9088,6 @@ sysbench:
   1.0.20:
     matches: 3
     total_files: 714
-sysfsutils:
-  '0_3_0':
-    matches: 2
-    total_files: 35
-  '0_4_0':
-    matches: 2
-    total_files: 38
-  '0_5':
-    matches: 2
-    total_files: 38
 systemtap:
   '4.1':
     matches: 7
@@ -15640,67 +9099,6 @@ systemtap:
   '4.3':
     matches: 7
     total_files: 4823
-sz:
-  1.4.10.0:
-    matches: 2
-    total_files: 147
-  1.4.11.0:
-    matches: 2
-    total_files: 185
-  1.4.11.1:
-    matches: 2
-    total_files: 216
-  1.4.12.1:
-    matches: 2
-    total_files: 216
-  1.4.12.3:
-    matches: 2
-    total_files: 225
-  1.4.13.0:
-    matches: 2
-    total_files: 233
-  1.4.13.2:
-    matches: 2
-    total_files: 233
-  1.4.13.3:
-    matches: 2
-    total_files: 246
-  1.4.13.4:
-    matches: 2
-    total_files: 246
-  1.4.13.5:
-    matches: 2
-    total_files: 246
-  1.4.9.2:
-    matches: 2
-    total_files: 105
-  2.0.2.0:
-    matches: 5
-    total_files: 477
-  2.1.10:
-    matches: 2
-    total_files: 363
-  2.1.11:
-    matches: 2
-    total_files: 363
-  2.1.11.1:
-    matches: 2
-    total_files: 363
-  2.1.8.0:
-    matches: 2
-    total_files: 361
-  2.1.8.1:
-    matches: 2
-    total_files: 362
-  2.1.8.3:
-    matches: 2
-    total_files: 362
-  2.1.9:
-    matches: 2
-    total_files: 361
-  master:
-    matches: 2
-    total_files: 377
 talloc:
   2.1.9:
     filtered_matches: 4
@@ -15712,22 +9110,6 @@ talloc:
   2.3.1:
     matches: 5
     total_files: 362
-tar:
-  '1.28':
-    matches: 1
-    total_files: 998
-  '1.29':
-    matches: 1
-    total_files: 1011
-  '1.30':
-    matches: 1
-    total_files: 1062
-  '1.31':
-    matches: 1
-    total_files: 1079
-  '1.32':
-    matches: 1
-    total_files: 1078
 taskflow:
   2.7.0:
     filtered_matches: 2
@@ -15759,10 +9141,6 @@ tau:
   master:
     matches: 17
     total_files: 3170
-tauola:
-  1.1.8:
-    matches: 8
-    total_files: 926
 tcl:
   8.5.19:
     matches: 8
@@ -15786,44 +9164,6 @@ tcl:
   8.6.8:
     matches: 9
     total_files: 1515
-tcl-tcllib:
-  '1.16':
-    matches: 1
-    total_files: 3225
-tcl-tclxml:
-  '3.1':
-    matches: 2
-    total_files: 134
-  '3.2':
-    matches: 2
-    total_files: 175
-tcsh:
-  6.20.00:
-    matches: 1
-    total_files: 170
-  6.21.00:
-    matches: 1
-    total_files: 188
-  6.22.02:
-    matches: 1
-    total_files: 190
-teckit:
-  2.5.9:
-    matches: 3
-    total_files: 88
-tempestremap:
-  2.0.2:
-    matches: 1
-    total_files: 136
-  2.0.3:
-    matches: 1
-    total_files: 144
-  2.0.4:
-    matches: 1
-    total_files: 151
-  2.0.5:
-    matches: 1
-    total_files: 151
 tengine:
   2.3.0:
     filtered_matches: 1
@@ -15835,29 +9175,6 @@ tengine:
   2.3.2:
     matches: 4
     total_files: 1281
-texinfo:
-  '5.0':
-    matches: 2
-    total_files: 3920
-  '5.1':
-    matches: 2
-    total_files: 3946
-  '5.2':
-    matches: 2
-    total_files: 3978
-  '6.0':
-    matches: 2
-    total_files: 4221
-  '6.3':
-    matches: 5
-    total_files: 4278
-  '6.5':
-    matches: 8
-    total_files: 4312
-texstudio:
-  master:
-    matches: 1
-    total_files: 3128
 tfel:
   2.0.4:
     matches: 4
@@ -15963,22 +9280,6 @@ thepeg:
     filtered_matches: 1
     matches: 7
     total_files: 917
-thrift:
-  0.10.0:
-    matches: 4
-    total_files: 2167
-  0.11.0:
-    matches: 4
-    total_files: 2425
-  0.12.0:
-    matches: 4
-    total_files: 2517
-  0.13.0:
-    matches: 4
-    total_files: 2632
-  0.9.3:
-    matches: 4
-    total_files: 1918
 timemory:
   3.0.0:
     matches: 20
@@ -15993,37 +9294,6 @@ timemory:
     filtered_matches: 10
     matches: 29
     total_files: 2657
-tinker:
-  8.7.1:
-    matches: 3
-    total_files: 5050
-tix:
-  8.4.3:
-    matches: 1
-    total_files: 745
-tixi:
-  2.2.4:
-    matches: 3
-    total_files: 353
-tk:
-  8.5.19:
-    matches: 1
-    total_files: 856
-  8.6.10:
-    matches: 1
-    total_files: 891
-  8.6.3:
-    matches: 1
-    total_files: 874
-  8.6.5:
-    matches: 1
-    total_files: 877
-  8.6.6:
-    matches: 1
-    total_files: 872
-  8.6.8:
-    matches: 1
-    total_files: 881
 tpm2-tss:
   2.4.1:
     matches: 7
@@ -16035,15 +9305,6 @@ tpm2-tss:
     filtered_matches: 2
     matches: 7
     total_files: 739
-transrate:
-  1.0.3:
-    matches: 3
-    total_files: 1488
-treelite:
-  '0.93':
-    filtered_matches: 1
-    matches: 1
-    total_files: 216
 trilinos:
   11.14.1:
     matches: 6
@@ -16103,11 +9364,6 @@ trilinos:
     filtered_matches: 1
     matches: 8
     total_files: 46265
-tulip:
-  5.4.0:
-    filtered_matches: 2
-    matches: 12
-    total_files: 5173
 turbine:
   1.1.0:
     filtered_matches: 1
@@ -16169,20 +9425,6 @@ ucx:
   1.9.0:
     matches: 64
     total_files: 842
-udunits:
-  2.2.21:
-    matches: 3
-    total_files: 87
-  2.2.23:
-    matches: 3
-    total_files: 92
-  2.2.24:
-    matches: 3
-    total_files: 92
-ufo-core:
-  0.14.0:
-    matches: 1
-    total_files: 161
 umpire:
   0.2.1:
     matches: 4
@@ -16254,25 +9496,6 @@ umpire:
   mai:
     matches: 1
     total_files: 1618
-unifyfs:
-  0.9.0:
-    matches: 3
-    total_files: 214
-  0.9.1:
-    matches: 3
-    total_files: 259
-  develop:
-    matches: 1
-    total_files: 389
-unixodbc:
-  2.3.4:
-    filtered_matches: 15
-    matches: 44
-    total_files: 845
-unuran:
-  1.8.1:
-    matches: 2
-    total_files: 661
 util-linux:
   '2.25':
     matches: 5
@@ -16301,21 +9524,6 @@ util-linux:
   '2.36':
     matches: 10
     total_files: 1188
-util-linux-uuid:
-  '2.36':
-    filtered_matches: 1
-    matches: 10
-    total_files: 1188
-uvw:
-  1.12.0:
-    matches: 1
-    total_files: 75
-  1.13.0:
-    matches: 1
-    total_files: 75
-  1.14.0:
-    matches: 1
-    total_files: 75
 valgrind:
   3.10.0:
     matches: 13
@@ -16342,11 +9550,6 @@ valgrind:
   develop:
     matches: 22
     total_files: 5911
-vampirtrace:
-  5.14.4:
-    filtered_matches: 4
-    matches: 10
-    total_files: 650
 varnish-cache:
   6.2.3:
     matches: 9
@@ -16364,37 +9567,6 @@ varnish-cache:
   6.4.0:
     matches: 9
     total_files: 1526
-vecgeom:
-  0.5.2:
-    matches: 2
-    total_files: 876
-  1.0.1:
-    matches: 2
-    total_files: 647
-  1.1.0:
-    matches: 2
-    total_files: 654
-  1.1.3:
-    matches: 2
-    total_files: 704
-  1.1.5:
-    matches: 2
-    total_files: 725
-  1.1.6:
-    matches: 2
-    total_files: 727
-  1.1.7:
-    matches: 2
-    total_files: 729
-  1.1.8:
-    matches: 2
-    total_files: 738
-  1.1.9:
-    matches: 2
-    total_files: 738
-  master:
-    matches: 2
-    total_files: 752
 veclibfort:
   0.4.2:
     matches: 2
@@ -16420,17 +9592,6 @@ verrou:
   develop:
     matches: 26
     total_files: 5995
-vgm:
-  3-06:
-    matches: 1
-    total_files: 540
-viennarna:
-  2.3.5:
-    matches: 6
-    total_files: 3329
-  2.4.3:
-    matches: 6
-    total_files: 3881
 vim:
   7.4.2367:
     matches: 11
@@ -16460,16 +9621,6 @@ vim:
   8.2.1201:
     matches: 12
     total_files: 3324
-virtualgl:
-  2.5.2:
-    filtered_matches: 4
-    matches: 14
-    total_files: 497
-vpic:
-  develop:
-    filtered_matches: 1
-    matches: 1
-    total_files: 349
 vsearch:
   2.13.3:
     matches: 2
@@ -16531,25 +9682,6 @@ vtk:
     filtered_matches: 7
     matches: 14
     total_files: 19019
-vtk-h:
-  0.6.2:
-    matches: 1
-    total_files: 857
-  0.6.3:
-    matches: 1
-    total_files: 857
-  0.6.4:
-    matches: 1
-    total_files: 858
-  0.6.5:
-    matches: 1
-    total_files: 863
-  0.6.6:
-    matches: 1
-    total_files: 871
-  develop:
-    matches: 1
-    total_files: 893
 watch:
   3.3.15:
     filtered_matches: 3
@@ -16558,28 +9690,6 @@ watch:
   master:
     matches: 5
     total_files: 176
-wcs:
-  develop:
-    matches: 1
-    total_files: 192
-weechat:
-  '2.9':
-    filtered_matches: 2
-    matches: 4
-    total_files: 761
-wget:
-  '1.16':
-    matches: 2
-    total_files: 768
-  '1.17':
-    matches: 2
-    total_files: 816
-  1.19.1:
-    matches: 3
-    total_files: 1089
-  1.20.3:
-    matches: 2
-    total_files: 1055
 whizard:
   2.8.0:
     matches: 12
@@ -16622,10 +9732,6 @@ wireshark:
   3.2.1:
     matches: 2
     total_files: 5943
-wonton:
-  1.2.1:
-    matches: 1
-    total_files: 487
 wrk:
   3.1.2:
     filtered_matches: 2
@@ -16666,103 +9772,6 @@ xapian-core:
     filtered_matches: 2
     matches: 5
     total_files: 1244
-xcb-util:
-  0.4.0:
-    matches: 3
-    total_files: 29
-xcb-util-cursor:
-  0.1.3:
-    matches: 3
-    total_files: 27
-xcb-util-errors:
-  '1.0':
-    matches: 3
-    total_files: 23
-xcb-util-image:
-  0.4.0:
-    matches: 3
-    total_files: 31
-xcb-util-keysyms:
-  0.4.0:
-    matches: 3
-    total_files: 20
-xcb-util-renderutil:
-  0.3.9:
-    matches: 3
-    total_files: 23
-xcb-util-wm:
-  0.4.1:
-    matches: 3
-    total_files: 28
-xclock:
-  1.0.7:
-    matches: 1
-    total_files: 17
-xdm:
-  1.1.11:
-    filtered_matches: 1
-    matches: 6
-    total_files: 75
-xedit:
-  1.2.2:
-    filtered_matches: 1
-    matches: 1
-    total_files: 114
-xerces-c:
-  3.1.3:
-    matches: 3
-    total_files: 3819
-  3.1.4:
-    matches: 3
-    total_files: 2821
-  3.2.1:
-    matches: 3
-    total_files: 2611
-  3.2.2:
-    matches: 3
-    total_files: 2618
-  3.2.3:
-    matches: 3
-    total_files: 2774
-xfsprogs:
-  4.20.0:
-    matches: 3
-    total_files: 497
-  5.6.0:
-    matches: 3
-    total_files: 526
-  5.7.0:
-    matches: 3
-    total_files: 532
-  5.8.0:
-    matches: 3
-    total_files: 535
-xhmm:
-  '20160104':
-    filtered_matches: 1
-    matches: 1
-    total_files: 158
-xkeyboard-config:
-  '2.18':
-    matches: 1
-    total_files: 177
-xmlrpc-c:
-  1.51.06:
-    matches: 1
-    total_files: 566
-xorg-cf-files:
-  1.0.6:
-    matches: 4
-    total_files: 126
-xorg-server:
-  1.18.99.901:
-    filtered_matches: 3
-    matches: 9
-    total_files: 1773
-xqilla:
-  2.3.3:
-    matches: 3
-    total_files: 3241
 xrootd:
   4.10.0:
     matches: 7
@@ -16837,51 +9846,6 @@ xrootd:
   5.0.3:
     matches: 5
     total_files: 1418
-xrx:
-  1.0.4:
-    matches: 2
-    total_files: 73
-xts:
-  0.99.1:
-    matches: 2
-    total_files: 3263
-xwininfo:
-  1.1.3:
-    matches: 1
-    total_files: 18
-xz:
-  5.2.0:
-    matches: 4
-    total_files: 422
-  5.2.2:
-    matches: 4
-    total_files: 426
-  5.2.3:
-    matches: 4
-    total_files: 427
-  5.2.4:
-    matches: 4
-    total_files: 431
-  5.2.5:
-    matches: 4
-    total_files: 459
-yambo:
-  4.2.0:
-    matches: 1
-    total_files: 726
-  4.2.1:
-    matches: 1
-    total_files: 726
-  4.2.2:
-    matches: 1
-    total_files: 726
-yaml-cpp:
-  0.5.3:
-    matches: 5
-    total_files: 372
-  develop:
-    matches: 1
-    total_files: 403
 yasm:
   1.3.0:
     filtered_matches: 1
@@ -16890,130 +9854,6 @@ yasm:
   develop:
     matches: 3
     total_files: 1613
-yoda:
-  1.0.3:
-    matches: 3
-    total_files: 169
-  1.0.4:
-    matches: 3
-    total_files: 170
-  1.0.5:
-    matches: 3
-    total_files: 173
-  1.0.6:
-    matches: 3
-    total_files: 172
-  1.0.7:
-    matches: 3
-    total_files: 175
-  1.1.0:
-    matches: 3
-    total_files: 177
-  1.2.0:
-    matches: 3
-    total_files: 187
-  1.2.1:
-    matches: 3
-    total_files: 187
-  1.3.0:
-    matches: 3
-    total_files: 187
-  1.3.1:
-    matches: 3
-    total_files: 191
-  1.4.0:
-    matches: 3
-    total_files: 200
-  1.5.0:
-    matches: 3
-    total_files: 202
-  1.5.1:
-    matches: 3
-    total_files: 202
-  1.5.2:
-    matches: 3
-    total_files: 202
-  1.5.3:
-    matches: 3
-    total_files: 202
-  1.5.4:
-    matches: 3
-    total_files: 202
-  1.5.5:
-    matches: 3
-    total_files: 202
-  1.5.6:
-    matches: 3
-    total_files: 203
-  1.5.7:
-    matches: 3
-    total_files: 203
-  1.5.8:
-    matches: 3
-    total_files: 204
-  1.5.9:
-    matches: 3
-    total_files: 204
-  1.6.0:
-    matches: 3
-    total_files: 204
-  1.6.1:
-    matches: 3
-    total_files: 205
-  1.6.2:
-    matches: 3
-    total_files: 205
-  1.6.3:
-    matches: 3
-    total_files: 205
-  1.6.4:
-    matches: 3
-    total_files: 205
-  1.6.5:
-    matches: 3
-    total_files: 205
-  1.6.6:
-    matches: 3
-    total_files: 205
-  1.6.7:
-    matches: 3
-    total_files: 206
-  1.7.0:
-    matches: 3
-    total_files: 295
-  1.7.1:
-    matches: 3
-    total_files: 296
-  1.7.2:
-    matches: 3
-    total_files: 296
-  1.7.3:
-    matches: 3
-    total_files: 317
-  1.7.4:
-    matches: 3
-    total_files: 317
-  1.7.5:
-    matches: 3
-    total_files: 317
-  1.7.6:
-    matches: 3
-    total_files: 317
-  1.7.7:
-    matches: 3
-    total_files: 317
-  1.8.0:
-    matches: 3
-    total_files: 320
-  1.8.1:
-    matches: 3
-    total_files: 320
-  1.8.2:
-    matches: 3
-    total_files: 320
-  1.8.3:
-    matches: 3
-    total_files: 321
 yorick:
   2.2.04:
     filtered_matches: 7
@@ -17022,14 +9862,6 @@ yorick:
   master:
     matches: 9
     total_files: 590
-z-checker:
-  0.5.0:
-    matches: 2
-    total_files: 473
-z3:
-  4.8.9:
-    matches: 1
-    total_files: 2255
 zabbix:
   4.0.23:
     matches: 2
@@ -17041,13 +9873,6 @@ zabbix:
     filtered_matches: 1
     matches: 2
     total_files: 3540
-zfp:
-  0.5.5:
-    matches: 1
-    total_files: 185
-  develop:
-    matches: 1
-    total_files: 595
 zfs:
   0.8.0:
     matches: 6
@@ -17062,11 +9887,6 @@ zfs:
   0.8.3:
     matches: 6
     total_files: 3325
-zookeeper:
-  3.4.11:
-    filtered_matches: 1
-    matches: 6
-    total_files: 1552
 zsh:
   5.1.1:
     matches: 4
@@ -17087,7 +9907,3 @@ zsh:
   '5.8':
     matches: 4
     total_files: 457
-zziplib:
-  0.13.69:
-    matches: 3
-    total_files: 270

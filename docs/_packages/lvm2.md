@@ -1,8 +1,8 @@
 ---
 name: "lvm2"
 layout: package
-next_package: ldc-bootstrap
-previous_package: graphviz
+next_package: macsio
+previous_package: lua-luajit
 languages: ['c']
 ---
 ## 2.03.02

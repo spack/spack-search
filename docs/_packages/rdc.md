@@ -1,8 +1,8 @@
 ---
 name: "rdc"
 layout: package
-next_package: libgd
-previous_package: jose
+next_package: rdma-core
+previous_package: rccl
 languages: ['cpp']
 ---
 ## 4.0.0

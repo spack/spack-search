@@ -1,8 +1,8 @@
 ---
 name: "rdma-core"
 layout: package
-next_package: opa-psm2
-previous_package: imlib2
+next_package: redis
+previous_package: rdc
 languages: ['c']
 ---
 ## 33.1

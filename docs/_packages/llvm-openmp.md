@@ -1,8 +1,8 @@
 ---
 name: "llvm-openmp"
 layout: package
-next_package: nspr
-previous_package: likwid
+next_package: llvm-openmp-ompt
+previous_package: llvm-doe
 languages: ['c']
 ---
 ## 8.0.0

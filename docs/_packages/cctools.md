@@ -1,8 +1,8 @@
 ---
 name: "cctools"
 layout: package
-next_package: bazel
-previous_package: libx11
+next_package: cdo
+previous_package: cbtf-krell
 languages: ['c']
 ---
 ## 7.1.0

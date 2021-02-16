@@ -1,8 +1,8 @@
 ---
 name: "whizard"
 layout: package
-next_package: py-cython
-previous_package: wcs
+next_package: wireshark
+previous_package: watch
 languages: ['fortran']
 ---
 ## 2.8.3

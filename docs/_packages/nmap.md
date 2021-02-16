@@ -1,8 +1,8 @@
 ---
 name: "nmap"
 layout: package
-next_package: py-quast
-previous_package: fenics-dolfinx
+next_package: node-js
+previous_package: nix
 languages: ['c']
 ---
 ## 7.70

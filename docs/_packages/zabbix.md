@@ -1,8 +1,8 @@
 ---
 name: "zabbix"
 layout: package
-next_package: vgm
-previous_package: activeharmony
+next_package: zfs
+previous_package: yorick
 languages: ['c']
 ---
 ## 5.0.3

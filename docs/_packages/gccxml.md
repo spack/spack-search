@@ -1,8 +1,8 @@
 ---
 name: "gccxml"
 layout: package
-next_package: elpa
-previous_package: darshan-runtime
+next_package: gdb
+previous_package: gcc
 languages: ['c']
 ---
 ## latest

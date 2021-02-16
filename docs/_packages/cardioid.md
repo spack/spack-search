@@ -1,8 +1,8 @@
 ---
 name: "cardioid"
 layout: package
-next_package: tcl-tcllib
-previous_package: ispc
+next_package: care
+previous_package: canu
 languages: ['cpp']
 ---
 ## elecfem

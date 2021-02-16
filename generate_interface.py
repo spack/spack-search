@@ -152,6 +152,87 @@ def get_language(matchname):
     return ""
 
 
+def include_language(language):
+    """For now, only include a subset of languages. Returns true if the language
+    should be included, False otherwise.
+    """
+    return language in [
+        "python",
+        "c",
+        "cpp",
+        "go",
+        "java",
+        "fortran",
+        "pl",
+    ]
+
+
+def include_line(line):
+    """Given a line, determine if we should include it based on the presence
+    of dlopen, and then not being a comment
+    """
+    if not line or not re.search("dlopen", line):
+        return False
+
+    # Skip comments
+    if re.search("^([//]|[/*]|#)", line.strip()):
+        return False
+
+    return True
+
+
+def filter_packages(contenders, datadir):
+    """Given a list of contender packages, do an original filter and
+    return a list of packages that have at least one match. We will include
+    these in the site.
+    """
+    print(
+        "Preparing to filter packages! This may take a few moments."
+        "We are starting with %s contender packages with string dlopen."
+        % len(contenders)
+    )
+    packages = set()
+
+    # Get a list of filtered down packages for the lookup
+    # We determine inclusion based on having matches that pass filtering
+    for package in contenders:
+
+        if package == ".empty":
+            continue
+
+        # Find all package versions
+        package_dir = os.path.join(datadir, package)
+        include_package = False
+        for package_file in os.listdir(package_dir):
+
+            if include_package:
+                packages.add(package)
+                continue
+
+            package_file = os.path.join(package_dir, package_file)
+            content = read_json(package_file)
+            for matchname, match in content["matches"].items():
+
+                # need to derive language here, add code
+                language = get_language(matchname)
+                if not include_language(language):
+                    continue
+
+                # Only include lines that have the match
+                matchlines = match.split("\n")
+                for index, line in enumerate(matchlines):
+                    if not include_line(line):
+                        continue
+
+                # If we get here, we include the package
+                include_package = True
+                break
+
+    print("There are %s filtered packages." % len(packages))
+    packages = list(packages)
+    return sorted(packages)
+
+
 def main():
     if len(sys.argv) < 3:
         usage(exit=True)
@@ -176,7 +257,8 @@ def main():
 
     # Read in each data file, make a collection folder, and write a markdown
     print("Finding packages...")
-    packages = os.listdir(datadir)
+    contenders = os.listdir(datadir)
+    packages = filter_packages(contenders, datadir)
 
     # Create a lookup of previous and next (so jekyll doesn't need to)
     lookup = {}
@@ -186,11 +268,8 @@ def main():
             "previous": packages[i - 1] if i > 0 else None,
         }
 
+    # Iterate through packages, save data and generate markdown for each
     for package in packages:
-
-        # Skip the empty directory
-        if package == ".empty":
-            continue
 
         # Find all package versions
         package_dir = os.path.join(datadir, package)
@@ -235,17 +314,7 @@ def main():
 
                 # need to derive language here, add code
                 language = get_language(matchname)
-
-                # Only include these languages for now
-                if language not in [
-                    "python",
-                    "c",
-                    "cpp",
-                    "go",
-                    "java",
-                    "fortran",
-                    "pl",
-                ]:
+                if not include_language(language):
                     continue
 
                 matchpath = matchname.split("spack-src")[-1].strip("/")
@@ -254,11 +323,7 @@ def main():
                 lines = []
                 matchlines = match.split("\n")
                 for index, line in enumerate(matchlines):
-                    if not line or not re.search("dlopen", line):
-                        continue
-
-                    # Skip comments
-                    if re.search("^([//]|[/*]|#)", line.strip()):
+                    if not include_line(line):
                         continue
 
                     lines.append("%s | %s" % (index, line))

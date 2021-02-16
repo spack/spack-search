@@ -1,8 +1,8 @@
 ---
 name: "julia"
 layout: package
-next_package: aspect
-previous_package: moosefs
+next_package: kaldi
+previous_package: jimtcl
 languages: ['c']
 ---
 ## 1.5.2

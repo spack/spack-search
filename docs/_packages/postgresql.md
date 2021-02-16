@@ -1,8 +1,8 @@
 ---
 name: "postgresql"
 layout: package
-next_package: wcs
-previous_package: cpio
+next_package: powerapi
+previous_package: poppler
 languages: ['c']
 ---
 ## 10.3

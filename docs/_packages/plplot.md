@@ -1,8 +1,8 @@
 ---
 name: "plplot"
 layout: package
-next_package: llvm-doe
-previous_package: libnbc
+next_package: plumed
+previous_package: php
 languages: ['c']
 ---
 ## 5.14.0

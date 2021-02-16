@@ -1,8 +1,8 @@
 ---
 name: "mariadb"
 layout: package
-next_package: ipcalc
-previous_package: cubew
+next_package: mariadb-c-client
+previous_package: macsio
 languages: ['cpp', 'c']
 ---
 ## 10.1.23

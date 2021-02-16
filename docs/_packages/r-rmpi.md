@@ -1,8 +1,8 @@
 ---
 name: "r-rmpi"
 layout: package
-next_package: occa
-previous_package: py-xpyb
+next_package: r-rsqlite
+previous_package: r-rhtslib
 languages: ['c']
 ---
 ## 0.6-9

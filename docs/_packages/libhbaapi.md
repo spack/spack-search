@@ -1,8 +1,8 @@
 ---
 name: "libhbaapi"
 layout: package
-next_package: pinentry
-previous_package: vt
+next_package: libhio
+previous_package: libgssglue
 languages: ['c']
 ---
 ## 3.10

@@ -1,8 +1,8 @@
 ---
 name: "perl-dbd-sqlite"
 layout: package
-next_package: aspell
-previous_package: hunspell
+next_package: petsc
+previous_package: perl
 languages: ['c']
 ---
 ## 1.56

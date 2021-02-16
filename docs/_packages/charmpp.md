@@ -1,8 +1,8 @@
 ---
 name: "charmpp"
 layout: package
-next_package: py-pysam
-previous_package: py-exodus-bundler
+next_package: cmake
+previous_package: chapel
 languages: ['c']
 ---
 ## 6.9.0

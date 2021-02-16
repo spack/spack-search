@@ -1,8 +1,8 @@
 ---
 name: "mysql"
 layout: package
-next_package: pdsh
-previous_package: libidl
+next_package: namd
+previous_package: mvapich2
 languages: ['cpp', 'c']
 ---
 ## 8.0.19

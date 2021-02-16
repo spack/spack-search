@@ -1,8 +1,8 @@
 ---
 name: "py-pyside2"
 layout: package
-next_package: xcb-util-errors
-previous_package: cbc
+next_package: py-pyzmq
+previous_package: py-pyside
 languages: ['c']
 ---
 ## 5.13.1

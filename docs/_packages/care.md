@@ -1,8 +1,8 @@
 ---
 name: "care"
 layout: package
-next_package: thepeg
-previous_package: fltk
+next_package: casacore
+previous_package: cardioid
 languages: ['c']
 ---
 ## develop

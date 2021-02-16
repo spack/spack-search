@@ -1,8 +1,8 @@
 ---
 name: "multiverso"
 layout: package
-next_package: stinger
-previous_package: tfel
+next_package: musl
+previous_package: mpich
 languages: ['c']
 ---
 ## 143187

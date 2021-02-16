@@ -1,8 +1,8 @@
 ---
 name: "nfs-ganesha"
 layout: package
-next_package: hadoop
-previous_package: 3proxy
+next_package: nfs-utils
+previous_package: neuron
 languages: ['c']
 ---
 ## 3.1

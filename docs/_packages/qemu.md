@@ -1,8 +1,8 @@
 ---
 name: "qemu"
 layout: package
-next_package: swig
-previous_package: openssl
+next_package: qt
+previous_package: q-e-sirius
 languages: ['c']
 ---
 ## 1.4.0

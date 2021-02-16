@@ -1,8 +1,8 @@
 ---
 name: "yasm"
 layout: package
-next_package: gtkplus
-previous_package: prism
+next_package: yorick
+previous_package: xrootd
 languages: ['c']
 ---
 ## 1.3.0

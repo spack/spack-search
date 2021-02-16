@@ -1,8 +1,8 @@
 ---
 name: "ibm-databroker"
 layout: package
-next_package: henson
-previous_package: buddy
+next_package: imagemagick
+previous_package: hwloc
 languages: ['python', 'c']
 ---
 ## master

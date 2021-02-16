@@ -1,8 +1,8 @@
 ---
 name: "grass"
 layout: package
-next_package: libmad
-previous_package: ncl
+next_package: gromacs
+previous_package: graphicsmagick
 languages: ['c']
 ---
 ## 7.8.2

@@ -1,8 +1,8 @@
 ---
 name: "py-billiard"
 layout: package
-next_package: py-setuptools
-previous_package: py-fenics-dolfinx
+next_package: py-cffi
+previous_package: prrte
 languages: ['python']
 ---
 ## 3.6.0.0

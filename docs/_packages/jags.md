@@ -1,8 +1,8 @@
 ---
 name: "jags"
 layout: package
-next_package: bedtools2
-previous_package: hdf
+next_package: jemalloc
+previous_package: isc-dhcp
 languages: ['cpp', 'c']
 ---
 ## 4.3.0

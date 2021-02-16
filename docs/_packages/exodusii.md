@@ -1,8 +1,8 @@
 ---
 name: "exodusii"
 layout: package
-next_package: viennarna
-previous_package: gtkplus
+next_package: extrae
+previous_package: esmf
 languages: ['c']
 ---
 ## master

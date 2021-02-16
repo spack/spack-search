@@ -1,8 +1,8 @@
 ---
 name: "fio"
 layout: package
-next_package: protobuf-c
-previous_package: libwebp
+next_package: fipscheck
+previous_package: ffmpeg
 languages: ['c']
 ---
 ## 3.19

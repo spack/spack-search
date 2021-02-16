@@ -1,8 +1,8 @@
 ---
 name: "libfastcommon"
 layout: package
-next_package: git
-previous_package: at-spi2-atk
+next_package: libffs
+previous_package: libfabric
 languages: ['c']
 ---
 ## 1.0.40

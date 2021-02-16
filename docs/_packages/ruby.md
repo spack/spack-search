@@ -1,8 +1,8 @@
 ---
 name: "ruby"
 layout: package
-next_package: cbc
-previous_package: rt-tests
+next_package: samtools
+previous_package: rsyslog
 languages: ['c']
 ---
 ## 2.7.1

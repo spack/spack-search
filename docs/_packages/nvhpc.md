@@ -1,8 +1,8 @@
 ---
 name: "nvhpc"
 layout: package
-next_package: atompaw
-previous_package: netcdf-fortran
+next_package: nwchem
+previous_package: ntirpc
 languages: ['c']
 ---
 ## 20.11

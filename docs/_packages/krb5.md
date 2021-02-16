@@ -1,8 +1,8 @@
 ---
 name: "krb5"
 layout: package
-next_package: py-mypy
-previous_package: geopm
+next_package: kripke
+previous_package: kmod
 languages: ['c']
 ---
 ## 1.16.2

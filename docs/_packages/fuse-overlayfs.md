@@ -1,8 +1,8 @@
 ---
 name: "fuse-overlayfs"
 layout: package
-next_package: cosma
-previous_package: gtkorvo-atl
+next_package: g2o
+previous_package: frontier-client
 languages: ['c']
 ---
 ## 1.1.2

@@ -1,8 +1,8 @@
 ---
 name: "slang"
 layout: package
-next_package: stacks
-previous_package: tix
+next_package: slurm
+previous_package: simgrid
 languages: ['c']
 ---
 ## 2.3.2

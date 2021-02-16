@@ -1,8 +1,8 @@
 ---
 name: "geopm"
 layout: package
-next_package: krb5
-previous_package: esmf
+next_package: gettext
+previous_package: gdk-pixbuf
 languages: ['c']
 ---
 ## 0.5.1

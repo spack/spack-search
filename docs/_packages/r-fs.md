@@ -1,8 +1,8 @@
 ---
 name: "r-fs"
 layout: package
-next_package: xfsprogs
-previous_package: rocprofiler-dev
+next_package: r-httpuv
+previous_package: r
 languages: ['c']
 ---
 ## 1.3.1

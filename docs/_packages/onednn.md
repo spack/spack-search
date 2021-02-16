@@ -1,8 +1,8 @@
 ---
 name: "onednn"
 layout: package
-next_package: py-pybind11
-previous_package: dcap
+next_package: opa-psm2
+previous_package: octave
 languages: ['c']
 ---
 ## 1.6.5

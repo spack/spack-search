@@ -1,8 +1,8 @@
 ---
 name: "libtool"
 layout: package
-next_package: caliper
-previous_package: osi
+next_package: libuv
+previous_package: librsvg
 languages: ['c']
 ---
 ## 2.4.6

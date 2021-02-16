@@ -1,8 +1,8 @@
 ---
 name: "nbdkit"
 layout: package
-next_package: cups
-previous_package: embree
+next_package: nccl
+previous_package: namd
 languages: ['c']
 ---
 ## 1.23.7

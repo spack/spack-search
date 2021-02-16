@@ -1,8 +1,8 @@
 ---
 name: "vtk"
 layout: package
-next_package: intel-tbb
-previous_package: ffsb
+next_package: watch
+previous_package: vtable-dumper
 languages: ['c']
 ---
 ## 9.0.0

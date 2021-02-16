@@ -1,8 +1,8 @@
 ---
 name: "nwchem"
 layout: package
-next_package: tixi
-previous_package: efivar
+next_package: ocaml
+previous_package: nvhpc
 languages: ['c']
 ---
 ## 6.8.1

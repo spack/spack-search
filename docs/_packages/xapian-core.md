@@ -1,8 +1,8 @@
 ---
 name: "xapian-core"
 layout: package
-next_package: py-or-tools
-previous_package: libcanberra
+next_package: xrootd
+previous_package: wxwidgets
 languages: ['cpp']
 ---
 ## 1.4.3

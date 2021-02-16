@@ -1,8 +1,8 @@
 ---
 name: "podio"
 layout: package
-next_package: libxaw
-previous_package: xcb-util-renderutil
+next_package: polymake
+previous_package: pocl
 languages: ['cpp']
 ---
 ## master

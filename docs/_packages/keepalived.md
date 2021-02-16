@@ -1,8 +1,8 @@
 ---
 name: "keepalived"
 layout: package
-next_package: zfs
-previous_package: jimtcl
+next_package: kitty
+previous_package: kaldi
 languages: ['c']
 ---
 ## 2.0.12

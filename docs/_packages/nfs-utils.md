@@ -1,8 +1,8 @@
 ---
 name: "nfs-utils"
 layout: package
-next_package: linux-pam
-previous_package: gchp
+next_package: nim
+previous_package: nfs-ganesha
 languages: ['c']
 ---
 ## 2.4.1

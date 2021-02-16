@@ -1,8 +1,8 @@
 ---
 name: "seacas"
 layout: package
-next_package: libapplewm
-previous_package: lua-luajit
+next_package: silo
+previous_package: scorep
 languages: ['c']
 ---
 ## master

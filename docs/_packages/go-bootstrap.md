@@ -1,8 +1,8 @@
 ---
 name: "go-bootstrap"
 layout: package
-next_package: octave
-previous_package: fontconfig
+next_package: gobject-introspection
+previous_package: go
 languages: ['go', 'c']
 ---
 ## 1.4-bootstrap-20161024

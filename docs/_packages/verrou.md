@@ -1,8 +1,8 @@
 ---
 name: "verrou"
 layout: package
-next_package: xcb-util-cursor
-previous_package: py-chainer
+next_package: vim
+previous_package: veclibfort
 languages: ['c']
 ---
 ## 2.0.0

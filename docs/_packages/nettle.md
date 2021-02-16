@@ -1,8 +1,8 @@
 ---
 name: "nettle"
 layout: package
-next_package: magics
-previous_package: lcms
+next_package: neuron
+previous_package: netperf
 languages: ['c']
 ---
 ## 3.4.1

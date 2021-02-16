@@ -1,8 +1,8 @@
 ---
 name: "mariadb-c-client"
 layout: package
-next_package: fish
-previous_package: spades
+next_package: mc
+previous_package: mariadb
 languages: ['c']
 ---
 ## 2.3.1

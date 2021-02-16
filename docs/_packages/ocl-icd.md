@@ -1,8 +1,8 @@
 ---
 name: "ocl-icd"
 layout: package
-next_package: isc-dhcp
-previous_package: py-uvloop
+next_package: octave
+previous_package: oce
 languages: ['c']
 ---
 ## 2.2.4

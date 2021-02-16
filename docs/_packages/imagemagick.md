@@ -1,8 +1,8 @@
 ---
 name: "imagemagick"
 layout: package
-next_package: grib-api
-previous_package: babeltrace
+next_package: imlib2
+previous_package: ibm-databroker
 languages: ['c']
 ---
 ## 7.0.8-7

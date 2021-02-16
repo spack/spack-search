@@ -1,8 +1,8 @@
 ---
 name: "quantum-espresso"
 layout: package
-next_package: erfa
-previous_package: opari2
+next_package: r
+previous_package: qt
 languages: ['c']
 ---
 ## 6.4

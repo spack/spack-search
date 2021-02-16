@@ -1,8 +1,8 @@
 ---
 name: "ocaml"
 layout: package
-next_package: poppler
-previous_package: php
+next_package: oce
+previous_package: nwchem
 languages: ['c']
 ---
 ## 4.03.0

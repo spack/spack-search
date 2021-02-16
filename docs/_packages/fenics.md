@@ -1,8 +1,8 @@
 ---
 name: "fenics"
 layout: package
-next_package: ecflow
-previous_package: kibana
+next_package: ferret
+previous_package: faust
 languages: ['python']
 ---
 ## 1.6.0

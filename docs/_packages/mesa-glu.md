@@ -1,8 +1,8 @@
 ---
 name: "mesa-glu"
 layout: package
-next_package: hdf5
-previous_package: r-git2r
+next_package: meson
+previous_package: mesa
 languages: ['c']
 ---
 ## 9.0.1

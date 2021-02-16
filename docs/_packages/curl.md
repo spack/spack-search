@@ -1,8 +1,8 @@
 ---
 name: "curl"
 layout: package
-next_package: hpx
-previous_package: adlbx
+next_package: cyrus-sasl
+previous_package: cppcheck
 languages: ['c']
 ---
 ## 7.60.0

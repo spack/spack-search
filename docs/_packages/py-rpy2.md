@@ -1,8 +1,8 @@
 ---
 name: "py-rpy2"
 layout: package
-next_package: libxxf86dga
-previous_package: libuv
+next_package: py-scipy
+previous_package: py-quast
 languages: ['python']
 ---
 ## 3.0.4

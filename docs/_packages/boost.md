@@ -1,8 +1,8 @@
 ---
 name: "boost"
 layout: package
-next_package: kbd
-previous_package: gmake
+next_package: breseq
+previous_package: bolt
 languages: ['python', 'c']
 ---
 ## 1.49.0

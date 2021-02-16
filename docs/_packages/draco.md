@@ -1,8 +1,8 @@
 ---
 name: "draco"
 layout: package
-next_package: activeharmony
-previous_package: xhmm
+next_package: dyninst
+previous_package: dpdk
 languages: ['cpp']
 ---
 ## 7.6.0

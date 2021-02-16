@@ -1,8 +1,8 @@
 ---
 name: "libyogrt"
 layout: package
-next_package: ltrace
-previous_package: mindthegap
+next_package: lighttpd
+previous_package: libxsmm
 languages: ['c']
 ---
 ## 1.20-2

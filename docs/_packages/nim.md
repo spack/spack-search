@@ -1,8 +1,8 @@
 ---
 name: "nim"
 layout: package
-next_package: opari2
-previous_package: biobloom
+next_package: nix
+previous_package: nfs-utils
 languages: ['c']
 ---
 ## 0.19.6

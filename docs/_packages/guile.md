@@ -1,8 +1,8 @@
 ---
 name: "guile"
 layout: package
-next_package: libgpuarray
-previous_package: kmod
+next_package: haproxy
+previous_package: gtkplus
 languages: ['c']
 ---
 ## 2.2.4

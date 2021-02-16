@@ -1,8 +1,8 @@
 ---
 name: "lua-luajit"
 layout: package
-next_package: seacas
-previous_package: macsio
+next_package: lvm2
+previous_package: lua
 languages: ['c']
 ---
 ## 2.0.4

@@ -1,8 +1,8 @@
 ---
 name: "zsh"
 layout: package
-next_package: raft
-previous_package: jq
+next_package: None
+previous_package: zfs
 languages: ['c']
 ---
 ## 5.4.2

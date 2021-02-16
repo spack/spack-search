@@ -1,8 +1,8 @@
 ---
 name: "samtools"
 layout: package
-next_package: cc65
-previous_package: py-4suite-xml
+next_package: saws
+previous_package: ruby
 languages: ['c']
 ---
 ## 1.3.1

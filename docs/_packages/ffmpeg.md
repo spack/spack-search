@@ -1,8 +1,8 @@
 ---
 name: "ffmpeg"
 layout: package
-next_package: extrae
-previous_package: cppcheck
+next_package: fio
+previous_package: ferret
 languages: ['c']
 ---
 ## 4.1

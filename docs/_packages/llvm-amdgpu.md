@@ -1,8 +1,8 @@
 ---
 name: "llvm-amdgpu"
 layout: package
-next_package: libxsmm
-previous_package: openmm
+next_package: llvm-doe
+previous_package: llvm
 languages: ['python', 'c']
 ---
 ## 3.10.0

@@ -1,8 +1,8 @@
 ---
 name: "kmod"
 layout: package
-next_package: guile
-previous_package: libxkbfile
+next_package: krb5
+previous_package: kitty
 languages: ['c']
 ---
 ## 25

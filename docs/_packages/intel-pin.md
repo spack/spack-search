@@ -1,8 +1,8 @@
 ---
 name: "intel-pin"
 layout: package
-next_package: mongo-c-driver
-previous_package: singularity-legacy
+next_package: intel-tbb
+previous_package: imlib2
 languages: ['c']
 ---
 ## 3.14

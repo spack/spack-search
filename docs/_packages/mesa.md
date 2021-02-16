@@ -1,8 +1,8 @@
 ---
 name: "mesa"
 layout: package
-next_package: giflib
-previous_package: xqilla
+next_package: mesa-glu
+previous_package: memkind
 languages: ['c']
 ---
 ## 20.2.1

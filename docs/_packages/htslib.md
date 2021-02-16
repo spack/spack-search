@@ -1,8 +1,8 @@
 ---
 name: "htslib"
 layout: package
-next_package: glusterfs
-previous_package: cityhash
+next_package: httpd
+previous_package: hsakmt-roct
 languages: ['c']
 ---
 ## 1.4

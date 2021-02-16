@@ -1,8 +1,8 @@
 ---
 name: "alsa-lib"
 layout: package
-next_package: libpulsar
-previous_package: samrai
+next_package: amgx
+previous_package: adios2
 languages: ['c']
 ---
 ## 1.2.3.2

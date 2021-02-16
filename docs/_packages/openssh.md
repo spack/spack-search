@@ -1,8 +1,8 @@
 ---
 name: "openssh"
 layout: package
-next_package: py-pyopenssl
-previous_package: py-shapely
+next_package: openssl
+previous_package: openscenegraph
 languages: ['c']
 ---
 ## 7.9p1

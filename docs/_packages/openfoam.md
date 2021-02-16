@@ -1,8 +1,8 @@
 ---
 name: "openfoam"
 layout: package
-next_package: adlbx
-previous_package: id3lib
+next_package: openfoam-org
+previous_package: opencv
 languages: ['c']
 ---
 ## 1806

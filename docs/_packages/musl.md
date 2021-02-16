@@ -1,8 +1,8 @@
 ---
 name: "musl"
 layout: package
-next_package: vsearch
-previous_package: py-awkward1
+next_package: mvapich2
+previous_package: multiverso
 languages: ['c']
 ---
 ## 1.1.20

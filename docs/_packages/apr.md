@@ -1,8 +1,8 @@
 ---
 name: "apr"
 layout: package
-next_package: lwgrp
-previous_package: vtable-dumper
+next_package: arrayfire
+previous_package: aomp
 languages: ['c']
 ---
 ## 1.7.0

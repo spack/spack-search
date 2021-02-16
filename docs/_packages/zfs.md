@@ -1,8 +1,8 @@
 ---
 name: "zfs"
 layout: package
-next_package: libpmemobj-cpp
-previous_package: keepalived
+next_package: zsh
+previous_package: zabbix
 languages: ['python', 'c']
 ---
 ## 0.8.2

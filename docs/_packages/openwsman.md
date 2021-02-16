@@ -1,8 +1,8 @@
 ---
 name: "openwsman"
 layout: package
-next_package: libidl
-previous_package: libgssglue
+next_package: osqp
+previous_package: openssl
 languages: ['c']
 ---
 ## 2.6.10

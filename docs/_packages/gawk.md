@@ -1,8 +1,8 @@
 ---
 name: "gawk"
 layout: package
-next_package: gmake
-previous_package: nicstat
+next_package: gcc
+previous_package: g2o
 languages: ['c']
 ---
 ## 5.1.0

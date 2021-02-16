@@ -1,8 +1,8 @@
 ---
 name: "php"
 layout: package
-next_package: ocaml
-previous_package: jchronoss
+next_package: plplot
+previous_package: petsc
 languages: ['c']
 ---
 ## 7.3.13

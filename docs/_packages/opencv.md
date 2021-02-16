@@ -1,8 +1,8 @@
 ---
 name: "opencv"
 layout: package
-next_package: gperftools
-previous_package: libsigsegv
+next_package: openfoam
+previous_package: opa-psm2
 languages: ['c']
 ---
 ## 3.4.4

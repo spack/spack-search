@@ -1,8 +1,8 @@
 ---
 name: "ermod"
 layout: package
-next_package: emacs
-previous_package: libcroco
+next_package: esmf
+previous_package: erlang
 languages: ['c']
 ---
 ## 0.3.6

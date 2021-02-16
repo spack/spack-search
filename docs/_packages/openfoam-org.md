@@ -1,8 +1,8 @@
 ---
 name: "openfoam-org"
 layout: package
-next_package: etcd
-previous_package: modern-wheel
+next_package: openldap
+previous_package: openfoam
 languages: ['c']
 ---
 ## 5.0

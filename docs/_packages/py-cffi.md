@@ -1,8 +1,8 @@
 ---
 name: "py-cffi"
 layout: package
-next_package: mvapich2
-previous_package: py-gosam
+next_package: py-chainer
+previous_package: py-billiard
 languages: ['python', 'c']
 ---
 ## 1.13.0

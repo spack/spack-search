@@ -1,8 +1,8 @@
 ---
 name: "tcl"
 layout: package
-next_package: exciting
-previous_package: libxcursor
+next_package: tengine
+previous_package: tau
 languages: ['c']
 ---
 ## 8.6.6

@@ -1,8 +1,8 @@
 ---
 name: "chapel"
 layout: package
-next_package: umpire
-previous_package: perl-alien-svn
+next_package: charmpp
+previous_package: cdo
 languages: ['c']
 ---
 ## 1.18.0

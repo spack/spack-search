@@ -1,8 +1,8 @@
 ---
 name: "mvapich2"
 layout: package
-next_package: netgen
-previous_package: py-cffi
+next_package: mysql
+previous_package: musl
 languages: ['c']
 ---
 ## 2.2

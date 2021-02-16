@@ -1,8 +1,8 @@
 ---
 name: "e2fsprogs"
 layout: package
-next_package: herwigpp
-previous_package: blast-plus
+next_package: efivar
+previous_package: dyninst
 languages: ['c']
 ---
 ## 1.45.5

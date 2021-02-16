@@ -1,8 +1,8 @@
 ---
 name: "cbtf-krell"
 layout: package
-next_package: wt
-previous_package: maloc
+next_package: cctools
+previous_package: catalyst
 languages: ['c']
 ---
 ## 1.9.3

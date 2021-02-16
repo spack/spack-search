@@ -1,8 +1,8 @@
 ---
 name: "parsec"
 layout: package
-next_package: rempi
-previous_package: erlang
+next_package: patchelf
+previous_package: paraview
 languages: ['c']
 ---
 ## 1.1.0

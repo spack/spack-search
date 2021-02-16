@@ -1,8 +1,8 @@
 ---
 name: "dyninst"
 layout: package
-next_package: py-wheel
-previous_package: taskflow
+next_package: e2fsprogs
+previous_package: draco
 languages: ['c']
 ---
 ## 10.2.1

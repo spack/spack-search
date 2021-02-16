@@ -1,8 +1,8 @@
 ---
 name: "libxml2"
 layout: package
-next_package: lis
-previous_package: glib
+next_package: libxslt
+previous_package: libx11
 languages: ['c']
 ---
 ## 2.7.8

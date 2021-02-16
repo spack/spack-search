@@ -1,8 +1,8 @@
 ---
 name: "py-jedi"
 layout: package
-next_package: aegean
-previous_package: openslide
+next_package: py-jpype1
+previous_package: py-grpcio
 languages: ['python']
 ---
 ## 0.10.0

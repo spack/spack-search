@@ -1,8 +1,8 @@
 ---
 name: "papi"
 layout: package
-next_package: cvs
-previous_package: tinker
+next_package: paraview
+previous_package: pandaseq
 languages: ['c']
 ---
 ## 5.4.3

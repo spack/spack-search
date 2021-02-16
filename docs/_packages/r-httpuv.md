@@ -1,8 +1,8 @@
 ---
 name: "r-httpuv"
 layout: package
-next_package: py-matplotlib
-previous_package: ncbi-toolkit
+next_package: r-igraph
+previous_package: r-fs
 languages: ['c']
 ---
 ## 1.3.5

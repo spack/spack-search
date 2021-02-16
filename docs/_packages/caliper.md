@@ -1,8 +1,8 @@
 ---
 name: "caliper"
 layout: package
-next_package: libxfont
-previous_package: libtool
+next_package: canu
+previous_package: cairo
 languages: ['c']
 ---
 ## master

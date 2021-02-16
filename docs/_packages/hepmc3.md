@@ -1,8 +1,8 @@
 ---
 name: "hepmc3"
 layout: package
-next_package: stc
-previous_package: amdfftw
+next_package: hip-rocclr
+previous_package: hdf5
 languages: ['cpp']
 ---
 ## 3.2.2

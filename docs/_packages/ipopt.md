@@ -1,8 +1,8 @@
 ---
 name: "ipopt"
 layout: package
-next_package: flit
-previous_package: py-pillow-simd
+next_package: iproute2
+previous_package: ipcalc
 languages: ['c']
 ---
 ## 3.12.1

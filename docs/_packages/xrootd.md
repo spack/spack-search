@@ -1,8 +1,8 @@
 ---
 name: "xrootd"
 layout: package
-next_package: neuron
-previous_package: py-uwsgi
+next_package: yasm
+previous_package: xapian-core
 languages: ['cpp']
 ---
 ## 4.8.3

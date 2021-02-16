@@ -1,8 +1,8 @@
 ---
 name: "libpam"
 layout: package
-next_package: cpu-features
-previous_package: isl
+next_package: libquo
+previous_package: libmonitor
 languages: ['c']
 ---
 ## 1.07

@@ -1,8 +1,8 @@
 ---
 name: "py-pygpu"
 layout: package
-next_package: ntirpc
-previous_package: fish
+next_package: py-pymol
+previous_package: py-pygments
 languages: ['c']
 ---
 ## 0.6.2

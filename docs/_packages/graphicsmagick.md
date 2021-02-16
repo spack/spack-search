@@ -1,8 +1,8 @@
 ---
 name: "graphicsmagick"
 layout: package
-next_package: openmc
-previous_package: pkgconf
+next_package: grass
+previous_package: grafana
 languages: ['c']
 ---
 ## 1.3.31

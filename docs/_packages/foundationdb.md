@@ -1,8 +1,8 @@
 ---
 name: "foundationdb"
 layout: package
-next_package: ufo-core
-previous_package: pax-utils
+next_package: frontier-client
+previous_package: folly
 languages: ['c']
 ---
 ## 6.2.24

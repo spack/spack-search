@@ -1,8 +1,8 @@
 ---
 name: "poppler"
 layout: package
-next_package: z3
-previous_package: ocaml
+next_package: postgresql
+previous_package: polymake
 languages: ['cpp']
 ---
 ## 0.61.1

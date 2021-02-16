@@ -1,8 +1,8 @@
 ---
 name: "libffs"
 layout: package
-next_package: lvarray
-previous_package: dimemas
+next_package: libfuse
+previous_package: libfastcommon
 languages: ['c']
 ---
 ## 1.5

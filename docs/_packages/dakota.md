@@ -1,8 +1,8 @@
 ---
 name: "dakota"
 layout: package
-next_package: p3dfft3
-previous_package: netdata
+next_package: dbus
+previous_package: czmq
 languages: ['c']
 ---
 ## 6.12

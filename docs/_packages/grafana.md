@@ -1,8 +1,8 @@
 ---
 name: "grafana"
 layout: package
-next_package: py-py2cairo
-previous_package: lzop
+next_package: graphicsmagick
+previous_package: gperftools
 languages: ['c']
 ---
 ## 6.7.3

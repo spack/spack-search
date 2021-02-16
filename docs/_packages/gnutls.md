@@ -1,8 +1,8 @@
 ---
 name: "gnutls"
 layout: package
-next_package: hip-rocclr
-previous_package: libxscrnsaver
+next_package: go
+previous_package: gnuplot
 languages: ['c']
 ---
 ## 3.6.7.1

@@ -1,8 +1,8 @@
 ---
 name: "foam-extend"
 layout: package
-next_package: nnvm
-previous_package: libxprintapputil
+next_package: folly
+previous_package: flux-core
 languages: ['c']
 ---
 ## 4.0

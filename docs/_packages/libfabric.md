@@ -1,8 +1,8 @@
 ---
 name: "libfabric"
 layout: package
-next_package: brpc
-previous_package: libdrm
+next_package: libfastcommon
+previous_package: libevpath
 languages: ['c']
 ---
 ## 1.6.1

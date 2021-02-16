@@ -1,8 +1,8 @@
 ---
 name: "rocprofiler-dev"
 layout: package
-next_package: r-fs
-previous_package: abseil-cpp
+next_package: roctracer-dev
+previous_package: rocm-opencl
 languages: ['c']
 ---
 ## 3.9.0

@@ -1,8 +1,8 @@
 ---
 name: "breseq"
 layout: package
-next_package: ncbi-magicblast
-previous_package: opendx
+next_package: brltty
+previous_package: boost
 languages: ['c']
 ---
 ## 0.33.2

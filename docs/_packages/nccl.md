@@ -1,8 +1,8 @@
 ---
 name: "nccl"
 layout: package
-next_package: netcdf-c
-previous_package: libunistring
+next_package: ncl
+previous_package: nbdkit
 languages: ['cpp']
 ---
 ## 2.8.3-1

@@ -1,8 +1,8 @@
 ---
 name: "kubernetes"
 layout: package
-next_package: httpd
-previous_package: tpm2-tss
+next_package: lammps
+previous_package: kripke
 languages: ['go']
 ---
 ## 1.18.0

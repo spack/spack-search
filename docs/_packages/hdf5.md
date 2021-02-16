@@ -1,8 +1,8 @@
 ---
 name: "hdf5"
 layout: package
-next_package: libxtst
-previous_package: mesa-glu
+next_package: hepmc3
+previous_package: hashcat
 languages: ['java']
 ---
 ## 1.10.2

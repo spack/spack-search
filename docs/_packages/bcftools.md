@@ -1,8 +1,8 @@
 ---
 name: "bcftools"
 layout: package
-next_package: libunwind
-previous_package: pangolin
+next_package: bdw-gc
+previous_package: bazel
 languages: ['c']
 ---
 ## 1.9

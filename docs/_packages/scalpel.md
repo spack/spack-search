@@ -1,8 +1,8 @@
 ---
 name: "scalpel"
 layout: package
-next_package: swipl
-previous_package: netcdf-cxx4
+next_package: scorep
+previous_package: sblim-sfcc
 languages: ['c']
 ---
 ## 0.5.4

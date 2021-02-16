@@ -1,8 +1,8 @@
 ---
 name: "cyrus-sasl"
 layout: package
-next_package: googletest
-previous_package: libquo
+next_package: czmq
+previous_package: curl
 languages: ['c']
 ---
 ## 2.1.26

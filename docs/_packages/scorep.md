@@ -1,8 +1,8 @@
 ---
 name: "scorep"
 layout: package
-next_package: rocm-gdb
-previous_package: blt
+next_package: seacas
+previous_package: scalpel
 languages: ['c']
 ---
 ## 1.3

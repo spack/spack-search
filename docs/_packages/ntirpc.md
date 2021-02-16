@@ -1,8 +1,8 @@
 ---
 name: "ntirpc"
 layout: package
-next_package: eztrace
-previous_package: py-pygpu
+next_package: nvhpc
+previous_package: ns-3-dev
 languages: ['c']
 ---
 ## 3.0

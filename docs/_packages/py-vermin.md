@@ -1,8 +1,8 @@
 ---
 name: "py-vermin"
 layout: package
-next_package: heppdt
-previous_package: openmpi
+next_package: pythia8
+previous_package: py-tables
 languages: ['python']
 ---
 ## 1.0.3

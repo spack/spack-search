@@ -1,8 +1,8 @@
 ---
 name: "aomp"
 layout: package
-next_package: meson
-previous_package: ilmbase
+next_package: apr
+previous_package: aocc
 languages: ['python', 'c']
 ---
 ## 3.10.0

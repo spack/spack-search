@@ -1,8 +1,8 @@
 ---
 name: "libfuse"
 layout: package
-next_package: paraview
-previous_package: expat
+next_package: libgpuarray
+previous_package: libffs
 languages: ['c']
 ---
 ## 3.9.2

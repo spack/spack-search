@@ -1,8 +1,8 @@
 ---
 name: "conduit"
 layout: package
-next_package: libxp
-previous_package: boinc-client
+next_package: cppcheck
+previous_package: collectd
 languages: ['c']
 ---
 ## 0.5.1

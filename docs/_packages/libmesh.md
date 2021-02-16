@@ -1,8 +1,8 @@
 ---
 name: "libmesh"
 layout: package
-next_package: arrayfire
-previous_package: libzmq
+next_package: libmicrohttpd
+previous_package: libkcapi
 languages: ['cpp']
 ---
 ## master

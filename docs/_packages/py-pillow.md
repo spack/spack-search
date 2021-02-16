@@ -1,8 +1,8 @@
 ---
 name: "py-pillow"
 layout: package
-next_package: herwig3
-previous_package: glew
+next_package: py-pillow-simd
+previous_package: py-petsc4py
 languages: ['c']
 ---
 ## 6.2.0

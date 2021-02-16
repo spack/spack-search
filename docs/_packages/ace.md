@@ -1,9 +1,9 @@
 ---
 name: "ace"
 layout: package
-next_package: gconf
-previous_package: libxft
-languages: ['c', 'pl']
+next_package: activeharmony
+previous_package: abseil-cpp
+languages: ['pl', 'c']
 ---
 ## 6.5.12
 20 / 8830 files match, 2 filtered matches.

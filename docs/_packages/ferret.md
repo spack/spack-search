@@ -1,8 +1,8 @@
 ---
 name: "ferret"
 layout: package
-next_package: libtheora
-previous_package: elmerfem
+next_package: ffmpeg
+previous_package: fenics
 languages: ['c']
 ---
 ## 7.6.0

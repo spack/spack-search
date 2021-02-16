@@ -1,8 +1,8 @@
 ---
 name: "slurm"
 layout: package
-next_package: libestr
-previous_package: libsamplerate
+next_package: spades
+previous_package: slang
 languages: ['c']
 ---
 ## 18-08-9-1

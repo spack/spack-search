@@ -1,8 +1,8 @@
 ---
 name: "mc"
 layout: package
-next_package: fakechroot
-previous_package: libxi
+next_package: med
+previous_package: mariadb-c-client
 languages: ['c']
 ---
 ## 4.8.23

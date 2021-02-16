@@ -1,8 +1,8 @@
 ---
 name: "p11-kit"
 layout: package
-next_package: grpc
-previous_package: flac
+next_package: pandaseq
+previous_package: osqp
 languages: ['c']
 ---
 ## 0.23.20

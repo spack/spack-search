@@ -1,8 +1,8 @@
 ---
 name: "powerapi"
 layout: package
-next_package: ncbi-rmblastn
-previous_package: gtkmm
+next_package: premake-core
+previous_package: postgresql
 languages: ['cpp', 'c']
 ---
 ## 1.1.1

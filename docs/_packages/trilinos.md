@@ -1,8 +1,8 @@
 ---
 name: "trilinos"
 layout: package
-next_package: libsodium
-previous_package: optipng
+next_package: turbine
+previous_package: tpm2-tss
 languages: ['c']
 ---
 ## xsdk-0.2.0

@@ -1,8 +1,8 @@
 ---
 name: "extrae"
 layout: package
-next_package: q-e-sirius
-previous_package: ffmpeg
+next_package: fakechroot
+previous_package: exodusii
 languages: ['c']
 ---
 ## 3.4.1

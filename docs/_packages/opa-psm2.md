@@ -1,8 +1,8 @@
 ---
 name: "opa-psm2"
 layout: package
-next_package: kcov
-previous_package: rdma-core
+next_package: opencv
+previous_package: onednn
 languages: ['c']
 ---
 ## 11.2.68

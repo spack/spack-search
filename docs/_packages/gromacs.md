@@ -1,8 +1,8 @@
 ---
 name: "gromacs"
 layout: package
-next_package: None
-previous_package: tar
+next_package: gtkplus
+previous_package: grass
 languages: ['c']
 ---
 ## 5.1.2

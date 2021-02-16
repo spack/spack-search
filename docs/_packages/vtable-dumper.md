@@ -1,8 +1,8 @@
 ---
 name: "vtable-dumper"
 layout: package
-next_package: apr
-previous_package: libpng
+next_package: vtk
+previous_package: vt
 languages: ['c']
 ---
 ## 1.0

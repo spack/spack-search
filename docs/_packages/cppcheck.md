@@ -1,8 +1,8 @@
 ---
 name: "cppcheck"
 layout: package
-next_package: ffmpeg
-previous_package: rocksdb
+next_package: curl
+previous_package: conduit
 languages: ['c']
 ---
 ## 1.87

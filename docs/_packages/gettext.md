@@ -1,8 +1,8 @@
 ---
 name: "gettext"
 layout: package
-next_package: rsyslog
-previous_package: kcov
+next_package: gflags
+previous_package: geopm
 languages: ['c']
 ---
 ## 0.20.1

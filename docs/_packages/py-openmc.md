@@ -1,8 +1,8 @@
 ---
 name: "py-openmc"
 layout: package
-next_package: libxres
-previous_package: libxau
+next_package: py-packaging
+previous_package: py-onnx
 languages: ['python', 'c']
 ---
 ## develop

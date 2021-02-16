@@ -1,8 +1,8 @@
 ---
 name: "varnish-cache"
 layout: package
-next_package: erlang
-previous_package: r-stringi
+next_package: veclibfort
+previous_package: valgrind
 languages: ['c']
 ---
 ## 6.3.1

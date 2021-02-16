@@ -1,8 +1,8 @@
 ---
 name: "qt"
 layout: package
-next_package: py-pygobject
-previous_package: dmd
+next_package: quantum-espresso
+previous_package: qemu
 languages: ['cpp', 'python', 'c']
 ---
 ## 5.9.1

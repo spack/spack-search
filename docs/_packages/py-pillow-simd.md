@@ -1,8 +1,8 @@
 ---
 name: "py-pillow-simd"
 layout: package
-next_package: ipopt
-previous_package: xmlrpc-c
+next_package: py-pip
+previous_package: py-pillow
 languages: ['c']
 ---
 ## 7.0.0.post3

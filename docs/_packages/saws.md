@@ -1,8 +1,8 @@
 ---
 name: "saws"
 layout: package
-next_package: tengine
-previous_package: libdaemon
+next_package: sblim-sfcc
+previous_package: samtools
 languages: ['c']
 ---
 ## 0.1.0

@@ -1,8 +1,8 @@
 ---
 name: "kaldi"
 layout: package
-next_package: coin3d
-previous_package: libxv
+next_package: keepalived
+previous_package: julia
 languages: ['cpp']
 ---
 ## 2018-07-11

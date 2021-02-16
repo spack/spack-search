@@ -1,8 +1,8 @@
 ---
 name: "timemory"
 layout: package
-next_package: fermisciencetools
-previous_package: binutils
+next_package: tpm2-tss
+previous_package: thepeg
 languages: ['c']
 ---
 ## master

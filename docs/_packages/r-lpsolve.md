@@ -1,8 +1,8 @@
 ---
 name: "r-lpsolve"
 layout: package
-next_package: pcre2
-previous_package: libpipeline
+next_package: r-rcppcctz
+previous_package: r-later
 languages: ['c']
 ---
 ## 5.6.13.2

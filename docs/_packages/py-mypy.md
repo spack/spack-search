@@ -1,8 +1,8 @@
 ---
 name: "py-mypy"
 layout: package
-next_package: jimtcl
-previous_package: krb5
+next_package: py-numpy
+previous_package: py-mpi4py
 languages: ['python']
 ---
 ## 0.740

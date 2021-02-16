@@ -1,8 +1,8 @@
 ---
 name: "mivisionx"
 layout: package
-next_package: libssh2
-previous_package: masurca
+next_package: mono
+previous_package: meson
 languages: ['python']
 ---
 ## 3.8.0

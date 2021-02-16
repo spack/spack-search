@@ -1,8 +1,8 @@
 ---
 name: "rocksdb"
 layout: package
-next_package: cppcheck
-previous_package: atompaw
+next_package: rocm-gdb
+previous_package: rocfft
 languages: ['cpp']
 ---
 ## 6.7.3

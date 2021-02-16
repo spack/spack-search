@@ -1,8 +1,8 @@
 ---
 name: "percona-server"
 layout: package
-next_package: source-highlight
-previous_package: libxrender
+next_package: perl
+previous_package: patchelf
 languages: ['cpp', 'c']
 ---
 ## 8.0.20-11

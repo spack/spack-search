@@ -1,8 +1,8 @@
 ---
 name: "libgpuarray"
 layout: package
-next_package: mpich
-previous_package: guile
+next_package: libgssglue
+previous_package: libfuse
 languages: ['c']
 ---
 ## 0.7.0

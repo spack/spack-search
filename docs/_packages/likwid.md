@@ -1,8 +1,8 @@
 ---
 name: "likwid"
 layout: package
-next_package: llvm-openmp
-previous_package: libdmx
+next_package: llvm
+previous_package: lighttpd
 languages: ['c']
 ---
 ## 5.0.2

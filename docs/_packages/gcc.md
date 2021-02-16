@@ -1,9 +1,9 @@
 ---
 name: "gcc"
 layout: package
-next_package: log4c
-previous_package: re2c
-languages: ['java', 'cpp', 'c']
+next_package: gccxml
+previous_package: gawk
+languages: ['cpp', 'java', 'c']
 ---
 ## 6.1.0
 112 / 94447 files match, 37 filtered matches.

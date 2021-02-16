@@ -1,8 +1,8 @@
 ---
 name: "gpdb"
 layout: package
-next_package: rr
-previous_package: geoip-api-c
+next_package: gperftools
+previous_package: gotcha
 languages: ['c']
 ---
 ## 6.1.0

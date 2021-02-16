@@ -1,8 +1,8 @@
 ---
 name: "pocl"
 layout: package
-next_package: py-spacy-models-en-vectors-web-lg
-previous_package: blast-legacy
+next_package: podio
+previous_package: pmix
 languages: ['c']
 ---
 ## 1.6

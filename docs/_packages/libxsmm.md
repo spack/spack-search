@@ -1,8 +1,8 @@
 ---
 name: "libxsmm"
 layout: package
-next_package: otf2
-previous_package: llvm-amdgpu
+next_package: libyogrt
+previous_package: libxslt
 languages: ['c']
 ---
 ## 1.16.1

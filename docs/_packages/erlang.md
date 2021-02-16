@@ -1,8 +1,8 @@
 ---
 name: "erlang"
 layout: package
-next_package: parsec
-previous_package: varnish-cache
+next_package: ermod
+previous_package: emacs
 languages: ['c']
 ---
 ## 22.0

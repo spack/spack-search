@@ -1,8 +1,8 @@
 ---
 name: "openmpi"
 layout: package
-next_package: py-vermin
-previous_package: staden-io-lib
+next_package: openpmd-api
+previous_package: openmc
 languages: ['c']
 ---
 ## 1.7.5

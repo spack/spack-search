@@ -1,8 +1,8 @@
 ---
 name: "catalyst"
 layout: package
-next_package: py-shapely
-previous_package: coreutils
+next_package: cbtf-krell
+previous_package: casacore
 languages: ['python', 'c']
 ---
 ## 4.4.0

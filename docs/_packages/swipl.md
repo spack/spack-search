@@ -1,8 +1,8 @@
 ---
 name: "swipl"
 layout: package
-next_package: libluv
-previous_package: scalpel
+next_package: sysbench
+previous_package: stat
 languages: ['pl', 'c']
 ---
 ## 8.0.3

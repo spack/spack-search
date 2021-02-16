@@ -1,8 +1,8 @@
 ---
 name: "gmt"
 layout: package
-next_package: cntk
-previous_package: legion
+next_package: gnupg
+previous_package: gmake
 languages: ['c']
 ---
 ## 6.1.0

@@ -1,8 +1,8 @@
 ---
 name: "libevpath"
 layout: package
-next_package: cmockery
-previous_package: subversion
+next_package: libfabric
+previous_package: libbsd
 languages: ['pl', 'c']
 ---
 ## develop

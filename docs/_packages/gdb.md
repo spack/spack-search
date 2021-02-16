@@ -1,8 +1,8 @@
 ---
 name: "gdb"
 layout: package
-next_package: dcmtk
-previous_package: photos
+next_package: gdk-pixbuf
+previous_package: gccxml
 languages: ['cpp', 'c']
 ---
 ## 7.10.1

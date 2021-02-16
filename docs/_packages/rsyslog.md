@@ -1,8 +1,8 @@
 ---
 name: "rsyslog"
 layout: package
-next_package: guacamole-server
-previous_package: gettext
+next_package: ruby
+previous_package: rsync
 languages: ['c']
 ---
 ## 8.2006.0

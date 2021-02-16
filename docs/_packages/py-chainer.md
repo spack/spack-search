@@ -1,8 +1,8 @@
 ---
 name: "py-chainer"
 layout: package
-next_package: verrou
-previous_package: libxslt
+next_package: py-grpcio
+previous_package: py-cffi
 languages: ['cpp', 'c']
 ---
 ## 7.2.0

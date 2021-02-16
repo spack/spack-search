@@ -1,8 +1,8 @@
 ---
 name: "r"
 layout: package
-next_package: fakexrandr
-previous_package: libmaxminddb
+next_package: r-fs
+previous_package: quantum-espresso
 languages: ['c']
 ---
 ## 3.3.1

@@ -1,8 +1,8 @@
 ---
 name: "cdo"
 layout: package
-next_package: atk
-previous_package: ccfits
+next_package: chapel
+previous_package: cctools
 languages: ['cpp']
 ---
 ## 1.9.9

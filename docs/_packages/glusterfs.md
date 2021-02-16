@@ -1,8 +1,8 @@
 ---
 name: "glusterfs"
 layout: package
-next_package: file
-previous_package: htslib
+next_package: gmake
+previous_package: glpk
 languages: ['c']
 ---
 ## 7.3

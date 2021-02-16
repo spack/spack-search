@@ -1,8 +1,8 @@
 ---
 name: "rivet"
 layout: package
-next_package: rccl
-previous_package: log4cxx
+next_package: rocfft
+previous_package: redis
 languages: ['cpp', 'python']
 ---
 ## 2.2.0

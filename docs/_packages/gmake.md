@@ -1,8 +1,8 @@
 ---
 name: "gmake"
 layout: package
-next_package: boost
-previous_package: gawk
+next_package: gmt
+previous_package: glusterfs
 languages: ['c']
 ---
 ## 4.2.1

@@ -1,8 +1,8 @@
 ---
 name: "taskflow"
 layout: package
-next_package: dyninst
-previous_package: pmix
+next_package: tau
+previous_package: talloc
 languages: ['c']
 ---
 ## 2.7.0

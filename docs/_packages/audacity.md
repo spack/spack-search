@@ -1,8 +1,8 @@
 ---
 name: "audacity"
 layout: package
-next_package: citcoms
-previous_package: casacore
+next_package: bash
+previous_package: aspect
 languages: ['c']
 ---
 ## 2.4.0

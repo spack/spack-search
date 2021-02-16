@@ -1,8 +1,8 @@
 ---
 name: "fipscheck"
 layout: package
-next_package: petsc
-previous_package: r-rgraphviz
+next_package: flux-core
+previous_package: fio
 languages: ['c']
 ---
 ## 7.0.0.398

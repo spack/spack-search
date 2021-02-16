@@ -1,8 +1,8 @@
 ---
 name: "librdkafka"
 layout: package
-next_package: cln
-previous_package: namd
+next_package: librsvg
+previous_package: libquo
 languages: ['c']
 ---
 ## 1.5.0

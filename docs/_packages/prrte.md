@@ -1,8 +1,8 @@
 ---
 name: "prrte"
 layout: package
-next_package: libxscrnsaver
-previous_package: sdl2
+next_package: py-billiard
+previous_package: procps
 languages: ['c']
 ---
 ## develop

@@ -1,8 +1,8 @@
 ---
 name: "jimtcl"
 layout: package
-next_package: keepalived
-previous_package: py-mypy
+next_package: julia
+previous_package: jemalloc
 languages: ['c']
 ---
 ## 0.77

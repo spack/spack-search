@@ -1,8 +1,8 @@
 ---
 name: "nix"
 layout: package
-next_package: libvdwxc
-previous_package: moab
+next_package: nmap
+previous_package: nim
 languages: ['cpp']
 ---
 ## 2.2.1

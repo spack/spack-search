@@ -1,8 +1,8 @@
 ---
 name: "sqlcipher"
 layout: package
-next_package: llvm
-previous_package: py-pyscf
+next_package: sqlite
+previous_package: spot
 languages: ['c']
 ---
 ## 4.2.0

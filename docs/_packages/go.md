@@ -1,8 +1,8 @@
 ---
 name: "go"
 layout: package
-next_package: libbsd
-previous_package: lammps
+next_package: go-bootstrap
+previous_package: gnutls
 languages: ['go', 'c']
 ---
 ## 1.6.4

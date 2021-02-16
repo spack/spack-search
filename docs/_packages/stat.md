@@ -1,8 +1,8 @@
 ---
 name: "stat"
 layout: package
-next_package: sblim-sfcc
-previous_package: openldap
+next_package: swipl
+previous_package: stacks
 languages: ['python', 'c']
 ---
 ## 4.0.2

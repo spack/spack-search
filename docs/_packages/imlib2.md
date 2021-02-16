@@ -1,8 +1,8 @@
 ---
 name: "imlib2"
 layout: package
-next_package: rdma-core
-previous_package: gts
+next_package: intel-pin
+previous_package: imagemagick
 languages: ['c']
 ---
 ## 1.5.1

@@ -1,8 +1,8 @@
 ---
 name: "gotcha"
 layout: package
-next_package: libdmx
-previous_package: pango
+next_package: gpdb
+previous_package: gobject-introspection
 languages: ['c']
 ---
 ## 0.0.2

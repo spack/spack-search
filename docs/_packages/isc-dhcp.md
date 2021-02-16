@@ -1,8 +1,8 @@
 ---
 name: "isc-dhcp"
 layout: package
-next_package: lzop
-previous_package: ocl-icd
+next_package: jags
+previous_package: iproute2
 languages: ['c']
 ---
 ## 4.4.0

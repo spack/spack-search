@@ -1,8 +1,8 @@
 ---
 name: "esmf"
 layout: package
-next_package: geopm
-previous_package: tcsh
+next_package: exodusii
+previous_package: ermod
 languages: ['c']
 ---
 ## 8.0.1

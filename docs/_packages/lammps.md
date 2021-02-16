@@ -1,8 +1,8 @@
 ---
 name: "lammps"
 layout: package
-next_package: go
-previous_package: energyplus
+next_package: legion
+previous_package: kubernetes
 languages: ['c']
 ---
 ## master

@@ -1,8 +1,8 @@
 ---
 name: "py-petsc4py"
 layout: package
-next_package: wrk
-previous_package: mpich
+next_package: py-pillow
+previous_package: py-packaging
 languages: ['c']
 ---
 ## develop

@@ -1,8 +1,8 @@
 ---
 name: "gnupg"
 layout: package
-next_package: fcgi
-previous_package: py-genders
+next_package: gnuplot
+previous_package: gmt
 languages: ['c']
 ---
 ## 2.2.15

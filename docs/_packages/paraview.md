@@ -1,8 +1,8 @@
 ---
 name: "paraview"
 layout: package
-next_package: glew
-previous_package: libfuse
+next_package: parsec
+previous_package: papi
 languages: ['c']
 ---
 ## 5.8.0

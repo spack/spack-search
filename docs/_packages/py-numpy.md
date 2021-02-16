@@ -1,8 +1,8 @@
 ---
 name: "py-numpy"
 layout: package
-next_package: osu-micro-benchmarks
-previous_package: py-iminuit
+next_package: py-onnx
+previous_package: py-mypy
 languages: ['c']
 ---
 ## 1.10.4

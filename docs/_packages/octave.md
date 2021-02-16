@@ -1,8 +1,8 @@
 ---
 name: "octave"
 layout: package
-next_package: py-ray
-previous_package: go-bootstrap
+next_package: onednn
+previous_package: ocl-icd
 languages: ['cpp', 'c']
 ---
 ## 4.0.0

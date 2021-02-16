@@ -1,8 +1,8 @@
 ---
 name: "libuv"
 layout: package
-next_package: py-rpy2
-previous_package: libsndfile
+next_package: libverto
+previous_package: libtool
 languages: ['c']
 ---
 ## 1.38.1

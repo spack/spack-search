@@ -1,8 +1,8 @@
 ---
 name: "py-tables"
 layout: package
-next_package: py-shiboken
-previous_package: czmq
+next_package: py-vermin
+previous_package: py-shapely
 languages: ['c']
 ---
 ## 3.5.2

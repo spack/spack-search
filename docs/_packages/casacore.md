@@ -1,8 +1,8 @@
 ---
 name: "casacore"
 layout: package
-next_package: audacity
-previous_package: libfontenc
+next_package: catalyst
+previous_package: care
 languages: ['cpp']
 ---
 ## 3.3.0

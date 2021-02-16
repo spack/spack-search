@@ -1,8 +1,8 @@
 ---
 name: "openssl"
 layout: package
-next_package: qemu
-previous_package: libeatmydata
+next_package: openwsman
+previous_package: openssh
 languages: ['c']
 ---
 ## 1.1.1i

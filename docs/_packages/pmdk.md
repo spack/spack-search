@@ -1,8 +1,8 @@
 ---
 name: "pmdk"
 layout: package
-next_package: sst-macro
-previous_package: texstudio
+next_package: pmix
+previous_package: plumed
 languages: ['python', 'c']
 ---
 ## 1.7

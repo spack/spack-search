@@ -1,8 +1,8 @@
 ---
 name: "bdw-gc"
 layout: package
-next_package: libxshmfence
-previous_package: mongo-c-driver
+next_package: berkeley-db
+previous_package: bcftools
 languages: ['c']
 ---
 ## 8.0.0

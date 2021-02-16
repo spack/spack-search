@@ -1,8 +1,8 @@
 ---
 name: "rocfft"
 layout: package
-next_package: lhapdf
-previous_package: rocm-validation-suite
+next_package: rocksdb
+previous_package: rivet
 languages: ['c']
 ---
 ## 3.5.0

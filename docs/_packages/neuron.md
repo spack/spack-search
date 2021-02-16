@@ -1,8 +1,8 @@
 ---
 name: "neuron"
 layout: package
-next_package: cityhash
-previous_package: xrootd
+next_package: nfs-ganesha
+previous_package: nettle
 languages: ['c']
 ---
 ## develop

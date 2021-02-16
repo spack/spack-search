@@ -1,8 +1,8 @@
 ---
 name: "openresty"
 layout: package
-next_package: tix
-previous_package: rsync
+next_package: openscenegraph
+previous_package: openpmd-api
 languages: ['c']
 ---
 ## 1.13.6.2

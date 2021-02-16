@@ -1,8 +1,8 @@
 ---
 name: "tengine"
 layout: package
-next_package: diffutils
-previous_package: saws
+next_package: tfel
+previous_package: tcl
 languages: ['c']
 ---
 ## 2.3.0

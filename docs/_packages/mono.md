@@ -1,8 +1,8 @@
 ---
 name: "mono"
 layout: package
-next_package: pangomm
-previous_package: py-cyvcf2
+next_package: mpich
+previous_package: mivisionx
 languages: ['c']
 ---
 ## 5.10.1.57

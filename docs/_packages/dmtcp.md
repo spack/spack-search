@@ -1,8 +1,8 @@
 ---
 name: "dmtcp"
 layout: package
-next_package: claw
-previous_package: libxtst
+next_package: dpdk
+previous_package: dealii
 languages: ['python', 'c']
 ---
 ## 2.5.2

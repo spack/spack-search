@@ -1,8 +1,8 @@
 ---
 name: "nest"
 layout: package
-next_package: tar
-previous_package: mpi-bash
+next_package: netperf
+previous_package: neovim
 languages: ['python']
 ---
 ## 2.14.0

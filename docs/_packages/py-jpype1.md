@@ -1,8 +1,8 @@
 ---
 name: "py-jpype1"
 layout: package
-next_package: launchmon
-previous_package: py-networkit
+next_package: py-mpi4py
+previous_package: py-jedi
 languages: ['c']
 ---
 ## 0.6.0

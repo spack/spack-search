@@ -1,8 +1,8 @@
 ---
 name: "libbeagle"
 layout: package
-next_package: dimemas
-previous_package: cc65
+next_package: libbsd
+previous_package: libbacktrace
 languages: ['c']
 ---
 ## 3.1.2

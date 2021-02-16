@@ -1,8 +1,8 @@
 ---
 name: "libhio"
 layout: package
-next_package: ngspice
-previous_package: libical
+next_package: libiberty
+previous_package: libhbaapi
 languages: ['c']
 ---
 ## 1.4.1.0

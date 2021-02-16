@@ -1,8 +1,8 @@
 ---
 name: "flux-core"
 layout: package
-next_package: rocm-debug-agent
-previous_package: flit
+next_package: foam-extend
+previous_package: fipscheck
 languages: ['c']
 ---
 ## 0.15.0

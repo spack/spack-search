@@ -1,8 +1,8 @@
 ---
 name: "global"
 layout: package
-next_package: xz
-previous_package: grib-api
+next_package: globalarrays
+previous_package: glibmm
 languages: ['c']
 ---
 ## 6.5

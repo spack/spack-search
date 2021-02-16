@@ -1,8 +1,8 @@
 ---
 name: "dpdk"
 layout: package
-next_package: perl-alien-build
-previous_package: rempi
+next_package: draco
+previous_package: dmtcp
 languages: ['c']
 ---
 ## 20.02

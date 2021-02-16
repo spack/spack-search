@@ -1,8 +1,8 @@
 ---
 name: "r-rcppcctz"
 layout: package
-next_package: .empty
-previous_package: sollya
+next_package: r-rcppparallel
+previous_package: r-lpsolve
 languages: ['cpp']
 ---
 ## 0.2.6

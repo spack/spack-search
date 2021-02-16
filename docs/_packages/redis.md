@@ -1,8 +1,8 @@
 ---
 name: "redis"
 layout: package
-next_package: netgauge
-previous_package: libctl
+next_package: rivet
+previous_package: rdma-core
 languages: ['c']
 ---
 ## 5.0.2

@@ -1,8 +1,8 @@
 ---
 name: "hashcat"
 layout: package
-next_package: libsigsegv
-previous_package: xcb-util-keysyms
+next_package: hdf5
+previous_package: haproxy
 languages: ['c']
 ---
 ## 5.0.0

@@ -1,8 +1,8 @@
 ---
 name: "libgssglue"
 layout: package
-next_package: openwsman
-previous_package: z-checker
+next_package: libhbaapi
+previous_package: libgpuarray
 languages: ['c']
 ---
 ## 0.3

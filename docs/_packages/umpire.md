@@ -1,8 +1,8 @@
 ---
 name: "umpire"
 layout: package
-next_package: libxfixes
-previous_package: chapel
+next_package: util-linux
+previous_package: ucx
 languages: ['c']
 ---
 ## 0.3.1

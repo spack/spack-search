@@ -1,8 +1,8 @@
 ---
 name: "ns-3-dev"
 layout: package
-next_package: rose
-previous_package: soci
+next_package: ntirpc
+previous_package: npm
 languages: ['cpp', 'c']
 ---
 ## 3.30.1

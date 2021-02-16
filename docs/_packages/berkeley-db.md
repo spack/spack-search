@@ -1,8 +1,8 @@
 ---
 name: "berkeley-db"
 layout: package
-next_package: qthreads
-previous_package: libssh
+next_package: binutils
+previous_package: bdw-gc
 languages: ['c']
 ---
 ## 6.1.29

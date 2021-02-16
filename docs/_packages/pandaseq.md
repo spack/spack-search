@@ -1,8 +1,8 @@
 ---
 name: "pandaseq"
 layout: package
-next_package: libmaus2
-previous_package: bmi
+next_package: papi
+previous_package: p11-kit
 languages: ['c']
 ---
 ## 2.10

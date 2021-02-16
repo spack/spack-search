@@ -1,8 +1,8 @@
 ---
 name: "kripke"
 layout: package
-next_package: logstash
-previous_package: xcb-util-errors
+next_package: kubernetes
+previous_package: krb5
 languages: ['c']
 ---
 ## 1.2.3

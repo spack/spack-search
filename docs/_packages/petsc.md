@@ -1,8 +1,8 @@
 ---
 name: "petsc"
 layout: package
-next_package: apex
-previous_package: fipscheck
+next_package: php
+previous_package: perl-dbd-sqlite
 languages: ['python', 'c']
 ---
 ## 3.10.0

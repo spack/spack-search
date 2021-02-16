@@ -1,8 +1,8 @@
 ---
 name: "spot"
 layout: package
-next_package: flex
-previous_package: ding-libs
+next_package: sqlcipher
+previous_package: spades
 languages: ['cpp', 'c']
 ---
 ## 1.2.6

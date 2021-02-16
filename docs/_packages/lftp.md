@@ -1,8 +1,8 @@
 ---
 name: "lftp"
 layout: package
-next_package: libsamplerate
-previous_package: heaptrack
+next_package: libbacktrace
+previous_package: legion
 languages: ['cpp']
 ---
 ## 4.8.1

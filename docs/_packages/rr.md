@@ -1,8 +1,8 @@
 ---
 name: "rr"
 layout: package
-next_package: callflow
-previous_package: gpdb
+next_package: rsem
+previous_package: rose
 languages: ['cpp', 'c']
 ---
 ## 4.5.0

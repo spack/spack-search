@@ -1,8 +1,8 @@
 ---
 name: "plumed"
 layout: package
-next_package: openmolcas
-previous_package: meson
+next_package: pmdk
+previous_package: plplot
 languages: ['c']
 ---
 ## 2.5.1

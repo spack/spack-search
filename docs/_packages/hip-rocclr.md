@@ -1,8 +1,8 @@
 ---
 name: "hip-rocclr"
 layout: package
-next_package: qcachegrind
-previous_package: gnutls
+next_package: hpctoolkit
+previous_package: hepmc3
 languages: ['c']
 ---
 ## 3.5.0

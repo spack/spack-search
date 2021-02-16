@@ -1,8 +1,8 @@
 ---
 name: "globalarrays"
 layout: package
-next_package: kitty
-previous_package: grep
+next_package: glpk
+previous_package: global
 languages: ['c']
 ---
 ## 5.6.4

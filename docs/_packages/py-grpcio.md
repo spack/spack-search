@@ -1,8 +1,8 @@
 ---
 name: "py-grpcio"
 layout: package
-next_package: vim
-previous_package: cntk
+next_package: py-jedi
+previous_package: py-chainer
 languages: ['cpp']
 ---
 ## 1.30.0

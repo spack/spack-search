@@ -1,8 +1,8 @@
 ---
 name: "glew"
 layout: package
-next_package: py-pillow
-previous_package: paraview
+next_package: glfw
+previous_package: git
 languages: ['c']
 ---
 ## 2.1.0

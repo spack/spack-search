@@ -1,8 +1,8 @@
 ---
 name: "llvm-doe"
 layout: package
-next_package: clamav
-previous_package: plplot
+next_package: llvm-openmp
+previous_package: llvm-amdgpu
 languages: ['python', 'c']
 ---
 ## pragma-omp-tile

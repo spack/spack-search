@@ -1,8 +1,8 @@
 ---
 name: "sst-macro"
 layout: package
-next_package: cairomm
-previous_package: pmdk
+next_package: stacks
+previous_package: sst-core
 languages: ['cpp', 'c']
 ---
 ## 10.1.0

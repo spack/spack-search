@@ -1,8 +1,8 @@
 ---
 name: "rsem"
 layout: package
-next_package: ispc
-previous_package: oce
+next_package: rsync
+previous_package: rr
 languages: ['c']
 ---
 ## 1.3.1

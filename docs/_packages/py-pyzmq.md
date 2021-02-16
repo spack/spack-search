@@ -1,8 +1,8 @@
 ---
 name: "py-pyzmq"
 layout: package
-next_package: libwebp
-previous_package: py-easybuild-easyconfigs
+next_package: py-quast
+previous_package: py-pyside2
 languages: ['python']
 ---
 ## 16.0.2

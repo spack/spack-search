@@ -1,8 +1,8 @@
 ---
 name: "py-pysam"
 layout: package
-next_package: libxdamage
-previous_package: charmpp
+next_package: py-pyside
+previous_package: py-pymol
 languages: ['c']
 ---
 ## 0.15.3

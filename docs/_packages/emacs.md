@@ -1,8 +1,8 @@
 ---
 name: "emacs"
 layout: package
-next_package: kylin
-previous_package: ermod
+next_package: erlang
+previous_package: elmerfem
 languages: ['c']
 ---
 ## 25.2

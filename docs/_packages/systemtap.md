@@ -1,8 +1,8 @@
 ---
 name: "systemtap"
 layout: package
-next_package: kokkos-nvcc-wrapper
-previous_package: py-soundfile
+next_package: talloc
+previous_package: sysbench
 languages: ['c']
 ---
 ## 4.2

@@ -1,8 +1,8 @@
 ---
 name: "hwloc"
 layout: package
-next_package: clhep
-previous_package: netperf
+next_package: ibm-databroker
+previous_package: hunspell
 languages: ['c']
 ---
 ## 1.11.6

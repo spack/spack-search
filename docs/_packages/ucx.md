@@ -1,8 +1,8 @@
 ---
 name: "ucx"
 layout: package
-next_package: py-sphinx
-previous_package: harminv
+next_package: umpire
+previous_package: turbine
 languages: ['c']
 ---
 ## 1.4.0

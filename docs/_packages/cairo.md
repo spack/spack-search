@@ -1,8 +1,8 @@
 ---
 name: "cairo"
 layout: package
-next_package: premake-core
-previous_package: libogg
+next_package: caliper
+previous_package: busybox
 languages: ['c']
 ---
 ## 1.14.12

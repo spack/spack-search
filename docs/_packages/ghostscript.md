@@ -1,8 +1,8 @@
 ---
 name: "ghostscript"
 layout: package
-next_package: coreutils
-previous_package: cln
+next_package: git
+previous_package: gflags
 languages: ['c']
 ---
 ## 9.27

@@ -1,8 +1,8 @@
 ---
 name: "efivar"
 layout: package
-next_package: nwchem
-previous_package: exonerate
+next_package: elfutils
+previous_package: e2fsprogs
 languages: ['c']
 ---
 ## 35

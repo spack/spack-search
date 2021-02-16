@@ -1,8 +1,8 @@
 ---
 name: "elmerfem"
 layout: package
-next_package: ferret
-previous_package: glog
+next_package: emacs
+previous_package: elfutils
 languages: ['c']
 ---
 ## devel

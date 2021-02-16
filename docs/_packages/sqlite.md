@@ -1,8 +1,8 @@
 ---
 name: "sqlite"
 layout: package
-next_package: py-uwsgi
-previous_package: argtable
+next_package: sst-core
+previous_package: sqlcipher
 languages: ['c']
 ---
 ## 3.27.1

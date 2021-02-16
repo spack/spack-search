@@ -1,8 +1,8 @@
 ---
 name: "sblim-sfcc"
 layout: package
-next_package: re2c
-previous_package: stat
+next_package: scalpel
+previous_package: saws
 languages: ['c']
 ---
 ## 2_2_6

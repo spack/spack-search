@@ -1,8 +1,8 @@
 ---
 name: "abseil-cpp"
 layout: package
-next_package: rocprofiler-dev
-previous_package: jasper
+next_package: ace
+previous_package: 3proxy
 languages: ['cpp']
 ---
 ## 20200923.1

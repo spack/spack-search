@@ -1,8 +1,8 @@
 ---
 name: "rocm-gdb"
 layout: package
-next_package: osi
-previous_package: scorep
+next_package: rocm-opencl
+previous_package: rocksdb
 languages: ['cpp', 'c']
 ---
 ## 3.8.0

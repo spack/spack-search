@@ -1,8 +1,8 @@
 ---
 name: "patchelf"
 layout: package
-next_package: hyphy
-previous_package: fastjet
+next_package: percona-server
+previous_package: parsec
 languages: ['c']
 ---
 ## 0.10

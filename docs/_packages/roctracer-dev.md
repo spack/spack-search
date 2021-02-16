@@ -1,8 +1,8 @@
 ---
 name: "roctracer-dev"
 layout: package
-next_package: lzo
-previous_package: py-packaging
+next_package: root
+previous_package: rocprofiler-dev
 languages: ['c']
 ---
 ## 3.10.0

@@ -1,8 +1,8 @@
 ---
 name: "libquo"
 layout: package
-next_package: cyrus-sasl
-previous_package: libxshmfence
+next_package: librdkafka
+previous_package: libpam
 languages: ['c']
 ---
 ## master

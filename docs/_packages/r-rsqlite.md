@@ -1,8 +1,8 @@
 ---
 name: "r-rsqlite"
 layout: package
-next_package: procps-ng
-previous_package: libmad
+next_package: rccl
+previous_package: r-rmpi
 languages: ['c']
 ---
 ## 2.1.0

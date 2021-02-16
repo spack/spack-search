@@ -1,8 +1,8 @@
 ---
 name: "stacks"
 layout: package
-next_package: libxpresent
-previous_package: slang
+next_package: stat
+previous_package: sst-macro
 languages: ['c']
 ---
 ## 1.46

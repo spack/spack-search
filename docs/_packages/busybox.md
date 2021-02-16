@@ -1,8 +1,8 @@
 ---
 name: "busybox"
 layout: package
-next_package: m4
-previous_package: mpip
+next_package: cairo
+previous_package: brpc
 languages: ['c']
 ---
 ## 1.30.0

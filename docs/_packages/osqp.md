@@ -1,8 +1,8 @@
 ---
 name: "osqp"
 layout: package
-next_package: libid3tag
-previous_package: fpocket
+next_package: p11-kit
+previous_package: openwsman
 languages: ['c']
 ---
 ## master

@@ -1,8 +1,8 @@
 ---
 name: "kitty"
 layout: package
-next_package: ncbi-toolkit
-previous_package: globalarrays
+next_package: kmod
+previous_package: keepalived
 languages: ['python', 'c']
 ---
 ## 0.11.2

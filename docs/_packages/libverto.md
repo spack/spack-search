@@ -1,8 +1,8 @@
 ---
 name: "libverto"
 layout: package
-next_package: amgx
-previous_package: libgd
+next_package: libvips
+previous_package: libuv
 languages: ['c']
 ---
 ## 0.3.1

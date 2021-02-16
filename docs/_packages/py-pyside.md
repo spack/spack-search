@@ -1,8 +1,8 @@
 ---
 name: "py-pyside"
 layout: package
-next_package: quota
-previous_package: gmap-gsnap
+next_package: py-pyside2
+previous_package: py-pysam
 languages: ['c']
 ---
 ## 1.2.4

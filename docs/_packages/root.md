@@ -1,8 +1,8 @@
 ---
 name: "root"
 layout: package
-next_package: gobject-introspection
-previous_package: hadoop
+next_package: rose
+previous_package: roctracer-dev
 languages: ['python', 'c']
 ---
 ## 6.22.06

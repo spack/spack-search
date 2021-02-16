@@ -1,8 +1,8 @@
 ---
 name: "binutils"
 layout: package
-next_package: timemory
-previous_package: qscintilla
+next_package: bird
+previous_package: berkeley-db
 languages: ['cpp', 'c']
 ---
 ## 2.32

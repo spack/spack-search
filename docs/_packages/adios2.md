@@ -1,8 +1,8 @@
 ---
 name: "adios2"
 layout: package
-next_package: libpthread-stubs
-previous_package: coin3d
+next_package: alsa-lib
+previous_package: activeharmony
 languages: ['pl', 'c']
 ---
 ## 2.3.1

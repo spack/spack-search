@@ -1,8 +1,8 @@
 ---
 name: "arrayfire"
 layout: package
-next_package: perl-dbd-mysql
-previous_package: libmesh
+next_package: arrow
+previous_package: apr
 languages: ['c']
 ---
 ## 3.7.0

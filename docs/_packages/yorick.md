@@ -1,8 +1,8 @@
 ---
 name: "yorick"
 layout: package
-next_package: fox
-previous_package: r-rcmdcheck
+next_package: zabbix
+previous_package: yasm
 languages: ['c']
 ---
 ## 2.2.04

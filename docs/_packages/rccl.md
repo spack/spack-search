@@ -1,8 +1,8 @@
 ---
 name: "rccl"
 layout: package
-next_package: virtualgl
-previous_package: rivet
+next_package: rdc
+previous_package: r-rsqlite
 languages: ['cpp']
 ---
 ## 3.7.0

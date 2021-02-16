@@ -1,8 +1,8 @@
 ---
 name: "polymake"
 layout: package
-next_package: icu4c
-previous_package: fakexrandr
+next_package: poppler
+previous_package: podio
 languages: ['cpp']
 ---
 ## 3.5

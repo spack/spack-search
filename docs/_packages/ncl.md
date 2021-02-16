@@ -1,8 +1,8 @@
 ---
 name: "ncl"
 layout: package
-next_package: grass
-previous_package: glpk
+next_package: ncurses
+previous_package: nccl
 languages: ['c']
 ---
 ## 6.5.0

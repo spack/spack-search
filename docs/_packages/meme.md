@@ -1,8 +1,8 @@
 ---
 name: "meme"
 layout: package
-next_package: kim-api
-previous_package: libpthread-stubs
+next_package: memkind
+previous_package: med
 languages: ['c']
 ---
 ## 4.11.4

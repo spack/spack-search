@@ -1,8 +1,8 @@
 ---
 name: "mpich"
 layout: package
-next_package: py-petsc4py
-previous_package: libgpuarray
+next_package: multiverso
+previous_package: mono
 languages: ['cpp', 'c']
 ---
 ## 3.4.1

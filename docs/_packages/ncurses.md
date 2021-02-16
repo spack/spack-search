@@ -1,8 +1,8 @@
 ---
 name: "ncurses"
 layout: package
-next_package: spindle
-previous_package: pnfft
+next_package: neovim
+previous_package: ncl
 languages: ['c']
 ---
 ## 5.9

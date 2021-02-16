@@ -1,8 +1,8 @@
 ---
 name: "arrow"
 layout: package
-next_package: uvw
-previous_package: libcgroup
+next_package: aspect
+previous_package: arrayfire
 languages: ['cpp']
 ---
 ## 0.9.0

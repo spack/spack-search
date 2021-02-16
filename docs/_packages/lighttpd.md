@@ -1,8 +1,8 @@
 ---
 name: "lighttpd"
 layout: package
-next_package: libxaw3d
-previous_package: raft
+next_package: likwid
+previous_package: libyogrt
 languages: ['c']
 ---
 ## 1.4.53

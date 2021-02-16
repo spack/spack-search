@@ -1,8 +1,8 @@
 ---
 name: "r-igraph"
 layout: package
-next_package: gosam-contrib
-previous_package: matio
+next_package: r-later
+previous_package: r-httpuv
 languages: ['c']
 ---
 ## 1.0.1

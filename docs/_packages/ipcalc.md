@@ -1,8 +1,8 @@
 ---
 name: "ipcalc"
 layout: package
-next_package: libxau
-previous_package: mariadb
+next_package: ipopt
+previous_package: intel-tbb
 languages: ['c']
 ---
 ## 0.2.3

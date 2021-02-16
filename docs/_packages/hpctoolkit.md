@@ -1,8 +1,8 @@
 ---
 name: "hpctoolkit"
 layout: package
-next_package: vampirtrace
-previous_package: linux-pam
+next_package: hpx5
+previous_package: hip-rocclr
 languages: ['c']
 ---
 ## 2020.08.03

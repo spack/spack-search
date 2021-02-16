@@ -1,8 +1,8 @@
 ---
 name: "intel-tbb"
 layout: package
-next_package: libuuid
-previous_package: vtk
+next_package: ipcalc
+previous_package: intel-pin
 languages: ['c']
 ---
 ## 2018.2

@@ -1,8 +1,8 @@
 ---
 name: "veclibfort"
 layout: package
-next_package: gpgme
-previous_package: abi-compliance-checker
+next_package: verrou
+previous_package: varnish-cache
 languages: ['c']
 ---
 ## develop

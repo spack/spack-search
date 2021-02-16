@@ -1,8 +1,8 @@
 ---
 name: "vsearch"
 layout: package
-next_package: libxtrap
-previous_package: musl
+next_package: vt
+previous_package: vim
 languages: ['cpp']
 ---
 ## 2.4.3

@@ -1,8 +1,8 @@
 ---
 name: "fakechroot"
 layout: package
-next_package: canal
-previous_package: mc
+next_package: faodel
+previous_package: extrae
 languages: ['c']
 ---
 ## 2.20.1

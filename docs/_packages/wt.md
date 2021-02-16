@@ -1,8 +1,8 @@
 ---
 name: "wt"
 layout: package
-next_package: njet
-previous_package: cbtf-krell
+next_package: wxwidgets
+previous_package: wrk
 languages: ['c']
 ---
 ## 3.3.7

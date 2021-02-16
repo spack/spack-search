@@ -1,8 +1,8 @@
 ---
 name: "aspect"
 layout: package
-next_package: lua-luaposix
-previous_package: julia
+next_package: audacity
+previous_package: arrow
 languages: ['cpp']
 ---
 ## 2.0.0

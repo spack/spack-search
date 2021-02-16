@@ -1,8 +1,8 @@
 ---
 name: "libiberty"
 layout: package
-next_package: lesstif
-previous_package: atk
+next_package: libkcapi
+previous_package: libhio
 languages: ['cpp', 'c']
 ---
 ## 2.31.1

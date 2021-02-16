@@ -1,8 +1,8 @@
 ---
 name: "czmq"
 layout: package
-next_package: py-tables
-previous_package: cistem
+next_package: dakota
+previous_package: cyrus-sasl
 languages: ['python']
 ---
 ## 4.0.2

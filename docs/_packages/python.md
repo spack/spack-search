@@ -1,8 +1,8 @@
 ---
 name: "python"
 layout: package
-next_package: freeipmi
-previous_package: etcd
+next_package: q-e-sirius
+previous_package: pythia8
 languages: ['python', 'c']
 ---
 ## 3.6.12

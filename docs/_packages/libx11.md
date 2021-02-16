@@ -1,8 +1,8 @@
 ---
 name: "libx11"
 layout: package
-next_package: cctools
-previous_package: py-or-tools
+next_package: libxml2
+previous_package: libwebsockets
 languages: ['c']
 ---
 ## 1.6.5

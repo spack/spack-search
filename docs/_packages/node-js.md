@@ -1,8 +1,8 @@
 ---
 name: "node-js"
 layout: package
-next_package: sed
-previous_package: wget
+next_package: npm
+previous_package: nmap
 languages: ['cpp', 'c']
 ---
 ## 13.5.0

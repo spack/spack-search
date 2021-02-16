@@ -1,8 +1,8 @@
 ---
 name: "bolt"
 layout: package
-next_package: jose
-previous_package: xerces-c
+next_package: boost
+previous_package: bison
 languages: ['c']
 ---
 ## 1.0

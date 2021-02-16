@@ -1,8 +1,8 @@
 ---
 name: "glfw"
 layout: package
-next_package: povray
-previous_package: biobambam2
+next_package: glib
+previous_package: glew
 languages: ['c']
 ---
 ## 3.1.2

@@ -1,8 +1,8 @@
 ---
 name: "gobject-introspection"
 layout: package
-next_package: py-onnx
-previous_package: root
+next_package: gotcha
+previous_package: go-bootstrap
 languages: ['c']
 ---
 ## 1.49.2

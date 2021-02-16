@@ -1,8 +1,8 @@
 ---
 name: "pythia8"
 layout: package
-next_package: masurca
-previous_package: dbus
+next_package: python
+previous_package: py-vermin
 languages: ['cpp', 'c']
 ---
 ## 8235

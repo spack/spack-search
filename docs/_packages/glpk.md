@@ -1,8 +1,8 @@
 ---
 name: "glpk"
 layout: package
-next_package: ncl
-previous_package: r-rhtslib
+next_package: glusterfs
+previous_package: globalarrays
 languages: ['c']
 ---
 ## 4.57

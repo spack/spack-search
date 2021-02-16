@@ -1,8 +1,8 @@
 ---
 name: "openldap"
 layout: package
-next_package: stat
-previous_package: fast-global-file-status
+next_package: openmc
+previous_package: openfoam-org
 languages: ['c']
 ---
 ## 2.4.48

@@ -1,8 +1,8 @@
 ---
 name: "openmc"
 layout: package
-next_package: libszip
-previous_package: graphicsmagick
+next_package: openmpi
+previous_package: openldap
 languages: ['python', 'c']
 ---
 ## develop

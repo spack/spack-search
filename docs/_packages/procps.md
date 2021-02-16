@@ -1,8 +1,8 @@
 ---
 name: "procps"
 layout: package
-next_package: libdrm
-previous_package: mlocate
+next_package: prrte
+previous_package: process-in-process
 languages: ['c']
 ---
 ## 3.3.15

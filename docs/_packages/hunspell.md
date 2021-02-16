@@ -1,8 +1,8 @@
 ---
 name: "hunspell"
 layout: package
-next_package: perl-dbd-sqlite
-previous_package: rhash
+next_package: hwloc
+previous_package: httpd
 languages: ['c']
 ---
 ## 1.6.0

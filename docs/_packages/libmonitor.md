@@ -1,8 +1,8 @@
 ---
 name: "libmonitor"
 layout: package
-next_package: vpic
-previous_package: libfs
+next_package: libpam
+previous_package: libmicrohttpd
 languages: ['c']
 ---
 ## 2013.02.18

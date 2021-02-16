@@ -1,8 +1,8 @@
 ---
 name: "process-in-process"
 layout: package
-next_package: iperf3
-previous_package: itk
+next_package: procps
+previous_package: premake-core
 languages: ['c']
 ---
 ## 2

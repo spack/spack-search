@@ -1,8 +1,8 @@
 ---
 name: "haproxy"
 layout: package
-next_package: raja
-previous_package: libffi
+next_package: hashcat
+previous_package: guile
 languages: ['c']
 ---
 ## 2.1.0
