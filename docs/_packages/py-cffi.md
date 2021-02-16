@@ -3,7 +3,7 @@ name: "py-cffi"
 layout: package
 next_package: mvapich2
 previous_package: py-gosam
-languages: ['cpp', 'python']
+languages: ['python', 'c']
 ---
 ## 1.13.0
 30 / 183 files match
@@ -31,13 +31,6 @@ languages: ['cpp', 'python']
  - [c/cffi1_module.c](#ccffi1_modulec)
  - [c/cdlopen.c](#ccdlopenc)
  - [c/misc_win32.h](#cmisc_win32h)
- - [cffi.egg-info/SOURCES.txt](#cffiegg-infosourcestxt)
- - [doc/source/ref.rst](#docsourcerefrst)
- - [doc/source/cdef.rst](#docsourcecdefrst)
- - [doc/source/whatsnew.rst](#docsourcewhatsnewrst)
- - [doc/source/using.rst](#docsourceusingrst)
- - [doc/source/overview.rst](#docsourceoverviewrst)
- - [doc/source/embedding.rst](#docsourceembeddingrst)
 
 ### demo/manual2.py
 
@@ -321,10 +314,9 @@ languages: ['cpp', 'python']
 ```
 ### c/ffi_obj.c
 
-```cpp
+```c
 
 {% raw %}
-91 | /* forward, declared in cdlopen.c because it's mostly useful for this case */
 850 | PyDoc_STRVAR(ffi_dlopen_doc,
 860 | "Close a library obtained with ffi.dlopen().  After this call, access to\n"
 864 | static PyObject *ffi_dlopen(PyObject *self, PyObject *args);  /* forward */
@@ -334,11 +326,10 @@ languages: ['cpp', 'python']
 ```
 ### c/_cffi_backend.c
 
-```cpp
+```c
 
 {% raw %}
 4371 | static void *b_do_dlopen(PyObject *args, const char **p_printable_filename,
-4374 |     /* Logic to call the correct version of dlopen().  Returns NULL in case of error.
 4409 |             handle = dlopenW(filenameW);
 4433 |     handle = dlopen(filename_or_null, flags);
 4454 |     handle = b_do_dlopen(args, &printable_filename, &temp);
@@ -351,21 +342,15 @@ languages: ['cpp', 'python']
 ```
 ### c/lib_obj.c
 
-```cpp
+```c
 
 {% raw %}
 30 |     void *l_libhandle;          /* the dlopen()ed handle, if any */
 86 | static void cdlopen_close_ignore_errors(void *libhandle);  /* forward */
 87 | static void *cdlopen_fetch(PyObject *libname, void *libhandle,
 93 |     cdlopen_close_ignore_errors(lib->l_libhandle);
-298 |     case _CFFI_OP_DLOPEN_CONST:
-313 |             /* for dlopen() style */
-314 |             assert(_CFFI_GETOP(g->type_op) == _CFFI_OP_DLOPEN_CONST);
 315 |             data = cdlopen_fetch(lib->l_libname, lib->l_libhandle, s);
-368 |                 /* for dlopen() style */
 369 |                 address = cdlopen_fetch(lib->l_libname, lib->l_libhandle, s);
-388 |     case _CFFI_OP_DLOPEN_FUNC:
-390 |         /* For dlopen(): the function of the given 'name'.  We use
 396 |         void *address = cdlopen_fetch(lib->l_libname, lib->l_libhandle, s);
 626 |                                    void *dlopen_libhandle)
 648 |     lib->l_libhandle = dlopen_libhandle;
@@ -384,10 +369,9 @@ languages: ['cpp', 'python']
 ```
 ### c/cffi1_module.c
 
-```cpp
+```c
 
 {% raw %}
-17 | #include "cdlopen.c"
 52 |         for (i = 0; all_dlopen_flags[i].name != NULL; i++) {
 53 |             x = PyInt_FromLong(all_dlopen_flags[i].value);
 57 |                                        all_dlopen_flags[i].name, x);
@@ -396,142 +380,25 @@ languages: ['cpp', 'python']
 ```
 ### c/cdlopen.c
 
-```cpp
+```c
 
 {% raw %}
-0 | /* ffi.dlopen() interface with dlopen()/dlsym()/dlclose() */
 2 | static void *cdlopen_fetch(PyObject *libname, void *libhandle,
 23 | static void cdlopen_close_ignore_errors(void *libhandle)
 29 | static int cdlopen_close(PyObject *libname, void *libhandle)
 40 | static PyObject *ffi_dlopen(PyObject *self, PyObject *args)
 46 |     handle = b_do_dlopen(args, &modname, &temp);
-68 |         /* Clear the dict to force further accesses to do cdlopen_fetch()
 72 |         if (cdlopen_close(lib->l_libname, libhandle) < 0)
 {% endraw %}
 
 ```
 ### c/misc_win32.h
 
-```cpp
+```c
 
 {% raw %}
-185 | /* Emulate dlopen()&co. from the Windows API */
 192 | static void *dlopen(const char *filename, int flag)
 197 | static void *dlopenW(const wchar_t *filename)
-{% endraw %}
-
-```
-### cffi.egg-info/SOURCES.txt
-
-```
-
-{% raw %}
-9 | c/cdlopen.c
-153 | testing/cffi1/test_dlopen.py
-154 | testing/cffi1/test_dlopen_unicode_literals.py
-{% endraw %}
-
-```
-### doc/source/ref.rst
-
-```
-
-{% raw %}
-542 | .. _ffi-dlopen:
-545 | ffi.dlopen(), ffi.dlclose()
-548 | **ffi.dlopen(libpath, [flags])**: opens and returns a "handle" to a
-553 | by ``ffi.dlopen()``.
-555 | **ffi.RLTD_...**: constants: flags for ``ffi.dlopen()``.
-{% endraw %}
-
-```
-### doc/source/cdef.rst
-
-```
-
-{% raw %}
-17 |     lib = ffi.dlopen("libpath")
-44 |     lib = ffi.dlopen("libpath")
-74 |     # no ffi.dlopen()
-174 | they actually come from (which you do with either ``ffi.dlopen()`` or
-305 | ffi.dlopen(): loading libraries in ABI mode
-308 | ``ffi.dlopen(libpath, [flags])``: this function opens a shared library and
-321 | them with ``dlopen()`` and access the functions from the correct one.
-325 | locations, as described in ``man dlopen``), with extensions or not.
-344 | as ``dlopen()`` does dynamically in C.
-346 | For the optional ``flags`` argument, see ``man dlopen`` (ignored on
-354 | .. _dlopen-note:
-356 | Note: the old version of ``ffi.dlopen()`` from the in-line ABI mode
-358 | the library.  The newer out-of-line ``ffi.dlopen()`` no longer does it
-360 | underlying ``dlopen()`` or ``LoadLibrary()`` function.  If needed, it
-363 | ``ffi.dlopen(None)`` no longer work on Windows; try instead
-364 | ``ffi.dlopen(ctypes.util.find_library('c'))``.
-691 | object returned by the ``dlopen()`` method on ``other_ffi``.
-743 | Debugging dlopen'ed C libraries
-746 | A few C libraries are actually hard to use correctly in a ``dlopen()``
-751 | ``dlopen()``.
-755 | calls ``dlopen()``.  This section contains a few generally useful
-838 |    ``ffi.RTLD_NOW``; see ``man dlopen``.  (With
-839 |    ``ffibuilder.set_source()``, you would use ``sys.setdlopenflags()``.)
-880 | **ABI mode** if your CFFI project uses ``ffi.dlopen()``:
-888 |     lib = ffi.dlopen("libpath")
-{% endraw %}
-
-```
-### doc/source/whatsnew.rst
-
-```
-
-{% raw %}
-81 | * CPython 2.x: ``ffi.dlopen()`` failed with non-ascii file names on Posix
-110 | * Windows: ``ffi.dlopen()`` should now handle unicode filenames.
-516 | * ``dir(lib)`` now works on libs returned by ``ffi.dlopen()`` too.
-661 | * Out-of-line ABI mode: documented a restriction__ of ``ffi.dlopen()``
-669 | .. __: cdef.html#dlopen-note
-739 |   * `for ABI level`_, with ``ffi.dlopen()``
-{% endraw %}
-
-```
-### doc/source/using.rst
-
-```
-
-{% raw %}
-317 |    lib = ffi.dlopen("some_library.so")
-472 | Note that if you are using ``dlopen()``, the function declaration in the
-{% endraw %}
-
-```
-### doc/source/overview.rst
-
-```
-
-{% raw %}
-129 |     >>> C = ffi.dlopen(None)                     # loads the entire C namespace
-140 | *Python 3 on Windows:* ``ffi.dlopen(None)`` does not work.  This problem
-143 | you use ``ffi.dlopen("path.dll")``.
-457 |     lib = ffi.dlopen(None)      # Unix: open the standard C library
-459 |     #lib = ffi.dlopen(ctypes.util.find_library("c"))
-463 | Note that this ``ffi.dlopen()``, unlike the one from in-line mode,
-466 | ``dlopen()`` or ``LoadLibrary()`` functions.  This means that
-467 | ``ffi.dlopen("libfoo.so")`` is ok, but ``ffi.dlopen("foo")`` is not.
-469 | ``ffi.dlopen(ctypes.util.find_library("foo"))``.  Also, None is only
-566 | In the ABI examples, the ``dlopen()`` calls load libraries manually.
-569 | ``dlopen()`` returns a ``<FFILibrary>`` object, and this object has
-573 | you would call ``cdef()`` only once but ``dlopen()`` several times.
-612 | ``dlopen()``.  When using this approach,
-{% endraw %}
-
-```
-### doc/source/embedding.rst
-
-```
-
-{% raw %}
-322 |   used dynamically (e.g. by calling ``dlopen()`` or ``LoadLibrary()``
-365 |   (This doesn't apply if the main program uses ``dlopen()`` to load it
-376 |   unsuitable for embedding if the embedder uses ``dlopen(...,
-379 |   ``dlopen("libpythonX.Y.so", RTLD_LAZY|RTLD_GLOBAL)``, which will
 {% endraw %}
 
 ```

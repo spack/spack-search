@@ -3,14 +3,13 @@ name: "openloops"
 layout: package
 next_package: freebayes
 previous_package: opensubdiv
-languages: ['cpp', 'fortran']
+languages: ['fortran']
 ---
 ## 2.1.1
 3 / 730 files match
 
  - [lib_src/openloops/src/ol_interface.F90](#lib_srcopenloopssrcol_interfacef90)
  - [lib_src/olcommon/src/common.F90](#lib_srcolcommonsrccommonf90)
- - [lib_src/olcommon/src/cwrappers.c](#lib_srcolcommonsrccwrappersc)
 
 ### lib_src/openloops/src/ol_interface.F90
 
@@ -41,15 +40,6 @@ languages: ['cpp', 'fortran']
 873 |       else if (fatal == 2 .and. .not. c_associated(dlopen)) then
 874 |         print *, "[OpenLoops] error in dlopen:", dlerror()
 878 |   end function dlopen
-{% endraw %}
-
-```
-### lib_src/olcommon/src/cwrappers.c
-
-```cpp
-
-{% raw %}
-32 | // modes for dlopen (direct binding to Fortran doesn't work)
 {% endraw %}
 
 ```

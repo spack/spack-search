@@ -3,7 +3,7 @@ name: "libfastcommon"
 layout: package
 next_package: git
 previous_package: at-spi2-atk
-languages: ['cpp']
+languages: ['c']
 ---
 ## 1.0.40
 1 / 108 files match
@@ -12,7 +12,7 @@ languages: ['cpp']
 
 ### src/ini_file_reader.c
 
-```cpp
+```c
 
 {% raw %}
 886 |     dlhandle = dlopen(library, RTLD_LAZY);

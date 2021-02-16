@@ -3,7 +3,7 @@ name: "kmod"
 layout: package
 next_package: guile
 previous_package: libxkbfile
-languages: ['cpp']
+languages: ['c']
 ---
 ## 25
 3 / 367 files match
@@ -14,7 +14,7 @@ languages: ['cpp']
 
 ### testsuite/uname.c
 
-```cpp
+```c
 
 {% raw %}
 39 | 		nextlib = dlopen("libc.so.6", RTLD_LAZY);
@@ -23,7 +23,7 @@ languages: ['cpp']
 ```
 ### testsuite/path.c
 
-```cpp
+```c
 
 {% raw %}
 89 | 		nextlib = dlopen("libc.so.6", RTLD_LAZY);
@@ -32,7 +32,7 @@ languages: ['cpp']
 ```
 ### testsuite/init_module.c
 
-```cpp
+```c
 
 {% raw %}
 365 | 			nextlib = dlopen("libc.so.6", RTLD_LAZY);

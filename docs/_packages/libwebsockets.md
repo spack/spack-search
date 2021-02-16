@@ -3,7 +3,7 @@ name: "libwebsockets"
 layout: package
 next_package: libnbc
 previous_package: cosbench
-languages: ['cpp']
+languages: ['c']
 ---
 ## 2.0.3
 2 / 149 files match
@@ -13,7 +13,7 @@ languages: ['cpp']
 
 ### lib/libuv.c
 
-```cpp
+```c
 
 {% raw %}
 487 | 			if (uv_dlopen(path, &lib)) {
@@ -22,7 +22,7 @@ languages: ['cpp']
 ```
 ### lib/lws-plat-unix.c
 
-```cpp
+```c
 
 {% raw %}
 335 | 			l = dlopen(path, RTLD_NOW);

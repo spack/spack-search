@@ -3,7 +3,7 @@ name: "iproute2"
 layout: package
 next_package: py-gevent
 previous_package: dcmtk
-languages: ['cpp']
+languages: ['c']
 ---
 ## 5.8.0
 9 / 597 files match
@@ -20,7 +20,7 @@ languages: ['cpp']
 
 ### genl/genl.c
 
-```cpp
+```c
 
 {% raw %}
 65 | 	dlh = dlopen(buf, RTLD_LAZY);
@@ -30,7 +30,7 @@ languages: ['cpp']
 ```
 ### include/dlfcn.h
 
-```cpp
+```c
 
 {% raw %}
 14 | static inline void *dlopen(const char *file, int flag)
@@ -39,7 +39,7 @@ languages: ['cpp']
 ```
 ### ip/iplink.c
 
-```cpp
+```c
 
 {% raw %}
 145 | static void *BODY;		/* cached dlopen(NULL) handle */
@@ -50,7 +50,7 @@ languages: ['cpp']
 ```
 ### tc/m_ipt.c
 
-```cpp
+```c
 
 {% raw %}
 193 | 	handle = dlopen(path, RTLD_LAZY);
@@ -62,7 +62,7 @@ languages: ['cpp']
 ```
 ### tc/tc.c
 
-```cpp
+```c
 
 {% raw %}
 51 | static void *BODY;	/* cached handle dlopen(NULL) */
@@ -75,7 +75,7 @@ languages: ['cpp']
 ```
 ### tc/m_action.c
 
-```cpp
+```c
 
 {% raw %}
 104 | 	dlh = dlopen(buf, RTLD_LAZY | RTLD_GLOBAL);
@@ -85,7 +85,7 @@ languages: ['cpp']
 ```
 ### tc/m_ematch.c
 
-```cpp
+```c
 
 {% raw %}
 142 | 	dlh = dlopen(buf, RTLD_LAZY);
@@ -95,7 +95,7 @@ languages: ['cpp']
 ```
 ### tc/tc_exec.c
 
-```cpp
+```c
 
 {% raw %}
 54 | 	dlh = dlopen(buf, RTLD_LAZY);
@@ -105,7 +105,7 @@ languages: ['cpp']
 ```
 ### tc/m_pedit.c
 
-```cpp
+```c
 
 {% raw %}
 90 | 	dlh = dlopen(buf, RTLD_LAZY);

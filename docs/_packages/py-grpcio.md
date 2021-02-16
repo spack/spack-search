@@ -8,19 +8,9 @@ languages: ['cpp']
 ## 1.30.0
 3 / 2788 files match
 
- - [third_party/abseil-cpp/absl/base/internal/thread_identity.cc](#third_partyabseil-cppabslbaseinternalthread_identitycc)
  - [third_party/abseil-cpp/absl/random/internal/randen_detect.cc](#third_partyabseil-cppabslrandominternalranden_detectcc)
  - [third_party/abseil-cpp/absl/time/internal/cctz/src/time_zone_lookup.cc](#third_partyabseil-cppabsltimeinternalcctzsrctime_zone_lookupcc)
 
-### third_party/abseil-cpp/absl/base/internal/thread_identity.cc
-
-```cpp
-
-{% raw %}
-52 | // exist within a process (via dlopen() or similar), references to
-{% endraw %}
-
-```
 ### third_party/abseil-cpp/absl/random/internal/randen_detect.cc
 
 ```cpp

@@ -3,7 +3,7 @@ name: "activeharmony"
 layout: package
 next_package: zabbix
 previous_package: draco
-languages: ['cpp']
+languages: ['c']
 ---
 ## 4.6.0
 5 / 312 files match
@@ -11,12 +11,10 @@ languages: ['cpp']
  - [example/code_generation/gemm.c](#examplecode_generationgemmc)
  - [src/hinfo.c](#srchinfoc)
  - [src/hplugin.c](#srchpluginc)
- - [code-server/gemm/code.properties](#code-servergemmcodeproperties)
- - [code-server/generic/code.properties](#code-servergenericcodeproperties)
 
 ### example/code_generation/gemm.c
 
-```cpp
+```c
 
 {% raw %}
 396 |     flib_eval = dlopen(filename, RTLD_LAZY);
@@ -25,7 +23,7 @@ languages: ['cpp']
 ```
 ### src/hinfo.c
 
-```cpp
+```c
 
 {% raw %}
 239 |             handle = dlopen(cmd_arg, RTLD_LAZY | RTLD_LOCAL);
@@ -39,29 +37,10 @@ languages: ['cpp']
 ```
 ### src/hplugin.c
 
-```cpp
+```c
 
 {% raw %}
-24 | #include <dlfcn.h>  // For dlopen(), dlsym(), dlerror(), and dlclose().
 46 |     plugin->handle = dlopen(filename, RTLD_LAZY | RTLD_LOCAL);
-{% endraw %}
-
-```
-### code-server/gemm/code.properties
-
-```
-
-{% raw %}
-62 | #  the new code using dlopen/dlsym, we should compile the code to .so. If
-{% endraw %}
-
-```
-### code-server/generic/code.properties
-
-```
-
-{% raw %}
-52 | #  the new code using dlopen/dlsym, we should compile the code to .so. If
 {% endraw %}
 
 ```

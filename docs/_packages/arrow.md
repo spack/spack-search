@@ -15,7 +15,6 @@ languages: ['cpp']
 ```cpp
 
 {% raw %}
-59 | // Helper functions for dlopens
 63 | static arrow::Status try_dlopen(std::vector<fs::path> potential_paths, const char* name,
 198 | static arrow::Status try_dlopen(std::vector<fs::path> potential_paths, const char* name,
 204 |     out_handle = dlopen(i.native().c_str(), RTLD_NOW | RTLD_LOCAL);

@@ -127,9 +127,13 @@ def get_language(matchname):
     """
     matchname, ext = os.path.splitext(matchname)
     ext = ext.lower().strip(".")
+    if ext in ["text", "txt"]:
+        return "text"
     if ext in ["py", "python", "pyi", "pyi"]:
         return "python"
-    if ext in ["c", "cc", "h", "hh"]:
+    if ext in ["c", "h"]:
+        return "c"
+    if ext in ["cc", "hh"]:
         return "cpp"
     if ext in ["yaml", "yml"]:
         return "yaml"
@@ -141,7 +145,7 @@ def get_language(matchname):
         return "bash"
     if ext in ["js", "javascript", ".js.map", ".map"]:
         return "js"
-    if ext in ["cmake", "go", "java", "json", "lua", "html", "jl"]:
+    if ext in ["cmake", "go", "java", "json", "lua", "html", "jl", "m4", "ac"]:
         return ext
 
     # If no match, return standard text
@@ -231,21 +235,39 @@ def main():
 
                 # need to derive language here, add code
                 language = get_language(matchname)
+
+                # Only include these languages for now
+                if language not in [
+                    "python",
+                    "c",
+                    "cpp",
+                    "go",
+                    "java",
+                    "fortran",
+                    "pl",
+                ]:
+                    continue
+
                 matchpath = matchname.split("spack-src")[-1].strip("/")
-                filecontent += "\n### " + matchpath + "\n"
 
                 # Only include lines that have the match
                 lines = []
                 matchlines = match.split("\n")
                 for index, line in enumerate(matchlines):
-                    if not line or not re.search("dlopen", line, re.IGNORECASE):
+                    if not line or not re.search("dlopen", line):
                         continue
+
+                    # Skip comments
+                    if re.search("^([//]|[/*]|#)", line.strip()):
+                        continue
+
                     lines.append("%s | %s" % (index, line))
 
                 if not lines:
                     continue
 
                 # Jekyll will get thrown off if these aren't raw
+                filecontent += "\n### " + matchpath + "\n"
                 match = "\n{% raw %}\n" + "\n".join(lines) + "\n{% endraw %}\n"
 
                 if language:
@@ -277,7 +299,9 @@ def main():
             header += "\n"
             header += filecontent
 
-        write_file(output_file, header)
+        # Only write to file if we have content!
+        if filecontent:
+            write_file(output_file, header)
 
     # Generate Data file
     data_file = os.path.join(data_dir, "metrics.yml")

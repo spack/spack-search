@@ -3,7 +3,7 @@ name: "libfuse"
 layout: package
 next_package: paraview
 previous_package: expat
-languages: ['cpp']
+languages: ['c']
 ---
 ## 3.9.2
 1 / 93 files match
@@ -12,7 +12,7 @@ languages: ['cpp']
 
 ### lib/fuse.c
 
-```cpp
+```c
 
 {% raw %}
 268 | 	so->handle = dlopen(tmp, RTLD_NOW);

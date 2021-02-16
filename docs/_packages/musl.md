@@ -3,7 +3,7 @@ name: "musl"
 layout: package
 next_package: vsearch
 previous_package: py-awkward1
-languages: ['cpp']
+languages: ['c']
 ---
 ## 1.1.20
 3 / 2392 files match
@@ -14,7 +14,7 @@ languages: ['cpp']
 
 ### src/ldso/dlopen.c
 
-```cpp
+```c
 
 {% raw %}
 6 | static void *stub_dlopen(const char *file, int mode)
@@ -24,7 +24,7 @@ languages: ['cpp']
 ```
 ### include/dlfcn.h
 
-```cpp
+```c
 
 {% raw %}
 23 | void  *dlopen(const char *, int);
@@ -33,12 +33,9 @@ languages: ['cpp']
 ```
 ### ldso/dynlink.c
 
-```cpp
+```c
 
 {% raw %}
-807 | 		 * (either system paths or a call to dlopen). */
-1291 | 	 * dlopen from one of its constructors, but block any
-1350 | 	 * at program startup or by an already-completed call to dlopen. */
 1752 | void *dlopen(const char *file, int mode)
 {% endraw %}
 

@@ -3,7 +3,7 @@ name: "libffs"
 layout: package
 next_package: lvarray
 previous_package: dimemas
-languages: ['cpp']
+languages: ['c']
 ---
 ## 1.5
 1 / 214 files match
@@ -12,7 +12,7 @@ languages: ['cpp']
 
 ### cod/standard.c
 
-```cpp
+```c
 
 {% raw %}
 686 |     void *handle = dlopen(name, RTLD_LAZY);

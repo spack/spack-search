@@ -3,7 +3,7 @@ name: "libhbaapi"
 layout: package
 next_package: pinentry
 previous_package: vt
-languages: ['cpp']
+languages: ['c']
 ---
 ## 3.10
 1 / 13 files match
@@ -12,7 +12,7 @@ languages: ['cpp']
 
 ### hbaapilib.c
 
-```cpp
+```c
 
 {% raw %}
 544 | 	if((lib_infop->hLibrary = dlopen(librarypath,RTLD_LAZY)) == NULL) {

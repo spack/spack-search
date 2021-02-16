@@ -3,7 +3,7 @@ name: "quantum-espresso"
 layout: package
 next_package: erfa
 previous_package: opari2
-languages: ['cpp']
+languages: ['c']
 ---
 ## 6.4
 1 / 4877 files match
@@ -12,7 +12,7 @@ languages: ['cpp']
 
 ### dev-tools/device_props.c
 
-```cpp
+```c
 
 {% raw %}
 99 |   cudaRT = dlopen(CUDART_LIBRARY_NAME, RTLD_NOW);

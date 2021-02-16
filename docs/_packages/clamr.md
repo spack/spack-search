@@ -3,7 +3,7 @@ name: "clamr"
 layout: package
 next_package: libproxy
 previous_package: shadow
-languages: ['cpp']
+languages: ['c']
 ---
 ## master
 1 / 1046 files match
@@ -12,7 +12,7 @@ languages: ['cpp']
 
 ### l7/l7_init.c
 
-```cpp
+```c
 
 {% raw %}
 122 |       void *handle = dlopen("lttrace.so",RTLD_LAZY);

@@ -3,7 +3,7 @@ name: "hashcat"
 layout: package
 next_package: libsigsegv
 previous_package: xcb-util-keysyms
-languages: ['cpp']
+languages: ['c']
 ---
 ## 5.0.0
 4 / 1181 files match
@@ -15,7 +15,7 @@ languages: ['cpp']
 
 ### src/opencl.c
 
-```cpp
+```c
 
 {% raw %}
 486 |   ocl->lib = hc_dlopen ("OpenCL");
@@ -29,7 +29,7 @@ languages: ['cpp']
 ```
 ### src/dynloader.c
 
-```cpp
+```c
 
 {% raw %}
 10 | HMODULE hc_dlopen (LPCSTR lpLibFileName)
@@ -40,7 +40,7 @@ languages: ['cpp']
 ```
 ### src/hwmon.c
 
-```cpp
+```c
 
 {% raw %}
 413 |   nvml->lib = hc_dlopen ("nvml.dll");
@@ -64,7 +64,7 @@ languages: ['cpp']
 ```
 ### include/dynloader.h
 
-```cpp
+```c
 
 {% raw %}
 20 | HMODULE hc_dlopen  (LPCSTR lpLibFileName);

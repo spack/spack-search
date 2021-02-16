@@ -3,7 +3,7 @@ name: "haproxy"
 layout: package
 next_package: raja
 previous_package: libffi
-languages: ['cpp']
+languages: ['c']
 ---
 ## 2.1.0
 1 / 593 files match
@@ -12,7 +12,7 @@ languages: ['cpp']
 
 ### src/i386-linux-vsys.c
 
-```cpp
+```c
 
 {% raw %}
 188 | 	void *handle = dlopen("linux-gate.so.1", RTLD_NOW);

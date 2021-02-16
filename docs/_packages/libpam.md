@@ -3,27 +3,17 @@ name: "libpam"
 layout: package
 next_package: cpu-features
 previous_package: isl
-languages: ['cpp']
+languages: ['c']
 ---
 ## 1.07
 3 / 32 files match
 
- - [configure.ac](#configureac)
  - [src/google-authenticator.c](#srcgoogle-authenticatorc)
  - [tests/pam_google_authenticator_unittest.c](#testspam_google_authenticator_unittestc)
 
-### configure.ac
-
-```
-
-{% raw %}
-75 | AC_SEARCH_LIBS([dlopen], [dl])
-{% endraw %}
-
-```
 ### src/google-authenticator.c
 
-```cpp
+```c
 
 {% raw %}
 206 |   void *qrencode = dlopen("libqrencode.so.2", RTLD_NOW | RTLD_LOCAL);
@@ -36,7 +26,7 @@ languages: ['cpp']
 ```
 ### tests/pam_google_authenticator_unittest.c
 
-```cpp
+```c
 
 {% raw %}
 216 |   pam_module = dlopen("./.libs/libpam_google_authenticator_testing.so",

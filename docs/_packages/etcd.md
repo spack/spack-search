@@ -8,20 +8,10 @@ languages: ['go']
 ## 3.3.20
 4 / 2237 files match
 
- - [glide.lock](#glidelock)
  - [vendor/github.com/coreos/pkg/dlopen/dlopen_example.go](#vendorgithubcomcoreospkgdlopendlopen_examplego)
  - [vendor/github.com/coreos/pkg/dlopen/dlopen.go](#vendorgithubcomcoreospkgdlopendlopengo)
  - [vendor/github.com/coreos/go-systemd/util/util_cgo.go](#vendorgithubcomcoreosgo-systemdutilutil_cgogo)
 
-### glide.lock
-
-```
-
-{% raw %}
-25 |   - dlopen
-{% endraw %}
-
-```
 ### vendor/github.com/coreos/pkg/dlopen/dlopen_example.go
 
 ```go
@@ -36,7 +26,6 @@ languages: ['go']
 ```go
 
 {% raw %}
-14 | // Package dlopen provides some convenience functions to dlopen a library and
 16 | package dlopen
 44 | 		handle := C.dlopen(libname, C.RTLD_LAZY)
 {% endraw %}

@@ -3,20 +3,19 @@ name: "kcov"
 layout: package
 next_package: gettext
 previous_package: opa-psm2
-languages: ['cpp', 'python']
+languages: ['cpp', 'python', 'c']
 ---
 ## 38
 5 / 283 files match
 
  - [src/solib-parser/lib.c](#srcsolib-parserlibc)
- - [tests/CMakeLists.txt](#testscmakeliststxt)
  - [tests/dlopen/dlopen.cc](#testsdlopendlopencc)
  - [tests/dlopen/dlopen-main.cc](#testsdlopendlopen-maincc)
  - [tests/tools/compiled.py](#teststoolscompiledpy)
 
 ### src/solib-parser/lib.c
 
-```cpp
+```c
 
 {% raw %}
 103 | static void *(*orig_dlopen)(const char *, int);
@@ -24,16 +23,6 @@ languages: ['cpp', 'python']
 108 | 	if (!orig_dlopen)
 109 | 		orig_dlopen = dlsym(RTLD_NEXT, "dlopen");
 111 | 	out = orig_dlopen(filename, flag);
-{% endraw %}
-
-```
-### tests/CMakeLists.txt
-
-```
-
-{% raw %}
-145 | add_executable(dlopen dlopen/dlopen.cc dlopen/dlopen-main.cc)
-146 | target_link_libraries(dlopen "${DL_LIBRARY}")
 {% endraw %}
 
 ```

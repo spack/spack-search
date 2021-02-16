@@ -3,7 +3,7 @@ name: "py-uwsgi"
 layout: package
 next_package: xrootd
 previous_package: sqlite
-languages: ['cpp', 'python']
+languages: ['python', 'c']
 ---
 ## 2.0.18
 7 / 648 files match
@@ -18,7 +18,7 @@ languages: ['cpp', 'python']
 
 ### plugins/rrdtool/rrdtool.c
 
-```cpp
+```c
 
 {% raw %}
 34 | 	u_rrd.lib = dlopen(u_rrd.lib_name, RTLD_LAZY);
@@ -27,7 +27,7 @@ languages: ['cpp', 'python']
 ```
 ### plugins/gccgo/gccgo_plugin.c
 
-```cpp
+```c
 
 {% raw %}
 160 | 		void *handle = dlopen(usl->value, RTLD_NOW | RTLD_GLOBAL);
@@ -45,7 +45,7 @@ languages: ['cpp', 'python']
 ```
 ### plugins/pypy/pypy_plugin.c
 
-```cpp
+```c
 
 {% raw %}
 64 | 		upypy.handler = dlopen(upypy.lib, RTLD_NOW | RTLD_GLOBAL);
@@ -59,7 +59,7 @@ languages: ['cpp', 'python']
 ```
 ### plugins/cgi/cgi_plugin.c
 
-```cpp
+```c
 
 {% raw %}
 153 | 		void *cgi_lib = dlopen(ll->value, RTLD_NOW | RTLD_GLOBAL);
@@ -68,7 +68,7 @@ languages: ['cpp', 'python']
 ```
 ### core/uwsgi.c
 
-```cpp
+```c
 
 {% raw %}
 1004 | 	{"dlopen", required_argument, 0, "blindly load a shared library", uwsgi_opt_load_dl, NULL, UWSGI_OPT_IMMEDIATE},
@@ -78,7 +78,7 @@ languages: ['cpp', 'python']
 ```
 ### core/plugins.c
 
-```cpp
+```c
 
 {% raw %}
 120 | 		plugin_handle = dlopen(plugin_name, RTLD_NOW | RTLD_GLOBAL);

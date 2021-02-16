@@ -3,7 +3,7 @@ name: "isc-dhcp"
 layout: package
 next_package: lzop
 previous_package: ocl-icd
-languages: ['cpp']
+languages: ['c']
 ---
 ## 4.4.0
 1 / 244 files match
@@ -12,7 +12,7 @@ languages: ['cpp']
 
 ### server/ldap_casa.c
 
-```cpp
+```c
 
 {% raw %}
 65 |        if( !(casaIDK = dlopen(MICASA_LIB,RTLD_LAZY)))

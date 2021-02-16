@@ -3,7 +3,7 @@ name: "libkcapi"
 layout: package
 next_package: liblbxutil
 previous_package: libexif
-languages: ['cpp']
+languages: ['c']
 ---
 ## 1.1.4
 1 / 103 files match
@@ -12,7 +12,7 @@ languages: ['cpp']
 
 ### apps/kcapi-hasher.c
 
-```cpp
+```c
 
 {% raw %}
 736 | 		dl = dlopen(selfname, RTLD_NODELETE|RTLD_NOLOAD|RTLD_LAZY);

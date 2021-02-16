@@ -3,7 +3,7 @@ name: "libxsmm"
 layout: package
 next_package: otf2
 previous_package: llvm-amdgpu
-languages: ['cpp']
+languages: ['c']
 ---
 ## 1.16.1
 1 / 875 files match
@@ -12,7 +12,7 @@ languages: ['cpp']
 
 ### src/libxsmm_malloc.c
 
-```cpp
+```c
 
 {% raw %}
 1140 |   handle_qkmalloc = dlopen("libqkmalloc.so", RTLD_LAZY);

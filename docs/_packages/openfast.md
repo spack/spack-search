@@ -3,13 +3,11 @@ name: "openfast"
 layout: package
 next_package: exmcutils
 previous_package: mpfi
-languages: ['cpp', 'fortran']
+languages: ['fortran']
 ---
 ## develop
 8 / 777 files match
 
- - [glue-codes/openfast-cpp/src/OpenFAST.H](#glue-codesopenfast-cppsrcopenfasth)
- - [glue-codes/openfast-cpp/src/OpenFAST.cpp](#glue-codesopenfast-cppsrcopenfastcpp)
  - [modules/icefloe/src/interfaces/Console/NWTC_Base_reduced.f90](#modulesicefloesrcinterfacesconsolenwtc_base_reducedf90)
  - [modules/nwtc-library/src/SysGnuLinux.f90](#modulesnwtc-librarysrcsysgnulinuxf90)
  - [modules/nwtc-library/src/SysMatlabLinuxIntel.f90](#modulesnwtc-librarysrcsysmatlablinuxintelf90)
@@ -17,24 +15,6 @@ languages: ['cpp', 'fortran']
  - [modules/nwtc-library/src/NWTC_Base.f90](#modulesnwtc-librarysrcnwtc_basef90)
  - [modules/nwtc-library/src/SysMatlabLinuxGnu.f90](#modulesnwtc-librarysrcsysmatlablinuxgnuf90)
 
-### glue-codes/openfast-cpp/src/OpenFAST.H
-
-```cpp
-
-{% raw %}
-137 |   // Dynamic load stuff copied from 'C++ dlopen mini HOWTO' on tldp.org
-{% endraw %}
-
-```
-### glue-codes/openfast-cpp/src/OpenFAST.cpp
-
-```
-
-{% raw %}
-1049 |     scLibHandle = dlopen(scLibFile.c_str(), RTLD_LAZY);
-{% endraw %}
-
-```
 ### modules/icefloe/src/interfaces/Console/NWTC_Base_reduced.f90
 
 ```fortran
@@ -54,8 +34,6 @@ languages: ['cpp', 'fortran']
 421 |       !    and https://developer.apple.com/library/mac/documentation/Darwin/Reference/ManPages/man3/dlopen.3.html
 423 |       FUNCTION dlOpen(filename,mode) BIND(C,NAME="dlopen")
 424 |       ! void *dlopen(const char *filename, int mode);
-427 |          TYPE(C_PTR)                   :: dlOpen
-439 |    DLL%FileAddrX = dlOpen( TRIM(DLL%FileName)//C_NULL_CHAR, RTLD_LAZY )  !the "C_NULL_CHAR" converts the Fortran string to a C-type string (i.e., adds //CHAR(0) to the end)
 {% endraw %}
 
 ```
@@ -69,8 +47,6 @@ languages: ['cpp', 'fortran']
 403 |       !    and https://developer.apple.com/library/mac/documentation/Darwin/Reference/ManPages/man3/dlopen.3.html
 405 |       FUNCTION dlOpen(filename,mode) BIND(C,NAME="dlopen")
 406 |       ! void *dlopen(const char *filename, int mode);
-409 |          TYPE(C_PTR)                   :: dlOpen
-421 |    DLL%FileAddrX = dlOpen( TRIM(DLL%FileName)//C_NULL_CHAR, RTLD_LAZY )  !the "C_NULL_CHAR" converts the Fortran string to a C-type string (i.e., adds //CHAR(0) to the end)
 {% endraw %}
 
 ```
@@ -84,8 +60,6 @@ languages: ['cpp', 'fortran']
 399 |       !    and https://developer.apple.com/library/mac/documentation/Darwin/Reference/ManPages/man3/dlopen.3.html
 401 |       FUNCTION dlOpen(filename,mode) BIND(C,NAME="dlopen")
 402 |       ! void *dlopen(const char *filename, int mode);
-405 |          TYPE(C_PTR)                   :: dlOpen
-417 |    DLL%FileAddrX = dlOpen( TRIM(DLL%FileName)//C_NULL_CHAR, RTLD_LAZY )  !the "C_NULL_CHAR" converts the Fortran string to a C-type string (i.e., adds //CHAR(0) to the end)
 {% endraw %}
 
 ```
@@ -108,8 +82,6 @@ languages: ['cpp', 'fortran']
 411 |       !    and https://developer.apple.com/library/mac/documentation/Darwin/Reference/ManPages/man3/dlopen.3.html
 413 |       FUNCTION dlOpen(filename,mode) BIND(C,NAME="dlopen")
 414 |       ! void *dlopen(const char *filename, int mode);
-417 |          TYPE(C_PTR)                   :: dlOpen
-429 |    DLL%FileAddrX = dlOpen( TRIM(DLL%FileName)//C_NULL_CHAR, RTLD_LAZY )  !the "C_NULL_CHAR" converts the Fortran string to a C-type string (i.e., adds //CHAR(0) to the end)
 {% endraw %}
 
 ```

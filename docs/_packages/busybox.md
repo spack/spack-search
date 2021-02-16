@@ -3,7 +3,7 @@ name: "busybox"
 layout: package
 next_package: m4
 previous_package: mpip
-languages: ['cpp']
+languages: ['c']
 ---
 ## 1.30.0
 1 / 2335 files match
@@ -12,7 +12,7 @@ languages: ['cpp']
 
 ### scripts/kconfig/kconfig_load.c
 
-```cpp
+```c
 
 {% raw %}
 15 | 	handle = dlopen("./libkconfig.so", RTLD_LAZY);

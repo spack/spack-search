@@ -3,7 +3,7 @@ name: "efivar"
 layout: package
 next_package: nwchem
 previous_package: exonerate
-languages: ['cpp']
+languages: ['c']
 ---
 ## 35
 1 / 92 files match
@@ -12,7 +12,7 @@ languages: ['cpp']
 
 ### src/guid.c
 
-```cpp
+```c
 
 {% raw %}
 252 | 	void *dlh = dlopen(NULL, RTLD_LAZY);

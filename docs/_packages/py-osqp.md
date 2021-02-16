@@ -3,7 +3,7 @@ name: "py-osqp"
 layout: package
 next_package: gchp
 previous_package: rtags
-languages: ['cpp']
+languages: ['c']
 ---
 ## 0.6.1
 1 / 159 files match
@@ -12,7 +12,7 @@ languages: ['cpp']
 
 ### osqp_sources/lin_sys/lib_handler.c
 
-```cpp
+```c
 
 {% raw %}
 25 |     h = dlopen (libName, RTLD_LAZY);

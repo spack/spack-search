@@ -3,7 +3,7 @@ name: "kitty"
 layout: package
 next_package: ncbi-toolkit
 previous_package: globalarrays
-languages: ['cpp', 'python']
+languages: ['python', 'c']
 ---
 ## 0.11.2
 17 / 263 files match
@@ -12,23 +12,16 @@ languages: ['cpp', 'python']
  - [kitty/glfw-wrapper.c](#kittyglfw-wrapperc)
  - [kitty/gl-wrapper.c](#kittygl-wrapperc)
  - [glfw/egl_context.c](#glfwegl_contextc)
- - [glfw/x11_platform.h](#glfwx11_platformh)
- - [glfw/null_platform.h](#glfwnull_platformh)
  - [glfw/vulkan.c](#glfwvulkanc)
  - [glfw/glfw.py](#glfwglfwpy)
- - [glfw/win32_platform.h](#glfwwin32_platformh)
  - [glfw/glx_context.c](#glfwglx_contextc)
- - [glfw/nsgl_context.h](#glfwnsgl_contexth)
  - [glfw/x11_init.c](#glfwx11_initc)
- - [glfw/cocoa_platform.h](#glfwcocoa_platformh)
- - [glfw/glx_context.h](#glfwglx_contexth)
  - [glfw/osmesa_context.c](#glfwosmesa_contextc)
- - [glfw/wl_platform.h](#glfwwl_platformh)
  - [glfw/wl_init.c](#glfwwl_initc)
 
 ### kitty/desktop.c
 
-```cpp
+```c
 
 {% raw %}
 36 |         libsn_handle = dlopen(libname, RTLD_LAZY);
@@ -37,7 +30,7 @@ languages: ['cpp', 'python']
 ```
 ### kitty/glfw-wrapper.c
 
-```cpp
+```c
 
 {% raw %}
 12 |     handle = dlopen(path, RTLD_LAZY);
@@ -47,7 +40,7 @@ languages: ['cpp', 'python']
 ```
 ### kitty/gl-wrapper.c
 
-```cpp
+```c
 
 {% raw %}
 108 |         libGL = dlopen(NAMES[index], RTLD_NOW | RTLD_GLOBAL);
@@ -56,7 +49,7 @@ languages: ['cpp', 'python']
 ```
 ### glfw/egl_context.c
 
-```cpp
+```c
 
 {% raw %}
 324 |         _glfw.egl.handle = _glfw_dlopen(sonames[i]);
@@ -64,28 +57,9 @@ languages: ['cpp', 'python']
 {% endraw %}
 
 ```
-### glfw/x11_platform.h
-
-```cpp
-
-{% raw %}
-165 | #define _glfw_dlopen(name) dlopen(name, RTLD_LAZY | RTLD_LOCAL)
-{% endraw %}
-
-```
-### glfw/null_platform.h
-
-```cpp
-
-{% raw %}
-45 |  #define _glfw_dlopen(name) LoadLibraryA(name)
-49 |  #define _glfw_dlopen(name) dlopen(name, RTLD_LAZY | RTLD_LOCAL)
-{% endraw %}
-
-```
 ### glfw/vulkan.c
 
-```cpp
+```c
 
 {% raw %}
 52 |     _glfw.vk.handle = _glfw_dlopen(_GLFW_VULKAN_LIBRARY);
@@ -105,36 +79,18 @@ languages: ['cpp', 'python']
 {% endraw %}
 
 ```
-### glfw/win32_platform.h
-
-```cpp
-
-{% raw %}
-248 | #define _glfw_dlopen(name) LoadLibraryA(name)
-{% endraw %}
-
-```
 ### glfw/glx_context.c
 
-```cpp
+```c
 
 {% raw %}
 273 |         _glfw.glx.handle = _glfw_dlopen(sonames[i]);
 {% endraw %}
 
 ```
-### glfw/nsgl_context.h
-
-```cpp
-
-{% raw %}
-43 |     // dlopen handle for OpenGL.framework (for glfwGetProcAddress)
-{% endraw %}
-
-```
 ### glfw/x11_init.c
 
-```cpp
+```c
 
 {% raw %}
 153 |     _glfw.x11.vidmode.handle = _glfw_dlopen("libXxf86vm.so.1");
@@ -151,45 +107,18 @@ languages: ['cpp', 'python']
 {% endraw %}
 
 ```
-### glfw/cocoa_platform.h
-
-```cpp
-
-{% raw %}
-58 | #define _glfw_dlopen(name) dlopen(name, RTLD_LAZY | RTLD_LOCAL)
-{% endraw %}
-
-```
-### glfw/glx_context.h
-
-```cpp
-
-{% raw %}
-130 |     // dlopen handle for libGL.so.1
-{% endraw %}
-
-```
 ### glfw/osmesa_context.c
 
-```cpp
+```c
 
 {% raw %}
 136 |         _glfw.osmesa.handle = _glfw_dlopen(sonames[i]);
 {% endraw %}
 
 ```
-### glfw/wl_platform.h
-
-```cpp
-
-{% raw %}
-61 | #define _glfw_dlopen(name) dlopen(name, RTLD_LAZY | RTLD_LOCAL)
-{% endraw %}
-
-```
 ### glfw/wl_init.c
 
-```cpp
+```c
 
 {% raw %}
 627 |     _glfw.wl.cursor.handle = _glfw_dlopen("libwayland-cursor.so.0");

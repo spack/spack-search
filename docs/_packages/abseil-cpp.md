@@ -8,19 +8,9 @@ languages: ['cpp']
 ## 20200923.1
 3 / 689 files match
 
- - [absl/base/internal/thread_identity.cc](#abslbaseinternalthread_identitycc)
  - [absl/random/internal/randen_detect.cc](#abslrandominternalranden_detectcc)
  - [absl/time/internal/cctz/src/time_zone_lookup.cc](#absltimeinternalcctzsrctime_zone_lookupcc)
 
-### absl/base/internal/thread_identity.cc
-
-```cpp
-
-{% raw %}
-52 | // exist within a process (via dlopen() or similar), references to
-{% endraw %}
-
-```
 ### absl/random/internal/randen_detect.cc
 
 ```cpp

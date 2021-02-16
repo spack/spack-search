@@ -3,7 +3,7 @@ name: "py-pygpu"
 layout: package
 next_package: ntirpc
 previous_package: fish
-languages: ['cpp']
+languages: ['c']
 ---
 ## 0.6.2
 1 / 134 files match
@@ -12,7 +12,7 @@ languages: ['cpp']
 
 ### src/loaders/dyn_load.c
 
-```cpp
+```c
 
 {% raw %}
 11 |   void *res = dlopen(name, RTLD_LAZY|RTLD_LOCAL);

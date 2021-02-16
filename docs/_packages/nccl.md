@@ -9,7 +9,6 @@ languages: ['cpp']
 4 / 121 files match
 
  - [src/init.cc](#srcinitcc)
- - [src/include/nvtx3/nvtxDetail/nvtxInit.h](#srcincludenvtx3nvtxdetailnvtxinith)
  - [src/misc/ibvwrap.cc](#srcmiscibvwrapcc)
  - [src/misc/nvmlwrap.cc](#srcmiscnvmlwrapcc)
 
@@ -19,17 +18,6 @@ languages: ['cpp']
 
 {% raw %}
 68 |   void* netPluginLib = dlopen("libnccl-net.so", RTLD_NOW | RTLD_LOCAL);
-70 |     // dlopen does not guarantee to set errno, but dlerror only gives us a
-{% endraw %}
-
-```
-### src/include/nvtx3/nvtxDetail/nvtxInit.h
-
-```cpp
-
-{% raw %}
-35 | #define NVTX_DLLOPEN(x) dlopen(x, RTLD_LAZY)
-191 |             /* For dlopen, if the filename contains a leading slash, then it is interpreted as a */
 {% endraw %}
 
 ```

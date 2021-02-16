@@ -3,7 +3,7 @@ name: "lua-luajit"
 layout: package
 next_package: seacas
 previous_package: macsio
-languages: ['cpp']
+languages: ['c']
 ---
 ## 2.0.4
 2 / 188 files match
@@ -13,20 +13,18 @@ languages: ['cpp']
 
 ### src/lib_package.c
 
-```cpp
+```c
 
 {% raw %}
-34 | #if LJ_TARGET_DLOPEN
 45 |   void *lib = dlopen(path, RTLD_NOW | (gl ? RTLD_GLOBAL : RTLD_LOCAL));
 {% endraw %}
 
 ```
 ### src/lj_clib.c
 
-```cpp
+```c
 
 {% raw %}
-21 | #if LJ_TARGET_DLOPEN
 116 |   void *h = dlopen(clib_extname(L, name),
 122 |       h = dlopen(name, RTLD_LAZY | (global?RTLD_GLOBAL:RTLD_LOCAL));
 {% endraw %}

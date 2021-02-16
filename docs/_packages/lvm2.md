@@ -3,29 +3,17 @@ name: "lvm2"
 layout: package
 next_package: ldc-bootstrap
 previous_package: graphviz
-languages: ['cpp']
+languages: ['c']
 ---
 ## 2.03.02
 3 / 1036 files match
 
- - [configure.ac](#configureac)
  - [lib/mm/memlock.c](#libmmmemlockc)
  - [daemons/dmeventd/dmeventd.c](#daemonsdmeventddmeventdc)
 
-### configure.ac
-
-```
-
-{% raw %}
-35 | 		# FIXME Generate list and use --dynamic-list=.dlopen.sym
-1240 | dnl -- Check for dlopen
-1241 | AC_CHECK_LIB(dl, dlopen,
-{% endraw %}
-
-```
 ### lib/mm/memlock.c
 
-```cpp
+```c
 
 {% raw %}
 106 | 	"/ld-2.",		/* not using dlopen,dlsym during mlock */
@@ -35,7 +23,7 @@ languages: ['cpp']
 ```
 ### daemons/dmeventd/dmeventd.c
 
-```cpp
+```c
 
 {% raw %}
 159 | 	void *dso_handle;	/* Opaque handle as returned from dlopen(). */

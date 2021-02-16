@@ -3,7 +3,7 @@ name: "rt-tests"
 layout: package
 next_package: ruby
 previous_package: xrx
-languages: ['cpp']
+languages: ['c']
 ---
 ## 1.2
 1 / 46 files match
@@ -12,7 +12,7 @@ languages: ['cpp']
 
 ### src/lib/rt-get_cpu.c
 
-```cpp
+```c
 
 {% raw %}
 13 | 	void *handle = dlopen("linux-vdso.so.1", RTLD_LAZY);

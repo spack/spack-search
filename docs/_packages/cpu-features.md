@@ -3,7 +3,7 @@ name: "cpu-features"
 layout: package
 next_package: libxfont2
 previous_package: libpam
-languages: ['cpp']
+languages: ['c']
 ---
 ## develop
 1 / 69 files match
@@ -12,7 +12,7 @@ languages: ['cpp']
 
 ### src/hwcaps.c
 
-```cpp
+```c
 
 {% raw %}
 91 |   dlerror();  // Cleaning error state before calling dlopen.

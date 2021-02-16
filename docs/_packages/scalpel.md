@@ -3,7 +3,7 @@ name: "scalpel"
 layout: package
 next_package: swipl
 previous_package: netcdf-cxx4
-languages: ['cpp']
+languages: ['c']
 ---
 ## 0.5.4
 1 / 1005 files match
@@ -12,7 +12,7 @@ languages: ['cpp']
 
 ### bcftools-1.1/vcfplugin.c
 
-```cpp
+```c
 
 {% raw %}
 167 | static void *dlopen_plugin(args_t *args, const char *fname)

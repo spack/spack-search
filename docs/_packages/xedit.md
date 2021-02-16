@@ -3,7 +3,7 @@ name: "xedit"
 layout: package
 next_package: dmd
 previous_package: libxdamage
-languages: ['cpp']
+languages: ['c']
 ---
 ## 1.2.2
 1 / 114 files match
@@ -12,7 +12,7 @@ languages: ['cpp']
 
 ### lisp/require.c
 
-```cpp
+```c
 
 {% raw %}
 121 | 	    if (dlopen(NULL, RTLD_LAZY | RTLD_GLOBAL) == NULL)

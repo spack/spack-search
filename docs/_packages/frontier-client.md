@@ -3,7 +3,7 @@ name: "frontier-client"
 layout: package
 next_package: spades
 previous_package: cvs
-languages: ['cpp']
+languages: ['c']
 ---
 ## 2_9_0
 1 / 155 files match
@@ -12,10 +12,9 @@ languages: ['cpp']
 
 ### client/pacparser-dlopen.c
 
-```cpp
+```c
 
 {% raw %}
-1 |  * pacparser dlopen interface
 53 |   pp_dlhandle=dlopen("libpacparser.so.1",RTLD_LAZY);
 57 |        "config error: cannot dlopen %s",dlerror());
 {% endraw %}

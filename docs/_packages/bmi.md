@@ -3,7 +3,7 @@ name: "bmi"
 layout: package
 next_package: pandaseq
 previous_package: log4cplus
-languages: ['cpp']
+languages: ['c']
 ---
 ## develop
 2 / 232 files match
@@ -13,7 +13,7 @@ languages: ['cpp']
 
 ### src/io/bmi/bmi.c
 
-```cpp
+```c
 
 {% raw %}
 428 | 	meth_mod = dlopen(modules[i], RTLD_NOW);
@@ -22,7 +22,7 @@ languages: ['cpp']
 ```
 ### src/io/bmi/bmi_ib/vapi.c
 
-```cpp
+```c
 
 {% raw %}
 798 |     dlh = dlopen("libmosal.so", RTLD_LAZY);

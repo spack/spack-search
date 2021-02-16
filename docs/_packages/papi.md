@@ -3,14 +3,12 @@ name: "papi"
 layout: package
 next_package: cvs
 previous_package: tinker
-languages: ['cpp']
+languages: ['c']
 ---
 ## 5.4.3
 11 / 1681 files match
 
- - [ChangeLogP520.txt](#changelogp520txt)
  - [src/threads.c](#srcthreadsc)
- - [src/configure.in](#srcconfigurein)
  - [src/ctests/shlib.c](#srcctestsshlibc)
  - [src/components/vmware/vmware.c](#srccomponentsvmwarevmwarec)
  - [src/components/nvml/linux-nvml.c](#srccomponentsnvmllinux-nvmlc)
@@ -20,24 +18,9 @@ languages: ['cpp']
  - [src/components/cuda/tests/cuda_ld_preload_example.c](#srccomponentscudatestscuda_ld_preload_examplec)
  - [src/components/infiniband_umad/linux-infiniband_umad.c](#srccomponentsinfiniband_umadlinux-infiniband_umadc)
 
-### ChangeLogP520.txt
-
-```
-
-{% raw %}
-44 |   src/components/nvml/linux-nvml.c...: Components: Use the cuda dlopen fix all
-45 |   cases.  See 4cb76a9b for details, the short version is if you call dlopen
-331 |   the dlopen. The test ctests/shlib fails as a reult of this. > > -Will >
-570 |   this patch file to remove an unneeded variable in the dlopen code to resolve
-630 |   src/components/nvml/configure.in...: nvml: Apply Gary Mohr's dlopen patch. 
-631 |   Move the nvml component over to using the dlopen and weak linking
-890 |   dlopen/dlsym for symbols  Apply Gary Mohr's patch to switch the infiniband
-{% endraw %}
-
-```
 ### src/threads.c
 
-```cpp
+```c
 
 {% raw %}
 61 | 	handle = dlopen( NULL, RTLD_LAZY );
@@ -45,22 +28,9 @@ languages: ['cpp']
 {% endraw %}
 
 ```
-### src/configure.in
-
-```
-
-{% raw %}
-155 | AC_MSG_CHECKING([for dlopen and dlerror symbols in base system])
-157 | 	[void *p = dlopen ("", 0); char *c = dlerror();],
-164 | 	AC_MSG_CHECKING([for dlopen and dlerror symbols in -ldl])
-168 | 		[void *p = dlopen ("", 0); char *c = dlerror();],
-175 | 		AC_MSG_ERROR([cannot find dlopen and dlerror symbols neither in the base system libraries nor in -ldl])
-{% endraw %}
-
-```
 ### src/ctests/shlib.c
 
-```cpp
+```c
 
 {% raw %}
 97 | 		handle = dlopen( _libname, RTLD_NOW );
@@ -71,7 +41,7 @@ languages: ['cpp']
 ```
 ### src/components/vmware/vmware.c
 
-```cpp
+```c
 
 {% raw %}
 220 | 	dlHandle = dlopen(filename, RTLD_NOW);
@@ -85,11 +55,9 @@ languages: ['cpp']
 ```
 ### src/components/nvml/linux-nvml.c
 
-```cpp
+```c
 
 {% raw %}
-51 |  *  These function pointers will be resolved with dlopen/dlsym calls at         *
-112 | // file handles used to access cuda libraries with dlopen
 1006 | 	dl1 = dlopen("libcuda.so", RTLD_NOW | RTLD_GLOBAL);
 1019 | 	dl2 = dlopen("libcudart.so", RTLD_NOW | RTLD_GLOBAL);
 1044 | 	dl3 = dlopen("libnvidia-ml.so", RTLD_NOW | RTLD_GLOBAL);
@@ -98,7 +66,7 @@ languages: ['cpp']
 ```
 ### src/components/libmsr/linux-libmsr.c
 
-```cpp
+```c
 
 {% raw %}
 141 |     dllib1 = dlopen("libmsr.so", RTLD_NOW | RTLD_GLOBAL);
@@ -107,7 +75,7 @@ languages: ['cpp']
 ```
 ### src/components/host_micpower/linux-host_micpower.c
 
-```cpp
+```c
 
 {% raw %}
 124 | 	scif_access = dlopen("libscif.so", RTLD_NOW | RTLD_GLOBAL);
@@ -117,11 +85,9 @@ languages: ['cpp']
 ```
 ### src/components/cuda/linux-cuda.c
 
-```cpp
+```c
 
 {% raw %}
-72 | // file handles used to access cuda libraries with dlopen
-107 |  *  These function pointers will be resolved with dlopen/dlsym calls at        *
 193 |     dl1 = dlopen( "libcuda.so", RTLD_NOW | RTLD_GLOBAL );
 210 |     dl2 = dlopen( "libcudart.so", RTLD_NOW | RTLD_GLOBAL );
 219 |     dl3 = dlopen( "libcupti.so", RTLD_NOW | RTLD_GLOBAL );
@@ -130,7 +96,7 @@ languages: ['cpp']
 ```
 ### src/components/cuda/tests/cuda_ld_preload_example.c
 
-```cpp
+```c
 
 {% raw %}
 45 |         dl1 = dlopen( "libpapi.so", RTLD_NOW | RTLD_GLOBAL );
@@ -139,11 +105,9 @@ languages: ['cpp']
 ```
 ### src/components/infiniband_umad/linux-infiniband_umad.c
 
-```cpp
+```c
 
 {% raw %}
-44 |  *  These function pointers will be resolved with dlopen/dlsym calls at component    *
-66 | // file handles used to access Infiniband libraries with dlopen
 614 | 	dl1 = dlopen("libibumad.so", RTLD_NOW | RTLD_GLOBAL);
 640 | 	dl2 = dlopen("libibmad.so", RTLD_NOW | RTLD_GLOBAL);
 {% endraw %}

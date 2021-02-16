@@ -3,7 +3,7 @@ name: "blast-legacy"
 layout: package
 next_package: pocl
 previous_package: man-db
-languages: ['cpp']
+languages: ['c']
 ---
 ## 2.2.26
 1 / 3030 files match
@@ -12,7 +12,7 @@ languages: ['cpp']
 
 ### network/medarch/server/ma_intfc.c
 
-```cpp
+```c
 
 {% raw %}
 313 | 	handler->handle = dlopen( handler->load_path, RTLD_LAZY );

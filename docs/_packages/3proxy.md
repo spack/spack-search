@@ -3,7 +3,7 @@ name: "3proxy"
 layout: package
 next_package: nfs-ganesha
 previous_package: spindle
-languages: ['cpp']
+languages: ['c']
 ---
 ## 0.8.13
 1 / 166 files match
@@ -12,7 +12,7 @@ languages: ['cpp']
 
 ### src/conf.c
 
-```cpp
+```c
 
 {% raw %}
 1295 | 	hi = dlopen((char *)argv[1], RTLD_LAZY);

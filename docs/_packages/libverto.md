@@ -3,26 +3,16 @@ name: "libverto"
 layout: package
 next_package: amgx
 previous_package: libgd
-languages: ['cpp']
+languages: ['c']
 ---
 ## 0.3.1
 2 / 45 files match
 
- - [configure.ac](#configureac)
  - [src/module.c](#srcmodulec)
 
-### configure.ac
-
-```
-
-{% raw %}
-31 | AC_CHECK_LIB([dl],[dlopen])
-{% endraw %}
-
-```
 ### src/module.c
 
-```cpp
+```c
 
 {% raw %}
 105 |     mod = dlopen(NULL, RTLD_LAZY | RTLD_LOCAL);

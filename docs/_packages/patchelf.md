@@ -3,7 +3,7 @@ name: "patchelf"
 layout: package
 next_package: hyphy
 previous_package: fastjet
-languages: ['cpp']
+languages: ['c']
 ---
 ## 0.10
 1 / 30 files match
@@ -12,7 +12,7 @@ languages: ['cpp']
 
 ### src/elf.h
 
-```cpp
+```c
 
 {% raw %}
 1632 | 					   by rld on dlopen() calls.  */

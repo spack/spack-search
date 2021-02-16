@@ -3,7 +3,7 @@ name: "hsakmt-roct"
 layout: package
 next_package: shadow
 previous_package: fftw
-languages: ['cpp']
+languages: ['c']
 ---
 ## 4.0.0
 1 / 146 files match
@@ -12,7 +12,7 @@ languages: ['cpp']
 
 ### tests/reopen/kmtreopen.c
 
-```cpp
+```c
 
 {% raw %}
 89 |         handle = dlopen("libhsakmt.so", RTLD_LAZY);

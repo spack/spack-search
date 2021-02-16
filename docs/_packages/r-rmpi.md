@@ -3,7 +3,7 @@ name: "r-rmpi"
 layout: package
 next_package: occa
 previous_package: py-xpyb
-languages: ['cpp']
+languages: ['c']
 ---
 ## 0.6-9
 1 / 74 files match
@@ -12,7 +12,7 @@ languages: ['cpp']
 
 ### src/Rmpi.c
 
-```cpp
+```c
 
 {% raw %}
 76 |     if (!dlopen("libmpi.so.1", RTLD_GLOBAL | RTLD_LAZY) 

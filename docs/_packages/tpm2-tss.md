@@ -3,79 +3,26 @@ name: "tpm2-tss"
 layout: package
 next_package: kubernetes
 previous_package: unuran
-languages: ['cpp']
+languages: ['c']
 ---
 ## 3.0.0
 7 / 739 files match
 
- - [Makefile-test.am](#makefile-testam)
- - [CHANGELOG.md](#changelogmd)
- - [configure.ac](#configureac)
  - [src/tss2-esys/esys_int.h](#srctss2-esysesys_inth)
- - [src/tss2-tcti/tctildr-dl.c](#srctss2-tctitctildr-dlc)
- - [man/Tss2_TctiLdr_Initialize.3.in](#mantss2_tctildr_initialize3in)
  - [test/unit/tctildr-dl.c](#testunittctildr-dlc)
 
-### Makefile-test.am
-
-```
-
-{% raw %}
-421 | test_unit_tctildr_dl_LDFLAGS = -Wl,--wrap=dlopen,--wrap=dlclose,--wrap=dlsym \
-{% endraw %}
-
-```
-### CHANGELOG.md
-
-```
-
-{% raw %}
-233 | - Fixed leak of dlopen handle
-{% endraw %}
-
-```
-### configure.ac
-
-```
-
-{% raw %}
-218 |                               [link against TCTIs directly, do not use dlopen])],
-223 |       [AC_DEFINE([NO_DL],[1], [disable use of dlopen])])
-{% endraw %}
-
-```
 ### src/tss2-esys/esys_int.h
 
-```cpp
+```c
 
 {% raw %}
 174 |     void *dlhandle;              /**< The handle of dlopen if the tcti was
 {% endraw %}
 
 ```
-### src/tss2-tcti/tctildr-dl.c
-
-```cpp
-
-{% raw %}
-87 |     *handle = dlopen(file, RTLD_NOW);
-102 |     *handle = dlopen(file_xfrm, RTLD_NOW);
-117 |     *handle = dlopen(file_xfrm, RTLD_NOW);
-{% endraw %}
-
-```
-### man/Tss2_TctiLdr_Initialize.3.in
-
-```
-
-{% raw %}
-72 | .I dlopen
-{% endraw %}
-
-```
 ### test/unit/tctildr-dl.c
 
-```cpp
+```c
 
 {% raw %}
 38 | __wrap_dlopen(const char *filename, int flags)

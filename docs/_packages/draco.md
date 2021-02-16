@@ -8,21 +8,11 @@ languages: ['cpp']
 ## 7.6.0
 5 / 1182 files match
 
- - [src/shared_lib/Shared_Lib.hh](#srcshared_libshared_libhh)
  - [src/shared_lib/Shared_Lib.cc](#srcshared_libshared_libcc)
  - [src/shared_lib/dlfcn_support.hh](#srcshared_libdlfcn_supporthh)
  - [src/shared_lib/test/Foo_Base.hh](#srcshared_libtestfoo_basehh)
  - [src/shared_lib/test/Foo.hh](#srcshared_libtestfoohh)
 
-### src/shared_lib/Shared_Lib.hh
-
-```cpp
-
-{% raw %}
-128 |   // where this hack does not work don't support dlopen, anyway - lowrie
-{% endraw %}
-
-```
 ### src/shared_lib/Shared_Lib.cc
 
 ```cpp
@@ -37,10 +27,7 @@ languages: ['cpp']
 ```cpp
 
 {% raw %}
-16 | // This header isolates the use of the macro NO_DLOPEN for Shared_Lib.
-20 | #ifdef USE_DLOPEN
 40 | void *dlopen(const char * /*filename*/, int /*flag*/) {
-62 | #endif // USE_DLOPEN
 {% endraw %}
 
 ```

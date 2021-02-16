@@ -3,7 +3,7 @@ name: "keepalived"
 layout: package
 next_package: zfs
 previous_package: jimtcl
-languages: ['cpp']
+languages: ['c']
 ---
 ## 2.0.12
 3 / 286 files match
@@ -14,7 +14,7 @@ languages: ['cpp']
 
 ### keepalived/vrrp/vrrp_ipset.c
 
-```cpp
+```c
 
 {% raw %}
 285 | 	if (!(libipset_handle = dlopen("libipset.so", RTLD_NOW)) &&
@@ -24,7 +24,7 @@ languages: ['cpp']
 ```
 ### keepalived/vrrp/vrrp_iptables_calls.c
 
-```cpp
+```c
 
 {% raw %}
 416 | 	if (!(libxtables_handle = dlopen("libxtables.so", RTLD_NOW)) &&
@@ -38,7 +38,7 @@ languages: ['cpp']
 ```
 ### keepalived/core/libnl_link.c
 
-```cpp
+```c
 
 {% raw %}
 76 | 	if (!(libnl_handle = dlopen("libnl.so", RTLD_NOW)) &&

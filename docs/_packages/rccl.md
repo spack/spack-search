@@ -18,7 +18,6 @@ languages: ['cpp']
 
 {% raw %}
 72 |   void* netPluginLib = dlopen("libnccl-net.so", RTLD_NOW | RTLD_LOCAL);
-74 |     // dlopen does not guarantee to set errno, but dlerror only gives us a
 {% endraw %}
 
 ```

@@ -3,7 +3,7 @@ name: "rhash"
 layout: package
 next_package: hunspell
 previous_package: simgrid
-languages: ['cpp']
+languages: ['c']
 ---
 ## 1.3.5
 1 / 155 files match
@@ -12,7 +12,7 @@ languages: ['cpp']
 
 ### librhash/plug_openssl.c
 
-```cpp
+```c
 
 {% raw %}
 151 | 	void* handle = dlopen("libcrypto.so", RTLD_NOW);

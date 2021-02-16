@@ -3,7 +3,7 @@ name: "py-pyside"
 layout: package
 next_package: quota
 previous_package: gmap-gsnap
-languages: ['cpp']
+languages: ['c']
 ---
 ## 1.2.4
 1 / 2686 files match
@@ -12,7 +12,7 @@ languages: ['cpp']
 
 ### sources/patchelf/elf.h
 
-```cpp
+```c
 
 {% raw %}
 1607 | 					   by rld on dlopen() calls.  */

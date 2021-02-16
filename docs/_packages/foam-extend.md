@@ -3,7 +3,7 @@ name: "foam-extend"
 layout: package
 next_package: nnvm
 previous_package: libxprintapputil
-languages: ['cpp']
+languages: ['c']
 ---
 ## 4.0
 2 / 9931 files match
@@ -13,20 +13,16 @@ languages: ['cpp']
 
 ### src/OSspecific/MSWindows/MSwindows.C
 
-```cpp
+```c
 
 {% raw %}
-1271 | void* dlOpen(const fileName& libName, const bool check)
-1275 |         Info<< "dlOpen(const fileName&)"
-1302 |         WarningIn("dlOpen(const fileName&, const bool)")
 1303 |             << "dlopen error : " << MSwindows::getLastError()
-1309 |         Info<< "dlOpen(const fileName&)"
 {% endraw %}
 
 ```
 ### src/foam/db/dlLibraryTable/dlLibraryTable.C
 
-```cpp
+```c
 
 {% raw %}
 71 |             dlopen(functionLibName.c_str(), RTLD_LAZY|RTLD_GLOBAL);

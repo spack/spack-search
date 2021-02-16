@@ -3,7 +3,7 @@ name: "pythia8"
 layout: package
 next_package: masurca
 previous_package: dbus
-languages: ['cpp']
+languages: ['cpp', 'c']
 ---
 ## 8235
 2 / 661 files match
@@ -22,7 +22,7 @@ languages: ['cpp']
 ```
 ### include/Pythia8Plugins/PowhegProcs.h
 
-```cpp
+```c
 
 {% raw %}
 108 |   lib = dlopen(("libpythia8powheg" + proc + ".so").c_str(), RTLD_LAZY);

@@ -3,7 +3,7 @@ name: "jchronoss"
 layout: package
 next_package: php
 previous_package: xclock
-languages: ['cpp']
+languages: ['c']
 ---
 ## 1.2
 2 / 386 files match
@@ -13,7 +13,7 @@ languages: ['cpp']
 
 ### deps/libwebsockets/lib/libuv.c
 
-```cpp
+```c
 
 {% raw %}
 495 | 			if (uv_dlopen(path, &lib)) {
@@ -22,7 +22,7 @@ languages: ['cpp']
 ```
 ### deps/libwebsockets/lib/lws-plat-unix.c
 
-```cpp
+```c
 
 {% raw %}
 341 | 			l = dlopen(path, RTLD_NOW);

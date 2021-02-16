@@ -3,7 +3,7 @@ name: "netperf"
 layout: package
 next_package: hwloc
 previous_package: gasnet
-languages: ['cpp']
+languages: ['c']
 ---
 ## 2.6.0
 1 / 120 files match
@@ -12,7 +12,7 @@ languages: ['cpp']
 
 ### src/netsec_linux.c
 
-```cpp
+```c
 
 {% raw %}
 84 |   messiah = dlopen("libselinux.so", RTLD_LAZY);

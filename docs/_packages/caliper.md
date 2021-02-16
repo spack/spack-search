@@ -3,19 +3,18 @@ name: "caliper"
 layout: package
 next_package: libxfont
 previous_package: libtool
-languages: ['cpp']
+languages: ['c']
 ---
 ## master
 4 / 597 files match
 
  - [ext/gotcha/src/gotcha_dl.h](#extgotchasrcgotcha_dlh)
  - [ext/gotcha/src/gotcha_dl.c](#extgotchasrcgotcha_dlc)
- - [ext/gotcha/src/hash.c](#extgotchasrchashc)
  - [ext/gotcha/src/gotcha.c](#extgotchasrcgotchac)
 
 ### ext/gotcha/src/gotcha_dl.h
 
-```cpp
+```c
 
 {% raw %}
 10 | extern gotcha_wrappee_handle_t orig_dlopen_handle;
@@ -24,7 +23,7 @@ languages: ['cpp']
 ```
 ### ext/gotcha/src/gotcha_dl.c
 
-```cpp
+```c
 
 {% raw %}
 9 | gotcha_wrappee_handle_t orig_dlopen_handle;
@@ -40,18 +39,9 @@ languages: ['cpp']
 {% endraw %}
 
 ```
-### ext/gotcha/src/hash.c
-
-```cpp
-
-{% raw %}
-216 |    //idiom used under dlopen_wrapper.
-{% endraw %}
-
-```
 ### ext/gotcha/src/gotcha.c
 
-```cpp
+```c
 
 {% raw %}
 317 |            debug_printf(2, "Stashing %s in notfound_binding table to re-lookup on dlopens\n",

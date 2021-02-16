@@ -3,7 +3,7 @@ name: "multiverso"
 layout: package
 next_package: stinger
 previous_package: tfel
-languages: ['cpp']
+languages: ['c']
 ---
 ## 143187
 1 / 255 files match
@@ -12,7 +12,7 @@ languages: ['cpp']
 
 ### include/multiverso/net/mpi_net.h
 
-```cpp
+```c
 
 {% raw %}
 37 |   static void dlopen_libmpi()

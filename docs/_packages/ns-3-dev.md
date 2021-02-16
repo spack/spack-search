@@ -3,14 +3,13 @@ name: "ns-3-dev"
 layout: package
 next_package: rose
 previous_package: soci
-languages: ['cpp']
+languages: ['cpp', 'c']
 ---
 ## 3.30.1
 3 / 3342 files match
 
  - [src/internet/model/nsc-tcp-l4-protocol.cc](#srcinternetmodelnsc-tcp-l4-protocolcc)
  - [src/internet/model/nsc-tcp-l4-protocol.h](#srcinternetmodelnsc-tcp-l4-protocolh)
- - [src/internet/doc/tcp.rst](#srcinternetdoctcprst)
 
 ### src/internet/model/nsc-tcp-l4-protocol.cc
 
@@ -29,19 +28,10 @@ languages: ['cpp']
 ```
 ### src/internet/model/nsc-tcp-l4-protocol.h
 
-```cpp
+```c
 
 {% raw %}
 222 |   void *m_dlopenHandle; //!< dynamic library handle.
-{% endraw %}
-
-```
-### src/internet/doc/tcp.rst
-
-```
-
-{% raw %}
-1846 | Initialization, it loads an nsc network stack to use (via dlopen()). Each
 {% endraw %}
 
 ```

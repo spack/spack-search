@@ -3,7 +3,7 @@ name: "glew"
 layout: package
 next_package: py-pillow
 previous_package: paraview
-languages: ['cpp']
+languages: ['c']
 ---
 ## 2.1.0
 2 / 165 files match
@@ -13,7 +13,7 @@ languages: ['cpp']
 
 ### src/glew.c
 
-```cpp
+```c
 
 {% raw %}
 88 |     if ((h = dlopen(NULL, RTLD_LAZY | RTLD_LOCAL)) == NULL) return NULL;
@@ -23,7 +23,7 @@ languages: ['cpp']
 ```
 ### auto/src/glew_head.c
 
-```cpp
+```c
 
 {% raw %}
 56 |     if ((h = dlopen(NULL, RTLD_LAZY | RTLD_LOCAL)) == NULL) return NULL;

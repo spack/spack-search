@@ -3,7 +3,7 @@ name: "ibm-databroker"
 layout: package
 next_package: henson
 previous_package: buddy
-languages: ['cpp', 'python']
+languages: ['python', 'c']
 ---
 ## master
 3 / 245 files match
@@ -14,7 +14,7 @@ languages: ['cpp', 'python']
 
 ### src/lib/backend.c
 
-```cpp
+```c
 
 {% raw %}
 49 |     if( (be->_library = dlopen( to_str, RTLD_LAZY )) == NULL )
@@ -23,10 +23,9 @@ languages: ['cpp', 'python']
 ```
 ### src/util/dbrUtils.c
 
-```cpp
+```c
 
 {% raw %}
-92 |       // dlopen and load adapter symbol
 93 |       if( (gMain_context->_da_library = dlopen( to_str, RTLD_LAZY )) == NULL )
 {% endraw %}
 

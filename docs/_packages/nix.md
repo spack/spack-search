@@ -10,8 +10,6 @@ languages: ['cpp']
 
  - [src/libexpr/primops.cc](#srclibexprprimopscc)
  - [src/libstore/globals.cc](#srclibstoreglobalscc)
- - [doc/manual/expressions/language-values.xml](#docmanualexpressionslanguage-valuesxml)
- - [doc/manual/command-ref/conf-file.xml](#docmanualcommand-refconf-filexml)
 
 ### src/libexpr/primops.cc
 
@@ -28,24 +26,6 @@ languages: ['cpp']
 
 {% raw %}
 174 |                 dlopen(file.c_str(), RTLD_LAZY | RTLD_LOCAL);
-{% endraw %}
-
-```
-### doc/manual/expressions/language-values.xml
-
-```
-
-{% raw %}
-54 |   ${if openglSupport then "-dlopen-opengl
-{% endraw %}
-
-```
-### doc/manual/command-ref/conf-file.xml
-
-```
-
-{% raw %}
-530 |         files will be dlopened by Nix, allowing them to affect
 {% endraw %}
 
 ```

@@ -8,41 +8,9 @@ languages: ['cpp']
 ## 1.1
 5 / 1641 files match
 
- - [third_party/protobuf/src/solaris/libstdc++.la](#third_partyprotobufsrcsolarislibstdc++la)
- - [third_party/freebsd_elf/elf_common.h](#third_partyfreebsd_elfelf_commonh)
- - [third_party/abseil-cpp/absl/base/internal/thread_identity.cc](#third_partyabseil-cppabslbaseinternalthread_identitycc)
  - [third_party/abseil-cpp/absl/random/internal/randen_detect.cc](#third_partyabseil-cppabslrandominternalranden_detectcc)
  - [third_party/abseil-cpp/absl/time/internal/cctz/src/time_zone_lookup.cc](#third_partyabseil-cppabsltimeinternalcctzsrctime_zone_lookupcc)
 
-### third_party/protobuf/src/solaris/libstdc++.la
-
-```
-
-{% raw %}
-22 | # The name that we can dlopen(3).
-45 | # Files to dlopen/dlpreopen
-46 | dlopen=''
-{% endraw %}
-
-```
-### third_party/freebsd_elf/elf_common.h
-
-```cpp
-
-{% raw %}
-724 | #define	DF_1_NOOPEN     0x00000040	/* Do not allow loading on dlopen() */
-{% endraw %}
-
-```
-### third_party/abseil-cpp/absl/base/internal/thread_identity.cc
-
-```cpp
-
-{% raw %}
-51 | // exist within a process (via dlopen() or similar), references to
-{% endraw %}
-
-```
 ### third_party/abseil-cpp/absl/random/internal/randen_detect.cc
 
 ```cpp

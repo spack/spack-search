@@ -3,7 +3,7 @@ name: "exodusii"
 layout: package
 next_package: viennarna
 previous_package: gtkplus
-languages: ['cpp']
+languages: ['c']
 ---
 ## master
 1 / 5313 files match
@@ -12,12 +12,9 @@ languages: ['cpp']
 
 ### packages/seacas/libraries/ioss/src/visualization/Iovs_DatabaseIO.C
 
-```cpp
+```c
 
 {% raw %}
-36 | #ifdef IOSS_DLOPEN_ENABLED
-189 | #ifdef IOSS_DLOPEN_ENABLED
-238 | #ifdef IOSS_DLOPEN_ENABLED
 239 |     globalCatalystIossDlHandle = dlopen(plugin_library_path.c_str(), RTLD_NOW | RTLD_GLOBAL);
 {% endraw %}
 

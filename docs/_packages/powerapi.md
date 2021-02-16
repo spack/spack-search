@@ -3,7 +3,7 @@ name: "powerapi"
 layout: package
 next_package: ncbi-rmblastn
 previous_package: gtkmm
-languages: ['cpp']
+languages: ['cpp', 'c']
 ---
 ## 1.1.1
 2 / 246 files match
@@ -13,7 +13,7 @@ languages: ['cpp']
 
 ### src/pwr/pluginMeta.h
 
-```cpp
+```c
 
 {% raw %}
 28 |     	void* m_lib = dlopen( libName.c_str(), RTLD_LAZY);

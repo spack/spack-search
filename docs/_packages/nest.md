@@ -8,18 +8,8 @@ languages: ['python']
 ## 2.14.0
 2 / 1388 files match
 
- - [nestkernel/dynamicloader.cpp](#nestkerneldynamicloadercpp)
  - [pynest/nest/__init__.py](#pynestnest__init__py)
 
-### nestkernel/dynamicloader.cpp
-
-```
-
-{% raw %}
-185 |   const lt_dlhandle hModule = lt_dlopenext( new_module.name.c_str() );
-{% endraw %}
-
-```
 ### pynest/nest/__init__.py
 
 ```python

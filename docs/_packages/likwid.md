@@ -3,7 +3,7 @@ name: "likwid"
 layout: package
 next_package: llvm-openmp
 previous_package: libdmx
-languages: ['cpp']
+languages: ['c']
 ---
 ## 5.0.2
 14 / 1422 files match
@@ -15,7 +15,6 @@ languages: ['cpp']
  - [src/pthread-overload/pthread-overload.c](#srcpthread-overloadpthread-overloadc)
  - [ext/GOTCHA/src/gotcha_dl.h](#extgotchasrcgotcha_dlh)
  - [ext/GOTCHA/src/gotcha_dl.c](#extgotchasrcgotcha_dlc)
- - [ext/GOTCHA/src/hash.c](#extgotchasrchashc)
  - [ext/GOTCHA/src/gotcha.c](#extgotchasrcgotchac)
  - [ext/hwloc/include/hwloc/plugins.h](#exthwlocincludehwlocpluginsh)
  - [ext/hwloc/hwloc/components.c](#exthwlochwloccomponentsc)
@@ -25,7 +24,7 @@ languages: ['cpp']
 
 ### src/topology_gpu.c
 
-```cpp
+```c
 
 {% raw %}
 110 |     topo_dl_libcuda = dlopen("libcuda.so", RTLD_NOW | RTLD_GLOBAL);
@@ -35,7 +34,7 @@ languages: ['cpp']
 ```
 ### src/includes/likwid.h
 
-```cpp
+```c
 
 {% raw %}
 2081 | The CUDA and CUPTI library paths need to be in LD_LIBRARY_PATH to be found by dlopen.
@@ -44,7 +43,7 @@ languages: ['cpp']
 ```
 ### src/includes/nvmon_cupti.h
 
-```cpp
+```c
 
 {% raw %}
 126 |     dl_libcuda = dlopen("libcuda.so", RTLD_NOW | RTLD_GLOBAL);
@@ -55,7 +54,7 @@ languages: ['cpp']
 ```
 ### src/includes/nvmon_perfworks.h
 
-```cpp
+```c
 
 {% raw %}
 95 |     perfw_dl_libcuda = dlopen("libcuda.so", RTLD_NOW | RTLD_GLOBAL);
@@ -67,7 +66,7 @@ languages: ['cpp']
 ```
 ### src/pthread-overload/pthread-overload.c
 
-```cpp
+```c
 
 {% raw %}
 224 |         handle = dlopen(sosearchpaths[reallpthrindex], RTLD_LAZY);
@@ -76,7 +75,7 @@ languages: ['cpp']
 ```
 ### ext/GOTCHA/src/gotcha_dl.h
 
-```cpp
+```c
 
 {% raw %}
 10 | extern gotcha_wrappee_handle_t orig_dlopen_handle;
@@ -85,7 +84,7 @@ languages: ['cpp']
 ```
 ### ext/GOTCHA/src/gotcha_dl.c
 
-```cpp
+```c
 
 {% raw %}
 9 | gotcha_wrappee_handle_t orig_dlopen_handle;
@@ -101,18 +100,9 @@ languages: ['cpp']
 {% endraw %}
 
 ```
-### ext/GOTCHA/src/hash.c
-
-```cpp
-
-{% raw %}
-216 |    //idiom used under dlopen_wrapper.
-{% endraw %}
-
-```
 ### ext/GOTCHA/src/gotcha.c
 
-```cpp
+```c
 
 {% raw %}
 317 |            debug_printf(2, "Stashing %s in notfound_binding table to re-lookup on dlopens\n",
@@ -121,37 +111,34 @@ languages: ['cpp']
 ```
 ### ext/hwloc/include/hwloc/plugins.h
 
-```cpp
+```c
 
 {% raw %}
-408 |  * loaded hwloc (e.g. OpenCL implementations using dlopen with RTLD_LAZY).
 422 |   handle = lt_dlopen(NULL);
 {% endraw %}
 
 ```
 ### ext/hwloc/hwloc/components.c
 
-```cpp
+```c
 
 {% raw %}
-99 |   /* dlopen and get the component structure */
 100 |   handle = lt_dlopenext(filename);
 {% endraw %}
 
 ```
 ### ext/lua/src/loadlib.c
 
-```cpp
+```c
 
 {% raw %}
-126 | #if defined(LUA_USE_DLOPEN)	/* { */
 156 |   void *lib = dlopen(path, RTLD_NOW | (seeglb ? RTLD_GLOBAL : RTLD_LOCAL));
 {% endraw %}
 
 ```
 ### bench/src/ptt2asm.c
 
-```cpp
+```c
 
 {% raw %}
 561 |     testcase->dlhandle = dlopen(bdata(location), RTLD_LAZY);
@@ -160,7 +147,7 @@ languages: ['cpp']
 ```
 ### bench/includes/likwid.h
 
-```cpp
+```c
 
 {% raw %}
 2081 | The CUDA and CUPTI library paths need to be in LD_LIBRARY_PATH to be found by dlopen.

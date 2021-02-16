@@ -3,7 +3,7 @@ name: "py-shiboken"
 layout: package
 next_package: tcsh
 previous_package: py-tables
-languages: ['cpp']
+languages: ['c']
 ---
 ## 1.2.2
 1 / 637 files match
@@ -12,7 +12,7 @@ languages: ['cpp']
 
 ### sources/patchelf/elf.h
 
-```cpp
+```c
 
 {% raw %}
 1607 | 					   by rld on dlopen() calls.  */

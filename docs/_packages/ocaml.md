@@ -3,7 +3,7 @@ name: "ocaml"
 layout: package
 next_package: poppler
 previous_package: php
-languages: ['cpp']
+languages: ['c']
 ---
 ## 4.03.0
 6 / 2293 files match
@@ -17,13 +17,12 @@ languages: ['cpp']
 
 ### byterun/unix.c
 
-```cpp
+```c
 
 {% raw %}
 215 | void * caml_dlopen(char * libname, int for_execution, int global)
 219 |   return flexdll_dlopen(libname, flags);
 234 |   return flexdll_dlsym(flexdll_dlopen(NULL,0), name);
-243 | /* Use normal dlopen */
 255 | void * caml_dlopen(char * libname, int for_execution, int global)
 257 |   return dlopen(libname, RTLD_NOW | (global ? RTLD_GLOBAL : RTLD_LOCAL)
 294 | void * caml_dlopen(char * libname, int for_execution, int global)
@@ -32,7 +31,7 @@ languages: ['cpp']
 ```
 ### byterun/win32.c
 
-```cpp
+```c
 
 {% raw %}
 198 | void * caml_dlopen(char * libname, int for_execution, int global)
@@ -44,18 +43,17 @@ languages: ['cpp']
 ```
 ### byterun/dynlink.c
 
-```cpp
+```c
 
 {% raw %}
 125 |   handle = caml_dlopen(realname, 1, 1);
-201 | /** dlopen interface for the bytecode linker **/
 215 |   handle = caml_dlopen(p, Int_val(mode), 1);
 {% endraw %}
 
 ```
 ### byterun/caml/osdeps.h
 
-```cpp
+```c
 
 {% raw %}
 62 | extern void * caml_dlopen(char * libname, int for_execution, int global);
@@ -64,7 +62,7 @@ languages: ['cpp']
 ```
 ### config/s-templ.h
 
-```cpp
+```c
 
 {% raw %}
 52 |    via dlopen() is available. */
@@ -73,7 +71,7 @@ languages: ['cpp']
 ```
 ### asmrun/natdynlink.c
 
-```cpp
+```c
 
 {% raw %}
 62 |   handle = caml_dlopen(p, 1, Int_val(global));

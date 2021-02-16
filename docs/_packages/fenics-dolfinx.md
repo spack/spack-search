@@ -17,9 +17,7 @@ languages: ['python']
 
 {% raw %}
 11 | stored_dlopen_flags = sys.getdlopenflags()
-14 | # Fix dlopen flags (may need reorganising)
 22 |     sys.setdlopenflags(RTLD_NOW | RTLD_GLOBAL)
-26 | # sys.setdlopenflags(stored_dlopen_flags)
 {% endraw %}
 
 ```

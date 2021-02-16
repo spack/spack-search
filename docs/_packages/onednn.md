@@ -3,7 +3,7 @@ name: "onednn"
 layout: package
 next_package: py-pybind11
 previous_package: dcap
-languages: ['cpp']
+languages: ['c']
 ---
 ## 1.6.5
 3 / 1404 files match
@@ -14,7 +14,7 @@ languages: ['cpp']
 
 ### src/cpu/x64/jit_utils/jitprofiling/jitprofiling.c
 
-```cpp
+```c
 
 {% raw %}
 232 |         m_libHandle = dlopen(dllName, RTLD_LAZY);
@@ -24,19 +24,17 @@ languages: ['cpp']
 ```
 ### src/cpu/x64/jit_utils/jitprofiling/ittnotify_config.h
 
-```cpp
+```c
 
 {% raw %}
-302 | #define __itt_load_lib(name)      dlopen(name, RTLD_LAZY)
 353 | void* dlopen(const char*, int) __attribute__((weak));
 357 | void* dlopen(const char*, int);
-361 | #define DL_SYMBOLS (dlopen && dlsym && dlclose)
 {% endraw %}
 
 ```
 ### src/cpu/x64/xbyak/xbyak_util.h
 
-```cpp
+```c
 
 {% raw %}
 854 | 			dlopen("dummy", RTLD_LAZY); // force to load dlopen to enable jit profiling

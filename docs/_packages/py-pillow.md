@@ -3,7 +3,7 @@ name: "py-pillow"
 layout: package
 next_package: herwig3
 previous_package: glew
-languages: ['cpp']
+languages: ['c']
 ---
 ## 6.2.0
 2 / 1062 files match
@@ -13,7 +13,7 @@ languages: ['cpp']
 
 ### src/_imagingft.c
 
-```cpp
+```c
 
 {% raw %}
 158 |     p_raqm.raqm = dlopen("libraqm.so.0", RTLD_LAZY);
@@ -23,10 +23,9 @@ languages: ['cpp']
 ```
 ### src/Tk/tkImaging.c
 
-```cpp
+```c
 
 {% raw %}
-355 | /* From module __file__ attribute to char *string for dlopen. */
 431 |     main_program = dlopen(NULL, RTLD_LAZY);
 452 |     tkinter_lib = dlopen(tkinter_libname, RTLD_LAZY);
 455 |                 "Cannot dlopen tkinter module file");

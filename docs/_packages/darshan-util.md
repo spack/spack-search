@@ -8,18 +8,8 @@ languages: ['python']
 ## develop
 2 / 409 files match
 
- - [darshan-util/pydarshan/examples/99_darshan-low-level-direct-libdarshanutils-interaction.ipynb](#darshan-utilpydarshanexamples99_darshan-low-level-direct-libdarshanutils-interactionipynb)
  - [darshan-util/pydarshan/darshan/discover_darshan.py](#darshan-utilpydarshandarshandiscover_darshanpy)
 
-### darshan-util/pydarshan/examples/99_darshan-low-level-direct-libdarshanutils-interaction.ipynb
-
-```
-
-{% raw %}
-76 |     "libdutil = ffi.dlopen(\"libdarshan-util.so\")"
-{% endraw %}
-
-```
 ### darshan-util/pydarshan/darshan/discover_darshan.py
 
 ```python

@@ -3,7 +3,7 @@ name: "pandaseq"
 layout: package
 next_package: libmaus2
 previous_package: bmi
-languages: ['cpp']
+languages: ['c']
 ---
 ## 2.10
 1 / 115 files match
@@ -12,7 +12,7 @@ languages: ['cpp']
 
 ### module.c
 
-```cpp
+```c
 
 {% raw %}
 253 | 	handle = lt_dlopenext(name);

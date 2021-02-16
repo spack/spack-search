@@ -70,9 +70,8 @@ cd docs
 ```
 
 This is my preferred way to build so I can see if any files are taking too much time
-(or if it hangs, inspect the largest file for the letter being processed). In practice
-this came down to just one package that was mostly javascript. The other approach is 
-(when you know that the build is reasonable to do) you can just
+(or if it hangs, inspect the largest file for the letter being processed). 
+The other approach is  (when you know that the build is reasonable to do) you can just
 move all files into the `_packages` folder and build / server:
 
 ```bash

@@ -3,7 +3,7 @@ name: "ipcalc"
 layout: package
 next_package: libxau
 previous_package: mariadb
-languages: ['cpp']
+languages: ['c']
 ---
 ## 0.2.3
 1 / 30 files match
@@ -12,7 +12,7 @@ languages: ['cpp']
 
 ### ipcalc-geoip.c
 
-```cpp
+```c
 
 {% raw %}
 76 | 	ld = dlopen(LIBNAME, RTLD_LAZY);

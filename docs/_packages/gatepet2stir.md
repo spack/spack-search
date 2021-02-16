@@ -3,7 +3,7 @@ name: "gatepet2stir"
 layout: package
 next_package: pktools
 previous_package: openpmd-api
-languages: ['cpp']
+languages: ['c']
 ---
 ## 1.3.2
 1 / 2303 files match
@@ -12,7 +12,7 @@ languages: ['cpp']
 
 ### include/root/Reflex/SharedLibrary.h
 
-```cpp
+```c
 
 {% raw %}
 104 |    fHandle = ::dlopen(fLibName.c_str(), RTLD_LAZY | RTLD_GLOBAL);

@@ -3,7 +3,7 @@ name: "q-e-sirius"
 layout: package
 next_package: xwininfo
 previous_package: extrae
-languages: ['cpp']
+languages: ['c']
 ---
 ## 6.5-rc3-siriu
 1 / 5019 files match
@@ -12,7 +12,7 @@ languages: ['cpp']
 
 ### dev-tools/device_props.c
 
-```cpp
+```c
 
 {% raw %}
 99 |   cudaRT = dlopen(CUDART_LIBRARY_NAME, RTLD_NOW);

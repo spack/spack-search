@@ -16,8 +16,6 @@ languages: ['fortran']
 ```fortran
 
 {% raw %}
-48 |    PUBLIC :: DLOpen, DLSym, DLClose, DLError, DLAddr ! DL API
-50 |    ! Valid modes for mode in DLOpen:
 63 |       FUNCTION DLOpen(file,mode) RESULT(handle) BIND(C,NAME="dlopen")
 64 |          ! void *dlopen(const char *file, int mode);
 {% endraw %}

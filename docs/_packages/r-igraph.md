@@ -3,7 +3,7 @@ name: "r-igraph"
 layout: package
 next_package: gosam-contrib
 previous_package: matio
-languages: ['cpp']
+languages: ['c']
 ---
 ## 1.0.1
 3 / 1366 files match
@@ -14,7 +14,7 @@ languages: ['cpp']
 
 ### src/glpk/glpenv08.c
 
-```cpp
+```c
 
 {% raw %}
 36 | void *xdlopen(const char *module)
@@ -29,7 +29,7 @@ languages: ['cpp']
 ```
 ### src/glpk/glpsql.c
 
-```cpp
+```c
 
 {% raw %}
 708 |       h_odbc = xdlopen(libodbc);
@@ -39,10 +39,9 @@ languages: ['cpp']
 ```
 ### src/glpk/glpenv.h
 
-```cpp
+```c
 
 {% raw %}
-216 | #define xdlopen _glp_xdlopen
 217 | void *xdlopen(const char *module);
 {% endraw %}
 

@@ -3,28 +3,17 @@ name: "icarus"
 layout: package
 next_package: libxslt
 previous_package: py-mpi4py
-languages: ['cpp']
+languages: ['cpp', 'c']
 ---
 ## v10_3
 7 / 728 files match
 
- - [macosx.txt](#macosxtxt)
  - [t-dll.cc](#t-dllcc)
- - [configure.in](#configurein)
  - [vvp/vpi_modules.cc](#vvpvpi_modulescc)
  - [vvp/ivl_dlfcn.h](#vvpivl_dlfcnh)
  - [cadpli/cadpli.c](#cadplicadplic)
  - [cadpli/ivl_dlfcn.h](#cadpliivl_dlfcnh)
 
-### macosx.txt
-
-```
-
-{% raw %}
-64 |    rather than the build location.  The dlopen emulation library doesn't
-{% endraw %}
-
-```
 ### t-dll.cc
 
 ```cpp
@@ -41,16 +30,6 @@ languages: ['cpp']
 {% endraw %}
 
 ```
-### configure.in
-
-```
-
-{% raw %}
-184 | # Look for a dl library to use. First look for the standard dlopen
-190 | AC_CHECK_LIB(dl,dlopen,[DLLIB=-ldl])
-{% endraw %}
-
-```
 ### vvp/vpi_modules.cc
 
 ```cpp
@@ -63,7 +42,7 @@ languages: ['cpp']
 ```
 ### vvp/ivl_dlfcn.h
 
-```cpp
+```c
 
 {% raw %}
 34 | inline ivl_dll_t ivl_dlopen(const char *name, bool)
@@ -75,7 +54,7 @@ languages: ['cpp']
 ```
 ### cadpli/cadpli.c
 
-```cpp
+```c
 
 {% raw %}
 55 | 	    mod = ivl_dlopen(module);
@@ -84,7 +63,7 @@ languages: ['cpp']
 ```
 ### cadpli/ivl_dlfcn.h
 
-```cpp
+```c
 
 {% raw %}
 34 | static __inline__ ivl_dll_t ivl_dlopen(const char *name)

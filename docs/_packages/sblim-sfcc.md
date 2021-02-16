@@ -3,7 +3,7 @@ name: "sblim-sfcc"
 layout: package
 next_package: re2c
 previous_package: stat
-languages: ['cpp']
+languages: ['c']
 ---
 ## 2_2_6
 1 / 167 files match
@@ -12,7 +12,7 @@ languages: ['cpp']
 
 ### cimc/cimcclient.c
 
-```cpp
+```c
 
 {% raw %}
 44 |          would be a good idea, so we could allow for dlopening different

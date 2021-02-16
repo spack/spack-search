@@ -3,7 +3,7 @@ name: "fakexrandr"
 layout: package
 next_package: polymake
 previous_package: r
-languages: ['cpp']
+languages: ['c']
 ---
 ## master
 1 / 16 files match
@@ -12,7 +12,7 @@ languages: ['cpp']
 
 ### libXrandr.c
 
-```cpp
+```c
 
 {% raw %}
 431 | 	void *xrandr_lib = dlopen(REAL_XRANDR_LIB, RTLD_LAZY | RTLD_GLOBAL);

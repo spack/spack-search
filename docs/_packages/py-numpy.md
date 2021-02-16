@@ -3,7 +3,7 @@ name: "py-numpy"
 layout: package
 next_package: osu-micro-benchmarks
 previous_package: py-iminuit
-languages: ['cpp']
+languages: ['c']
 ---
 ## 1.10.4
 1 / 1215 files match
@@ -12,7 +12,7 @@ languages: ['cpp']
 
 ### numpy/_build_utils/src/apple_sgemv_fix.c
 
-```cpp
+```c
 
 {% raw %}
 96 |     veclib = dlopen(VECLIB_FILE, RTLD_LOCAL | RTLD_FIRST);

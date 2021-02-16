@@ -3,7 +3,7 @@ name: "qemu"
 layout: package
 next_package: swig
 previous_package: openssl
-languages: ['cpp']
+languages: ['c']
 ---
 ## 1.4.0
 4 / 5228 files match
@@ -11,11 +11,10 @@ languages: ['cpp']
  - [roms/seabios/tools/kconfig/kconfig_load.c](#romsseabiostoolskconfigkconfig_loadc)
  - [roms/openbios/arch/unix/plugins.c](#romsopenbiosarchunixpluginsc)
  - [roms/openbios/arch/unix/plugins/loader.c](#romsopenbiosarchunixpluginsloaderc)
- - [roms/openbios/Documentation/kernel/Changelog.stepan](#romsopenbiosdocumentationkernelchangelogstepan)
 
 ### roms/seabios/tools/kconfig/kconfig_load.c
 
-```cpp
+```c
 
 {% raw %}
 15 | 	handle = dlopen("./libkconfig.so", RTLD_LAZY);
@@ -25,7 +24,7 @@ languages: ['cpp']
 ```
 ### roms/openbios/arch/unix/plugins.c
 
-```cpp
+```c
 
 {% raw %}
 126 | 	handle = dlopen(path, RTLD_LAZY | RTLD_GLOBAL);
@@ -34,19 +33,10 @@ languages: ['cpp']
 ```
 ### roms/openbios/arch/unix/plugins/loader.c
 
-```cpp
+```c
 
 {% raw %}
 119 | 	handle = dlopen(path, RTLD_LAZY | RTLD_GLOBAL);
-{% endraw %}
-
-```
-### roms/openbios/Documentation/kernel/Changelog.stepan
-
-```
-
-{% raw %}
-240 |  - check whether dlopen() needs libdl.
 {% endraw %}
 
 ```

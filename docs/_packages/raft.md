@@ -3,7 +3,7 @@ name: "raft"
 layout: package
 next_package: lighttpd
 previous_package: zsh
-languages: ['cpp']
+languages: ['c']
 ---
 ## develop
 1 / 112 files match
@@ -12,10 +12,9 @@ languages: ['cpp']
 
 ### src/common/inc/cuda_drvapi_dynlink.c
 
-```cpp
+```c
 
 {% raw %}
-252 |     *pInstance = dlopen(__CudaLibName, RTLD_NOW);
 256 |         printf("dlopen \"%s\" failed!\n", __CudaLibName);
 {% endraw %}
 
