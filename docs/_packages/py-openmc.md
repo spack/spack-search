@@ -6,7 +6,7 @@ previous_package: libxau
 languages: ['python', 'c']
 ---
 ## develop
-9 / 1244 files match
+9 / 1244 files match, 4 filtered matches.
 
  - [include/openmc/source.h](#includeopenmcsourceh)
  - [tests/unit_tests/test_source.py](#testsunit_teststest_sourcepy)

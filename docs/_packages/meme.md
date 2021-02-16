@@ -6,7 +6,7 @@ previous_package: libpthread-stubs
 languages: ['c']
 ---
 ## 4.11.4
-5 / 1804 files match
+5 / 1804 files match, 1 filtered matches.
 
  - [src/libxml2/xmlmodule.c](#srclibxml2xmlmodulec)
 

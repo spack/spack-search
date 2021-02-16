@@ -6,7 +6,7 @@ previous_package: py-exodus-bundler
 languages: ['c']
 ---
 ## 6.9.0
-15 / 4475 files match
+15 / 4475 files match, 4 filtered matches.
 
  - [src/util/ckdll_dlopen.C](#srcutilckdll_dlopenc)
  - [tests/ampi/privatization/test-cxx.C](#testsampiprivatizationtest-cxxc)

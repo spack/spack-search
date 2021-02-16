@@ -6,7 +6,7 @@ previous_package: samrai
 languages: ['c']
 ---
 ## 1.2.3.2
-22 / 388 files match
+22 / 388 files match, 17 filtered matches.
 
  - [src/dlmisc.c](#srcdlmiscc)
  - [src/conf.c](#srcconfc)

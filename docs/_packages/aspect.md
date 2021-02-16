@@ -6,7 +6,7 @@ previous_package: julia
 languages: ['cpp']
 ---
 ## 2.0.0
-2 / 1995 files match
+2 / 1995 files match, 1 filtered matches.
 
  - [source/main.cc](#sourcemaincc)
 

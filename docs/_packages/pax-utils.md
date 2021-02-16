@@ -6,7 +6,7 @@ previous_package: py-quast
 languages: ['c']
 ---
 ## 1.2.2
-8 / 385 files match
+8 / 385 files match, 1 filtered matches.
 
  - [elf.h](#elfh)
 

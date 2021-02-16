@@ -6,7 +6,7 @@ previous_package: activeharmony
 languages: ['c']
 ---
 ## 5.0.3
-2 / 3540 files match
+2 / 3540 files match, 1 filtered matches.
 
  - [src/libs/zbxmodules/modules.c](#srclibszbxmodulesmodulesc)
 

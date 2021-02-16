@@ -6,7 +6,7 @@ previous_package: iproute2
 languages: ['c']
 ---
 ## 1.3a2
-13 / 1152 files match
+13 / 1152 files match, 6 filtered matches.
 
  - [deps/libuv/src/win/dl.c](#depslibuvsrcwindlc)
  - [deps/libuv/src/unix/darwin-proctitle.c](#depslibuvsrcunixdarwin-proctitlec)

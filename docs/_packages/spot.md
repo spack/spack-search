@@ -6,7 +6,7 @@ previous_package: ding-libs
 languages: ['cpp', 'c']
 ---
 ## 1.2.6
-23 / 4036 files match
+23 / 4036 files match, 7 filtered matches.
 
  - [iface/dve2/dve2.cc](#ifacedve2dve2cc)
  - [ltdl/ltdl.h](#ltdlltdlh)

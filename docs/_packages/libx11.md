@@ -6,7 +6,7 @@ previous_package: py-or-tools
 languages: ['c']
 ---
 ## 1.6.5
-9 / 1605 files match
+9 / 1605 files match, 4 filtered matches.
 
  - [src/locking.c](#srclockingc)
  - [src/CrGlCur.c](#srccrglcurc)

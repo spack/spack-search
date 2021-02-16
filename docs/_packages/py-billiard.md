@@ -6,7 +6,7 @@ previous_package: py-fenics-dolfinx
 languages: ['python']
 ---
 ## 3.6.0.0
-1 / 70 files match
+1 / 70 files match, 1 filtered matches.
 
  - [billiard/util.py](#billiardutilpy)
 

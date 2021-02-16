@@ -6,7 +6,7 @@ previous_package: cubew
 languages: ['cpp', 'c']
 ---
 ## 10.1.23
-30 / 20399 files match
+30 / 20399 files match, 12 filtered matches.
 
  - [storage/connect/ha_connect.cc](#storageconnectha_connectcc)
  - [storage/connect/mycat.cc](#storageconnectmycatcc)

@@ -6,7 +6,7 @@ previous_package: opari2
 languages: ['c']
 ---
 ## 6.4
-1 / 4877 files match
+1 / 4877 files match, 1 filtered matches.
 
  - [dev-tools/device_props.c](#dev-toolsdevice_propsc)
 

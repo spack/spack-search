@@ -6,7 +6,7 @@ previous_package: g2o
 languages: ['c']
 ---
 ## 1.6.1
-3 / 4299 files match
+3 / 4299 files match, 2 filtered matches.
 
  - [src/external/sqlite-3.8.7.1/sqlite3.c](#srcexternalsqlite-3871sqlite3c)
  - [src/external/lua-5.1.5/src/loadlib.c](#srcexternallua-515srcloadlibc)

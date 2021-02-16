@@ -6,7 +6,7 @@ previous_package: grib-api
 languages: ['c']
 ---
 ## 6.5
-13 / 391 files match
+13 / 391 files match, 8 filtered matches.
 
  - [libltdl/ltdl.h](#libltdlltdlh)
  - [libltdl/ltdl.c](#libltdlltdlc)

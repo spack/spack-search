@@ -6,7 +6,7 @@ previous_package: ascent
 languages: ['c']
 ---
 ## 2017-04-28
-1 / 165 files match
+1 / 165 files match, 1 filtered matches.
 
  - [ptl_ips/ips_opp_path_rec.c](#ptl_ipsips_opp_path_recc)
 

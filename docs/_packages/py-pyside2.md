@@ -6,7 +6,7 @@ previous_package: cbc
 languages: ['c']
 ---
 ## 5.13.1
-1 / 2624 files match
+1 / 2624 files match, 1 filtered matches.
 
  - [sources/patchelf/elf.h](#sourcespatchelfelfh)
 

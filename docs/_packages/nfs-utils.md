@@ -6,7 +6,7 @@ previous_package: gchp
 languages: ['c']
 ---
 ## 2.4.1
-5 / 387 files match
+5 / 387 files match, 1 filtered matches.
 
  - [support/nfsidmap/libnfsidmap.c](#supportnfsidmaplibnfsidmapc)
 

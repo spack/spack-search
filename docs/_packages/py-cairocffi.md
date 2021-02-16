@@ -6,7 +6,7 @@ previous_package: sst-transports
 languages: ['python']
 ---
 ## 1.0.2
-2 / 20 files match
+2 / 20 files match, 2 filtered matches.
 
  - [cairocffi/__init__.py](#cairocffi__init__py)
  - [cairocffi/pixbuf.py](#cairocffipixbufpy)

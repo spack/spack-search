@@ -6,7 +6,7 @@ previous_package: at-spi2-atk
 languages: ['c']
 ---
 ## 1.0.40
-1 / 108 files match
+1 / 108 files match, 1 filtered matches.
 
  - [src/ini_file_reader.c](#srcini_file_readerc)
 

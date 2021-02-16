@@ -6,7 +6,7 @@ previous_package: perl
 languages: ['c']
 ---
 ## 1.18.99.901
-9 / 1773 files match
+9 / 1773 files match, 3 filtered matches.
 
  - [hw/xquartz/GL/indirect.c](#hwxquartzglindirectc)
  - [hw/xfree86/loader/loader.c](#hwxfree86loaderloaderc)

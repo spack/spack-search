@@ -6,7 +6,7 @@ previous_package: fastdb
 languages: ['c']
 ---
 ## 0.180
-9 / 1398 files match
+9 / 1398 files match, 3 filtered matches.
 
  - [libelf/elf.h](#libelfelfh)
  - [src/elfclassify.c](#srcelfclassifyc)

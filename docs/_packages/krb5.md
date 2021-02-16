@@ -6,7 +6,7 @@ previous_package: geopm
 languages: ['c']
 ---
 ## 1.16.2
-7 / 4638 files match
+7 / 4638 files match, 4 filtered matches.
 
  - [src/lib/gssapi/mechglue/g_initialize.c](#srclibgssapimechglueg_initializec)
  - [src/tests/shlib/t_loader.c](#srctestsshlibt_loaderc)

@@ -6,7 +6,7 @@ previous_package: libnbc
 languages: ['c']
 ---
 ## 5.14.0
-19 / 4022 files match
+19 / 4022 files match, 4 filtered matches.
 
  - [src/ltdl_win32.c](#srcltdl_win32c)
  - [src/plcore.c](#srcplcorec)

@@ -6,7 +6,7 @@ previous_package: libmad
 languages: ['c']
 ---
 ## 2.1.0
-1 / 115 files match
+1 / 115 files match, 1 filtered matches.
 
  - [src/vendor/sqlite3/sqlite3.c](#srcvendorsqlite3sqlite3c)
 

@@ -6,7 +6,7 @@ previous_package: cln
 languages: ['c']
 ---
 ## 9.27
-19 / 4764 files match
+19 / 4764 files match, 4 filtered matches.
 
  - [base/gp_unix.c](#basegp_unixc)
  - [base/memento.c](#basemementoc)

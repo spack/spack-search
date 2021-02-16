@@ -6,7 +6,7 @@ previous_package: osi
 languages: ['c']
 ---
 ## 2.4.6
-49 / 327 files match
+49 / 327 files match, 6 filtered matches.
 
  - [libltdl/ltdl.h](#libltdlltdlh)
  - [libltdl/ltdl.c](#libltdlltdlc)

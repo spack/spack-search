@@ -6,7 +6,7 @@ previous_package: llvm-amdgpu
 languages: ['c']
 ---
 ## 1.16.1
-1 / 875 files match
+1 / 875 files match, 1 filtered matches.
 
  - [src/libxsmm_malloc.c](#srclibxsmm_mallocc)
 

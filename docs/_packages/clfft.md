@@ -6,7 +6,7 @@ previous_package: gdk-pixbuf
 languages: ['c']
 ---
 ## 2.12.2
-3 / 159 files match
+3 / 159 files match, 1 filtered matches.
 
  - [src/include/sharedLibrary.h](#srcincludesharedlibraryh)
 

@@ -6,7 +6,7 @@ previous_package: rocksdb
 languages: ['c']
 ---
 ## 1.87
-2 / 610 files match
+2 / 610 files match, 1 filtered matches.
 
  - [test/cfg/posix.c](#testcfgposixc)
 

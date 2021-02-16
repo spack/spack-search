@@ -6,7 +6,7 @@ previous_package: krb5
 languages: ['python']
 ---
 ## 0.740
-2 / 1601 files match
+2 / 1601 files match, 2 filtered matches.
 
  - [mypy/typeshed/stdlib/3/sys.pyi](#mypytypeshedstdlib3syspyi)
  - [mypy/typeshed/stdlib/2/sys.pyi](#mypytypeshedstdlib2syspyi)

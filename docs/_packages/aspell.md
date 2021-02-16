@@ -6,7 +6,7 @@ previous_package: perl-dbd-sqlite
 languages: ['c']
 ---
 ## 0.60.6.1
-35 / 535 files match
+35 / 535 files match, 1 filtered matches.
 
  - [interfaces/cc/aspell.h](#interfacesccaspellh)
 

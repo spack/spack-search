@@ -6,7 +6,7 @@ previous_package: hadoop
 languages: ['python', 'c']
 ---
 ## 6.22.06
-26 / 18941 files match
+26 / 18941 files match, 7 filtered matches.
 
  - [interpreter/llvm/src/lib/ExecutionEngine/IntelJITEvents/jitprofiling.c](#interpreterllvmsrclibexecutionengineinteljiteventsjitprofilingc)
  - [bindings/pyroot/pythonizations/python/ROOT/_numbadeclare.py](#bindingspyrootpythonizationspythonroot_numbadeclarepy)

@@ -6,7 +6,7 @@ previous_package: jq
 languages: ['c']
 ---
 ## 5.4.2
-4 / 446 files match
+4 / 446 files match, 1 filtered matches.
 
  - [Src/module.c](#srcmodulec)
 

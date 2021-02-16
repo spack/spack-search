@@ -6,7 +6,7 @@ previous_package: libxshmfence
 languages: ['c']
 ---
 ## master
-7 / 308 files match
+7 / 308 files match, 2 filtered matches.
 
  - [src/hwloc/include/hwloc/plugins.h](#srchwlocincludehwlocpluginsh)
  - [src/hwloc/hwloc/components.c](#srchwlochwloccomponentsc)

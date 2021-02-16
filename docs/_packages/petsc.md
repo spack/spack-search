@@ -6,7 +6,7 @@ previous_package: fipscheck
 languages: ['python', 'c']
 ---
 ## 3.10.0
-6 / 14638 files match
+6 / 14638 files match, 5 filtered matches.
 
  - [config/PETSc/Configure.py](#configpetscconfigurepy)
  - [config/BuildSystem/config/compilers.py](#configbuildsystemconfigcompilerspy)

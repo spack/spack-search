@@ -6,7 +6,7 @@ previous_package: moab
 languages: ['cpp']
 ---
 ## 2.2.1
-4 / 700 files match
+4 / 700 files match, 2 filtered matches.
 
  - [src/libexpr/primops.cc](#srclibexprprimopscc)
  - [src/libstore/globals.cc](#srclibstoreglobalscc)

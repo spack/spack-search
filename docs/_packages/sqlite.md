@@ -6,7 +6,7 @@ previous_package: argtable
 languages: ['c']
 ---
 ## 3.27.1
-4 / 29 files match
+4 / 29 files match, 1 filtered matches.
 
  - [sqlite3.c](#sqlite3c)
 

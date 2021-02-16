@@ -6,7 +6,7 @@ previous_package: wonton
 languages: ['c']
 ---
 ## 4.9.10
-5 / 50920 files match
+5 / 50920 files match, 2 filtered matches.
 
  - [tools/lib/traceevent/event-plugin.c](#toolslibtraceeventevent-pluginc)
  - [tools/perf/ui/setup.c](#toolsperfuisetupc)

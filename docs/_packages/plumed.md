@@ -6,7 +6,7 @@ previous_package: meson
 languages: ['c']
 ---
 ## 2.5.1
-15 / 5058 files match
+15 / 5058 files match, 3 filtered matches.
 
  - [src/wrapper/Plumed.h](#srcwrapperplumedh)
  - [src/core/PlumedMainInitializer.h](#srccoreplumedmaininitializerh)

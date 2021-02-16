@@ -6,7 +6,7 @@ previous_package: libexif
 languages: ['c']
 ---
 ## 1.1.4
-1 / 103 files match
+1 / 103 files match, 1 filtered matches.
 
  - [apps/kcapi-hasher.c](#appskcapi-hasherc)
 

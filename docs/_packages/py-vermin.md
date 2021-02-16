@@ -6,7 +6,7 @@ previous_package: openmpi
 languages: ['python']
 ---
 ## 1.0.3
-2 / 62 files match
+2 / 62 files match, 2 filtered matches.
 
  - [vermin/rules.py](#verminrulespy)
  - [tests/function.py](#testsfunctionpy)

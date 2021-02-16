@@ -6,7 +6,7 @@ previous_package: libgssglue
 languages: ['c']
 ---
 ## 2.6.10
-7 / 490 files match
+7 / 490 files match, 4 filtered matches.
 
  - [src/lib/wsman-plugins.c](#srclibwsman-pluginsc)
  - [src/server/wsmand-listener.c](#srcserverwsmand-listenerc)

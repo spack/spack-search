@@ -6,7 +6,7 @@ previous_package: lcms
 languages: ['c']
 ---
 ## 3.4.1
-5 / 637 files match
+5 / 637 files match, 2 filtered matches.
 
  - [fat-setup.h](#fat-setuph)
  - [testsuite/dlopen-test.c](#testsuitedlopen-testc)

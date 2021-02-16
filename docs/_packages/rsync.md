@@ -6,7 +6,7 @@ previous_package: gmsh
 languages: ['c']
 ---
 ## 3.1.2
-1 / 187 files match
+1 / 187 files match, 1 filtered matches.
 
  - [util.c](#utilc)
 

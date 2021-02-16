@@ -6,7 +6,7 @@ previous_package: musl
 languages: ['cpp']
 ---
 ## 2.4.3
-2 / 120 files match
+2 / 120 files match, 1 filtered matches.
 
  - [src/dynlibs.cc](#srcdynlibscc)
 

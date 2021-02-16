@@ -6,7 +6,7 @@ previous_package: xz
 languages: ['cpp']
 ---
 ## 1.3.2
-1 / 6094 files match
+1 / 6094 files match, 1 filtered matches.
 
  - [psi4/src/psi4/libplugin/load_plugin.cc](#psi4srcpsi4libpluginload_plugincc)
 

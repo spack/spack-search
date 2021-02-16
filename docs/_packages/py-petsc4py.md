@@ -6,7 +6,7 @@ previous_package: mpich
 languages: ['c']
 ---
 ## develop
-1 / 221 files match
+1 / 221 files match, 1 filtered matches.
 
  - [src/include/compat/mpi.h](#srcincludecompatmpih)
 

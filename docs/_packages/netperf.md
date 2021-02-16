@@ -6,7 +6,7 @@ previous_package: gasnet
 languages: ['c']
 ---
 ## 2.6.0
-1 / 120 files match
+1 / 120 files match, 1 filtered matches.
 
  - [src/netsec_linux.c](#srcnetsec_linuxc)
 

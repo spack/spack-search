@@ -6,7 +6,7 @@ previous_package: kcov
 languages: ['c']
 ---
 ## 0.20.1
-22 / 5109 files match
+22 / 5109 files match, 4 filtered matches.
 
  - [gettext-runtime/intl/libgnuintl.in.h](#gettext-runtimeintllibgnuintlinh)
  - [gettext-tools/gnulib-lib/libxml/xmlmodule.c](#gettext-toolsgnulib-liblibxmlxmlmodulec)

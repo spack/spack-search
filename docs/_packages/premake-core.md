@@ -6,7 +6,7 @@ previous_package: cairo
 languages: ['c']
 ---
 ## 5.0.0-alpha13
-2 / 1665 files match
+2 / 1665 files match, 1 filtered matches.
 
  - [contrib/lua/src/loadlib.c](#contribluasrcloadlibc)
 

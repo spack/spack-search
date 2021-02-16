@@ -6,7 +6,7 @@ previous_package: libfs
 languages: ['c']
 ---
 ## 2013.02.18
-11 / 63 files match
+11 / 63 files match, 5 filtered matches.
 
  - [src/monitor.h](#srcmonitorh)
  - [src/callback.c](#srccallbackc)

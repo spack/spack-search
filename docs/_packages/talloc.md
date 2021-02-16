@@ -6,7 +6,7 @@ previous_package: attr
 languages: ['python', 'c']
 ---
 ## 2.1.9
-6 / 246 files match
+6 / 246 files match, 4 filtered matches.
 
  - [third_party/waf/wafadmin/Tools/libtool.py](#third_partywafwafadmintoolslibtoolpy)
  - [lib/replace/replace.h](#libreplacereplaceh)

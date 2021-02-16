@@ -6,7 +6,7 @@ previous_package: kentutils
 languages: ['c']
 ---
 ## 1.0.0-beta
-3 / 344 files match
+3 / 344 files match, 1 filtered matches.
 
  - [src/core/sqlite/sqlite3.c](#srccoresqlitesqlite3c)
 

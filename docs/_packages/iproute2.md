@@ -6,7 +6,7 @@ previous_package: dcmtk
 languages: ['c']
 ---
 ## 5.8.0
-9 / 597 files match
+9 / 597 files match, 9 filtered matches.
 
  - [genl/genl.c](#genlgenlc)
  - [include/dlfcn.h](#includedlfcnh)

@@ -6,7 +6,7 @@ previous_package: fftw
 languages: ['c']
 ---
 ## 4.0.0
-1 / 146 files match
+1 / 146 files match, 1 filtered matches.
 
  - [tests/reopen/kmtreopen.c](#testsreopenkmtreopenc)
 

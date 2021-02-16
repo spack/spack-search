@@ -6,7 +6,7 @@ previous_package: gawk
 languages: ['c']
 ---
 ## 4.2.1
-6 / 204 files match
+6 / 204 files match, 3 filtered matches.
 
  - [load.c](#loadc)
  - [w32/compat/posixfcn.c](#w32compatposixfcnc)

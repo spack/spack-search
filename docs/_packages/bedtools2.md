@@ -6,7 +6,7 @@ previous_package: jags
 languages: ['c']
 ---
 ## 2.29.2
-3 / 1042 files match
+3 / 1042 files match, 1 filtered matches.
 
  - [src/utils/htslib/plugin.c](#srcutilshtslibpluginc)
 

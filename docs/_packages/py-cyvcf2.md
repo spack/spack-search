@@ -6,7 +6,7 @@ previous_package: vim
 languages: ['c']
 ---
 ## 0.11.7
-2 / 145 files match
+2 / 145 files match, 1 filtered matches.
 
  - [htslib/plugin.c](#htslibpluginc)
 

@@ -6,7 +6,7 @@ previous_package: xrx
 languages: ['c']
 ---
 ## 1.2
-1 / 46 files match
+1 / 46 files match, 1 filtered matches.
 
  - [src/lib/rt-get_cpu.c](#srclibrt-get_cpuc)
 

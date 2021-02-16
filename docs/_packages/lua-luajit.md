@@ -6,7 +6,7 @@ previous_package: macsio
 languages: ['c']
 ---
 ## 2.0.4
-2 / 188 files match
+2 / 188 files match, 2 filtered matches.
 
  - [src/lib_package.c](#srclib_packagec)
  - [src/lj_clib.c](#srclj_clibc)

@@ -6,7 +6,7 @@ previous_package: sqlite
 languages: ['python', 'c']
 ---
 ## 2.0.18
-7 / 648 files match
+7 / 648 files match, 7 filtered matches.
 
  - [plugins/rrdtool/rrdtool.c](#pluginsrrdtoolrrdtoolc)
  - [plugins/gccgo/gccgo_plugin.c](#pluginsgccgogccgo_pluginc)

@@ -6,7 +6,7 @@ previous_package: imlib2
 languages: ['c']
 ---
 ## 33.1
-6 / 1036 files match
+6 / 1036 files match, 2 filtered matches.
 
  - [libibverbs/dynamic_driver.c](#libibverbsdynamic_driverc)
  - [ibacm/src/acm.c](#ibacmsrcacmc)

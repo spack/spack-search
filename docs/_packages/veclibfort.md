@@ -6,7 +6,7 @@ previous_package: abi-compliance-checker
 languages: ['c']
 ---
 ## develop
-2 / 17 files match
+2 / 17 files match, 1 filtered matches.
 
  - [vecLibFort.c](#veclibfortc)
 

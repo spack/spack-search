@@ -6,7 +6,7 @@ previous_package: py-pyscf
 languages: ['c']
 ---
 ## 4.2.0
-6 / 1840 files match
+6 / 1840 files match, 1 filtered matches.
 
  - [src/os_unix.c](#srcos_unixc)
 

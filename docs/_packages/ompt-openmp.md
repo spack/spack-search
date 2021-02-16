@@ -6,7 +6,7 @@ previous_package: util-linux-uuid
 languages: ['c']
 ---
 ## 0.1
-3 / 416 files match
+3 / 416 files match, 1 filtered matches.
 
  - [runtime/src/z_Linux_util.c](#runtimesrcz_linux_utilc)
 

@@ -6,7 +6,7 @@ previous_package: pax-utils
 languages: ['c']
 ---
 ## 6.2.24
-8 / 1350 files match
+8 / 1350 files match, 1 filtered matches.
 
  - [fdbserver/sqlite/sqlite3.amalgamation.c](#fdbserversqlitesqlite3amalgamationc)
 

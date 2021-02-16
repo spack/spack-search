@@ -6,7 +6,7 @@ previous_package: cmake
 languages: ['c']
 ---
 ## 5.5
-3 / 1334 files match
+3 / 1334 files match, 2 filtered matches.
 
  - [Programs/dynld_dlfcn.c](#programsdynld_dlfcnc)
  - [Programs/brltty_jni.c](#programsbrltty_jnic)

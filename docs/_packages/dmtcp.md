@@ -6,7 +6,7 @@ previous_package: libxtst
 languages: ['python', 'c']
 ---
 ## 2.5.2
-23 / 648 files match
+23 / 648 files match, 7 filtered matches.
 
  - [src/syscallsreal.c](#srcsyscallsrealc)
  - [src/syscallwrappers.h](#srcsyscallwrappersh)

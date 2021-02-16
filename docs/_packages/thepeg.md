@@ -6,7 +6,7 @@ previous_package: care
 languages: ['cpp']
 ---
 ## 2.2.1
-7 / 917 files match
+7 / 917 files match, 1 filtered matches.
 
  - [Utilities/DynamicLoader.cc](#utilitiesdynamicloadercc)
 

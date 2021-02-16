@@ -6,7 +6,7 @@ previous_package: libzmq
 languages: ['cpp']
 ---
 ## master
-118 / 9244 files match
+118 / 9244 files match, 1 filtered matches.
 
  - [contrib/fparser/fparser_ad.cc](#contribfparserfparser_adcc)
 

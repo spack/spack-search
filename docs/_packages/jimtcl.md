@@ -6,7 +6,7 @@ previous_package: py-mypy
 languages: ['c']
 ---
 ## 0.77
-6 / 213 files match
+6 / 213 files match, 5 filtered matches.
 
  - [jim-win32compat.h](#jim-win32compath)
  - [jim-win32compat.c](#jim-win32compatc)

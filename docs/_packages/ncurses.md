@@ -6,7 +6,7 @@ previous_package: pnfft
 languages: ['c']
 ---
 ## 5.9
-3 / 1026 files match
+3 / 1026 files match, 2 filtered matches.
 
  - [ncurses/curses.priv.h](#ncursescursesprivh)
  - [ncurses/base/lib_mouse.c](#ncursesbaselib_mousec)

@@ -6,7 +6,7 @@ previous_package: soci
 languages: ['cpp', 'c']
 ---
 ## 3.30.1
-3 / 3342 files match
+3 / 3342 files match, 2 filtered matches.
 
  - [src/internet/model/nsc-tcp-l4-protocol.cc](#srcinternetmodelnsc-tcp-l4-protocolcc)
  - [src/internet/model/nsc-tcp-l4-protocol.h](#srcinternetmodelnsc-tcp-l4-protocolh)

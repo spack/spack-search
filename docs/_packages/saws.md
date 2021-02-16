@@ -6,7 +6,7 @@ previous_package: libdaemon
 languages: ['c']
 ---
 ## 0.1.0
-1 / 39 files match
+1 / 39 files match, 1 filtered matches.
 
  - [src/mongoose.c](#srcmongoosec)
 

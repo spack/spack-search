@@ -6,7 +6,7 @@ previous_package: lzma
 languages: ['c']
 ---
 ## 3.4.0
-70 / 50289 files match
+70 / 50289 files match, 34 filtered matches.
 
  - [jdk_src/src/solaris/bin/java_md_solinux.c](#jdk_srcsrcsolarisbinjava_md_solinuxc)
  - [jdk_src/src/solaris/native/sun/jdga/dgalock.c](#jdk_srcsrcsolarisnativesunjdgadgalockc)

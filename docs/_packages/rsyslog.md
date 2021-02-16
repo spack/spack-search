@@ -6,7 +6,7 @@ previous_package: gettext
 languages: ['c']
 ---
 ## 8.2006.0
-5 / 1621 files match
+5 / 1621 files match, 2 filtered matches.
 
  - [runtime/modules.c](#runtimemodulesc)
  - [runtime/rsyslog.h](#runtimersyslogh)

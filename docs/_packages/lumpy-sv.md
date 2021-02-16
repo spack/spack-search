@@ -6,7 +6,7 @@ previous_package: kea
 languages: ['c']
 ---
 ## 0.2.13
-1 / 275 files match
+1 / 275 files match, 1 filtered matches.
 
  - [src/utils/sqlite3/sqlite3.c](#srcutilssqlite3sqlite3c)
 

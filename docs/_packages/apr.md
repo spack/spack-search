@@ -6,7 +6,7 @@ previous_package: vtable-dumper
 languages: ['c']
 ---
 ## 1.7.0
-8 / 467 files match
+8 / 467 files match, 4 filtered matches.
 
  - [include/arch/aix/apr_arch_dso.h](#includearchaixapr_arch_dsoh)
  - [dso/unix/dso.c](#dsounixdsoc)

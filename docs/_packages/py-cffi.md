@@ -6,7 +6,7 @@ previous_package: py-gosam
 languages: ['python', 'c']
 ---
 ## 1.13.0
-30 / 183 files match
+30 / 183 files match, 23 filtered matches.
 
  - [demo/manual2.py](#demomanual2py)
  - [demo/readdir.py](#demoreaddirpy)

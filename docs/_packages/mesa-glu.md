@@ -6,7 +6,7 @@ previous_package: r-git2r
 languages: ['c']
 ---
 ## 9.0.1
-3 / 200 files match
+3 / 200 files match, 1 filtered matches.
 
  - [src/libutil/mipmap.c](#srclibutilmipmapc)
 

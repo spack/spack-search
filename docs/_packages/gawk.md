@@ -6,7 +6,7 @@ previous_package: nicstat
 languages: ['c']
 ---
 ## 5.1.0
-18 / 1886 files match
+18 / 1886 files match, 3 filtered matches.
 
  - [ext.c](#extc)
  - [nonposix.h](#nonposixh)

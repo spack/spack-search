@@ -6,7 +6,7 @@ previous_package: libfontenc
 languages: ['cpp']
 ---
 ## 3.3.0
-3 / 3213 files match
+3 / 3213 files match, 1 filtered matches.
 
  - [casa/OS/DynLib.cc](#casaosdynlibcc)
 

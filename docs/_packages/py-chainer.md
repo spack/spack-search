@@ -6,7 +6,7 @@ previous_package: libxslt
 languages: ['cpp', 'c']
 ---
 ## 7.2.0
-5 / 1793 files match
+5 / 1793 files match, 4 filtered matches.
 
  - [chainerx_cc/chainerx/context.cc](#chainerx_ccchainerxcontextcc)
  - [chainerx_cc/chainerx/context.h](#chainerx_ccchainerxcontexth)

@@ -6,7 +6,7 @@ previous_package: esmf
 languages: ['c']
 ---
 ## 0.5.1
-5 / 462 files match
+5 / 462 files match, 1 filtered matches.
 
  - [src/geopm_plugin.c](#srcgeopm_pluginc)
 

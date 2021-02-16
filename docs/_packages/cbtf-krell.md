@@ -6,7 +6,7 @@ previous_package: maloc
 languages: ['c']
 ---
 ## 1.9.3
-35 / 607 files match
+35 / 607 files match, 8 filtered matches.
 
  - [services/src/offline/GetDLInfo.c](#servicessrcofflinegetdlinfoc)
  - [services/src/monitor/Monitor.c](#servicessrcmonitormonitorc)

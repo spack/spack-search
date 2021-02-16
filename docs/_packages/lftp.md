@@ -6,7 +6,7 @@ previous_package: heaptrack
 languages: ['cpp']
 ---
 ## 4.8.1
-9 / 797 files match
+9 / 797 files match, 1 filtered matches.
 
  - [src/module.cc](#srcmodulecc)
 

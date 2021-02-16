@@ -6,7 +6,7 @@ previous_package: py-4suite-xml
 languages: ['c']
 ---
 ## 1.3.1
-3 / 530 files match
+3 / 530 files match, 1 filtered matches.
 
  - [htslib-1.3.1/plugin.c](#htslib-131pluginc)
 

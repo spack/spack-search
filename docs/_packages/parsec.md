@@ -6,7 +6,7 @@ previous_package: erlang
 languages: ['c']
 ---
 ## 1.1.0
-1 / 618 files match
+1 / 618 files match, 1 filtered matches.
 
  - [dplasma/cores/cuda_zgemm.c](#dplasmacorescuda_zgemmc)
 

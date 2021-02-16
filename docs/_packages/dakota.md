@@ -6,7 +6,7 @@ previous_package: netdata
 languages: ['c']
 ---
 ## 6.12
-28 / 13171 files match
+28 / 13171 files match, 4 filtered matches.
 
  - [packages/external/acro/tpl/ampl/funcadd1.c](#packagesexternalacrotplamplfuncadd1c)
  - [packages/external/ampl/funcadd1.c](#packagesexternalamplfuncadd1c)

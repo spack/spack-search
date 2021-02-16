@@ -6,7 +6,7 @@ previous_package: rhash
 languages: ['c']
 ---
 ## 1.6.0
-3 / 768 files match
+3 / 768 files match, 1 filtered matches.
 
  - [intl/libgnuintl.in.h](#intllibgnuintlinh)
 

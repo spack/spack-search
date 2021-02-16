@@ -6,7 +6,7 @@ previous_package: py-awkward1
 languages: ['c']
 ---
 ## 1.1.20
-3 / 2392 files match
+3 / 2392 files match, 3 filtered matches.
 
  - [src/ldso/dlopen.c](#srcldsodlopenc)
  - [include/dlfcn.h](#includedlfcnh)

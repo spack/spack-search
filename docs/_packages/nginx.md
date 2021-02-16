@@ -6,7 +6,7 @@ previous_package: steps
 languages: ['c']
 ---
 ## 1.15.6
-3 / 330 files match
+3 / 330 files match, 1 filtered matches.
 
  - [src/core/nginx.c](#srccorenginxc)
 

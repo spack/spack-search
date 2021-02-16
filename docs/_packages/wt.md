@@ -6,7 +6,7 @@ previous_package: cbtf-krell
 languages: ['c']
 ---
 ## 3.3.7
-2 / 2020 files match
+2 / 2020 files match, 2 filtered matches.
 
  - [src/Wt/Dbo/backend/amalgamation/sqlite3.c](#srcwtdbobackendamalgamationsqlite3c)
  - [src/3rdparty/glew-1.10.0/src/glew.c](#src3rdpartyglew-1100srcglewc)

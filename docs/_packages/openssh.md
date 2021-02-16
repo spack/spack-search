@@ -6,7 +6,7 @@ previous_package: py-shapely
 languages: ['c']
 ---
 ## 7.9p1
-2 / 674 files match
+2 / 674 files match, 1 filtered matches.
 
  - [ssh-pkcs11.c](#ssh-pkcs11c)
 

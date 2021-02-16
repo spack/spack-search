@@ -6,7 +6,7 @@ previous_package: libtool
 languages: ['c']
 ---
 ## master
-4 / 597 files match
+4 / 597 files match, 3 filtered matches.
 
  - [ext/gotcha/src/gotcha_dl.h](#extgotchasrcgotcha_dlh)
  - [ext/gotcha/src/gotcha_dl.c](#extgotchasrcgotcha_dlc)

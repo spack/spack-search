@@ -6,7 +6,7 @@ previous_package: swftools
 languages: ['c']
 ---
 ## 3.1.0
-7 / 4773 files match
+7 / 4773 files match, 1 filtered matches.
 
  - [lib/vscode/node_modules/vscode-sqlite3/build/Release/obj/gen/sqlite-autoconf-3280000/sqlite3.c](#libvscodenode_modulesvscode-sqlite3buildreleaseobjgensqlite-autoconf-3280000sqlite3c)
 

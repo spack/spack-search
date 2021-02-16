@@ -6,7 +6,7 @@ previous_package: stat
 languages: ['c']
 ---
 ## 2_2_6
-1 / 167 files match
+1 / 167 files match, 1 filtered matches.
 
  - [cimc/cimcclient.c](#cimccimcclientc)
 

@@ -6,7 +6,7 @@ previous_package: staden-io-lib
 languages: ['c']
 ---
 ## 1.7.5
-70 / 7011 files match
+70 / 7011 files match, 26 filtered matches.
 
  - [ompi/mca/btl/usnic/test/ompi_btl_usnic_run_tests.c](#ompimcabtlusnictestompi_btl_usnic_run_testsc)
  - [ompi/mca/common/cuda/common_cuda.c](#ompimcacommoncudacommon_cudac)

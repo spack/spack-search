@@ -6,7 +6,7 @@ previous_package: pnmpi
 languages: ['c']
 ---
 ## 3.10.0
-3 / 491 files match
+3 / 491 files match, 1 filtered matches.
 
  - [khronos/icd/loader/linux/icd_linux.c](#khronosicdloaderlinuxicd_linuxc)
 

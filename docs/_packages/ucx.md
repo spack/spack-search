@@ -6,7 +6,7 @@ previous_package: harminv
 languages: ['c']
 ---
 ## 1.4.0
-9 / 590 files match
+9 / 590 files match, 3 filtered matches.
 
  - [src/ucm/util/reloc.c](#srcucmutilrelocc)
  - [test/mpi/test_memhooks.c](#testmpitest_memhooksc)

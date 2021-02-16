@@ -6,7 +6,7 @@ previous_package: atompaw
 languages: ['cpp']
 ---
 ## 6.7.3
-2 / 1539 files match
+2 / 1539 files match, 1 filtered matches.
 
  - [env/env_posix.cc](#envenv_posixcc)
 

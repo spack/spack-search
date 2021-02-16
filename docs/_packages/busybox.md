@@ -6,7 +6,7 @@ previous_package: mpip
 languages: ['c']
 ---
 ## 1.30.0
-1 / 2335 files match
+1 / 2335 files match, 1 filtered matches.
 
  - [scripts/kconfig/kconfig_load.c](#scriptskconfigkconfig_loadc)
 

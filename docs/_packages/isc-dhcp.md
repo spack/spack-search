@@ -6,7 +6,7 @@ previous_package: ocl-icd
 languages: ['c']
 ---
 ## 4.4.0
-1 / 244 files match
+1 / 244 files match, 1 filtered matches.
 
  - [server/ldap_casa.c](#serverldap_casac)
 

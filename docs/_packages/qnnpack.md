@@ -6,7 +6,7 @@ previous_package: libtiff
 languages: ['c']
 ---
 ## master
-4 / 1357 files match
+4 / 1357 files match, 3 filtered matches.
 
  - [deps/cpuinfo/src/arm/linux/hwcap.c](#depscpuinfosrcarmlinuxhwcapc)
  - [deps/cpuinfo/tools/auxv-dump.c](#depscpuinfotoolsauxv-dumpc)

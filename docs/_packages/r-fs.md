@@ -6,7 +6,7 @@ previous_package: rocprofiler-dev
 languages: ['c']
 ---
 ## 1.3.1
-11 / 242 files match
+11 / 242 files match, 5 filtered matches.
 
  - [src/libuv/src/win/dl.c](#srclibuvsrcwindlc)
  - [src/libuv/src/unix/darwin-proctitle.c](#srclibuvsrcunixdarwin-proctitlec)

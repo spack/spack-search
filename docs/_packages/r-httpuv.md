@@ -6,7 +6,7 @@ previous_package: ncbi-toolkit
 languages: ['c']
 ---
 ## 1.3.5
-6 / 254 files match
+6 / 254 files match, 4 filtered matches.
 
  - [src/libuv/src/win/dl.c](#srclibuvsrcwindlc)
  - [src/libuv/src/unix/dl.c](#srclibuvsrcunixdlc)

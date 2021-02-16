@@ -6,7 +6,7 @@ previous_package: rocm-dbgapi
 languages: ['c']
 ---
 ## 5.18.12
-8 / 411 files match
+8 / 411 files match, 1 filtered matches.
 
  - [agen5/opts.c](#agen5optsc)
 

@@ -6,7 +6,7 @@ previous_package: kokkos-legacy
 languages: ['c']
 ---
 ## master
-2 / 171 files match
+2 / 171 files match, 2 filtered matches.
 
  - [libfabric/src/fabric.c](#libfabricsrcfabricc)
  - [libfabric/prov/util/src/util_mem_hooks.c](#libfabricprovutilsrcutil_mem_hooksc)

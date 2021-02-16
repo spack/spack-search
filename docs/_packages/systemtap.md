@@ -6,7 +6,7 @@ previous_package: py-soundfile
 languages: ['c']
 ---
 ## 4.2
-7 / 4791 files match
+7 / 4791 files match, 1 filtered matches.
 
  - [stapdyn/mutator.h](#stapdynmutatorh)
 

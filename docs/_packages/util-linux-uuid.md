@@ -6,7 +6,7 @@ previous_package: cpuinfo
 languages: ['c']
 ---
 ## 2.36
-10 / 1188 files match
+10 / 1188 files match, 1 filtered matches.
 
  - [libmount/src/context_veritydev.c](#libmountsrccontext_veritydevc)
 

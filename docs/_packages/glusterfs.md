@@ -6,7 +6,7 @@ previous_package: htslib
 languages: ['c']
 ---
 ## 7.3
-14 / 2186 files match
+14 / 2186 files match, 8 filtered matches.
 
  - [libglusterfs/src/xlator.c](#libglusterfssrcxlatorc)
  - [glusterfsd/src/glusterfsd.c](#glusterfsdsrcglusterfsdc)

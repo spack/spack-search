@@ -6,7 +6,7 @@ previous_package: py-pillow-simd
 languages: ['c']
 ---
 ## 3.12.1
-12 / 690 files match
+12 / 690 files match, 1 filtered matches.
 
  - [Ipopt/src/contrib/LinearSolverLoader/LibraryHandler.c](#ipoptsrccontriblinearsolverloaderlibraryhandlerc)
 

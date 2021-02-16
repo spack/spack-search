@@ -6,7 +6,7 @@ previous_package: py-networkit
 languages: ['c']
 ---
 ## 0.6.0
-2 / 193 files match
+2 / 193 files match, 1 filtered matches.
 
  - [native/common/include/jp_platform_linux.h](#nativecommonincludejp_platform_linuxh)
 

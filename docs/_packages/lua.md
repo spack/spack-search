@@ -6,7 +6,7 @@ previous_package: pixman
 languages: ['c']
 ---
 ## 5.3.2
-1 / 152 files match
+1 / 152 files match, 1 filtered matches.
 
  - [src/loadlib.c](#srcloadlibc)
 

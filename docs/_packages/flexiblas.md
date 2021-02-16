@@ -6,7 +6,7 @@ previous_package: sosflow
 languages: ['c']
 ---
 ## 3.0.3
-9 / 16005 files match
+9 / 16005 files match, 7 filtered matches.
 
  - [src/hooks.c](#srchooksc)
  - [src/sh_utils.c](#srcsh_utilsc)

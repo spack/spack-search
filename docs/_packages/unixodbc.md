@@ -6,7 +6,7 @@ previous_package: fastjar
 languages: ['c']
 ---
 ## 2.3.4
-44 / 845 files match
+44 / 845 files match, 15 filtered matches.
 
  - [exe/dltest.c](#exedltestc)
  - [extras/vms.c](#extrasvmsc)

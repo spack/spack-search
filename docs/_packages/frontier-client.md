@@ -6,7 +6,7 @@ previous_package: cvs
 languages: ['c']
 ---
 ## 2_9_0
-1 / 155 files match
+1 / 155 files match, 1 filtered matches.
 
  - [client/pacparser-dlopen.c](#clientpacparser-dlopenc)
 

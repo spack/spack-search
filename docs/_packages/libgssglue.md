@@ -6,7 +6,7 @@ previous_package: z-checker
 languages: ['c']
 ---
 ## 0.3
-3 / 60 files match
+3 / 60 files match, 1 filtered matches.
 
  - [src/g_initialize.c](#srcg_initializec)
 

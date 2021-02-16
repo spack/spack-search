@@ -6,7 +6,7 @@ previous_package: py-pygpu
 languages: ['c']
 ---
 ## 3.0
-2 / 199 files match
+2 / 199 files match, 1 filtered matches.
 
  - [src/lttng/main.c](#srclttngmainc)
 

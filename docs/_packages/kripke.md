@@ -6,7 +6,7 @@ previous_package: xcb-util-errors
 languages: ['c']
 ---
 ## 1.2.3
-4 / 4301 files match
+4 / 4301 files match, 1 filtered matches.
 
  - [tpl/chai/src/tpl/umpire/src/umpire/tpl/conduit/src/thirdparty_builtin/civetweb-0a95342/src/civetweb.c](#tplchaisrctplumpiresrcumpiretplconduitsrcthirdparty_builtincivetweb-0a95342srccivetwebc)
 

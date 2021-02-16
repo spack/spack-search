@@ -6,7 +6,7 @@ previous_package: go-bootstrap
 languages: ['cpp', 'c']
 ---
 ## 4.0.0
-15 / 6223 files match
+15 / 6223 files match, 2 filtered matches.
 
  - [liboctave/util/oct-shlib.cc](#liboctaveutiloct-shlibcc)
  - [liboctave/cruft/misc/blaswrap.c](#liboctavecruftmiscblaswrapc)

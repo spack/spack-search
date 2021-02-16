@@ -6,7 +6,7 @@ previous_package: libsigsegv
 languages: ['c']
 ---
 ## 3.4.4
-8 / 5975 files match
+8 / 5975 files match, 3 filtered matches.
 
  - [3rdparty/cpufeatures/cpu-features.c](#3rdpartycpufeaturescpu-featuresc)
  - [3rdparty/ittnotify/src/ittnotify/jitprofiling.c](#3rdpartyittnotifysrcittnotifyjitprofilingc)

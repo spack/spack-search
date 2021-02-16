@@ -6,7 +6,7 @@ previous_package: enca
 languages: ['c']
 ---
 ## 1.3.0
-9 / 3909 files match
+9 / 3909 files match, 2 filtered matches.
 
  - [runtime/druntime/test/shared/src/loadDR.c](#runtimedruntimetestsharedsrcloaddrc)
  - [runtime/druntime/test/shared/src/host.c](#runtimedruntimetestsharedsrchostc)

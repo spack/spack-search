@@ -6,7 +6,7 @@ previous_package: czmq
 languages: ['c']
 ---
 ## 3.5.2
-2 / 788 files match
+2 / 788 files match, 1 filtered matches.
 
  - [src/utils.c](#srcutilsc)
 

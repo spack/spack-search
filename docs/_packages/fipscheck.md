@@ -6,7 +6,7 @@ previous_package: r-rgraphviz
 languages: ['c']
 ---
 ## 7.0.0.398
-2 / 18 files match
+2 / 18 files match, 1 filtered matches.
 
  - [src/library.c](#srclibraryc)
 

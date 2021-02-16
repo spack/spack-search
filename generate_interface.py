@@ -279,14 +279,18 @@ def main():
             if not paths:
                 continue
 
+            # Update data to include number of filtered matches
+            data[package][version]["filtered_matches"] = len(paths)
+
             # Add languages and close header
             header += "languages: %s\n---" % list(languages)
 
             # Include total files with matches
             header += "\n## " + version
-            header += "\n%s / %s files match\n" % (
+            header += "\n%s / %s files match, %s filtered matches.\n" % (
                 len(content["matches"]),
                 content["total_files"],
+                len(paths),
             )
 
             # Add links at the top

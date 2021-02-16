@@ -6,7 +6,7 @@ previous_package: r-stringi
 languages: ['c']
 ---
 ## 6.3.1
-9 / 1480 files match
+9 / 1480 files match, 6 filtered matches.
 
  - [bin/varnishd/storage/storage_umem.c](#binvarnishdstoragestorage_umemc)
  - [bin/varnishd/mgt/mgt_param_tbl.c](#binvarnishdmgtmgt_param_tblc)

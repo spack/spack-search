@@ -6,7 +6,7 @@ previous_package: libbeagle
 languages: ['c']
 ---
 ## 5.4.1
-3 / 244 files match
+3 / 244 files match, 1 filtered matches.
 
  - [Simulator/model/communic.c](#simulatormodelcommunicc)
 

@@ -6,7 +6,7 @@ previous_package: lammps
 languages: ['go', 'c']
 ---
 ## 1.6.4
-9 / 5019 files match
+9 / 5019 files match, 7 filtered matches.
 
  - [src/runtime/cgo/gcc_openbsd_386.c](#srcruntimecgogcc_openbsd_386c)
  - [src/runtime/cgo/gcc_openbsd_amd64.c](#srcruntimecgogcc_openbsd_amd64c)

@@ -6,7 +6,7 @@ previous_package: moosefs
 languages: ['c']
 ---
 ## 1.5.2
-19 / 1327 files match
+19 / 1327 files match, 3 filtered matches.
 
  - [src/dlload.c](#srcdlloadc)
  - [src/init.c](#srcinitc)

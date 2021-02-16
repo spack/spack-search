@@ -6,7 +6,7 @@ previous_package: ncl
 languages: ['c']
 ---
 ## 7.8.2
-3 / 6347 files match
+3 / 6347 files match, 1 filtered matches.
 
  - [lib/raster/gdal.c](#librastergdalc)
 

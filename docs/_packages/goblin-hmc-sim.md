@@ -6,7 +6,7 @@ previous_package: wxwidgets
 languages: ['c']
 ---
 ## 8.0.0
-17 / 280 files match
+17 / 280 files match, 1 filtered matches.
 
  - [src/hmc_cmc.c](#srchmc_cmcc)
 

@@ -6,7 +6,7 @@ previous_package: lzop
 languages: ['c']
 ---
 ## 6.7.3
-1 / 7110 files match
+1 / 7110 files match, 1 filtered matches.
 
  - [vendor/github.com/mattn/go-sqlite3/sqlite3-binding.c](#vendorgithubcommattngo-sqlite3sqlite3-bindingc)
 

@@ -6,7 +6,7 @@ previous_package: ns-3-dev
 languages: ['cpp', 'c']
 ---
 ## develop
-57 / 31211 files match
+57 / 31211 files match, 21 filtered matches.
 
  - [src/midend/astProcessing/plugin.C](#srcmidendastprocessingpluginc)
  - [src/midend/programTransformation/astOutlining/Preprocess.cc](#srcmidendprogramtransformationastoutliningpreprocesscc)

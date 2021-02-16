@@ -6,7 +6,7 @@ previous_package: blt
 languages: ['c']
 ---
 ## 1.3
-12 / 1990 files match
+12 / 1990 files match, 2 filtered matches.
 
  - [src/services/metric/scorep_metric_plugins.c](#srcservicesmetricscorep_metric_pluginsc)
  - [src/measurement/SCOREP_Libwrap.c](#srcmeasurementscorep_libwrapc)

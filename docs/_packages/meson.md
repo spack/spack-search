@@ -6,7 +6,7 @@ previous_package: aomp
 languages: ['python', 'c']
 ---
 ## 0.56.0
-11 / 3471 files match
+11 / 3471 files match, 4 filtered matches.
 
  - [test cases/common/152 shared module resolving symbol in executable/prog.c](#test casescommon152 shared module resolving symbol in executableprogc)
  - [test cases/common/121 shared module/prog.c](#test casescommon121 shared moduleprogc)

@@ -6,7 +6,7 @@ previous_package: openloops
 languages: ['c']
 ---
 ## 1.1.0
-6 / 1663 files match
+6 / 1663 files match, 2 filtered matches.
 
  - [SeqLib/htslib/plugin.c](#seqlibhtslibpluginc)
  - [vcflib/tabixpp/htslib/plugin.c](#vcflibtabixpphtslibpluginc)

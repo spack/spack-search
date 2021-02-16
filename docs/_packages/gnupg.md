@@ -6,7 +6,7 @@ previous_package: py-genders
 languages: ['c']
 ---
 ## 2.2.15
-9 / 1018 files match
+9 / 1018 files match, 4 filtered matches.
 
  - [scd/apdu.c](#scdapduc)
  - [common/iobuf.c](#commoniobufc)

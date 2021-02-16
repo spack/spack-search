@@ -6,7 +6,7 @@ previous_package: biobloom
 languages: ['c']
 ---
 ## 0.19.6
-9 / 7503 files match
+9 / 7503 files match, 1 filtered matches.
 
  - [tests/realtimeGC/cmain.c](#testsrealtimegccmainc)
 

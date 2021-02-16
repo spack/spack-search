@@ -6,7 +6,7 @@ previous_package: liblbxutil
 languages: ['python']
 ---
 ## 1.3.0.0
-4 / 32 files match
+4 / 32 files match, 1 filtered matches.
 
  - [setup.py](#setuppy)
 

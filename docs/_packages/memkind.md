@@ -6,7 +6,7 @@ previous_package: gosam-contrib
 languages: ['c']
 ---
 ## 1.9.0
-7 / 482 files match
+7 / 482 files match, 2 filtered matches.
 
  - [src/tbb_wrapper.c](#srctbb_wrapperc)
  - [test/load_tbbmalloc_symbols.c](#testload_tbbmalloc_symbolsc)

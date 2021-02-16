@@ -6,7 +6,7 @@ previous_package: regcm
 languages: ['c']
 ---
 ## 0.7.8
-4 / 222 files match
+4 / 222 files match, 2 filtered matches.
 
  - [src/screen.c](#srcscreenc)
  - [src/plugin.c](#srcpluginc)

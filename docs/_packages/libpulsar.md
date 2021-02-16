@@ -6,7 +6,7 @@ previous_package: alsa-lib
 languages: ['cpp']
 ---
 ## 2.7.0
-1 / 5061 files match
+1 / 5061 files match, 1 filtered matches.
 
  - [pulsar-client-cpp/lib/Authentication.cc](#pulsar-client-cpplibauthenticationcc)
 

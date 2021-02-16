@@ -6,7 +6,7 @@ previous_package: namd
 languages: ['c']
 ---
 ## 1.5.0
-8 / 511 files match
+8 / 511 files match, 4 filtered matches.
 
  - [src/rddl.c](#srcrddlc)
  - [src/rdkafka_conf.c](#srcrdkafka_confc)

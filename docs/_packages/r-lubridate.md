@@ -6,7 +6,7 @@ previous_package: startup-notification
 languages: ['cpp']
 ---
 ## 1.7.9.2
-1 / 198 files match
+1 / 198 files match, 1 filtered matches.
 
  - [src/cctz/src/time_zone_lookup.cc](#srccctzsrctime_zone_lookupcc)
 

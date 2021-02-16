@@ -6,7 +6,7 @@ previous_package: xerces-c
 languages: ['c']
 ---
 ## 1.0
-6 / 813 files match
+6 / 813 files match, 1 filtered matches.
 
  - [runtime/src/thirdparty/ittnotify/ittnotify_config.h](#runtimesrcthirdpartyittnotifyittnotify_configh)
 

@@ -6,7 +6,7 @@ previous_package: matio
 languages: ['c']
 ---
 ## 1.0.1
-3 / 1366 files match
+3 / 1366 files match, 3 filtered matches.
 
  - [src/glpk/glpenv08.c](#srcglpkglpenv08c)
  - [src/glpk/glpsql.c](#srcglpkglpsqlc)

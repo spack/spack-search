@@ -6,7 +6,7 @@ previous_package: openexr
 languages: ['c']
 ---
 ## 0.7.1
-5 / 1345 files match
+5 / 1345 files match, 3 filtered matches.
 
  - [optional/glpk/glpenv08.c](#optionalglpkglpenv08c)
  - [optional/glpk/glpsql.c](#optionalglpkglpsqlc)

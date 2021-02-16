@@ -6,7 +6,7 @@ previous_package: jasper
 languages: ['cpp']
 ---
 ## 20200923.1
-3 / 689 files match
+3 / 689 files match, 2 filtered matches.
 
  - [absl/random/internal/randen_detect.cc](#abslrandominternalranden_detectcc)
  - [absl/time/internal/cctz/src/time_zone_lookup.cc](#absltimeinternalcctzsrctime_zone_lookupcc)

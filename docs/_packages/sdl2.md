@@ -6,7 +6,7 @@ previous_package: pcre2
 languages: ['c']
 ---
 ## 2.0.5
-16 / 1065 files match
+16 / 1065 files match, 2 filtered matches.
 
  - [src/loadso/dlopen/SDL_sysloadso.c](#srcloadsodlopensdl_sysloadsoc)
  - [src/dynapi/SDL_dynapi.c](#srcdynapisdl_dynapic)

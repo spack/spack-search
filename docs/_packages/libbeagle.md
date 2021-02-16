@@ -6,7 +6,7 @@ previous_package: cc65
 languages: ['c']
 ---
 ## 3.1.2
-3 / 239 files match
+3 / 239 files match, 2 filtered matches.
 
  - [libhmsbeagle/plugin/LibtoolSharedLibrary.h](#libhmsbeaglepluginlibtoolsharedlibraryh)
  - [libhmsbeagle/plugin/UnixSharedLibrary.h](#libhmsbeaglepluginunixsharedlibraryh)

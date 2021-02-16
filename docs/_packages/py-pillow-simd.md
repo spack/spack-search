@@ -6,7 +6,7 @@ previous_package: xmlrpc-c
 languages: ['c']
 ---
 ## 7.0.0.post3
-2 / 328 files match
+2 / 328 files match, 2 filtered matches.
 
  - [src/_imagingft.c](#src_imagingftc)
  - [src/Tk/tkImaging.c](#srctktkimagingc)

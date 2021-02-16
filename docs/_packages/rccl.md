@@ -6,7 +6,7 @@ previous_package: rivet
 languages: ['cpp']
 ---
 ## 3.7.0
-3 / 193 files match
+3 / 193 files match, 3 filtered matches.
 
  - [src/init.cc](#srcinitcc)
  - [src/misc/ibvwrap.cc](#srcmiscibvwrapcc)

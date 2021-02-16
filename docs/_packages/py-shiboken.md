@@ -6,7 +6,7 @@ previous_package: py-tables
 languages: ['c']
 ---
 ## 1.2.2
-1 / 637 files match
+1 / 637 files match, 1 filtered matches.
 
  - [sources/patchelf/elf.h](#sourcespatchelfelfh)
 

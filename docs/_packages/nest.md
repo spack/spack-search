@@ -6,7 +6,7 @@ previous_package: mpi-bash
 languages: ['python']
 ---
 ## 2.14.0
-2 / 1388 files match
+2 / 1388 files match, 1 filtered matches.
 
  - [pynest/nest/__init__.py](#pynestnest__init__py)
 

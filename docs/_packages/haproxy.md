@@ -6,7 +6,7 @@ previous_package: libffi
 languages: ['c']
 ---
 ## 2.1.0
-1 / 593 files match
+1 / 593 files match, 1 filtered matches.
 
  - [src/i386-linux-vsys.c](#srci386-linux-vsysc)
 

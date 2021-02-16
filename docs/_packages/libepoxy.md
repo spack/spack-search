@@ -6,7 +6,7 @@ previous_package: eccodes
 languages: ['c']
 ---
 ## 1.4.3
-9 / 82 files match
+9 / 82 files match, 4 filtered matches.
 
  - [src/dispatch_common.c](#srcdispatch_commonc)
  - [test/dlwrap.h](#testdlwraph)

@@ -6,7 +6,7 @@ previous_package: oce
 languages: ['c']
 ---
 ## 1.3.1
-3 / 2717 files match
+3 / 2717 files match, 1 filtered matches.
 
  - [samtools-1.3/htslib-1.3/plugin.c](#samtools-13htslib-13pluginc)
 

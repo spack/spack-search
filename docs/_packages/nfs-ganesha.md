@@ -6,7 +6,7 @@ previous_package: 3proxy
 languages: ['c']
 ---
 ## 3.1
-14 / 834 files match
+14 / 834 files match, 4 filtered matches.
 
  - [src/SAL/nfs4_recovery.c](#srcsalnfs4_recoveryc)
  - [src/include/fsal_api.h](#srcincludefsal_apih)

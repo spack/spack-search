@@ -6,7 +6,7 @@ previous_package: varnish-cache
 languages: ['c']
 ---
 ## 22.0
-15 / 10600 files match
+15 / 10600 files match, 5 filtered matches.
 
  - [erts/emulator/sys/unix/erl_unix_sys_ddll.c](#ertsemulatorsysunixerl_unix_sys_ddllc)
  - [erts/emulator/test/nif_SUITE_data/nif_api_2_4/erl_nif_api_funcs.h](#ertsemulatortestnif_suite_datanif_api_2_4erl_nif_api_funcsh)

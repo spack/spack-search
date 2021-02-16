@@ -6,7 +6,7 @@ previous_package: abseil-cpp
 languages: ['c']
 ---
 ## 3.9.0
-5 / 152 files match
+5 / 152 files match, 1 filtered matches.
 
  - [roctracer/src/core/loader.h](#roctracersrccoreloaderh)
 

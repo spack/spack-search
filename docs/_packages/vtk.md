@@ -6,7 +6,7 @@ previous_package: ffsb
 languages: ['c']
 ---
 ## 9.0.0
-14 / 19019 files match
+14 / 19019 files match, 7 filtered matches.
 
  - [ThirdParty/mpi4py/vtkmpi4py/src/dynload.h](#thirdpartympi4pyvtkmpi4pysrcdynloadh)
  - [ThirdParty/mpi4py/vtkmpi4py/src/lib-mpi/compat/sicortex.h](#thirdpartympi4pyvtkmpi4pysrclib-mpicompatsicortexh)

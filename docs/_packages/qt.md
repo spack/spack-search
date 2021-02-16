@@ -6,7 +6,7 @@ previous_package: dmd
 languages: ['cpp', 'python', 'c']
 ---
 ## 5.9.1
-173 / 178795 files match
+173 / 178795 files match, 46 filtered matches.
 
  - [qtbase/src/3rdparty/sqlite/sqlite3.c](#qtbasesrc3rdpartysqlitesqlite3c)
  - [qtwebengine/src/3rdparty/chromium/third_party/libva/va/va_backend.h](#qtwebenginesrc3rdpartychromiumthird_partylibvavava_backendh)

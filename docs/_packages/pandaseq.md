@@ -6,7 +6,7 @@ previous_package: bmi
 languages: ['c']
 ---
 ## 2.10
-1 / 115 files match
+1 / 115 files match, 1 filtered matches.
 
  - [module.c](#modulec)
 

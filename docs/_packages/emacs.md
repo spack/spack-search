@@ -6,7 +6,7 @@ previous_package: ermod
 languages: ['c']
 ---
 ## 25.2
-4 / 5054 files match
+4 / 5054 files match, 1 filtered matches.
 
  - [src/dynlib.c](#srcdynlibc)
 

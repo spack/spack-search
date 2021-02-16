@@ -6,7 +6,7 @@ previous_package: geoip-api-c
 languages: ['c']
 ---
 ## 6.1.0
-28 / 8154 files match
+28 / 8154 files match, 17 filtered matches.
 
  - [src/include/utils/dynamic_loader.h](#srcincludeutilsdynamic_loaderh)
  - [src/backend/port/dynloader/win32.h](#srcbackendportdynloaderwin32h)

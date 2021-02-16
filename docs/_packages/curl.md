@@ -6,7 +6,7 @@ previous_package: adlbx
 languages: ['c']
 ---
 ## 7.60.0
-5 / 1678 files match
+5 / 1678 files match, 1 filtered matches.
 
  - [packages/vms/report_openssl_version.c](#packagesvmsreport_openssl_versionc)
 

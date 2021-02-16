@@ -6,7 +6,7 @@ previous_package: mesa-glu
 languages: ['java']
 ---
 ## 1.10.2
-8 / 2976 files match
+8 / 2976 files match, 1 filtered matches.
 
  - [java/test/TestH5PL.java](#javatesttesth5pljava)
 

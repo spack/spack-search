@@ -6,7 +6,7 @@ previous_package: icarus
 languages: ['python']
 ---
 ## 1.1.33
-3 / 2123 files match
+3 / 2123 files match, 1 filtered matches.
 
  - [python/libxsl.py](#pythonlibxslpy)
 

@@ -6,7 +6,7 @@ previous_package: jimtcl
 languages: ['c']
 ---
 ## 2.0.12
-3 / 286 files match
+3 / 286 files match, 3 filtered matches.
 
  - [keepalived/vrrp/vrrp_ipset.c](#keepalivedvrrpvrrp_ipsetc)
  - [keepalived/vrrp/vrrp_iptables_calls.c](#keepalivedvrrpvrrp_iptables_callsc)

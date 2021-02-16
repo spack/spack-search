@@ -6,7 +6,7 @@ previous_package: wget
 languages: ['cpp', 'c']
 ---
 ## 13.5.0
-46 / 16565 files match
+46 / 16565 files match, 12 filtered matches.
 
  - [src/node_process_methods.cc](#srcnode_process_methodscc)
  - [src/node_constants.cc](#srcnode_constantscc)

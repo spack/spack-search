@@ -6,7 +6,7 @@ previous_package: gflags
 languages: ['c']
 ---
 ## 0.9.71
-6 / 394 files match
+6 / 394 files match, 1 filtered matches.
 
  - [src/lib/daemon_options.c](#srclibdaemon_optionsc)
 

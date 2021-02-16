@@ -6,7 +6,7 @@ previous_package: foam-extend
 languages: ['python']
 ---
 ## master
-2 / 256 files match
+2 / 256 files match, 2 filtered matches.
 
  - [tests/python/frontend/darknet/test_forward.py](#testspythonfrontenddarknettest_forwardpy)
  - [tutorials/from_darknet.py](#tutorialsfrom_darknetpy)

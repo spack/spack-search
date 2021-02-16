@@ -6,7 +6,7 @@ previous_package: cityhash
 languages: ['c']
 ---
 ## 1.4
-3 / 199 files match
+3 / 199 files match, 1 filtered matches.
 
  - [plugin.c](#pluginc)
 

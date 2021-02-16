@@ -6,7 +6,7 @@ previous_package: pmdk
 languages: ['cpp', 'c']
 ---
 ## 10.1.0
-55 / 2421 files match
+55 / 2421 files match, 6 filtered matches.
 
  - [sstmac/main/loadlib.cc](#sstmacmainloadlibcc)
  - [sstmac/software/launch/app_launcher.cc](#sstmacsoftwarelaunchapp_launchercc)

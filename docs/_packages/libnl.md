@@ -6,7 +6,7 @@ previous_package: py-pynacl
 languages: ['c']
 ---
 ## 3.3.0
-4 / 448 files match
+4 / 448 files match, 1 filtered matches.
 
  - [src/lib/utils.c](#srclibutilsc)
 

@@ -6,7 +6,7 @@ previous_package: silo
 languages: ['cpp']
 ---
 ## 0.9.2
-2 / 480 files match
+2 / 480 files match, 1 filtered matches.
 
  - [lib/pdf/xpdf/GlobalParams.cc](#libpdfxpdfglobalparamscc)
 

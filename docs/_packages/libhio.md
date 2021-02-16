@@ -6,7 +6,7 @@ previous_package: libical
 languages: ['c']
 ---
 ## 1.4.1.0
-7 / 114 files match
+7 / 114 files match, 3 filtered matches.
 
  - [src/hio_component.c](#srchio_componentc)
  - [test/xexec/xexec.c](#testxexecxexecc)

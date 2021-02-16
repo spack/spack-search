@@ -6,7 +6,7 @@ previous_package: libwebp
 languages: ['c']
 ---
 ## 3.19
-3 / 446 files match
+3 / 446 files match, 3 filtered matches.
 
  - [ioengines.c](#ioenginesc)
  - [os/windows/posix.c](#oswindowsposixc)

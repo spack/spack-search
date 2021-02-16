@@ -6,7 +6,7 @@ previous_package: biobambam2
 languages: ['c']
 ---
 ## 3.1.2
-6 / 132 files match
+6 / 132 files match, 2 filtered matches.
 
  - [src/egl_context.c](#srcegl_contextc)
  - [src/glx_context.c](#srcglx_contextc)

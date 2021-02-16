@@ -6,7 +6,7 @@ previous_package: php
 languages: ['c']
 ---
 ## 4.03.0
-6 / 2293 files match
+6 / 2293 files match, 6 filtered matches.
 
  - [byterun/unix.c](#byterununixc)
  - [byterun/win32.c](#byterunwin32c)

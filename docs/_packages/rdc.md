@@ -6,7 +6,7 @@ previous_package: jose
 languages: ['cpp']
 ---
 ## 4.0.0
-1 / 444 files match
+1 / 444 files match, 1 filtered matches.
 
  - [rdc_libs/bootstrap/src/RdcLibraryLoader.cc](#rdc_libsbootstrapsrcrdclibraryloadercc)
 

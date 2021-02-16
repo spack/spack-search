@@ -6,7 +6,7 @@ previous_package: spades
 languages: ['c']
 ---
 ## 2.3.1
-4 / 200 files match
+4 / 200 files match, 1 filtered matches.
 
  - [libmariadb/client_plugin.c](#libmariadbclient_pluginc)
 

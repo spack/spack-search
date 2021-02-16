@@ -6,7 +6,7 @@ previous_package: buddy
 languages: ['python', 'c']
 ---
 ## master
-3 / 245 files match
+3 / 245 files match, 3 filtered matches.
 
  - [src/lib/backend.c](#srclibbackendc)
  - [src/util/dbrUtils.c](#srcutildbrutilsc)

@@ -6,7 +6,7 @@ previous_package: rsync
 languages: ['c']
 ---
 ## 1.13.6.2
-7 / 2240 files match
+7 / 2240 files match, 3 filtered matches.
 
  - [bundle/LuaJIT-2.1-20180420/src/lib_package.c](#bundleluajit-21-20180420srclib_packagec)
  - [bundle/LuaJIT-2.1-20180420/src/lj_clib.c](#bundleluajit-21-20180420srclj_clibc)

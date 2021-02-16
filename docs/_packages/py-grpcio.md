@@ -6,7 +6,7 @@ previous_package: cntk
 languages: ['cpp']
 ---
 ## 1.30.0
-3 / 2788 files match
+3 / 2788 files match, 2 filtered matches.
 
  - [third_party/abseil-cpp/absl/random/internal/randen_detect.cc](#third_partyabseil-cppabslrandominternalranden_detectcc)
  - [third_party/abseil-cpp/absl/time/internal/cctz/src/time_zone_lookup.cc](#third_partyabseil-cppabsltimeinternalcctzsrctime_zone_lookupcc)

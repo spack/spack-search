@@ -6,7 +6,7 @@ previous_package: py-packaging
 languages: ['c']
 ---
 ## 3.10.0
-2 / 71 files match
+2 / 71 files match, 1 filtered matches.
 
  - [src/core/loader.h](#srccoreloaderh)
 

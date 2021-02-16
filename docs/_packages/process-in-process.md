@@ -6,7 +6,7 @@ previous_package: itk
 languages: ['c']
 ---
 ## 2
-6 / 584 files match
+6 / 584 files match, 4 filtered matches.
 
  - [PiP-Testsuite/PiP-Testsuite/compat/pip_dlopen.c](#pip-testsuitepip-testsuitecompatpip_dlopenc)
  - [lib/pip_dlfcn.c](#libpip_dlfcnc)

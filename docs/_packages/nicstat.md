@@ -6,7 +6,7 @@ previous_package: intel-llvm
 languages: ['c']
 ---
 ## 1.95
-1 / 18 files match
+1 / 18 files match, 1 filtered matches.
 
  - [nicstat.c](#nicstatc)
 

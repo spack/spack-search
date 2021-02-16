@@ -6,7 +6,7 @@ previous_package: openfoam-org
 languages: ['go']
 ---
 ## 3.3.20
-4 / 2237 files match
+4 / 2237 files match, 3 filtered matches.
 
  - [vendor/github.com/coreos/pkg/dlopen/dlopen_example.go](#vendorgithubcomcoreospkgdlopendlopen_examplego)
  - [vendor/github.com/coreos/pkg/dlopen/dlopen.go](#vendorgithubcomcoreospkgdlopendlopengo)

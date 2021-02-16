@@ -6,7 +6,7 @@ previous_package: masurca
 languages: ['python']
 ---
 ## 3.8.0
-4 / 1738 files match
+4 / 1738 files match, 1 filtered matches.
 
  - [model_compiler/python/nnir_to_clib.py](#model_compilerpythonnnir_to_clibpy)
 

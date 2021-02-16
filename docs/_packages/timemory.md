@@ -6,7 +6,7 @@ previous_package: binutils
 languages: ['c']
 ---
 ## master
-29 / 2657 files match
+29 / 2657 files match, 10 filtered matches.
 
  - [external/gotcha/src/gotcha_dl.h](#externalgotchasrcgotcha_dlh)
  - [external/gotcha/src/gotcha_dl.c](#externalgotchasrcgotcha_dlc)

@@ -6,7 +6,7 @@ previous_package: unuran
 languages: ['c']
 ---
 ## 3.0.0
-7 / 739 files match
+7 / 739 files match, 2 filtered matches.
 
  - [src/tss2-esys/esys_int.h](#srctss2-esysesys_inth)
  - [test/unit/tctildr-dl.c](#testunittctildr-dlc)

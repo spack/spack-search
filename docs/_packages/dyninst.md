@@ -6,7 +6,7 @@ previous_package: taskflow
 languages: ['c']
 ---
 ## 10.2.1
-17 / 1296 files match
+17 / 1296 files match, 12 filtered matches.
 
  - [common/src/serialize-xml.C](#commonsrcserialize-xmlc)
  - [proccontrol/src/int_thread_db.C](#proccontrolsrcint_thread_dbc)

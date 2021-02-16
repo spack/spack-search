@@ -6,7 +6,7 @@ previous_package: pangolin
 languages: ['c']
 ---
 ## 1.9
-5 / 1127 files match
+5 / 1127 files match, 2 filtered matches.
 
  - [vcfplugin.c](#vcfpluginc)
  - [htslib-1.9/plugin.c](#htslib-19pluginc)

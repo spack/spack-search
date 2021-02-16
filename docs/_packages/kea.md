@@ -6,7 +6,7 @@ previous_package: ncftp
 languages: ['cpp', 'c']
 ---
 ## 1.6.2
-13 / 2822 files match
+13 / 2822 files match, 2 filtered matches.
 
  - [src/lib/hooks/library_manager.cc](#srclibhookslibrary_managercc)
  - [src/lib/hooks/library_manager.h](#srclibhookslibrary_managerh)

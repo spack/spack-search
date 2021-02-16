@@ -6,7 +6,7 @@ previous_package: tfel
 languages: ['c']
 ---
 ## 143187
-1 / 255 files match
+1 / 255 files match, 1 filtered matches.
 
  - [include/multiverso/net/mpi_net.h](#includemultiversonetmpi_neth)
 

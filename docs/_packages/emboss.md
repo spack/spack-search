@@ -6,7 +6,7 @@ previous_package: libibumad
 languages: ['c']
 ---
 ## 6.6.0
-5 / 6463 files match
+5 / 6463 files match, 1 filtered matches.
 
  - [plplot/plcore.c](#plplotplcorec)
 

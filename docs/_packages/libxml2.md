@@ -6,7 +6,7 @@ previous_package: glib
 languages: ['c']
 ---
 ## 2.7.8
-6 / 6220 files match
+6 / 6220 files match, 1 filtered matches.
 
  - [xmlmodule.c](#xmlmodulec)
 

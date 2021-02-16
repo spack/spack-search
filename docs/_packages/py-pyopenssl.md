@@ -6,7 +6,7 @@ previous_package: openssh
 languages: ['python']
 ---
 ## 19.0.0
-1 / 61 files match
+1 / 61 files match, 1 filtered matches.
 
  - [tests/memdbg.py](#testsmemdbgpy)
 

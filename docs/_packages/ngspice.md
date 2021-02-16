@@ -6,7 +6,7 @@ previous_package: libhio
 languages: ['c']
 ---
 ## 33
-5 / 3566 files match
+5 / 3566 files match, 2 filtered matches.
 
  - [src/spicelib/devices/dev.c](#srcspicelibdevicesdevc)
  - [visualc/ng_shared_xspice_v/src/main_xspice.c](#visualcng_shared_xspice_vsrcmain_xspicec)

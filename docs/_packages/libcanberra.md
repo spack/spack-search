@@ -6,7 +6,7 @@ previous_package: py-py-spy
 languages: ['c']
 ---
 ## 0.30
-5 / 98 files match
+5 / 98 files match, 1 filtered matches.
 
  - [src/dso.c](#srcdsoc)
 

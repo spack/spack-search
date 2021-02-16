@@ -6,7 +6,7 @@ previous_package: gobject-introspection
 languages: ['c']
 ---
 ## 1.5.0
-4 / 2584 files match
+4 / 2584 files match, 1 filtered matches.
 
  - [onnx/onnxifi_loader.c](#onnxonnxifi_loaderc)
 

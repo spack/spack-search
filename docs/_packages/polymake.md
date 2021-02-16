@@ -6,7 +6,7 @@ previous_package: fakexrandr
 languages: ['cpp']
 ---
 ## 3.5
-1 / 3513 files match
+1 / 3513 files match, 1 filtered matches.
 
  - [lib/callable/src/perl/Main.cc](#libcallablesrcperlmaincc)
 

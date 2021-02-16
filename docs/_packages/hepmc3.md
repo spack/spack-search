@@ -6,7 +6,7 @@ previous_package: amdfftw
 languages: ['cpp']
 ---
 ## 3.2.2
-3 / 373 files match
+3 / 373 files match, 2 filtered matches.
 
  - [src/WriterPlugin.cc](#srcwriterplugincc)
  - [src/ReaderPlugin.cc](#srcreaderplugincc)

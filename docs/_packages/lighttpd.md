@@ -6,7 +6,7 @@ previous_package: raft
 languages: ['c']
 ---
 ## 1.4.53
-32 / 384 files match
+32 / 384 files match, 1 filtered matches.
 
  - [src/plugin.c](#srcpluginc)
 

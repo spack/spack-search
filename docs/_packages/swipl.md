@@ -6,7 +6,7 @@ previous_package: scalpel
 languages: ['pl', 'c']
 ---
 ## 8.0.3
-13 / 3902 files match
+13 / 3902 files match, 9 filtered matches.
 
  - [src/SWI-Prolog.h](#srcswi-prologh)
  - [src/pl-nt.c](#srcpl-ntc)

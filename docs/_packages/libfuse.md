@@ -6,7 +6,7 @@ previous_package: expat
 languages: ['c']
 ---
 ## 3.9.2
-1 / 93 files match
+1 / 93 files match, 1 filtered matches.
 
  - [lib/fuse.c](#libfusec)
 

@@ -6,7 +6,7 @@ previous_package: libxkbfile
 languages: ['c']
 ---
 ## 25
-3 / 367 files match
+3 / 367 files match, 3 filtered matches.
 
  - [testsuite/uname.c](#testsuiteunamec)
  - [testsuite/path.c](#testsuitepathc)

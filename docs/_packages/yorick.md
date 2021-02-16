@@ -6,7 +6,7 @@ previous_package: r-rcmdcheck
 languages: ['c']
 ---
 ## 2.2.04
-9 / 571 files match
+9 / 571 files match, 7 filtered matches.
 
  - [yorick/dlsym.c](#yorickdlsymc)
  - [yorick/task.c](#yoricktaskc)

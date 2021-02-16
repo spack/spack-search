@@ -6,7 +6,7 @@ previous_package: gtkmm
 languages: ['cpp', 'c']
 ---
 ## 1.1.1
-2 / 246 files match
+2 / 246 files match, 2 filtered matches.
 
  - [src/pwr/pluginMeta.h](#srcpwrpluginmetah)
  - [src/pwr/dynamic.cc](#srcpwrdynamiccc)

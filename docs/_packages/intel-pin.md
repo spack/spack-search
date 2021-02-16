@@ -6,7 +6,7 @@ previous_package: singularity-legacy
 languages: ['c']
 ---
 ## 3.14
-36 / 4391 files match
+36 / 4391 files match, 11 filtered matches.
 
  - [source/tools/MemTranslate/malloc_translation_app.c](#sourcetoolsmemtranslatemalloc_translation_appc)
  - [source/tools/Debugger/dlopen-dlclose.c](#sourcetoolsdebuggerdlopen-dlclosec)

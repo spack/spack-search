@@ -6,7 +6,7 @@ previous_package: libssh
 languages: ['c']
 ---
 ## 6.1.29
-25 / 9619 files match
+25 / 9619 files match, 6 filtered matches.
 
  - [lang/sql/sqlite/src/os_unix.c](#langsqlsqlitesrcos_unixc)
  - [lang/sql/odbc/sqlite4odbc.c](#langsqlodbcsqlite4odbcc)

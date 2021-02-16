@@ -6,7 +6,7 @@ previous_package: elmerfem
 languages: ['c']
 ---
 ## 7.6.0
-2 / 5578 files match
+2 / 5578 files match, 1 filtered matches.
 
  - [fer/ccr/EF_InternalUtil.c](#ferccref_internalutilc)
 

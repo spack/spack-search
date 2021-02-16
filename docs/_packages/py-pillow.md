@@ -6,7 +6,7 @@ previous_package: glew
 languages: ['c']
 ---
 ## 6.2.0
-2 / 1062 files match
+2 / 1062 files match, 2 filtered matches.
 
  - [src/_imagingft.c](#src_imagingftc)
  - [src/Tk/tkImaging.c](#srctktkimagingc)

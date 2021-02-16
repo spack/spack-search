@@ -6,7 +6,7 @@ previous_package: kmod
 languages: ['c']
 ---
 ## 2.2.4
-12 / 2069 files match
+12 / 2069 files match, 2 filtered matches.
 
  - [libguile/elf.h](#libguileelfh)
  - [libguile/dynl.c](#libguiledynlc)

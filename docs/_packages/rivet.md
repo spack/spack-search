@@ -6,7 +6,7 @@ previous_package: log4cxx
 languages: ['cpp', 'python']
 ---
 ## 2.2.0
-5 / 1528 files match
+5 / 1528 files match, 2 filtered matches.
 
  - [src/Core/AnalysisLoader.cc](#srccoreanalysisloadercc)
  - [pyext/rivet/__init__.py](#pyextrivet__init__py)

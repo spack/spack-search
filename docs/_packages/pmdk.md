@@ -6,7 +6,7 @@ previous_package: texstudio
 languages: ['python', 'c']
 ---
 ## 1.7
-12 / 4145 files match
+12 / 4145 files match, 4 filtered matches.
 
  - [src/common/dlsym.h](#srccommondlsymh)
  - [src/common/set.c](#srccommonsetc)

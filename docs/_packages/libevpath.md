@@ -6,7 +6,7 @@ previous_package: subversion
 languages: ['pl', 'c']
 ---
 ## develop
-10 / 228 files match
+10 / 228 files match, 7 filtered matches.
 
  - [cm.c](#cmc)
  - [gen_interface.pl](#gen_interfacepl)

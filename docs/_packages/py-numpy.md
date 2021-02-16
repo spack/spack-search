@@ -6,7 +6,7 @@ previous_package: py-iminuit
 languages: ['c']
 ---
 ## 1.10.4
-1 / 1215 files match
+1 / 1215 files match, 1 filtered matches.
 
  - [numpy/_build_utils/src/apple_sgemv_fix.c](#numpy_build_utilssrcapple_sgemv_fixc)
 

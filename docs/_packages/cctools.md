@@ -6,7 +6,7 @@ previous_package: libx11
 languages: ['c']
 ---
 ## 7.1.0
-2 / 1270 files match
+2 / 1270 files match, 2 filtered matches.
 
  - [dttools/src/hdfs_library.c](#dttoolssrchdfs_libraryc)
  - [chirp/src/sqlite3.c](#chirpsrcsqlite3c)

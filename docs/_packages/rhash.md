@@ -6,7 +6,7 @@ previous_package: simgrid
 languages: ['c']
 ---
 ## 1.3.5
-1 / 155 files match
+1 / 155 files match, 1 filtered matches.
 
  - [librhash/plug_openssl.c](#librhashplug_opensslc)
 

@@ -6,7 +6,7 @@ previous_package: py-uvloop
 languages: ['c']
 ---
 ## 2.2.4
-3 / 37 files match
+3 / 37 files match, 1 filtered matches.
 
  - [ocl_icd_loader.c](#ocl_icd_loaderc)
 

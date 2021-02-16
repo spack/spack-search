@@ -6,7 +6,7 @@ previous_package: swipl
 languages: ['c']
 ---
 ## 1.36.0-0
-14 / 484 files match
+14 / 484 files match, 7 filtered matches.
 
  - [deps/libuv/src/win/dl.c](#depslibuvsrcwindlc)
  - [deps/libuv/src/unix/darwin-proctitle.c](#depslibuvsrcunixdarwin-proctitlec)

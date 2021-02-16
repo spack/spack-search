@@ -6,7 +6,7 @@ previous_package: py-mpi4py
 languages: ['cpp', 'c']
 ---
 ## v10_3
-7 / 728 files match
+7 / 728 files match, 5 filtered matches.
 
  - [t-dll.cc](#t-dllcc)
  - [vvp/vpi_modules.cc](#vvpvpi_modulescc)

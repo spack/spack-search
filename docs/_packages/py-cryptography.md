@@ -6,7 +6,7 @@ previous_package: flex
 languages: ['python']
 ---
 ## 2.7
-1 / 307 files match
+1 / 307 files match, 1 filtered matches.
 
  - [tests/hazmat/backends/test_openssl_memleak.py](#testshazmatbackendstest_openssl_memleakpy)
 

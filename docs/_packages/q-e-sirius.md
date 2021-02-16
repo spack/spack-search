@@ -6,7 +6,7 @@ previous_package: extrae
 languages: ['c']
 ---
 ## 6.5-rc3-siriu
-1 / 5019 files match
+1 / 5019 files match, 1 filtered matches.
 
  - [dev-tools/device_props.c](#dev-toolsdevice_propsc)
 

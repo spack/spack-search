@@ -6,7 +6,7 @@ previous_package: libdrm
 languages: ['c']
 ---
 ## 1.6.1
-5 / 638 files match
+5 / 638 files match, 1 filtered matches.
 
  - [src/fabric.c](#srcfabricc)
 

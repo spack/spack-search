@@ -6,7 +6,7 @@ previous_package: libxrender
 languages: ['cpp', 'c']
 ---
 ## 8.0.20-11
-33 / 44426 files match
+33 / 44426 files match, 20 filtered matches.
 
  - [storage/ndb/memcache/extra/memcached/daemon/memcached.c](#storagendbmemcacheextramemcacheddaemonmemcachedc)
  - [storage/ndb/memcache/extra/memcached/utilities/engine_loader.c](#storagendbmemcacheextramemcachedutilitiesengine_loaderc)

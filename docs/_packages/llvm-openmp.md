@@ -6,7 +6,7 @@ previous_package: likwid
 languages: ['c']
 ---
 ## 8.0.0
-6 / 416 files match
+6 / 416 files match, 1 filtered matches.
 
  - [runtime/src/thirdparty/ittnotify/ittnotify_config.h](#runtimesrcthirdpartyittnotifyittnotify_configh)
 

@@ -6,7 +6,7 @@ previous_package: blast-plus
 languages: ['c']
 ---
 ## 1.45.5
-8 / 1500 files match
+8 / 1500 files match, 2 filtered matches.
 
  - [lib/ss/get_readline.c](#libssget_readlinec)
  - [lib/support/plausible.c](#libsupportplausiblec)

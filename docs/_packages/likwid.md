@@ -6,7 +6,7 @@ previous_package: libdmx
 languages: ['c']
 ---
 ## 5.0.2
-14 / 1422 files match
+14 / 1422 files match, 13 filtered matches.
 
  - [src/topology_gpu.c](#srctopology_gpuc)
  - [src/includes/likwid.h](#srcincludeslikwidh)

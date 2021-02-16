@@ -6,7 +6,7 @@ previous_package: gnutls
 languages: ['c']
 ---
 ## 3.5.0
-7 / 508 files match
+7 / 508 files match, 2 filtered matches.
 
  - [elf/utils/common/elfdefinitions.h](#elfutilscommonelfdefinitionsh)
  - [opencl-on-vdi/khronos/icd/loader/linux/icd_linux.c](#opencl-on-vdikhronosicdloaderlinuxicd_linuxc)

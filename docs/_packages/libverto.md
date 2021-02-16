@@ -6,7 +6,7 @@ previous_package: libgd
 languages: ['c']
 ---
 ## 0.3.1
-2 / 45 files match
+2 / 45 files match, 1 filtered matches.
 
  - [src/module.c](#srcmodulec)
 

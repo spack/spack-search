@@ -6,7 +6,7 @@ previous_package: flit
 languages: ['c']
 ---
 ## 0.15.0
-18 / 1484 files match
+18 / 1484 files match, 8 filtered matches.
 
  - [src/common/libflux/handle.c](#srccommonlibfluxhandlec)
  - [src/common/libflux/module.c](#srccommonlibfluxmodulec)

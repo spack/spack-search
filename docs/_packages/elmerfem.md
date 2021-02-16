@@ -6,7 +6,7 @@ previous_package: glog
 languages: ['c']
 ---
 ## devel
-5 / 9371 files match
+5 / 9371 files match, 2 filtered matches.
 
  - [fem/src/Load.c](#femsrcloadc)
  - [contrib/lua-5.1.5/src/loadlib.c](#contriblua-515srcloadlibc)

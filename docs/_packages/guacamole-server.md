@@ -6,7 +6,7 @@ previous_package: rsyslog
 languages: ['c']
 ---
 ## 1.1.0
-3 / 490 files match
+3 / 490 files match, 1 filtered matches.
 
  - [src/libguac/client.c](#srclibguacclientc)
 

@@ -6,7 +6,7 @@ previous_package: spindle
 languages: ['c']
 ---
 ## 0.8.13
-1 / 166 files match
+1 / 166 files match, 1 filtered matches.
 
  - [src/conf.c](#srcconfc)
 

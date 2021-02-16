@@ -6,7 +6,7 @@ previous_package: petsc
 languages: ['c']
 ---
 ## 0.1
-1 / 266 files match
+1 / 266 files match, 1 filtered matches.
 
  - [src/wrappers/pthread_wrapper.c](#srcwrapperspthread_wrapperc)
 

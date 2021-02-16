@@ -6,7 +6,7 @@ previous_package: libvips
 languages: ['c']
 ---
 ## 25.0
-5 / 960 files match
+5 / 960 files match, 2 filtered matches.
 
  - [libibverbs/dynamic_driver.c](#libibverbsdynamic_driverc)
  - [ibacm/src/acm.c](#ibacmsrcacmc)

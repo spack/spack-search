@@ -6,7 +6,7 @@ previous_package: timemory
 languages: ['python', 'c']
 ---
 ## 11r5p3
-16 / 15648 files match
+16 / 15648 files match, 4 filtered matches.
 
  - [x86_64-unknown-linux-gnu-libc2.17/lib/python2.7/test/test_sys.py](#x86_64-unknown-linux-gnu-libc217libpython27testtest_syspy)
  - [x86_64-unknown-linux-gnu-libc2.17/lib/python2.7/distutils/tests/setuptools_build_ext.py](#x86_64-unknown-linux-gnu-libc217libpython27distutilstestssetuptools_build_extpy)

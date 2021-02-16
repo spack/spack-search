@@ -6,7 +6,7 @@ previous_package: hunspell
 languages: ['c']
 ---
 ## 1.56
-1 / 138 files match
+1 / 138 files match, 1 filtered matches.
 
  - [sqlite3.c](#sqlite3c)
 

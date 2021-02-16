@@ -6,7 +6,7 @@ previous_package: embree
 languages: ['c']
 ---
 ## 1.23.7
-8 / 763 files match
+8 / 763 files match, 3 filtered matches.
 
  - [server/main.c](#servermainc)
  - [plugins/vddk/vddk.c](#pluginsvddkvddkc)

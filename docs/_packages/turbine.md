@@ -6,7 +6,7 @@ previous_package: folly
 languages: ['c']
 ---
 ## 1.1.0
-2 / 385 files match
+2 / 385 files match, 1 filtered matches.
 
  - [src/tcl/python/tcl-python.c](#srctclpythontcl-pythonc)
 

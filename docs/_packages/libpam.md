@@ -6,7 +6,7 @@ previous_package: isl
 languages: ['c']
 ---
 ## 1.07
-3 / 32 files match
+3 / 32 files match, 2 filtered matches.
 
  - [src/google-authenticator.c](#srcgoogle-authenticatorc)
  - [tests/pam_google_authenticator_unittest.c](#testspam_google_authenticator_unittestc)

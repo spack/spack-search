@@ -6,7 +6,7 @@ previous_package: tcsh
 languages: ['c']
 ---
 ## 8.0.1
-3 / 3654 files match
+3 / 3654 files match, 3 filtered matches.
 
  - [src/Infrastructure/Trace/src/ESMCI_Trace.C](#srcinfrastructuretracesrcesmci_tracec)
  - [src/Superstructure/Component/src/ESMCI_MethodTable.C](#srcsuperstructurecomponentsrcesmci_methodtablec)

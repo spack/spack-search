@@ -6,7 +6,7 @@ previous_package: ispc
 languages: ['cpp']
 ---
 ## elecfem
-1 / 1451 files match
+1 / 1451 files match, 1 filtered matches.
 
  - [elec/reactionFactory.cc](#elecreactionfactorycc)
 

@@ -6,7 +6,7 @@ previous_package: prism
 languages: ['c']
 ---
 ## 1.3.0
-3 / 1400 files match
+3 / 1400 files match, 1 filtered matches.
 
  - [frontends/yasm/yasm-plugin.c](#frontendsyasmyasm-pluginc)
 

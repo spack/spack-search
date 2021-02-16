@@ -6,7 +6,7 @@ previous_package: r
 languages: ['c']
 ---
 ## master
-1 / 16 files match
+1 / 16 files match, 1 filtered matches.
 
  - [libXrandr.c](#libxrandrc)
 

@@ -3,10 +3,10 @@ name: "ace"
 layout: package
 next_package: gconf
 previous_package: libxft
-languages: ['pl', 'c']
+languages: ['c', 'pl']
 ---
 ## 6.5.12
-20 / 8830 files match
+20 / 8830 files match, 2 filtered matches.
 
  - [bin/fuzz.pl](#binfuzzpl)
  - [ace/OS_NS_dlfcn.h](#aceos_ns_dlfcnh)

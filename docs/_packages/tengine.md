@@ -6,7 +6,7 @@ previous_package: saws
 languages: ['c']
 ---
 ## 2.3.0
-4 / 1238 files match
+4 / 1238 files match, 1 filtered matches.
 
  - [src/core/nginx.c](#srccorenginxc)
 

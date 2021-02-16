@@ -6,7 +6,7 @@ previous_package: gmp
 languages: ['c']
 ---
 ## 2.12
-6 / 419 files match
+6 / 419 files match, 2 filtered matches.
 
  - [libsbutil/get_sandbox_lib.c](#libsbutilget_sandbox_libc)
  - [libsandbox/wrappers.c](#libsandboxwrappersc)

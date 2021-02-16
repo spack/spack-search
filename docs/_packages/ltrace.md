@@ -6,7 +6,7 @@ previous_package: libyogrt
 languages: ['c']
 ---
 ## 0.7.3
-6 / 262 files match
+6 / 262 files match, 1 filtered matches.
 
  - [testsuite/ltrace.minor/libdl-simple.c](#testsuiteltraceminorlibdl-simplec)
 

@@ -6,7 +6,7 @@ previous_package: fenics-dolfinx
 languages: ['c']
 ---
 ## 7.70
-11 / 2242 files match
+11 / 2242 files match, 1 filtered matches.
 
  - [liblua/loadlib.c](#liblualoadlibc)
 

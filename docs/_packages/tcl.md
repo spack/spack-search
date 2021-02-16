@@ -6,7 +6,7 @@ previous_package: libxcursor
 languages: ['c']
 ---
 ## 8.6.6
-9 / 1481 files match
+9 / 1481 files match, 6 filtered matches.
 
  - [compat/dlfcn.h](#compatdlfcnh)
  - [pkgs/sqlite3.13.0/compat/sqlite3/sqlite3.c](#pkgssqlite3130compatsqlite3sqlite3c)

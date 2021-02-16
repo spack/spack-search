@@ -6,7 +6,7 @@ previous_package: charmpp
 languages: ['c']
 ---
 ## 0.15.3
-5 / 767 files match
+5 / 767 files match, 3 filtered matches.
 
  - [bcftools/vcfplugin.c](#bcftoolsvcfpluginc)
  - [bcftools/vcfplugin.c.pysam.c](#bcftoolsvcfplugincpysamc)

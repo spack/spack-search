@@ -6,7 +6,7 @@ previous_package: libxprintapputil
 languages: ['c']
 ---
 ## 4.0
-2 / 9931 files match
+2 / 9931 files match, 2 filtered matches.
 
  - [src/OSspecific/MSWindows/MSwindows.C](#srcosspecificmswindowsmswindowsc)
  - [src/foam/db/dlLibraryTable/dlLibraryTable.C](#srcfoamdbdllibrarytabledllibrarytablec)

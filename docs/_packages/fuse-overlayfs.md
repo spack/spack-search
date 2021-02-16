@@ -6,7 +6,7 @@ previous_package: gtkorvo-atl
 languages: ['c']
 ---
 ## 1.1.2
-2 / 55 files match
+2 / 55 files match, 1 filtered matches.
 
  - [plugin-manager.c](#plugin-managerc)
 

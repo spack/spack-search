@@ -6,7 +6,7 @@ previous_package: lua
 languages: ['c']
 ---
 ## 1.7
-2 / 294 files match
+2 / 294 files match, 1 filtered matches.
 
  - [src/pnmpi/core.c](#srcpnmpicorec)
 

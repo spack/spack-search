@@ -6,7 +6,7 @@ previous_package: environment-modules
 languages: ['c']
 ---
 ## 0.14.0
-15 / 449 files match
+15 / 449 files match, 6 filtered matches.
 
  - [vendor/libuv/src/win/dl.c](#vendorlibuvsrcwindlc)
  - [vendor/libuv/src/unix/darwin-proctitle.c](#vendorlibuvsrcunixdarwin-proctitlec)

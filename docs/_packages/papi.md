@@ -6,7 +6,7 @@ previous_package: tinker
 languages: ['c']
 ---
 ## 5.4.3
-11 / 1681 files match
+11 / 1681 files match, 9 filtered matches.
 
  - [src/threads.c](#srcthreadsc)
  - [src/ctests/shlib.c](#srcctestsshlibc)

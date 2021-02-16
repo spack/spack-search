@@ -6,7 +6,7 @@ previous_package: libxt
 languages: ['python', 'c']
 ---
 ## develop
-11 / 393 files match
+11 / 393 files match, 10 filtered matches.
 
  - [setup.py](#setuppy)
  - [demo/wrap-cffi/helloworld.py](#demowrap-cffihelloworldpy)

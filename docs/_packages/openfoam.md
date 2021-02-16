@@ -6,7 +6,7 @@ previous_package: id3lib
 languages: ['c']
 ---
 ## 1806
-3 / 11471 files match
+3 / 11471 files match, 2 filtered matches.
 
  - [src/OSspecific/POSIX/POSIX.C](#srcosspecificposixposixc)
  - [src/OpenFOAM/db/dynamicLibrary/dynamicCode/dynamicCode.C](#srcopenfoamdbdynamiclibrarydynamiccodedynamiccodec)

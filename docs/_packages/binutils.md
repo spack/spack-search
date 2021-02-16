@@ -6,7 +6,7 @@ previous_package: qscintilla
 languages: ['cpp', 'c']
 ---
 ## 2.32
-62 / 22031 files match
+62 / 22031 files match, 17 filtered matches.
 
  - [include/aout/sun4.h](#includeaoutsun4h)
  - [bfd/elf32-frv.c](#bfdelf32-frvc)

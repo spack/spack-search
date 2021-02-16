@@ -6,7 +6,7 @@ previous_package: openldap
 languages: ['python', 'c']
 ---
 ## 4.0.2
-7 / 275 files match
+7 / 275 files match, 4 filtered matches.
 
  - [src/dysect/DysectAPI/DysectAPI.C](#srcdysectdysectapidysectapic)
  - [examples/scripts/script_test.py](#examplesscriptsscript_testpy)

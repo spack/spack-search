@@ -6,7 +6,7 @@ previous_package: root
 languages: ['c']
 ---
 ## 1.49.2
-8 / 2382 files match
+8 / 2382 files match, 1 filtered matches.
 
  - [girepository/gitypelib.c](#girepositorygitypelibc)
 

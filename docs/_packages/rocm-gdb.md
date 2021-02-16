@@ -6,7 +6,7 @@ previous_package: scorep
 languages: ['cpp', 'c']
 ---
 ## 3.8.0
-115 / 33677 files match
+115 / 33677 files match, 47 filtered matches.
 
  - [sim/bfin/gui.c](#simbfinguic)
  - [include/aout/sun4.h](#includeaoutsun4h)

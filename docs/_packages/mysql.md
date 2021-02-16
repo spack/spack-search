@@ -6,7 +6,7 @@ previous_package: libidl
 languages: ['cpp', 'c']
 ---
 ## 8.0.19
-28 / 39146 files match
+28 / 39146 files match, 19 filtered matches.
 
  - [storage/ndb/memcache/extra/memcached/daemon/memcached.c](#storagendbmemcacheextramemcacheddaemonmemcachedc)
  - [storage/ndb/memcache/extra/memcached/utilities/engine_loader.c](#storagendbmemcacheextramemcachedutilitiesengine_loaderc)

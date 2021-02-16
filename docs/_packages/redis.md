@@ -6,7 +6,7 @@ previous_package: libctl
 languages: ['c']
 ---
 ## 5.0.2
-5 / 701 files match
+5 / 701 files match, 2 filtered matches.
 
  - [src/module.c](#srcmodulec)
  - [deps/lua/src/loadlib.c](#depsluasrcloadlibc)

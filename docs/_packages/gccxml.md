@@ -6,7 +6,7 @@ previous_package: darshan-runtime
 languages: ['c']
 ---
 ## latest
-5 / 2115 files match
+5 / 2115 files match, 2 filtered matches.
 
  - [GCC/gcc/sys-protos.h](#gccgccsys-protosh)
  - [GCC/gcc/config/darwin-crt3.c](#gccgccconfigdarwin-crt3c)

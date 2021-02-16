@@ -6,7 +6,7 @@ previous_package: libunistring
 languages: ['cpp']
 ---
 ## 2.8.3-1
-4 / 121 files match
+4 / 121 files match, 3 filtered matches.
 
  - [src/init.cc](#srcinitcc)
  - [src/misc/ibvwrap.cc](#srcmiscibvwrapcc)

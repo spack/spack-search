@@ -6,7 +6,7 @@ previous_package: libpipeline
 languages: ['c']
 ---
 ## 5.6.13.2
-3 / 91 files match
+3 / 91 files match, 2 filtered matches.
 
  - [src/lp_lib.c](#srclp_libc)
  - [src/lp_explicit.h](#srclp_explicith)

@@ -6,7 +6,7 @@ previous_package: slang
 languages: ['c']
 ---
 ## 1.46
-2 / 250 files match
+2 / 250 files match, 1 filtered matches.
 
  - [htslib/plugin.c](#htslibpluginc)
 

@@ -6,7 +6,7 @@ previous_package: py-setuptools
 languages: ['c']
 ---
 ## 9_14_6
-57 / 3884 files match
+57 / 3884 files match, 11 filtered matches.
 
  - [bin/named/main.c](#binnamedmainc)
  - [bin/named/include/dlz/dlz_dlopen_driver.h](#binnamedincludedlzdlz_dlopen_driverh)

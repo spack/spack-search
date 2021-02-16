@@ -6,7 +6,7 @@ previous_package: grep
 languages: ['c']
 ---
 ## 5.6.4
-25 / 1410 files match
+25 / 1410 files match, 1 filtered matches.
 
  - [comex/src-ofi/ofi.h](#comexsrc-ofiofih)
 

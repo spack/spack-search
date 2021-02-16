@@ -6,7 +6,7 @@ previous_package: vt
 languages: ['c']
 ---
 ## 3.10
-1 / 13 files match
+1 / 13 files match, 1 filtered matches.
 
  - [hbaapilib.c](#hbaapilibc)
 

@@ -6,7 +6,7 @@ previous_package: lzo
 languages: ['c']
 ---
 ## 2.2.1
-8 / 515 files match
+8 / 515 files match, 3 filtered matches.
 
  - [src/gafunc.c](#srcgafuncc)
  - [src/gxsubs.c](#srcgxsubsc)

@@ -6,7 +6,7 @@ previous_package: netcdf-cxx4
 languages: ['c']
 ---
 ## 0.5.4
-1 / 1005 files match
+1 / 1005 files match, 1 filtered matches.
 
  - [bcftools-1.1/vcfplugin.c](#bcftools-11vcfpluginc)
 

@@ -6,7 +6,7 @@ previous_package: libxi
 languages: ['c']
 ---
 ## 4.8.23
-6 / 1128 files match
+6 / 1128 files match, 1 filtered matches.
 
  - [lib/tty/key.c](#libttykeyc)
 

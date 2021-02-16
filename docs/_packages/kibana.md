@@ -6,7 +6,7 @@ previous_package: py-cairocffi
 languages: ['c']
 ---
 ## 6.4.0
-6 / 56280 files match
+6 / 56280 files match, 1 filtered matches.
 
  - [node/include/node/uv.h](#nodeincludenodeuvh)
 

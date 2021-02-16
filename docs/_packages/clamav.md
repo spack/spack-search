@@ -6,7 +6,7 @@ previous_package: llvm-doe
 languages: ['c']
 ---
 ## 0.101.2
-55 / 6766 files match
+55 / 6766 files match, 14 filtered matches.
 
  - [libclamav/others.c](#libclamavothersc)
  - [libltdl/ltdl.h](#libltdlltdlh)

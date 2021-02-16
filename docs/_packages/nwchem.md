@@ -6,7 +6,7 @@ previous_package: efivar
 languages: ['c']
 ---
 ## 6.8.1
-26 / 20838 files match
+26 / 20838 files match, 1 filtered matches.
 
  - [src/tools/ga-5.6.5/comex/src-ofi/ofi.h](#srctoolsga-565comexsrc-ofiofih)
 

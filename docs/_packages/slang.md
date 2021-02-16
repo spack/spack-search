@@ -6,7 +6,7 @@ previous_package: tix
 languages: ['c']
 ---
 ## 2.3.2
-3 / 528 files match
+3 / 528 files match, 1 filtered matches.
 
  - [src/slimport.c](#srcslimportc)
 

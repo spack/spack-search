@@ -6,7 +6,7 @@ previous_package: ncurses
 languages: ['c']
 ---
 ## 0.8.1
-5 / 148 files match
+5 / 148 files match, 1 filtered matches.
 
  - [testsuite/test_driver.c](#testsuitetest_driverc)
 

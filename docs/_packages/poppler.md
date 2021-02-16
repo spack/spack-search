@@ -6,7 +6,7 @@ previous_package: ocaml
 languages: ['cpp']
 ---
 ## 0.61.1
-1 / 818 files match
+1 / 818 files match, 1 filtered matches.
 
  - [poppler/GlobalParams.cc](#popplerglobalparamscc)
 

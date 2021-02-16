@@ -6,7 +6,7 @@ previous_package: rempi
 languages: ['c']
 ---
 ## 20.02
-9 / 3923 files match
+9 / 3923 files match, 4 filtered matches.
 
  - [lib/librte_eal/common/eal_common_options.c](#liblibrte_ealcommoneal_common_optionsc)
  - [drivers/common/mlx5/mlx5_common.c](#driverscommonmlx5mlx5_commonc)

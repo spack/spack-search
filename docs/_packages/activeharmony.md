@@ -6,7 +6,7 @@ previous_package: draco
 languages: ['c']
 ---
 ## 4.6.0
-5 / 312 files match
+5 / 312 files match, 3 filtered matches.
 
  - [example/code_generation/gemm.c](#examplecode_generationgemmc)
  - [src/hinfo.c](#srchinfoc)

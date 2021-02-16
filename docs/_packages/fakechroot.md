@@ -6,7 +6,7 @@ previous_package: mc
 languages: ['c']
 ---
 ## 2.20.1
-9 / 293 files match
+9 / 293 files match, 1 filtered matches.
 
  - [src/dlopen.c](#srcdlopenc)
 

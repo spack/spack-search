@@ -6,7 +6,7 @@ previous_package: cosbench
 languages: ['c']
 ---
 ## 2.0.3
-2 / 149 files match
+2 / 149 files match, 2 filtered matches.
 
  - [lib/libuv.c](#liblibuvc)
  - [lib/lws-plat-unix.c](#liblws-plat-unixc)

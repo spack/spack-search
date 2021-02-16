@@ -6,7 +6,7 @@ previous_package: pruners-ninja
 languages: ['c']
 ---
 ## 2.29.1
-19 / 3452 files match
+19 / 3452 files match, 5 filtered matches.
 
  - [src/wrappers/pthread/pthread_wrap.c](#srcwrapperspthreadpthread_wrapc)
  - [src/wrappers/gomp/gomp_wrap.c](#srcwrappersgompgomp_wrapc)

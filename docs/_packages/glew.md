@@ -6,7 +6,7 @@ previous_package: paraview
 languages: ['c']
 ---
 ## 2.1.0
-2 / 165 files match
+2 / 165 files match, 2 filtered matches.
 
  - [src/glew.c](#srcglewc)
  - [auto/src/glew_head.c](#autosrcglew_headc)

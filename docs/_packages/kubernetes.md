@@ -6,7 +6,7 @@ previous_package: tpm2-tss
 languages: ['go']
 ---
 ## 1.18.0
-6 / 17660 files match
+6 / 17660 files match, 4 filtered matches.
 
  - [vendor/github.com/coreos/pkg/dlopen/dlopen_example.go](#vendorgithubcomcoreospkgdlopendlopen_examplego)
  - [vendor/github.com/coreos/pkg/dlopen/dlopen.go](#vendorgithubcomcoreospkgdlopendlopengo)

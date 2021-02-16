@@ -6,7 +6,7 @@ previous_package: dcap
 languages: ['c']
 ---
 ## 1.6.5
-3 / 1404 files match
+3 / 1404 files match, 3 filtered matches.
 
  - [src/cpu/x64/jit_utils/jitprofiling/jitprofiling.c](#srccpux64jit_utilsjitprofilingjitprofilingc)
  - [src/cpu/x64/jit_utils/jitprofiling/ittnotify_config.h](#srccpux64jit_utilsjitprofilingittnotify_configh)

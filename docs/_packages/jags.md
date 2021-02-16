@@ -6,7 +6,7 @@ previous_package: hdf
 languages: ['cpp', 'c']
 ---
 ## 4.3.0
-18 / 1147 files match
+18 / 1147 files match, 7 filtered matches.
 
  - [src/terminal/parser.cc](#srcterminalparsercc)
  - [libltdl/ltdl.h](#libltdlltdlh)

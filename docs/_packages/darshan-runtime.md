@@ -6,7 +6,7 @@ previous_package: xdm
 languages: ['python']
 ---
 ## develop
-2 / 409 files match
+2 / 409 files match, 1 filtered matches.
 
  - [darshan-util/pydarshan/darshan/discover_darshan.py](#darshan-utilpydarshandarshandiscover_darshanpy)
 

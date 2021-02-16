@@ -6,7 +6,7 @@ previous_package: gtkplus
 languages: ['c']
 ---
 ## master
-1 / 5313 files match
+1 / 5313 files match, 1 filtered matches.
 
  - [packages/seacas/libraries/ioss/src/visualization/Iovs_DatabaseIO.C](#packagesseacaslibrariesiosssrcvisualizationiovs_databaseioc)
 

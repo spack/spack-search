@@ -6,7 +6,7 @@ previous_package: libmaxminddb
 languages: ['c']
 ---
 ## 3.3.1
-12 / 4124 files match
+12 / 4124 files match, 3 filtered matches.
 
  - [src/unix/hpdlfcn.c](#srcunixhpdlfcnc)
  - [src/unix/dynload.c](#srcunixdynloadc)

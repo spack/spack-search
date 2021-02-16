@@ -6,7 +6,7 @@ previous_package: rocm-validation-suite
 languages: ['c']
 ---
 ## 3.5.0
-2 / 182 files match
+2 / 182 files match, 1 filtered matches.
 
  - [library/src/include/ref_cpu.h](#librarysrcincluderef_cpuh)
 

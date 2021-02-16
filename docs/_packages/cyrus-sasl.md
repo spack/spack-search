@@ -6,7 +6,7 @@ previous_package: libquo
 languages: ['c']
 ---
 ## 2.1.26
-16 / 529 files match
+16 / 529 files match, 3 filtered matches.
 
  - [lib/dlopen.c](#libdlopenc)
  - [dlcompat-20010505/dlfcn.h](#dlcompat-20010505dlfcnh)

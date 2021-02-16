@@ -6,7 +6,7 @@ previous_package: mongo-c-driver
 languages: ['c']
 ---
 ## 8.0.0
-18 / 179 files match
+18 / 179 files match, 6 filtered matches.
 
  - [pthread_support.c](#pthread_supportc)
  - [dyn_load.c](#dyn_loadc)

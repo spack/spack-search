@@ -6,7 +6,7 @@ previous_package: libxv
 languages: ['cpp']
 ---
 ## 2018-07-11
-1 / 5620 files match
+1 / 5620 files match, 1 filtered matches.
 
  - [src/cudamatrix/cu-device.cc](#srccudamatrixcu-devicecc)
 

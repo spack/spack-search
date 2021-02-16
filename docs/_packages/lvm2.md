@@ -6,7 +6,7 @@ previous_package: graphviz
 languages: ['c']
 ---
 ## 2.03.02
-3 / 1036 files match
+3 / 1036 files match, 2 filtered matches.
 
  - [lib/mm/memlock.c](#libmmmemlockc)
  - [daemons/dmeventd/dmeventd.c](#daemonsdmeventddmeventdc)

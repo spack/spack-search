@@ -6,7 +6,7 @@ previous_package: gts
 languages: ['c']
 ---
 ## 1.5.1
-7 / 157 files match
+7 / 157 files match, 2 filtered matches.
 
  - [src/lib/image.c](#srclibimagec)
  - [src/lib/dynamic_filters.c](#srclibdynamic_filtersc)

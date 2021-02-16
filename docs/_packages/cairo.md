@@ -6,7 +6,7 @@ previous_package: libogg
 languages: ['c']
 ---
 ## 1.14.12
-11 / 4232 files match
+11 / 4232 files match, 6 filtered matches.
 
  - [src/cairo-gl-dispatch.c](#srccairo-gl-dispatchc)
  - [src/drm/cairo-drm-gallium-surface.c](#srcdrmcairo-drm-gallium-surfacec)

@@ -6,7 +6,7 @@ previous_package: kylin
 languages: ['c']
 ---
 ## 14.4.2
-13 / 361 files match
+13 / 361 files match, 7 filtered matches.
 
  - [src/formats.c](#srcformatsc)
  - [src/win32-ltdl.h](#srcwin32-ltdlh)

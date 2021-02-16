@@ -6,7 +6,7 @@ previous_package: pkgconf
 languages: ['c']
 ---
 ## 1.3.31
-16 / 1293 files match
+16 / 1293 files match, 2 filtered matches.
 
  - [magick/module.c](#magickmodulec)
  - [magick/nt_base.c](#magicknt_basec)

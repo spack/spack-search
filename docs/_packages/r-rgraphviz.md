@@ -6,7 +6,7 @@ previous_package: hipsycl
 languages: ['c']
 ---
 ## 2.20.0
-38 / 778 files match
+38 / 778 files match, 7 filtered matches.
 
  - [src/graphviz/lib/gvc/gvplugin.c](#srcgraphvizlibgvcgvpluginc)
  - [src/graphviz/libltdl/ltdl.h](#srcgraphvizlibltdlltdlh)

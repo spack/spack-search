@@ -6,7 +6,7 @@ previous_package: llvm-openmp-ompt
 languages: ['c']
 ---
 ## 2.9
-4 / 761 files match
+4 / 761 files match, 2 filtered matches.
 
  - [src/plugins/weechat-plugin.h](#srcpluginsweechat-pluginh)
  - [src/plugins/plugin.c](#srcpluginspluginc)

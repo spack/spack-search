@@ -6,7 +6,7 @@ previous_package: gpdb
 languages: ['cpp', 'c']
 ---
 ## 4.5.0
-3 / 939 files match
+3 / 939 files match, 2 filtered matches.
 
  - [src/ThreadDb.cc](#srcthreaddbcc)
  - [src/test/dlopen.c](#srctestdlopenc)

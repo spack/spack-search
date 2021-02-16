@@ -6,7 +6,7 @@ previous_package: xqilla
 languages: ['c']
 ---
 ## 20.2.1
-16 / 7568 files match
+16 / 7568 files match, 6 filtered matches.
 
  - [src/loader/loader.c](#srcloaderloaderc)
  - [src/gallium/auxiliary/util/u_dl.c](#srcgalliumauxiliaryutilu_dlc)

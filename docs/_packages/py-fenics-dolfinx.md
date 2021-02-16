@@ -6,7 +6,7 @@ previous_package: libxdmcp
 languages: ['python']
 ---
 ## master
-2 / 374 files match
+2 / 374 files match, 2 filtered matches.
 
  - [python/dolfinx/__init__.py](#pythondolfinx__init__py)
  - [python/test/unit/fem/test_custom_assembler.py](#pythontestunitfemtest_custom_assemblerpy)

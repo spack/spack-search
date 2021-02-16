@@ -6,7 +6,7 @@ previous_package: plplot
 languages: ['python', 'c']
 ---
 ## pragma-omp-tile
-134 / 92269 files match
+134 / 92269 files match, 24 filtered matches.
 
  - [openmp/runtime/src/thirdparty/ittnotify/ittnotify_config.h](#openmpruntimesrcthirdpartyittnotifyittnotify_configh)
  - [openmp/libomptarget/test/offloading/dynamic_module_load.c](#openmplibomptargettestoffloadingdynamic_module_loadc)

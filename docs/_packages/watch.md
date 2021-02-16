@@ -6,7 +6,7 @@ previous_package: tk
 languages: ['c']
 ---
 ## 3.3.15
-5 / 173 files match
+5 / 173 files match, 3 filtered matches.
 
  - [ps/output.c](#psoutputc)
  - [proc/numa.c](#procnumac)

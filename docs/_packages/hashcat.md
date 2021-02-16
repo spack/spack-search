@@ -6,7 +6,7 @@ previous_package: xcb-util-keysyms
 languages: ['c']
 ---
 ## 5.0.0
-4 / 1181 files match
+4 / 1181 files match, 4 filtered matches.
 
  - [src/opencl.c](#srcopenclc)
  - [src/dynloader.c](#srcdynloaderc)

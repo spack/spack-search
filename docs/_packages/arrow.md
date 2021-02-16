@@ -6,7 +6,7 @@ previous_package: libcgroup
 languages: ['cpp']
 ---
 ## 0.9.0
-1 / 1133 files match
+1 / 1133 files match, 1 filtered matches.
 
  - [cpp/src/arrow/io/hdfs-internal.cc](#cppsrcarrowiohdfs-internalcc)
 

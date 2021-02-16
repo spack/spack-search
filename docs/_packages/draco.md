@@ -6,7 +6,7 @@ previous_package: xhmm
 languages: ['cpp']
 ---
 ## 7.6.0
-5 / 1182 files match
+5 / 1182 files match, 4 filtered matches.
 
  - [src/shared_lib/Shared_Lib.cc](#srcshared_libshared_libcc)
  - [src/shared_lib/dlfcn_support.hh](#srcshared_libdlfcn_supporthh)

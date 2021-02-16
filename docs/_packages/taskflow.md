@@ -6,7 +6,7 @@ previous_package: pmix
 languages: ['c']
 ---
 ## 2.7.0
-11 / 3426 files match
+11 / 3426 files match, 2 filtered matches.
 
  - [3rd-party/tbb/src/tbb/tools_api/ittnotify_config.h](#3rd-partytbbsrctbbtools_apiittnotify_configh)
  - [3rd-party/tbb/src/test/harness_dynamic_libs.h](#3rd-partytbbsrctestharness_dynamic_libsh)

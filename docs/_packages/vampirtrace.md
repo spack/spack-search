@@ -6,7 +6,7 @@ previous_package: hpctoolkit
 languages: ['c']
 ---
 ## 5.14.4
-10 / 650 files match
+10 / 650 files match, 4 filtered matches.
 
  - [vtlib/vt_mallocwrap.c](#vtlibvt_mallocwrapc)
  - [vtlib/vt_libwrap.c](#vtlibvt_libwrapc)

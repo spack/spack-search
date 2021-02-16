@@ -6,7 +6,7 @@ previous_package: xapian-core
 languages: ['c']
 ---
 ## 7.8
-1 / 68418 files match
+1 / 68418 files match, 1 filtered matches.
 
  - [ortools/base/dynamic_library.h](#ortoolsbasedynamic_libraryh)
 

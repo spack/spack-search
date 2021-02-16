@@ -6,7 +6,7 @@ previous_package: fast-global-file-status
 languages: ['c']
 ---
 ## 2.4.48
-9 / 1488 files match
+9 / 1488 files match, 2 filtered matches.
 
  - [servers/slapd/module.c](#serversslapdmodulec)
  - [servers/slapd/overlays/ppolicy.c](#serversslapdoverlaysppolicyc)

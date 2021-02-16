@@ -6,7 +6,7 @@ previous_package: multiverso
 languages: ['c']
 ---
 ## master
-2 / 862 files match
+2 / 862 files match, 2 filtered matches.
 
  - [lib/sqlite/src/sqlite3.c](#libsqlitesrcsqlite3c)
  - [lib/mongoose/src/mongoose.c](#libmongoosesrcmongoosec)

@@ -6,7 +6,7 @@ previous_package: fish
 languages: ['c']
 ---
 ## 0.6.2
-1 / 134 files match
+1 / 134 files match, 1 filtered matches.
 
  - [src/loaders/dyn_load.c](#srcloadersdyn_loadc)
 

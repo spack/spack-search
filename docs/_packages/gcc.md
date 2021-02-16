@@ -6,7 +6,7 @@ previous_package: re2c
 languages: ['java', 'cpp', 'c']
 ---
 ## 6.1.0
-112 / 94447 files match
+112 / 94447 files match, 37 filtered matches.
 
  - [gcc/plugin.c](#gccpluginc)
  - [gcc/config/rs6000/aix.h](#gccconfigrs6000aixh)

@@ -6,7 +6,7 @@ previous_package: cpio
 languages: ['c']
 ---
 ## 10.3
-31 / 6508 files match
+31 / 6508 files match, 15 filtered matches.
 
  - [src/include/utils/dynamic_loader.h](#srcincludeutilsdynamic_loaderh)
  - [src/backend/port/dynloader/win32.h](#srcbackendportdynloaderwin32h)

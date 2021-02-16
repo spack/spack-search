@@ -6,7 +6,7 @@ previous_package: openpmd-api
 languages: ['c']
 ---
 ## 1.3.2
-1 / 2303 files match
+1 / 2303 files match, 1 filtered matches.
 
  - [include/root/Reflex/SharedLibrary.h](#includerootreflexsharedlibraryh)
 

@@ -6,7 +6,7 @@ previous_package: babeltrace
 languages: ['c']
 ---
 ## 7.0.8-7
-8 / 2378 files match
+8 / 2378 files match, 3 filtered matches.
 
  - [MagickCore/opencl.c](#magickcoreopenclc)
  - [MagickCore/nt-base.c](#magickcorent-basec)

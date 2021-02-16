@@ -6,7 +6,7 @@ previous_package: lwgrp
 languages: ['c']
 ---
 ## 4.10.2-bsd
-5 / 388 files match
+5 / 388 files match, 1 filtered matches.
 
  - [tests/ioperf.c](#testsioperfc)
 

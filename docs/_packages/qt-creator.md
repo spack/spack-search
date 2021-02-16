@@ -6,7 +6,7 @@ previous_package: geos
 languages: ['c']
 ---
 ## 4.8.0
-3 / 13797 files match
+3 / 13797 files match, 1 filtered matches.
 
  - [src/libs/3rdparty/sqlite/sqlite3.c](#srclibs3rdpartysqlitesqlite3c)
 

@@ -6,7 +6,7 @@ previous_package: libcerf
 languages: ['c']
 ---
 ## 1.0.18
-3 / 714 files match
+3 / 714 files match, 2 filtered matches.
 
  - [third_party/luajit/luajit/src/lib_package.c](#third_partyluajitluajitsrclib_packagec)
  - [third_party/luajit/luajit/src/lj_clib.c](#third_partyluajitluajitsrclj_clibc)

@@ -6,7 +6,7 @@ previous_package: py-billiard
 languages: ['python']
 ---
 ## 49.6.0
-3 / 310 files match
+3 / 310 files match, 1 filtered matches.
 
  - [setuptools/command/build_ext.py](#setuptoolscommandbuild_extpy)
 

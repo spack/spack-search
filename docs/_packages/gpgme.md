@@ -6,7 +6,7 @@ previous_package: veclibfort
 languages: ['c']
 ---
 ## 1.12.0
-5 / 630 files match
+5 / 630 files match, 2 filtered matches.
 
  - [src/w32-util.c](#srcw32-utilc)
  - [src/w32-io.c](#srcw32-ioc)

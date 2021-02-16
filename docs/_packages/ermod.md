@@ -6,7 +6,7 @@ previous_package: libcroco
 languages: ['c']
 ---
 ## 0.3.6
-2 / 138 files match
+2 / 138 files match, 1 filtered matches.
 
  - [vmdfio.c](#vmdfioc)
 

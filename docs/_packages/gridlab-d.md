@@ -6,7 +6,7 @@ previous_package: cronie
 languages: ['c']
 ---
 ## develop
-12 / 3604 files match
+12 / 3604 files match, 4 filtered matches.
 
  - [third_party/dlfcn-win32-read-only/dlfcn.h](#third_partydlfcn-win32-read-onlydlfcnh)
  - [third_party/dlfcn-win32-read-only/test.c](#third_partydlfcn-win32-read-onlytestc)

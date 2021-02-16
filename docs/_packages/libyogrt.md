@@ -6,7 +6,7 @@ previous_package: mindthegap
 languages: ['c']
 ---
 ## 1.20-2
-4 / 60 files match
+4 / 60 files match, 1 filtered matches.
 
  - [src/yogrt.c](#srcyogrtc)
 

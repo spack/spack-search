@@ -6,7 +6,7 @@ previous_package: libgpuarray
 languages: ['cpp', 'c']
 ---
 ## 3.4.1
-142 / 13322 files match
+142 / 13322 files match, 25 filtered matches.
 
  - [src/mpi/romio/mpl/src/gpu/mpl_gpu_cuda.c](#srcmpiromiomplsrcgpumpl_gpu_cudac)
  - [src/pm/hydra2/libhydra/topo/hwloc/hwloc/include/hwloc/plugins.h](#srcpmhydra2libhydratopohwlochwlocincludehwlocpluginsh)

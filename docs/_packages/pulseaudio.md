@@ -6,7 +6,7 @@ previous_package: cbtf-lanl
 languages: ['c']
 ---
 ## 13.0
-60 / 892 files match
+60 / 892 files match, 5 filtered matches.
 
  - [src/daemon/ltdl-bind-now.c](#srcdaemonltdl-bind-nowc)
  - [src/pulsecore/module.c](#srcpulsecoremodulec)

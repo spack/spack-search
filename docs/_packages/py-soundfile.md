@@ -6,7 +6,7 @@ previous_package: py-scikit-build
 languages: ['python']
 ---
 ## 0.10.3.post1
-2 / 22 files match
+2 / 22 files match, 2 filtered matches.
 
  - [soundfile.py](#soundfilepy)
  - [doc/fake__soundfile.py](#docfake__soundfilepy)

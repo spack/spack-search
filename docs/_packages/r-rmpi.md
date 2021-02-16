@@ -6,7 +6,7 @@ previous_package: py-xpyb
 languages: ['c']
 ---
 ## 0.6-9
-1 / 74 files match
+1 / 74 files match, 1 filtered matches.
 
  - [src/Rmpi.c](#srcrmpic)
 

@@ -6,7 +6,7 @@ previous_package: legion
 languages: ['c']
 ---
 ## 6.1.0
-4 / 3639 files match
+4 / 3639 files match, 2 filtered matches.
 
  - [src/gmt_api.c](#srcgmt_apic)
  - [src/gmt_sharedlibs.c](#srcgmt_sharedlibsc)

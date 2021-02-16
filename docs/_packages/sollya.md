@@ -6,7 +6,7 @@ previous_package: cbtf
 languages: ['c']
 ---
 ## 7.0
-9 / 1132 files match
+9 / 1132 files match, 2 filtered matches.
 
  - [library.c](#libraryc)
  - [external.c](#externalc)

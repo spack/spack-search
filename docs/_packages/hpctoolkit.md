@@ -6,7 +6,7 @@ previous_package: linux-pam
 languages: ['c']
 ---
 ## 2020.08.03
-39 / 1254 files match
+39 / 1254 files match, 26 filtered matches.
 
  - [src/tool/hpcrun/hpcrun_stats.h](#srctoolhpcrunhpcrun_statsh)
  - [src/tool/hpcrun/custom-init-dynamic.c](#srctoolhpcruncustom-init-dynamicc)

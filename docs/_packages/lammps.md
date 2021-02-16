@@ -6,7 +6,7 @@ previous_package: energyplus
 languages: ['c']
 ---
 ## master
-8 / 10134 files match
+8 / 10134 files match, 1 filtered matches.
 
  - [examples/COUPLE/plugin/liblammpsplugin.c](#examplescouplepluginliblammpspluginc)
 

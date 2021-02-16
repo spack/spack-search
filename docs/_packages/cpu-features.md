@@ -6,7 +6,7 @@ previous_package: libpam
 languages: ['c']
 ---
 ## develop
-1 / 69 files match
+1 / 69 files match, 1 filtered matches.
 
  - [src/hwcaps.c](#srchwcapsc)
 

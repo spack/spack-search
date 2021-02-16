@@ -6,7 +6,7 @@ previous_package: log4cplus
 languages: ['c']
 ---
 ## develop
-2 / 232 files match
+2 / 232 files match, 2 filtered matches.
 
  - [src/io/bmi/bmi.c](#srciobmibmic)
  - [src/io/bmi/bmi_ib/vapi.c](#srciobmibmi_ibvapic)

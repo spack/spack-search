@@ -6,7 +6,7 @@ previous_package: nfs-utils
 languages: ['c']
 ---
 ## 1.3.1
-14 / 945 files match
+14 / 945 files match, 4 filtered matches.
 
  - [libpam/pam_dynamic.c](#libpampam_dynamicc)
  - [libpam/pam_handlers.c](#libpampam_handlersc)

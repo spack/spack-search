@@ -6,7 +6,7 @@ previous_package: exonerate
 languages: ['c']
 ---
 ## 35
-1 / 92 files match
+1 / 92 files match, 1 filtered matches.
 
  - [src/guid.c](#srcguidc)
 

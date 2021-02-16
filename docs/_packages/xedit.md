@@ -6,7 +6,7 @@ previous_package: libxdamage
 languages: ['c']
 ---
 ## 1.2.2
-1 / 114 files match
+1 / 114 files match, 1 filtered matches.
 
  - [lisp/require.c](#lisprequirec)
 

@@ -6,7 +6,7 @@ previous_package: rdma-core
 languages: ['c']
 ---
 ## 11.2.68
-2 / 181 files match
+2 / 181 files match, 2 filtered matches.
 
  - [psm.c](#psmc)
  - [ptl_ips/ips_opp_path_rec.c](#ptl_ipsips_opp_path_recc)

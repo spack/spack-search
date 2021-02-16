@@ -6,7 +6,7 @@ previous_package: dbus
 languages: ['cpp', 'c']
 ---
 ## 8235
-2 / 661 files match
+2 / 661 files match, 2 filtered matches.
 
  - [src/PartonDistributions.cc](#srcpartondistributionscc)
  - [include/Pythia8Plugins/PowhegProcs.h](#includepythia8pluginspowhegprocsh)

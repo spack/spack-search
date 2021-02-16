@@ -6,7 +6,7 @@ previous_package: httpd
 languages: ['c']
 ---
 ## 1.0.9
-4 / 24 files match
+4 / 24 files match, 1 filtered matches.
 
  - [wrapper/XvMCWrapper.c](#wrapperxvmcwrapperc)
 

@@ -6,7 +6,7 @@ previous_package: py-scipy
 languages: ['c']
 ---
 ## 2.56.2
-14 / 2643 files match
+14 / 2643 files match, 2 filtered matches.
 
  - [gmodule/gmodule-ar.c](#gmodulegmodule-arc)
  - [gmodule/gmodule-dl.c](#gmodulegmodule-dlc)

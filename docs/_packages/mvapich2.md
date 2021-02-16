@@ -6,7 +6,7 @@ previous_package: py-cffi
 languages: ['c']
 ---
 ## 2.2
-43 / 8321 files match
+43 / 8321 files match, 7 filtered matches.
 
  - [src/pm/hydra/tools/topo/hwloc/hwloc/src/components.c](#srcpmhydratoolstopohwlochwlocsrccomponentsc)
  - [src/pm/hydra/tools/topo/hwloc/hwloc/include/hwloc/plugins.h](#srcpmhydratoolstopohwlochwlocincludehwlocpluginsh)

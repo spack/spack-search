@@ -6,7 +6,7 @@ previous_package: libmng
 languages: ['c']
 ---
 ## 3.2
-14 / 770 files match
+14 / 770 files match, 2 filtered matches.
 
  - [tools/topo/hwloc/hwloc/src/components.c](#toolstopohwlochwlocsrccomponentsc)
  - [tools/topo/hwloc/hwloc/include/hwloc/plugins.h](#toolstopohwlochwlocincludehwlocpluginsh)

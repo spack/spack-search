@@ -6,7 +6,7 @@ previous_package: libsndfile
 languages: ['c']
 ---
 ## 1.38.1
-12 / 422 files match
+12 / 422 files match, 7 filtered matches.
 
  - [src/win/dl.c](#srcwindlc)
  - [src/unix/darwin-proctitle.c](#srcunixdarwin-proctitlec)

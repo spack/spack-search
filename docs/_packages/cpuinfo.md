@@ -6,7 +6,7 @@ previous_package: pkg-config
 languages: ['c']
 ---
 ## master
-4 / 547 files match
+4 / 547 files match, 3 filtered matches.
 
  - [src/arm/linux/hwcap.c](#srcarmlinuxhwcapc)
  - [tools/auxv-dump.c](#toolsauxv-dumpc)

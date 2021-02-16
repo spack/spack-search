@@ -3,10 +3,10 @@ name: "perl"
 layout: package
 next_package: xorg-server
 previous_package: hsakmt
-languages: ['pl', 'c']
+languages: ['c', 'pl']
 ---
 ## 5.20.3
-69 / 5092 files match
+69 / 5092 files match, 7 filtered matches.
 
  - [makedef.pl](#makedefpl)
  - [cygwin/cygwin.c](#cygwincygwinc)

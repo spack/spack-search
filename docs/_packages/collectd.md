@@ -6,7 +6,7 @@ previous_package: gridlab-d
 languages: ['c']
 ---
 ## 5.10.0
-2 / 489 files match
+2 / 489 files match, 1 filtered matches.
 
  - [src/daemon/plugin.c](#srcdaemonpluginc)
 

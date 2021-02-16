@@ -6,7 +6,7 @@ previous_package: py-easybuild-easyconfigs
 languages: ['python']
 ---
 ## 16.0.2
-1 / 271 files match
+1 / 271 files match, 1 filtered matches.
 
  - [zmq/__init__.py](#zmq__init__py)
 

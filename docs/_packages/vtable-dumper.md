@@ -6,7 +6,7 @@ previous_package: libpng
 languages: ['c']
 ---
 ## 1.0
-1 / 2 files match
+1 / 2 files match, 1 filtered matches.
 
  - [dump-vtable.c](#dump-vtablec)
 

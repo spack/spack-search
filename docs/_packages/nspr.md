@@ -6,7 +6,7 @@ previous_package: llvm-openmp
 languages: ['c']
 ---
 ## 4.13.1
-7 / 635 files match
+7 / 635 files match, 6 filtered matches.
 
  - [nspr/pr/src/linking/prlink.c](#nsprprsrclinkingprlinkc)
  - [nspr/pr/src/malloc/prmem.c](#nsprprsrcmallocprmemc)

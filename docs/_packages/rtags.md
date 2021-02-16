@@ -6,7 +6,7 @@ previous_package: util-linux
 languages: ['c']
 ---
 ## 2.17
-3 / 467 files match
+3 / 467 files match, 2 filtered matches.
 
  - [src/lua/src/loadlib_rel.c](#srcluasrcloadlib_relc)
  - [src/lua/src/loadlib.c](#srcluasrcloadlibc)

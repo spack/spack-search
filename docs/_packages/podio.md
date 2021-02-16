@@ -6,7 +6,7 @@ previous_package: xcb-util-renderutil
 languages: ['cpp']
 ---
 ## master
-2 / 135 files match
+2 / 135 files match, 1 filtered matches.
 
  - [src/SIOBlock.cc](#srcsioblockcc)
 

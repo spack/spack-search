@@ -6,7 +6,7 @@ previous_package: cppcheck
 languages: ['c']
 ---
 ## 4.1
-9 / 3987 files match
+9 / 3987 files match, 6 filtered matches.
 
  - [compat/w32dlfcn.h](#compatw32dlfcnh)
  - [libavformat/avisynth.c](#libavformatavisynthc)

@@ -6,7 +6,7 @@ previous_package: mariadb
 languages: ['c']
 ---
 ## 0.2.3
-1 / 30 files match
+1 / 30 files match, 1 filtered matches.
 
  - [ipcalc-geoip.c](#ipcalc-geoipc)
 

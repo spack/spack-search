@@ -6,7 +6,7 @@ previous_package: etcd
 languages: ['python', 'c']
 ---
 ## 3.6.12
-24 / 4070 files match
+24 / 4070 files match, 9 filtered matches.
 
  - [Lib/test/test_sys.py](#libtesttest_syspy)
  - [Lib/ctypes/__init__.py](#libctypes__init__py)

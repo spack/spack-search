@@ -6,7 +6,7 @@ previous_package: netperf
 languages: ['c']
 ---
 ## 1.11.6
-11 / 1080 files match
+11 / 1080 files match, 2 filtered matches.
 
  - [src/components.c](#srccomponentsc)
  - [include/hwloc/plugins.h](#includehwlocpluginsh)

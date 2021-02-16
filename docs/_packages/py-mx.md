@@ -6,7 +6,7 @@ previous_package: diffutils
 languages: ['c']
 ---
 ## 3.2.8
-2 / 254 files match
+2 / 254 files match, 1 filtered matches.
 
  - [mx/Tools/mxTools/mxTools.c](#mxtoolsmxtoolsmxtoolsc)
 

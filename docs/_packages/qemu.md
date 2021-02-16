@@ -6,7 +6,7 @@ previous_package: openssl
 languages: ['c']
 ---
 ## 1.4.0
-4 / 5228 files match
+4 / 5228 files match, 3 filtered matches.
 
  - [roms/seabios/tools/kconfig/kconfig_load.c](#romsseabiostoolskconfigkconfig_loadc)
  - [roms/openbios/arch/unix/plugins.c](#romsopenbiosarchunixpluginsc)

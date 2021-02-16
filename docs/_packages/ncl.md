@@ -6,7 +6,7 @@ previous_package: glpk
 languages: ['c']
 ---
 ## 6.5.0
-3 / 8693 files match
+3 / 8693 files match, 2 filtered matches.
 
  - [ni/src/ncl/NclDriver.c](#nisrcnclncldriverc)
  - [ni/src/ncl/NclApi.c](#nisrcnclnclapic)

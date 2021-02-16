@@ -6,7 +6,7 @@ previous_package: r-rsqlite
 languages: ['c']
 ---
 ## 3.3.16
-9 / 269 files match
+9 / 269 files match, 3 filtered matches.
 
  - [ps/output.c](#psoutputc)
  - [proc/numa.c](#procnumac)

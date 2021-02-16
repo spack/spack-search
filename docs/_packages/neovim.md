@@ -6,7 +6,7 @@ previous_package: py-pybind11
 languages: ['c']
 ---
 ## 0.2.1
-2 / 2259 files match
+2 / 2259 files match, 1 filtered matches.
 
  - [src/nvim/os/dl.c](#srcnvimosdlc)
 

@@ -6,7 +6,7 @@ previous_package: atk
 languages: ['cpp', 'c']
 ---
 ## 2.31.1
-60 / 21078 files match
+60 / 21078 files match, 17 filtered matches.
 
  - [include/aout/sun4.h](#includeaoutsun4h)
  - [bfd/elf32-frv.c](#bfdelf32-frvc)

@@ -6,7 +6,7 @@ previous_package: py-grpcio
 languages: ['c']
 ---
 ## 8.1.0001
-11 / 2766 files match
+11 / 2766 files match, 1 filtered matches.
 
  - [src/os_unix.c](#srcos_unixc)
 

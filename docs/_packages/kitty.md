@@ -6,7 +6,7 @@ previous_package: globalarrays
 languages: ['python', 'c']
 ---
 ## 0.11.2
-17 / 263 files match
+17 / 263 files match, 10 filtered matches.
 
  - [kitty/desktop.c](#kittydesktopc)
  - [kitty/glfw-wrapper.c](#kittyglfw-wrapperc)

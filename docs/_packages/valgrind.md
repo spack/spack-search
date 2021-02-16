@@ -6,7 +6,7 @@ previous_package: libidn2
 languages: ['c']
 ---
 ## 3.14.0
-26 / 5760 files match
+26 / 5760 files match, 7 filtered matches.
 
  - [perf/tinycc.c](#perftinyccc)
  - [cachegrind/tests/dlclose.c](#cachegrindtestsdlclosec)

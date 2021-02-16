@@ -6,7 +6,7 @@ previous_package: libmesh
 languages: ['c']
 ---
 ## 3.7.0
-3 / 4691 files match
+3 / 4691 files match, 2 filtered matches.
 
  - [extern/forge/extern/glad/src/glad.c](#externforgeexterngladsrcgladc)
  - [extern/glad/src/glad.c](#externgladsrcgladc)

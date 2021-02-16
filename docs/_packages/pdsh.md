@@ -6,7 +6,7 @@ previous_package: mysql
 languages: ['c']
 ---
 ## 2.31
-9 / 162 files match
+9 / 162 files match, 4 filtered matches.
 
  - [src/qsnet/qswutil.c](#srcqsnetqswutilc)
  - [src/pdsh/ltdl.h](#srcpdshltdlh)

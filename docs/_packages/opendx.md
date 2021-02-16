@@ -6,7 +6,7 @@ previous_package: py-astropy
 languages: ['c']
 ---
 ## master
-8 / 3166 files match
+8 / 3166 files match, 5 filtered matches.
 
  - [src/exec/hwrender/opengl/hwLoadOGL.c](#srcexechwrenderopenglhwloadoglc)
  - [src/exec/hwrender/opengl/hwPortOGL.c](#srcexechwrenderopenglhwportoglc)

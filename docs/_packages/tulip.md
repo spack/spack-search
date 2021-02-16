@@ -6,7 +6,7 @@ previous_package: libsodium
 languages: ['python']
 ---
 ## 5.4.0
-12 / 5173 files match
+12 / 5173 files match, 2 filtered matches.
 
  - [library/tulip-python/bindings/tulip-core/__init__.py](#librarytulip-pythonbindingstulip-core__init__py)
  - [library/tulip-python/bindings/tulip-gui/__init__.py](#librarytulip-pythonbindingstulip-gui__init__py)

@@ -6,7 +6,7 @@ previous_package: botan
 languages: ['cpp']
 ---
 ## 3.4.11
-6 / 1552 files match
+6 / 1552 files match, 1 filtered matches.
 
  - [src/c/tests/LibCSymTable.cc](#srcctestslibcsymtablecc)
 

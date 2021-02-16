@@ -6,7 +6,7 @@ previous_package: premake-core
 languages: ['c']
 ---
 ## 19.1.3
-4 / 1254 files match
+4 / 1254 files match, 3 filtered matches.
 
  - [src/lib/Libutil/munge_supp.c](#srcliblibutilmunge_suppc)
  - [src/resmom/linux/mom_mach.c](#srcresmomlinuxmom_machc)

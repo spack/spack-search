@@ -6,7 +6,7 @@ previous_package: sdl2
 languages: ['c']
 ---
 ## develop
-17 / 1121 files match
+17 / 1121 files match, 8 filtered matches.
 
  - [src/mca/base/base.h](#srcmcabasebaseh)
  - [src/mca/base/prte_mca_base_open.c](#srcmcabaseprte_mca_base_openc)

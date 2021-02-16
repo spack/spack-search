@@ -6,7 +6,7 @@ previous_package: ccfits
 languages: ['cpp']
 ---
 ## 1.9.9
-7 / 975 files match
+7 / 975 files match, 1 filtered matches.
 
  - [src/modules.cc](#srcmodulescc)
 

@@ -6,7 +6,7 @@ previous_package: coreutils
 languages: ['python', 'c']
 ---
 ## 4.4.0
-23 / 25420 files match
+23 / 25420 files match, 10 filtered matches.
 
  - [VTK/ThirdParty/mpi4py/vtkmpi4py/src/dynload.c](#vtkthirdpartympi4pyvtkmpi4pysrcdynloadc)
  - [VTK/ThirdParty/mpi4py/vtkmpi4py/src/rc.py](#vtkthirdpartympi4pyvtkmpi4pysrcrcpy)

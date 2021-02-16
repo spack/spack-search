@@ -6,7 +6,7 @@ previous_package: casacore
 languages: ['c']
 ---
 ## 2.4.0
-74 / 8278 files match
+74 / 8278 files match, 8 filtered matches.
 
  - [src/effects/ladspa/ladspa.h](#srceffectsladspaladspah)
  - [win/LADSPA_plugins-win/ladspa.h](#winladspa_plugins-winladspah)

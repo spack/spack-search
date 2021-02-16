@@ -6,7 +6,7 @@ previous_package: r-rhtslib
 languages: ['c']
 ---
 ## 4.57
-6 / 429 files match
+6 / 429 files match, 3 filtered matches.
 
  - [src/glpsql.c](#srcglpsqlc)
  - [src/env/env.h](#srcenvenvh)

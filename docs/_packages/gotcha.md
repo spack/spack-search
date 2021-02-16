@@ -6,7 +6,7 @@ previous_package: pango
 languages: ['c']
 ---
 ## 0.0.2
-5 / 64 files match
+5 / 64 files match, 1 filtered matches.
 
  - [test/dlopen/test_dlopen.c](#testdlopentest_dlopenc)
 

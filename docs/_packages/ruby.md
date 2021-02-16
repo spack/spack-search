@@ -6,7 +6,7 @@ previous_package: rt-tests
 languages: ['c']
 ---
 ## 2.7.1
-25 / 9819 files match
+25 / 9819 files match, 4 filtered matches.
 
  - [addr2line.c](#addr2linec)
  - [mjit_worker.c](#mjit_workerc)

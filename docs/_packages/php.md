@@ -6,7 +6,7 @@ previous_package: jchronoss
 languages: ['c']
 ---
 ## 7.3.13
-9 / 19786 files match
+9 / 19786 files match, 3 filtered matches.
 
  - [ext/sqlite3/libsqlite/sqlite3.c](#extsqlite3libsqlitesqlite3c)
  - [sapi/litespeed/lsapilib.c](#sapilitespeedlsapilibc)

@@ -6,7 +6,7 @@ previous_package: weechat
 languages: ['c']
 ---
 ## 1.0.18
-2 / 128 files match
+2 / 128 files match, 1 filtered matches.
 
  - [src/withsctp/sctp_load_libs.c](#srcwithsctpsctp_load_libsc)
 

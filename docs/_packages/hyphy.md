@@ -6,7 +6,7 @@ previous_package: patchelf
 languages: ['c']
 ---
 ## 2.3.14
-4 / 936 files match
+4 / 936 files match, 1 filtered matches.
 
  - [contrib/SQLite-3.8.2/sqlite3.c](#contribsqlite-382sqlite3c)
 

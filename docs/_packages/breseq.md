@@ -6,7 +6,7 @@ previous_package: opendx
 languages: ['c']
 ---
 ## 0.33.2
-3 / 866 files match
+3 / 866 files match, 1 filtered matches.
 
  - [extern/samtools-1.3.1/htslib-1.3.1/plugin.c](#externsamtools-131htslib-131pluginc)
 

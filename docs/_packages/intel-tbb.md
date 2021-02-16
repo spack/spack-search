@@ -6,7 +6,7 @@ previous_package: vtk
 languages: ['c']
 ---
 ## 2018.2
-11 / 1460 files match
+11 / 1460 files match, 1 filtered matches.
 
  - [src/test/harness_dynamic_libs.h](#srctestharness_dynamic_libsh)
 

@@ -6,7 +6,7 @@ previous_package: libcanberra
 languages: ['cpp']
 ---
 ## 1.4.3
-5 / 1244 files match
+5 / 1244 files match, 2 filtered matches.
 
  - [tests/api_termgen.cc](#testsapi_termgencc)
  - [tests/api_queryparser.cc](#testsapi_queryparsercc)

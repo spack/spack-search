@@ -6,7 +6,7 @@ previous_package: xedit
 languages: ['c']
 ---
 ## 2.081.1
-11 / 4009 files match
+11 / 4009 files match, 2 filtered matches.
 
  - [druntime/test/shared/src/loadDR.c](#druntimetestsharedsrcloaddrc)
  - [druntime/test/shared/src/host.c](#druntimetestsharedsrchostc)

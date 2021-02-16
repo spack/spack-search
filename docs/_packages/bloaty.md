@@ -6,7 +6,7 @@ previous_package: zfp
 languages: ['cpp']
 ---
 ## 1.1
-5 / 1641 files match
+5 / 1641 files match, 2 filtered matches.
 
  - [third_party/abseil-cpp/absl/random/internal/randen_detect.cc](#third_partyabseil-cppabslrandominternalranden_detectcc)
  - [third_party/abseil-cpp/absl/time/internal/cctz/src/time_zone_lookup.cc](#third_partyabseil-cppabsltimeinternalcctzsrctime_zone_lookupcc)

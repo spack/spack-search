@@ -6,7 +6,7 @@ previous_package: fontconfig
 languages: ['go', 'c']
 ---
 ## 1.4-bootstrap-20161024
-9 / 4257 files match
+9 / 4257 files match, 5 filtered matches.
 
  - [src/runtime/syscall_solaris.go](#srcruntimesyscall_solarisgo)
  - [src/runtime/cgo/gcc_openbsd_386.c](#srcruntimecgogcc_openbsd_386c)

@@ -6,7 +6,7 @@ previous_package: rccl
 languages: ['c']
 ---
 ## 2.5.2
-14 / 497 files match
+14 / 497 files match, 4 filtered matches.
 
  - [server/faker-sym.h](#serverfaker-symh)
  - [server/dlfakerut.c](#serverdlfakerutc)

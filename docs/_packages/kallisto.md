@@ -6,7 +6,7 @@ previous_package: nanoflann
 languages: ['c']
 ---
 ## 0.46.2
-3 / 270 files match
+3 / 270 files match, 1 filtered matches.
 
  - [ext/htslib/plugin.c](#exthtslibpluginc)
 

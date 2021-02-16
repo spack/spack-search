@@ -6,7 +6,7 @@ previous_package: liboldx
 languages: ['c']
 ---
 ## 3.0.8
-1 / 985 files match
+1 / 985 files match, 1 filtered matches.
 
  - [src/libicalss/icalset.c](#srclibicalssicalsetc)
 

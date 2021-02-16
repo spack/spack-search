@@ -6,7 +6,7 @@ previous_package: libxscrnsaver
 languages: ['c']
 ---
 ## 3.6.7.1
-12 / 4928 files match
+12 / 4928 files match, 5 filtered matches.
 
  - [lib/tpm.c](#libtpmc)
  - [lib/fips.c](#libfipsc)

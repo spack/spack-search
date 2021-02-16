@@ -6,7 +6,7 @@ previous_package: rrdtool
 languages: ['c']
 ---
 ## 1.3
-3 / 42 files match
+3 / 42 files match, 2 filtered matches.
 
  - [examples/duplicates/duplicate.c](#examplesduplicatesduplicatec)
  - [examples/modules/module.c](#examplesmodulesmodulec)

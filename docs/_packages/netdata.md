@@ -6,7 +6,7 @@ previous_package: libproxy
 languages: ['c']
 ---
 ## 1.22.1
-2 / 1590 files match
+2 / 1590 files match, 1 filtered matches.
 
  - [collectors/ebpf_process.plugin/ebpf_process.c](#collectorsebpf_processpluginebpf_processc)
 

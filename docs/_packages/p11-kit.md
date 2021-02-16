@@ -6,7 +6,7 @@ previous_package: flac
 languages: ['c']
 ---
 ## 0.23.20
-9 / 446 files match
+9 / 446 files match, 3 filtered matches.
 
  - [common/compat.h](#commoncompath)
  - [p11-kit/modules.c](#p11-kitmodulesc)

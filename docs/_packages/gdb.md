@@ -6,7 +6,7 @@ previous_package: photos
 languages: ['cpp', 'c']
 ---
 ## 7.10.1
-63 / 10755 files match
+63 / 10755 files match, 30 filtered matches.
 
  - [sim/bfin/gui.c](#simbfinguic)
  - [include/aout/sun4.h](#includeaoutsun4h)

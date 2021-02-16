@@ -6,7 +6,7 @@ previous_package: shadow
 languages: ['c']
 ---
 ## master
-1 / 1046 files match
+1 / 1046 files match, 1 filtered matches.
 
  - [l7/l7_init.c](#l7l7_initc)
 

@@ -6,7 +6,7 @@ previous_package: man-db
 languages: ['c']
 ---
 ## 2.2.26
-1 / 3030 files match
+1 / 3030 files match, 1 filtered matches.
 
  - [network/medarch/server/ma_intfc.c](#networkmedarchserverma_intfcc)
 

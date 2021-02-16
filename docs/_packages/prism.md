@@ -6,7 +6,7 @@ previous_package: code-server
 languages: ['c']
 ---
 ## 4.5
-5 / 2725 files match
+5 / 2725 files match, 4 filtered matches.
 
  - [prism/ext/lpsolve55/src/lp_solve_5.5/lp_lib.c](#prismextlpsolve55srclp_solve_55lp_libc)
  - [prism/ext/lpsolve55/src/lp_solve_5.5/lp_explicit.h](#prismextlpsolve55srclp_solve_55lp_explicith)

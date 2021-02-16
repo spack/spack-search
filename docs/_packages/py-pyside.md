@@ -6,7 +6,7 @@ previous_package: gmap-gsnap
 languages: ['c']
 ---
 ## 1.2.4
-1 / 2686 files match
+1 / 2686 files match, 1 filtered matches.
 
  - [sources/patchelf/elf.h](#sourcespatchelfelfh)
 

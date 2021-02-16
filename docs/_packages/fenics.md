@@ -6,7 +6,7 @@ previous_package: kibana
 languages: ['python']
 ---
 ## 1.6.0
-3 / 2235 files match
+3 / 2235 files match, 2 filtered matches.
 
  - [site-packages/dolfin/__init__.py](#site-packagesdolfin__init__py)
  - [site-packages/dolfin/importhandler/__init__.py](#site-packagesdolfinimporthandler__init__py)

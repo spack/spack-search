@@ -6,7 +6,7 @@ previous_package: libeatmydata
 languages: ['c']
 ---
 ## 1.1.1i
-5 / 3040 files match
+5 / 3040 files match, 2 filtered matches.
 
  - [crypto/rand/rand_vms.c](#cryptorandrand_vmsc)
  - [crypto/dso/dso_dlfcn.c](#cryptodsodso_dlfcnc)

@@ -6,7 +6,7 @@ previous_package: libsamplerate
 languages: ['c']
 ---
 ## 18-08-9-1
-52 / 2484 files match
+52 / 2484 files match, 14 filtered matches.
 
  - [src/common/xlua.c](#srccommonxluac)
  - [src/common/xlua.h](#srccommonxluah)

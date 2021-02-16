@@ -6,7 +6,7 @@ previous_package: py-chainer
 languages: ['c']
 ---
 ## 2.0.0
-21 / 5652 files match
+21 / 5652 files match, 6 filtered matches.
 
  - [valgrind-3.13.0/perf/tinycc.c](#valgrind-3130perftinyccc)
  - [valgrind-3.13.0/cachegrind/tests/dlclose.c](#valgrind-3130cachegrindtestsdlclosec)

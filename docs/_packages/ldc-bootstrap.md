@@ -6,7 +6,7 @@ previous_package: lvm2
 languages: ['c']
 ---
 ## 0.17.4
-8 / 2988 files match
+8 / 2988 files match, 2 filtered matches.
 
  - [runtime/druntime/test/shared/src/loadDR.c](#runtimedruntimetestsharedsrcloaddrc)
  - [runtime/druntime/test/shared/src/host.c](#runtimedruntimetestsharedsrchostc)

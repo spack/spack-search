@@ -6,7 +6,7 @@ previous_package: opa-psm2
 languages: ['cpp', 'python', 'c']
 ---
 ## 38
-5 / 283 files match
+5 / 283 files match, 4 filtered matches.
 
  - [src/solib-parser/lib.c](#srcsolib-parserlibc)
  - [tests/dlopen/dlopen.cc](#testsdlopendlopencc)

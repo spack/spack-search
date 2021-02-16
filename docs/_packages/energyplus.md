@@ -6,7 +6,7 @@ previous_package: py-pyopenssl
 languages: ['python']
 ---
 ## 9.3.0
-1 / 1700 files match
+1 / 1700 files match, 1 filtered matches.
 
  - [python_standard_lib/ctypes/__init__.py](#python_standard_libctypes__init__py)
 

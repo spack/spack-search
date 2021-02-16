@@ -6,7 +6,7 @@ previous_package: py-petsc4py
 languages: ['c']
 ---
 ## 3.1.2
-2 / 222 files match
+2 / 222 files match, 2 filtered matches.
 
  - [deps/luajit/src/lib_package.c](#depsluajitsrclib_packagec)
  - [deps/luajit/src/lj_clib.c](#depsluajitsrclj_clibc)

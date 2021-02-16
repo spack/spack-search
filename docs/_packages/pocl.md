@@ -6,7 +6,7 @@ previous_package: blast-legacy
 languages: ['c']
 ---
 ## 1.6
-7 / 1647 files match
+7 / 1647 files match, 2 filtered matches.
 
  - [lib/CL/devices/common.c](#libcldevicescommonc)
  - [lib/CL/devices/devices.c](#libcldevicesdevicesc)
