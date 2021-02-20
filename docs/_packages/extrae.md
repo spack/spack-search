@@ -1,7 +1,7 @@
 ---
 name: "extrae"
 layout: package
-next_package: fakechroot
+next_package: eztrace
 previous_package: exodusii
 languages: ['c']
 ---
@@ -16,7 +16,12 @@ languages: ['c']
 ```c
 
 {% raw %}
+202 |   }
+203 | 
+204 |   fprintf(stderr, "extrae-loader: Opening application binary '%s'... ", app);
 205 |   handle = dlopen(app, RTLD_LAZY);
+206 |   if (!handle)
+207 |   {
 {% endraw %}
 
 ```
@@ -25,7 +30,12 @@ languages: ['c']
 ```c
 
 {% raw %}
+112 | #if defined(PIC)
+113 | 
+114 | #if defined(__APPLE__)
 115 | 	void *lib = dlopen("/System/Libraries/Frameworks/OpenCL.framework/OpenCL", RTLD_NOW);
+116 | #else
+117 | 	void *lib = RTLD_NEXT;
 {% endraw %}
 
 ```

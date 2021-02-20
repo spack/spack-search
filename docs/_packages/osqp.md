@@ -15,7 +15,12 @@ languages: ['c']
 ```c
 
 {% raw %}
+22 |         #endif
+23 |     }
+24 | #else
 25 |     h = dlopen (libName, RTLD_LAZY);
+26 |     if (!h) {
+27 |         #ifdef PRINTING
 {% endraw %}
 
 ```

@@ -15,7 +15,12 @@ languages: ['c']
 ```c
 
 {% raw %}
+93 |      * AVX and the OS version is Mavericks */
+94 |     AVX_and_10_9 = AVX && MAVERICKS;
+95 |     /* load vecLib */
 96 |     veclib = dlopen(VECLIB_FILE, RTLD_LOCAL | RTLD_FIRST);
+97 |     if (!veclib) {
+98 |         veclib = NULL;
 {% endraw %}
 
 ```

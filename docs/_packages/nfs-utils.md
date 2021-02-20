@@ -1,7 +1,7 @@
 ---
 name: "nfs-utils"
 layout: package
-next_package: nim
+next_package: nginx
 previous_package: nfs-ganesha
 languages: ['c']
 ---
@@ -15,7 +15,12 @@ languages: ['c']
 ```c
 
 {% raw %}
+238 | 
+239 | 	snprintf(plgname, sizeof(plgname), "%s/%s.so", PATH_PLUGINS, method);
+240 | 
 241 | 	dl = dlopen(plgname, RTLD_NOW | RTLD_LOCAL);
+242 | 	if (dl == NULL) {
+243 | 		IDMAP_LOG(1, ("libnfsidmap: Unable to load plugin: %s",
 {% endraw %}
 
 ```

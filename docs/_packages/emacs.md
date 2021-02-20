@@ -1,7 +1,7 @@
 ---
 name: "emacs"
 layout: package
-next_package: erlang
+next_package: emboss
 previous_package: elmerfem
 languages: ['c']
 ---
@@ -15,7 +15,12 @@ languages: ['c']
 ```c
 
 {% raw %}
+272 | dynlib_handle_ptr
+273 | dynlib_open (const char *path)
+274 | {
 275 |   return dlopen (path, RTLD_LAZY);
+276 | }
+277 | 
 {% endraw %}
 
 ```

@@ -15,7 +15,12 @@ languages: ['c']
 ```c
 
 {% raw %}
+185 | 	 * vsyscall32 = 1, which randomizes the VDSO address.
+186 | 	 */
+187 | #ifdef USE_VSYSCALL_DLSYM
 188 | 	void *handle = dlopen("linux-gate.so.1", RTLD_NOW);
+189 | 	if (handle) {
+190 | 		void *ptr;
 {% endraw %}
 
 ```

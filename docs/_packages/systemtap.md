@@ -15,7 +15,12 @@ languages: ['c']
 ```c
 
 {% raw %}
+30 |   private:
+31 |     BPatch patch;
+32 | 
 33 |     void* module; // the locally dlopened probe module
+34 |     std::string module_name; // the filename of the probe module
+35 |     std::vector<std::string> modoptions; // custom globals from -G option
 {% endraw %}
 
 ```

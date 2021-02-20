@@ -1,7 +1,7 @@
 ---
 name: "lftp"
 layout: package
-next_package: libbacktrace
+next_package: libbeagle
 previous_package: legion
 languages: ['cpp']
 ---
@@ -15,7 +15,12 @@ languages: ['cpp']
 ```cpp
 
 {% raw %}
+172 | 	 access_so(fullpath);
+173 |       }
+174 |    }
 175 |    map=dlopen(fullpath,DLOPEN_FLAGS);  // LAZY?
+176 |    if(map==0)
+177 |       return 0;
 {% endraw %}
 
 ```

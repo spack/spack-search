@@ -15,7 +15,12 @@ languages: ['cpp']
 ```cpp
 
 {% raw %}
+36 |     }
+37 | 
+38 |     std::lock_guard<std::mutex> guard(library_mutex_);
 39 |     libHandler_ = dlopen(filename, RTLD_LAZY);
+40 |     if (!libHandler_) {
+41 |         char* error = dlerror();
 {% endraw %}
 
 ```

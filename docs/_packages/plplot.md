@@ -18,7 +18,12 @@ languages: ['c']
 ```c
 
 {% raw %}
+70 | //!
+71 | //! @returns A handle to the shared library (if found).
+72 | //!
 73 | lt_dlhandle lt_dlopenext( char* dllname )
+74 | {
+75 |     lt_dlhandle dlhandle = (lt_dlhandle) malloc( sizeof ( struct __dlhandle ) );
 {% endraw %}
 
 ```
@@ -27,8 +32,18 @@ languages: ['c']
 ```c
 
 {% raw %}
+3405 |         pldebug( "plLoadDriver", "Trying to load %s on %s\n",
+3406 |             driver->drvnam, drvspec );
+3407 | 
 3408 |         driver->dlhand = lt_dlopenext( drvspec );
+3409 | 
+3410 |         // A few of our drivers do not depend on other libraries.  So
+3426 | // If it still isn't loaded, then we're doomed.
+3427 |     if ( !driver->dlhand )
+3428 |     {
 3429 |         pldebug( "plLoadDriver", "lt_dlopenext failed because of "
+3430 |             "the following reason:\n%s\n", lt_dlerror() );
+3431 |         fprintf( stderr, "Unable to load driver: %s.\n", driver->drvnam );
 {% endraw %}
 
 ```
@@ -37,7 +52,12 @@ languages: ['c']
 ```c
 
 {% raw %}
+37 | 
+38 | PLDLLIMPEXP void lt_dlexit( void );
+39 | 
 40 | PLDLLIMPEXP lt_dlhandle lt_dlopenext( char* dllname );
+41 | 
+42 | PLDLLIMPEXP const char* lt_dlerror();
 {% endraw %}
 
 ```
@@ -46,7 +66,12 @@ languages: ['c']
 ```c
 
 {% raw %}
+76 | #else
+77 |     snprintf( drvspec, DRVSPEC_LEN, "%s/%s%s", plGetDrvDir(), library_target_prefix, drvnam );
+78 | #endif // LTDL_WIN32
 79 |     dlhand = lt_dlopenext( drvspec );
+80 |     if ( dlhand == NULL )
+81 |     {
 {% endraw %}
 
 ```

@@ -1,7 +1,7 @@
 ---
 name: "gettext"
 layout: package
-next_package: gflags
+next_package: ghostscript
 previous_package: geopm
 languages: ['c']
 ---
@@ -18,8 +18,13 @@ languages: ['c']
 ```c
 
 {% raw %}
+68 |      2. in the shared libraries specified on the link command line, in order,
+69 |      3. in the dependencies of the shared libraries specified on the link
+70 |         command line,
 71 |      4. in the dlopen()ed shared libraries, in the order in which they were
 72 |         dlopen()ed.
+73 |    The definition in the C library would override the one in libintl.so if
+74 |    either
 {% endraw %}
 
 ```
@@ -28,7 +33,12 @@ languages: ['c']
 ```c
 
 {% raw %}
+221 | static void *
+222 | xmlModulePlatformOpen(const char *name)
+223 | {
 224 |     return dlopen(name, RTLD_GLOBAL | RTLD_NOW);
+225 | }
+226 | 
 {% endraw %}
 
 ```
@@ -37,7 +47,12 @@ languages: ['c']
 ```c
 
 {% raw %}
+221 | static void *
+222 | xmlModulePlatformOpen(const char *name)
+223 | {
 224 |     return dlopen(name, RTLD_GLOBAL | RTLD_NOW);
+225 | }
+226 | 
 {% endraw %}
 
 ```
@@ -46,7 +61,12 @@ languages: ['c']
 ```c
 
 {% raw %}
+221 | static void *
+222 | xmlModulePlatformOpen(const char *name)
+223 | {
 224 |     return dlopen(name, RTLD_GLOBAL | RTLD_NOW);
+225 | }
+226 | 
 {% endraw %}
 
 ```

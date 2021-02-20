@@ -15,7 +15,12 @@ languages: ['c']
 ```c
 
 {% raw %}
+62 | int
+63 | load_casa (void)
+64 | {
 65 |        if( !(casaIDK = dlopen(MICASA_LIB,RTLD_LAZY)))
+66 |        	  return 0;
+67 |        p_miCASAGetCredential = (CASA_GetCredential_T) dlsym(casaIDK, "miCASAGetCredential");
 {% endraw %}
 
 ```

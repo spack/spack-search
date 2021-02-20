@@ -2,7 +2,7 @@
 name: "meme"
 layout: package
 next_package: memkind
-previous_package: med
+previous_package: mc
 languages: ['c']
 ---
 ## 4.11.4
@@ -15,7 +15,12 @@ languages: ['c']
 ```c
 
 {% raw %}
+208 | static void *
+209 | xmlModulePlatformOpen(const char *name)
+210 | {
 211 |     return dlopen(name, RTLD_GLOBAL | RTLD_NOW);
+212 | }
+213 | 
 {% endraw %}
 
 ```

@@ -2,7 +2,7 @@
 name: "cardioid"
 layout: package
 next_package: care
-previous_package: canu
+previous_package: caliper
 languages: ['cpp']
 ---
 ## elecfem
@@ -15,7 +15,12 @@ languages: ['cpp']
 ```cpp
 
 {% raw %}
+53 |    {
+54 |       //try to load in the factory method
+55 |       
 56 |       void* handle = dlopen(filename.c_str(), RTLD_NOW|RTLD_LOCAL);
+57 |       if (handle)
+58 |       {
 {% endraw %}
 
 ```

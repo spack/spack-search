@@ -2,7 +2,7 @@
 name: "ntirpc"
 layout: package
 next_package: nvhpc
-previous_package: ns-3-dev
+previous_package: nspr
 languages: ['c']
 ---
 ## 3.0
@@ -15,7 +15,12 @@ languages: ['c']
 ```c
 
 {% raw %}
+52 | #include "lttng/xprt.h"
+53 | 
+54 | /* This is a hack to make older versions of LTTng link */
 55 | struct lttng_ust_tracepoint_dlopen tracepoint_dlopen
+56 | 	__attribute__((weak));
+57 | 
 {% endraw %}
 
 ```

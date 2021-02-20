@@ -15,7 +15,12 @@ languages: ['c']
 ```c
 
 {% raw %}
+87 |     return ::LoadLibrary(name);
+88 | #endif
+89 | #else
 90 |     return dlopen(name, RTLD_NOW|RTLD_GLOBAL);
+91 | #endif
+92 | }
 {% endraw %}
 
 ```

@@ -2,7 +2,7 @@
 name: "vtable-dumper"
 layout: package
 next_package: vtk
-previous_package: vt
+previous_package: vsearch
 languages: ['c']
 ---
 ## 1.0
@@ -15,8 +15,15 @@ languages: ['c']
 ```c
 
 {% raw %}
+318 |         return ERR;
+319 |     }
+320 |     
 321 |     dlhndl = dlopen(file, RTLD_LAZY);
+322 |     if (dlhndl == NULL)
+323 |     {
 324 |         printf("Failed to dlopen %s\n", file);
+325 |         if ((error = dlerror()) != NULL)
+326 |         {
 {% endraw %}
 
 ```

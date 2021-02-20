@@ -15,7 +15,12 @@ languages: ['c']
 ```c
 
 {% raw %}
+45 | #if defined(_MSC_VER)
+46 |     return LoadLibrary(name);
+47 | #elif defined(__GNUC__)
 48 |     return dlopen(name, RTLD_NOW);
+49 | #else
+50 |     return NULL;
 {% endraw %}
 
 ```

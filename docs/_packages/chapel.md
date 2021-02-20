@@ -17,7 +17,12 @@ languages: ['c']
 ```c
 
 {% raw %}
+514 |     if (!strstr(filename, s->file_pat)) continue;
+515 |     if (!handle) {
+516 |       dlerror();
 517 |       handle = dlopen(filename, RTLD_LAZY | RTLD_NOLOAD);
+518 |       /* could not open the file; quit */
+519 |       if (!handle) return 0;
 {% endraw %}
 
 ```
@@ -26,7 +31,12 @@ languages: ['c']
 ```c
 
 {% raw %}
+97 |   }
+98 | 
+99 |   /* dlopen and get the component structure */
 100 |   handle = lt_dlopenext(filename);
+101 |   if (!handle) {
+102 |     if (hwloc_plugins_verbose)
 {% endraw %}
 
 ```
@@ -35,7 +45,12 @@ languages: ['c']
 ```c
 
 {% raw %}
+367 | #ifdef HWLOC_INSIDE_PLUGIN
+368 |   lt_dlhandle handle;
+369 |   void *sym;
 370 |   handle = lt_dlopen(NULL);
+371 |   if (!handle)
+372 |     /* cannot check, assume things will work */
 {% endraw %}
 
 ```

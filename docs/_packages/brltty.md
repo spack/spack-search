@@ -1,7 +1,7 @@
 ---
 name: "brltty"
 layout: package
-next_package: brpc
+next_package: busybox
 previous_package: breseq
 languages: ['c']
 ---
@@ -16,7 +16,12 @@ languages: ['c']
 ```c
 
 {% raw %}
+59 |   void *object;
+60 | 
+61 |   clearError();
 62 |   object = dlopen(path, getSharedObjectLoadFlags());
+63 |   if (!object) logError();
+64 |   return object;
 {% endraw %}
 
 ```
@@ -25,7 +30,12 @@ languages: ['c']
 ```c
 
 {% raw %}
+206 | loadCoreLibrary (JNIEnv *env) {
+207 |   if (coreHandle) return 1;
+208 | 
 209 |   if ((coreHandle = dlopen("libbrltty_core.so", RTLD_NOW | RTLD_GLOBAL))) {
+210 |     int allFound = 1;
+211 |     const SymbolEntry *symbol = symbolTable;
 {% endraw %}
 
 ```

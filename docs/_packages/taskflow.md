@@ -16,7 +16,12 @@ languages: ['c']
 ```c
 
 {% raw %}
+338 | }
+339 | #endif /* ITT_SIMPLE_INIT */
+340 | 
 341 | void* dlopen(const char*, int) __attribute__((weak));
+342 | void* dlsym(void*, const char*) __attribute__((weak));
+343 | int dlclose(void*) __attribute__((weak));
 {% endraw %}
 
 ```
@@ -25,7 +30,12 @@ languages: ['c']
 ```c
 
 {% raw %}
+83 |     return ::LoadLibrary(name);
+84 | #endif
+85 | #else
 86 |     return dlopen(name, RTLD_NOW|RTLD_GLOBAL);
+87 | #endif
+88 | }
 {% endraw %}
 
 ```

@@ -15,7 +15,12 @@ languages: ['c']
 ```c
 
 {% raw %}
+36976 | #include <dlfcn.h>
+36977 | static void *unixDlOpen(sqlite3_vfs *NotUsed, const char *zFilename){
+36978 |   UNUSED_PARAMETER(NotUsed);
 36979 |   return dlopen(zFilename, RTLD_NOW | RTLD_GLOBAL);
+36980 | }
+36981 | 
 {% endraw %}
 
 ```

@@ -1,7 +1,7 @@
 ---
 name: "vim"
 layout: package
-next_package: vsearch
+next_package: virtualgl
 previous_package: verrou
 languages: ['c']
 ---
@@ -15,7 +15,12 @@ languages: ['c']
 ```c
 
 {% raw %}
+7287 |     /* First clear any error, it's not cleared by the dlopen() call. */
+7288 |     (void)dlerror();
+7289 | 
 7290 |     hinstLib = dlopen((char *)libname, RTLD_LAZY
+7291 | #  ifdef RTLD_LOCAL
+7292 | 	    | RTLD_LOCAL
 {% endraw %}
 
 ```

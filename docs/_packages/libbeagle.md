@@ -1,8 +1,8 @@
 ---
 name: "libbeagle"
 layout: package
-next_package: libbsd
-previous_package: libbacktrace
+next_package: libcanberra
+previous_package: lftp
 languages: ['c']
 ---
 ## 3.1.2
@@ -16,7 +16,12 @@ languages: ['c']
 ```c
 
 {% raw %}
+54 |     libname += ".0.0";
+55 | #endif
+56 | 
 57 |     m_handle = lt_dlopen(libname.c_str());
+58 |     if (m_handle == 0)
+59 |     {
 {% endraw %}
 
 ```
@@ -25,7 +30,12 @@ languages: ['c']
 ```c
 
 {% raw %}
+49 |     libname += ".0.0";
+50 | #endif
+51 | 
 52 |     m_handle = dlopen(libname.c_str(),RTLD_NOW|RTLD_GLOBAL);
+53 |     if (m_handle == 0)
+54 |     {
 {% endraw %}
 
 ```

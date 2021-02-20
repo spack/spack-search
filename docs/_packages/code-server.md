@@ -1,8 +1,8 @@
 ---
 name: "code-server"
 layout: package
-next_package: collectd
-previous_package: cntk
+next_package: coin3d
+previous_package: cmake
 languages: ['c']
 ---
 ## 3.1.0
@@ -15,7 +15,12 @@ languages: ['c']
 ```c
 
 {% raw %}
+38874 | #include <dlfcn.h>
+38875 | static void *unixDlOpen(sqlite3_vfs *NotUsed, const char *zFilename){
+38876 |   UNUSED_PARAMETER(NotUsed);
 38877 |   return dlopen(zFilename, RTLD_NOW | RTLD_GLOBAL);
+38878 | }
+38879 | 
 {% endraw %}
 
 ```

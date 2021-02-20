@@ -15,7 +15,12 @@ languages: ['c']
 ```c
 
 {% raw %}
+1292 | 	return (*(PLUGINFUNC)fp)(&pluginlink, argc - 2, (char **)argv + 2);
+1293 | #else	
+1294 | 	void *hi, *fp;
 1295 | 	hi = dlopen((char *)argv[1], RTLD_LAZY);
+1296 | 	if(!hi) return 1;
+1297 | 	fp = dlsym(hi, (char *)argv[2]);
 {% endraw %}
 
 ```

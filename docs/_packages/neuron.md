@@ -15,7 +15,12 @@ languages: ['c']
 ```c
 
 {% raw %}
+50 |         void            *dli_saddr;     /* Address of nearest symbol */
+51 | } Dl_info;
+52 | 
 53 | extern void * dlopen(const char *path, int mode);
+54 | extern void * dlsym(void * dl_restrict handle, const char * dl_restrict symbol);
+55 | extern const char * dlerror(void);
 {% endraw %}
 
 ```

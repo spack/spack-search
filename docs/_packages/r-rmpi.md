@@ -15,9 +15,14 @@ languages: ['c']
 ```c
 
 {% raw %}
+73 | 
+74 | #ifndef __APPLE__
+75 | #ifdef OPENMPI
 76 |     if (!dlopen("libmpi.so.1", RTLD_GLOBAL | RTLD_LAZY) 
 77 | 	&& !dlopen("libmpi.so.0", RTLD_GLOBAL | RTLD_LAZY)
 78 | 	&& !dlopen("libmpi.so", RTLD_GLOBAL | RTLD_LAZY)) {
+79 |         Rprintf("%s\n",dlerror());
+80 |         return AsInt(0);
 {% endraw %}
 
 ```

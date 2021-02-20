@@ -2,7 +2,7 @@
 name: "libyogrt"
 layout: package
 next_package: lighttpd
-previous_package: libxsmm
+previous_package: libxvmc
 languages: ['c']
 ---
 ## 1.20-2
@@ -15,8 +15,13 @@ languages: ['c']
 ```c
 
 {% raw %}
+267 | #endif
+268 | 	debug3("Will use %s.\n", path);
+269 | 
 270 | 	if ((backend_handle = dlopen(path, flags)) == NULL) {
 271 | 		error("dlopen failed: %s\n", dlerror());
+272 | 		return 0;
+273 | 	}
 {% endraw %}
 
 ```

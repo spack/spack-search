@@ -15,7 +15,12 @@ languages: ['cpp']
 ```cpp
 
 {% raw %}
+142 |       return;
+143 |     }
+144 | 
 145 |     void* libhandle = dlopen(libname.c_str(), RTLD_LAZY | RTLD_GLOBAL);
+146 |     if (libhandle) {
+147 |       std::cout << "Loading SIOBlocks library \'" << libname << "\'" << std::endl;
 {% endraw %}
 
 ```

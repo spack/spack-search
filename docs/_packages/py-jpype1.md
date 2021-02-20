@@ -15,7 +15,12 @@ languages: ['c']
 ```c
 
 {% raw %}
+34 | #if defined(_HPUX) && !defined(_IA64)
+35 | 		jvmLibrary = shl_load(path, BIND_DEFERRED|BIND_VERBOSE, 0L);
+36 | #else
 37 | 		jvmLibrary = dlopen(path, RTLD_LAZY|RTLD_GLOBAL);
+38 | #endif // HPUX
+39 | 
 {% endraw %}
 
 ```

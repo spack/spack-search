@@ -15,8 +15,13 @@ languages: ['c']
 ```c
 
 {% raw %}
+225 | 
+226 | 		}
+227 | #else
 228 | 		if (NULL == (p->lib = dlopen(srv->tmp_buf->ptr, RTLD_NOW|RTLD_GLOBAL))) {
 229 | 			log_error_write(srv, __FILE__, __LINE__, "sbs", "dlopen() failed for:",
+230 | 				srv->tmp_buf, dlerror());
+231 | 
 {% endraw %}
 
 ```

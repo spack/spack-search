@@ -1,7 +1,7 @@
 ---
 name: "tengine"
 layout: package
-next_package: tfel
+next_package: thepeg
 previous_package: tcl
 languages: ['c']
 ---
@@ -15,8 +15,15 @@ languages: ['c']
 ```c
 
 {% raw %}
+1595 |         return NGX_CONF_ERROR;
+1596 |     }
+1597 | 
 1598 |     handle = ngx_dlopen(file.data);
+1599 |     if (handle == NULL) {
+1600 |         ngx_conf_log_error(NGX_LOG_EMERG, cf, 0,
 1601 |                            ngx_dlopen_n " \"%s\" failed (%s)",
+1602 |                            file.data, ngx_dlerror());
+1603 |         return NGX_CONF_ERROR;
 {% endraw %}
 
 ```

@@ -15,7 +15,12 @@ languages: ['c']
 ```c
 
 {% raw %}
+50 |   uv_lib_t lib;
+51 | 
+52 |   // open the dynamic loadable library
 53 |   if (uv_dlopen(libname, &lib)) {
+54 |       EMSG2(_("dlerror = \"%s\""), uv_dlerror(&lib));
+55 |       return false;
 {% endraw %}
 
 ```

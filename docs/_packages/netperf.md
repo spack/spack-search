@@ -2,7 +2,7 @@
 name: "netperf"
 layout: package
 next_package: nettle
-previous_package: nest
+previous_package: netdata
 languages: ['c']
 ---
 ## 2.6.0
@@ -15,7 +15,12 @@ languages: ['c']
 ```c
 
 {% raw %}
+81 | find_security_info(int *enabled, int *type, char **specific) {
+82 | 
+83 |   /* first, might it be selinux? */
 84 |   messiah = dlopen("libselinux.so", RTLD_LAZY);
+85 |   if (NULL != messiah) {
+86 |     dlerror();
 {% endraw %}
 
 ```

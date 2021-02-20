@@ -1,8 +1,8 @@
 ---
 name: "collectd"
 layout: package
-next_package: conduit
-previous_package: code-server
+next_package: compiz
+previous_package: coin3d
 languages: ['c']
 ---
 ## 5.10.0
@@ -15,8 +15,17 @@ languages: ['c']
 ```c
 
 {% raw %}
+412 |   if (global)
+413 |     flags |= RTLD_GLOBAL;
+414 | 
 415 |   void *dlh = dlopen(file, flags);
+416 |   if (dlh == NULL) {
+417 |     char errbuf[1024] = "";
+418 | 
+419 |     snprintf(errbuf, sizeof(errbuf),
 420 |              "dlopen(\"%s\") failed: %s. "
+421 |              "The most common cause for this problem is missing dependencies. "
+422 |              "Use ldd(1) to check the dependencies of the plugin / shared "
 {% endraw %}
 
 ```

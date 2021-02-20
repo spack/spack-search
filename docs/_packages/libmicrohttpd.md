@@ -15,7 +15,12 @@ languages: ['c']
 ```c
 
 {% raw %}
+367 |   if (0 >= res)
+368 |     return MHD_SC_TLS_BACKEND_UNSUPPORTED; /* string too long? */
+369 |   if (NULL ==
 370 |       (daemon->tls_backend_lib = dlopen (filename,
+371 |                                          RTLD_NOW | RTLD_LOCAL)))
+372 |     return MHD_SC_TLS_BACKEND_UNSUPPORTED; /* plugin not found */
 {% endraw %}
 
 ```

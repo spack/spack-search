@@ -187,7 +187,7 @@ def filter_packages(contenders, datadir):
     these in the site.
     """
     print(
-        "Preparing to filter packages! This may take a few moments."
+        "Preparing to filter packages! This may take a few moments. \n"
         "We are starting with %s contender packages with string dlopen."
         % len(contenders)
     )
@@ -202,11 +202,11 @@ def filter_packages(contenders, datadir):
 
         # Find all package versions
         package_dir = os.path.join(datadir, package)
-        include_package = False
+        package_included = False
         for package_file in os.listdir(package_dir):
 
-            if include_package:
-                packages.add(package)
+            # We only need one match to include it
+            if package_included:
                 continue
 
             package_file = os.path.join(package_dir, package_file)
@@ -221,12 +221,11 @@ def filter_packages(contenders, datadir):
                 # Only include lines that have the match
                 matchlines = match.split("\n")
                 for index, line in enumerate(matchlines):
-                    if not include_line(line):
-                        continue
-
-                # If we get here, we include the package
-                include_package = True
-                break
+                    if include_line(line):
+                        package_included = True
+                        packages.add(package)
+                    if package_included:
+                        break
 
     print("There are %s filtered packages." % len(packages))
     packages = list(packages)
@@ -287,7 +286,7 @@ def main():
         print("Writing package %s" % package)
 
         # To make the site render with jekyll, we can only include one version
-        first_version = True
+        was_written = False
 
         # Keep track of languages
         languages = set()
@@ -302,10 +301,9 @@ def main():
                 "matches": len(content["matches"]),
             }
 
-            # We want to include all packages data, but not render to these files
-            if not first_version:
+            # We want to include all packages data, but only one version
+            if was_written:
                 continue
-            first_version = False
 
             # For each file, include a subset of content (only with matches)
             filecontent = ""
@@ -319,17 +317,27 @@ def main():
 
                 matchpath = matchname.split("spack-src")[-1].strip("/")
 
-                # Only include lines that have the match
-                lines = []
+                # Only include lines that have the match. We will generate a lookup,
+                # of lines to include, and then generate from that
+                include_linenos = set()
                 matchlines = match.split("\n")
                 for index, line in enumerate(matchlines):
                     if not include_line(line):
                         continue
 
-                    lines.append("%s | %s" % (index, line))
+                    # Add lines that also include +3/-3 of context
+                    [include_linenos.add(x) for x in range(index - 3, index + 3)]
 
-                if not lines:
+                if not include_linenos:
                     continue
+
+                # Include the following lines and context, within range of the content
+                include_linenos = sorted(list(include_linenos))
+                lines = [
+                    "%s | %s" % (idx, matchlines[idx])
+                    for idx in include_linenos
+                    if idx > 0 and idx < len(matchlines)
+                ]
 
                 # Jekyll will get thrown off if these aren't raw
                 filecontent += "\n### " + matchpath + "\n"
@@ -341,8 +349,10 @@ def main():
                 filecontent += "\n```%s\n%s\n```" % (language, match)
                 paths.append(matchpath)
 
-            if not paths:
+            # At this point we know that the version has content
+            if not paths or not filecontent:
                 continue
+            was_written = True
 
             # Update data to include number of filtered matches
             data[package][version]["filtered_matches"] = len(paths)

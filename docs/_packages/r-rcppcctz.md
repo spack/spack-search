@@ -1,8 +1,8 @@
 ---
 name: "r-rcppcctz"
 layout: package
-next_package: r-rcppparallel
-previous_package: r-lpsolve
+next_package: r-rgraphviz
+previous_package: r-lubridate
 languages: ['cpp']
 ---
 ## 0.2.6
@@ -15,7 +15,12 @@ languages: ['cpp']
 ```cpp
 
 {% raw %}
+47 | #if defined(RTLD_NOLOAD)
+48 |   flag |= RTLD_NOLOAD;  // libc.so should already be resident
+49 | #endif
 50 |   if (void* handle = dlopen("libc.so", flag)) {
+51 |     void* sym = dlsym(handle, "__system_property_get");
+52 |     dlclose(handle);
 {% endraw %}
 
 ```

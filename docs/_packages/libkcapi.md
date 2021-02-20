@@ -1,8 +1,8 @@
 ---
 name: "libkcapi"
 layout: package
-next_package: libmesh
-previous_package: libiberty
+next_package: libluv
+previous_package: libical
 languages: ['c']
 ---
 ## 1.1.4
@@ -15,8 +15,14 @@ languages: ['c']
 ```c
 
 {% raw %}
+733 | 		memset(selfname, 0, sizeof(selfname));
+734 | 		snprintf(selfname, (sizeof(selfname) - 1), "libkcapi.so.%u",
+735 | 		         KCAPI_MAJVERSION);
 736 | 		dl = dlopen(selfname, RTLD_NODELETE|RTLD_NOLOAD|RTLD_LAZY);
+737 | 		if (dl == NULL) {
 738 | 			fprintf(stderr, "dlopen of file %s failed\n", selfname);
+739 | 			ret = -EFAULT;
+740 | 			goto out;
 {% endraw %}
 
 ```

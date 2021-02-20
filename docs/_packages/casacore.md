@@ -15,7 +15,12 @@ languages: ['cpp']
 ```cpp
 
 {% raw %}
+106 |   void DynLib::open (const std::string& name)
+107 |   {
+108 | #ifdef HAVE_DLOPEN
 109 |     itsHandle = dlopen (name.c_str(), RTLD_NOW | RTLD_GLOBAL);
+110 |     if (itsHandle == 0) {
+111 |       itsError += string(dlerror()) + '\n';
 {% endraw %}
 
 ```

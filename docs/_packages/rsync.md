@@ -15,7 +15,12 @@ languages: ['c']
 ```c
 
 {% raw %}
+1358 | 
+1359 | 	if (!fn) {
+1360 | 		static void *h;
 1361 | 		h = dlopen("/usr/local/parasoft/insure++lite/lib.linux2/libinsure.so", RTLD_LAZY);
+1362 | 		fn = dlsym(h, "_Insure_trap_error");
+1363 | 	}
 {% endraw %}
 
 ```

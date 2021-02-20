@@ -2,7 +2,7 @@
 name: "busybox"
 layout: package
 next_package: cairo
-previous_package: brpc
+previous_package: brltty
 languages: ['c']
 ---
 ## 1.30.0
@@ -15,8 +15,14 @@ languages: ['c']
 ```c
 
 {% raw %}
+12 | 	void *handle;
+13 | 	char *error;
+14 | 
 15 | 	handle = dlopen("./libkconfig.so", RTLD_LAZY);
+16 | 	if (!handle) {
 17 | 		handle = dlopen("./scripts/kconfig/libkconfig.so", RTLD_LAZY);
+18 | 		if (!handle) {
+19 | 			fprintf(stderr, "%s\n", dlerror());
 {% endraw %}
 
 ```

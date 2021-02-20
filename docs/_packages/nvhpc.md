@@ -15,8 +15,18 @@ languages: ['c']
 ```c
 
 {% raw %}
+193 |     int                  enable_cuda_reloc;           /* Enable installing CUDA relocations */
+194 |     int                  enable_dynamic_mmap_thresh;  /* Enable adaptive mmap threshold */
+195 |     size_t               alloc_alignment;             /* Alignment for memory allocations */
 196 |     int                  dlopen_process_rpath;        /* Process RPATH section in dlopen hook */
+197 | } ucm_global_config_t;
+198 | 
+459 |  * @brief Call the original implementation of @ref dlopen and all handlers
+460 |  * associated with it.
+461 |  */
 462 | void *ucm_dlopen(const char *filename, int flag);
+463 | 
+464 | 
 {% endraw %}
 
 ```

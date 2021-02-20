@@ -15,7 +15,12 @@ languages: ['python']
 ```python
 
 {% raw %}
+17 |         func = 'LoadLibrary'
+18 |         params = 1
+19 |     else:
 20 |         func = 'dlopen'
+21 |         params = 2
+22 |     s = jedi.Script('import _ctypes; _ctypes.%s(' % (func,))
 {% endraw %}
 
 ```

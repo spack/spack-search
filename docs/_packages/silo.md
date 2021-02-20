@@ -15,7 +15,12 @@ languages: ['c']
 ```c
 
 {% raw %}
+349 |         {
+350 |             char libfilename[256];
+351 |             sprintf(libfilename, "%s/ioperf_%s.so", dirs[d], ifacename);
 352 |             dlhandle = dlopen(libfilename, RTLD_LAZY);
+353 |             if (!dlhandle) continue;
+354 | 
 {% endraw %}
 
 ```

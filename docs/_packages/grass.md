@@ -1,8 +1,8 @@
 ---
 name: "grass"
 layout: package
-next_package: gromacs
-previous_package: graphicsmagick
+next_package: gridlab-d
+previous_package: graphviz
 languages: ['c']
 ---
 ## 7.8.2
@@ -15,7 +15,12 @@ languages: ['c']
 ```c
 
 {% raw %}
+93 | static void try_load_library(const char *name)
+94 | {
+95 | # ifdef __unix__
 96 |     library_h = dlopen(name, RTLD_NOW);
+97 | # endif
+98 | # ifdef _WIN32
 {% endraw %}
 
 ```

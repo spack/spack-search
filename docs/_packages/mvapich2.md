@@ -21,7 +21,12 @@ languages: ['c']
 ```c
 
 {% raw %}
+83 |     basename++;
+84 | 
+85 |   /* dlopen and get the component structure */
 86 |   handle = lt_dlopenext(filename);
+87 |   if (!handle) {
+88 |     if (hwloc_plugins_verbose)
 {% endraw %}
 
 ```
@@ -30,7 +35,12 @@ languages: ['c']
 ```c
 
 {% raw %}
+324 | #ifdef HWLOC_INSIDE_PLUGIN
+325 |   lt_dlhandle handle;
+326 |   void *sym;
 327 |   handle = lt_dlopen(NULL);
+328 |   if (!handle)
+329 |     /* cannot check, assume things will work */
 {% endraw %}
 
 ```
@@ -39,7 +49,12 @@ languages: ['c']
 ```c
 
 {% raw %}
+67 |      * function from the second library instead of the one from the system.
+68 |      */
+69 | 
 70 |     void* handle = dlopen("libmpich.so", RTLD_LAZY | RTLD_LOCAL);
+71 |     dlerror_str = dlerror();
+72 |     if(NULL != dlerror_str) {
 {% endraw %}
 
 ```
@@ -48,7 +63,12 @@ languages: ['c']
 ```c
 
 {% raw %}
+95 |     else
+96 |       poelibname = "libpoe_r.a(poe_r.o)";
+97 | #endif
 98 |     poeptr = dlopen(poelibname, poeflags);
+99 |     if (poeptr == NULL) {
+100 |         TRACE_ERR("failed to open %s error=%s\n", poelibname, dlerror());
 {% endraw %}
 
 ```
@@ -57,7 +77,12 @@ languages: ['c']
 ```c
 
 {% raw %}
+18 | 
+19 |     /* We allow different extensions for the shared libraries here, 
+20 |      as OSX uses .dylib and Cygwin may use .dll . */
 21 |     handle = dlopen( "./libconftest."## #SHLIBEXT, RTLD_LAZY );
+22 |     if (!handle) {
+23 | 	fprintf( stderr, "Could not open test library: %s\n", dlerror() );
 {% endraw %}
 
 ```
@@ -66,7 +91,12 @@ languages: ['c']
 ```c
 
 {% raw %}
+89 |     basename++;
+90 | 
+91 |   /* dlopen and get the component structure */
 92 |   handle = lt_dlopenext(filename);
+93 |   if (!handle) {
+94 |     if (hwloc_plugins_verbose)
 {% endraw %}
 
 ```
@@ -75,7 +105,12 @@ languages: ['c']
 ```c
 
 {% raw %}
+367 | #ifdef HWLOC_INSIDE_PLUGIN
+368 |   lt_dlhandle handle;
+369 |   void *sym;
 370 |   handle = lt_dlopen(NULL);
+371 |   if (!handle)
+372 |     /* cannot check, assume things will work */
 {% endraw %}
 
 ```

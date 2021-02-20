@@ -18,7 +18,12 @@ languages: ['python', 'c']
 ```c
 
 {% raw %}
+34 | #ifdef _WIN32
+35 |   HMODULE h = LoadLibraryA(argv[1]);
+36 | #else
 37 |   void *h = dlopen(argv[1], RTLD_NOW);
+38 | #endif
+39 |   assert(h != NULL);
 {% endraw %}
 
 ```
@@ -27,7 +32,12 @@ languages: ['python', 'c']
 ```c
 
 {% raw %}
+70 |     if(argc==0) {};
+71 | 
+72 |     dlerror();
 73 |     dl = dlopen(argv[1], RTLD_LAZY);
+74 |     error = dlerror();
+75 |     if(error) {
 {% endraw %}
 
 ```
@@ -36,7 +46,12 @@ languages: ['python', 'c']
 ```c
 
 {% raw %}
+75 |     if(argc==0) {};
+76 | 
+77 |     dlerror();
 78 |     dl = dlopen(argv[1], RTLD_LAZY);
+79 |     error = dlerror();
+80 |     if(error) {
 {% endraw %}
 
 ```
@@ -45,7 +60,12 @@ languages: ['python', 'c']
 ```python
 
 {% raw %}
+200 |      'HAVE_CONFSTR': ('confstr', 'time.h'),
+201 |      'HAVE_CTERMID': ('ctermid', 'stdio.h'),
+202 |      'HAVE_DIRFD': ('dirfd', 'dirent.h'),
 203 |      'HAVE_DLOPEN': ('dlopen', 'dlfcn.h'),
+204 |      'HAVE_DUP2': ('dup2', 'unistd.h'),
+205 |      'HAVE_DUP3': ('dup3', 'unistd.h'),
 {% endraw %}
 
 ```

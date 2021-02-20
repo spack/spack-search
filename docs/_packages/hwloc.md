@@ -1,7 +1,7 @@
 ---
 name: "hwloc"
 layout: package
-next_package: ibm-databroker
+next_package: hydra
 previous_package: hunspell
 languages: ['c']
 ---
@@ -16,7 +16,12 @@ languages: ['c']
 ```c
 
 {% raw %}
+97 |   }
+98 | 
+99 |   /* dlopen and get the component structure */
 100 |   handle = lt_dlopenext(filename);
+101 |   if (!handle) {
+102 |     if (hwloc_plugins_verbose)
 {% endraw %}
 
 ```
@@ -25,7 +30,12 @@ languages: ['c']
 ```c
 
 {% raw %}
+367 | #ifdef HWLOC_INSIDE_PLUGIN
+368 |   lt_dlhandle handle;
+369 |   void *sym;
 370 |   handle = lt_dlopen(NULL);
+371 |   if (!handle)
+372 |     /* cannot check, assume things will work */
 {% endraw %}
 
 ```

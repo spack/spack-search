@@ -2,7 +2,7 @@
 name: "gnutls"
 layout: package
 next_package: go
-previous_package: gnuplot
+previous_package: gnupg
 languages: ['c']
 ---
 ## 3.6.7.1
@@ -19,7 +19,12 @@ languages: ['c']
 ```c
 
 {% raw %}
+120 | static int check_init(void)
+121 | {
+122 | 	if (tpm_dl == NULL) {
 123 | 		tpm_dl = dlopen(TROUSERS_LIB, RTLD_LAZY);
+124 | 		if (tpm_dl == NULL) {
+125 | 			_gnutls_debug_log("couldn't open %s\n", TROUSERS_LIB);
 {% endraw %}
 
 ```
@@ -28,7 +33,12 @@ languages: ['c']
 ```c
 
 {% raw %}
+149 | int ret;
+150 | void *dl, *sym;
+151 | 
 152 | 	dl = dlopen(lib, RTLD_LAZY);
+153 | 	if (dl == NULL)
+154 | 		return gnutls_assert_val(GNUTLS_E_FILE_ERROR);
 {% endraw %}
 
 ```
@@ -37,8 +47,14 @@ languages: ['c']
 ```c
 
 {% raw %}
+91 | 		void *dl;
+92 | 		unsigned int *pflags;
+93 | 
 94 | 		dl = dlopen(lib, RTLD_NOW);
+95 | 		if (dl == NULL) {
 96 | 			fail("could not dlopen %s\n", lib);
+97 | 			exit(1);
+98 | 		}
 {% endraw %}
 
 ```
@@ -47,8 +63,14 @@ languages: ['c']
 ```c
 
 {% raw %}
+92 | 		void *dl;
+93 | 		unsigned int *pflags;
+94 | 
 95 | 		dl = dlopen(lib, RTLD_NOW);
+96 | 		if (dl == NULL) {
 97 | 			fail("could not dlopen %s\n", lib);
+98 | 			exit(1);
+99 | 		}
 {% endraw %}
 
 ```
@@ -57,8 +79,14 @@ languages: ['c']
 ```c
 
 {% raw %}
+97 | 		void *dl;
+98 | 		unsigned int *pflags;
+99 | 
 100 | 		dl = dlopen(lib, RTLD_NOW);
+101 | 		if (dl == NULL) {
 102 | 			fail("could not dlopen %s\n", lib);
+103 | 			exit(1);
+104 | 		}
 {% endraw %}
 
 ```

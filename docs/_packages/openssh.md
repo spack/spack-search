@@ -15,8 +15,13 @@ languages: ['c']
 ```c
 
 {% raw %}
+607 | 		goto fail;
+608 | 	}
+609 | 	/* open shared pkcs11-libarary */
 610 | 	if ((handle = dlopen(provider_id, RTLD_NOW)) == NULL) {
 611 | 		error("dlopen %s failed: %s", provider_id, dlerror());
+612 | 		goto fail;
+613 | 	}
 {% endraw %}
 
 ```

@@ -2,7 +2,7 @@
 name: "curl"
 layout: package
 next_package: cyrus-sasl
-previous_package: cppcheck
+previous_package: cpuinfo
 languages: ['c']
 ---
 ## 7.60.0
@@ -15,7 +15,12 @@ languages: ['c']
 ```c
 
 {% raw %}
+51 |        exit(1);
+52 |    }
+53 | 
 54 |    libptr = dlopen(argv[1], 0);
+55 | 
+56 |    ssl_version = (const char * (*)(int))dlsym(libptr, "SSLeay_version");
 {% endraw %}
 
 ```

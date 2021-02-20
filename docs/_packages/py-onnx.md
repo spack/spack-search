@@ -15,7 +15,12 @@ languages: ['c']
 ```c
 
 {% raw %}
+88 | #else
+89 |   /* Clear libdl error state */
+90 |   dlerror();
 91 |   onnx->handle = dlopen(path, RTLD_NOW | RTLD_LOCAL);
+92 | #endif
+93 |   if (onnx->handle == NULL) {
 {% endraw %}
 
 ```

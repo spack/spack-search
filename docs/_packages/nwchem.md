@@ -15,7 +15,12 @@ languages: ['c']
 ```c
 
 {% raw %}
+94 | 
+95 | static inline int load_ofi(fi_loadable_methods_t* table)
+96 | {
 97 |     ld_table.handle = dlopen(env_data.library_path, RTLD_NOW);
+98 |     if (!ld_table.handle)
+99 |     {
 {% endraw %}
 
 ```

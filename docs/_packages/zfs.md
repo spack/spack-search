@@ -1,7 +1,7 @@
 ---
 name: "zfs"
 layout: package
-next_package: zsh
+next_package: zookeeper
 previous_package: zabbix
 languages: ['python', 'c']
 ---
@@ -16,7 +16,12 @@ languages: ['python', 'c']
 ```c
 
 {% raw %}
+181 | 		return (EINVAL);
+182 | 	}
+183 | 
 184 | 	zpoolhdl = dlopen("libzpool.so", RTLD_LAZY);
+185 | 	if (zpoolhdl != NULL) {
+186 | 		uint32_t *var;
 {% endraw %}
 
 ```
@@ -25,7 +30,12 @@ languages: ['python', 'c']
 ```python
 
 {% raw %}
+39 |             if self._lib is None:
+40 |                 with self._lock:
+41 |                     if self._lib is None:
 42 |                         self._lib = self._ffi.dlopen(self._libname)
+43 | 
+44 |             return getattr(self._lib, name)
 {% endraw %}
 
 ```

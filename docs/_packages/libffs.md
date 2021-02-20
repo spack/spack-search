@@ -15,7 +15,12 @@ languages: ['c']
 ```c
 
 {% raw %}
+683 |     char *name = malloc(strlen(libname) + strlen(LIBRARY_EXT) + 1);
+684 |     strcpy(name, libname);
+685 |     strcat(name, LIBRARY_EXT);
 686 |     void *handle = dlopen(name, RTLD_LAZY);
+687 |     free(name);
+688 |     while(externs[i].extern_name) {
 {% endraw %}
 
 ```

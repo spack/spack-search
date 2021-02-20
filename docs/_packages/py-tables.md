@@ -1,8 +1,8 @@
 ---
 name: "py-tables"
 layout: package
-next_package: py-vermin
-previous_package: py-shapely
+next_package: py-uvloop
+previous_package: py-soundfile
 languages: ['c']
 ---
 ## 3.5.2
@@ -15,7 +15,12 @@ languages: ['c']
 ```c
 
 {% raw %}
+52 |     void *hinstLib;
+53 | 
+54 |     /* Load the dynamic library */
 55 |     hinstLib = dlopen(libname, RTLD_LAZY);
+56 | 
+57 |     if (hinstLib != NULL) {
 {% endraw %}
 
 ```

@@ -1,7 +1,7 @@
 ---
 name: "fipscheck"
 layout: package
-next_package: flux-core
+next_package: flexiblas
 previous_package: fio
 languages: ['c']
 ---
@@ -15,7 +15,12 @@ languages: ['c']
 ```c
 
 {% raw %}
+71 | 	void *dl, *sym;
+72 | 	int rv = -1;
+73 | 
 74 |         dl = dlopen(libname, RTLD_NODELETE|RTLD_NOLOAD|RTLD_LAZY);
+75 |         if (dl == NULL) {
+76 | 	        return -1;
 {% endraw %}
 
 ```

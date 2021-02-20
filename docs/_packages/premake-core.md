@@ -1,7 +1,7 @@
 ---
 name: "premake-core"
 layout: package
-next_package: process-in-process
+next_package: prism
 previous_package: powerapi
 languages: ['c']
 ---
@@ -15,7 +15,12 @@ languages: ['c']
 ```c
 
 {% raw %}
+123 | 
+124 | 
+125 | static void *lsys_load (lua_State *L, const char *path, int seeglb) {
 126 |   void *lib = dlopen(path, RTLD_NOW | (seeglb ? RTLD_GLOBAL : RTLD_LOCAL));
+127 |   if (lib == NULL) lua_pushstring(L, dlerror());
+128 |   return lib;
 {% endraw %}
 
 ```

@@ -15,7 +15,12 @@ languages: ['python']
 ```python
 
 {% raw %}
+1206 | 
+1207 | mvDeployAPI::mvDeployAPI(const char *library_name)
+1208 | {
 1209 |     libHandle = dlopen(library_name, RTLD_NOW | RTLD_LOCAL);
+1210 |     if (!libHandle)
+1211 |     {
 {% endraw %}
 
 ```

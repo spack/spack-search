@@ -16,7 +16,12 @@ languages: ['c']
 ```c
 
 {% raw %}
+320 | #if defined (HPUX)
+321 |                     so_handle = shl_load(buffer, BIND_IMMEDIATE, 0L);
+322 | #else
 323 |                     so_handle = dlopen(buffer, RTLD_NOW);
+324 |                     if (so_handle == NULL) {
+325 |                         NhlPError(NhlFATAL, NhlEUNKNOWN,
 {% endraw %}
 
 ```
@@ -25,7 +30,12 @@ languages: ['c']
 ```c
 
 {% raw %}
+218 | #if defined(HPUX)
+219 | 					so_handle = shl_load(buffer,BIND_IMMEDIATE,0L);
+220 | #else
 221 | 					so_handle = dlopen(buffer,RTLD_NOW);
+222 | 					if(so_handle == NULL) {
+223 | 						NhlPError(NhlFATAL,NhlEUNKNOWN," Could not open (%s): %s",buffer,dlerror());
 {% endraw %}
 
 ```

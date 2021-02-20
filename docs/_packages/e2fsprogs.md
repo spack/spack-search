@@ -16,7 +16,12 @@ languages: ['c']
 ```c
 
 {% raw %}
+66 | 			*next++ = 0;
+67 | 		if (*cp == 0)
+68 | 			continue;
 69 | 		if ((handle = dlopen(cp, RTLD_NOW))) {
+70 | 			/* printf("Using %s for readline library\n", cp); */
+71 | 			break;
 {% endraw %}
 
 ```
@@ -25,7 +30,12 @@ languages: ['c']
 ```c
 
 {% raw %}
+61 | static int magic_library_available(void)
+62 | {
+63 | 	if (!magic_handle) {
 64 | 		magic_handle = dlopen("libmagic.so.1", RTLD_NOW);
+65 | 		if (!magic_handle)
+66 | 			return 0;
 {% endraw %}
 
 ```

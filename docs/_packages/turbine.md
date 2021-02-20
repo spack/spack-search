@@ -2,7 +2,7 @@
 name: "turbine"
 layout: package
 next_package: ucx
-previous_package: trilinos
+previous_package: tulip
 languages: ['c']
 ---
 ## 1.1.0
@@ -15,7 +15,12 @@ languages: ['c']
 ```c
 
 {% raw %}
+100 | #elif defined __APPLE__
+101 |   sprintf(str_python_lib, "libpython%d.%d.dylib", PY_MAJOR_VERSION, PY_MINOR_VERSION);
+102 | #endif
 103 |   dlopen(str_python_lib, RTLD_NOW | RTLD_GLOBAL);
+104 | 
+105 |   if (initialized) return TCL_OK;
 {% endraw %}
 
 ```

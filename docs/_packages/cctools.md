@@ -2,7 +2,7 @@
 name: "cctools"
 layout: package
 next_package: cdo
-previous_package: cbtf-krell
+previous_package: cc65
 languages: ['c']
 ---
 ## 7.1.0
@@ -16,7 +16,12 @@ languages: ['c']
 ```c
 
 {% raw %}
+123 | 			rc = 0;
+124 | 			goto out;
+125 | 		} else {
 126 | 			debug(D_HDFS, "dlopen failed: %s", dlerror());
+127 | 		}
+128 | 	}
 {% endraw %}
 
 ```
@@ -25,7 +30,12 @@ languages: ['c']
 ```c
 
 {% raw %}
+31209 | #include <dlfcn.h>
+31210 | static void *unixDlOpen(sqlite3_vfs *NotUsed, const char *zFilename){
+31211 |   UNUSED_PARAMETER(NotUsed);
 31212 |   return dlopen(zFilename, RTLD_NOW | RTLD_GLOBAL);
+31213 | }
+31214 | 
 {% endraw %}
 
 ```

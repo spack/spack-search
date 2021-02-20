@@ -1,7 +1,7 @@
 ---
 name: "mc"
 layout: package
-next_package: med
+next_package: meme
 previous_package: mariadb-c-client
 languages: ['c']
 ---
@@ -15,7 +15,12 @@ languages: ['c']
 ```c
 
 {% raw %}
+920 |             /* QNX 6.x has no support for RTLD_LAZY */
+921 |             void *ph_handle;
+922 | 
 923 |             ph_handle = dlopen ("/usr/lib/libph.so", RTLD_NOW);
+924 |             if (ph_handle != NULL)
+925 |             {
 {% endraw %}
 
 ```
