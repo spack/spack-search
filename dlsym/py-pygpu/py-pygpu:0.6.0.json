@@ -1,0 +1,7 @@
+{
+    "matches": {
+        "/tmp/vanessa/spack-stage/spack-stage-py-pygpu-0.6.0-mhkauht6nhbysfedepj32pvzrcv3bsge/spack-src/src/loaders/dyn_load.c": "#include \"dyn_load.h\"\n\n#if defined(__unix__) || defined(__APPLE__)\n\n#include <dlfcn.h>\n#include <stddef.h>\n#include <err.h>\n\nvoid *ga_load_library(const char *name) {\n  void *res = dlopen(name, RTLD_LAZY|RTLD_LOCAL);\n#ifdef DEBUG\n  if (res == NULL)\n    warn(\"dlopen: %s\", name);\n#endif\n  return res;\n}\n\nvoid *ga_func_ptr(void *h, const char *name) {\n  void *res = dlsym(h, name);\n#ifdef DEBUG\n  if (res == NULL)\n    warn(\"dlsym: %s\", name);\n#endif\n  return res;\n}\n\n#else\n\n/* Should be windows */\n#include <windows.h>\n\nvoid *ga_load_library(const char *name) {\n  return LoadLibrary(name);\n}\n\nvoid *ga_func_ptr(void *h, const char *name) {\n  return (void *)GetProcAddress(h, name);\n}\n\n#endif\n"
+    },
+    "skipped": [],
+    "total_files": 134
+}

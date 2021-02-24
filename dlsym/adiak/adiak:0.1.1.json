@@ -1,0 +1,10 @@
+{
+    "matches": {
+        "/tmp/vanessa/spack-stage/spack-stage-adiak-0.1.1-qricmc6ctbstuxws6evzabpqanp5akgo/spack-src/src/adksys_glibc.c": "// Copyright 2019 Lawrence Livermore National Security, LLC\n// See the top-level COPYRIGHT file for details.\n//\n// SPDX-License-Identifier: MIT\n\n#define _GNU_SOURCE\n#include <link.h>\n#include <stdlib.h>\n#include <dlfcn.h>\n\n#include \"adksys.h\"\n\ntypedef struct {\n   char **names;\n   int cur;\n} lib_info_t;\n\nstatic int count_libraries(struct dl_phdr_info *info, size_t size, void *cnt) {\n   int *count = (int *) cnt;\n   if (info->dlpi_name && *info->dlpi_name)\n      (*count)++;\n   (void) size;\n   return 0;\n}\n\nstatic int get_library_name(struct dl_phdr_info *info, size_t size, void *data) {\n   lib_info_t *linfo = (lib_info_t *) data;\n   if (!info->dlpi_name || !*info->dlpi_name)\n      return 0;\n   linfo->names[linfo->cur++] = (char *) info->dlpi_name;\n   (void) size;\n   return 0;\n}\n\nint adksys_get_libraries(char ***libraries, int *libraries_size, int *libnames_need_free) {\n   int num_libraries = 0;\n   lib_info_t linfo;\n\n   dl_iterate_phdr(count_libraries, &num_libraries);\n   linfo.names = (char **) malloc(sizeof(char*) * (num_libraries+1));\n   linfo.cur = 0;\n   dl_iterate_phdr(get_library_name, &linfo);\n   linfo.names[num_libraries] = NULL;\n\n   *libraries = linfo.names;\n   *libraries_size = num_libraries;\n   *libnames_need_free = 0;\n   return 0;\n}\n\nvoid *adksys_get_public_adiak_symbol()\n{\n   void *result;\n   \n   dlerror();\n   result = dlsym(RTLD_DEFAULT, \"public_adiak\");\n   if (dlerror())\n      return NULL;\n   return result;\n}\n\n"
+    },
+    "skipped": [
+        "/tmp/vanessa/spack-stage/spack-stage-adiak-0.1.1-qricmc6ctbstuxws6evzabpqanp5akgo/spack-src/blt/share/blt/logo/blt_logo.png",
+        "/tmp/vanessa/spack-stage/spack-stage-adiak-0.1.1-qricmc6ctbstuxws6evzabpqanp5akgo/spack-src/docs/Adiak API.docx"
+    ],
+    "total_files": 601
+}

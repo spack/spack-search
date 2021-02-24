@@ -1,0 +1,7 @@
+{
+    "matches": {
+        "/tmp/vanessa/spack-stage/spack-stage-adept-utils-1.0.1-kqq267xsvtlx5uq3ybhx3qkglwvqd5mf/spack-src/cutils/test.c": "#define _GNU_SOURCE\n#include \"link_utils.h\"\n#include <stdlib.h>\n#include <dlfcn.h>\n\n#define printsymbol(symbol) \\\n  { \\\n    void *mysym = dlsym(RTLD_NEXT, #symbol); \\\n    struct link_map *map = get_module_for_address(mysym); \\\n    printf(\"module for \" #symbol \"(%#tx): %#tx(%s)\\n\", mysym, map->l_addr, map->l_name); \\\n  }\n\n\n\nint main(int argc, char **argv) {\n  dump_link_map(stdout);\n\n  printsymbol(printf);\n  printsymbol(malloc);\n  printsymbol(dlsym);\n\n\n  struct link_map *map = get_module_by_full_path(\"/lib64/libdl.so.2\");\n  if (map) {\n    printf(\"%s\\n\", map->l_name);\n  } else {\n    printf(\"not found.\\n\");\n  }\n\n}\n"
+    },
+    "skipped": [],
+    "total_files": 31
+}

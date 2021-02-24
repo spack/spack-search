@@ -1,0 +1,33 @@
+{
+    "matches": {
+        "/tmp/vanessa/spack-stage/spack-stage-accumulo-1.9.2-ybrhwgehmkj66q2tvmgw277ealzggqvg/spack-src/test/src/test/c/fake_disk_failure.c": "/*\n* Licensed to the Apache Software Foundation (ASF) under one or more\n* contributor license agreements.  See the NOTICE file distributed with\n* this work for additional information regarding copyright ownership.\n* The ASF licenses this file to You under the Apache License, Version 2.0\n* (the \"License\"); you may not use this file except in compliance with\n* the License.  You may obtain a copy of the License at\n*\n*     http://www.apache.org/licenses/LICENSE-2.0\n*\n* Unless required by applicable law or agreed to in writing, software\n* distributed under the License is distributed on an \"AS IS\" BASIS,\n* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\n* See the License for the specific language governing permissions and\n* limitations under the License.\n*/\n#include <unistd.h>\n#include <dlfcn.h>\n#include <stdio.h>\n#include <string.h>\n#include <stdlib.h>\n\nstatic\nvoid test_pause() {\n  static char trickFile[1024] = \"\";\n  static char pid[10] = \"\";\n  if (trickFile[0] == '\\0') {\n    strcpy(trickFile, getenv(\"TRICK_FILE\"));\n  }\n\n  while (access(trickFile, R_OK) == 0) {\n    fprintf(stdout, \"sleeping\\n\");\n    fflush(stdout);\n    sleep(1);\n  }\n}\n\nssize_t write(int fd, const void *buf, size_t count) {\n  void * real_write = dlsym(RTLD_NEXT, \"write\");\n  ssize_t (*real_write_t)(int, const void*, size_t) = real_write;\n\n  test_pause();\n  return real_write_t(fd, buf, count);\n}\n\nssize_t read(int fd, void *buf, size_t count) {\n  void * real_read = dlsym(RTLD_NEXT, \"read\");\n  ssize_t (*real_read_t)(int, void*, size_t) = real_read;\n  test_pause();\n  return real_read_t(fd, buf, count);\n}\n"
+    },
+    "skipped": [
+        "/tmp/vanessa/spack-stage/spack-stage-accumulo-1.9.2-ybrhwgehmkj66q2tvmgw277ealzggqvg/spack-src/minicluster/src/test/resources/FooFilter.jar",
+        "/tmp/vanessa/spack-stage/spack-stage-accumulo-1.9.2-ybrhwgehmkj66q2tvmgw277ealzggqvg/spack-src/server/tserver/src/test/resources/walog-from-16.walog",
+        "/tmp/vanessa/spack-stage/spack-stage-accumulo-1.9.2-ybrhwgehmkj66q2tvmgw277ealzggqvg/spack-src/server/tserver/src/test/resources/walog-from-15.walog",
+        "/tmp/vanessa/spack-stage/spack-stage-accumulo-1.9.2-ybrhwgehmkj66q2tvmgw277ealzggqvg/spack-src/server/monitor/src/main/resources/web/favicon.png",
+        "/tmp/vanessa/spack-stage/spack-stage-accumulo-1.9.2-ybrhwgehmkj66q2tvmgw277ealzggqvg/spack-src/server/monitor/src/main/resources/web/up.gif",
+        "/tmp/vanessa/spack-stage/spack-stage-accumulo-1.9.2-ybrhwgehmkj66q2tvmgw277ealzggqvg/spack-src/server/monitor/src/main/resources/web/down.gif",
+        "/tmp/vanessa/spack-stage/spack-stage-accumulo-1.9.2-ybrhwgehmkj66q2tvmgw277ealzggqvg/spack-src/core/src/test/resources/empty.jceks",
+        "/tmp/vanessa/spack-stage/spack-stage-accumulo-1.9.2-ybrhwgehmkj66q2tvmgw277ealzggqvg/spack-src/core/src/test/resources/accumulo.jceks",
+        "/tmp/vanessa/spack-stage/spack-stage-accumulo-1.9.2-ybrhwgehmkj66q2tvmgw277ealzggqvg/spack-src/core/src/test/resources/site-cfg.jceks",
+        "/tmp/vanessa/spack-stage/spack-stage-accumulo-1.9.2-ybrhwgehmkj66q2tvmgw277ealzggqvg/spack-src/core/src/test/resources/passwords.jceks",
+        "/tmp/vanessa/spack-stage/spack-stage-accumulo-1.9.2-ybrhwgehmkj66q2tvmgw277ealzggqvg/spack-src/core/src/test/resources/org/apache/accumulo/core/file/rfile/ver_3.rf",
+        "/tmp/vanessa/spack-stage/spack-stage-accumulo-1.9.2-ybrhwgehmkj66q2tvmgw277ealzggqvg/spack-src/core/src/test/resources/org/apache/accumulo/core/file/rfile/ver_7.rf",
+        "/tmp/vanessa/spack-stage/spack-stage-accumulo-1.9.2-ybrhwgehmkj66q2tvmgw277ealzggqvg/spack-src/core/src/test/resources/org/apache/accumulo/core/file/rfile/ver_4.rf",
+        "/tmp/vanessa/spack-stage/spack-stage-accumulo-1.9.2-ybrhwgehmkj66q2tvmgw277ealzggqvg/spack-src/core/src/test/resources/org/apache/accumulo/core/file/rfile/ver_6.rf",
+        "/tmp/vanessa/spack-stage/spack-stage-accumulo-1.9.2-ybrhwgehmkj66q2tvmgw277ealzggqvg/spack-src/test/src/main/resources/TestCompactionStrat.jar",
+        "/tmp/vanessa/spack-stage/spack-stage-accumulo-1.9.2-ybrhwgehmkj66q2tvmgw277ealzggqvg/spack-src/test/src/main/resources/FooConstraint.jar",
+        "/tmp/vanessa/spack-stage/spack-stage-accumulo-1.9.2-ybrhwgehmkj66q2tvmgw277ealzggqvg/spack-src/test/src/main/resources/TestCombinerY.jar",
+        "/tmp/vanessa/spack-stage/spack-stage-accumulo-1.9.2-ybrhwgehmkj66q2tvmgw277ealzggqvg/spack-src/test/src/main/resources/FooFilter.jar",
+        "/tmp/vanessa/spack-stage/spack-stage-accumulo-1.9.2-ybrhwgehmkj66q2tvmgw277ealzggqvg/spack-src/test/src/main/resources/ShellServerIT-iterators.jar",
+        "/tmp/vanessa/spack-stage/spack-stage-accumulo-1.9.2-ybrhwgehmkj66q2tvmgw277ealzggqvg/spack-src/test/src/main/resources/TestCombinerX.jar",
+        "/tmp/vanessa/spack-stage/spack-stage-accumulo-1.9.2-ybrhwgehmkj66q2tvmgw277ealzggqvg/spack-src/docs/src/main/resources/state/table-lifecycle.png",
+        "/tmp/vanessa/spack-stage/spack-stage-accumulo-1.9.2-ybrhwgehmkj66q2tvmgw277ealzggqvg/spack-src/docs/src/main/resources/state/replicationstatus.png",
+        "/tmp/vanessa/spack-stage/spack-stage-accumulo-1.9.2-ybrhwgehmkj66q2tvmgw277ealzggqvg/spack-src/docs/src/main/asciidoc/images/failure_handling.png",
+        "/tmp/vanessa/spack-stage/spack-stage-accumulo-1.9.2-ybrhwgehmkj66q2tvmgw277ealzggqvg/spack-src/docs/src/main/asciidoc/images/accumulo-logo.png",
+        "/tmp/vanessa/spack-stage/spack-stage-accumulo-1.9.2-ybrhwgehmkj66q2tvmgw277ealzggqvg/spack-src/docs/src/main/asciidoc/images/data_distribution.png"
+    ],
+    "total_files": 2581
+}

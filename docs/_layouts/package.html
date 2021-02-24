@@ -7,6 +7,7 @@ layout: base
 <div class="row" style="margin:25px; padding:30px">
     <div class="col-lg-10" id="content">
     <h1>{{ page.name }}</h1>
+       {% for match in page.matches %}<a class="btn btn-warning btn-sm" href="{{ site.baseurl }}/package/{{ match }}/{{ page.name }}">{{ match }}</a>{% endfor %}
        {{ content }}
     </div>
     {% include next_previous.html %}
@@ -21,7 +22,7 @@ layout: base
     $(function () {
       var context = document.querySelector("#content");
       var instance = new Mark(context);
-      instance.mark("dlopen");
+      instance.mark("{{ page.library_name }}");
     });
   </script>
 </div>

@@ -35,12 +35,16 @@ For now, let's make the `dlopen` directory.
 $ mkdir dlopen
 ```
 
+We will eventually also make a `dlsym` directory for another library we are interested in.
+
 ### 3. Run the extraction
 
 And run the script, providing the query string (first) and the output directory (second)
+Here are examples for dlopen and dlsym:
 
 ```bash
 $ spack python search_spack.py dlopen ./dlopen
+$ spack python search_spack.py dlsym ./dlsym
 ```
 
 ⚠️ *Important: As you are running this, the `var/spack/cache` is going to fill up. Likely you want to clear it if you are running out of disk space.* ⚠️
@@ -60,7 +64,15 @@ script to do exactly that. Note that this is going to generate files in [_stagin
 $ python generate_interface.py dlopen/ docs/
 ```
 
-Note that there are two ways to build the interface. The first (for development) is if you need
+If you want to generate results for more than one library, you can do:
+
+```bash
+$ python generate_interface.py ./dlopen/,./dlsym docs
+```
+
+Note that because the bottleneck in rendering is the size of the files, we don't
+generate an interface with all results (across a single package) on the same page.
+There are also two ways to build the interface. The first (for development) is if you need
 to debug and profile to see how long things are taking. For this approach, move one letter 
 at a time into the packages folder, and build incrementally:
 

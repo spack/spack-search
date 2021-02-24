@@ -1,0 +1,9 @@
+{
+    "matches": {
+        "/tmp/vanessa/spack-stage/spack-stage-pfunit-3.2.9-ruownxss4ewaneojn7hffldmi3lejqyv/spack-src/source/.cvsignore": "*.dylib\n*.mod\n*.x\n.libs\nAssertComplex_mod.F90\nAssertReal_mod.F90\ndispatch.c\ndlCloseWrapper.c\ndlOpenWrapper.c\ndlsymWrapper.c\ngetAddress.c\nm_AssertReal.F90\nsemantic.cache\n"
+    },
+    "skipped": [
+        "/tmp/vanessa/spack-stage/spack-stage-pfunit-3.2.9-ruownxss4ewaneojn7hffldmi3lejqyv/spack-src/documentation/pFUnit3-ReferenceManual.pdf"
+    ],
+    "total_files": 191
+}

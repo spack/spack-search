@@ -13,6 +13,9 @@
 # 4. Create an directory for your site: mkdir -p docs
 # 5. Run the script providing the data folder and jekyll root
 #        python generate_interface.py ./dlopen docs
+# If you want to generate with more than one data folder:
+#        python generate_interface.py ./dlopen,./dlsym docs
+#
 
 import json
 import os
@@ -98,15 +101,14 @@ python search_spack.py ./dlopen  ./docs
     print(message)
 
 
-def get_template(name, lookup):
+def get_template(name, lookup, library_name, has_matches):
     """We don't close the header, as we need to add languages as tags"""
-    template = (
-        """---\nname: "%s"\nlayout: package\nnext_package: %s\nprevious_package: %s\n"""
-        % (
-            name,
-            lookup[name]["next"],
-            lookup[name]["previous"],
-        )
+    template = """---\nname: "%s"\nlayout: package\nnext_package: %s\nprevious_package: %s\nlibrary_name: %s\nmatches: %s\n""" % (
+        name,
+        lookup[name]["next"],
+        lookup[name]["previous"],
+        library_name,
+        list(has_matches),
     )
     return template
 
@@ -167,11 +169,11 @@ def include_language(language):
     ]
 
 
-def include_line(line):
+def include_line(line, library_name):
     """Given a line, determine if we should include it based on the presence
     of dlopen, and then not being a comment
     """
-    if not line or not re.search("dlopen", line):
+    if not line or not re.search(library_name, line):
         return False
 
     # Skip comments
@@ -186,11 +188,7 @@ def filter_packages(contenders, datadir):
     return a list of packages that have at least one match. We will include
     these in the site.
     """
-    print(
-        "Preparing to filter packages! This may take a few moments. \n"
-        "We are starting with %s contender packages with string dlopen."
-        % len(contenders)
-    )
+    print("Looking at %s contenders in %s." % (len(contenders), datadir))
     packages = set()
 
     # Get a list of filtered down packages for the lookup
@@ -209,6 +207,7 @@ def filter_packages(contenders, datadir):
             if package_included:
                 continue
 
+            library_name = os.path.basename(package_dir)
             package_file = os.path.join(package_dir, package_file)
             content = read_json(package_file)
             for matchname, match in content["matches"].items():
@@ -221,7 +220,7 @@ def filter_packages(contenders, datadir):
                 # Only include lines that have the match
                 matchlines = match.split("\n")
                 for index, line in enumerate(matchlines):
-                    if include_line(line):
+                    if include_line(line, library_name):
                         package_included = True
                         packages.add(package)
                     if package_included:
@@ -237,10 +236,11 @@ def main():
         usage(exit=True)
 
     # Make sure we have the search string and output directory
-    datadir = os.path.abspath(sys.argv[1])
+    # We accept more than one data directory and will combine results
+    datadirs = [os.path.abspath(x) for x in sys.argv[1].split(",")]
     outdir = os.path.abspath(sys.argv[2])
 
-    for dirname in [datadir, outdir]:
+    for dirname in [outdir] + datadirs:
         if not os.path.exists(dirname):
             sys.exit("%s does not exist." % dirname)
 
@@ -254,13 +254,19 @@ def main():
     # We will generate a data file with counts / metrics
     data = {}
 
-    # Read in each data file, make a collection folder, and write a markdown
-    print("Finding packages...")
-    contenders = os.listdir(datadir)
-    packages = filter_packages(contenders, datadir)
+    print("Preparing to filter packages! This may take a few moments.")
+
+    # Create master list of contenders, a package is included if it has any
+    # matches in either data directory
+    packages = set()
+    for datadir in datadirs:
+        print("Finding contender packages for %s..." % os.path.basename(datadir))
+        contenders = os.listdir(datadir)
+        [packages.add(x) for x in filter_packages(contenders, datadir)]
 
     # Create a lookup of previous and next (so jekyll doesn't need to)
     lookup = {}
+    packages = list(packages)
     for i, package in enumerate(packages):
         lookup[package] = {
             "next": packages[i + 1] if i < (len(packages) - 1) else None,
@@ -270,117 +276,143 @@ def main():
     # Iterate through packages, save data and generate markdown for each
     for package in packages:
 
-        # Find all package versions
-        package_dir = os.path.join(datadir, package)
+        for datadir in datadirs:
 
-        data[package] = {}
+            # Find all package versions
+            package_dir = os.path.join(datadir, package)
 
-        # Write the header template for the package
-        header = get_template(package, lookup)
-        output_file = "%s.md" % os.path.join(packages_dir, package)
-
-        # Skip if it already exists.
-        if os.path.exists(output_file):
-            continue
-
-        print("Writing package %s" % package)
-
-        # To make the site render with jekyll, we can only include one version
-        was_written = False
-
-        # Keep track of languages
-        languages = set()
-
-        for package_file in os.listdir(package_dir):
-
-            version = get_version(package_file, package)
-            package_file = os.path.join(package_dir, package_file)
-            content = read_json(package_file)
-            data[package][version] = {
-                "total_files": content["total_files"],
-                "matches": len(content["matches"]),
-            }
-
-            # We want to include all packages data, but only one version
-            if was_written:
+            # Skip package if it doesn't have files
+            if not os.path.exists(package_dir):
                 continue
 
-            # For each file, include a subset of content (only with matches)
-            filecontent = ""
-            paths = []
-            for matchname, match in content["matches"].items():
+            library_name = os.path.basename(datadir)
+            data[library_name] = {package: {}}
 
-                # need to derive language here, add code
-                language = get_language(matchname)
-                if not include_language(language):
+            # We should be able to link to other library pages from each
+            # here we generate a list of other libraries with matches
+            has_matches = set()
+            for otherdir in datadirs:
+                other_dir = os.path.join(otherdir, package)
+                if os.path.exists(other_dir) and os.listdir(other_dir):
+                    has_matches.add(os.path.basename(otherdir))
+
+            # Write the header template for the package
+            header = get_template(package, lookup, library_name, has_matches)
+
+            # Try organizing into library directory
+            library_dir = os.path.join(packages_dir, library_name)
+            if not os.path.exists(library_dir):
+                os.mkdir(library_dir)
+
+            output_file = "%s.md" % os.path.join(library_dir, package)
+
+            # Skip if it already exists.
+            if os.path.exists(output_file):
+                continue
+
+            print("Writing library %s for package %s" % (library_name, package))
+
+            # To make the site render with jekyll, we can only include one version
+            was_written = False
+
+            # Keep track of languages
+            languages = set()
+
+            # Skip packages that don't have matches
+            package_files = os.listdir(package_dir)
+            if not package_files:
+                continue
+
+            for package_file in package_files:
+
+                version = get_version(package_file, package)
+                package_file = os.path.join(package_dir, package_file)
+                content = read_json(package_file)
+                data[library_name][package][version] = {
+                    "total_files": content["total_files"],
+                    "matches": len(content["matches"]),
+                }
+
+                # We want to include all packages data, but only one version
+                if was_written:
                     continue
 
-                matchpath = matchname.split("spack-src")[-1].strip("/")
+                # For each file, include a subset of content (only with matches)
+                filecontent = ""
+                paths = []
+                for matchname, match in content["matches"].items():
 
-                # Only include lines that have the match. We will generate a lookup,
-                # of lines to include, and then generate from that
-                include_linenos = set()
-                matchlines = match.split("\n")
-                for index, line in enumerate(matchlines):
-                    if not include_line(line):
+                    # need to derive language here, add code
+                    language = get_language(matchname)
+                    if not include_language(language):
                         continue
 
-                    # Add lines that also include +3/-3 of context
-                    [include_linenos.add(x) for x in range(index - 3, index + 3)]
+                    matchpath = matchname.split("spack-src")[-1].strip("/")
 
-                if not include_linenos:
+                    # Only include lines that have the match. We will generate a lookup,
+                    # of lines to include, and then generate from that
+                    include_linenos = set()
+                    matchlines = match.split("\n")
+                    for index, line in enumerate(matchlines):
+                        if not include_line(line, library_name):
+                            continue
+
+                        # Add lines that also include +3/-3 of context
+                        [include_linenos.add(x) for x in range(index - 3, index + 3)]
+
+                    if not include_linenos:
+                        continue
+
+                    # Include the following lines and context, within range of the content
+                    include_linenos = sorted(list(include_linenos))
+                    lines = [
+                        "%s | %s" % (idx, matchlines[idx])
+                        for idx in include_linenos
+                        if idx > 0 and idx < len(matchlines)
+                    ]
+
+                    # Jekyll will get thrown off if these aren't raw
+                    filecontent += "\n### " + matchpath + "\n"
+                    match = "\n{% raw %}\n" + "\n".join(lines) + "\n{% endraw %}\n"
+
+                    if language:
+                        languages.add(language)
+
+                    filecontent += "\n```%s\n%s\n```" % (language, match)
+                    paths.append(matchpath)
+
+                # At this point we know that the version has content
+                if not paths or not filecontent:
                     continue
+                was_written = True
 
-                # Include the following lines and context, within range of the content
-                include_linenos = sorted(list(include_linenos))
-                lines = [
-                    "%s | %s" % (idx, matchlines[idx])
-                    for idx in include_linenos
-                    if idx > 0 and idx < len(matchlines)
-                ]
+                # Update data to include number of filtered matches
+                data[library_name][package][version]["filtered_matches"] = len(paths)
 
-                # Jekyll will get thrown off if these aren't raw
-                filecontent += "\n### " + matchpath + "\n"
-                match = "\n{% raw %}\n" + "\n".join(lines) + "\n{% endraw %}\n"
+                # Add languages and close header
+                header += "languages: %s\n---" % list(languages)
 
-                if language:
-                    languages.add(language)
-
-                filecontent += "\n```%s\n%s\n```" % (language, match)
-                paths.append(matchpath)
-
-            # At this point we know that the version has content
-            if not paths or not filecontent:
-                continue
-            was_written = True
-
-            # Update data to include number of filtered matches
-            data[package][version]["filtered_matches"] = len(paths)
-
-            # Add languages and close header
-            header += "languages: %s\n---" % list(languages)
-
-            # Include total files with matches
-            header += "\n## " + version
-            header += "\n%s / %s files match, %s filtered matches.\n" % (
-                len(content["matches"]),
-                content["total_files"],
-                len(paths),
-            )
-
-            # Add links at the top
-            for path in paths:
-                header += "\n - [%s](#%s)" % (
-                    path,
-                    path.lower().replace("/", "").replace(".", ""),
+                # Include total files with matches
+                header += "\n## " + version
+                header += "\n%s / %s files match, %s filtered matches.\n" % (
+                    len(content["matches"]),
+                    content["total_files"],
+                    len(paths),
                 )
 
-            header += "\n"
-            header += filecontent
+                # Add links at the top
+                for path in paths:
+                    header += "\n - [%s](#%s)" % (
+                        path,
+                        path.lower().replace("/", "").replace(".", ""),
+                    )
 
-        # Only write to file if we have content!
-        if filecontent:
-            write_file(output_file, header)
+                header += "\n"
+                header += filecontent
+
+            # Only write to file if we have content!
+            if filecontent:
+                write_file(output_file, header)
 
     # Generate Data file
     data_file = os.path.join(data_dir, "metrics.yml")

@@ -1,0 +1,27 @@
+{
+    "matches": {
+        "/tmp/vanessa/spack-stage/spack-stage-nlohmann-json-3.9.1-ydvd35yflldfpfvtohqgplkhiqrilixc/spack-src/test/thirdparty/Fuzzer/FuzzerExtFunctionsDlsym.cpp": "//===- FuzzerExtFunctionsDlsym.cpp - Interface to external functions ------===//\n//\n//                     The LLVM Compiler Infrastructure\n//\n// This file is distributed under the University of Illinois Open Source\n// License. See LICENSE.TXT for details.\n//\n//===----------------------------------------------------------------------===//\n// Implementation for operating systems that support dlsym(). We only use it on\n// Apple platforms for now. We don't use this approach on Linux because it\n// requires that clients of LibFuzzer pass ``--export-dynamic`` to the linker.\n// That is a complication we don't wish to expose to clients right now.\n//===----------------------------------------------------------------------===//\n#include \"FuzzerDefs.h\"\n#if LIBFUZZER_APPLE\n\n#include \"FuzzerExtFunctions.h\"\n#include \"FuzzerIO.h\"\n#include <dlfcn.h>\n\nusing namespace fuzzer;\n\ntemplate <typename T>\nstatic T GetFnPtr(const char *FnName, bool WarnIfMissing) {\n  dlerror(); // Clear any previous errors.\n  void *Fn = dlsym(RTLD_DEFAULT, FnName);\n  if (Fn == nullptr) {\n    if (WarnIfMissing) {\n      const char *ErrorMsg = dlerror();\n      Printf(\"WARNING: Failed to find function \\\"%s\\\".\", FnName);\n      if (ErrorMsg)\n        Printf(\" Reason %s.\", ErrorMsg);\n      Printf(\"\\n\");\n    }\n  }\n  return reinterpret_cast<T>(Fn);\n}\n\nnamespace fuzzer {\n\nExternalFunctions::ExternalFunctions() {\n#define EXT_FUNC(NAME, RETURN_TYPE, FUNC_SIG, WARN)                            \\\n  this->NAME = GetFnPtr<decltype(ExternalFunctions::NAME)>(#NAME, WARN)\n\n#include \"FuzzerExtFunctions.def\"\n\n#undef EXT_FUNC\n}\n\n} // namespace fuzzer\n\n#endif // LIBFUZZER_APPLE\n"
+    },
+    "skipped": [
+        "/tmp/vanessa/spack-stage/spack-stage-nlohmann-json-3.9.1-ydvd35yflldfpfvtohqgplkhiqrilixc/spack-src/test/reports/2016-08-29-fuzz/high_freq.png",
+        "/tmp/vanessa/spack-stage/spack-stage-nlohmann-json-3.9.1-ydvd35yflldfpfvtohqgplkhiqrilixc/spack-src/test/reports/2016-08-29-fuzz/exec_speed.png",
+        "/tmp/vanessa/spack-stage/spack-stage-nlohmann-json-3.9.1-ydvd35yflldfpfvtohqgplkhiqrilixc/spack-src/test/reports/2016-08-29-fuzz/low_freq.png",
+        "/tmp/vanessa/spack-stage/spack-stage-nlohmann-json-3.9.1-ydvd35yflldfpfvtohqgplkhiqrilixc/spack-src/test/reports/2016-08-29-fuzz/fuzz.tiff",
+        "/tmp/vanessa/spack-stage/spack-stage-nlohmann-json-3.9.1-ydvd35yflldfpfvtohqgplkhiqrilixc/spack-src/test/reports/2016-10-02-fuzz/high_freq.png",
+        "/tmp/vanessa/spack-stage/spack-stage-nlohmann-json-3.9.1-ydvd35yflldfpfvtohqgplkhiqrilixc/spack-src/test/reports/2016-10-02-fuzz/exec_speed.png",
+        "/tmp/vanessa/spack-stage/spack-stage-nlohmann-json-3.9.1-ydvd35yflldfpfvtohqgplkhiqrilixc/spack-src/test/reports/2016-10-02-fuzz/low_freq.png",
+        "/tmp/vanessa/spack-stage/spack-stage-nlohmann-json-3.9.1-ydvd35yflldfpfvtohqgplkhiqrilixc/spack-src/test/reports/2016-10-02-fuzz/fuzz.tiff",
+        "/tmp/vanessa/spack-stage/spack-stage-nlohmann-json-3.9.1-ydvd35yflldfpfvtohqgplkhiqrilixc/spack-src/test/reports/2016-09-09-nativejson_benchmark/conformance_overall_Result.png",
+        "/tmp/vanessa/spack-stage/spack-stage-nlohmann-json-3.9.1-ydvd35yflldfpfvtohqgplkhiqrilixc/spack-src/test/reports/2016-09-09-nativejson_benchmark/performance_Corei7-4980HQ@2.80GHz_mac64_clang7.0_3._Prettify_Time_(ms).png",
+        "/tmp/vanessa/spack-stage/spack-stage-nlohmann-json-3.9.1-ydvd35yflldfpfvtohqgplkhiqrilixc/spack-src/test/reports/2016-09-09-nativejson_benchmark/performance_Corei7-4980HQ@2.80GHz_mac64_clang7.0_2._Stringify_Time_(ms).png",
+        "/tmp/vanessa/spack-stage/spack-stage-nlohmann-json-3.9.1-ydvd35yflldfpfvtohqgplkhiqrilixc/spack-src/test/reports/2016-09-09-nativejson_benchmark/performance_Corei7-4980HQ@2.80GHz_mac64_clang7.0_1._Parse_Memory_(byte).png",
+        "/tmp/vanessa/spack-stage/spack-stage-nlohmann-json-3.9.1-ydvd35yflldfpfvtohqgplkhiqrilixc/spack-src/test/reports/2016-09-09-nativejson_benchmark/performance_Corei7-4980HQ@2.80GHz_mac64_clang7.0_7._Code_size_FileSize_(byte).png",
+        "/tmp/vanessa/spack-stage/spack-stage-nlohmann-json-3.9.1-ydvd35yflldfpfvtohqgplkhiqrilixc/spack-src/test/reports/2016-09-09-nativejson_benchmark/performance_Corei7-4980HQ@2.80GHz_mac64_clang7.0_1._Parse_Time_(ms).png",
+        "/tmp/vanessa/spack-stage/spack-stage-nlohmann-json-3.9.1-ydvd35yflldfpfvtohqgplkhiqrilixc/spack-src/doc/avatars.png",
+        "/tmp/vanessa/spack-stage/spack-stage-nlohmann-json-3.9.1-ydvd35yflldfpfvtohqgplkhiqrilixc/spack-src/doc/json.gif",
+        "/tmp/vanessa/spack-stage/spack-stage-nlohmann-json-3.9.1-ydvd35yflldfpfvtohqgplkhiqrilixc/spack-src/doc/images/callback_events.png",
+        "/tmp/vanessa/spack-stage/spack-stage-nlohmann-json-3.9.1-ydvd35yflldfpfvtohqgplkhiqrilixc/spack-src/doc/usages/macos.png",
+        "/tmp/vanessa/spack-stage/spack-stage-nlohmann-json-3.9.1-ydvd35yflldfpfvtohqgplkhiqrilixc/spack-src/doc/usages/ios.png"
+    ],
+    "total_files": 873
+}

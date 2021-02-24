@@ -1,0 +1,11 @@
+{
+    "matches": {
+        "/tmp/vanessa/spack-stage/spack-stage-arrayfire-master-36t7go7xdq3p73dkfip7uwhs5djg2txu/spack-src/src/backend/common/module_loading_unix.cpp": "/*******************************************************\n * Copyright (c) 2018, ArrayFire\n * All rights reserved.\n *\n * This file is distributed under 3-clause BSD license.\n * The complete license agreement can be obtained at:\n * http://arrayfire.com/licenses/BSD-3-Clause\n ********************************************************/\n\n#include <common/defines.hpp>\n#include <common/module_loading.hpp>\n\n#include <dlfcn.h>\n\n#include <string>\nusing std::string;\n\nnamespace common {\n\nvoid* getFunctionPointer(LibHandle handle, const char* symbolName) {\n    return dlsym(handle, symbolName);\n}\n\nLibHandle loadLibrary(const char* library_name) {\n    return dlopen(library_name, RTLD_LAZY);\n}\nvoid unloadLibrary(LibHandle handle) { dlclose(handle); }\n\nstring getErrorMessage() {\n    char* errMsg = dlerror();\n    if (errMsg) { return string(errMsg); }\n    // constructing std::basic_string from NULL/0 address is\n    // invalid and has undefined behavior\n    return string(\"No Error\");\n}\n\n}  // namespace common\n"
+    },
+    "skipped": [
+        "/tmp/vanessa/spack-stage/spack-stage-arrayfire-master-36t7go7xdq3p73dkfip7uwhs5djg2txu/spack-src/.git/objects/pack/pack-577e9c9cab646648622361e02e57c1c9e110aba0.idx",
+        "/tmp/vanessa/spack-stage/spack-stage-arrayfire-master-36t7go7xdq3p73dkfip7uwhs5djg2txu/spack-src/.git/objects/pack/pack-577e9c9cab646648622361e02e57c1c9e110aba0.pack",
+        "/tmp/vanessa/spack-stage/spack-stage-arrayfire-master-36t7go7xdq3p73dkfip7uwhs5djg2txu/spack-src/docs/Prototype.ttf"
+    ],
+    "total_files": 1780
+}

@@ -1,0 +1,9 @@
+{
+    "matches": {
+        "/tmp/vanessa/spack-stage/spack-stage-nettle-3.4.1-mriedgjgse3n7ibmivwciojiy2sipvqv/spack-src/testsuite/dlopen-test.c": "#include \"testutils.h\"\n#include \"version.h\"\n\n#if HAVE_DLFCN_H\n#include <dlfcn.h>\n#endif\n\nint\nmain (int argc UNUSED, char **argv UNUSED)\n{\n#if HAVE_LIBDL\n  void *handle = dlopen (\"../libnettle.so\", RTLD_NOW);\n  int (*get_version)(void);\n  if (!handle)\n    {\n      fprintf (stderr, \"dlopen failed: %s\\n\", dlerror());\n      FAIL ();\n    }\n\n  get_version = (int(*)(void)) dlsym (handle, \"nettle_version_minor\");\n  if (!get_version)\n    {\n      fprintf (stderr, \"dlsym failed: %s\\n\", dlerror());\n      FAIL ();\n    }\n  if (get_version() != NETTLE_VERSION_MINOR)\n    {\n      fprintf (stderr, \"unexpected nettle version\\n\");\n      FAIL ();\n    }\n  dlclose (handle);\n  return EXIT_SUCCESS;\n#else\n  SKIP();\n#endif\n}\n"
+    },
+    "skipped": [
+        "/tmp/vanessa/spack-stage/spack-stage-nettle-3.4.1-mriedgjgse3n7ibmivwciojiy2sipvqv/spack-src/nettle.pdf"
+    ],
+    "total_files": 637
+}

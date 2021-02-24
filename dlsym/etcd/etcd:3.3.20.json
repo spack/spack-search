@@ -1,0 +1,28 @@
+{
+    "matches": {
+        "/tmp/vanessa/spack-stage/spack-stage-etcd-3.3.20-7immkfnxasa3ix2md2dkqw3xe2jakvpy/spack-src/vendor/github.com/coreos/pkg/dlopen/dlopen.go": "// Copyright 2016 CoreOS, Inc.\n//\n// Licensed under the Apache License, Version 2.0 (the \"License\");\n// you may not use this file except in compliance with the License.\n// You may obtain a copy of the License at\n//\n//     http://www.apache.org/licenses/LICENSE-2.0\n//\n// Unless required by applicable law or agreed to in writing, software\n// distributed under the License is distributed on an \"AS IS\" BASIS,\n// WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\n// See the License for the specific language governing permissions and\n// limitations under the License.\n\n// Package dlopen provides some convenience functions to dlopen a library and\n// get its symbols.\npackage dlopen\n\n// #cgo LDFLAGS: -ldl\n// #include <stdlib.h>\n// #include <dlfcn.h>\nimport \"C\"\nimport (\n\t\"errors\"\n\t\"fmt\"\n\t\"unsafe\"\n)\n\nvar ErrSoNotFound = errors.New(\"unable to open a handle to the library\")\n\n// LibHandle represents an open handle to a library (.so)\ntype LibHandle struct {\n\tHandle  unsafe.Pointer\n\tLibname string\n}\n\n// GetHandle tries to get a handle to a library (.so), attempting to access it\n// by the names specified in libs and returning the first that is successfully\n// opened. Callers are responsible for closing the handler. If no library can\n// be successfully opened, an error is returned.\nfunc GetHandle(libs []string) (*LibHandle, error) {\n\tfor _, name := range libs {\n\t\tlibname := C.CString(name)\n\t\tdefer C.free(unsafe.Pointer(libname))\n\t\thandle := C.dlopen(libname, C.RTLD_LAZY)\n\t\tif handle != nil {\n\t\t\th := &LibHandle{\n\t\t\t\tHandle:  handle,\n\t\t\t\tLibname: name,\n\t\t\t}\n\t\t\treturn h, nil\n\t\t}\n\t}\n\treturn nil, ErrSoNotFound\n}\n\n// GetSymbolPointer takes a symbol name and returns a pointer to the symbol.\nfunc (l *LibHandle) GetSymbolPointer(symbol string) (unsafe.Pointer, error) {\n\tsym := C.CString(symbol)\n\tdefer C.free(unsafe.Pointer(sym))\n\n\tC.dlerror()\n\tp := C.dlsym(l.Handle, sym)\n\te := C.dlerror()\n\tif e != nil {\n\t\treturn nil, fmt.Errorf(\"error resolving symbol %q: %v\", symbol, errors.New(C.GoString(e)))\n\t}\n\n\treturn p, nil\n}\n\n// Close closes a LibHandle.\nfunc (l *LibHandle) Close() error {\n\tC.dlerror()\n\tC.dlclose(l.Handle)\n\te := C.dlerror()\n\tif e != nil {\n\t\treturn fmt.Errorf(\"error closing %v: %v\", l.Libname, errors.New(C.GoString(e)))\n\t}\n\n\treturn nil\n}\n"
+    },
+    "skipped": [
+        "/tmp/vanessa/spack-stage/spack-stage-etcd-3.3.20-7immkfnxasa3ix2md2dkqw3xe2jakvpy/spack-src/logos/etcd-stacked-bw.png",
+        "/tmp/vanessa/spack-stage/spack-stage-etcd-3.3.20-7immkfnxasa3ix2md2dkqw3xe2jakvpy/spack-src/logos/etcd-glyph-color.png",
+        "/tmp/vanessa/spack-stage/spack-stage-etcd-3.3.20-7immkfnxasa3ix2md2dkqw3xe2jakvpy/spack-src/logos/etcd-offset-color.png",
+        "/tmp/vanessa/spack-stage/spack-stage-etcd-3.3.20-7immkfnxasa3ix2md2dkqw3xe2jakvpy/spack-src/logos/etcd-offset-bw.png",
+        "/tmp/vanessa/spack-stage/spack-stage-etcd-3.3.20-7immkfnxasa3ix2md2dkqw3xe2jakvpy/spack-src/logos/etcd-horizontal-color.png",
+        "/tmp/vanessa/spack-stage/spack-stage-etcd-3.3.20-7immkfnxasa3ix2md2dkqw3xe2jakvpy/spack-src/logos/etcd-stacked-color.png",
+        "/tmp/vanessa/spack-stage/spack-stage-etcd-3.3.20-7immkfnxasa3ix2md2dkqw3xe2jakvpy/spack-src/logos/etcd-horizontal-bw.png",
+        "/tmp/vanessa/spack-stage/spack-stage-etcd-3.3.20-7immkfnxasa3ix2md2dkqw3xe2jakvpy/spack-src/pkg/adt/img/red-black-tree-06-delete-11.png",
+        "/tmp/vanessa/spack-stage/spack-stage-etcd-3.3.20-7immkfnxasa3ix2md2dkqw3xe2jakvpy/spack-src/pkg/adt/img/red-black-tree-01-insertion.png",
+        "/tmp/vanessa/spack-stage/spack-stage-etcd-3.3.20-7immkfnxasa3ix2md2dkqw3xe2jakvpy/spack-src/pkg/adt/img/red-black-tree-03-delete-11.png",
+        "/tmp/vanessa/spack-stage/spack-stage-etcd-3.3.20-7immkfnxasa3ix2md2dkqw3xe2jakvpy/spack-src/pkg/adt/img/red-black-tree-07-delete-11.png",
+        "/tmp/vanessa/spack-stage/spack-stage-etcd-3.3.20-7immkfnxasa3ix2md2dkqw3xe2jakvpy/spack-src/pkg/adt/img/red-black-tree-08-delete-11.png",
+        "/tmp/vanessa/spack-stage/spack-stage-etcd-3.3.20-7immkfnxasa3ix2md2dkqw3xe2jakvpy/spack-src/pkg/adt/img/red-black-tree-02-delete-514.png",
+        "/tmp/vanessa/spack-stage/spack-stage-etcd-3.3.20-7immkfnxasa3ix2md2dkqw3xe2jakvpy/spack-src/pkg/adt/img/red-black-tree-09-delete-11.png",
+        "/tmp/vanessa/spack-stage/spack-stage-etcd-3.3.20-7immkfnxasa3ix2md2dkqw3xe2jakvpy/spack-src/pkg/adt/img/red-black-tree-05-delete-11.png",
+        "/tmp/vanessa/spack-stage/spack-stage-etcd-3.3.20-7immkfnxasa3ix2md2dkqw3xe2jakvpy/spack-src/pkg/adt/img/red-black-tree-04-delete-11.png",
+        "/tmp/vanessa/spack-stage/spack-stage-etcd-3.3.20-7immkfnxasa3ix2md2dkqw3xe2jakvpy/spack-src/Documentation/README.md",
+        "/tmp/vanessa/spack-stage/spack-stage-etcd-3.3.20-7immkfnxasa3ix2md2dkqw3xe2jakvpy/spack-src/Documentation/op-guide/etcd-sample-grafana.png",
+        "/tmp/vanessa/spack-stage/spack-stage-etcd-3.3.20-7immkfnxasa3ix2md2dkqw3xe2jakvpy/spack-src/clientv3/snapshot/testdata/corrupted_backup.db",
+        "/tmp/vanessa/spack-stage/spack-stage-etcd-3.3.20-7immkfnxasa3ix2md2dkqw3xe2jakvpy/spack-src/integration/fixtures/revoke.crl"
+    ],
+    "total_files": 2237
+}

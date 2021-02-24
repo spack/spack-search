@@ -1,0 +1,9 @@
+{
+    "matches": {
+        "/tmp/vanessa/spack-stage/spack-stage-rt-tests-1.2-lx2iwqbwc2agw2ggk5xumiam7n7bpq22/spack-src/src/lib/rt-get_cpu.c": "/*\n * Copyright (C) 2009 John Kacur <jkacur@redhat.com>\n */\n#include \"rt-get_cpu.h\"\n#ifdef __NR_getcpu\n#elif defined(__GLIBC__) && defined(__GLIBC_MINOR__)\t\\\n\t&& __GLIBC__>=2 && __GLIBC_MINOR__>=6\n#else\nint (*get_cpu)(void);\nint (*get_cpu_vdsop)(unsigned int *, unsigned int *, void *);\n\nint get_cpu_setup(void)\n{\n\tvoid *handle = dlopen(\"linux-vdso.so.1\", RTLD_LAZY);\n\tget_cpu_vdsop = NULL;\n\tif (handle) {\n\t\tget_cpu_vdsop = dlsym(handle, \"getcpu\");\n\t\tdlclose(handle);\n\t\tif (get_cpu_vdsop) {\n\t\t\tget_cpu = getcpu_vdso;\n\t\t\treturn 0;\n\t\t}\n\t}\n\treturn -1;\n}\n\n#endif\n"
+    },
+    "skipped": [
+        "/tmp/vanessa/spack-stage/spack-stage-rt-tests-1.2-lx2iwqbwc2agw2ggk5xumiam7n7bpq22/spack-src/src/pi_tests/classic_pi.odg"
+    ],
+    "total_files": 46
+}
