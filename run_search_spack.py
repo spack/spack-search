@@ -44,12 +44,9 @@ def get_template(package, query, outdir):
 #SBATCH --output=.out/{package}.out
 #SBATCH --error=.err/{package}.err
 
-# Memory usage (MB)
-#SBATCH --mem-per-cpu=3000
-
 # This should be added via .profile, but just in case
 export PATH=$HOME/software/anaconda3/bin:$HOME/code/spack/bin:$PATH
-spack python {package} {query} {outdir}""".format(
+spack python search_spack_job.py {package} {query} {outdir}""".format(
         package=package, outdir=outdir, query=query
     )
 
