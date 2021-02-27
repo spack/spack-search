@@ -77,8 +77,10 @@ def main():
 
     # Keep a record if an entire package is empty
     empty_dir = os.path.join(outdir, ".empty")
-    if not os.path.exists(empty_dir):
-        os.mkdir(empty_dir)
+    error_dir = os.path.join(outdir, ".error")
+    for dirname in [error_dir, empty_dir]:
+        if not os.path.exists(dirname):
+            os.mkdir(dirname)
 
     # Write a directory for jobs, output, and error
     for dirname in [".jobs", ".out", ".err"]:
@@ -100,8 +102,13 @@ def main():
 
         # Empty file marker
         empty_file = os.path.join(empty_dir, pkg.name)
+        error_file = os.path.join(empty_dir, pkg.name)
+
         if os.path.exists(empty_file):
             print("Skipping %s, marked as empty" % pkg.name)
+            continue
+        if os.path.exists(error_file):
+            print("Skipping %s, marked as errored" % pkg.name)
             continue
 
         # Write job template

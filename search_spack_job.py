@@ -77,10 +77,7 @@ def download_package(name, version, outdir, query):
     skipped = []
 
     # concretize a spec of what we want to build, a name @version
-    try:
-        spec = Spec("%s @%s" % (name, version)).concretized()
-    except:
-        spec = Spec("%s @%s" % (name, version))
+    spec = Spec("%s @%s" % (name, version)).concretized()
 
     # the package instance, instantiate with spec, is essentially a class for
     # "building" the spec with the package.py recipe.
@@ -132,9 +129,21 @@ def download_package(name, version, outdir, query):
         shutil.rmtree(pkg.stage.source_path)
 
 
-def clean_up(package_dir, empty_file):
+def clean_up(package_dir, empty_file, success, error_file):
+    """Cleaning up means figuring out if we had an error first, and then if
+    there are just no results, and touching a file in the correct location.
+    """
+
+    if (
+        os.path.exists(package_dir)
+        and len(os.listdir(package_dir)) == 0
+        and not success
+    ):
+        Path(error_file).touch()
+        os.rmdir(package_dir)
+
     # If we parse all versions and no matches, don't keep directory
-    if os.path.exists(package_dir) and len(os.listdir(package_dir)) == 0:
+    elif os.path.exists(package_dir) and len(os.listdir(package_dir)) == 0:
         Path(empty_file).touch()
         os.rmdir(package_dir)
 
@@ -154,15 +163,21 @@ def main():
 
     # Empty directory created by submission script
     empty_dir = os.path.join(outdir, ".empty")
+    error_dir = os.path.join(outdir, ".error")
 
-    # Empty file marker
+    # Empty or error file marker
     empty_file = os.path.join(empty_dir, package)
+    error_file = os.path.join(error_dir, package)
     if os.path.exists(empty_file):
         print("Skipping %s, marked as empty" % package)
+        sys.exit(0)
+    elif os.path.exists(error_file):
+        print("Skipping %s, marked as errored" % package)
         sys.exit(0)
 
     # Get the package
     pkg = spack.repo.get(package)
+    success = False
 
     for version in pkg.versions:
 
@@ -171,11 +186,16 @@ def main():
         if not os.path.exists(package_dir):
             os.mkdir(package_dir)
 
-        download_package(
-            name=pkg.name, version=version.string, query=query, outdir=outdir
-        )
+        # Currently there is a concretion error, let's keep a record of this.
+        try:
+            download_package(
+                name=pkg.name, version=version.string, query=query, outdir=outdir
+            )
+            success = True
+        except:
+            pass
 
-    clean_up(package_dir, empty_file)
+    clean_up(package_dir, empty_file, success, error_dir)
 
 
 # Once we've set up the system path, run the spack main method
