@@ -21,25 +21,9 @@ import json
 import os
 import re
 import sys
-import time
 import yaml
 
-from datetime import datetime
-
 ## File Operations
-
-
-def recursive_find(base, pattern="*.*"):
-    """recursive find will yield python files in all directory levels
-    below a base path.
-
-    Arguments:
-      - base (str) : the base directory to search
-      - pattern: a pattern to match, defaults to *.py
-    """
-    for root, _, filenames in os.walk(base):
-        for filename in fnmatch.filter(filenames, pattern):
-            yield os.path.join(root, filename)
 
 
 def read_file(filename):
@@ -68,22 +52,6 @@ def write_yaml(yaml_dict, filename):
     with open(filename, "w") as filey:
         filey.writelines(yaml.dump(yaml_dict))
     return filename
-
-
-# Used this to derive all file extensions
-def get_extensions(packages):
-    """I used this function to get a list of all extensions for get_language"""
-    extensions = set()
-    for package in packages:
-        if package == ".empty":
-            continue
-        package_dir = os.path.join(datadir, package)
-        for package_file in os.listdir(package_dir):
-            package_file = os.path.join(package_dir, package_file)
-            content = read_json(package_file)
-            for x in content["matches"].keys():
-                extensions.add(x.split(".")[-1])
-    return extensions
 
 
 ## Main Functions

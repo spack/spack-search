@@ -39,6 +39,8 @@ We will eventually also make a `dlsym` directory for another library we are inte
 
 ### 3. Run the extraction
 
+#### Locally
+
 And run the script, providing the query string (first) and the output directory (second)
 Here are examples for dlopen and dlsym:
 
@@ -48,6 +50,21 @@ $ spack python search_spack.py dlsym ./dlsym
 ```
 
 ⚠️ *Important: As you are running this, the `var/spack/cache` is going to fill up. Likely you want to clear it if you are running out of disk space.* ⚠️
+
+#### Cluster
+
+Since it can take quite a bit of time and internet usage, by the time we added the
+third search term (dlmopen) I decided to adopt the scripts to run on the cluster,
+specially with SLURM. To run this, you can submit jobs as follows:
+
+```bash
+$ mkdir -p dlmopen
+$ spack python run_search_spack.py dlmopen $PWD/dlmopen
+```
+
+The script is similar to the others, except we submit a job that runs [search_spack_job.py](search_spack_job.py) that accepts a
+specific package to parse.
+
 
 ### 4. Generate the interface
 
