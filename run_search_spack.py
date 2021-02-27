@@ -102,7 +102,7 @@ def main():
 
         # Empty file marker
         empty_file = os.path.join(empty_dir, pkg.name)
-        error_file = os.path.join(empty_dir, pkg.name)
+        error_file = os.path.join(error_dir, pkg.name)
 
         if os.path.exists(empty_file):
             print("Skipping %s, marked as empty" % pkg.name)
