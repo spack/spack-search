@@ -77,7 +77,10 @@ def download_package(name, version, outdir, query):
     skipped = []
 
     # concretize a spec of what we want to build, a name @version
-    spec = Spec("%s @%s" % (name, version)).concretized()
+    try:
+        spec = Spec("%s @%s" % (name, version)).concretized()
+    except:
+        spec = Spec("%s @%s" % (name, version))
 
     # the package instance, instantiate with spec, is essentially a class for
     # "building" the spec with the package.py recipe.
