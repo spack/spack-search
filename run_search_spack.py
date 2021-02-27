@@ -107,14 +107,13 @@ def main():
             print("Skipping %s, marked as empty" % pkg.name)
             continue
 
-        # Run a worker for each package (will handle all versions)
         # Write job template
         outfile = os.path.abspath(os.path.join(".jobs", "package-%s.job" % (pkg.name)))
         template = get_template(package=pkg.name, query=query, outdir=outdir)
         write_file(template, outfile)
 
         # Submit a job to do the extraction
-        print("Submitting job %s of %s for %s v%s" % (i, total, pkg.name))
+        print("Submitting job %s of %s for %s" % (i, total, pkg.name))
         subprocess.Popen(["sbatch", outfile])
 
         # Pause to not stress the scheduler
