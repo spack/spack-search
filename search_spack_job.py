@@ -195,7 +195,7 @@ def main():
         except:
             pass
 
-    clean_up(package_dir, empty_file, success, error_dir)
+    clean_up(package_dir, empty_file, success, error_file)
 
 
 # Once we've set up the system path, run the spack main method
