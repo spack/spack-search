@@ -1,0 +1,27 @@
+{
+    "matches": {
+        "/var/tmp/sochat1/spack-stage/spack-stage-unifyfs-develop-q2bh6poxzfnjjrh6guahjvsldm3wk7yd/spack-src/client/check_fns/fakechroot_list.txt": "__fxstatat.c\n__fxstatat64.c\n__getcwd_chk.c\n__getwd_chk.c\n__lxstat.c\n__lxstat64.c\n__open.c\n__open64.c\n__open64_2.c\n__open_2.c\n__openat64_2.c\n__openat_2.c\n__opendir2.c\n__readlink_chk.c\n__readlinkat_chk.c\n__realpath_chk.c\n__statfs.c\n__xmknod.c\n__xmknodat.c\n__xstat.c\n__xstat64.c\n_xftw.c\n_xftw64.c\naccess.c\nacct.c\nbind.c\nbindtextdomain.c\ncanonicalize_file_name.c\nchdir.c\nchmod.c\nchown.c\nchroot.c\nconnect.c\ncreat.c\ncreat64.c\ndlmopen.c\ndlopen.c\neaccess.c\neuidaccess.c\nexecl.c\nexecle.c\nexeclp.c\nexecv.c\nexecve.c\nexecvp.c\nfaccessat.c\nfchmodat.c\nfchownat.c\nfopen.c\nfopen64.c\nfreopen.c\nfreopen64.c\nfts.c\nftw.c\nftw64.c\nfutimesat.c\nget_current_dir_name.c\ngetcwd.c\ngetpeername.c\ngetsockname.c\ngetwd.c\ngetxattr.c\nglob.c\nglob64.c\nglob_pattern_p.c\ninotify_add_watch.c\nlchmod.c\nlchown.c\nlckpwdf.c\nlgetxattr.c\nlibfakechroot.c\nlink.c\nlinkat.c\nlistxattr.c\nllistxattr.c\nlremovexattr.c\nlsetxattr.c\nlstat.c\nlstat64.c\nlutimes.c\nmkdir.c\nmkdirat.c\nmkdtemp.c\nmkfifo.c\nmkfifoat.c\nmknod.c\nmknodat.c\nmkstemp.c\nmkstemp64.c\nmktemp.c\nopen.c\nopen64.c\nopenat.c\nopenat64.c\nopendir.c\npathconf.c\npopen.c\nrawmemchr.c\nreadlink.c\nreadlinkat.c\nrealpath.c\nremove.c\nremovexattr.c\nrename.c\nrenameat.c\nrevoke.c\nrmdir.c\nrpl_lstat.c\nscandir.c\nscandir64.c\nsetenv.c\nsetxattr.c\nstat.c\nstat64.c\nstatfs.c\nstatfs64.c\nstatvfs.c\nstatvfs64.c\nstpcpy.c\nstrchrnul.c\nsymlink.c\nsymlinkat.c\nsystem.c\ntempnam.c\ntmpnam.c\ntruncate.c\ntruncate64.c\nulckpwdf.c\nunlink.c\nunlinkat.c\nunsetenv.c\nutime.c\nutimensat.c\nutimes.c\n"
+    },
+    "skipped": [
+        "/var/tmp/sochat1/spack-stage/spack-stage-unifyfs-develop-q2bh6poxzfnjjrh6guahjvsldm3wk7yd/spack-src/docs/slides/UnifyFS-developers-documentation.pdf",
+        "/var/tmp/sochat1/spack-stage/spack-stage-unifyfs-develop-q2bh6poxzfnjjrh6guahjvsldm3wk7yd/spack-src/docs/images/tap-output.png",
+        "/var/tmp/sochat1/spack-stage/spack-stage-unifyfs-develop-q2bh6poxzfnjjrh6guahjvsldm3wk7yd/spack-src/docs/images/design-high-lvl.png",
+        "/var/tmp/sochat1/spack-stage/spack-stage-unifyfs-develop-q2bh6poxzfnjjrh6guahjvsldm3wk7yd/spack-src/docs/images/UnifyFS-logo_sml.png",
+        "/var/tmp/sochat1/spack-stage/spack-stage-unifyfs-develop-q2bh6poxzfnjjrh6guahjvsldm3wk7yd/spack-src/docs/images/UnifyFS-logo.png",
+        "/var/tmp/sochat1/spack-stage/spack-stage-unifyfs-develop-q2bh6poxzfnjjrh6guahjvsldm3wk7yd/spack-src/docs/images/UnifyFS-developers-documentation.png",
+        "/var/tmp/sochat1/spack-stage/spack-stage-unifyfs-develop-q2bh6poxzfnjjrh6guahjvsldm3wk7yd/spack-src/docs/_themes/sphinx_rtd_theme2/sphinx_rtd_theme/__init__.pyc",
+        "/var/tmp/sochat1/spack-stage/spack-stage-unifyfs-develop-q2bh6poxzfnjjrh6guahjvsldm3wk7yd/spack-src/docs/_themes/sphinx_rtd_theme2/sphinx_rtd_theme/static/fonts/fontawesome-webfont.woff2",
+        "/var/tmp/sochat1/spack-stage/spack-stage-unifyfs-develop-q2bh6poxzfnjjrh6guahjvsldm3wk7yd/spack-src/docs/_themes/sphinx_rtd_theme2/sphinx_rtd_theme/static/fonts/fontawesome-webfont.woff",
+        "/var/tmp/sochat1/spack-stage/spack-stage-unifyfs-develop-q2bh6poxzfnjjrh6guahjvsldm3wk7yd/spack-src/docs/_themes/sphinx_rtd_theme2/sphinx_rtd_theme/static/fonts/fontawesome-webfont.ttf",
+        "/var/tmp/sochat1/spack-stage/spack-stage-unifyfs-develop-q2bh6poxzfnjjrh6guahjvsldm3wk7yd/spack-src/docs/_themes/sphinx_rtd_theme2/sphinx_rtd_theme/static/fonts/fontawesome-webfont.eot",
+        "/var/tmp/sochat1/spack-stage/spack-stage-unifyfs-develop-q2bh6poxzfnjjrh6guahjvsldm3wk7yd/spack-src/docs/_themes/sphinx_rtd_theme2/sphinx_rtd_theme/static/fonts/RobotoSlab-Regular.ttf",
+        "/var/tmp/sochat1/spack-stage/spack-stage-unifyfs-develop-q2bh6poxzfnjjrh6guahjvsldm3wk7yd/spack-src/docs/_themes/sphinx_rtd_theme2/sphinx_rtd_theme/static/fonts/RobotoSlab-Bold.ttf",
+        "/var/tmp/sochat1/spack-stage/spack-stage-unifyfs-develop-q2bh6poxzfnjjrh6guahjvsldm3wk7yd/spack-src/docs/_themes/sphinx_rtd_theme2/sphinx_rtd_theme/static/fonts/Lato-Regular.ttf",
+        "/var/tmp/sochat1/spack-stage/spack-stage-unifyfs-develop-q2bh6poxzfnjjrh6guahjvsldm3wk7yd/spack-src/docs/_themes/sphinx_rtd_theme2/sphinx_rtd_theme/static/fonts/Lato-Bold.ttf",
+        "/var/tmp/sochat1/spack-stage/spack-stage-unifyfs-develop-q2bh6poxzfnjjrh6guahjvsldm3wk7yd/spack-src/docs/_themes/sphinx_rtd_theme2/sphinx_rtd_theme/static/fonts/Inconsolata-Regular.ttf",
+        "/var/tmp/sochat1/spack-stage/spack-stage-unifyfs-develop-q2bh6poxzfnjjrh6guahjvsldm3wk7yd/spack-src/docs/_themes/sphinx_rtd_theme2/sphinx_rtd_theme/static/fonts/Inconsolata-Bold.ttf",
+        "/var/tmp/sochat1/spack-stage/spack-stage-unifyfs-develop-q2bh6poxzfnjjrh6guahjvsldm3wk7yd/spack-src/.git/objects/pack/pack-199d67cb1a07f0aa951ed4eba27ff3974513144e.idx",
+        "/var/tmp/sochat1/spack-stage/spack-stage-unifyfs-develop-q2bh6poxzfnjjrh6guahjvsldm3wk7yd/spack-src/.git/objects/pack/pack-199d67cb1a07f0aa951ed4eba27ff3974513144e.pack"
+    ],
+    "total_files": 390
+}

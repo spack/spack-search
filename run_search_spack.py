@@ -43,6 +43,7 @@ def get_template(package, query, outdir):
 #SBATCH --cpus-per-task=1
 #SBATCH --output=.out/{package}.out
 #SBATCH --error=.err/{package}.err
+#SBATCH --time=2:00:00
 
 # This should be added via .profile, but just in case
 export PATH=$HOME/software/anaconda3/bin:$HOME/code/spack/bin:$PATH
