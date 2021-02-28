@@ -1,11 +1,11 @@
 ---
 name: "rr"
 layout: package
-next_package: musl
-previous_package: lftp
+next_package: rsyslog
+previous_package: lvm2
 library_name: dlopen
 matches: ['dlsym', 'dlopen']
-languages: ['c', 'cpp']
+languages: ['cpp', 'c']
 ---
 ## 4.5.0
 3 / 939 files match, 2 filtered matches.

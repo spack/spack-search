@@ -1,8 +1,8 @@
 ---
 name: "libfabric"
 layout: package
-next_package: autogen
-previous_package: nicstat
+next_package: rsync
+previous_package: pocl
 library_name: dlopen
 matches: ['dlsym', 'dlopen']
 languages: ['c']

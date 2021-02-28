@@ -1,8 +1,8 @@
 ---
 name: "scr"
 layout: package
-next_package: rhash
-previous_package: rccl
+next_package: apr
+previous_package: procps
 library_name: dlsym
 matches: ['dlsym']
 languages: ['c']

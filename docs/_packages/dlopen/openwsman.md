@@ -1,8 +1,8 @@
 ---
 name: "openwsman"
 layout: package
-next_package: netdata
-previous_package: vtk
+next_package: file
+previous_package: rose
 library_name: dlopen
 matches: ['dlsym', 'dlopen']
 languages: ['c']

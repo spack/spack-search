@@ -3,10 +3,20 @@
 The following packages are organized by matches.
 
    <ul>
+      <li><a href="#dlmopen">dlmopen</a></li>
       <li><a href="#dlopen">dlopen</a></li>
       <li><a href="#dlsym">dlsym</a></li>
    </ul>
 
+<h2 id="dlmopen">dlmopen</h2>
+<hr>
+<div class="wrapper">
+   {% for package in site.packages %}{% if package.library_name == "dlmopen" %}    
+    <div><a {% if page.url == package.url %}style="background-color:yellow"{% endif %}href="{{ site.baseurl }}{{ package.url }}" class="list-group-item">
+            <h4 class="list-group-item-heading" style="font-weight:600;"><span style="margin-right:10px">{{ package.name }}</span>
+            {% for tag in package.languages %}<span class="badge badge-theme">{{ tag }}</span>{% endfor %}</h4>
+            </a></div>{% endif %}{% endfor %}
+</div>
 <h2 id="dlopen">dlopen</h2>
 <hr>
 <div class="wrapper">

@@ -1,8 +1,8 @@
 ---
 name: "nnvm"
 layout: package
-next_package: cdo
-previous_package: qt
+next_package: talloc
+previous_package: gotcha
 library_name: dlopen
 matches: ['dlopen']
 languages: ['python']

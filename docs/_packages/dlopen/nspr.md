@@ -1,8 +1,8 @@
 ---
 name: "nspr"
 layout: package
-next_package: cntk
-previous_package: podio
+next_package: tulip
+previous_package: r
 library_name: dlopen
 matches: ['dlsym', 'dlopen']
 languages: ['c']

@@ -1,11 +1,11 @@
 ---
 name: "sst-macro"
 layout: package
-next_package: keyutils
-previous_package: jemalloc
+next_package: gpgme
+previous_package: postgresql
 library_name: dlopen
 matches: ['dlsym', 'dlopen']
-languages: ['c', 'cpp']
+languages: ['cpp', 'c']
 ---
 ## 10.1.0
 55 / 2421 files match, 6 filtered matches.

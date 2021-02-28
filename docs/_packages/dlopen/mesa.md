@@ -1,8 +1,8 @@
 ---
 name: "mesa"
 layout: package
-next_package: plumed
-previous_package: foam-extend
+next_package: qt
+previous_package: nettle
 library_name: dlopen
 matches: ['dlsym', 'dlopen']
 languages: ['c']

@@ -1,8 +1,8 @@
 ---
 name: "perfstubs"
 layout: package
-next_package: fio
-previous_package: tau
+next_package: musl
+previous_package: vim
 library_name: dlsym
 matches: ['dlsym', 'dlopen']
 languages: ['c']

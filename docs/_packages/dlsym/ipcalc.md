@@ -1,8 +1,8 @@
 ---
 name: "ipcalc"
 layout: package
-next_package: nicstat
-previous_package: eztrace
+next_package: mivisionx
+previous_package: pulseaudio
 library_name: dlsym
 matches: ['dlsym', 'dlopen']
 languages: ['c']

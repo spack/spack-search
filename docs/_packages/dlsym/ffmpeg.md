@@ -1,8 +1,8 @@
 ---
 name: "ffmpeg"
 layout: package
-next_package: clamav
-previous_package: esmf
+next_package: libtool
+previous_package: recorder
 library_name: dlsym
 matches: ['dlsym', 'dlopen']
 languages: ['c']

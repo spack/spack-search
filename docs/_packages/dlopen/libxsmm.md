@@ -1,8 +1,8 @@
 ---
 name: "libxsmm"
 layout: package
-next_package: gotcha
-previous_package: unixodbc
+next_package: ace
+previous_package: gmake
 library_name: dlopen
 matches: ['dlsym', 'dlopen']
 languages: ['c']

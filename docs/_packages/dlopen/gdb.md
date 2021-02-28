@@ -1,11 +1,11 @@
 ---
 name: "gdb"
 layout: package
-next_package: wt
-previous_package: zabbix
+next_package: collectd
+previous_package: nccl
 library_name: dlopen
 matches: ['dlsym', 'dlopen']
-languages: ['c', 'cpp']
+languages: ['cpp', 'c']
 ---
 ## 7.10.1
 63 / 10755 files match, 30 filtered matches.

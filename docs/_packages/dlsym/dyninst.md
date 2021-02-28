@@ -1,8 +1,8 @@
 ---
 name: "dyninst"
 layout: package
-next_package: rsyslog
-previous_package: libfuse
+next_package: unifyfs
+previous_package: grass
 library_name: dlsym
 matches: ['dlsym', 'dlopen']
 languages: ['c']

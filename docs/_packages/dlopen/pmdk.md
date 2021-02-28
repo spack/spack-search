@@ -1,8 +1,8 @@
 ---
 name: "pmdk"
 layout: package
-next_package: tulip
-previous_package: legion
+next_package: sox
+previous_package: valgrind
 library_name: dlopen
 matches: ['dlsym', 'dlopen']
 languages: ['c', 'python']

@@ -1,8 +1,8 @@
 ---
 name: "perl"
 layout: package
-next_package: openloops
-previous_package: mono
+next_package: kaldi
+previous_package: libyogrt
 library_name: dlsym
 matches: ['dlsym', 'dlopen']
 languages: ['c', 'pl']

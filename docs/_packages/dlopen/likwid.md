@@ -1,8 +1,8 @@
 ---
 name: "likwid"
 layout: package
-next_package: laszip
-previous_package: apr
+next_package: openssl
+previous_package: libpng
 library_name: dlopen
 matches: ['dlsym', 'dlopen']
 languages: ['c']

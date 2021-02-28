@@ -1,8 +1,8 @@
 ---
 name: "kbd"
 layout: package
-next_package: gettext
-previous_package: watch
+next_package: wget
+previous_package: petsc
 library_name: dlsym
 matches: ['dlsym', 'dlopen']
 languages: ['c']

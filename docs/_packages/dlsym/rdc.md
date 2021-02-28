@@ -1,8 +1,8 @@
 ---
 name: "rdc"
 layout: package
-next_package: nix
-previous_package: libpng
+next_package: sandbox
+previous_package: keyutils
 library_name: dlsym
 matches: ['dlsym', 'dlopen']
 languages: ['c']

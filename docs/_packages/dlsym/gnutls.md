@@ -1,8 +1,8 @@
 ---
 name: "gnutls"
 layout: package
-next_package: libmicrohttpd
-previous_package: python
+next_package: procps
+previous_package: fipscheck
 library_name: dlsym
 matches: ['dlsym', 'dlopen']
 languages: ['c']

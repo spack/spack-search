@@ -1,8 +1,8 @@
 ---
 name: "fio"
 layout: package
-next_package: vtk
-previous_package: perfstubs
+next_package: fakechroot
+previous_package: arrow
 library_name: dlsym
 matches: ['dlsym', 'dlopen']
 languages: ['c']

@@ -1,8 +1,8 @@
 ---
 name: "mivisionx"
 layout: package
-next_package: graphicsmagick
-previous_package: redis
+next_package: vtable-dumper
+previous_package: ipcalc
 library_name: dlopen
 matches: ['dlsym', 'dlopen']
 languages: ['python']

@@ -1,8 +1,8 @@
 ---
 name: "procps"
 layout: package
-next_package: rsync
-previous_package: openssl
+next_package: scr
+previous_package: gnutls
 library_name: dlsym
 matches: ['dlsym', 'dlopen']
 languages: ['c']

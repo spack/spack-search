@@ -1,8 +1,8 @@
 ---
 name: "iproute2"
 layout: package
-next_package: adiak
-previous_package: cpuinfo
+next_package: xrootd
+previous_package: bmi
 library_name: dlopen
 matches: ['dlsym', 'dlopen']
 languages: ['c']

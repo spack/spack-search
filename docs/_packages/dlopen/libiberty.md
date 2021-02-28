@@ -1,11 +1,11 @@
 ---
 name: "libiberty"
 layout: package
-next_package: boost
-previous_package: glew
+next_package: gmt
+previous_package: openmpi
 library_name: dlopen
 matches: ['dlsym', 'dlopen']
-languages: ['c', 'cpp']
+languages: ['cpp', 'c']
 ---
 ## 2.31.1
 60 / 21078 files match, 17 filtered matches.

@@ -1,8 +1,8 @@
 ---
 name: "weechat"
 layout: package
-next_package: yasm
-previous_package: spindle
+next_package: libyogrt
+previous_package: grpc
 library_name: dlopen
 matches: ['dlsym', 'dlopen']
 languages: ['c']

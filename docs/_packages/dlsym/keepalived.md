@@ -1,8 +1,8 @@
 ---
 name: "keepalived"
 layout: package
-next_package: gpgme
-previous_package: scorep
+next_package: r
+previous_package: laszip
 library_name: dlsym
 matches: ['dlsym', 'dlopen']
 languages: ['c']

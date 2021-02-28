@@ -1,8 +1,8 @@
 ---
 name: "rocfft"
 layout: package
-next_package: grass
-previous_package: valgrind
+next_package: zabbix
+previous_package: aspell
 library_name: dlsym
 matches: ['dlsym', 'dlopen']
 languages: ['c']

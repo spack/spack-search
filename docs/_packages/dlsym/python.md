@@ -1,8 +1,8 @@
 ---
 name: "python"
 layout: package
-next_package: gnutls
-previous_package: pmix
+next_package: bazel
+previous_package: sandbox
 library_name: dlsym
 matches: ['dlsym', 'dlopen']
 languages: ['c']

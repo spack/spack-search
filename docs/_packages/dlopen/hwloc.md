@@ -1,8 +1,8 @@
 ---
 name: "hwloc"
 layout: package
-next_package: libiscsi
-previous_package: hpctoolkit
+next_package: libcanberra
+previous_package: libepoxy
 library_name: dlopen
 matches: ['dlsym', 'dlopen']
 languages: ['c']

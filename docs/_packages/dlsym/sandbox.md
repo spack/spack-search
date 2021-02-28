@@ -1,8 +1,8 @@
 ---
 name: "sandbox"
 layout: package
-next_package: 3proxy
-previous_package: rsync
+next_package: python
+previous_package: rdc
 library_name: dlsym
 matches: ['dlsym', 'dlopen']
 languages: ['c']

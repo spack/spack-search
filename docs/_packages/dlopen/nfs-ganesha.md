@@ -1,8 +1,8 @@
 ---
 name: "nfs-ganesha"
 layout: package
-next_package: grpc
-previous_package: glusterfs
+next_package: imagemagick
+previous_package: lighttpd
 library_name: dlopen
 matches: ['dlsym', 'dlopen']
 languages: ['c']

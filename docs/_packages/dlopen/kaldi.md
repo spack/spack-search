@@ -1,8 +1,8 @@
 ---
 name: "kaldi"
 layout: package
-next_package: multiverso
-previous_package: emacs
+next_package: glew
+previous_package: perl
 library_name: dlopen
 matches: ['dlsym', 'dlopen']
 languages: ['cpp']

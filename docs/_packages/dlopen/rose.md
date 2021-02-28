@@ -1,11 +1,11 @@
 ---
 name: "rose"
 layout: package
-next_package: sqlite
-previous_package: tk
+next_package: openwsman
+previous_package: geopm
 library_name: dlopen
-matches: ['dlsym', 'dlopen']
-languages: ['c', 'cpp']
+matches: ['dlsym', 'dlopen', 'dlmopen']
+languages: ['cpp', 'c']
 ---
 ## develop
 57 / 31211 files match, 21 filtered matches.

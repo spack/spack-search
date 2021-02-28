@@ -1,8 +1,8 @@
 ---
 name: "gdb"
 layout: package
-next_package: wt
-previous_package: zabbix
+next_package: collectd
+previous_package: nccl
 library_name: dlsym
 matches: ['dlsym', 'dlopen']
 languages: ['c']

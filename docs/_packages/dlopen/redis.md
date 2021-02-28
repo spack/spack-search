@@ -1,8 +1,8 @@
 ---
 name: "redis"
 layout: package
-next_package: mivisionx
-previous_package: talloc
+next_package: laszip
+previous_package: bird
 library_name: dlopen
 matches: ['dlsym', 'dlopen']
 languages: ['c']

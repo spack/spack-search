@@ -1,8 +1,8 @@
 ---
 name: "openmc"
 layout: package
-next_package: glfw
-previous_package: cairo
+next_package: dotconf
+previous_package: wireshark
 library_name: dlopen
 matches: ['dlsym', 'dlopen']
 languages: ['c', 'python']

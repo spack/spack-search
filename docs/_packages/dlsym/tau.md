@@ -1,10 +1,10 @@
 ---
 name: "tau"
 layout: package
-next_package: perfstubs
-previous_package: mysql
+next_package: cdo
+previous_package: glusterfs
 library_name: dlsym
-matches: ['dlsym', 'dlopen']
+matches: ['dlsym', 'dlopen', 'dlmopen']
 languages: ['c']
 ---
 ## 2.29.1

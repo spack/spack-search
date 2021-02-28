@@ -16,7 +16,7 @@ for dirname in $(ls "_staging"); do
 
     for char in "a" "b" "c" "d" "e" "f" "g" "h" "i" "j" "k" "l" "m" "n" "o" "p" "q" "r" "s" "t" "u" "v" "w" "x" "y" "z"; do
         echo "Processing $char in $dirname"
-        mv _staging/$dirname/$char*.md _packages/$dirname/
+        mv _staging/$dirname/$char*.md _packages/$dirname/ 2>/dev/null
         if [ "$?" == 0 ]; then
             bundle exec jekyll build --incremental --profile
         fi

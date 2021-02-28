@@ -1,8 +1,8 @@
 ---
 name: "plumed"
 layout: package
-next_package: lftp
-previous_package: mesa
+next_package: sollya
+previous_package: numamma
 library_name: dlopen
 matches: ['dlsym', 'dlopen']
 languages: ['c']

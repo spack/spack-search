@@ -1,8 +1,8 @@
 ---
 name: "kitty"
 layout: package
-next_package: dpdk
-previous_package: libmicrohttpd
+next_package: root
+previous_package: foam-extend
 library_name: dlopen
 matches: ['dlsym', 'dlopen']
 languages: ['c', 'python']

@@ -1,8 +1,8 @@
 ---
 name: "p11-kit"
 layout: package
-next_package: apex
-previous_package: lighttpd
+next_package: dbus
+previous_package: dpdk
 library_name: dlopen
 matches: ['dlsym', 'dlopen']
 languages: ['c']

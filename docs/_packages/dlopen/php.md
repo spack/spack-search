@@ -1,8 +1,8 @@
 ---
 name: "php"
 layout: package
-next_package: cpuinfo
-previous_package: numamma
+next_package: scorep
+previous_package: go
 library_name: dlopen
 matches: ['dlsym', 'dlopen']
 languages: ['c']

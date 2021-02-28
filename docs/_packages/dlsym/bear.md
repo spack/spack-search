@@ -1,8 +1,8 @@
 ---
 name: "bear"
 layout: package
-next_package: nginx
-previous_package: imagemagick
+next_package: recorder
+previous_package: bazel
 library_name: dlsym
 matches: ['dlsym']
 languages: ['c']

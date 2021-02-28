@@ -1,8 +1,8 @@
 ---
 name: "libkcapi"
 layout: package
-next_package: neuron
-previous_package: rust
+next_package: zsh
+previous_package: esmf
 library_name: dlsym
 matches: ['dlsym', 'dlopen']
 languages: ['c']

@@ -1,8 +1,8 @@
 ---
 name: "foam-extend"
 layout: package
-next_package: mesa
-previous_package: libyogrt
+next_package: kitty
+previous_package: autogen
 library_name: dlopen
 matches: ['dlopen']
 languages: ['c']

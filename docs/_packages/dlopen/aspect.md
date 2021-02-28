@@ -1,8 +1,8 @@
 ---
 name: "aspect"
 layout: package
-next_package: czmq
-previous_package: None
+next_package: clamav
+previous_package: podio
 library_name: dlopen
 matches: ['dlopen']
 languages: ['cpp']

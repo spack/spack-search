@@ -1,8 +1,8 @@
 ---
 name: "sox"
 layout: package
-next_package: amgx
-previous_package: adiak
+next_package: libpam
+previous_package: pmdk
 library_name: dlsym
 matches: ['dlsym', 'dlopen']
 languages: ['c']

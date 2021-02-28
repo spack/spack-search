@@ -1,8 +1,8 @@
 ---
 name: "dotconf"
 layout: package
-next_package: erlang
-previous_package: rocksdb
+next_package: ngspice
+previous_package: openmc
 library_name: dlsym
 matches: ['dlsym', 'dlopen']
 languages: ['c']

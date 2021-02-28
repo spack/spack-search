@@ -1,8 +1,8 @@
 ---
 name: "zfs"
 layout: package
-next_package: grads
-previous_package: kcov
+next_package: pythia8
+previous_package: pmix
 library_name: dlopen
 matches: ['dlsym', 'dlopen']
 languages: ['c', 'python']

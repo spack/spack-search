@@ -1,8 +1,8 @@
 ---
 name: "neuron"
 layout: package
-next_package: cairo
-previous_package: libkcapi
+next_package: ncl
+previous_package: gawk
 library_name: dlsym
 matches: ['dlsym', 'dlopen']
 languages: ['c']

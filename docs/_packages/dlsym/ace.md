@@ -1,8 +1,8 @@
 ---
 name: "ace"
 layout: package
-next_package: arrow
-previous_package: rsyslog
+next_package: imlib2
+previous_package: libxsmm
 library_name: dlsym
 matches: ['dlsym', 'dlopen']
 languages: ['c', 'pl']

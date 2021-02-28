@@ -1,8 +1,8 @@
 ---
 name: "alsa-lib"
 layout: package
-next_package: jemalloc
-previous_package: fakechroot
+next_package: sqlite
+previous_package: watch
 library_name: dlopen
 matches: ['dlsym', 'dlopen']
 languages: ['c']

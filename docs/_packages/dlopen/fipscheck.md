@@ -1,8 +1,8 @@
 ---
 name: "fipscheck"
 layout: package
-next_package: octave
-previous_package: nettle
+next_package: gnutls
+previous_package: zsh
 library_name: dlopen
 matches: ['dlsym', 'dlopen']
 languages: ['c']

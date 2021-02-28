@@ -1,8 +1,8 @@
 ---
 name: "collectd"
 layout: package
-next_package: esmf
-previous_package: shc
+next_package: gawk
+previous_package: gdb
 library_name: dlsym
 matches: ['dlsym', 'dlopen']
 languages: ['c']

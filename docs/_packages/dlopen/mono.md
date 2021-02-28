@@ -1,8 +1,8 @@
 ---
 name: "mono"
 layout: package
-next_package: perl
-previous_package: rivet
+next_package: erlang
+previous_package: meson
 library_name: dlopen
 matches: ['dlsym', 'dlopen']
 languages: ['c']

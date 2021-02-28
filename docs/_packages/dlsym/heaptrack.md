@@ -1,8 +1,8 @@
 ---
 name: "heaptrack"
 layout: package
-next_package: libbsd
-previous_package: mariadb
+next_package: bash
+previous_package: imagemagick
 library_name: dlsym
 matches: ['dlsym', 'dlopen']
 languages: ['c']

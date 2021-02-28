@@ -1,8 +1,8 @@
 ---
 name: "tulip"
 layout: package
-next_package: libepoxy
-previous_package: pmdk
+next_package: gmake
+previous_package: nspr
 library_name: dlopen
 matches: ['dlsym', 'dlopen']
 languages: ['python']

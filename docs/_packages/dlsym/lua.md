@@ -1,8 +1,8 @@
 ---
 name: "lua"
 layout: package
-next_package: bash
-previous_package: go
+next_package: ucx
+previous_package: erlang
 library_name: dlsym
 matches: ['dlsym', 'dlopen']
 languages: ['c']

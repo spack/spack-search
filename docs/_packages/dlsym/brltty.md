@@ -1,8 +1,8 @@
 ---
 name: "brltty"
 layout: package
-next_package: imagemagick
-previous_package: gawk
+next_package: octave
+previous_package: rocksdb
 library_name: dlsym
 matches: ['dlsym', 'dlopen']
 languages: ['c']

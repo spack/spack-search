@@ -1,8 +1,8 @@
 ---
 name: "cairo"
 layout: package
-next_package: openmc
-previous_package: neuron
+next_package: nbdkit
+previous_package: file
 library_name: dlopen
 matches: ['dlsym', 'dlopen']
 languages: ['c']

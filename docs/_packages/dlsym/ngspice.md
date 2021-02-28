@@ -1,8 +1,8 @@
 ---
 name: "ngspice"
 layout: package
-next_package: apr
-previous_package: kmod
+next_package: stat
+previous_package: dotconf
 library_name: dlsym
 matches: ['dlsym', 'dlopen']
 languages: ['c']

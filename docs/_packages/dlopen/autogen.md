@@ -1,8 +1,8 @@
 ---
 name: "autogen"
 layout: package
-next_package: vim
-previous_package: libfabric
+next_package: foam-extend
+previous_package: vtk
 library_name: dlopen
 matches: ['dlsym', 'dlopen']
 languages: ['c']

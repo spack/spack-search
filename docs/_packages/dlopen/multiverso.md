@@ -1,8 +1,8 @@
 ---
 name: "multiverso"
 layout: package
-next_package: nest
-previous_package: kaldi
+next_package: arrow
+previous_package: openssl
 library_name: dlopen
 matches: ['dlopen']
 languages: ['c']

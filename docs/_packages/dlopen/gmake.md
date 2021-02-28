@@ -1,8 +1,8 @@
 ---
 name: "gmake"
 layout: package
-next_package: casacore
-previous_package: whizard
+next_package: libxsmm
+previous_package: tulip
 library_name: dlopen
 matches: ['dlsym', 'dlopen']
 languages: ['c']

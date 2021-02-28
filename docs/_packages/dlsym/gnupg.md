@@ -1,8 +1,8 @@
 ---
 name: "gnupg"
 layout: package
-next_package: legion
-previous_package: unifyfs
+next_package: pocl
+previous_package: imlib2
 library_name: dlsym
 matches: ['dlsym', 'dlopen']
 languages: ['c']

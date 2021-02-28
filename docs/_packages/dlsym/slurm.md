@@ -1,8 +1,8 @@
 ---
 name: "slurm"
 layout: package
-next_package: petsc
-previous_package: gotcha
+next_package: czmq
+previous_package: libiscsi
 library_name: dlsym
 matches: ['dlsym', 'dlopen']
 languages: ['c']

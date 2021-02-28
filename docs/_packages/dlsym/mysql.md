@@ -1,11 +1,11 @@
 ---
 name: "mysql"
 layout: package
-next_package: tau
-previous_package: pulseaudio
+next_package: spindle
+previous_package: med
 library_name: dlsym
 matches: ['dlsym', 'dlopen']
-languages: ['c', 'cpp']
+languages: ['cpp', 'c']
 ---
 ## 8.0.19
 26 / 39146 files match, 18 filtered matches.

@@ -1,8 +1,8 @@
 ---
 name: "glfw"
 layout: package
-next_package: pnmpi
-previous_package: openmc
+next_package: tk
+previous_package: zabbix
 library_name: dlsym
 matches: ['dlsym', 'dlopen']
 languages: ['c']

@@ -1,8 +1,8 @@
 ---
 name: "eztrace"
 layout: package
-next_package: ipcalc
-previous_package: bind9
+next_package: adiak
+previous_package: vtable-dumper
 library_name: dlsym
 matches: ['dlsym', 'dlopen']
 languages: ['c']

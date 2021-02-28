@@ -1,8 +1,8 @@
 ---
 name: "clinfo"
 layout: package
-next_package: libnl
-previous_package: zsh
+next_package: lftp
+previous_package: spot
 library_name: dlsym
 matches: ['dlsym']
 languages: ['c']

@@ -1,11 +1,11 @@
 ---
 name: "pythia8"
 layout: package
-next_package: libtool
-previous_package: dmtcp
+next_package: bcftools
+previous_package: zfs
 library_name: dlopen
 matches: ['dlsym', 'dlopen']
-languages: ['c', 'cpp']
+languages: ['cpp', 'c']
 ---
 ## 8235
 2 / 661 files match, 2 filtered matches.

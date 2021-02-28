@@ -1,8 +1,8 @@
 ---
 name: "casacore"
 layout: package
-next_package: libunwind
-previous_package: gmake
+next_package: openloops
+previous_package: stat
 library_name: dlopen
 matches: ['dlsym', 'dlopen']
 languages: ['cpp']

@@ -1,8 +1,8 @@
 ---
 name: "pulseaudio"
 layout: package
-next_package: mysql
-previous_package: postgresql
+next_package: ipcalc
+previous_package: papi
 library_name: dlopen
 matches: ['dlsym', 'dlopen']
 languages: ['c']

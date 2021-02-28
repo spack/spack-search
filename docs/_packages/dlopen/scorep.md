@@ -1,8 +1,8 @@
 ---
 name: "scorep"
 layout: package
-next_package: keepalived
-previous_package: erlang
+next_package: rccl
+previous_package: php
 library_name: dlopen
 matches: ['dlsym', 'dlopen']
 languages: ['c']

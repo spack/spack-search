@@ -1,8 +1,8 @@
 ---
 name: "libmicrohttpd"
 layout: package
-next_package: kitty
-previous_package: gnutls
+next_package: yorick
+previous_package: turbine
 library_name: dlopen
 matches: ['dlsym', 'dlopen']
 languages: ['c']

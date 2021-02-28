@@ -1,8 +1,8 @@
 ---
 name: "sqlite"
 layout: package
-next_package: poppler
-previous_package: rose
+next_package: apex
+previous_package: alsa-lib
 library_name: dlopen
 matches: ['dlsym', 'dlopen']
 languages: ['c']

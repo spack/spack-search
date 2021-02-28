@@ -1,8 +1,8 @@
 ---
 name: "arrow"
 layout: package
-next_package: glew
-previous_package: ace
+next_package: fio
+previous_package: multiverso
 library_name: dlopen
 matches: ['dlsym', 'dlopen']
 languages: ['cpp']

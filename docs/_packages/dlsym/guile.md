@@ -1,8 +1,8 @@
 ---
 name: "guile"
 layout: package
-next_package: bcftools
-previous_package: vim
+next_package: amgx
+previous_package: librdkafka
 library_name: dlsym
 matches: ['dlsym', 'dlopen']
 languages: ['c']

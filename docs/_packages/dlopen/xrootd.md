@@ -1,8 +1,8 @@
 ---
 name: "xrootd"
 layout: package
-next_package: openmpi
-previous_package: ocaml
+next_package: nginx
+previous_package: iproute2
 library_name: dlopen
 matches: ['dlsym', 'dlopen']
 languages: ['cpp']

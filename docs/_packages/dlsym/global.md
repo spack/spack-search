@@ -1,8 +1,8 @@
 ---
 name: "global"
 layout: package
-next_package: jags
-previous_package: treelite
+next_package: unixodbc
+previous_package: mvapich2
 library_name: dlsym
 matches: ['dlsym', 'dlopen']
 languages: ['c']

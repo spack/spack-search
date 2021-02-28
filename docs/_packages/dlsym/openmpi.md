@@ -1,8 +1,8 @@
 ---
 name: "openmpi"
 layout: package
-next_package: mc
-previous_package: xrootd
+next_package: libiberty
+previous_package: netdata
 library_name: dlsym
 matches: ['dlsym', 'dlopen']
 languages: ['c']

@@ -1,8 +1,8 @@
 ---
 name: "unixodbc"
 layout: package
-next_package: libxsmm
-previous_package: silo
+next_package: numamma
+previous_package: global
 library_name: dlsym
 matches: ['dlsym', 'dlopen']
 languages: ['c']

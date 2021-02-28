@@ -1,8 +1,8 @@
 ---
 name: "gawk"
 layout: package
-next_package: brltty
-previous_package: grads
+next_package: neuron
+previous_package: collectd
 library_name: dlsym
 matches: ['dlsym', 'dlopen']
 languages: ['c']

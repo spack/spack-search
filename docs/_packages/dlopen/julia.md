@@ -1,8 +1,8 @@
 ---
 name: "julia"
 layout: package
-next_package: stat
-previous_package: elfutils
+next_package: mariadb
+previous_package: amgx
 library_name: dlopen
 matches: ['dlsym', 'dlopen']
 languages: ['c']

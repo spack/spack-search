@@ -1,8 +1,8 @@
 ---
 name: "libiscsi"
 layout: package
-next_package: postgresql
-previous_package: hwloc
+next_package: slurm
+previous_package: libunwind
 library_name: dlsym
 matches: ['dlsym']
 languages: ['c']

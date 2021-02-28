@@ -1,8 +1,8 @@
 ---
 name: "cpuinfo"
 layout: package
-next_package: iproute2
-previous_package: php
+next_package: darshan-util
+previous_package: adiak
 library_name: dlsym
 matches: ['dlsym', 'dlopen']
 languages: ['c']

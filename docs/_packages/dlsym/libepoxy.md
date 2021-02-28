@@ -1,8 +1,8 @@
 ---
 name: "libepoxy"
 layout: package
-next_package: xdm
-previous_package: tulip
+next_package: hwloc
+previous_package: jemalloc
 library_name: dlsym
 matches: ['dlsym', 'dlopen']
 languages: ['c', 'python']

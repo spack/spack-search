@@ -1,8 +1,8 @@
 ---
 name: "rsyslog"
 layout: package
-next_package: ace
-previous_package: dyninst
+next_package: petsc
+previous_package: rr
 library_name: dlsym
 matches: ['dlsym', 'dlopen']
 languages: ['c']

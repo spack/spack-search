@@ -1,11 +1,11 @@
 ---
 name: "rivet"
 layout: package
-next_package: mono
-previous_package: wget
+next_package: tcl
+previous_package: ocaml
 library_name: dlopen
 matches: ['dlsym', 'dlopen']
-languages: ['python', 'cpp']
+languages: ['cpp', 'python']
 ---
 ## 2.2.0
 5 / 1528 files match, 2 filtered matches.

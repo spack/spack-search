@@ -1,8 +1,8 @@
 ---
 name: "dmtcp"
 layout: package
-next_package: pythia8
-previous_package: aspell
+next_package: watch
+previous_package: glew
 library_name: dlsym
 matches: ['dlsym', 'dlopen']
 languages: ['c']

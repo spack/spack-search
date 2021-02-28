@@ -1,8 +1,8 @@
 ---
 name: "rhash"
 layout: package
-next_package: krb5
-previous_package: scr
+next_package: meson
+previous_package: bcftools
 library_name: dlopen
 matches: ['dlsym', 'dlopen']
 languages: ['c']

@@ -1,8 +1,8 @@
 ---
 name: "netdata"
 layout: package
-next_package: wget
-previous_package: openwsman
+next_package: openmpi
+previous_package: czmq
 library_name: dlsym
 matches: ['dlsym', 'dlopen']
 languages: ['c']

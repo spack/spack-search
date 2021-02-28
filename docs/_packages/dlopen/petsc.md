@@ -1,8 +1,8 @@
 ---
 name: "petsc"
 layout: package
-next_package: pdsh
-previous_package: slurm
+next_package: kbd
+previous_package: rsyslog
 library_name: dlopen
 matches: ['dlsym', 'dlopen']
 languages: ['c', 'python']

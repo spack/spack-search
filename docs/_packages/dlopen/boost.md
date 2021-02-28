@@ -1,8 +1,8 @@
 ---
 name: "boost"
 layout: package
-next_package: curl
-previous_package: libiberty
+next_package: swipl
+previous_package: ucx
 library_name: dlopen
 matches: ['dlsym', 'dlopen']
 languages: ['c', 'python']

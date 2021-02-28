@@ -1,8 +1,8 @@
 ---
 name: "dpdk"
 layout: package
-next_package: memkind
-previous_package: kitty
+next_package: p11-kit
+previous_package: curl
 library_name: dlsym
 matches: ['dlsym', 'dlopen']
 languages: ['c']

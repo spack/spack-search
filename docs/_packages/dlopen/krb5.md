@@ -1,8 +1,8 @@
 ---
 name: "krb5"
 layout: package
-next_package: file
-previous_package: rhash
+next_package: nicstat
+previous_package: hpctoolkit
 library_name: dlopen
 matches: ['dlsym', 'dlopen']
 languages: ['c']

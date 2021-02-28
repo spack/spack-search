@@ -1,8 +1,8 @@
 ---
 name: "nginx"
 layout: package
-next_package: mpc
-previous_package: bear
+next_package: None
+previous_package: xrootd
 library_name: dlopen
 matches: ['dlsym', 'dlopen']
 languages: ['c']

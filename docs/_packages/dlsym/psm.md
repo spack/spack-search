@@ -1,8 +1,8 @@
 ---
 name: "psm"
 layout: package
-next_package: ucx
-previous_package: pdsh
+next_package: mc
+previous_package: nest
 library_name: dlsym
 matches: ['dlsym', 'dlopen']
 languages: ['c']

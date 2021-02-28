@@ -1,8 +1,8 @@
 ---
 name: "poppler"
 layout: package
-next_package: hashcat
-previous_package: sqlite
+next_package: podio
+previous_package: ncl
 library_name: dlsym
 matches: ['dlsym', 'dlopen']
 languages: ['cpp']

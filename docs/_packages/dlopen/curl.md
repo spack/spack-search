@@ -1,8 +1,8 @@
 ---
 name: "curl"
 layout: package
-next_package: libcanberra
-previous_package: boost
+next_package: dpdk
+previous_package: libcanberra
 library_name: dlopen
 matches: ['dlsym', 'dlopen']
 languages: ['c']

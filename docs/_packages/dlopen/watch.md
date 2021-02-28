@@ -1,8 +1,8 @@
 ---
 name: "watch"
 layout: package
-next_package: kbd
-previous_package: gmt
+next_package: alsa-lib
+previous_package: dmtcp
 library_name: dlopen
 matches: ['dlsym', 'dlopen']
 languages: ['c']

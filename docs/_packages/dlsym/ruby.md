@@ -1,8 +1,8 @@
 ---
 name: "ruby"
 layout: package
-next_package: dbus
-previous_package: bird
+next_package: gdk-pixbuf
+previous_package: grads
 library_name: dlsym
 matches: ['dlsym', 'dlopen']
 languages: ['c']

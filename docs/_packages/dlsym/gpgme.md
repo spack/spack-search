@@ -1,8 +1,8 @@
 ---
 name: "gpgme"
 layout: package
-next_package: rccl
-previous_package: keepalived
+next_package: memkind
+previous_package: sst-macro
 library_name: dlsym
 matches: ['dlsym', 'dlopen']
 languages: ['c']

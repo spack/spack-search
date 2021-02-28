@@ -1,8 +1,8 @@
 ---
 name: "libcanberra"
 layout: package
-next_package: rust
-previous_package: curl
+next_package: curl
+previous_package: hwloc
 library_name: dlsym
 matches: ['dlsym', 'dlopen']
 languages: ['c']

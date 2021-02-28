@@ -1,8 +1,8 @@
 ---
 name: "zabbix"
 layout: package
-next_package: gdb
-previous_package: pnmpi
+next_package: glfw
+previous_package: rocfft
 library_name: dlsym
 matches: ['dlsym', 'dlopen']
 languages: ['c']

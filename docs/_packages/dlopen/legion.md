@@ -1,10 +1,10 @@
 ---
 name: "legion"
 layout: package
-next_package: pmdk
-previous_package: gnupg
+next_package: 3proxy
+previous_package: xdm
 library_name: dlopen
-matches: ['dlsym', 'dlopen']
+matches: ['dlsym', 'dlopen', 'dlmopen']
 languages: ['cpp']
 ---
 ## master

@@ -1,8 +1,8 @@
 ---
 name: "turbine"
 layout: package
-next_package: whizard
-previous_package: grass
+next_package: libmicrohttpd
+previous_package: rccl
 library_name: dlopen
 matches: ['dlopen']
 languages: ['c']

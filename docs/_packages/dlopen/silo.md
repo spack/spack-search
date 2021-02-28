@@ -1,8 +1,8 @@
 ---
 name: "silo"
 layout: package
-next_package: unixodbc
-previous_package: libtool
+next_package: libxslt
+previous_package: nicstat
 library_name: dlopen
 matches: ['dlsym', 'dlopen']
 languages: ['c']

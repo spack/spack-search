@@ -1,8 +1,8 @@
 ---
 name: "jemalloc"
 layout: package
-next_package: sst-macro
-previous_package: alsa-lib
+next_package: libepoxy
+previous_package: shc
 library_name: dlsym
 matches: ['dlsym', 'dlopen']
 languages: ['c']

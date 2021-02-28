@@ -163,7 +163,7 @@ def filter_packages(contenders, datadir):
     # We determine inclusion based on having matches that pass filtering
     for package in contenders:
 
-        if package == ".empty":
+        if package in [".empty", ".error"]:
             continue
 
         # Find all package versions
@@ -178,6 +178,7 @@ def filter_packages(contenders, datadir):
             library_name = os.path.basename(package_dir)
             package_file = os.path.join(package_dir, package_file)
             content = read_json(package_file)
+
             for matchname, match in content["matches"].items():
 
                 # need to derive language here, add code
@@ -292,7 +293,6 @@ def main():
                 continue
 
             for package_file in package_files:
-
                 version = get_version(package_file, package)
                 package_file = os.path.join(package_dir, package_file)
                 content = read_json(package_file)

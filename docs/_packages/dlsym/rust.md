@@ -1,11 +1,11 @@
 ---
 name: "rust"
 layout: package
-next_package: libkcapi
-previous_package: libcanberra
+next_package: xdm
+previous_package: root
 library_name: dlsym
 matches: ['dlsym']
-languages: ['c', 'cpp']
+languages: ['cpp', 'c']
 ---
 ## 1.44.0
 140 / 112209 files match, 50 filtered matches.

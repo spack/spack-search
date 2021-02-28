@@ -1,8 +1,8 @@
 ---
 name: "hashcat"
 layout: package
-next_package: bind9
-previous_package: poppler
+next_package: libfuse
+previous_package: gettext
 library_name: dlopen
 matches: ['dlsym', 'dlopen']
 languages: ['c']

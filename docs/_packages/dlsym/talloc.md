@@ -1,8 +1,8 @@
 ---
 name: "talloc"
 layout: package
-next_package: redis
-previous_package: sollya
+next_package: gcc
+previous_package: nnvm
 library_name: dlsym
 matches: ['dlsym', 'dlopen']
 languages: ['c']

@@ -1,8 +1,8 @@
 ---
 name: "numamma"
 layout: package
-next_package: php
-previous_package: yorick
+next_package: plumed
+previous_package: unixodbc
 library_name: dlsym
 matches: ['dlsym']
 languages: ['c']

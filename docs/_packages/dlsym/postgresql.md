@@ -1,8 +1,8 @@
 ---
 name: "postgresql"
 layout: package
-next_package: pulseaudio
-previous_package: libiscsi
+next_package: sst-macro
+previous_package: mpc
 library_name: dlsym
 matches: ['dlsym', 'dlopen']
 languages: ['c']

@@ -1,8 +1,8 @@
 ---
 name: "bmi"
 layout: package
-next_package: treelite
-previous_package: r
+next_package: iproute2
+previous_package: binutils
 library_name: dlsym
 matches: ['dlsym', 'dlopen']
 languages: ['c']

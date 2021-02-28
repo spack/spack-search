@@ -1,8 +1,8 @@
 ---
 name: "nettle"
 layout: package
-next_package: fipscheck
-previous_package: memkind
+next_package: mesa
+previous_package: mariadb
 library_name: dlopen
 matches: ['dlsym', 'dlopen']
 languages: ['c']

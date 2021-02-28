@@ -85,6 +85,7 @@ If you want to generate results for more than one library, you can do:
 
 ```bash
 $ python generate_interface.py ./dlopen/,./dlsym docs
+$ python generate_interface.py ./dlopen/,./dlsym,./dlmopen docs
 ```
 
 Note that because the bottleneck in rendering is the size of the files, we don't

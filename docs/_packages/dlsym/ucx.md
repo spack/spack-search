@@ -1,11 +1,11 @@
 ---
 name: "ucx"
 layout: package
-next_package: binutils
-previous_package: psm
+next_package: boost
+previous_package: lua
 library_name: dlsym
 matches: ['dlsym', 'dlopen']
-languages: ['c', 'cpp']
+languages: ['cpp', 'c']
 ---
 ## 1.4.0
 7 / 590 files match, 4 filtered matches.

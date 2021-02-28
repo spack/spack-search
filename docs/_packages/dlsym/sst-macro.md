@@ -1,8 +1,8 @@
 ---
 name: "sst-macro"
 layout: package
-next_package: keyutils
-previous_package: jemalloc
+next_package: gpgme
+previous_package: postgresql
 library_name: dlsym
 matches: ['dlsym', 'dlopen']
 languages: ['cpp']

@@ -1,8 +1,8 @@
 ---
 name: "bcftools"
 layout: package
-next_package: openssl
-previous_package: guile
+next_package: rhash
+previous_package: pythia8
 library_name: dlsym
 matches: ['dlsym', 'dlopen']
 languages: ['c']

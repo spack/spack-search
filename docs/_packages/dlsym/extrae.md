@@ -1,8 +1,8 @@
 ---
 name: "extrae"
 layout: package
-next_package: lvm2
-previous_package: nix
+next_package: mpc
+previous_package: dbus
 library_name: dlsym
 matches: ['dlsym', 'dlopen']
 languages: ['c']

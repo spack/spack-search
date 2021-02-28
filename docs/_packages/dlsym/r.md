@@ -1,8 +1,8 @@
 ---
 name: "r"
 layout: package
-next_package: bmi
-previous_package: hdf5
+next_package: nspr
+previous_package: keepalived
 library_name: dlsym
 matches: ['dlsym', 'dlopen']
 languages: ['c']

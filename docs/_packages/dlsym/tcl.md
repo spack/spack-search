@@ -1,8 +1,8 @@
 ---
 name: "tcl"
 layout: package
-next_package: dimemas
-previous_package: libpam
+next_package: vtk
+previous_package: rivet
 library_name: dlsym
 matches: ['dlsym', 'dlopen']
 languages: ['c']

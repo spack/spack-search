@@ -1,8 +1,8 @@
 ---
 name: "erlang"
 layout: package
-next_package: scorep
-previous_package: dotconf
+next_package: lua
+previous_package: mono
 library_name: dlsym
 matches: ['dlsym', 'dlopen']
 languages: ['c']

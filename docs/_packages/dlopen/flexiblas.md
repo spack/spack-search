@@ -1,8 +1,8 @@
 ---
 name: "flexiblas"
 layout: package
-next_package: imlib2
-previous_package: openloops
+next_package: dimemas
+previous_package: mc
 library_name: dlopen
 matches: ['dlsym', 'dlopen']
 languages: ['c']

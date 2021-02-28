@@ -1,8 +1,8 @@
 ---
 name: "ghostscript"
 layout: package
-next_package: macsio
-previous_package: fakexrandr
+next_package: kmod
+previous_package: cntk
 library_name: dlsym
 matches: ['dlsym', 'dlopen']
 languages: ['c']

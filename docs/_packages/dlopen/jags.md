@@ -1,11 +1,11 @@
 ---
 name: "jags"
 layout: package
-next_package: chrony
-previous_package: global
+next_package: bird
+previous_package: apex
 library_name: dlopen
 matches: ['dlsym', 'dlopen']
-languages: ['c', 'cpp']
+languages: ['cpp', 'c']
 ---
 ## 4.3.0
 18 / 1147 files match, 7 filtered matches.

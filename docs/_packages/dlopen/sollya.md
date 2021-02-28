@@ -1,8 +1,8 @@
 ---
 name: "sollya"
 layout: package
-next_package: talloc
-previous_package: openfoam
+next_package: papi
+previous_package: plumed
 library_name: dlopen
 matches: ['dlsym', 'dlopen']
 languages: ['c']

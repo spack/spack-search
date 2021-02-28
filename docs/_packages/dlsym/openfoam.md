@@ -1,8 +1,8 @@
 ---
 name: "openfoam"
 layout: package
-next_package: sollya
-previous_package: mvapich2
+next_package: valgrind
+previous_package: nbdkit
 library_name: dlsym
 matches: ['dlsym', 'dlopen']
 languages: ['c']

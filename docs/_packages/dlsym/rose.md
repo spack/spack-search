@@ -1,10 +1,10 @@
 ---
 name: "rose"
 layout: package
-next_package: sqlite
-previous_package: tk
+next_package: openwsman
+previous_package: geopm
 library_name: dlsym
-matches: ['dlsym', 'dlopen']
+matches: ['dlsym', 'dlopen', 'dlmopen']
 languages: ['c']
 ---
 ## develop

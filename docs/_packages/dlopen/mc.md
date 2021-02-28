@@ -1,8 +1,8 @@
 ---
 name: "mc"
 layout: package
-next_package: valgrind
-previous_package: openmpi
+next_package: flexiblas
+previous_package: psm
 library_name: dlopen
 matches: ['dlsym', 'dlopen']
 languages: ['c']

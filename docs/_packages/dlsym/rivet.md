@@ -1,8 +1,8 @@
 ---
 name: "rivet"
 layout: package
-next_package: mono
-previous_package: wget
+next_package: tcl
+previous_package: ocaml
 library_name: dlsym
 matches: ['dlsym', 'dlopen']
 languages: ['cpp']

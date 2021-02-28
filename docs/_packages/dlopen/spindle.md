@@ -1,8 +1,8 @@
 ---
 name: "spindle"
 layout: package
-next_package: weechat
-previous_package: ncl
+next_package: folly
+previous_package: mysql
 library_name: dlopen
 matches: ['dlsym', 'dlopen']
 languages: ['c']

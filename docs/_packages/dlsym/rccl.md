@@ -1,8 +1,8 @@
 ---
 name: "rccl"
 layout: package
-next_package: scr
-previous_package: gpgme
+next_package: turbine
+previous_package: scorep
 library_name: dlsym
 matches: ['dlsym', 'dlopen']
 languages: ['cpp']

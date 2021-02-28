@@ -1,11 +1,11 @@
 ---
 name: "binutils"
 layout: package
-next_package: podio
-previous_package: ucx
+next_package: bmi
+previous_package: openloops
 library_name: dlopen
 matches: ['dlsym', 'dlopen']
-languages: ['c', 'cpp']
+languages: ['cpp', 'c']
 ---
 ## 2.32
 62 / 22031 files match, 17 filtered matches.

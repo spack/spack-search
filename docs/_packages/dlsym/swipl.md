@@ -1,8 +1,8 @@
 ---
 name: "swipl"
 layout: package
-next_package: pocl
-previous_package: apex
+next_package: wireshark
+previous_package: boost
 library_name: dlsym
 matches: ['dlsym', 'dlopen']
 languages: ['c']

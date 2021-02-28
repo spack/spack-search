@@ -1,8 +1,8 @@
 ---
 name: "chrony"
 layout: package
-next_package: bazel
-previous_package: jags
+next_package: lammps
+previous_package: yorick
 library_name: dlsym
 matches: ['dlsym']
 languages: ['c']

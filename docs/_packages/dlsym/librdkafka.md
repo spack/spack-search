@@ -1,8 +1,8 @@
 ---
 name: "librdkafka"
 layout: package
-next_package: glusterfs
-previous_package: 3proxy
+next_package: guile
+previous_package: wt
 library_name: dlsym
 matches: ['dlsym', 'dlopen']
 languages: ['c']

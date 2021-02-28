@@ -1,8 +1,8 @@
 ---
 name: "wireshark"
 layout: package
-next_package: mariadb
-previous_package: med
+next_package: openmc
+previous_package: swipl
 library_name: dlsym
 matches: ['dlsym', 'dlopen']
 languages: ['c']

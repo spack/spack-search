@@ -1,11 +1,11 @@
 ---
 name: "octave"
 layout: package
-next_package: darshan-util
-previous_package: fipscheck
+next_package: grads
+previous_package: brltty
 library_name: dlopen
 matches: ['dlsym', 'dlopen']
-languages: ['c', 'cpp']
+languages: ['cpp', 'c']
 ---
 ## 4.0.0
 15 / 6223 files match, 2 filtered matches.

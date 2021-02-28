@@ -1,8 +1,8 @@
 ---
 name: "libxslt"
 layout: package
-next_package: spot
-previous_package: dimemas
+next_package: libpng
+previous_package: silo
 library_name: dlopen
 matches: ['dlsym', 'dlopen']
 languages: ['python']

@@ -1,8 +1,8 @@
 ---
 name: "lftp"
 layout: package
-next_package: rr
-previous_package: plumed
+next_package: shc
+previous_package: clinfo
 library_name: dlsym
 matches: ['dlsym', 'dlopen']
 languages: ['cpp']

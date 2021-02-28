@@ -1,8 +1,8 @@
 ---
 name: "grpc"
 layout: package
-next_package: hpctoolkit
-previous_package: nfs-ganesha
+next_package: weechat
+previous_package: bash
 library_name: dlsym
 matches: ['dlsym', 'dlopen']
 languages: ['cpp']

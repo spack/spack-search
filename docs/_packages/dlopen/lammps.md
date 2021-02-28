@@ -1,8 +1,8 @@
 ---
 name: "lammps"
 layout: package
-next_package: elfutils
-previous_package: folly
+next_package: pdsh
+previous_package: chrony
 library_name: dlopen
 matches: ['dlsym', 'dlopen']
 languages: ['c']

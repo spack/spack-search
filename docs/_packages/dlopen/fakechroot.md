@@ -1,8 +1,8 @@
 ---
 name: "fakechroot"
 layout: package
-next_package: alsa-lib
-previous_package: stat
+next_package: nix
+previous_package: fio
 library_name: dlopen
 matches: ['dlsym', 'dlopen']
 languages: ['c']

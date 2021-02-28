@@ -1,8 +1,8 @@
 ---
 name: "imlib2"
 layout: package
-next_package: gdk-pixbuf
-previous_package: flexiblas
+next_package: gnupg
+previous_package: ace
 library_name: dlopen
 matches: ['dlsym', 'dlopen']
 languages: ['c']

@@ -1,8 +1,8 @@
 ---
 name: "meson"
 layout: package
-next_package: g2o
-previous_package: keyutils
+next_package: mono
+previous_package: rhash
 library_name: dlsym
 matches: ['dlsym', 'dlopen']
 languages: ['c']

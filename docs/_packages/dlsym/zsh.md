@@ -1,8 +1,8 @@
 ---
 name: "zsh"
 layout: package
-next_package: clinfo
-previous_package: dbus
+next_package: fipscheck
+previous_package: libkcapi
 library_name: dlsym
 matches: ['dlsym', 'dlopen']
 languages: ['c']

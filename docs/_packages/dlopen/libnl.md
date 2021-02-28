@@ -1,8 +1,8 @@
 ---
 name: "libnl"
 layout: package
-next_package: libuv
-previous_package: clinfo
+next_package: gflags
+previous_package: musl
 library_name: dlopen
 matches: ['dlsym', 'dlopen']
 languages: ['c']

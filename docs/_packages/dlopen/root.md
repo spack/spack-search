@@ -1,8 +1,8 @@
 ---
 name: "root"
 layout: package
-next_package: nccl
-previous_package: gdk-pixbuf
+next_package: rust
+previous_package: kitty
 library_name: dlopen
 matches: ['dlsym', 'dlopen']
 languages: ['c', 'python']

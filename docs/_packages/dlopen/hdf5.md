@@ -1,8 +1,8 @@
 ---
 name: "hdf5"
 layout: package
-next_package: r
-previous_package: tfel
+next_package: cntk
+previous_package: rsync
 library_name: dlopen
 matches: ['dlsym', 'dlopen']
 languages: ['java']

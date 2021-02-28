@@ -1,8 +1,8 @@
 ---
 name: "lvm2"
 layout: package
-next_package: mvapich2
-previous_package: extrae
+next_package: rr
+previous_package: whizard
 library_name: dlsym
 matches: ['dlsym', 'dlopen']
 languages: ['c']

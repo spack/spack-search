@@ -1,8 +1,8 @@
 ---
 name: "gettext"
 layout: package
-next_package: rocksdb
-previous_package: kbd
+next_package: hashcat
+previous_package: gdk-pixbuf
 library_name: dlopen
 matches: ['dlsym', 'dlopen']
 languages: ['c']

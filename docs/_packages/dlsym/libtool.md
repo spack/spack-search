@@ -1,10 +1,10 @@
 ---
 name: "libtool"
 layout: package
-next_package: silo
-previous_package: pythia8
+next_package: nest
+previous_package: ffmpeg
 library_name: dlsym
-matches: ['dlsym', 'dlopen']
+matches: ['dlsym', 'dlopen', 'dlmopen']
 languages: ['c']
 ---
 ## 2.4.6

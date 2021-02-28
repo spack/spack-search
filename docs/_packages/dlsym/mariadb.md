@@ -1,11 +1,11 @@
 ---
 name: "mariadb"
 layout: package
-next_package: heaptrack
-previous_package: wireshark
+next_package: nettle
+previous_package: julia
 library_name: dlsym
 matches: ['dlsym', 'dlopen']
-languages: ['c', 'cpp']
+languages: ['cpp', 'c']
 ---
 ## 10.1.23
 24 / 20399 files match, 13 filtered matches.

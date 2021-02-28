@@ -1,8 +1,8 @@
 ---
 name: "polymake"
 layout: package
-next_package: fakexrandr
-previous_package: gflags
+next_package: libuv
+previous_package: parsec
 library_name: dlopen
 matches: ['dlopen']
 languages: ['cpp']

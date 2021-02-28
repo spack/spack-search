@@ -1,8 +1,8 @@
 ---
 name: "dimemas"
 layout: package
-next_package: libxslt
-previous_package: tcl
+next_package: geopm
+previous_package: flexiblas
 library_name: dlsym
 matches: ['dlsym', 'dlopen']
 languages: ['c']

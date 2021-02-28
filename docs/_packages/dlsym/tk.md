@@ -1,8 +1,8 @@
 ---
 name: "tk"
 layout: package
-next_package: rose
-previous_package: mpc
+next_package: mvapich2
+previous_package: glfw
 library_name: dlsym
 matches: ['dlsym', 'dlopen']
 languages: ['c']

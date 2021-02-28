@@ -1,8 +1,8 @@
 ---
 name: "openssl"
 layout: package
-next_package: procps
-previous_package: bcftools
+next_package: multiverso
+previous_package: likwid
 library_name: dlopen
 matches: ['dlsym', 'dlopen']
 languages: ['c']

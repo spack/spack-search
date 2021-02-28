@@ -1,8 +1,8 @@
 ---
 name: "aspell"
 layout: package
-next_package: dmtcp
-previous_package: libuv
+next_package: rocfft
+previous_package: elfutils
 library_name: dlopen
 matches: ['dlsym', 'dlopen']
 languages: ['c']

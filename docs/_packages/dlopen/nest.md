@@ -1,8 +1,8 @@
 ---
 name: "nest"
 layout: package
-next_package: gflags
-previous_package: multiverso
+next_package: psm
+previous_package: libtool
 library_name: dlopen
 matches: ['dlsym', 'dlopen']
 languages: ['python']

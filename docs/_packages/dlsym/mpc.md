@@ -1,8 +1,8 @@
 ---
 name: "mpc"
 layout: package
-next_package: tk
-previous_package: nginx
+next_package: postgresql
+previous_package: extrae
 library_name: dlsym
 matches: ['dlsym', 'dlopen']
 languages: ['c']

@@ -1,8 +1,8 @@
 ---
 name: "geopm"
 layout: package
-next_package: ocaml
-previous_package: spot
+next_package: rose
+previous_package: dimemas
 library_name: dlopen
 matches: ['dlsym', 'dlopen']
 languages: ['c']

@@ -1,8 +1,8 @@
 ---
 name: "yasm"
 layout: package
-next_package: yorick
-previous_package: weechat
+next_package: esmf
+previous_package: macsio
 library_name: dlsym
 matches: ['dlsym', 'dlopen']
 languages: ['c']

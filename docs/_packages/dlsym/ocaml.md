@@ -1,8 +1,8 @@
 ---
 name: "ocaml"
 layout: package
-next_package: xrootd
-previous_package: geopm
+next_package: rivet
+previous_package: clamav
 library_name: dlsym
 matches: ['dlsym', 'dlopen']
 languages: ['c']

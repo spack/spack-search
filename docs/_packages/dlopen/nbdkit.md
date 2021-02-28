@@ -1,8 +1,8 @@
 ---
 name: "nbdkit"
 layout: package
-next_package: ncl
-previous_package: darshan-util
+next_package: openfoam
+previous_package: cairo
 library_name: dlopen
 matches: ['dlsym', 'dlopen']
 languages: ['c']

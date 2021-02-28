@@ -1,8 +1,8 @@
 ---
 name: "elfutils"
 layout: package
-next_package: julia
-previous_package: lammps
+next_package: aspell
+previous_package: libpam
 library_name: dlsym
 matches: ['dlsym', 'dlopen']
 languages: ['c']

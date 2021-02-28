@@ -1,8 +1,8 @@
 ---
 name: "papi"
 layout: package
-next_package: qt
-previous_package: parsec
+next_package: pulseaudio
+previous_package: sollya
 library_name: dlopen
 matches: ['dlsym', 'dlopen']
 languages: ['c']

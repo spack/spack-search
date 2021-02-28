@@ -1,8 +1,8 @@
 ---
 name: "glew"
 layout: package
-next_package: libiberty
-previous_package: arrow
+next_package: dmtcp
+previous_package: kaldi
 library_name: dlopen
 matches: ['dlsym', 'dlopen']
 languages: ['c']

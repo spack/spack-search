@@ -1,8 +1,8 @@
 ---
 name: "czmq"
 layout: package
-next_package: go
-previous_package: aspect
+next_package: netdata
+previous_package: slurm
 library_name: dlopen
 matches: ['dlopen']
 languages: ['python']

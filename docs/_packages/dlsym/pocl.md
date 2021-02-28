@@ -1,8 +1,8 @@
 ---
 name: "pocl"
 layout: package
-next_package: libpng
-previous_package: swipl
+next_package: libfabric
+previous_package: gnupg
 library_name: dlsym
 matches: ['dlsym', 'dlopen']
 languages: ['c']

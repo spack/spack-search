@@ -1,8 +1,8 @@
 ---
 name: "libpam"
 layout: package
-next_package: tcl
-previous_package: bash
+next_package: elfutils
+previous_package: sox
 library_name: dlsym
 matches: ['dlsym', 'dlopen']
 languages: ['c']

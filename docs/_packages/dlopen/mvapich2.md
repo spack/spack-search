@@ -1,8 +1,8 @@
 ---
 name: "mvapich2"
 layout: package
-next_package: openfoam
-previous_package: lvm2
+next_package: global
+previous_package: tk
 library_name: dlopen
 matches: ['dlsym', 'dlopen']
 languages: ['c']

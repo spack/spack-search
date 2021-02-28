@@ -1,8 +1,8 @@
 ---
 name: "cdo"
 layout: package
-next_package: gcc
-previous_package: nnvm
+next_package: pmix
+previous_package: tau
 library_name: dlsym
 matches: ['dlsym', 'dlopen']
 languages: ['cpp']

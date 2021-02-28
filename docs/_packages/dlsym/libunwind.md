@@ -1,8 +1,8 @@
 ---
 name: "libunwind"
 layout: package
-next_package: recorder
-previous_package: casacore
+next_package: libiscsi
+previous_package: treelite
 library_name: dlsym
 matches: ['dlsym', 'dlopen']
 languages: ['c']

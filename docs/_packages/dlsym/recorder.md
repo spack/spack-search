@@ -1,8 +1,8 @@
 ---
 name: "recorder"
 layout: package
-next_package: kcov
-previous_package: libunwind
+next_package: ffmpeg
+previous_package: bear
 library_name: dlsym
 matches: ['dlsym']
 languages: ['c']

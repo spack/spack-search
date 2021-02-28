@@ -1,10 +1,10 @@
 ---
 name: "unifyfs"
 layout: package
-next_package: gnupg
-previous_package: graphicsmagick
+next_package: parsec
+previous_package: dyninst
 library_name: dlsym
-matches: ['dlsym', 'dlopen']
+matches: ['dlsym', 'dlopen', 'dlmopen']
 languages: ['c']
 ---
 ## 0.9.1

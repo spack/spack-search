@@ -1,8 +1,8 @@
 ---
 name: "shc"
 layout: package
-next_package: collectd
-previous_package: wt
+next_package: jemalloc
+previous_package: lftp
 library_name: dlsym
 matches: ['dlsym']
 languages: ['c']

@@ -1,8 +1,8 @@
 ---
 name: "vim"
 layout: package
-next_package: guile
-previous_package: autogen
+next_package: perfstubs
+previous_package: darshan-util
 library_name: dlsym
 matches: ['dlsym', 'dlopen']
 languages: ['c']

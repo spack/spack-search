@@ -1,8 +1,8 @@
 ---
 name: "glusterfs"
 layout: package
-next_package: nfs-ganesha
-previous_package: librdkafka
+next_package: tau
+previous_package: gflags
 library_name: dlsym
 matches: ['dlsym', 'dlopen']
 languages: ['c']

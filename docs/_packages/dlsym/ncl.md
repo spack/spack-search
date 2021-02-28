@@ -1,8 +1,8 @@
 ---
 name: "ncl"
 layout: package
-next_package: spindle
-previous_package: nbdkit
+next_package: poppler
+previous_package: neuron
 library_name: dlsym
 matches: ['dlsym', 'dlopen']
 languages: ['c']

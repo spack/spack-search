@@ -1,8 +1,8 @@
 ---
 name: "kmod"
 layout: package
-next_package: ngspice
-previous_package: libbsd
+next_package: macsio
+previous_package: ghostscript
 library_name: dlsym
 matches: ['dlsym', 'dlopen']
 languages: ['c']

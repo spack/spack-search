@@ -1,8 +1,8 @@
 ---
 name: "pdsh"
 layout: package
-next_package: psm
-previous_package: petsc
+next_package: rocksdb
+previous_package: lammps
 library_name: dlopen
 matches: ['dlsym', 'dlopen']
 languages: ['c']

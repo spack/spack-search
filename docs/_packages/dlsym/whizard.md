@@ -1,8 +1,8 @@
 ---
 name: "whizard"
 layout: package
-next_package: gmake
-previous_package: turbine
+next_package: lvm2
+previous_package: folly
 library_name: dlsym
 matches: ['dlsym', 'dlopen']
 languages: ['fortran']

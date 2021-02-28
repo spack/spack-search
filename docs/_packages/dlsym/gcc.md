@@ -1,11 +1,11 @@
 ---
 name: "gcc"
 layout: package
-next_package: None
-previous_package: cdo
+next_package: wt
+previous_package: talloc
 library_name: dlsym
-matches: ['dlsym', 'dlopen']
-languages: ['c', 'cpp']
+matches: ['dlsym', 'dlopen', 'dlmopen']
+languages: ['cpp', 'c']
 ---
 ## 6.1.0
 49 / 94447 files match, 27 filtered matches.

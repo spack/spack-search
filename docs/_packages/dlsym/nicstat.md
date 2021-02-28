@@ -1,8 +1,8 @@
 ---
 name: "nicstat"
 layout: package
-next_package: libfabric
-previous_package: ipcalc
+next_package: silo
+previous_package: krb5
 library_name: dlsym
 matches: ['dlsym', 'dlopen']
 languages: ['c']

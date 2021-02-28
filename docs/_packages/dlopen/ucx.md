@@ -1,8 +1,8 @@
 ---
 name: "ucx"
 layout: package
-next_package: binutils
-previous_package: psm
+next_package: boost
+previous_package: lua
 library_name: dlopen
 matches: ['dlsym', 'dlopen']
 languages: ['c']

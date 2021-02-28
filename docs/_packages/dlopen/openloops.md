@@ -1,8 +1,8 @@
 ---
 name: "openloops"
 layout: package
-next_package: flexiblas
-previous_package: perl
+next_package: binutils
+previous_package: casacore
 library_name: dlopen
 matches: ['dlsym', 'dlopen']
 languages: ['fortran']

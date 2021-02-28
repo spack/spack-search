@@ -1,8 +1,8 @@
 ---
 name: "fakexrandr"
 layout: package
-next_package: ghostscript
-previous_package: polymake
+next_package: emacs
+previous_package: g2o
 library_name: dlsym
 matches: ['dlsym', 'dlopen']
 languages: ['python']

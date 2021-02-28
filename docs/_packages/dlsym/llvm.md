@@ -1,8 +1,8 @@
 ---
 name: "llvm"
 layout: package
-next_package: emacs
-previous_package: cntk
+next_package: lighttpd
+previous_package: kcov
 library_name: dlsym
 matches: ['dlsym', 'dlopen']
 languages: ['c']

@@ -1,8 +1,8 @@
 ---
 name: "musl"
 layout: package
-next_package: pmix
-previous_package: rr
+next_package: libnl
+previous_package: perfstubs
 library_name: dlsym
 matches: ['dlsym', 'dlopen']
 languages: ['c']

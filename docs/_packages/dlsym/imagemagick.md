@@ -1,8 +1,8 @@
 ---
 name: "imagemagick"
 layout: package
-next_package: bear
-previous_package: brltty
+next_package: heaptrack
+previous_package: nfs-ganesha
 library_name: dlsym
 matches: ['dlsym', 'dlopen']
 languages: ['c']

@@ -1,10 +1,10 @@
 ---
 name: "valgrind"
 layout: package
-next_package: rocfft
-previous_package: mc
+next_package: pmdk
+previous_package: openfoam
 library_name: dlsym
-matches: ['dlsym', 'dlopen']
+matches: ['dlsym', 'dlopen', 'dlmopen']
 languages: ['c']
 ---
 ## 3.14.0

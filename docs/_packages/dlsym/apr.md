@@ -1,8 +1,8 @@
 ---
 name: "apr"
 layout: package
-next_package: likwid
-previous_package: ngspice
+next_package: go
+previous_package: scr
 library_name: dlsym
 matches: ['dlsym', 'dlopen']
 languages: ['c']

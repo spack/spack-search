@@ -1,8 +1,8 @@
 ---
 name: "clamav"
 layout: package
-next_package: med
-previous_package: ffmpeg
+next_package: ocaml
+previous_package: aspect
 library_name: dlopen
 matches: ['dlsym', 'dlopen']
 languages: ['c']

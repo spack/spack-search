@@ -1,8 +1,8 @@
 ---
 name: "memkind"
 layout: package
-next_package: nettle
-previous_package: dpdk
+next_package: nccl
+previous_package: gpgme
 library_name: dlsym
 matches: ['dlsym', 'dlopen']
 languages: ['c']

@@ -1,8 +1,8 @@
 ---
 name: "gdk-pixbuf"
 layout: package
-next_package: root
-previous_package: imlib2
+next_package: gettext
+previous_package: ruby
 library_name: dlsym
 matches: ['dlsym', 'dlopen']
 languages: ['c']

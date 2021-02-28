@@ -1,8 +1,8 @@
 ---
 name: "stat"
 layout: package
-next_package: fakechroot
-previous_package: julia
+next_package: casacore
+previous_package: ngspice
 library_name: dlsym
 matches: ['dlsym', 'dlopen']
 languages: ['c']

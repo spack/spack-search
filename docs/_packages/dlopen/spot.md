@@ -1,11 +1,11 @@
 ---
 name: "spot"
 layout: package
-next_package: geopm
-previous_package: libxslt
+next_package: clinfo
+previous_package: graphicsmagick
 library_name: dlopen
 matches: ['dlsym', 'dlopen']
-languages: ['c', 'cpp']
+languages: ['cpp', 'c']
 ---
 ## 1.2.6
 23 / 4036 files match, 7 filtered matches.

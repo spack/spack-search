@@ -1,8 +1,8 @@
 ---
 name: "yorick"
 layout: package
-next_package: numamma
-previous_package: yasm
+next_package: chrony
+previous_package: libmicrohttpd
 library_name: dlsym
 matches: ['dlsym', 'dlopen']
 languages: ['c']

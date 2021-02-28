@@ -1,8 +1,8 @@
 ---
 name: "rsync"
 layout: package
-next_package: sandbox
-previous_package: procps
+next_package: hdf5
+previous_package: libfabric
 library_name: dlopen
 matches: ['dlsym', 'dlopen']
 languages: ['c']

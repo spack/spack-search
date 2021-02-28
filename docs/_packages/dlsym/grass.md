@@ -1,8 +1,8 @@
 ---
 name: "grass"
 layout: package
-next_package: turbine
-previous_package: rocfft
+next_package: dyninst
+previous_package: None
 library_name: dlsym
 matches: ['dlsym', 'dlopen']
 languages: ['c']

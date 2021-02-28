@@ -1,8 +1,8 @@
 ---
 name: "gotcha"
 layout: package
-next_package: slurm
-previous_package: libxsmm
+next_package: nnvm
+previous_package: emacs
 library_name: dlopen
 matches: ['dlsym', 'dlopen']
 languages: ['c']

@@ -1,8 +1,8 @@
 ---
 name: "emacs"
 layout: package
-next_package: kaldi
-previous_package: llvm
+next_package: gotcha
+previous_package: fakexrandr
 library_name: dlsym
 matches: ['dlsym', 'dlopen']
 languages: ['c']

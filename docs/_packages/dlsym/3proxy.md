@@ -1,8 +1,8 @@
 ---
 name: "3proxy"
 layout: package
-next_package: librdkafka
-previous_package: sandbox
+next_package: kcov
+previous_package: legion
 library_name: dlsym
 matches: ['dlsym', 'dlopen']
 languages: ['c']

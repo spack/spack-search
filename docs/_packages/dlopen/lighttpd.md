@@ -1,8 +1,8 @@
 ---
 name: "lighttpd"
 layout: package
-next_package: p11-kit
-previous_package: vtable-dumper
+next_package: nfs-ganesha
+previous_package: llvm
 library_name: dlopen
 matches: ['dlsym', 'dlopen']
 languages: ['c']

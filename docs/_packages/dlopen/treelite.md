@@ -1,8 +1,8 @@
 ---
 name: "treelite"
 layout: package
-next_package: global
-previous_package: bmi
+next_package: libunwind
+previous_package: pnmpi
 library_name: dlopen
 matches: ['dlsym', 'dlopen']
 languages: ['cpp']

@@ -1,8 +1,8 @@
 ---
 name: "wget"
 layout: package
-next_package: rivet
-previous_package: netdata
+next_package: keyutils
+previous_package: kbd
 library_name: dlsym
 matches: ['dlsym', 'dlopen']
 languages: ['c']

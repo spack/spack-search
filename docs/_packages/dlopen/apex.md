@@ -1,8 +1,8 @@
 ---
 name: "apex"
 layout: package
-next_package: swipl
-previous_package: p11-kit
+next_package: jags
+previous_package: sqlite
 library_name: dlopen
 matches: ['dlsym', 'dlopen']
 languages: ['c']

@@ -1,8 +1,8 @@
 ---
 name: "libyogrt"
 layout: package
-next_package: foam-extend
-previous_package: bazel
+next_package: perl
+previous_package: weechat
 library_name: dlsym
 matches: ['dlsym', 'dlopen']
 languages: ['c']

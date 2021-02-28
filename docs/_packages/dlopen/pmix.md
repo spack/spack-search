@@ -1,8 +1,8 @@
 ---
 name: "pmix"
 layout: package
-next_package: python
-previous_package: musl
+next_package: zfs
+previous_package: cdo
 library_name: dlopen
 matches: ['dlsym', 'dlopen']
 languages: ['c']

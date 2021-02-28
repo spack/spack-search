@@ -1,11 +1,11 @@
 ---
 name: "kcov"
 layout: package
-next_package: zfs
-previous_package: recorder
+next_package: llvm
+previous_package: 3proxy
 library_name: dlopen
 matches: ['dlsym', 'dlopen']
-languages: ['c', 'python', 'cpp']
+languages: ['cpp', 'c', 'python']
 ---
 ## 38
 5 / 283 files match, 4 filtered matches.

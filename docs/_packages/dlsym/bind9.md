@@ -1,8 +1,8 @@
 ---
 name: "bind9"
 layout: package
-next_package: eztrace
-previous_package: hashcat
+next_package: libbsd
+previous_package: libuv
 library_name: dlsym
 matches: ['dlsym', 'dlopen']
 languages: ['c']

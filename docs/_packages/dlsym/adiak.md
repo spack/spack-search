@@ -1,8 +1,8 @@
 ---
 name: "adiak"
 layout: package
-next_package: sox
-previous_package: iproute2
+next_package: cpuinfo
+previous_package: eztrace
 library_name: dlsym
 matches: ['dlsym']
 languages: ['c']

@@ -1,8 +1,8 @@
 ---
 name: "nix"
 layout: package
-next_package: extrae
-previous_package: rdc
+next_package: pnmpi
+previous_package: fakechroot
 library_name: dlopen
 matches: ['dlsym', 'dlopen']
 languages: ['cpp']

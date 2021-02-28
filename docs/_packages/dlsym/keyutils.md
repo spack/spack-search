@@ -1,8 +1,8 @@
 ---
 name: "keyutils"
 layout: package
-next_package: meson
-previous_package: sst-macro
+next_package: rdc
+previous_package: wget
 library_name: dlsym
 matches: ['dlsym']
 languages: ['c']

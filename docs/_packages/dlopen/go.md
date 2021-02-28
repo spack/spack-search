@@ -1,8 +1,8 @@
 ---
 name: "go"
 layout: package
-next_package: lua
-previous_package: czmq
+next_package: php
+previous_package: apr
 library_name: dlopen
 matches: ['dlsym', 'dlopen']
 languages: ['c', 'go']

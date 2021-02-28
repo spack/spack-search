@@ -1,8 +1,8 @@
 ---
 name: "graphicsmagick"
 layout: package
-next_package: unifyfs
-previous_package: mivisionx
+next_package: spot
+previous_package: qt
 library_name: dlopen
 matches: ['dlsym', 'dlopen']
 languages: ['c']

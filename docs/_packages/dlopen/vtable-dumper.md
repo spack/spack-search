@@ -1,8 +1,8 @@
 ---
 name: "vtable-dumper"
 layout: package
-next_package: lighttpd
-previous_package: laszip
+next_package: eztrace
+previous_package: mivisionx
 library_name: dlopen
 matches: ['dlsym', 'dlopen']
 languages: ['c']

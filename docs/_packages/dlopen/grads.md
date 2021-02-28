@@ -1,8 +1,8 @@
 ---
 name: "grads"
 layout: package
-next_package: gawk
-previous_package: zfs
+next_package: ruby
+previous_package: octave
 library_name: dlopen
 matches: ['dlsym', 'dlopen']
 languages: ['c']

@@ -1,8 +1,8 @@
 ---
 name: "podio"
 layout: package
-next_package: nspr
-previous_package: binutils
+next_package: aspect
+previous_package: poppler
 library_name: dlopen
 matches: ['dlopen']
 languages: ['cpp']

@@ -1,8 +1,8 @@
 ---
 name: "darshan-util"
 layout: package
-next_package: nbdkit
-previous_package: octave
+next_package: vim
+previous_package: cpuinfo
 library_name: dlopen
 matches: ['dlsym', 'dlopen']
 languages: ['python']

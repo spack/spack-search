@@ -1,8 +1,8 @@
 ---
 name: "esmf"
 layout: package
-next_package: ffmpeg
-previous_package: collectd
+next_package: libkcapi
+previous_package: yasm
 library_name: dlsym
 matches: ['dlsym', 'dlopen']
 languages: ['c', 'python']

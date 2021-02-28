@@ -1,8 +1,8 @@
 ---
 name: "vtk"
 layout: package
-next_package: openwsman
-previous_package: fio
+next_package: autogen
+previous_package: tcl
 library_name: dlsym
 matches: ['dlsym', 'dlopen']
 languages: ['c']

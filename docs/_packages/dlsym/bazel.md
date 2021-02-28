@@ -1,8 +1,8 @@
 ---
 name: "bazel"
 layout: package
-next_package: libyogrt
-previous_package: chrony
+next_package: bear
+previous_package: python
 library_name: dlsym
 matches: ['dlsym', 'dlopen']
 languages: ['cpp']

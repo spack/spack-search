@@ -1,8 +1,8 @@
 ---
 name: "gmt"
 layout: package
-next_package: watch
-previous_package: xdm
+next_package: med
+previous_package: libiberty
 library_name: dlsym
 matches: ['dlsym', 'dlopen']
 languages: ['c']

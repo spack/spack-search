@@ -1,8 +1,8 @@
 ---
 name: "parsec"
 layout: package
-next_package: papi
-previous_package: file
+next_package: polymake
+previous_package: unifyfs
 library_name: dlopen
 matches: ['dlsym', 'dlopen']
 languages: ['c']

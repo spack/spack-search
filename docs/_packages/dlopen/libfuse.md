@@ -1,8 +1,8 @@
 ---
 name: "libfuse"
 layout: package
-next_package: dyninst
-previous_package: g2o
+next_package: hpctoolkit
+previous_package: hashcat
 library_name: dlopen
 matches: ['dlsym', 'dlopen']
 languages: ['c']
