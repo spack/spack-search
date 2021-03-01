@@ -46,7 +46,7 @@ def get_template(package, query, outdir):
 #SBATCH --time=2:00:00
 
 # This should be added via .profile, but just in case
-export PATH=$HOME/software/anaconda3/bin:$HOME/code/spack/bin:$PATH
+export PATH=$HOME/software/anaconda3/bin:/usr/workspace/sochat1/spack/bin:$PATH
 spack python search_spack_job.py {package} {query} {outdir}""".format(
         package=package, outdir=outdir, query=query
     )
@@ -123,7 +123,7 @@ def main():
 
         # Pause to not stress the scheduler
         time.sleep(0.5)
-
+        
 
 # Once we've set up the system path, run the spack main method
 if __name__ == "__main__":
