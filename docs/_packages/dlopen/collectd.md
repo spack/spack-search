@@ -1,8 +1,8 @@
 ---
 name: "collectd"
 layout: package
-next_package: gawk
-previous_package: gdb
+next_package: cpuinfo
+previous_package: cntk
 library_name: dlopen
 matches: ['dlsym', 'dlopen']
 languages: ['c']

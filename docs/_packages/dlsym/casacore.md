@@ -1,8 +1,8 @@
 ---
 name: "casacore"
 layout: package
-next_package: openloops
-previous_package: stat
+next_package: cdo
+previous_package: cairo
 library_name: dlsym
 matches: ['dlsym', 'dlopen']
 languages: ['cpp']

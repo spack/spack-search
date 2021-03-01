@@ -1,8 +1,8 @@
 ---
 name: "fakexrandr"
 layout: package
-next_package: emacs
-previous_package: g2o
+next_package: None
+previous_package: None
 library_name: dlsym
 matches: ['dlsym', 'dlopen']
 languages: ['python']

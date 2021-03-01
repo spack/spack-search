@@ -1,8 +1,8 @@
 ---
 name: "yorick"
 layout: package
-next_package: chrony
-previous_package: libmicrohttpd
+next_package: zabbix
+previous_package: yasm
 library_name: dlsym
 matches: ['dlsym', 'dlopen']
 languages: ['c']

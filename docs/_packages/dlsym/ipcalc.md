@@ -1,8 +1,8 @@
 ---
 name: "ipcalc"
 layout: package
-next_package: mivisionx
-previous_package: pulseaudio
+next_package: iproute2
+previous_package: imagemagick
 library_name: dlsym
 matches: ['dlsym', 'dlopen']
 languages: ['c']

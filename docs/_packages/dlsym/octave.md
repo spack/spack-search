@@ -1,8 +1,8 @@
 ---
 name: "octave"
 layout: package
-next_package: grads
-previous_package: brltty
+next_package: openfoam
+previous_package: ocaml
 library_name: dlsym
 matches: ['dlsym', 'dlopen']
 languages: ['cpp', 'c']

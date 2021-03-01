@@ -1,8 +1,8 @@
 ---
 name: "sandbox"
 layout: package
-next_package: python
-previous_package: rdc
+next_package: scorep
+previous_package: ruby
 library_name: dlopen
 matches: ['dlsym', 'dlopen']
 languages: ['c']

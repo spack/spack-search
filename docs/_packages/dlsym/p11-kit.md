@@ -1,8 +1,8 @@
 ---
 name: "p11-kit"
 layout: package
-next_package: dbus
-previous_package: dpdk
+next_package: None
+previous_package: None
 library_name: dlsym
 matches: ['dlsym', 'dlopen']
 languages: ['c']

@@ -1,8 +1,8 @@
 ---
 name: "geopm"
 layout: package
-next_package: rose
-previous_package: dimemas
+next_package: gettext
+previous_package: gdk-pixbuf
 library_name: dlopen
 matches: ['dlsym', 'dlopen']
 languages: ['c']

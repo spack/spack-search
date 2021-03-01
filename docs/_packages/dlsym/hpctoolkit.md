@@ -1,8 +1,8 @@
 ---
 name: "hpctoolkit"
 layout: package
-next_package: krb5
-previous_package: libfuse
+next_package: hwloc
+previous_package: heaptrack
 library_name: dlsym
 matches: ['dlsym', 'dlopen']
 languages: ['c']

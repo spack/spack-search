@@ -1,8 +1,8 @@
 ---
 name: "wireshark"
 layout: package
-next_package: openmc
-previous_package: swipl
+next_package: None
+previous_package: None
 library_name: dlsym
 matches: ['dlsym', 'dlopen']
 languages: ['c']

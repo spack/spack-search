@@ -1,8 +1,8 @@
 ---
 name: "rocfft"
 layout: package
-next_package: zabbix
-previous_package: aspell
+next_package: rocksdb
+previous_package: rhash
 library_name: dlsym
 matches: ['dlsym', 'dlopen']
 languages: ['c']

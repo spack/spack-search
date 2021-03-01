@@ -1,8 +1,8 @@
 ---
 name: "jags"
 layout: package
-next_package: bird
-previous_package: apex
+next_package: jemalloc
+previous_package: iproute2
 library_name: dlsym
 matches: ['dlsym', 'dlopen']
 languages: ['cpp', 'c']

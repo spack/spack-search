@@ -1,11 +1,11 @@
 ---
 name: "esmf"
 layout: package
-next_package: libkcapi
-previous_package: yasm
+next_package: extrae
+previous_package: erlang
 library_name: dlsym
 matches: ['dlsym', 'dlopen']
-languages: ['c', 'python']
+languages: ['python', 'c']
 ---
 ## 8.0.1
 7 / 3654 files match, 6 filtered matches.

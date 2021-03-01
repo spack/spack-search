@@ -1,8 +1,8 @@
 ---
 name: "p11-kit"
 layout: package
-next_package: dbus
-previous_package: dpdk
+next_package: papi
+previous_package: openwsman
 library_name: dlopen
 matches: ['dlsym', 'dlopen']
 languages: ['c']

@@ -1,8 +1,8 @@
 ---
 name: "rsyslog"
 layout: package
-next_package: petsc
-previous_package: rr
+next_package: ruby
+previous_package: rsync
 library_name: dlsym
 matches: ['dlsym', 'dlopen']
 languages: ['c']

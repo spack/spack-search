@@ -1,14 +1,14 @@
 ---
 name: "lammps"
 layout: package
-next_package: pdsh
-previous_package: chrony
+next_package: laszip
+previous_package: krb5
 library_name: dlopen
 matches: ['dlsym', 'dlopen']
 languages: ['c']
 ---
-## master
-8 / 10134 files match, 1 filtered matches.
+## 20200303
+7 / 10633 files match, 1 filtered matches.
 
  - [examples/COUPLE/plugin/liblammpsplugin.c](#examplescouplepluginliblammpspluginc)
 

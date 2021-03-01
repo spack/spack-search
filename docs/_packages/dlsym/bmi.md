@@ -1,7 +1,7 @@
 ---
 name: "bmi"
 layout: package
-next_package: iproute2
+next_package: brltty
 previous_package: binutils
 library_name: dlsym
 matches: ['dlsym', 'dlopen']

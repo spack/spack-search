@@ -1,8 +1,8 @@
 ---
 name: "nnvm"
 layout: package
-next_package: talloc
-previous_package: gotcha
+next_package: nspr
+previous_package: nix
 library_name: dlopen
 matches: ['dlopen']
 languages: ['python']

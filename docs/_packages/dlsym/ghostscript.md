@@ -1,8 +1,8 @@
 ---
 name: "ghostscript"
 layout: package
-next_package: kmod
-previous_package: cntk
+next_package: glew
+previous_package: geopm
 library_name: dlsym
 matches: ['dlsym', 'dlopen']
 languages: ['c']

@@ -1,8 +1,8 @@
 ---
 name: "gnutls"
 layout: package
-next_package: procps
-previous_package: fipscheck
+next_package: go
+previous_package: gnupg
 library_name: dlopen
 matches: ['dlsym', 'dlopen']
 languages: ['c']

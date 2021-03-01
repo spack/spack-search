@@ -1,8 +1,8 @@
 ---
 name: "libuv"
 layout: package
-next_package: bind9
-previous_package: polymake
+next_package: libxslt
+previous_package: libtool
 library_name: dlopen
 matches: ['dlsym', 'dlopen']
 languages: ['c']

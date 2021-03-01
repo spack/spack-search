@@ -1,8 +1,8 @@
 ---
 name: "hwloc"
 layout: package
-next_package: libcanberra
-previous_package: libepoxy
+next_package: imagemagick
+previous_package: hpctoolkit
 library_name: dlsym
 matches: ['dlsym', 'dlopen']
 languages: ['c']

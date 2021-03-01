@@ -1,8 +1,8 @@
 ---
 name: "mvapich2"
 layout: package
-next_package: global
-previous_package: tk
+next_package: mysql
+previous_package: musl
 library_name: dlsym
 matches: ['dlsym', 'dlopen']
 languages: ['c']

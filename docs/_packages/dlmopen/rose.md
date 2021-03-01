@@ -1,8 +1,8 @@
 ---
 name: "rose"
 layout: package
-next_package: openwsman
-previous_package: geopm
+next_package: tau
+previous_package: gdb
 library_name: dlmopen
 matches: ['dlsym', 'dlopen', 'dlmopen']
 languages: ['c']

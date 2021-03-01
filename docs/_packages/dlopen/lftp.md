@@ -1,8 +1,8 @@
 ---
 name: "lftp"
 layout: package
-next_package: shc
-previous_package: clinfo
+next_package: libblastrampoline
+previous_package: legion
 library_name: dlopen
 matches: ['dlsym', 'dlopen']
 languages: ['cpp']

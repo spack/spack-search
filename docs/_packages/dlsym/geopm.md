@@ -1,8 +1,8 @@
 ---
 name: "geopm"
 layout: package
-next_package: rose
-previous_package: dimemas
+next_package: ghostscript
+previous_package: gdb
 library_name: dlsym
 matches: ['dlsym', 'dlopen']
 languages: ['c']

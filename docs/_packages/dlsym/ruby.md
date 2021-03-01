@@ -1,8 +1,8 @@
 ---
 name: "ruby"
 layout: package
-next_package: gdk-pixbuf
-previous_package: grads
+next_package: rust
+previous_package: rsyslog
 library_name: dlsym
 matches: ['dlsym', 'dlopen']
 languages: ['c']

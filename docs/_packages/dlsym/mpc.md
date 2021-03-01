@@ -1,8 +1,8 @@
 ---
 name: "mpc"
 layout: package
-next_package: postgresql
-previous_package: extrae
+next_package: musl
+previous_package: mono
 library_name: dlsym
 matches: ['dlsym', 'dlopen']
 languages: ['c']

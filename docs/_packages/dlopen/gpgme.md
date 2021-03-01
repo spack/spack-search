@@ -1,8 +1,8 @@
 ---
 name: "gpgme"
 layout: package
-next_package: memkind
-previous_package: sst-macro
+next_package: grads
+previous_package: gotcha
 library_name: dlopen
 matches: ['dlsym', 'dlopen']
 languages: ['c']

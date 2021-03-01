@@ -73,8 +73,8 @@ def get_template(name, lookup, library_name, has_matches):
     """We don't close the header, as we need to add languages as tags"""
     template = """---\nname: "%s"\nlayout: package\nnext_package: %s\nprevious_package: %s\nlibrary_name: %s\nmatches: %s\n""" % (
         name,
-        lookup[name]["next"],
-        lookup[name]["previous"],
+        lookup.get(name, {}).get('next'),
+        lookup.get(name, {}).get('previous'),
         library_name,
         list(has_matches),
     )
@@ -226,21 +226,23 @@ def main():
     print("Preparing to filter packages! This may take a few moments.")
 
     # Create master list of contenders, a package is included if it has any
-    # matches in either data directory
+    # matches in either data directory. We keep a list of separate (by datadir)
+    # to generate the next/previous buttons
     packages = set()
+    lookup = {}
     for datadir in datadirs:
         print("Finding contender packages for %s..." % os.path.basename(datadir))
         contenders = os.listdir(datadir)
-        [packages.add(x) for x in filter_packages(contenders, datadir)]
+        filtered = filter_packages(contenders, datadir)
+        [packages.add(x) for x in filtered]
 
-    # Create a lookup of previous and next (so jekyll doesn't need to)
-    lookup = {}
-    packages = list(packages)
-    for i, package in enumerate(packages):
-        lookup[package] = {
-            "next": packages[i + 1] if i < (len(packages) - 1) else None,
-            "previous": packages[i - 1] if i > 0 else None,
-        }
+        # Create a lookup of previous and next (so jekyll doesn't need to)
+        lookup[datadir] = {}
+        for i, package in enumerate(filtered):
+            lookup[datadir][package] = {
+                "next": filtered[i + 1] if i < (len(filtered) - 1) else None,
+                "previous": filtered[i - 1] if i > 0 else None,
+            }
 
     # Iterate through packages, save data and generate markdown for each
     for package in packages:
@@ -266,7 +268,7 @@ def main():
                     has_matches.add(os.path.basename(otherdir))
 
             # Write the header template for the package
-            header = get_template(package, lookup, library_name, has_matches)
+            header = get_template(package, lookup[datadir], library_name, has_matches)
 
             # Try organizing into library directory
             library_dir = os.path.join(packages_dir, library_name)

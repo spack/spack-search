@@ -1,8 +1,8 @@
 ---
 name: "flexiblas"
 layout: package
-next_package: dimemas
-previous_package: mc
+next_package: gawk
+previous_package: fipscheck
 library_name: dlsym
 matches: ['dlsym', 'dlopen']
 languages: ['c']

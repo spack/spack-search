@@ -1,8 +1,8 @@
 ---
 name: "weechat"
 layout: package
-next_package: libyogrt
-previous_package: grpc
+next_package: wget
+previous_package: vtk
 library_name: dlsym
 matches: ['dlsym', 'dlopen']
 languages: ['c']

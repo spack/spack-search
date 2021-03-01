@@ -1,8 +1,8 @@
 ---
 name: "numamma"
 layout: package
-next_package: plumed
-previous_package: unixodbc
+next_package: ocaml
+previous_package: nspr
 library_name: dlsym
 matches: ['dlsym']
 languages: ['c']

@@ -1,8 +1,8 @@
 ---
 name: "openloops"
 layout: package
-next_package: binutils
-previous_package: casacore
+next_package: openmc
+previous_package: openfoam
 library_name: dlopen
 matches: ['dlsym', 'dlopen']
 languages: ['fortran']

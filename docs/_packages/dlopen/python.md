@@ -1,11 +1,11 @@
 ---
 name: "python"
 layout: package
-next_package: bazel
-previous_package: sandbox
+next_package: qt
+previous_package: pythia8
 library_name: dlopen
 matches: ['dlsym', 'dlopen']
-languages: ['c', 'python']
+languages: ['python', 'c']
 ---
 ## 3.6.12
 24 / 4070 files match, 9 filtered matches.

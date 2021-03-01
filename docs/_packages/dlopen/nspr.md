@@ -1,8 +1,8 @@
 ---
 name: "nspr"
 layout: package
-next_package: tulip
-previous_package: r
+next_package: ocaml
+previous_package: nnvm
 library_name: dlopen
 matches: ['dlsym', 'dlopen']
 languages: ['c']

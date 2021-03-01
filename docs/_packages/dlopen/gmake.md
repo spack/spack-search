@@ -1,8 +1,8 @@
 ---
 name: "gmake"
 layout: package
-next_package: libxsmm
-previous_package: tulip
+next_package: gmt
+previous_package: glusterfs
 library_name: dlopen
 matches: ['dlsym', 'dlopen']
 languages: ['c']

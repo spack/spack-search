@@ -1,8 +1,8 @@
 ---
 name: "glfw"
 layout: package
-next_package: tk
-previous_package: zabbix
+next_package: global
+previous_package: glew
 library_name: dlopen
 matches: ['dlsym', 'dlopen']
 languages: ['c']

@@ -1,8 +1,8 @@
 ---
 name: "lftp"
 layout: package
-next_package: shc
-previous_package: clinfo
+next_package: libcanberra
+previous_package: legion
 library_name: dlsym
 matches: ['dlsym', 'dlopen']
 languages: ['cpp']

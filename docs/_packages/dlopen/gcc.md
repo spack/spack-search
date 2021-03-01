@@ -1,11 +1,11 @@
 ---
 name: "gcc"
 layout: package
-next_package: wt
-previous_package: talloc
+next_package: gdb
+previous_package: gawk
 library_name: dlopen
 matches: ['dlsym', 'dlopen', 'dlmopen']
-languages: ['cpp', 'c', 'java']
+languages: ['cpp', 'java', 'c']
 ---
 ## 6.1.0
 112 / 94447 files match, 37 filtered matches.

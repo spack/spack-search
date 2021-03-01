@@ -1,8 +1,8 @@
 ---
 name: "pdsh"
 layout: package
-next_package: rocksdb
-previous_package: lammps
+next_package: perfstubs
+previous_package: parsec
 library_name: dlsym
 matches: ['dlsym', 'dlopen']
 languages: ['c']

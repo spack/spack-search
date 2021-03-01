@@ -1,8 +1,8 @@
 ---
 name: "global"
 layout: package
-next_package: unixodbc
-previous_package: mvapich2
+next_package: glusterfs
+previous_package: glfw
 library_name: dlopen
 matches: ['dlsym', 'dlopen']
 languages: ['c']

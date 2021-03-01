@@ -1,10 +1,10 @@
 ---
 name: "rust"
 layout: package
-next_package: xdm
-previous_package: root
+next_package: sandbox
+previous_package: ruby
 library_name: dlsym
-matches: ['dlsym']
+matches: ['dlsym', 'dlmopen']
 languages: ['cpp', 'c']
 ---
 ## 1.44.0

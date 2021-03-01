@@ -1,8 +1,8 @@
 ---
 name: "apr"
 layout: package
-next_package: go
-previous_package: scr
+next_package: arrow
+previous_package: apex
 library_name: dlopen
 matches: ['dlsym', 'dlopen']
 languages: ['c']

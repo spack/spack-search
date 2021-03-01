@@ -1,8 +1,8 @@
 ---
 name: "wget"
 layout: package
-next_package: keyutils
-previous_package: kbd
+next_package: whizard
+previous_package: weechat
 library_name: dlsym
 matches: ['dlsym', 'dlopen']
 languages: ['c']

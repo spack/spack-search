@@ -1,8 +1,8 @@
 ---
 name: "sandbox"
 layout: package
-next_package: python
-previous_package: rdc
+next_package: scorep
+previous_package: rust
 library_name: dlsym
 matches: ['dlsym', 'dlopen']
 languages: ['c']

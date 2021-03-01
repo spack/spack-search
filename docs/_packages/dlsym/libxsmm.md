@@ -1,8 +1,8 @@
 ---
 name: "libxsmm"
 layout: package
-next_package: ace
-previous_package: gmake
+next_package: libyogrt
+previous_package: libuv
 library_name: dlsym
 matches: ['dlsym', 'dlopen']
 languages: ['c']

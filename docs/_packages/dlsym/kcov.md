@@ -1,8 +1,8 @@
 ---
 name: "kcov"
 layout: package
-next_package: llvm
-previous_package: 3proxy
+next_package: keepalived
+previous_package: kbd
 library_name: dlsym
 matches: ['dlsym', 'dlopen']
 languages: ['cpp', 'c']

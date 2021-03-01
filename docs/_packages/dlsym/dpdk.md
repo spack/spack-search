@@ -1,8 +1,8 @@
 ---
 name: "dpdk"
 layout: package
-next_package: p11-kit
-previous_package: curl
+next_package: dyninst
+previous_package: dotconf
 library_name: dlsym
 matches: ['dlsym', 'dlopen']
 languages: ['c']

@@ -1,8 +1,8 @@
 ---
 name: "autogen"
 layout: package
-next_package: foam-extend
-previous_package: vtk
+next_package: bash
+previous_package: aspell
 library_name: dlopen
 matches: ['dlsym', 'dlopen']
 languages: ['c']

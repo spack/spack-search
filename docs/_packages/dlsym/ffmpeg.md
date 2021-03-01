@@ -1,8 +1,8 @@
 ---
 name: "ffmpeg"
 layout: package
-next_package: libtool
-previous_package: recorder
+next_package: fio
+previous_package: fakechroot
 library_name: dlsym
 matches: ['dlsym', 'dlopen']
 languages: ['c']

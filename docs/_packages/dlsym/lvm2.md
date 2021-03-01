@@ -1,8 +1,8 @@
 ---
 name: "lvm2"
 layout: package
-next_package: rr
-previous_package: whizard
+next_package: mariadb
+previous_package: lua
 library_name: dlsym
 matches: ['dlsym', 'dlopen']
 languages: ['c']

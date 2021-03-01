@@ -1,8 +1,8 @@
 ---
 name: "openwsman"
 layout: package
-next_package: file
-previous_package: rose
+next_package: p11-kit
+previous_package: openssl
 library_name: dlopen
 matches: ['dlsym', 'dlopen']
 languages: ['c']

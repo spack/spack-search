@@ -1,18 +1,65 @@
 dlmopen:
-  tau:
-    master:
-      filtered_matches: 1
+  libtool:
+    develop:
       matches: 2
-      total_files: 3176
+      total_files: 6993
 dlopen:
-  nginx:
-    1.15.6:
-      filtered_matches: 1
-      matches: 3
-      total_files: 330
+  php:
+    7.1.33:
+      matches: 9
+      total_files: 19206
+    7.2.24:
+      matches: 9
+      total_files: 19604
+    7.2.25:
+      matches: 9
+      total_files: 19613
+    7.2.26:
+      matches: 9
+      total_files: 19623
+    7.3.11:
+      matches: 9
+      total_files: 19760
+    7.3.12:
+      matches: 9
+      total_files: 19770
+    7.3.13:
+      filtered_matches: 3
+      matches: 9
+      total_files: 19786
+    7.4.0:
+      matches: 7
+      total_files: 18542
+    7.4.1:
+      matches: 7
+      total_files: 18577
 dlsym:
-  nginx:
-    1.15.6:
-      filtered_matches: 1
-      matches: 2
-      total_files: 330
+  php:
+    7.1.33:
+      matches: 10
+      total_files: 19206
+    7.2.24:
+      matches: 10
+      total_files: 19604
+    7.2.25:
+      matches: 10
+      total_files: 19613
+    7.2.26:
+      matches: 10
+      total_files: 19623
+    7.3.11:
+      matches: 10
+      total_files: 19760
+    7.3.12:
+      matches: 10
+      total_files: 19770
+    7.3.13:
+      filtered_matches: 6
+      matches: 10
+      total_files: 19786
+    7.4.0:
+      matches: 9
+      total_files: 18542
+    7.4.1:
+      matches: 9
+      total_files: 18577

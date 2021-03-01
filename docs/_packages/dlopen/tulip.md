@@ -1,8 +1,8 @@
 ---
 name: "tulip"
 layout: package
-next_package: gmake
-previous_package: nspr
+next_package: turbine
+previous_package: treelite
 library_name: dlopen
 matches: ['dlsym', 'dlopen']
 languages: ['python']

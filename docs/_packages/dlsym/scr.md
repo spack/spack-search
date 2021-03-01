@@ -1,8 +1,8 @@
 ---
 name: "scr"
 layout: package
-next_package: apr
-previous_package: procps
+next_package: shc
+previous_package: scorep
 library_name: dlsym
 matches: ['dlsym']
 languages: ['c']

@@ -1,8 +1,8 @@
 ---
 name: "libiberty"
 layout: package
-next_package: gmt
-previous_package: openmpi
+next_package: libkcapi
+previous_package: libfuse
 library_name: dlopen
 matches: ['dlsym', 'dlopen']
 languages: ['cpp', 'c']

@@ -1,8 +1,8 @@
 ---
 name: "r"
 layout: package
-next_package: nspr
-previous_package: keepalived
+next_package: rccl
+previous_package: qt
 library_name: dlopen
 matches: ['dlsym', 'dlopen']
 languages: ['c']

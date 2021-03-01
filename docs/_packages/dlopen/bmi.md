@@ -1,8 +1,8 @@
 ---
 name: "bmi"
 layout: package
-next_package: iproute2
-previous_package: binutils
+next_package: boost
+previous_package: bird
 library_name: dlopen
 matches: ['dlsym', 'dlopen']
 languages: ['c']

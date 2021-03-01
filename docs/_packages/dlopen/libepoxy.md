@@ -1,8 +1,8 @@
 ---
 name: "libepoxy"
 layout: package
-next_package: hwloc
-previous_package: jemalloc
+next_package: None
+previous_package: None
 library_name: dlopen
 matches: ['dlsym', 'dlopen']
 languages: ['c']

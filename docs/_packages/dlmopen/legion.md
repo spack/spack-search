@@ -1,8 +1,8 @@
 ---
 name: "legion"
 layout: package
-next_package: 3proxy
-previous_package: xdm
+next_package: None
+previous_package: None
 library_name: dlmopen
 matches: ['dlsym', 'dlopen', 'dlmopen']
 languages: ['cpp']

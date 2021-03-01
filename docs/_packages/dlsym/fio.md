@@ -1,8 +1,8 @@
 ---
 name: "fio"
 layout: package
-next_package: fakechroot
-previous_package: arrow
+next_package: fipscheck
+previous_package: ffmpeg
 library_name: dlsym
 matches: ['dlsym', 'dlopen']
 languages: ['c']

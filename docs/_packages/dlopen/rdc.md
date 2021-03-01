@@ -1,8 +1,8 @@
 ---
 name: "rdc"
 layout: package
-next_package: sandbox
-previous_package: keyutils
+next_package: redis
+previous_package: rccl
 library_name: dlopen
 matches: ['dlsym', 'dlopen']
 languages: ['cpp']

@@ -1,8 +1,8 @@
 ---
 name: "hashcat"
 layout: package
-next_package: libfuse
-previous_package: gettext
+next_package: heaptrack
+previous_package: guile
 library_name: dlsym
 matches: ['dlsym', 'dlopen']
 languages: ['c']

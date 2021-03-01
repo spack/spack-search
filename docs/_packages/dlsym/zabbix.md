@@ -1,8 +1,8 @@
 ---
 name: "zabbix"
 layout: package
-next_package: glfw
-previous_package: rocfft
+next_package: zfs
+previous_package: yorick
 library_name: dlsym
 matches: ['dlsym', 'dlopen']
 languages: ['c']

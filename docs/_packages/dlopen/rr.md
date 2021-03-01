@@ -1,8 +1,8 @@
 ---
 name: "rr"
 layout: package
-next_package: rsyslog
-previous_package: lvm2
+next_package: rsync
+previous_package: rose
 library_name: dlopen
 matches: ['dlsym', 'dlopen']
 languages: ['cpp', 'c']

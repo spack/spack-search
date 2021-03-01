@@ -1,8 +1,8 @@
 ---
 name: "imagemagick"
 layout: package
-next_package: heaptrack
-previous_package: nfs-ganesha
+next_package: imlib2
+previous_package: hwloc
 library_name: dlopen
 matches: ['dlsym', 'dlopen']
 languages: ['c']

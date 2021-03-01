@@ -1,8 +1,8 @@
 ---
 name: "bcftools"
 layout: package
-next_package: rhash
-previous_package: pythia8
+next_package: bear
+previous_package: bazel
 library_name: dlsym
 matches: ['dlsym', 'dlopen']
 languages: ['c']

@@ -1,8 +1,8 @@
 ---
 name: "pythia8"
 layout: package
-next_package: bcftools
-previous_package: zfs
+next_package: python
+previous_package: pulseaudio
 library_name: dlopen
 matches: ['dlsym', 'dlopen']
 languages: ['cpp', 'c']

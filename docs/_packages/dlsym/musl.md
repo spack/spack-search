@@ -1,8 +1,8 @@
 ---
 name: "musl"
 layout: package
-next_package: libnl
-previous_package: perfstubs
+next_package: mvapich2
+previous_package: mpc
 library_name: dlsym
 matches: ['dlsym', 'dlopen']
 languages: ['c']

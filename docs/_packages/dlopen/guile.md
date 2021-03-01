@@ -1,8 +1,8 @@
 ---
 name: "guile"
 layout: package
-next_package: amgx
-previous_package: librdkafka
+next_package: hashcat
+previous_package: grass
 library_name: dlopen
 matches: ['dlsym', 'dlopen']
 languages: ['c']

@@ -1,8 +1,8 @@
 ---
 name: "ocaml"
 layout: package
-next_package: rivet
-previous_package: clamav
+next_package: octave
+previous_package: numamma
 library_name: dlsym
 matches: ['dlsym', 'dlopen']
 languages: ['c']

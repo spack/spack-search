@@ -1,11 +1,11 @@
 ---
 name: "libepoxy"
 layout: package
-next_package: hwloc
-previous_package: jemalloc
+next_package: libfabric
+previous_package: libcanberra
 library_name: dlsym
 matches: ['dlsym', 'dlopen']
-languages: ['c', 'python']
+languages: ['python', 'c']
 ---
 ## 1.4.3
 16 / 82 files match, 13 filtered matches.

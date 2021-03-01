@@ -1,8 +1,8 @@
 ---
 name: "wt"
 layout: package
-next_package: librdkafka
-previous_package: gcc
+next_package: xdm
+previous_package: whizard
 library_name: dlsym
 matches: ['dlsym', 'dlopen']
 languages: ['c']

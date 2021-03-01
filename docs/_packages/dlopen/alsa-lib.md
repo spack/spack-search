@@ -1,8 +1,8 @@
 ---
 name: "alsa-lib"
 layout: package
-next_package: sqlite
-previous_package: watch
+next_package: amgx
+previous_package: ace
 library_name: dlopen
 matches: ['dlsym', 'dlopen']
 languages: ['c']

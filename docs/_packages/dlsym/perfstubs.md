@@ -1,8 +1,8 @@
 ---
 name: "perfstubs"
 layout: package
-next_package: musl
-previous_package: vim
+next_package: perl
+previous_package: pdsh
 library_name: dlsym
 matches: ['dlsym', 'dlopen']
 languages: ['c']

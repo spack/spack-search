@@ -1,8 +1,8 @@
 ---
 name: "gettext"
 layout: package
-next_package: hashcat
-previous_package: gdk-pixbuf
+next_package: gflags
+previous_package: geopm
 library_name: dlopen
 matches: ['dlsym', 'dlopen']
 languages: ['c']

@@ -1,8 +1,8 @@
 ---
 name: "lighttpd"
 layout: package
-next_package: nfs-ganesha
-previous_package: llvm
+next_package: likwid
+previous_package: libyogrt
 library_name: dlopen
 matches: ['dlsym', 'dlopen']
 languages: ['c']

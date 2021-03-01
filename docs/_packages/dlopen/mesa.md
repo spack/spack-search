@@ -1,8 +1,8 @@
 ---
 name: "mesa"
 layout: package
-next_package: qt
-previous_package: nettle
+next_package: meson
+previous_package: memkind
 library_name: dlopen
 matches: ['dlsym', 'dlopen']
 languages: ['c']

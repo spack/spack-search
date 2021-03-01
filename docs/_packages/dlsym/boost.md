@@ -1,8 +1,8 @@
 ---
 name: "boost"
 layout: package
-next_package: swipl
-previous_package: ucx
+next_package: None
+previous_package: None
 library_name: dlsym
 matches: ['dlsym', 'dlopen']
 languages: ['c']

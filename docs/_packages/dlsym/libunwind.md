@@ -1,8 +1,8 @@
 ---
 name: "libunwind"
 layout: package
-next_package: libiscsi
-previous_package: treelite
+next_package: libuv
+previous_package: libtool
 library_name: dlsym
 matches: ['dlsym', 'dlopen']
 languages: ['c']

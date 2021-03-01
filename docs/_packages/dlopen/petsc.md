@@ -1,11 +1,11 @@
 ---
 name: "petsc"
 layout: package
-next_package: kbd
-previous_package: rsyslog
+next_package: php
+previous_package: perl
 library_name: dlopen
 matches: ['dlsym', 'dlopen']
-languages: ['c', 'python']
+languages: ['python', 'c']
 ---
 ## 3.10.0
 6 / 14638 files match, 5 filtered matches.

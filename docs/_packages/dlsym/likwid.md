@@ -1,8 +1,8 @@
 ---
 name: "likwid"
 layout: package
-next_package: openssl
-previous_package: libpng
+next_package: llvm
+previous_package: lighttpd
 library_name: dlsym
 matches: ['dlsym', 'dlopen']
 languages: ['c']

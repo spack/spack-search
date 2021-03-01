@@ -1,8 +1,8 @@
 ---
 name: "neuron"
 layout: package
-next_package: ncl
-previous_package: gawk
+next_package: nfs-ganesha
+previous_package: nettle
 library_name: dlsym
 matches: ['dlsym', 'dlopen']
 languages: ['c']

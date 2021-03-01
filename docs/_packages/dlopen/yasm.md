@@ -1,8 +1,8 @@
 ---
 name: "yasm"
 layout: package
-next_package: esmf
-previous_package: macsio
+next_package: yorick
+previous_package: xrootd
 library_name: dlopen
 matches: ['dlsym', 'dlopen']
 languages: ['c']

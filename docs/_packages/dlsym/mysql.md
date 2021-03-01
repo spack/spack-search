@@ -1,8 +1,8 @@
 ---
 name: "mysql"
 layout: package
-next_package: spindle
-previous_package: med
+next_package: nbdkit
+previous_package: mvapich2
 library_name: dlsym
 matches: ['dlsym', 'dlopen']
 languages: ['cpp', 'c']

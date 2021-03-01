@@ -1,8 +1,8 @@
 ---
 name: "lua"
 layout: package
-next_package: ucx
-previous_package: erlang
+next_package: lvm2
+previous_package: llvm
 library_name: dlsym
 matches: ['dlsym', 'dlopen']
 languages: ['c']

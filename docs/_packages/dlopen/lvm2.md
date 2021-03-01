@@ -1,8 +1,8 @@
 ---
 name: "lvm2"
 layout: package
-next_package: rr
-previous_package: whizard
+next_package: macsio
+previous_package: lua
 library_name: dlopen
 matches: ['dlsym', 'dlopen']
 languages: ['c']

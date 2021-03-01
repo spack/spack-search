@@ -1,8 +1,8 @@
 ---
 name: "bazel"
 layout: package
-next_package: bear
-previous_package: python
+next_package: bcftools
+previous_package: bash
 library_name: dlsym
 matches: ['dlsym', 'dlopen']
 languages: ['cpp']

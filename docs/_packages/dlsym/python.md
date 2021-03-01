@@ -1,8 +1,8 @@
 ---
 name: "python"
 layout: package
-next_package: bazel
-previous_package: sandbox
+next_package: r
+previous_package: pythia8
 library_name: dlsym
 matches: ['dlsym', 'dlopen']
 languages: ['c']

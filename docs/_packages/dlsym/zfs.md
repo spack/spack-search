@@ -1,8 +1,8 @@
 ---
 name: "zfs"
 layout: package
-next_package: pythia8
-previous_package: pmix
+next_package: zsh
+previous_package: zabbix
 library_name: dlsym
 matches: ['dlsym', 'dlopen']
 languages: ['c']

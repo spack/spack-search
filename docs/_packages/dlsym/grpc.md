@@ -1,8 +1,8 @@
 ---
 name: "grpc"
 layout: package
-next_package: weechat
-previous_package: bash
+next_package: guile
+previous_package: grass
 library_name: dlsym
 matches: ['dlsym', 'dlopen']
 languages: ['cpp']

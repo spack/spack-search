@@ -1,8 +1,8 @@
 ---
 name: "aspell"
 layout: package
-next_package: rocfft
-previous_package: elfutils
+next_package: autogen
+previous_package: aspect
 library_name: dlopen
 matches: ['dlsym', 'dlopen']
 languages: ['c']

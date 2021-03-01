@@ -1,8 +1,8 @@
 ---
 name: "grass"
 layout: package
-next_package: dyninst
-previous_package: None
+next_package: guile
+previous_package: graphicsmagick
 library_name: dlopen
 matches: ['dlsym', 'dlopen']
 languages: ['c']

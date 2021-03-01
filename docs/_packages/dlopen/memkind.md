@@ -1,8 +1,8 @@
 ---
 name: "memkind"
 layout: package
-next_package: nccl
-previous_package: gpgme
+next_package: mesa
+previous_package: med
 library_name: dlopen
 matches: ['dlsym', 'dlopen']
 languages: ['c']

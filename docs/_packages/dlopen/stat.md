@@ -1,11 +1,11 @@
 ---
 name: "stat"
 layout: package
-next_package: casacore
-previous_package: ngspice
+next_package: swipl
+previous_package: sst-macro
 library_name: dlopen
 matches: ['dlsym', 'dlopen']
-languages: ['c', 'python']
+languages: ['python', 'c']
 ---
 ## 4.0.2
 7 / 275 files match, 4 filtered matches.

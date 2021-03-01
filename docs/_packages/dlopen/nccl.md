@@ -1,8 +1,8 @@
 ---
 name: "nccl"
 layout: package
-next_package: gdb
-previous_package: memkind
+next_package: ncl
+previous_package: nbdkit
 library_name: dlopen
 matches: ['dlsym', 'dlopen']
 languages: ['cpp']

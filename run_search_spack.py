@@ -123,7 +123,7 @@ def main():
 
         # Pause to not stress the scheduler
         time.sleep(0.5)
-        
+
 
 # Once we've set up the system path, run the spack main method
 if __name__ == "__main__":

@@ -1,8 +1,8 @@
 ---
 name: "vtk"
 layout: package
-next_package: autogen
-previous_package: tcl
+next_package: weechat
+previous_package: vtable-dumper
 library_name: dlsym
 matches: ['dlsym', 'dlopen']
 languages: ['c']

@@ -1,8 +1,8 @@
 ---
 name: "libyogrt"
 layout: package
-next_package: perl
-previous_package: weechat
+next_package: lighttpd
+previous_package: libxsmm
 library_name: dlopen
 matches: ['dlsym', 'dlopen']
 languages: ['c']

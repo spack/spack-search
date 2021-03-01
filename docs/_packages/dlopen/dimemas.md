@@ -1,8 +1,8 @@
 ---
 name: "dimemas"
 layout: package
-next_package: geopm
-previous_package: flexiblas
+next_package: dmtcp
+previous_package: dbus
 library_name: dlopen
 matches: ['dlsym', 'dlopen']
 languages: ['c']

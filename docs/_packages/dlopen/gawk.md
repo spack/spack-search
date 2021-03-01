@@ -1,8 +1,8 @@
 ---
 name: "gawk"
 layout: package
-next_package: neuron
-previous_package: collectd
+next_package: gcc
+previous_package: g2o
 library_name: dlopen
 matches: ['dlsym', 'dlopen']
 languages: ['c']

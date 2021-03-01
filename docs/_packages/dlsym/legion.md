@@ -1,8 +1,8 @@
 ---
 name: "legion"
 layout: package
-next_package: 3proxy
-previous_package: xdm
+next_package: lftp
+previous_package: laszip
 library_name: dlsym
 matches: ['dlsym', 'dlopen', 'dlmopen']
 languages: ['cpp']

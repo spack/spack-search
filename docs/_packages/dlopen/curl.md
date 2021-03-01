@@ -1,8 +1,8 @@
 ---
 name: "curl"
 layout: package
-next_package: dpdk
-previous_package: libcanberra
+next_package: czmq
+previous_package: cpuinfo
 library_name: dlopen
 matches: ['dlsym', 'dlopen']
 languages: ['c']

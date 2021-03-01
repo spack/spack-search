@@ -1,8 +1,8 @@
 ---
 name: "whizard"
 layout: package
-next_package: lvm2
-previous_package: folly
+next_package: wireshark
+previous_package: weechat
 library_name: dlopen
 matches: ['dlsym', 'dlopen']
 languages: ['fortran']

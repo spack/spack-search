@@ -1,8 +1,8 @@
 ---
 name: "adiak"
 layout: package
-next_package: cpuinfo
-previous_package: eztrace
+next_package: alsa-lib
+previous_package: ace
 library_name: dlsym
 matches: ['dlsym']
 languages: ['c']

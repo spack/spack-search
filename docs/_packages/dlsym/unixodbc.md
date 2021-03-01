@@ -1,8 +1,8 @@
 ---
 name: "unixodbc"
 layout: package
-next_package: numamma
-previous_package: global
+next_package: valgrind
+previous_package: unifyfs
 library_name: dlsym
 matches: ['dlsym', 'dlopen']
 languages: ['c']

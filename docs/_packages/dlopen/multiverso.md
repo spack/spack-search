@@ -1,8 +1,8 @@
 ---
 name: "multiverso"
 layout: package
-next_package: arrow
-previous_package: openssl
+next_package: musl
+previous_package: mono
 library_name: dlopen
 matches: ['dlopen']
 languages: ['c']

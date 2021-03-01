@@ -1,8 +1,8 @@
 ---
 name: "recorder"
 layout: package
-next_package: ffmpeg
-previous_package: bear
+next_package: redis
+previous_package: rdc
 library_name: dlsym
 matches: ['dlsym']
 languages: ['c']

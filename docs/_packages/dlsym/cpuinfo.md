@@ -1,8 +1,8 @@
 ---
 name: "cpuinfo"
 layout: package
-next_package: darshan-util
-previous_package: adiak
+next_package: dimemas
+previous_package: collectd
 library_name: dlsym
 matches: ['dlsym', 'dlopen']
 languages: ['c']

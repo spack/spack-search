@@ -1,8 +1,8 @@
 ---
 name: "gnupg"
 layout: package
-next_package: pocl
-previous_package: imlib2
+next_package: gnutls
+previous_package: gmt
 library_name: dlopen
 matches: ['dlsym', 'dlopen']
 languages: ['c']

@@ -1,8 +1,8 @@
 ---
 name: "rose"
 layout: package
-next_package: openwsman
-previous_package: geopm
+next_package: rr
+previous_package: root
 library_name: dlopen
 matches: ['dlsym', 'dlopen', 'dlmopen']
 languages: ['cpp', 'c']

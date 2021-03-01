@@ -1,8 +1,8 @@
 ---
 name: "libcanberra"
 layout: package
-next_package: curl
-previous_package: hwloc
+next_package: libepoxy
+previous_package: lftp
 library_name: dlsym
 matches: ['dlsym', 'dlopen']
 languages: ['c']

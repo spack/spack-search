@@ -1,8 +1,8 @@
 ---
 name: "dotconf"
 layout: package
-next_package: ngspice
-previous_package: openmc
+next_package: dpdk
+previous_package: dmtcp
 library_name: dlopen
 matches: ['dlsym', 'dlopen']
 languages: ['c']

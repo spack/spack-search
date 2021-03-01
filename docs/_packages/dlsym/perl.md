@@ -1,11 +1,11 @@
 ---
 name: "perl"
 layout: package
-next_package: kaldi
-previous_package: libyogrt
+next_package: petsc
+previous_package: perfstubs
 library_name: dlsym
 matches: ['dlsym', 'dlopen']
-languages: ['c', 'pl']
+languages: ['pl', 'c']
 ---
 ## 5.20.3
 60 / 5092 files match, 6 filtered matches.

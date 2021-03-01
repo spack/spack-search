@@ -1,8 +1,8 @@
 ---
 name: "rocksdb"
 layout: package
-next_package: brltty
-previous_package: pdsh
+next_package: root
+previous_package: rocfft
 library_name: dlopen
 matches: ['dlsym', 'dlopen']
 languages: ['cpp']

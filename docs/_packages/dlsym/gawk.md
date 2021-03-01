@@ -1,8 +1,8 @@
 ---
 name: "gawk"
 layout: package
-next_package: neuron
-previous_package: collectd
+next_package: gcc
+previous_package: flexiblas
 library_name: dlsym
 matches: ['dlsym', 'dlopen']
 languages: ['c']

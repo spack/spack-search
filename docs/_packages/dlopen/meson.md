@@ -1,11 +1,11 @@
 ---
 name: "meson"
 layout: package
-next_package: mono
-previous_package: rhash
+next_package: mivisionx
+previous_package: mesa
 library_name: dlopen
 matches: ['dlsym', 'dlopen']
-languages: ['c', 'python']
+languages: ['python', 'c']
 ---
 ## 0.56.0
 11 / 3471 files match, 4 filtered matches.

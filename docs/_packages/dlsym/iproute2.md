@@ -1,8 +1,8 @@
 ---
 name: "iproute2"
 layout: package
-next_package: xrootd
-previous_package: bmi
+next_package: jags
+previous_package: ipcalc
 library_name: dlsym
 matches: ['dlsym', 'dlopen']
 languages: ['c']

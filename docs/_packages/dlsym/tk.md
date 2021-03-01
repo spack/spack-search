@@ -1,8 +1,8 @@
 ---
 name: "tk"
 layout: package
-next_package: mvapich2
-previous_package: glfw
+next_package: treelite
+previous_package: tfel
 library_name: dlsym
 matches: ['dlsym', 'dlopen']
 languages: ['c']

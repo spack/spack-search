@@ -1,8 +1,8 @@
 ---
 name: "treelite"
 layout: package
-next_package: libunwind
-previous_package: pnmpi
+next_package: tulip
+previous_package: tfel
 library_name: dlopen
 matches: ['dlsym', 'dlopen']
 languages: ['cpp']

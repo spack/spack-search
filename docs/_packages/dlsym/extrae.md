@@ -1,8 +1,8 @@
 ---
 name: "extrae"
 layout: package
-next_package: mpc
-previous_package: dbus
+next_package: eztrace
+previous_package: esmf
 library_name: dlsym
 matches: ['dlsym', 'dlopen']
 languages: ['c']

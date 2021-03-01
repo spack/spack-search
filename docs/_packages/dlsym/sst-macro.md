@@ -1,8 +1,8 @@
 ---
 name: "sst-macro"
 layout: package
-next_package: gpgme
-previous_package: postgresql
+next_package: stat
+previous_package: sqlite
 library_name: dlsym
 matches: ['dlsym', 'dlopen']
 languages: ['cpp']

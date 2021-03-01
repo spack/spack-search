@@ -1,8 +1,8 @@
 ---
 name: "postgresql"
 layout: package
-next_package: sst-macro
-previous_package: mpc
+next_package: procps
+previous_package: poppler
 library_name: dlopen
 matches: ['dlsym', 'dlopen']
 languages: ['c']

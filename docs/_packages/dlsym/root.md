@@ -1,8 +1,8 @@
 ---
 name: "root"
 layout: package
-next_package: rust
-previous_package: kitty
+next_package: rose
+previous_package: rocksdb
 library_name: dlsym
 matches: ['dlsym', 'dlopen']
 languages: ['c']

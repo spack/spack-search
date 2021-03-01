@@ -1,10 +1,10 @@
 ---
 name: "fakechroot"
 layout: package
-next_package: nix
-previous_package: fio
+next_package: fakexrandr
+previous_package: eztrace
 library_name: dlopen
-matches: ['dlsym', 'dlopen']
+matches: ['dlsym', 'dlopen', 'dlmopen']
 languages: ['c']
 ---
 ## 2.20.1

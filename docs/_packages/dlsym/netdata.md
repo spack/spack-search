@@ -1,8 +1,8 @@
 ---
 name: "netdata"
 layout: package
-next_package: openmpi
-previous_package: czmq
+next_package: nettle
+previous_package: ncl
 library_name: dlsym
 matches: ['dlsym', 'dlopen']
 languages: ['c']

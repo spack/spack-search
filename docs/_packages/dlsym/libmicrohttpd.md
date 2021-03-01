@@ -1,8 +1,8 @@
 ---
 name: "libmicrohttpd"
 layout: package
-next_package: yorick
-previous_package: turbine
+next_package: libpam
+previous_package: libkcapi
 library_name: dlsym
 matches: ['dlsym', 'dlopen']
 languages: ['c']

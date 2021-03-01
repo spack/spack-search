@@ -1,8 +1,8 @@
 ---
 name: "whizard"
 layout: package
-next_package: lvm2
-previous_package: folly
+next_package: wt
+previous_package: wget
 library_name: dlsym
 matches: ['dlsym', 'dlopen']
 languages: ['fortran']

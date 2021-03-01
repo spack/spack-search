@@ -1,8 +1,8 @@
 ---
 name: "keepalived"
 layout: package
-next_package: r
-previous_package: laszip
+next_package: kitty
+previous_package: kcov
 library_name: dlopen
 matches: ['dlsym', 'dlopen']
 languages: ['c']

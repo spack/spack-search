@@ -1,8 +1,8 @@
 ---
 name: "openssl"
 layout: package
-next_package: multiverso
-previous_package: likwid
+next_package: openwsman
+previous_package: openmpi
 library_name: dlsym
 matches: ['dlsym', 'dlopen']
 languages: ['c']

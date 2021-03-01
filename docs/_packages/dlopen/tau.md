@@ -1,8 +1,8 @@
 ---
 name: "tau"
 layout: package
-next_package: cdo
-previous_package: glusterfs
+next_package: tcl
+previous_package: talloc
 library_name: dlopen
 matches: ['dlsym', 'dlopen', 'dlmopen']
 languages: ['c']

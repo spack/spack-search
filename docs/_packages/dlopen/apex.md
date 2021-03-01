@@ -1,8 +1,8 @@
 ---
 name: "apex"
 layout: package
-next_package: jags
-previous_package: sqlite
+next_package: apr
+previous_package: amgx
 library_name: dlopen
 matches: ['dlsym', 'dlopen']
 languages: ['c']

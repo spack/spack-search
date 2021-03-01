@@ -1,8 +1,8 @@
 ---
 name: "dmtcp"
 layout: package
-next_package: watch
-previous_package: glew
+next_package: dotconf
+previous_package: dimemas
 library_name: dlsym
 matches: ['dlsym', 'dlopen']
 languages: ['c']

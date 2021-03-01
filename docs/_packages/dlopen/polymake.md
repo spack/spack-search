@@ -1,8 +1,8 @@
 ---
 name: "polymake"
 layout: package
-next_package: libuv
-previous_package: parsec
+next_package: poppler
+previous_package: podio
 library_name: dlopen
 matches: ['dlopen']
 languages: ['cpp']

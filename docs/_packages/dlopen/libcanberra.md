@@ -1,8 +1,8 @@
 ---
 name: "libcanberra"
 layout: package
-next_package: curl
-previous_package: hwloc
+next_package: libfabric
+previous_package: libbsd
 library_name: dlopen
 matches: ['dlsym', 'dlopen']
 languages: ['c']

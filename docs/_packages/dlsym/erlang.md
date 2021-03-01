@@ -1,8 +1,8 @@
 ---
 name: "erlang"
 layout: package
-next_package: lua
-previous_package: mono
+next_package: esmf
+previous_package: emacs
 library_name: dlsym
 matches: ['dlsym', 'dlopen']
 languages: ['c']

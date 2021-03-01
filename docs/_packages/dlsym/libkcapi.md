@@ -1,8 +1,8 @@
 ---
 name: "libkcapi"
 layout: package
-next_package: zsh
-previous_package: esmf
+next_package: libmicrohttpd
+previous_package: libiscsi
 library_name: dlsym
 matches: ['dlsym', 'dlopen']
 languages: ['c']

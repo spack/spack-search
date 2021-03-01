@@ -1,10 +1,10 @@
 ---
 name: "gdb"
 layout: package
-next_package: collectd
-previous_package: nccl
+next_package: gdk-pixbuf
+previous_package: gcc
 library_name: dlopen
-matches: ['dlsym', 'dlopen']
+matches: ['dlsym', 'dlopen', 'dlmopen']
 languages: ['cpp', 'c']
 ---
 ## 7.10.1

@@ -1,8 +1,8 @@
 ---
 name: "ghostscript"
 layout: package
-next_package: kmod
-previous_package: cntk
+next_package: glew
+previous_package: gflags
 library_name: dlopen
 matches: ['dlsym', 'dlopen']
 languages: ['c']

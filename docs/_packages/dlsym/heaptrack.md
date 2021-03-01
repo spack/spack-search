@@ -1,8 +1,8 @@
 ---
 name: "heaptrack"
 layout: package
-next_package: bash
-previous_package: imagemagick
+next_package: hpctoolkit
+previous_package: hashcat
 library_name: dlsym
 matches: ['dlsym', 'dlopen']
 languages: ['c']

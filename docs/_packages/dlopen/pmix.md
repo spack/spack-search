@@ -1,8 +1,8 @@
 ---
 name: "pmix"
 layout: package
-next_package: zfs
-previous_package: cdo
+next_package: pnmpi
+previous_package: pmdk
 library_name: dlopen
 matches: ['dlsym', 'dlopen']
 languages: ['c']

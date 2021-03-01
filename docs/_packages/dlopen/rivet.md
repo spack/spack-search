@@ -1,8 +1,8 @@
 ---
 name: "rivet"
 layout: package
-next_package: tcl
-previous_package: ocaml
+next_package: rocfft
+previous_package: rhash
 library_name: dlopen
 matches: ['dlsym', 'dlopen']
 languages: ['cpp', 'python']

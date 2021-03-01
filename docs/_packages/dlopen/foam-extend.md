@@ -1,8 +1,8 @@
 ---
 name: "foam-extend"
 layout: package
-next_package: kitty
-previous_package: autogen
+next_package: folly
+previous_package: flexiblas
 library_name: dlopen
 matches: ['dlopen']
 languages: ['c']

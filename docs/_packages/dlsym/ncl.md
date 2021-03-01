@@ -1,8 +1,8 @@
 ---
 name: "ncl"
 layout: package
-next_package: poppler
-previous_package: neuron
+next_package: netdata
+previous_package: nccl
 library_name: dlsym
 matches: ['dlsym', 'dlopen']
 languages: ['c']

@@ -1,11 +1,11 @@
 ---
 name: "qt"
 layout: package
-next_package: graphicsmagick
-previous_package: mesa
+next_package: r
+previous_package: python
 library_name: dlopen
 matches: ['dlsym', 'dlopen']
-languages: ['cpp', 'c', 'python']
+languages: ['cpp', 'python', 'c']
 ---
 ## 5.9.1
 173 / 178795 files match, 46 filtered matches.

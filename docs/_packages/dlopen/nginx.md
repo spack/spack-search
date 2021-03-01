@@ -1,8 +1,8 @@
 ---
 name: "nginx"
 layout: package
-next_package: None
-previous_package: xrootd
+next_package: ngspice
+previous_package: nfs-ganesha
 library_name: dlopen
 matches: ['dlsym', 'dlopen']
 languages: ['c']

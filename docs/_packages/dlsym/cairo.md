@@ -1,8 +1,8 @@
 ---
 name: "cairo"
 layout: package
-next_package: nbdkit
-previous_package: file
+next_package: casacore
+previous_package: brltty
 library_name: dlsym
 matches: ['dlsym', 'dlopen']
 languages: ['c']

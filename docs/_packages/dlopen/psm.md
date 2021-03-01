@@ -1,8 +1,8 @@
 ---
 name: "psm"
 layout: package
-next_package: mc
-previous_package: nest
+next_package: pulseaudio
+previous_package: procps
 library_name: dlopen
 matches: ['dlsym', 'dlopen']
 languages: ['c']

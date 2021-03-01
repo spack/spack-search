@@ -1,8 +1,8 @@
 ---
 name: "fio"
 layout: package
-next_package: fakechroot
-previous_package: arrow
+next_package: fipscheck
+previous_package: file
 library_name: dlopen
 matches: ['dlsym', 'dlopen']
 languages: ['c']

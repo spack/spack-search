@@ -1,8 +1,8 @@
 ---
 name: "libtool"
 layout: package
-next_package: nest
-previous_package: ffmpeg
+next_package: libuv
+previous_package: librdkafka
 library_name: dlopen
 matches: ['dlsym', 'dlopen', 'dlmopen']
 languages: ['c']

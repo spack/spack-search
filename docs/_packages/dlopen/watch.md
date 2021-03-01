@@ -1,8 +1,8 @@
 ---
 name: "watch"
 layout: package
-next_package: alsa-lib
-previous_package: dmtcp
+next_package: weechat
+previous_package: vtk
 library_name: dlopen
 matches: ['dlsym', 'dlopen']
 languages: ['c']

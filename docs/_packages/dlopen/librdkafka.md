@@ -1,8 +1,8 @@
 ---
 name: "librdkafka"
 layout: package
-next_package: guile
-previous_package: wt
+next_package: libtool
+previous_package: libpng
 library_name: dlopen
 matches: ['dlsym', 'dlopen']
 languages: ['c']

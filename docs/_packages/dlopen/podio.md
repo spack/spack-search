@@ -1,8 +1,8 @@
 ---
 name: "podio"
 layout: package
-next_package: aspect
-previous_package: poppler
+next_package: polymake
+previous_package: pocl
 library_name: dlopen
 matches: ['dlopen']
 languages: ['cpp']

@@ -1,8 +1,8 @@
 ---
 name: "pocl"
 layout: package
-next_package: libfabric
-previous_package: gnupg
+next_package: podio
+previous_package: pnmpi
 library_name: dlopen
 matches: ['dlsym', 'dlopen']
 languages: ['c']

@@ -1,8 +1,8 @@
 ---
 name: "ngspice"
 layout: package
-next_package: stat
-previous_package: dotconf
+next_package: nicstat
+previous_package: nginx
 library_name: dlopen
 matches: ['dlsym', 'dlopen']
 languages: ['c']

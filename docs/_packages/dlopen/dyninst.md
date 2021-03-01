@@ -1,8 +1,8 @@
 ---
 name: "dyninst"
 layout: package
-next_package: unifyfs
-previous_package: grass
+next_package: elfutils
+previous_package: dpdk
 library_name: dlopen
 matches: ['dlsym', 'dlopen']
 languages: ['c']

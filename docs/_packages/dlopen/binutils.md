@@ -1,8 +1,8 @@
 ---
 name: "binutils"
 layout: package
-next_package: bmi
-previous_package: openloops
+next_package: bird
+previous_package: bind9
 library_name: dlopen
 matches: ['dlsym', 'dlopen']
 languages: ['cpp', 'c']

@@ -1,8 +1,8 @@
 ---
 name: "slurm"
 layout: package
-next_package: czmq
-previous_package: libiscsi
+next_package: sollya
+previous_package: silo
 library_name: dlopen
 matches: ['dlsym', 'dlopen']
 languages: ['c']

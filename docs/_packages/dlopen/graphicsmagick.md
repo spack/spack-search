@@ -1,8 +1,8 @@
 ---
 name: "graphicsmagick"
 layout: package
-next_package: spot
-previous_package: qt
+next_package: grass
+previous_package: grads
 library_name: dlopen
 matches: ['dlsym', 'dlopen']
 languages: ['c']

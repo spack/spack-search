@@ -1,11 +1,11 @@
 ---
 name: "dmtcp"
 layout: package
-next_package: watch
-previous_package: glew
+next_package: dotconf
+previous_package: dimemas
 library_name: dlopen
 matches: ['dlsym', 'dlopen']
-languages: ['c', 'python']
+languages: ['python', 'c']
 ---
 ## 2.5.2
 23 / 648 files match, 7 filtered matches.

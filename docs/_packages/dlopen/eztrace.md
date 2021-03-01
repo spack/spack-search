@@ -1,8 +1,8 @@
 ---
 name: "eztrace"
 layout: package
-next_package: adiak
-previous_package: vtable-dumper
+next_package: fakechroot
+previous_package: extrae
 library_name: dlopen
 matches: ['dlsym', 'dlopen']
 languages: ['c']

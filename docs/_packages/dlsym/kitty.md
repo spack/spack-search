@@ -1,11 +1,11 @@
 ---
 name: "kitty"
 layout: package
-next_package: root
-previous_package: foam-extend
+next_package: kmod
+previous_package: keyutils
 library_name: dlsym
 matches: ['dlsym', 'dlopen']
-languages: ['c', 'python']
+languages: ['python', 'c']
 ---
 ## 0.11.2
 15 / 263 files match, 8 filtered matches.

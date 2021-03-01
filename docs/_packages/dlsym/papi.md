@@ -1,8 +1,8 @@
 ---
 name: "papi"
 layout: package
-next_package: pulseaudio
-previous_package: sollya
+next_package: parsec
+previous_package: openwsman
 library_name: dlsym
 matches: ['dlsym', 'dlopen']
 languages: ['c']

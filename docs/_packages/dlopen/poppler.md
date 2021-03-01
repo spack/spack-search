@@ -1,8 +1,8 @@
 ---
 name: "poppler"
 layout: package
-next_package: podio
-previous_package: ncl
+next_package: postgresql
+previous_package: polymake
 library_name: dlopen
 matches: ['dlsym', 'dlopen']
 languages: ['cpp']

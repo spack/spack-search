@@ -1,8 +1,8 @@
 ---
 name: "mono"
 layout: package
-next_package: erlang
-previous_package: meson
+next_package: mpc
+previous_package: mivisionx
 library_name: dlsym
 matches: ['dlsym', 'dlopen']
 languages: ['c']

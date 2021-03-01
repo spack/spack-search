@@ -1,11 +1,11 @@
 ---
 name: "swipl"
 layout: package
-next_package: wireshark
-previous_package: boost
+next_package: talloc
+previous_package: stat
 library_name: dlopen
 matches: ['dlsym', 'dlopen']
-languages: ['c', 'pl']
+languages: ['pl', 'c']
 ---
 ## 8.0.3
 13 / 3902 files match, 9 filtered matches.

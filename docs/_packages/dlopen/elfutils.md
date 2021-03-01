@@ -1,8 +1,8 @@
 ---
 name: "elfutils"
 layout: package
-next_package: aspell
-previous_package: libpam
+next_package: emacs
+previous_package: dyninst
 library_name: dlopen
 matches: ['dlsym', 'dlopen']
 languages: ['c']

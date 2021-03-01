@@ -1,8 +1,8 @@
 ---
 name: "scorep"
 layout: package
-next_package: rccl
-previous_package: php
+next_package: scr
+previous_package: sandbox
 library_name: dlsym
 matches: ['dlsym', 'dlopen']
 languages: ['c']

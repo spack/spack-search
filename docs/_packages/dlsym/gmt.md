@@ -1,8 +1,8 @@
 ---
 name: "gmt"
 layout: package
-next_package: med
-previous_package: libiberty
+next_package: gnupg
+previous_package: gmake
 library_name: dlsym
 matches: ['dlsym', 'dlopen']
 languages: ['c']

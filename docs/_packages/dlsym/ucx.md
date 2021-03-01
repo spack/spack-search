@@ -1,8 +1,8 @@
 ---
 name: "ucx"
 layout: package
-next_package: boost
-previous_package: lua
+next_package: unifyfs
+previous_package: treelite
 library_name: dlsym
 matches: ['dlsym', 'dlopen']
 languages: ['cpp', 'c']

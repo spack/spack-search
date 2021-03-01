@@ -1,10 +1,10 @@
 ---
 name: "gdb"
 layout: package
-next_package: collectd
-previous_package: nccl
+next_package: geopm
+previous_package: gcc
 library_name: dlsym
-matches: ['dlsym', 'dlopen']
+matches: ['dlsym', 'dlopen', 'dlmopen']
 languages: ['c']
 ---
 ## 7.10.1

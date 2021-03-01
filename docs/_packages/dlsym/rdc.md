@@ -1,8 +1,8 @@
 ---
 name: "rdc"
 layout: package
-next_package: sandbox
-previous_package: keyutils
+next_package: recorder
+previous_package: rccl
 library_name: dlsym
 matches: ['dlsym', 'dlopen']
 languages: ['c']

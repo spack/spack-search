@@ -1,8 +1,8 @@
 ---
 name: "tcl"
 layout: package
-next_package: vtk
-previous_package: rivet
+next_package: tfel
+previous_package: tau
 library_name: dlopen
 matches: ['dlsym', 'dlopen']
 languages: ['c']

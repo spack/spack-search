@@ -1,8 +1,8 @@
 ---
 name: "libpam"
 layout: package
-next_package: elfutils
-previous_package: sox
+next_package: libpng
+previous_package: libmicrohttpd
 library_name: dlsym
 matches: ['dlsym', 'dlopen']
 languages: ['c']

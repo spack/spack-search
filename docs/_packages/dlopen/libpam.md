@@ -1,8 +1,8 @@
 ---
 name: "libpam"
 layout: package
-next_package: elfutils
-previous_package: sox
+next_package: libpng
+previous_package: libnl
 library_name: dlopen
 matches: ['dlsym', 'dlopen']
 languages: ['c']

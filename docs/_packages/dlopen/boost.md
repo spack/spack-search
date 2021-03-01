@@ -1,11 +1,11 @@
 ---
 name: "boost"
 layout: package
-next_package: swipl
-previous_package: ucx
+next_package: brltty
+previous_package: bmi
 library_name: dlopen
 matches: ['dlsym', 'dlopen']
-languages: ['c', 'python']
+languages: ['python', 'c']
 ---
 ## 1.49.0
 21 / 38128 files match, 5 filtered matches.

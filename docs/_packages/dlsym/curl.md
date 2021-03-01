@@ -1,8 +1,8 @@
 ---
 name: "curl"
 layout: package
-next_package: dpdk
-previous_package: libcanberra
+next_package: None
+previous_package: None
 library_name: dlsym
 matches: ['dlsym', 'dlopen']
 languages: ['c']

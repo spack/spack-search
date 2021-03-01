@@ -1,11 +1,11 @@
 ---
 name: "llvm"
 layout: package
-next_package: lighttpd
-previous_package: kcov
+next_package: lua
+previous_package: likwid
 library_name: dlopen
 matches: ['dlsym', 'dlopen']
-languages: ['c', 'python']
+languages: ['python', 'c']
 ---
 ## 11.0.1
 135 / 92993 files match, 24 filtered matches.

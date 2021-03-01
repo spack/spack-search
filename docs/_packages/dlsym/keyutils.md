@@ -1,8 +1,8 @@
 ---
 name: "keyutils"
 layout: package
-next_package: rdc
-previous_package: wget
+next_package: kitty
+previous_package: keepalived
 library_name: dlsym
 matches: ['dlsym']
 languages: ['c']

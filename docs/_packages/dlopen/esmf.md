@@ -1,8 +1,8 @@
 ---
 name: "esmf"
 layout: package
-next_package: libkcapi
-previous_package: yasm
+next_package: extrae
+previous_package: erlang
 library_name: dlopen
 matches: ['dlsym', 'dlopen']
 languages: ['c']

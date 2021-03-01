@@ -1,8 +1,8 @@
 ---
 name: "spot"
 layout: package
-next_package: clinfo
-previous_package: graphicsmagick
+next_package: sqlite
+previous_package: spindle
 library_name: dlopen
 matches: ['dlsym', 'dlopen']
 languages: ['cpp', 'c']

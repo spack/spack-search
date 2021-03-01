@@ -1,11 +1,11 @@
 ---
 name: "ace"
 layout: package
-next_package: imlib2
-previous_package: libxsmm
+next_package: alsa-lib
+previous_package: 3proxy
 library_name: dlopen
 matches: ['dlsym', 'dlopen']
-languages: ['c', 'pl']
+languages: ['pl', 'c']
 ---
 ## 6.5.12
 20 / 8830 files match, 2 filtered matches.

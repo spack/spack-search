@@ -1,8 +1,8 @@
 ---
 name: "libtool"
 layout: package
-next_package: nest
-previous_package: ffmpeg
+next_package: libunwind
+previous_package: libpng
 library_name: dlsym
 matches: ['dlsym', 'dlopen', 'dlmopen']
 languages: ['c']

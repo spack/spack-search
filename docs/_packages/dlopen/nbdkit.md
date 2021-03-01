@@ -1,8 +1,8 @@
 ---
 name: "nbdkit"
 layout: package
-next_package: openfoam
-previous_package: cairo
+next_package: nccl
+previous_package: mysql
 library_name: dlopen
 matches: ['dlsym', 'dlopen']
 languages: ['c']

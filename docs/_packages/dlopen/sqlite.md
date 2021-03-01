@@ -1,8 +1,8 @@
 ---
 name: "sqlite"
 layout: package
-next_package: apex
-previous_package: alsa-lib
+next_package: sst-macro
+previous_package: spot
 library_name: dlopen
 matches: ['dlsym', 'dlopen']
 languages: ['c']

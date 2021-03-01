@@ -1,8 +1,8 @@
 ---
 name: "clinfo"
 layout: package
-next_package: lftp
-previous_package: spot
+next_package: collectd
+previous_package: clamav
 library_name: dlsym
 matches: ['dlsym']
 languages: ['c']

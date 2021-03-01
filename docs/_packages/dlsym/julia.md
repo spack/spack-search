@@ -1,8 +1,8 @@
 ---
 name: "julia"
 layout: package
-next_package: mariadb
-previous_package: amgx
+next_package: kaldi
+previous_package: jemalloc
 library_name: dlsym
 matches: ['dlsym', 'dlopen']
 languages: ['c']

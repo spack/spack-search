@@ -1,8 +1,8 @@
 ---
 name: "aspect"
 layout: package
-next_package: clamav
-previous_package: podio
+next_package: aspell
+previous_package: arrow
 library_name: dlopen
 matches: ['dlopen']
 languages: ['cpp']

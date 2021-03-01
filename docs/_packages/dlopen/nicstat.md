@@ -1,8 +1,8 @@
 ---
 name: "nicstat"
 layout: package
-next_package: silo
-previous_package: krb5
+next_package: nix
+previous_package: ngspice
 library_name: dlopen
 matches: ['dlsym', 'dlopen']
 languages: ['c']

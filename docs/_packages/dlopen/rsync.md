@@ -1,8 +1,8 @@
 ---
 name: "rsync"
 layout: package
-next_package: hdf5
-previous_package: libfabric
+next_package: rsyslog
+previous_package: rr
 library_name: dlopen
 matches: ['dlsym', 'dlopen']
 languages: ['c']

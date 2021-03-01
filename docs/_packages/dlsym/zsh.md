@@ -1,8 +1,8 @@
 ---
 name: "zsh"
 layout: package
-next_package: fipscheck
-previous_package: libkcapi
+next_package: None
+previous_package: zfs
 library_name: dlsym
 matches: ['dlsym', 'dlopen']
 languages: ['c']

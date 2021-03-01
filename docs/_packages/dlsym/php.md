@@ -1,8 +1,8 @@
 ---
 name: "php"
 layout: package
-next_package: scorep
-previous_package: go
+next_package: plumed
+previous_package: petsc
 library_name: dlsym
 matches: ['dlsym', 'dlopen']
 languages: ['c']

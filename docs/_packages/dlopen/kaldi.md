@@ -1,8 +1,8 @@
 ---
 name: "kaldi"
 layout: package
-next_package: glew
-previous_package: perl
+next_package: kcov
+previous_package: julia
 library_name: dlopen
 matches: ['dlsym', 'dlopen']
 languages: ['cpp']

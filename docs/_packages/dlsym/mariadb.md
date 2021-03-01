@@ -1,8 +1,8 @@
 ---
 name: "mariadb"
 layout: package
-next_package: nettle
-previous_package: julia
+next_package: mc
+previous_package: lvm2
 library_name: dlsym
 matches: ['dlsym', 'dlopen']
 languages: ['cpp', 'c']

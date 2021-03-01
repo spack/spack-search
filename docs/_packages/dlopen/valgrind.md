@@ -1,8 +1,8 @@
 ---
 name: "valgrind"
 layout: package
-next_package: pmdk
-previous_package: openfoam
+next_package: vim
+previous_package: unixodbc
 library_name: dlopen
 matches: ['dlsym', 'dlopen', 'dlmopen']
 languages: ['c']

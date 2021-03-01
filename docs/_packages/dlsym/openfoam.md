@@ -1,8 +1,8 @@
 ---
 name: "openfoam"
 layout: package
-next_package: valgrind
-previous_package: nbdkit
+next_package: openloops
+previous_package: octave
 library_name: dlsym
 matches: ['dlsym', 'dlopen']
 languages: ['c']

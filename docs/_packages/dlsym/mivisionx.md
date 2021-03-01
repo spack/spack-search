@@ -1,8 +1,8 @@
 ---
 name: "mivisionx"
 layout: package
-next_package: vtable-dumper
-previous_package: ipcalc
+next_package: mono
+previous_package: mesa
 library_name: dlsym
 matches: ['dlsym', 'dlopen']
 languages: ['python']

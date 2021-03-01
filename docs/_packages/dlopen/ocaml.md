@@ -1,8 +1,8 @@
 ---
 name: "ocaml"
 layout: package
-next_package: rivet
-previous_package: clamav
+next_package: octave
+previous_package: nspr
 library_name: dlopen
 matches: ['dlsym', 'dlopen']
 languages: ['c']

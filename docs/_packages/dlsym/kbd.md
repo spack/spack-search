@@ -1,8 +1,8 @@
 ---
 name: "kbd"
 layout: package
-next_package: wget
-previous_package: petsc
+next_package: kcov
+previous_package: kaldi
 library_name: dlsym
 matches: ['dlsym', 'dlopen']
 languages: ['c']

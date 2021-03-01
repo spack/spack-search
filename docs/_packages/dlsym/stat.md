@@ -1,8 +1,8 @@
 ---
 name: "stat"
 layout: package
-next_package: casacore
-previous_package: ngspice
+next_package: swipl
+previous_package: sst-macro
 library_name: dlsym
 matches: ['dlsym', 'dlopen']
 languages: ['c']

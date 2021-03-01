@@ -1,8 +1,8 @@
 ---
 name: "nix"
 layout: package
-next_package: pnmpi
-previous_package: fakechroot
+next_package: nnvm
+previous_package: nicstat
 library_name: dlopen
 matches: ['dlsym', 'dlopen']
 languages: ['cpp']

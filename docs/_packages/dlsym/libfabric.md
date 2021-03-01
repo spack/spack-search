@@ -1,8 +1,8 @@
 ---
 name: "libfabric"
 layout: package
-next_package: rsync
-previous_package: pocl
+next_package: libfuse
+previous_package: libepoxy
 library_name: dlsym
 matches: ['dlsym', 'dlopen']
 languages: ['c']

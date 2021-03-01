@@ -1,8 +1,8 @@
 ---
 name: "chrony"
 layout: package
-next_package: lammps
-previous_package: yorick
+next_package: clamav
+previous_package: cdo
 library_name: dlsym
 matches: ['dlsym']
 languages: ['c']

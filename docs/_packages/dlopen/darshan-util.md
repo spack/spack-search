@@ -1,8 +1,8 @@
 ---
 name: "darshan-util"
 layout: package
-next_package: vim
-previous_package: cpuinfo
+next_package: dbus
+previous_package: czmq
 library_name: dlopen
 matches: ['dlsym', 'dlopen']
 languages: ['python']

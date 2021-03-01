@@ -1,8 +1,8 @@
 ---
 name: "emacs"
 layout: package
-next_package: gotcha
-previous_package: fakexrandr
+next_package: erlang
+previous_package: elfutils
 library_name: dlopen
 matches: ['dlsym', 'dlopen']
 languages: ['c']

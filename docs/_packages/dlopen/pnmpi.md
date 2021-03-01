@@ -1,8 +1,8 @@
 ---
 name: "pnmpi"
 layout: package
-next_package: treelite
-previous_package: nix
+next_package: pocl
+previous_package: pmix
 library_name: dlopen
 matches: ['dlsym', 'dlopen']
 languages: ['c']

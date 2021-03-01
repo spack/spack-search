@@ -1,8 +1,8 @@
 ---
 name: "xrootd"
 layout: package
-next_package: nginx
-previous_package: iproute2
+next_package: yasm
+previous_package: xdm
 library_name: dlsym
 matches: ['dlsym', 'dlopen']
 languages: ['cpp']

@@ -1,8 +1,8 @@
 ---
 name: "jemalloc"
 layout: package
-next_package: libepoxy
-previous_package: shc
+next_package: julia
+previous_package: jags
 library_name: dlsym
 matches: ['dlsym', 'dlopen']
 languages: ['c']

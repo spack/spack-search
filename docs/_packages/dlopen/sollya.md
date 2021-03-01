@@ -1,8 +1,8 @@
 ---
 name: "sollya"
 layout: package
-next_package: papi
-previous_package: plumed
+next_package: sox
+previous_package: slurm
 library_name: dlopen
 matches: ['dlsym', 'dlopen']
 languages: ['c']

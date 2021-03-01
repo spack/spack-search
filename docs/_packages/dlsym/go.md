@@ -1,11 +1,11 @@
 ---
 name: "go"
 layout: package
-next_package: php
-previous_package: apr
+next_package: gotcha
+previous_package: gnutls
 library_name: dlsym
 matches: ['dlsym', 'dlopen']
-languages: ['c', 'go']
+languages: ['go', 'c']
 ---
 ## 1.6.4
 7 / 5019 files match, 7 filtered matches.

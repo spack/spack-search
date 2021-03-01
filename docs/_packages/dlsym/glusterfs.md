@@ -1,8 +1,8 @@
 ---
 name: "glusterfs"
 layout: package
-next_package: tau
-previous_package: gflags
+next_package: gmake
+previous_package: global
 library_name: dlsym
 matches: ['dlsym', 'dlopen']
 languages: ['c']

@@ -1,8 +1,8 @@
 ---
 name: "xdm"
 layout: package
-next_package: legion
-previous_package: rust
+next_package: xrootd
+previous_package: wt
 library_name: dlopen
 matches: ['dlsym', 'dlopen']
 languages: ['c']

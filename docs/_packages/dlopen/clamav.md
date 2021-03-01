@@ -1,8 +1,8 @@
 ---
 name: "clamav"
 layout: package
-next_package: ocaml
-previous_package: aspect
+next_package: cntk
+previous_package: cdo
 library_name: dlopen
 matches: ['dlsym', 'dlopen']
 languages: ['c']

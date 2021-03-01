@@ -1,8 +1,8 @@
 ---
 name: "gotcha"
 layout: package
-next_package: nnvm
-previous_package: emacs
+next_package: gpgme
+previous_package: go
 library_name: dlsym
 matches: ['dlsym', 'dlopen']
 languages: ['c']

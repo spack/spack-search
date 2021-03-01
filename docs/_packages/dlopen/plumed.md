@@ -1,8 +1,8 @@
 ---
 name: "plumed"
 layout: package
-next_package: sollya
-previous_package: numamma
+next_package: pmdk
+previous_package: php
 library_name: dlopen
 matches: ['dlsym', 'dlopen']
 languages: ['c']

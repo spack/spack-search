@@ -1,8 +1,8 @@
 ---
 name: "imlib2"
 layout: package
-next_package: gnupg
-previous_package: ace
+next_package: ipcalc
+previous_package: imagemagick
 library_name: dlopen
 matches: ['dlsym', 'dlopen']
 languages: ['c']

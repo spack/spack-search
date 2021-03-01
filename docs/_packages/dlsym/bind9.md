@@ -1,8 +1,8 @@
 ---
 name: "bind9"
 layout: package
-next_package: libbsd
-previous_package: libuv
+next_package: binutils
+previous_package: bear
 library_name: dlsym
 matches: ['dlsym', 'dlopen']
 languages: ['c']

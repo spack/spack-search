@@ -1,11 +1,11 @@
 ---
 name: "root"
 layout: package
-next_package: rust
-previous_package: kitty
+next_package: rose
+previous_package: rocksdb
 library_name: dlopen
 matches: ['dlsym', 'dlopen']
-languages: ['c', 'python']
+languages: ['python', 'c']
 ---
 ## 6.22.06
 26 / 18941 files match, 7 filtered matches.

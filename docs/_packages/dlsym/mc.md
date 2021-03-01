@@ -1,8 +1,8 @@
 ---
 name: "mc"
 layout: package
-next_package: flexiblas
-previous_package: psm
+next_package: memkind
+previous_package: mariadb
 library_name: dlsym
 matches: ['dlsym', 'dlopen']
 languages: ['c']

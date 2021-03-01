@@ -1,8 +1,8 @@
 ---
 name: "rhash"
 layout: package
-next_package: meson
-previous_package: bcftools
+next_package: rivet
+previous_package: redland
 library_name: dlopen
 matches: ['dlsym', 'dlopen']
 languages: ['c']

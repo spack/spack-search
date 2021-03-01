@@ -1,8 +1,8 @@
 ---
 name: "poppler"
 layout: package
-next_package: podio
-previous_package: ncl
+next_package: psm
+previous_package: pocl
 library_name: dlsym
 matches: ['dlsym', 'dlopen']
 languages: ['cpp']

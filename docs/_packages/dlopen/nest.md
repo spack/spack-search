@@ -1,8 +1,8 @@
 ---
 name: "nest"
 layout: package
-next_package: psm
-previous_package: libtool
+next_package: netdata
+previous_package: ncl
 library_name: dlopen
 matches: ['dlsym', 'dlopen']
 languages: ['python']

@@ -1,11 +1,11 @@
 ---
 name: "pmdk"
 layout: package
-next_package: sox
-previous_package: valgrind
+next_package: pmix
+previous_package: plumed
 library_name: dlopen
 matches: ['dlsym', 'dlopen']
-languages: ['c', 'python']
+languages: ['python', 'c']
 ---
 ## 1.7
 12 / 4145 files match, 4 filtered matches.

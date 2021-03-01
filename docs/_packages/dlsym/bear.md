@@ -1,8 +1,8 @@
 ---
 name: "bear"
 layout: package
-next_package: recorder
-previous_package: bazel
+next_package: bind9
+previous_package: bcftools
 library_name: dlsym
 matches: ['dlsym']
 languages: ['c']

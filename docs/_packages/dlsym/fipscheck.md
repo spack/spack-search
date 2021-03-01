@@ -1,8 +1,8 @@
 ---
 name: "fipscheck"
 layout: package
-next_package: gnutls
-previous_package: zsh
+next_package: flexiblas
+previous_package: fio
 library_name: dlsym
 matches: ['dlsym', 'dlopen']
 languages: ['c']

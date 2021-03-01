@@ -1,8 +1,8 @@
 ---
 name: "alsa-lib"
 layout: package
-next_package: sqlite
-previous_package: watch
+next_package: amgx
+previous_package: adiak
 library_name: dlsym
 matches: ['dlsym', 'dlopen']
 languages: ['c']

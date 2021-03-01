@@ -1,8 +1,8 @@
 ---
 name: "nettle"
 layout: package
-next_package: mesa
-previous_package: mariadb
+next_package: neuron
+previous_package: netdata
 library_name: dlsym
 matches: ['dlsym', 'dlopen']
 languages: ['c']

@@ -1,8 +1,8 @@
 ---
 name: "redis"
 layout: package
-next_package: laszip
-previous_package: bird
+next_package: redland
+previous_package: recorder
 library_name: dlsym
 matches: ['dlsym', 'dlopen']
 languages: ['c']

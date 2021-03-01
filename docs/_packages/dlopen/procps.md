@@ -1,8 +1,8 @@
 ---
 name: "procps"
 layout: package
-next_package: scr
-previous_package: gnutls
+next_package: psm
+previous_package: postgresql
 library_name: dlopen
 matches: ['dlsym', 'dlopen']
 languages: ['c']

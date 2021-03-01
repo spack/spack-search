@@ -1,8 +1,8 @@
 ---
 name: "vtable-dumper"
 layout: package
-next_package: eztrace
-previous_package: mivisionx
+next_package: vtk
+previous_package: vim
 library_name: dlopen
 matches: ['dlsym', 'dlopen']
 languages: ['c']

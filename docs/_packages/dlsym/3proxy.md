@@ -1,8 +1,8 @@
 ---
 name: "3proxy"
 layout: package
-next_package: kcov
-previous_package: legion
+next_package: ace
+previous_package: None
 library_name: dlsym
 matches: ['dlsym', 'dlopen']
 languages: ['c']

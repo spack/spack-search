@@ -1,8 +1,8 @@
 ---
 name: "pulseaudio"
 layout: package
-next_package: ipcalc
-previous_package: papi
+next_package: pythia8
+previous_package: psm
 library_name: dlsym
 matches: ['dlsym', 'dlopen']
 languages: ['c']

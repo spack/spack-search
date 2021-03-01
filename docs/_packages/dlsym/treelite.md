@@ -1,8 +1,8 @@
 ---
 name: "treelite"
 layout: package
-next_package: libunwind
-previous_package: pnmpi
+next_package: ucx
+previous_package: tk
 library_name: dlsym
 matches: ['dlsym', 'dlopen']
 languages: ['cpp']

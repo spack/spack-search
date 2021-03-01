@@ -1,8 +1,8 @@
 ---
 name: "spindle"
 layout: package
-next_package: folly
-previous_package: mysql
+next_package: spot
+previous_package: sox
 library_name: dlopen
 matches: ['dlsym', 'dlopen']
 languages: ['c']

@@ -1,11 +1,11 @@
 ---
 name: "talloc"
 layout: package
-next_package: gcc
-previous_package: nnvm
+next_package: tau
+previous_package: swipl
 library_name: dlopen
 matches: ['dlsym', 'dlopen']
-languages: ['c', 'python']
+languages: ['python', 'c']
 ---
 ## 2.1.9
 6 / 246 files match, 4 filtered matches.

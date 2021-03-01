@@ -1,8 +1,8 @@
 ---
 name: "vim"
 layout: package
-next_package: perfstubs
-previous_package: darshan-util
+next_package: vtable-dumper
+previous_package: valgrind
 library_name: dlopen
 matches: ['dlsym', 'dlopen']
 languages: ['c']

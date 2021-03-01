@@ -1,11 +1,11 @@
 ---
 name: "kcov"
 layout: package
-next_package: llvm
-previous_package: 3proxy
+next_package: keepalived
+previous_package: kaldi
 library_name: dlopen
 matches: ['dlsym', 'dlopen']
-languages: ['cpp', 'c', 'python']
+languages: ['cpp', 'python', 'c']
 ---
 ## 38
 5 / 283 files match, 4 filtered matches.

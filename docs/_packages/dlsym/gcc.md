@@ -1,8 +1,8 @@
 ---
 name: "gcc"
 layout: package
-next_package: wt
-previous_package: talloc
+next_package: gdb
+previous_package: gawk
 library_name: dlsym
 matches: ['dlsym', 'dlopen', 'dlmopen']
 languages: ['cpp', 'c']

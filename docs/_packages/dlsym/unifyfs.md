@@ -1,8 +1,8 @@
 ---
 name: "unifyfs"
 layout: package
-next_package: parsec
-previous_package: dyninst
+next_package: unixodbc
+previous_package: ucx
 library_name: dlsym
 matches: ['dlsym', 'dlopen', 'dlmopen']
 languages: ['c']

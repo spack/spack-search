@@ -1,11 +1,11 @@
 ---
 name: "openmc"
 layout: package
-next_package: dotconf
-previous_package: wireshark
+next_package: openmpi
+previous_package: openloops
 library_name: dlopen
 matches: ['dlsym', 'dlopen']
-languages: ['c', 'python']
+languages: ['python', 'c']
 ---
 ## develop
 9 / 2160 files match, 4 filtered matches.

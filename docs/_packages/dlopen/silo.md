@@ -1,8 +1,8 @@
 ---
 name: "silo"
 layout: package
-next_package: libxslt
-previous_package: nicstat
+next_package: slurm
+previous_package: scorep
 library_name: dlopen
 matches: ['dlsym', 'dlopen']
 languages: ['c']

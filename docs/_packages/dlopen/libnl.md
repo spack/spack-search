@@ -1,8 +1,8 @@
 ---
 name: "libnl"
 layout: package
-next_package: gflags
-previous_package: musl
+next_package: libpam
+previous_package: libmicrohttpd
 library_name: dlopen
 matches: ['dlsym', 'dlopen']
 languages: ['c']

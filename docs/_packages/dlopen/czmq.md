@@ -1,8 +1,8 @@
 ---
 name: "czmq"
 layout: package
-next_package: netdata
-previous_package: slurm
+next_package: darshan-util
+previous_package: curl
 library_name: dlopen
 matches: ['dlopen']
 languages: ['python']

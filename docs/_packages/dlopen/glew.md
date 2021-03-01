@@ -1,8 +1,8 @@
 ---
 name: "glew"
 layout: package
-next_package: dmtcp
-previous_package: kaldi
+next_package: glfw
+previous_package: ghostscript
 library_name: dlopen
 matches: ['dlsym', 'dlopen']
 languages: ['c']

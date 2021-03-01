@@ -1,8 +1,8 @@
 ---
 name: "fakexrandr"
 layout: package
-next_package: emacs
-previous_package: g2o
+next_package: ffmpeg
+previous_package: fakechroot
 library_name: dlopen
 matches: ['dlsym', 'dlopen']
 languages: ['c']

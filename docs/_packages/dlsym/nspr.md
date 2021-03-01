@@ -1,8 +1,8 @@
 ---
 name: "nspr"
 layout: package
-next_package: tulip
-previous_package: r
+next_package: numamma
+previous_package: nix
 library_name: dlsym
 matches: ['dlsym', 'dlopen']
 languages: ['c']

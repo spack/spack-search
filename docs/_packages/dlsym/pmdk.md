@@ -1,8 +1,8 @@
 ---
 name: "pmdk"
 layout: package
-next_package: sox
-previous_package: valgrind
+next_package: pmix
+previous_package: plumed
 library_name: dlsym
 matches: ['dlsym', 'dlopen']
 languages: ['c']

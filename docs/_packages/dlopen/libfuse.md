@@ -1,8 +1,8 @@
 ---
 name: "libfuse"
 layout: package
-next_package: hpctoolkit
-previous_package: hashcat
+next_package: libiberty
+previous_package: libfabric
 library_name: dlopen
 matches: ['dlsym', 'dlopen']
 languages: ['c']

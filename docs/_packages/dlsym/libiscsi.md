@@ -1,8 +1,8 @@
 ---
 name: "libiscsi"
 layout: package
-next_package: slurm
-previous_package: libunwind
+next_package: libkcapi
+previous_package: libfuse
 library_name: dlsym
 matches: ['dlsym']
 languages: ['c']

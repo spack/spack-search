@@ -1,8 +1,8 @@
 ---
 name: "sox"
 layout: package
-next_package: libpam
-previous_package: pmdk
+next_package: spindle
+previous_package: sollya
 library_name: dlopen
 matches: ['dlsym', 'dlopen']
 languages: ['c']

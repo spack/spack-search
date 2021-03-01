@@ -1,8 +1,8 @@
 ---
 name: "swipl"
 layout: package
-next_package: wireshark
-previous_package: boost
+next_package: tau
+previous_package: stat
 library_name: dlsym
 matches: ['dlsym', 'dlopen']
 languages: ['c']

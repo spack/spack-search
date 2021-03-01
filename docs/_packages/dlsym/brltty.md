@@ -1,8 +1,8 @@
 ---
 name: "brltty"
 layout: package
-next_package: octave
-previous_package: rocksdb
+next_package: cairo
+previous_package: bmi
 library_name: dlsym
 matches: ['dlsym', 'dlopen']
 languages: ['c']

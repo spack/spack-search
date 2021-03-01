@@ -1,8 +1,8 @@
 ---
 name: "kmod"
 layout: package
-next_package: macsio
-previous_package: ghostscript
+next_package: krb5
+previous_package: kitty
 library_name: dlsym
 matches: ['dlsym', 'dlopen']
 languages: ['c']

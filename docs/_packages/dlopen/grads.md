@@ -1,8 +1,8 @@
 ---
 name: "grads"
 layout: package
-next_package: ruby
-previous_package: octave
+next_package: graphicsmagick
+previous_package: gpgme
 library_name: dlopen
 matches: ['dlsym', 'dlopen']
 languages: ['c']

@@ -1,8 +1,8 @@
 ---
 name: "nfs-ganesha"
 layout: package
-next_package: imagemagick
-previous_package: lighttpd
+next_package: nginx
+previous_package: neuron
 library_name: dlsym
 matches: ['dlsym', 'dlopen']
 languages: ['c']
