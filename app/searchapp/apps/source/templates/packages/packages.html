@@ -18,9 +18,9 @@ ul>li {
 {% include "base/scrolltop.html" %}
 <div class="row" style="margin:25px; padding:30px">
     <p style="margin:15px" class="alert alert-info">Select a package to view matching files.</p>
-    {% for row in packages %}
-        {% include "packages/package_list.html" with packages=row %}
-    {% endfor %}
+    <div class="col-md-12">
+        {% include "packages/package_list.html" with packages=packages %}
+    </div>
 </div>
 {% else %}
   <p>No packages are available.</p>

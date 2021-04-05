@@ -29,11 +29,7 @@ class PackagesView(generic.ListView):
 
     def get_queryset(self):
         """Return the list of packages"""
-        # Get names of packages, split into 12/2 groups
-        names = get_package_names()
-        per_group = max(int(len(names) / 6), 1)
-        return split_list(names, per_group)
-
+        return get_package_names()
 
 def sourcefile_detail(request, sid):
     sourcefile = get_object_or_404(SourceFile, pk=sid)
