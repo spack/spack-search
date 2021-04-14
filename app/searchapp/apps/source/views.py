@@ -78,11 +78,13 @@ def custom_search(request):
         # "Annotate" result objects with query and filter down to selected
         filtered = []
         for result in results:
-            if selected and result.object.package.name not in selected:
+            if selected and isinstance(result.object, Package) and result.object.name not in selected:
+                continue
+            elif selected and hasattr(result.object, "package") and result.object.package.name not in selected:
                 continue
             result.object.query = query
             filtered.append(result)
-
+            
         context["selected"] = selected
         context["query"] = query
         context["page_number"] = page_number
