@@ -37,7 +37,8 @@ if not SECRET_KEY:
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+# Make sure to change to localhost, 127.0.0.1, and the custom ip address
+ALLOWED_HOSTS = ["*"]
 
 
 # Application definition
